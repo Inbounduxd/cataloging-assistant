@@ -46,3 +46,24 @@ La dirección REST histórica es `http://132.248.101.240:8080/server/api` y la n
 La nueva página pública es recuperable. No se verificó una REST API bajo `/SNIBLI/server/api`. El repositorio contiene referencias IP antiguas en `.env.example`, `apps/api/src/cataloging_api/config.py` y runbooks; se dejan sin modificar hasta establecer la nueva URL API. La release v3.9.2 declara 56 bindings, Golden Set GR01–GR23, 86 archivos y checksum SHA-256 `b6c435a28f8bb1a8faab237258161edf0233b2ce3608ff4e025a8ae2a11acede`.
 
 Este registro de migración es un cambio documental aditivo; no constituye prueba de equivalencia funcional ni reemplaza los contratos estructurales de la skill.
+
+## Revisión técnica adicional — 2026-10-20
+
+- Se confirmó que el repositorio ya implementa un mecanismo de snapshot y drift, VERTICAL-022; reutilizarlo, no reemplazarlo.
+- Baseline documentada en `docs/vertical-022-live-contract-reconciliation.md` (2026-08-26): 18 schemas, 292 metadata fields, 12 submission definitions, 46 sections, 15 configured forms, 179 global bindings y 56 bindings de los dos formularios relevantes.
+- La conciliación histórica presentó `STRUCTURAL_MATCH_100_PERCENT` de 56/56 y `REGISTRY_MATCH_100_PERCENT` de 54/54; **no son resultados de la migración actual**.
+- Advertencia heredada: el endpoint `/config/submissiondefinitions/traditional/sections` retornó HTTP 204 en el snapshot original; mantener `ACTIVE_SUBMISSION_SECTIONS_UNRESOLVED_HTTP_204` si persiste.
+- Los intentos de acceder desde el entorno de verificación a la URL web y a los candidatos `/SNIBLI/server/api` y `/server/api` no permitieron constatar una API REST. Estos candidatos no se aprueban como configuración.
+- No se cambió `DSpace_BASE_URL`, `DSpace_UI_BASE_URL`, ni las variables de despliegue; no se ejecutaron pruebas end-to-end ni el Golden Set sobre la instancia nueva.
+
+### Continuación segura en el entorno de despliegue
+
+1. Inspeccionar la configuración pública del frontend institucional para determinar el REST base y confirmar con un GET de solo lectura a `/core/metadataschemas`, sin asumir rutas.
+2. Usar las credenciales read-only y el collector existente de VERTICAL-022 para preservar HAL+JSON y generar snapshot, sin promover baseline.
+3. Comparar el snapshot con el ACTIVE previo y el contrato de 56 bindings; evaluar también 54 claves de metadatos, 23 golden tests, vocabularios, collection UUID y handle.
+4. Si no hay drift ni warning nuevo, solicitar aprobación humana para configurar la URL REST real y lanzar pruebas de regresión. Si aparece drift, detener promoción, mantener el baseline y generar reporte de diferencias.
+5. No alterar ni reconstruir `skills/dspace-cataloger/versions/v3.9.2/` a causa de una mera migración de URL.
+
+### Integridad de numeración
+
+El ADR-013 original del proyecto es `docs/adr/ADR-013-contrato-maestro-catalogacion.md`. Este registro SNIBLI reside en `docs/migrations/` para evitar reutilizar ese identificador de decisión.
