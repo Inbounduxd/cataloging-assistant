@@ -1,0 +1,50 @@
+{
+  "parentRelease": "3.9.2",
+  "parentSha256": "b6c435a28f8bb1a8faab237258161edf0233b2ce3608ff4e025a8ae2a11acede",
+  "candidateSha256": "9a0294dfbe4f176a536996db4c855c94374704e7f1e94c5be23ade43fd24f795",
+  "decisionSha256": "908a52f864be6b6fb3801ef77ed462e0b915c968bff43fd93c2bcd2f80d33c3c",
+  "captureSha256": "32693903ed8f7147be2ca3d21877056b8e728388430416e6345577c2234b4fed",
+  "approval": {
+    "proposalId": "SNIBLI-CONTRACT-RECONCILIATION-2026-10-20",
+    "status": "C1_C2_C3_APPROVED_FOR_LOCAL_CONTRACT_CHANGE",
+    "approvedBy": "Usuario de esta conversación; identidad institucional no verificada",
+    "approvedAt": "2026-10-21",
+    "approvalComment": "Aprobación explícita en el chat de C1 y C3, seguida de aceptación del orden observado (C2) y preparación del cambio local del contrato. No autoriza despliegue ni promoción automática.",
+    "changes": [
+      {
+        "id": "C1",
+        "proposal": "Recognize the observed optional dc.type.genre control in a future governed contract",
+        "approved": true
+      },
+      {
+        "id": "C2",
+        "proposal": "Retain the 56 original binding identities, literal labels and observed updated positions",
+        "approved": true
+      },
+      {
+        "id": "C3",
+        "proposal": "Accept Códice, Reseña and Documento Colonial as exact common_types values",
+        "approved": true
+      }
+    ],
+    "doesNotAuthorize": [
+      "DSpace mutations",
+      "skill v3.9.2 artifact changes",
+      "runtime baseline promotion",
+      "deployment configuration changes",
+      "scheduler activation"
+    ],
+    "evidenceStillNeeded": [
+      "General applicability of active section membership/order beyond workspace 2050; independent GUI evidence recorded in workspace-2050-observation.md",
+      "Full srsc hierarchy if complete equivalence is required"
+    ]
+  },
+  "coverage": {
+    "fullMigrationEquivalence": "UNKNOWN",
+    "srscHierarchy": "UNKNOWN",
+    "activeSectionsHAL": "UNKNOWN_HTTP_204",
+    "guiEvidenceScope": "workspaceitems/2050 only",
+    "adopted": false,
+    "runtimeEnabled": false
+  }
+}

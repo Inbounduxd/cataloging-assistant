@@ -1,0 +1,108 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:VR152101",
+      "display" : "Terrestrial ecology",
+      "value" : "NATURAL SCIENCES::Biology::Terrestrial, freshwater and marine ecology::Terrestrial ecology",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Biology::Terrestrial, freshwater and marine ecology",
+        "note" : "Terrestisk ekologi",
+        "hasChildren" : "false",
+        "id" : "VR152101"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR152101/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR152101/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR152101"
+        }
+      }
+    }, {
+      "id" : "srsc:VR152102",
+      "display" : "Freshwater ecology",
+      "value" : "NATURAL SCIENCES::Biology::Terrestrial, freshwater and marine ecology::Freshwater ecology",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Biology::Terrestrial, freshwater and marine ecology",
+        "note" : "Limnisk ekologi",
+        "hasChildren" : "false",
+        "id" : "VR152102"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR152102/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR152102/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR152102"
+        }
+      }
+    }, {
+      "id" : "srsc:VR152103",
+      "display" : "Marine ecology",
+      "value" : "NATURAL SCIENCES::Biology::Terrestrial, freshwater and marine ecology::Marine ecology",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Biology::Terrestrial, freshwater and marine ecology",
+        "note" : "Marin ekologi",
+        "hasChildren" : "false",
+        "id" : "VR152103"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR152103/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR152103/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR152103"
+        }
+      }
+    }, {
+      "id" : "srsc:VR152104",
+      "display" : "Ethology and behavioural ecology",
+      "value" : "NATURAL SCIENCES::Biology::Terrestrial, freshwater and marine ecology::Ethology and behavioural ecology",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Biology::Terrestrial, freshwater and marine ecology",
+        "note" : "Etologi och beteendeekologi",
+        "hasChildren" : "false",
+        "id" : "VR152104"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR152104/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR152104/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR152104"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 4
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1521/children?page=0&size=100"
+    }
+  }
+}

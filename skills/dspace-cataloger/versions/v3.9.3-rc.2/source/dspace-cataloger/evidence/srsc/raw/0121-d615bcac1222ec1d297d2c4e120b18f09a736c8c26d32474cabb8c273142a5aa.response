@@ -1,0 +1,246 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:VR183201",
+      "display" : "Experimental brain research",
+      "value" : "MEDICINE::Physiology and pharmacology::Physiology::Experimental brain research",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Physiology and pharmacology::Physiology",
+        "note" : "Experimentell hjärnforskning",
+        "hasChildren" : "false",
+        "id" : "VR183201"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR183201/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR183201/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR183201"
+        }
+      }
+    }, {
+      "id" : "srsc:VR183203",
+      "display" : "Laboratory animal science",
+      "value" : "MEDICINE::Physiology and pharmacology::Physiology::Laboratory animal science",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Physiology and pharmacology::Physiology",
+        "note" : "Försöksdjursvetenskap",
+        "hasChildren" : "false",
+        "id" : "VR183203"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR183203/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR183203/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR183203"
+        }
+      }
+    }, {
+      "id" : "srsc:VR183204",
+      "display" : "Clinical physiology",
+      "value" : "MEDICINE::Physiology and pharmacology::Physiology::Clinical physiology",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Physiology and pharmacology::Physiology",
+        "note" : "Klinisk fysiologi",
+        "hasChildren" : "false",
+        "id" : "VR183204"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR183204/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR183204/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR183204"
+        }
+      }
+    }, {
+      "id" : "srsc:VR183205",
+      "display" : "Clinical neurophysiology",
+      "value" : "MEDICINE::Physiology and pharmacology::Physiology::Clinical neurophysiology",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Physiology and pharmacology::Physiology",
+        "note" : "Klinisk neurofysiologi",
+        "hasChildren" : "false",
+        "id" : "VR183205"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR183205/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR183205/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR183205"
+        }
+      }
+    }, {
+      "id" : "srsc:VR183206",
+      "display" : "Medical informatics",
+      "value" : "MEDICINE::Physiology and pharmacology::Physiology::Medical informatics",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Physiology and pharmacology::Physiology",
+        "note" : "Medicinsk informatik",
+        "hasChildren" : "false",
+        "id" : "VR183206"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR183206/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR183206/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR183206"
+        }
+      }
+    }, {
+      "id" : "srsc:VR183207",
+      "display" : "Medical technology",
+      "value" : "MEDICINE::Physiology and pharmacology::Physiology::Medical technology",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Physiology and pharmacology::Physiology",
+        "note" : "Medicinsk teknik",
+        "hasChildren" : "false",
+        "id" : "VR183207"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR183207/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR183207/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR183207"
+        }
+      }
+    }, {
+      "id" : "srsc:VR183208",
+      "display" : "Molecular neurobiology",
+      "value" : "MEDICINE::Physiology and pharmacology::Physiology::Molecular neurobiology",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Physiology and pharmacology::Physiology",
+        "note" : "Molekylär neurobiologi",
+        "hasChildren" : "false",
+        "id" : "VR183208"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR183208/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR183208/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR183208"
+        }
+      }
+    }, {
+      "id" : "srsc:VR183209",
+      "display" : "Neurobiology",
+      "value" : "MEDICINE::Physiology and pharmacology::Physiology::Neurobiology",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Physiology and pharmacology::Physiology",
+        "note" : "Neurobiologi",
+        "hasChildren" : "false",
+        "id" : "VR183209"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR183209/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR183209/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR183209"
+        }
+      }
+    }, {
+      "id" : "srsc:VR183210",
+      "display" : "Neurophysiology",
+      "value" : "MEDICINE::Physiology and pharmacology::Physiology::Neurophysiology",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Physiology and pharmacology::Physiology",
+        "note" : "Neurofysiologi",
+        "hasChildren" : "false",
+        "id" : "VR183210"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR183210/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR183210/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR183210"
+        }
+      }
+    }, {
+      "id" : "srsc:VR183211",
+      "display" : "Nutrition",
+      "value" : "MEDICINE::Physiology and pharmacology::Physiology::Nutrition",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Physiology and pharmacology::Physiology",
+        "note" : "Näringslära",
+        "hasChildren" : "false",
+        "id" : "VR183211"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR183211/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR183211/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR183211"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 10
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1832/children?page=0&size=100"
+    }
+  }
+}

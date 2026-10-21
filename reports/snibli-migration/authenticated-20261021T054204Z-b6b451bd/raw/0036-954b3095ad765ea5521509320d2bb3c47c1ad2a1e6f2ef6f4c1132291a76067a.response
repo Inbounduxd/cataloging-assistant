@@ -1,0 +1,116 @@
+{
+  "_embedded" : {
+    "entries" : [ {
+      "display" : "ñonmda",
+      "value" : "ñonmda",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "qa'yool",
+      "value" : "qa'yool",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "úza'",
+      "value" : "úza'",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "koti'",
+      "value" : "koti'",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "teenek",
+      "value" : "teenek",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "popti'-abxub'al",
+      "value" : "popti'-abxub'al",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "ta_yoi_mam",
+      "value" : "ta_yoi_mam",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "maayat'aan",
+      "value" : "maayat'aan",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "yoremnokki",
+      "value" : "yoremnokki",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "yaak_avu",
+      "value" : "yaak_avu",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "cmiique_litom",
+      "value" : "cmiique_litom",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "púrhepecha",
+      "value" : "púrhepecha",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "tektiteco",
+      "value" : "tektiteco",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "lhima'alh'ama'",
+      "value" : "lhima'alh'ama'",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "tohol-ab'al",
+      "value" : "tohol-ab'al",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "tutunakú",
+      "value" : "tutunakú",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "mé'phaa",
+      "value" : "mé'phaa",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "bats'il_k'op",
+      "value" : "bats'il_k'op",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "jiaj noki",
+      "value" : "jiaj noki",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "otetzane",
+      "value" : "otetzane",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 20
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularies/selfDenominationPairs/entries?page=0&size=100"
+    }
+  }
+}

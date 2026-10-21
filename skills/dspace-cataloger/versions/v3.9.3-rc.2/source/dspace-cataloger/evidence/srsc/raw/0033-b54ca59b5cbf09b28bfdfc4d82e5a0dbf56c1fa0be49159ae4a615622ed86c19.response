@@ -1,0 +1,154 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:VR161101",
+      "display" : "Optical physics",
+      "value" : "TECHNOLOGY::Engineering physics::Optical physics",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY::Engineering physics",
+        "note" : "Optisk fysik",
+        "hasChildren" : "false",
+        "id" : "VR161101"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR161101/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR161101/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR161101"
+        }
+      }
+    }, {
+      "id" : "srsc:VR161102",
+      "display" : "Acoustics",
+      "value" : "TECHNOLOGY::Engineering physics::Acoustics",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY::Engineering physics",
+        "note" : "Akustik",
+        "hasChildren" : "false",
+        "id" : "VR161102"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR161102/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR161102/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR161102"
+        }
+      }
+    }, {
+      "id" : "srsc:VR161103",
+      "display" : "Material physics with surface physics",
+      "value" : "TECHNOLOGY::Engineering physics::Material physics with surface physics",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY::Engineering physics",
+        "note" : "Materialfysik med ytfysik",
+        "hasChildren" : "false",
+        "id" : "VR161103"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR161103/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR161103/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR161103"
+        }
+      }
+    }, {
+      "id" : "srsc:VR161104",
+      "display" : "Plasma physics with fusion",
+      "value" : "TECHNOLOGY::Engineering physics::Plasma physics with fusion",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY::Engineering physics",
+        "note" : "Plasmafysik med fusion",
+        "hasChildren" : "false",
+        "id" : "VR161104"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR161104/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR161104/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR161104"
+        }
+      }
+    }, {
+      "id" : "srsc:VR161105",
+      "display" : "Biophysics",
+      "value" : "TECHNOLOGY::Engineering physics::Biophysics",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY::Engineering physics",
+        "note" : "Biofysik",
+        "hasChildren" : "false",
+        "id" : "VR161105"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR161105/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR161105/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR161105"
+        }
+      }
+    }, {
+      "id" : "srsc:VR161900",
+      "display" : "Other engineering physics",
+      "value" : "TECHNOLOGY::Engineering physics::Other engineering physics",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY::Engineering physics",
+        "note" : "Övrig teknisk fysik",
+        "hasChildren" : "false",
+        "id" : "VR161900"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR161900/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR161900/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR161900"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 6
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB161/children?page=0&size=100"
+    }
+  }
+}

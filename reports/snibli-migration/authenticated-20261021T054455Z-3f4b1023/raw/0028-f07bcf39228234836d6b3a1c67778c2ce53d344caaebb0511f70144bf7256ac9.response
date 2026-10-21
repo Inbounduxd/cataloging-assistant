@@ -1,0 +1,627 @@
+{
+  "_embedded" : {
+    "submissionsections" : [ {
+      "id" : "collection",
+      "mandatory" : true,
+      "sectionType" : "collection",
+      "type" : "submissionsection",
+      "_links" : {
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissionsections/collection"
+        }
+      }
+    }, {
+      "id" : "traditionalpageone",
+      "header" : "submit.progressbar.describe.stepone",
+      "mandatory" : true,
+      "sectionType" : "submission-form",
+      "type" : "submissionsection",
+      "_links" : {
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissionsections/traditionalpageone"
+        },
+        "config" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissionforms/traditionalpageone"
+        }
+      }
+    }, {
+      "id" : "traditionalpagetwo",
+      "header" : "submit.progressbar.describe.steptwo",
+      "mandatory" : true,
+      "sectionType" : "submission-form",
+      "type" : "submissionsection",
+      "_links" : {
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissionsections/traditionalpagetwo"
+        },
+        "config" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissionforms/traditionalpagetwo"
+        }
+      }
+    }, {
+      "id" : "upload",
+      "header" : "submit.progressbar.upload",
+      "mandatory" : true,
+      "sectionType" : "upload",
+      "type" : "submissionsection",
+      "_links" : {
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissionsections/upload"
+        },
+        "config" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissionuploads/upload"
+        }
+      }
+    }, {
+      "id" : "license",
+      "header" : "submit.progressbar.license",
+      "mandatory" : true,
+      "sectionType" : "license",
+      "scope" : "SUBMISSION",
+      "visibility" : {
+        "main" : null,
+        "other" : "READONLY"
+      },
+      "type" : "submissionsection",
+      "_links" : {
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissionsections/license"
+        }
+      }
+    }, {
+      "id" : "collection",
+      "mandatory" : true,
+      "sectionType" : "collection",
+      "type" : "submissionsection",
+      "_links" : {
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissionsections/collection"
+        }
+      }
+    }, {
+      "id" : "publicationStep",
+      "header" : "submit.progressbar.describe.stepone",
+      "mandatory" : true,
+      "sectionType" : "submission-form",
+      "type" : "submissionsection",
+      "_links" : {
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissionsections/publicationStep"
+        },
+        "config" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissionforms/publicationStep"
+        }
+      }
+    }, {
+      "id" : "traditionalpagetwo",
+      "header" : "submit.progressbar.describe.steptwo",
+      "mandatory" : true,
+      "sectionType" : "submission-form",
+      "type" : "submissionsection",
+      "_links" : {
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissionsections/traditionalpagetwo"
+        },
+        "config" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissionforms/traditionalpagetwo"
+        }
+      }
+    }, {
+      "id" : "upload",
+      "header" : "submit.progressbar.upload",
+      "mandatory" : true,
+      "sectionType" : "upload",
+      "type" : "submissionsection",
+      "_links" : {
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissionsections/upload"
+        },
+        "config" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissionuploads/upload"
+        }
+      }
+    }, {
+      "id" : "license",
+      "header" : "submit.progressbar.license",
+      "mandatory" : true,
+      "sectionType" : "license",
+      "scope" : "SUBMISSION",
+      "visibility" : {
+        "main" : null,
+        "other" : "READONLY"
+      },
+      "type" : "submissionsection",
+      "_links" : {
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissionsections/license"
+        }
+      }
+    }, {
+      "id" : "collection",
+      "mandatory" : true,
+      "sectionType" : "collection",
+      "type" : "submissionsection",
+      "_links" : {
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissionsections/collection"
+        }
+      }
+    }, {
+      "id" : "personStep",
+      "header" : "submit.progressbar.describe.stepone",
+      "mandatory" : true,
+      "sectionType" : "submission-form",
+      "type" : "submissionsection",
+      "_links" : {
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissionsections/personStep"
+        },
+        "config" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissionforms/personStep"
+        }
+      }
+    }, {
+      "id" : "upload",
+      "header" : "submit.progressbar.upload",
+      "mandatory" : true,
+      "sectionType" : "upload",
+      "type" : "submissionsection",
+      "_links" : {
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissionsections/upload"
+        },
+        "config" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissionuploads/upload"
+        }
+      }
+    }, {
+      "id" : "license",
+      "header" : "submit.progressbar.license",
+      "mandatory" : true,
+      "sectionType" : "license",
+      "scope" : "SUBMISSION",
+      "visibility" : {
+        "main" : null,
+        "other" : "READONLY"
+      },
+      "type" : "submissionsection",
+      "_links" : {
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissionsections/license"
+        }
+      }
+    }, {
+      "id" : "collection",
+      "mandatory" : true,
+      "sectionType" : "collection",
+      "type" : "submissionsection",
+      "_links" : {
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissionsections/collection"
+        }
+      }
+    }, {
+      "id" : "projectStep",
+      "header" : "submit.progressbar.describe.stepone",
+      "mandatory" : true,
+      "sectionType" : "submission-form",
+      "type" : "submissionsection",
+      "_links" : {
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissionsections/projectStep"
+        },
+        "config" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissionforms/projectStep"
+        }
+      }
+    }, {
+      "id" : "upload",
+      "header" : "submit.progressbar.upload",
+      "mandatory" : true,
+      "sectionType" : "upload",
+      "type" : "submissionsection",
+      "_links" : {
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissionsections/upload"
+        },
+        "config" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissionuploads/upload"
+        }
+      }
+    }, {
+      "id" : "license",
+      "header" : "submit.progressbar.license",
+      "mandatory" : true,
+      "sectionType" : "license",
+      "scope" : "SUBMISSION",
+      "visibility" : {
+        "main" : null,
+        "other" : "READONLY"
+      },
+      "type" : "submissionsection",
+      "_links" : {
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissionsections/license"
+        }
+      }
+    }, {
+      "id" : "collection",
+      "mandatory" : true,
+      "sectionType" : "collection",
+      "type" : "submissionsection",
+      "_links" : {
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissionsections/collection"
+        }
+      }
+    }, {
+      "id" : "orgUnitStep",
+      "header" : "submit.progressbar.describe.stepone",
+      "mandatory" : true,
+      "sectionType" : "submission-form",
+      "type" : "submissionsection",
+      "_links" : {
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissionsections/orgUnitStep"
+        },
+        "config" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissionforms/orgUnitStep"
+        }
+      }
+    }, {
+      "id" : "upload",
+      "header" : "submit.progressbar.upload",
+      "mandatory" : true,
+      "sectionType" : "upload",
+      "type" : "submissionsection",
+      "_links" : {
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissionsections/upload"
+        },
+        "config" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissionuploads/upload"
+        }
+      }
+    }, {
+      "id" : "license",
+      "header" : "submit.progressbar.license",
+      "mandatory" : true,
+      "sectionType" : "license",
+      "scope" : "SUBMISSION",
+      "visibility" : {
+        "main" : null,
+        "other" : "READONLY"
+      },
+      "type" : "submissionsection",
+      "_links" : {
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissionsections/license"
+        }
+      }
+    }, {
+      "id" : "collection",
+      "mandatory" : true,
+      "sectionType" : "collection",
+      "type" : "submissionsection",
+      "_links" : {
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissionsections/collection"
+        }
+      }
+    }, {
+      "id" : "journalStep",
+      "header" : "submit.progressbar.describe.stepone",
+      "mandatory" : true,
+      "sectionType" : "submission-form",
+      "type" : "submissionsection",
+      "_links" : {
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissionsections/journalStep"
+        },
+        "config" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissionforms/journalStep"
+        }
+      }
+    }, {
+      "id" : "upload",
+      "header" : "submit.progressbar.upload",
+      "mandatory" : true,
+      "sectionType" : "upload",
+      "type" : "submissionsection",
+      "_links" : {
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissionsections/upload"
+        },
+        "config" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissionuploads/upload"
+        }
+      }
+    }, {
+      "id" : "license",
+      "header" : "submit.progressbar.license",
+      "mandatory" : true,
+      "sectionType" : "license",
+      "scope" : "SUBMISSION",
+      "visibility" : {
+        "main" : null,
+        "other" : "READONLY"
+      },
+      "type" : "submissionsection",
+      "_links" : {
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissionsections/license"
+        }
+      }
+    }, {
+      "id" : "collection",
+      "mandatory" : true,
+      "sectionType" : "collection",
+      "type" : "submissionsection",
+      "_links" : {
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissionsections/collection"
+        }
+      }
+    }, {
+      "id" : "journalVolumeStep",
+      "header" : "submit.progressbar.describe.stepone",
+      "mandatory" : true,
+      "sectionType" : "submission-form",
+      "type" : "submissionsection",
+      "_links" : {
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissionsections/journalVolumeStep"
+        },
+        "config" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissionforms/journalVolumeStep"
+        }
+      }
+    }, {
+      "id" : "upload",
+      "header" : "submit.progressbar.upload",
+      "mandatory" : true,
+      "sectionType" : "upload",
+      "type" : "submissionsection",
+      "_links" : {
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissionsections/upload"
+        },
+        "config" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissionuploads/upload"
+        }
+      }
+    }, {
+      "id" : "license",
+      "header" : "submit.progressbar.license",
+      "mandatory" : true,
+      "sectionType" : "license",
+      "scope" : "SUBMISSION",
+      "visibility" : {
+        "main" : null,
+        "other" : "READONLY"
+      },
+      "type" : "submissionsection",
+      "_links" : {
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissionsections/license"
+        }
+      }
+    }, {
+      "id" : "collection",
+      "mandatory" : true,
+      "sectionType" : "collection",
+      "type" : "submissionsection",
+      "_links" : {
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissionsections/collection"
+        }
+      }
+    }, {
+      "id" : "journalIssueStep",
+      "header" : "submit.progressbar.describe.stepone",
+      "mandatory" : true,
+      "sectionType" : "submission-form",
+      "type" : "submissionsection",
+      "_links" : {
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissionsections/journalIssueStep"
+        },
+        "config" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissionforms/journalIssueStep"
+        }
+      }
+    }, {
+      "id" : "upload",
+      "header" : "submit.progressbar.upload",
+      "mandatory" : true,
+      "sectionType" : "upload",
+      "type" : "submissionsection",
+      "_links" : {
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissionsections/upload"
+        },
+        "config" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissionuploads/upload"
+        }
+      }
+    }, {
+      "id" : "license",
+      "header" : "submit.progressbar.license",
+      "mandatory" : true,
+      "sectionType" : "license",
+      "scope" : "SUBMISSION",
+      "visibility" : {
+        "main" : null,
+        "other" : "READONLY"
+      },
+      "type" : "submissionsection",
+      "_links" : {
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissionsections/license"
+        }
+      }
+    }, {
+      "id" : "collection",
+      "mandatory" : true,
+      "sectionType" : "collection",
+      "type" : "submissionsection",
+      "_links" : {
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissionsections/collection"
+        }
+      }
+    }, {
+      "id" : "openAIREPublicationPageoneForm",
+      "header" : "submit.progressbar.describe.stepone",
+      "mandatory" : true,
+      "sectionType" : "submission-form",
+      "type" : "submissionsection",
+      "_links" : {
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissionsections/openAIREPublicationPageoneForm"
+        },
+        "config" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissionforms/openAIREPublicationPageoneForm"
+        }
+      }
+    }, {
+      "id" : "openAIREPublicationPagetwoForm",
+      "header" : "submit.progressbar.describe.stepone",
+      "mandatory" : true,
+      "sectionType" : "submission-form",
+      "type" : "submissionsection",
+      "_links" : {
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissionsections/openAIREPublicationPagetwoForm"
+        },
+        "config" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissionforms/openAIREPublicationPagetwoForm"
+        }
+      }
+    }, {
+      "id" : "upload",
+      "header" : "submit.progressbar.upload",
+      "mandatory" : true,
+      "sectionType" : "upload",
+      "type" : "submissionsection",
+      "_links" : {
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissionsections/upload"
+        },
+        "config" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissionuploads/upload"
+        }
+      }
+    }, {
+      "id" : "license",
+      "header" : "submit.progressbar.license",
+      "mandatory" : true,
+      "sectionType" : "license",
+      "scope" : "SUBMISSION",
+      "visibility" : {
+        "main" : null,
+        "other" : "READONLY"
+      },
+      "type" : "submissionsection",
+      "_links" : {
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissionsections/license"
+        }
+      }
+    }, {
+      "id" : "cclicense",
+      "header" : "submit.progressbar.CClicense",
+      "mandatory" : false,
+      "sectionType" : "cclicense",
+      "type" : "submissionsection",
+      "_links" : {
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissionsections/cclicense"
+        }
+      }
+    }, {
+      "id" : "collection",
+      "mandatory" : true,
+      "sectionType" : "collection",
+      "type" : "submissionsection",
+      "_links" : {
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissionsections/collection"
+        }
+      }
+    }, {
+      "id" : "openAIREPersonForm",
+      "header" : "submit.progressbar.describe.stepone",
+      "mandatory" : true,
+      "sectionType" : "submission-form",
+      "type" : "submissionsection",
+      "_links" : {
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissionsections/openAIREPersonForm"
+        },
+        "config" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissionforms/openAIREPersonForm"
+        }
+      }
+    }, {
+      "id" : "collection",
+      "mandatory" : true,
+      "sectionType" : "collection",
+      "type" : "submissionsection",
+      "_links" : {
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissionsections/collection"
+        }
+      }
+    }, {
+      "id" : "openAIREProjectForm",
+      "header" : "submit.progressbar.describe.stepone",
+      "mandatory" : true,
+      "sectionType" : "submission-form",
+      "type" : "submissionsection",
+      "_links" : {
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissionsections/openAIREProjectForm"
+        },
+        "config" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissionforms/openAIREProjectForm"
+        }
+      }
+    }, {
+      "id" : "collection",
+      "mandatory" : true,
+      "sectionType" : "collection",
+      "type" : "submissionsection",
+      "_links" : {
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissionsections/collection"
+        }
+      }
+    }, {
+      "id" : "openAIREOrganizationForm",
+      "header" : "submit.progressbar.describe.stepone",
+      "mandatory" : true,
+      "sectionType" : "submission-form",
+      "type" : "submissionsection",
+      "_links" : {
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissionsections/openAIREOrganizationForm"
+        },
+        "config" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissionforms/openAIREOrganizationForm"
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/config/submissionsections?page=0&size=100"
+    }
+  },
+  "page" : {
+    "size" : 100,
+    "totalElements" : 46,
+    "totalPages" : 1,
+    "number" : 0
+  }
+}

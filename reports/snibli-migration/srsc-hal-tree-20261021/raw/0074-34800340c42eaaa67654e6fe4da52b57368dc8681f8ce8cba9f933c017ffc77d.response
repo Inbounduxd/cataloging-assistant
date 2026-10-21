@@ -1,0 +1,108 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:VR131402",
+      "display" : "Family research",
+      "value" : "SOCIAL SCIENCES::Social sciences::Social work::Family research",
+      "otherInformation" : {
+        "parent" : "SOCIAL SCIENCES::Social sciences::Social work",
+        "note" : "Familjeforskning",
+        "hasChildren" : "false",
+        "id" : "VR131402"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR131402/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR131402/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR131402"
+        }
+      }
+    }, {
+      "id" : "srsc:VR131403",
+      "display" : "Youth research",
+      "value" : "SOCIAL SCIENCES::Social sciences::Social work::Youth research",
+      "otherInformation" : {
+        "parent" : "SOCIAL SCIENCES::Social sciences::Social work",
+        "note" : "Ungdomsforskning",
+        "hasChildren" : "false",
+        "id" : "VR131403"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR131403/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR131403/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR131403"
+        }
+      }
+    }, {
+      "id" : "srsc:VR131404",
+      "display" : "Disability research",
+      "value" : "SOCIAL SCIENCES::Social sciences::Social work::Disability research",
+      "otherInformation" : {
+        "parent" : "SOCIAL SCIENCES::Social sciences::Social work",
+        "note" : "Handikappsforskning",
+        "hasChildren" : "false",
+        "id" : "VR131404"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR131404/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR131404/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR131404"
+        }
+      }
+    }, {
+      "id" : "srsc:VR131405",
+      "display" : "Sports research",
+      "value" : "SOCIAL SCIENCES::Social sciences::Social work::Sports research",
+      "otherInformation" : {
+        "parent" : "SOCIAL SCIENCES::Social sciences::Social work",
+        "note" : "Idrottsforskning",
+        "hasChildren" : "false",
+        "id" : "VR131405"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR131405/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR131405/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR131405"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 4
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1314/children?page=0&size=100"
+    }
+  }
+}

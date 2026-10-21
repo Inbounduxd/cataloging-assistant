@@ -1,0 +1,108 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:VR182202",
+      "display" : "Medical genetics",
+      "value" : "MEDICINE::Dermatology and venerology,clinical genetics, internal medicine::Clinical genetics::Medical genetics",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Dermatology and venerology,clinical genetics, internal medicine::Clinical genetics",
+        "note" : "Medicinsk genetik",
+        "hasChildren" : "false",
+        "id" : "VR182202"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR182202/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR182202/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR182202"
+        }
+      }
+    }, {
+      "id" : "srsc:VR182203",
+      "display" : "Forensic genetics",
+      "value" : "MEDICINE::Dermatology and venerology,clinical genetics, internal medicine::Clinical genetics::Forensic genetics",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Dermatology and venerology,clinical genetics, internal medicine::Clinical genetics",
+        "note" : "Rättsgenetik",
+        "hasChildren" : "false",
+        "id" : "VR182203"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR182203/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR182203/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR182203"
+        }
+      }
+    }, {
+      "id" : "srsc:VR182204",
+      "display" : "Molecular biology",
+      "value" : "MEDICINE::Dermatology and venerology,clinical genetics, internal medicine::Clinical genetics::Molecular biology",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Dermatology and venerology,clinical genetics, internal medicine::Clinical genetics",
+        "note" : "Molekylärbiologi",
+        "hasChildren" : "false",
+        "id" : "VR182204"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR182204/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR182204/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR182204"
+        }
+      }
+    }, {
+      "id" : "srsc:VR182205",
+      "display" : "Molecular ecogenetics",
+      "value" : "MEDICINE::Dermatology and venerology,clinical genetics, internal medicine::Clinical genetics::Molecular ecogenetics",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Dermatology and venerology,clinical genetics, internal medicine::Clinical genetics",
+        "note" : "Molekykär ekogenetik",
+        "hasChildren" : "false",
+        "id" : "VR182205"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR182205/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR182205/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR182205"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 4
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1822/children?page=0&size=100"
+    }
+  }
+}

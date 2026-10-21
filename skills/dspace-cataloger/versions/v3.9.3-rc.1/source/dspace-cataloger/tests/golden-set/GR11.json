@@ -1,0 +1,16 @@
+{
+  "goldenRecord": "GR11",
+  "recordId": null,
+  "title": "Article in Spanish studying multiple Indigenous languages",
+  "status": "PILOT_ACCEPTED",
+  "purpose": "Semantic regression fixture derived from cataloguing-learning v3.5. Does not contain copyrighted full text.",
+  "expectedRules": [
+    "REGISTERED_LANGUAGE_IS_DOCUMENT_LANGUAGE",
+    "OBJECT_LANGUAGES_TO_LINGUISCGROUP",
+    "LANGUAGE_USAGE_BY_DISCOURSE_FUNCTION"
+  ],
+  "mustNever": [
+    "Populate registeredLanguage with every studied language.",
+    "Declare Multilingüe merely because many languages are objects of study."
+  ]
+}

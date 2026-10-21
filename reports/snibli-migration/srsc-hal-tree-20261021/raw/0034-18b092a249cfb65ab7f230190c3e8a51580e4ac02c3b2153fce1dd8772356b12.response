@@ -1,0 +1,177 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:SCB1621",
+      "display" : "Electrical engineering",
+      "value" : "TECHNOLOGY::Electrical engineering, electronics and photonics::Electrical engineering",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY::Electrical engineering, electronics and photonics",
+        "note" : "Elektroteknik",
+        "hasChildren" : "false",
+        "id" : "SCB1621"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1621/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1621/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1621"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1622",
+      "display" : "Electronics",
+      "value" : "TECHNOLOGY::Electrical engineering, electronics and photonics::Electronics",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY::Electrical engineering, electronics and photonics",
+        "note" : "Elektronik",
+        "hasChildren" : "false",
+        "id" : "SCB1622"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1622/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1622/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1622"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1623",
+      "display" : "Electrophysics",
+      "value" : "TECHNOLOGY::Electrical engineering, electronics and photonics::Electrophysics",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY::Electrical engineering, electronics and photonics",
+        "note" : "Elektrofysik",
+        "hasChildren" : "false",
+        "id" : "SCB1623"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1623/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1623/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1623"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1624",
+      "display" : "Photonics",
+      "value" : "TECHNOLOGY::Electrical engineering, electronics and photonics::Photonics",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY::Electrical engineering, electronics and photonics",
+        "note" : "Fotonik",
+        "hasChildren" : "false",
+        "id" : "SCB1624"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1624/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1624/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1624"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1625",
+      "display" : "Electronic measurement and instrumentation",
+      "value" : "TECHNOLOGY::Electrical engineering, electronics and photonics::Electronic measurement and instrumentation",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY::Electrical engineering, electronics and photonics",
+        "note" : "Elektronisk mät- och apparatteknik",
+        "hasChildren" : "false",
+        "id" : "SCB1625"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1625/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1625/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1625"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1626",
+      "display" : "Electric power engineering",
+      "value" : "TECHNOLOGY::Electrical engineering, electronics and photonics::Electric power engineering",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY::Electrical engineering, electronics and photonics",
+        "note" : "Elkraftteknik",
+        "hasChildren" : "false",
+        "id" : "SCB1626"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1626/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1626/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1626"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1629",
+      "display" : "Other electrical engineering, electronics and photonics",
+      "value" : "TECHNOLOGY::Electrical engineering, electronics and photonics::Other electrical engineering, electronics and photonics",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY::Electrical engineering, electronics and photonics",
+        "note" : "Övrig elektroteknik, elektronik och fotonik",
+        "hasChildren" : "false",
+        "id" : "SCB1629"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1629/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1629/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1629"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 7
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB162/children?page=0&size=100"
+    }
+  }
+}

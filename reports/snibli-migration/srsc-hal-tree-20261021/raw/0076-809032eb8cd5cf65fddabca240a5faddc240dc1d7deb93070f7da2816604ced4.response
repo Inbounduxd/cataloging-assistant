@@ -1,0 +1,39 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:VR131602",
+      "display" : "Sociology of Law",
+      "value" : "SOCIAL SCIENCES::Social sciences::Sociology::Sociology of Law",
+      "otherInformation" : {
+        "parent" : "SOCIAL SCIENCES::Social sciences::Sociology",
+        "note" : "Rättssociologi",
+        "hasChildren" : "false",
+        "id" : "VR131602"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR131602/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR131602/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR131602"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 1
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1316/children?page=0&size=100"
+    }
+  }
+}

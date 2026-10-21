@@ -1,0 +1,522 @@
+{
+  "_embedded" : {
+    "entries" : [ {
+      "display" : "Español",
+      "value" : "Español",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Inglés",
+      "value" : "Inglés",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Akateko",
+      "value" : "Akateko",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Amuzgo",
+      "value" : "Amuzgo",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Awakateko",
+      "value" : "Awakateko",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Ayapaneco",
+      "value" : "Ayapaneco",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Cora",
+      "value" : "Cora",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Cucapá",
+      "value" : "Cucapá",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Cuicateco",
+      "value" : "Cuicateco",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Chatino",
+      "value" : "Chatino",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Chichimeca Jonaz",
+      "value" : "Chichimeca Jonaz",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Chinanteco",
+      "value" : "Chinanteco",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Chocholteco",
+      "value" : "Chocholteco",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Chontal de Oaxaca",
+      "value" : "Chontal de Oaxaca",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Chontal de Tabasco",
+      "value" : "Chontal de Tabasco",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Chuj",
+      "value" : "Chuj",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Ch'ol",
+      "value" : "Ch'ol",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Guarijío",
+      "value" : "Guarijío",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Huasteco",
+      "value" : "Huasteco",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Huave",
+      "value" : "Huave",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Huichol",
+      "value" : "Huichol",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Ixcateco",
+      "value" : "Ixcateco",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Ixil",
+      "value" : "Ixil",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Jakalteko",
+      "value" : "Jakalteko",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Kaqchikel",
+      "value" : "Kaqchikel",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Kickapoo",
+      "value" : "Kickapoo",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Kiliwa",
+      "value" : "Kiliwa",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Kumiai",
+      "value" : "Kumiai",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Ku'ahl",
+      "value" : "Ku'ahl",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "K'iche'",
+      "value" : "K'iche'",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Lacandón",
+      "value" : "Lacandón",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Mam",
+      "value" : "Mam",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Matlatzinca",
+      "value" : "Matlatzinca",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Maya yucateco",
+      "value" : "Maya yucateco",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Mayo",
+      "value" : "Mayo",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Mazahua",
+      "value" : "Mazahua",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Mazateco",
+      "value" : "Mazateco",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Mixe",
+      "value" : "Mixe",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Mixteco",
+      "value" : "Mixteco",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Náhuatl",
+      "value" : "Náhuatl",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Oluteco",
+      "value" : "Oluteco",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Otomí",
+      "value" : "Otomí",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Paipai",
+      "value" : "Paipai",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Pame",
+      "value" : "Pame",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Pápago (Tohono O'odham)",
+      "value" : "Pápago (Tohono O'odham)",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Pima",
+      "value" : "Pima",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Popoloca",
+      "value" : "Popoloca",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Popoluca de la Sierra",
+      "value" : "Popoluca de la Sierra",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Qato'k",
+      "value" : "Qato'k",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Q'anjob'al",
+      "value" : "Q'anjob'al",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Q'eqchi'",
+      "value" : "Q'eqchi'",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Sayulteco",
+      "value" : "Sayulteco",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Seri",
+      "value" : "Seri",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Tarahumara",
+      "value" : "Tarahumara",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Tarasco (Purépecha)",
+      "value" : "Tarasco (Purépecha)",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Teko",
+      "value" : "Teko",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Tepehua",
+      "value" : "Tepehua",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Tepehuano del norte",
+      "value" : "Tepehuano del norte",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Tepehuano del sur",
+      "value" : "Tepehuano del sur",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Texistepequeño",
+      "value" : "Texistepequeño",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Tojolabal",
+      "value" : "Tojolabal",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Totonaco",
+      "value" : "Totonaco",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Triqui",
+      "value" : "Triqui",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Tlahuica",
+      "value" : "Tlahuica",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Tlapaneco",
+      "value" : "Tlapaneco",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Tseltal",
+      "value" : "Tseltal",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Tsotsil",
+      "value" : "Tsotsil",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Yaqui",
+      "value" : "Yaqui",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Zapoteco",
+      "value" : "Zapoteco",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Zoque",
+      "value" : "Zoque",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "P'urepecha",
+      "value" : "P'urepecha",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Tarasco",
+      "value" : "Tarasco",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "afar",
+      "value" : "afar",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "abjasio (o abjasiano)",
+      "value" : "abjasio (o abjasiano)",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "avéstico",
+      "value" : "avéstico",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "afrikáans",
+      "value" : "afrikáans",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "akano",
+      "value" : "akano",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "amhárico",
+      "value" : "amhárico",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "aragonés",
+      "value" : "aragonés",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "árabe",
+      "value" : "árabe",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "asamés",
+      "value" : "asamés",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "avar (o ávaro)",
+      "value" : "avar (o ávaro)",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "aimara",
+      "value" : "aimara",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "azerí",
+      "value" : "azerí",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "baskir",
+      "value" : "baskir",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "bielorruso",
+      "value" : "bielorruso",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "búlgaro",
+      "value" : "búlgaro",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "bhoyapurí",
+      "value" : "bhoyapurí",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "bislama",
+      "value" : "bislama",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "bambara",
+      "value" : "bambara",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "bengalí",
+      "value" : "bengalí",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "tibetano",
+      "value" : "tibetano",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "bretón",
+      "value" : "bretón",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "bosnio",
+      "value" : "bosnio",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "catalán",
+      "value" : "catalán",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "checheno",
+      "value" : "checheno",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "chamorro",
+      "value" : "chamorro",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "corso",
+      "value" : "corso",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "cree",
+      "value" : "cree",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "checo",
+      "value" : "checo",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 3,
+    "totalElements" : 256
+  },
+  "_links" : {
+    "next" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularies/linguiscgroupPairs/entries?page=1&size=100"
+    },
+    "last" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularies/linguiscgroupPairs/entries?page=2&size=100"
+    },
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularies/linguiscgroupPairs/entries?page=0&size=100"
+    }
+  }
+}

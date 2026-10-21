@@ -1,0 +1,292 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:VR180201",
+      "display" : "Endocrine surgery",
+      "value" : "MEDICINE::Surgery::Surgical research::Endocrine surgery",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Surgery::Surgical research",
+        "note" : "Endokrin kirurgi",
+        "hasChildren" : "false",
+        "id" : "VR180201"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR180201/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR180201/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR180201"
+        }
+      }
+    }, {
+      "id" : "srsc:VR180202",
+      "display" : "Hand surgery",
+      "value" : "MEDICINE::Surgery::Surgical research::Hand surgery",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Surgery::Surgical research",
+        "note" : "Handkirurgi",
+        "hasChildren" : "false",
+        "id" : "VR180202"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR180202/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR180202/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR180202"
+        }
+      }
+    }, {
+      "id" : "srsc:VR180203",
+      "display" : "Surgery",
+      "value" : "MEDICINE::Surgery::Surgical research::Surgery",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Surgery::Surgical research",
+        "note" : "Kirurgi",
+        "hasChildren" : "false",
+        "id" : "VR180203"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR180203/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR180203/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR180203"
+        }
+      }
+    }, {
+      "id" : "srsc:VR180204",
+      "display" : "Vascular surgery",
+      "value" : "MEDICINE::Surgery::Surgical research::Vascular surgery",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Surgery::Surgical research",
+        "note" : "Kärlkirurgi",
+        "hasChildren" : "false",
+        "id" : "VR180204"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR180204/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR180204/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR180204"
+        }
+      }
+    }, {
+      "id" : "srsc:VR180205",
+      "display" : "Neurosurgery",
+      "value" : "MEDICINE::Surgery::Surgical research::Neurosurgery",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Surgery::Surgical research",
+        "note" : "Neurokirurgi",
+        "hasChildren" : "false",
+        "id" : "VR180205"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR180205/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR180205/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR180205"
+        }
+      }
+    }, {
+      "id" : "srsc:VR180206",
+      "display" : "Orthopaedics",
+      "value" : "MEDICINE::Surgery::Surgical research::Orthopaedics",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Surgery::Surgical research",
+        "note" : "Ortopedi",
+        "hasChildren" : "false",
+        "id" : "VR180206"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR180206/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR180206/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR180206"
+        }
+      }
+    }, {
+      "id" : "srsc:VR180207",
+      "display" : "Otoneurology",
+      "value" : "MEDICINE::Surgery::Surgical research::Otoneurology",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Surgery::Surgical research",
+        "note" : "Otoneurologi",
+        "hasChildren" : "false",
+        "id" : "VR180207"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR180207/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR180207/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR180207"
+        }
+      }
+    }, {
+      "id" : "srsc:VR180208",
+      "display" : "Pediatric surgery",
+      "value" : "MEDICINE::Surgery::Surgical research::Pediatric surgery",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Surgery::Surgical research",
+        "note" : "Pediatrisk kirurgi",
+        "hasChildren" : "false",
+        "id" : "VR180208"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR180208/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR180208/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR180208"
+        }
+      }
+    }, {
+      "id" : "srsc:VR180209",
+      "display" : "Plastic surgery",
+      "value" : "MEDICINE::Surgery::Surgical research::Plastic surgery",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Surgery::Surgical research",
+        "note" : "Plastikkirurgi",
+        "hasChildren" : "false",
+        "id" : "VR180209"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR180209/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR180209/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR180209"
+        }
+      }
+    }, {
+      "id" : "srsc:VR180210",
+      "display" : "Thoracic surgery",
+      "value" : "MEDICINE::Surgery::Surgical research::Thoracic surgery",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Surgery::Surgical research",
+        "note" : "Thoraxkirurgi",
+        "hasChildren" : "false",
+        "id" : "VR180210"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR180210/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR180210/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR180210"
+        }
+      }
+    }, {
+      "id" : "srsc:VR180211",
+      "display" : "Transplantation surgery",
+      "value" : "MEDICINE::Surgery::Surgical research::Transplantation surgery",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Surgery::Surgical research",
+        "note" : "Transplantationskirurgi",
+        "hasChildren" : "false",
+        "id" : "VR180211"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR180211/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR180211/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR180211"
+        }
+      }
+    }, {
+      "id" : "srsc:VR180212",
+      "display" : "Urology and andrology",
+      "value" : "MEDICINE::Surgery::Surgical research::Urology and andrology",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Surgery::Surgical research",
+        "note" : "Urologi och andrologi",
+        "hasChildren" : "false",
+        "id" : "VR180212"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR180212/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR180212/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR180212"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 12
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1802/children?page=0&size=100"
+    }
+  }
+}

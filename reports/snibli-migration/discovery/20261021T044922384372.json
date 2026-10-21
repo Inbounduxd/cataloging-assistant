@@ -1,0 +1,36 @@
+[
+  {
+    "requested_url": "https://www.iifl.unam.mx/server/api/core/collections/search",
+    "captured_at": "2026-10-21T04:49:21.725995+00:00",
+    "endpoint": "https://www.iifl.unam.mx/server/api/core/collections/search",
+    "redirects": [
+      {
+        "url": "https://www.iifl.unam.mx/server/api/core/collections/search",
+        "status": 200
+      }
+    ],
+    "http_status": 200,
+    "content_type": "application/hal+json;charset=UTF-8",
+    "sha256": "19ed50a63b29634cf6364283e76b6ee649dae7975f6b6c3c3030371fbff7c54e",
+    "bytes": 793,
+    "raw_file": "19ed50a63b29634cf6364283e76b6ee649dae7975f6b6c3c3030371fbff7c54e.response",
+    "preview": "{\n  \"_links\" : {\n    \"findSubmitAuthorizedByCommunity\" : {\n      \"href\" : \"https://www.iifl.unam.mx/server/api/core/collections/search/findSubmitAuthorizedByCommunity\"\n    },\n    \"findSubmitAuthorized\" : {\n      \"href\" : \"https://www.iifl.unam.mx/server/api/core/collections/search/findSubmitAuthorized\"\n    },\n    \"findAdminAuthorized\" : {\n      \"href\" : \"https://www.iifl.unam.mx/server/api/core/collections/search/findAdminAuthorized\"\n    },\n    \"findSubmitAuthorizedByEntityType\" : {\n      \"href\" : \"https://www.iifl.unam.mx/server/api/core/collections/search/findSubmitAuthorizedByEntityType\"\n    },\n    \"findSubmitAuthorizedByCommunityAndEntityType\" : {\n      \"href\" : \"https://www.iifl.unam.mx/server/api/core/collections/search/findSubmitAuthorizedByCommunityAndEntityType\"\n    }\n  }\n}"
+  },
+  {
+    "requested_url": "https://www.iifl.unam.mx/server/api/authn/status",
+    "captured_at": "2026-10-21T04:49:22.138928+00:00",
+    "endpoint": "https://www.iifl.unam.mx/server/api/authn/status",
+    "redirects": [
+      {
+        "url": "https://www.iifl.unam.mx/server/api/authn/status",
+        "status": 200
+      }
+    ],
+    "http_status": 200,
+    "content_type": "application/hal+json;charset=UTF-8",
+    "sha256": "ea9cd8d7c063a45564554617dacc463e18384b13519b33b3cbd359c24ad55cfa",
+    "bytes": 432,
+    "raw_file": "ea9cd8d7c063a45564554617dacc463e18384b13519b33b3cbd359c24ad55cfa.response",
+    "preview": "{\n  \"id\" : null,\n  \"okay\" : true,\n  \"authenticated\" : false,\n  \"authenticationMethod\" : null,\n  \"type\" : \"status\",\n  \"_links\" : {\n    \"eperson\" : {\n      \"href\" : \"https://www.iifl.unam.mx/server/api/authn/status/eperson\"\n    },\n    \"specialGroups\" : {\n      \"href\" : \"https://www.iifl.unam.mx/server/api/authn/status/specialGroups\"\n    },\n    \"self\" : {\n      \"href\" : \"https://www.iifl.unam.mx/server/api/authn/status\"\n    }\n  }\n}"
+  }
+]

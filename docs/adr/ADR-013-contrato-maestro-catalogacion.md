@@ -62,6 +62,31 @@ ADR-006 y ADR-010.
 
 ## Revisión futura
 
+### Revisión local SNIBLI — 2026-10-21
+
+Tras captura autenticada y observación del borrador 2050, el usuario aprobó
+incorporar `dc.type.genre`, aceptar Códice, Reseña y Documento Colonial en
+`common_types` y conservar el orden observado. La revisión ejecutable local
+`snibli-contract-2026-10-21` contiene 57 bindings y 55 claves únicas: conserva
+los 56 originales e inserta el nuevo control entre issue e Identificador.
+El primer formulario contiene 45 bindings y el segundo 12. Esta revisión
+actualiza las cifras históricas anteriores para el cambio local propuesto.
+
+`genrePairs` conserva Sí, No e Incluye Datos de Diferentes Lenguas. Es un
+control opcional, no repetible y cerrado. No se añade a los subconjuntos de
+inferencia, perfil o validación lingüística automática. El payload de lectura
+publica las listas literales aprobadas de `genrePairs` y `common_types`; su
+ausencia para otros vocabularios no significa que estén vacíos. `srsc` completo
+sigue UNKNOWN.
+
+La versión de aplicación se identifica por separado de la skill preservada
+v3.9.2. No se reconstruye esa release ni se promueve un snapshot ACTIVE. El
+orden de campos se respalda ahora también por el formulario existente indicado
+por el usuario; la evidencia visual no convierte el HTTP 204 en HAL observable.
+La aprobación no autoriza escrituras, sincronizaciones o despliegues.
+Ver `reports/snibli-migration/reconciliation-proposal/decision.json` y
+`workspace-2050-observation.md` para procedencia y alcance.
+
 Cuando el contrato pueda generarse directamente desde el artefacto maestro del
 skill, sustituir la sincronización manual de versión por una generación reproducible
 con checksum y prueba de equivalencia.

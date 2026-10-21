@@ -1,0 +1,14 @@
+{
+  "goldenRecord": "GR19",
+  "recordId": null,
+  "title": "Online-first date differs from issue date",
+  "status": "PILOT_ACCEPTED",
+  "purpose": "Semantic regression fixture derived from cataloguing-learning v3.5. Does not contain copyrighted full text.",
+  "expectedRules": [
+    "EDITORIAL_DATE_DISAMBIGUATION",
+    "DATE_ISSUED_FOLLOWS_CATALOGUED_MANIFESTATION"
+  ],
+  "mustNever": [
+    "Mix online-first and issue date without documenting the choice."
+  ]
+}

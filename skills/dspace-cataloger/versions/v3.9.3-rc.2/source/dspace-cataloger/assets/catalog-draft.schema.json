@@ -1,0 +1,242 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "DSpace Cataloguing Draft v3.4",
+  "type": "object",
+  "required": [
+    "status",
+    "source",
+    "fields",
+    "qa"
+  ],
+  "properties": {
+    "status": {
+      "enum": [
+        "APROBABLE",
+        "REQUIERE-REVISIÓN",
+        "REQUIERE_REVISIÓN",
+        "BLOQUEADO"
+      ]
+    },
+    "source": {
+      "type": "object",
+      "properties": {
+        "primary": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "accessedAt": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "evidenceCorpusId": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "additionalProperties": true
+    },
+    "fields": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "field",
+          "suggestedValue",
+          "evidenceStatus",
+          "mappingStatus",
+          "requiresHumanApproval",
+          "humanDecision"
+        ],
+        "properties": {
+          "field": {
+            "type": "string"
+          },
+          "currentValue": {},
+          "sourceValue": {},
+          "suggestedValue": {},
+          "finalValue": {},
+          "evidenceStatus": {
+            "enum": [
+              "EXTRAÍDO",
+              "VERIFICADO",
+              "INFERIDO",
+              "PENDIENTE",
+              "GENERADO"
+            ]
+          },
+          "mappingStatus": {
+            "enum": [
+              "MAPPED",
+              "VOCABULARY_GAP",
+              "SCHEMA_GAP",
+              "POLICY_REVIEW",
+              "NOT_APPLICABLE"
+            ]
+          },
+          "confidence": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "minimum": 0,
+            "maximum": 1
+          },
+          "evidence": {
+            "type": "array"
+          },
+          "explanation": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "vocabulary": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "vocabularyValidated": {
+            "type": [
+              "boolean",
+              "null"
+            ]
+          },
+          "requiresHumanApproval": {
+            "type": "boolean"
+          },
+          "humanDecision": {
+            "enum": [
+              "ACCEPT",
+              "EDIT",
+              "REJECT",
+              "ADD",
+              "PENDING"
+            ]
+          },
+          "reviewedBy": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "reviewedAt": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "reviewSeconds": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "minimum": 0
+          },
+          "policyDecisionIds": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "discrepancyIds": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "gapIds": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "bindingId": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "formId": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "uiLabel": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "assistantLabel": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "renderOrder": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 1
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "qa": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "code",
+          "severity",
+          "status"
+        ],
+        "properties": {
+          "code": {
+            "type": "string"
+          },
+          "severity": {
+            "enum": [
+              "BLOCK",
+              "ERROR",
+              "WARN",
+              "REVIEW",
+              "SUGGESTION"
+            ]
+          },
+          "status": {
+            "enum": [
+              "PASS",
+              "FAIL",
+              "NOT_APPLICABLE"
+            ]
+          },
+          "fields": {
+            "type": "array"
+          },
+          "explanation": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "formContractVersion": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,43 @@
+{
+  "_embedded" : {
+    "metadatafields" : [ {
+      "id" : 220,
+      "element" : "issn",
+      "qualifier" : null,
+      "scopeNote" : "The International Standard Serial Number (ISSN) that identifies this serial publication. You can\n            repeat this property to identify different formats of, or the linking ISSN (ISSN-L) for, this serial\n            publication.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/220/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/220"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 12,
+          "prefix" : "creativeworkseries",
+          "namespace" : "https://schema.org/CreativeWorkSeries",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/12"
+            }
+          }
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/search/bySchema?page=0&size=100&schema=creativeworkseries"
+    }
+  },
+  "page" : {
+    "size" : 100,
+    "totalElements" : 1,
+    "totalPages" : 1,
+    "number" : 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_embedded" : {
+    "entries" : [ {
+      "display" : "L1 (Lengua materna)",
+      "value" : "L1",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "L2 (Segunda lengua)",
+      "value" : "L2",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "L1 y L2",
+      "value" : "L1 y L2",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 3
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularies/languageTargetPairs/entries?page=0&size=100"
+    }
+  }
+}

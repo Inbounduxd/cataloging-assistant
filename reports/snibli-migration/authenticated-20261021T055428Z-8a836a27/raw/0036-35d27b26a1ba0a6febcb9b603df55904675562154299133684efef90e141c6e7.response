@@ -1,0 +1,17 @@
+{
+  "id" : "traditional",
+  "name" : "traditional",
+  "type" : "submissiondefinition",
+  "isDefault" : true,
+  "_links" : {
+    "collections" : {
+      "href" : "https://www.iifl.unam.mx/server/api/config/submissiondefinitions/traditional/collections"
+    },
+    "sections" : {
+      "href" : "https://www.iifl.unam.mx/server/api/config/submissiondefinitions/traditional/sections"
+    },
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/config/submissiondefinitions/traditional"
+    }
+  }
+}

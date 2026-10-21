@@ -1,0 +1,108 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:VR153301",
+      "display" : "Meteorology",
+      "value" : "NATURAL SCIENCES::Earth sciences::Atmosphere and hydrosphere sciences::Meteorology",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Earth sciences::Atmosphere and hydrosphere sciences",
+        "note" : "Meteorologi",
+        "hasChildren" : "false",
+        "id" : "VR153301"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR153301/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR153301/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR153301"
+        }
+      }
+    }, {
+      "id" : "srsc:VR153302",
+      "display" : "Hydrology",
+      "value" : "NATURAL SCIENCES::Earth sciences::Atmosphere and hydrosphere sciences::Hydrology",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Earth sciences::Atmosphere and hydrosphere sciences",
+        "note" : "Hydrologi",
+        "hasChildren" : "false",
+        "id" : "VR153302"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR153302/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR153302/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR153302"
+        }
+      }
+    }, {
+      "id" : "srsc:VR153303",
+      "display" : "Oceanography",
+      "value" : "NATURAL SCIENCES::Earth sciences::Atmosphere and hydrosphere sciences::Oceanography",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Earth sciences::Atmosphere and hydrosphere sciences",
+        "note" : "Oceanografi",
+        "hasChildren" : "false",
+        "id" : "VR153303"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR153303/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR153303/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR153303"
+        }
+      }
+    }, {
+      "id" : "srsc:VR153304",
+      "display" : "Climatology",
+      "value" : "NATURAL SCIENCES::Earth sciences::Atmosphere and hydrosphere sciences::Climatology",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Earth sciences::Atmosphere and hydrosphere sciences",
+        "note" : "Klimatologi",
+        "hasChildren" : "false",
+        "id" : "VR153304"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR153304/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR153304/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR153304"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 4
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1533/children?page=0&size=100"
+    }
+  }
+}

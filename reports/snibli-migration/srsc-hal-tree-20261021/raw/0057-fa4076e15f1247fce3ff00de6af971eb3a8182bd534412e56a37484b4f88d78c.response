@@ -1,0 +1,154 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:SCB2371",
+      "display" : "Occupational therapy",
+      "value" : "INTERDISCIPLINARY RESEARCH AREAS::Caring sciences::Occupational therapy",
+      "otherInformation" : {
+        "parent" : "INTERDISCIPLINARY RESEARCH AREAS::Caring sciences",
+        "note" : "Arbetsterapi",
+        "hasChildren" : "false",
+        "id" : "SCB2371"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2371/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2371/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2371"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB2372",
+      "display" : "Medical laboratory science",
+      "value" : "INTERDISCIPLINARY RESEARCH AREAS::Caring sciences::Medical laboratory science",
+      "otherInformation" : {
+        "parent" : "INTERDISCIPLINARY RESEARCH AREAS::Caring sciences",
+        "note" : "Medicinsk laboratorievetenskap",
+        "hasChildren" : "false",
+        "id" : "SCB2372"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2372/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2372/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2372"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB2373",
+      "display" : "Nursing",
+      "value" : "INTERDISCIPLINARY RESEARCH AREAS::Caring sciences::Nursing",
+      "otherInformation" : {
+        "parent" : "INTERDISCIPLINARY RESEARCH AREAS::Caring sciences",
+        "note" : "Omvårdnad",
+        "hasChildren" : "false",
+        "id" : "SCB2373"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2373/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2373/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2373"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB2374",
+      "display" : "Physiotherapy",
+      "value" : "INTERDISCIPLINARY RESEARCH AREAS::Caring sciences::Physiotherapy",
+      "otherInformation" : {
+        "parent" : "INTERDISCIPLINARY RESEARCH AREAS::Caring sciences",
+        "note" : "Sjukgymnastik/fysioterapi",
+        "hasChildren" : "false",
+        "id" : "SCB2374"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2374/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2374/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2374"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB2375",
+      "display" : "Social welfare/social pedagogics",
+      "value" : "INTERDISCIPLINARY RESEARCH AREAS::Caring sciences::Social welfare/social pedagogics",
+      "otherInformation" : {
+        "parent" : "INTERDISCIPLINARY RESEARCH AREAS::Caring sciences",
+        "note" : "Social omsorg/socialpedagogik",
+        "hasChildren" : "false",
+        "id" : "SCB2375"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2375/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2375/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2375"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB2376",
+      "display" : "Theory of science regarding care and  nursing",
+      "value" : "INTERDISCIPLINARY RESEARCH AREAS::Caring sciences::Theory of science regarding care and  nursing",
+      "otherInformation" : {
+        "parent" : "INTERDISCIPLINARY RESEARCH AREAS::Caring sciences",
+        "note" : "Vetenskapsteori med inriktning mot vård- och omsorgsområdet",
+        "hasChildren" : "false",
+        "id" : "SCB2376"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2376/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2376/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2376"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 6
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB237/children?page=0&size=100"
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Cataloguing Discrepancy v3.3",
+  "type": "object",
+  "required": [
+    "id",
+    "type",
+    "field",
+    "candidates",
+    "status"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "type": {
+      "enum": [
+        "VALUE_CONFLICT",
+        "GRANULARITY_DIFFERENCE",
+        "LABEL_MISMATCH",
+        "ROLE_MISMATCH",
+        "SOURCE_NORMALIZATION",
+        "STRUCTURAL_MISMATCH"
+      ]
+    },
+    "field": {
+      "type": "string"
+    },
+    "candidates": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "required": [
+          "value",
+          "source"
+        ],
+        "properties": {
+          "value": {},
+          "source": {
+            "type": "string"
+          },
+          "authorityDimension": {
+            "enum": [
+              "CONTENT",
+              "BIBLIOGRAPHIC",
+              "CURRENT_DSPACE_STATE",
+              "UNKNOWN"
+            ]
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "recommendedValue": {},
+    "rationale": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "status": {
+      "enum": [
+        "OPEN",
+        "REVIEWED",
+        "RESOLVED",
+        "DEFERRED"
+      ]
+    },
+    "resolvedBy": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "resolvedAt": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "additionalProperties": true
+}

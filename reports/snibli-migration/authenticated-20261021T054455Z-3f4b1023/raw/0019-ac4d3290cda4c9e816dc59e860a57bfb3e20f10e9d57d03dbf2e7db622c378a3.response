@@ -1,0 +1,124 @@
+{
+  "_embedded" : {
+    "metadatafields" : [ {
+      "id" : 223,
+      "element" : "datePublished",
+      "qualifier" : null,
+      "scopeNote" : "Date of first broadcast/publication.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/223/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/223"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 11,
+          "prefix" : "creativework",
+          "namespace" : "https://schema.org/CreativeWork",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/11"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 218,
+      "element" : "editor",
+      "qualifier" : null,
+      "scopeNote" : "Specifies the Person who edited the CreativeWork.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/218/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/218"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 11,
+          "prefix" : "creativework",
+          "namespace" : "https://schema.org/CreativeWork",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/11"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 222,
+      "element" : "keywords",
+      "qualifier" : null,
+      "scopeNote" : "Keywords or tags used to describe this content. Multiple entries in a keywords list are typically\n            delimited by commas.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/222/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/222"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 11,
+          "prefix" : "creativework",
+          "namespace" : "https://schema.org/CreativeWork",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/11"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 219,
+      "element" : "publisher",
+      "qualifier" : null,
+      "scopeNote" : "The publisher of the creative work.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/219/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/219"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 11,
+          "prefix" : "creativework",
+          "namespace" : "https://schema.org/CreativeWork",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/11"
+            }
+          }
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/search/bySchema?page=0&size=100&schema=creativework"
+    }
+  },
+  "page" : {
+    "size" : 100,
+    "totalElements" : 4,
+    "totalPages" : 1,
+    "number" : 0
+  }
+}

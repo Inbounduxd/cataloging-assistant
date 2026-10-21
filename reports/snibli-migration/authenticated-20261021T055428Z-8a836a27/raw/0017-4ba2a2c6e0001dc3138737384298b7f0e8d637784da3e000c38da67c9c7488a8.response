@@ -1,0 +1,259 @@
+{
+  "_embedded" : {
+    "metadatafields" : [ {
+      "id" : 212,
+      "element" : "address",
+      "qualifier" : "addressCountry",
+      "scopeNote" : "Physical address country (ex. USA) of the organization. You can also provide the two-letter ISO\n            3166-1 alpha-2 country code.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/212/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/212"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 9,
+          "prefix" : "organization",
+          "namespace" : "https://schema.org/Organization",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/9"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 211,
+      "element" : "address",
+      "qualifier" : "addressLocality",
+      "scopeNote" : "Physical address locality (ex. Mountain View) of the organization.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/211/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/211"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 9,
+          "prefix" : "organization",
+          "namespace" : "https://schema.org/Organization",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/9"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 210,
+      "element" : "foundingDate",
+      "qualifier" : null,
+      "scopeNote" : "The date that this organization was founded.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/210/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/210"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 9,
+          "prefix" : "organization",
+          "namespace" : "https://schema.org/Organization",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/9"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 217,
+      "element" : "identifier",
+      "qualifier" : "crossrefid",
+      "scopeNote" : "Crossref identifier",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/217/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/217"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 9,
+          "prefix" : "organization",
+          "namespace" : "https://schema.org/Organization",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/9"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 214,
+      "element" : "identifier",
+      "qualifier" : "isni",
+      "scopeNote" : "International Standard Name Identifier",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/214/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/214"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 9,
+          "prefix" : "organization",
+          "namespace" : "https://schema.org/Organization",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/9"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 215,
+      "element" : "identifier",
+      "qualifier" : "rin",
+      "scopeNote" : "Ringgold identifier",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/215/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/215"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 9,
+          "prefix" : "organization",
+          "namespace" : "https://schema.org/Organization",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/9"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 216,
+      "element" : "identifier",
+      "qualifier" : "ror",
+      "scopeNote" : "Research Organization Registry",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/216/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/216"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 9,
+          "prefix" : "organization",
+          "namespace" : "https://schema.org/Organization",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/9"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 213,
+      "element" : "identifier",
+      "qualifier" : null,
+      "scopeNote" : "Generic Identifier",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/213/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/213"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 9,
+          "prefix" : "organization",
+          "namespace" : "https://schema.org/Organization",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/9"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 209,
+      "element" : "legalName",
+      "qualifier" : null,
+      "scopeNote" : "The official name of the organization, e.g. the registered company name.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/209/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/209"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 9,
+          "prefix" : "organization",
+          "namespace" : "https://schema.org/Organization",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/9"
+            }
+          }
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/search/bySchema?page=0&size=100&schema=organization"
+    }
+  },
+  "page" : {
+    "size" : 100,
+    "totalElements" : 9,
+    "totalPages" : 1,
+    "number" : 0
+  }
+}

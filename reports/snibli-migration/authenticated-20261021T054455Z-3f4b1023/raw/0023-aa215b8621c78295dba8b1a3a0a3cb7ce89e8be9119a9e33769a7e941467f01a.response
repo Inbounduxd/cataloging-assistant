@@ -1,0 +1,367 @@
+{
+  "_embedded" : {
+    "metadatafields" : [ {
+      "id" : 226,
+      "element" : "awardNumber",
+      "qualifier" : null,
+      "scopeNote" : "Project grantId or awardNumber",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/226/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/226"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 15,
+          "prefix" : "oaire",
+          "namespace" : "http://namespace.openaire.eu/schema/oaire/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/15"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 228,
+      "element" : "awardTitle",
+      "qualifier" : null,
+      "scopeNote" : "Title of the project, award or grant.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/228/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/228"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 15,
+          "prefix" : "oaire",
+          "namespace" : "http://namespace.openaire.eu/schema/oaire/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/15"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 227,
+      "element" : "awardURI",
+      "qualifier" : null,
+      "scopeNote" : "URI of the project landing page provided by the funder for more information about the award (grant).",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/227/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/227"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 15,
+          "prefix" : "oaire",
+          "namespace" : "http://namespace.openaire.eu/schema/oaire/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/15"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 237,
+      "element" : "citation",
+      "qualifier" : "conferenceDate",
+      "scopeNote" : "The date when the conference took place. This property is considered to be part of the bibliographic citation. Recommended best practice for encoding the date value is defined in a profile of ISO 8601 [W3CDTF] and follows the YYYY-MM-DD format.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/237/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/237"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 15,
+          "prefix" : "oaire",
+          "namespace" : "http://namespace.openaire.eu/schema/oaire/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/15"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 236,
+      "element" : "citation",
+      "qualifier" : "conferencePlace",
+      "scopeNote" : "The place where the conference took place. This property is considered to be part of the bibliographic citation.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/236/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/236"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 15,
+          "prefix" : "oaire",
+          "namespace" : "http://namespace.openaire.eu/schema/oaire/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/15"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 235,
+      "element" : "citation",
+      "qualifier" : "edition",
+      "scopeNote" : "The edition the work was published in (e.g. book edition). This property is considered to be part of the bibliographic citation.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/235/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/235"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 15,
+          "prefix" : "oaire",
+          "namespace" : "http://namespace.openaire.eu/schema/oaire/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/15"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 234,
+      "element" : "citation",
+      "qualifier" : "endPage",
+      "scopeNote" : "The end page is part of the pagination information of the work published in a container (e.g. journal issue). This property is considered to be part of the bibliographic citation.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/234/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/234"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 15,
+          "prefix" : "oaire",
+          "namespace" : "http://namespace.openaire.eu/schema/oaire/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/15"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 232,
+      "element" : "citation",
+      "qualifier" : "issue",
+      "scopeNote" : "The issue of the container (e.g. journal). This property is considered to be part of the bibliographic citation.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/232/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/232"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 15,
+          "prefix" : "oaire",
+          "namespace" : "http://namespace.openaire.eu/schema/oaire/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/15"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 233,
+      "element" : "citation",
+      "qualifier" : "startPage",
+      "scopeNote" : "The start page is part of the pagination information of the work published in a container (e.g. journal issue). This property is considered to be part of the bibliographic citation.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/233/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/233"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 15,
+          "prefix" : "oaire",
+          "namespace" : "http://namespace.openaire.eu/schema/oaire/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/15"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 230,
+      "element" : "citation",
+      "qualifier" : "title",
+      "scopeNote" : "The title name of the container (e.g. journal, book, conference) this work is published in. This property is considered to be part of the bibliographic citation.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/230/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/230"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 15,
+          "prefix" : "oaire",
+          "namespace" : "http://namespace.openaire.eu/schema/oaire/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/15"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 231,
+      "element" : "citation",
+      "qualifier" : "volume",
+      "scopeNote" : "The volume, typically a number, of the container (e.g. journal). This property is considered to be part of the bibliographic citation.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/231/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/231"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 15,
+          "prefix" : "oaire",
+          "namespace" : "http://namespace.openaire.eu/schema/oaire/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/15"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 225,
+      "element" : "fundingStream",
+      "qualifier" : null,
+      "scopeNote" : "Name of the funding stream",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/225/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/225"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 15,
+          "prefix" : "oaire",
+          "namespace" : "http://namespace.openaire.eu/schema/oaire/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/15"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 229,
+      "element" : "version",
+      "qualifier" : null,
+      "scopeNote" : "Use either a version number or the label of the vocabulary term as value.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/229/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/229"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 15,
+          "prefix" : "oaire",
+          "namespace" : "http://namespace.openaire.eu/schema/oaire/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/15"
+            }
+          }
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/search/bySchema?page=0&size=100&schema=oaire"
+    }
+  },
+  "page" : {
+    "size" : 100,
+    "totalElements" : 13,
+    "totalPages" : 1,
+    "number" : 0
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:VR131301",
+      "display" : "Social anthropology",
+      "value" : "SOCIAL SCIENCES::Social sciences::Social anthropology/ethnography::Social anthropology",
+      "otherInformation" : {
+        "parent" : "SOCIAL SCIENCES::Social sciences::Social anthropology/ethnography",
+        "note" : "Socialantropologi",
+        "hasChildren" : "false",
+        "id" : "VR131301"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR131301/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR131301/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR131301"
+        }
+      }
+    }, {
+      "id" : "srsc:VR131302",
+      "display" : "Ethnography",
+      "value" : "SOCIAL SCIENCES::Social sciences::Social anthropology/ethnography::Ethnography",
+      "otherInformation" : {
+        "parent" : "SOCIAL SCIENCES::Social sciences::Social anthropology/ethnography",
+        "note" : "Etnografi",
+        "hasChildren" : "false",
+        "id" : "VR131302"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR131302/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR131302/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR131302"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 2
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1313/children?page=0&size=100"
+    }
+  }
+}

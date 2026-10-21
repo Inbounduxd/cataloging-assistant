@@ -1,0 +1,131 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:SCB1801",
+      "display" : "Anaesthetics and intensive care",
+      "value" : "MEDICINE::Surgery::Anaesthetics and intensive care",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Surgery",
+        "note" : "Anestesiologi och intensivvård",
+        "hasChildren" : "true",
+        "id" : "SCB1801"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1801/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1801/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1801"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1802",
+      "display" : "Surgical research",
+      "value" : "MEDICINE::Surgery::Surgical research",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Surgery",
+        "note" : "Kirurgisk forskning",
+        "hasChildren" : "true",
+        "id" : "SCB1802"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1802/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1802/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1802"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1803",
+      "display" : "Obstetrics and women's diseases",
+      "value" : "MEDICINE::Surgery::Obstetrics and women's diseases",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Surgery",
+        "note" : "Obstetrik och kvinnosjukdomar",
+        "hasChildren" : "true",
+        "id" : "SCB1803"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1803/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1803/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1803"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1804",
+      "display" : "Oncology",
+      "value" : "MEDICINE::Surgery::Oncology",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Surgery",
+        "note" : "Onkologi",
+        "hasChildren" : "false",
+        "id" : "SCB1804"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1804/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1804/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1804"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1805",
+      "display" : "Otorhinolaryngology",
+      "value" : "MEDICINE::Surgery::Otorhinolaryngology",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Surgery",
+        "note" : "Otorhinolaryngologi",
+        "hasChildren" : "true",
+        "id" : "SCB1805"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1805/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1805/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1805"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 5
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB180/children?page=0&size=100"
+    }
+  }
+}

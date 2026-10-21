@@ -1,0 +1,18 @@
+{
+  "id" : null,
+  "type" : "authn",
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/authn"
+    },
+    "login" : {
+      "href" : "https://www.iifl.unam.mx/server/api/authn/login"
+    },
+    "logout" : {
+      "href" : "https://www.iifl.unam.mx/server/api/authn/logout"
+    },
+    "status" : {
+      "href" : "https://www.iifl.unam.mx/server/api/authn/status"
+    }
+  }
+}

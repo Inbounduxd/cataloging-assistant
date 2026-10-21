@@ -1,0 +1,39 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:VR131502",
+      "display" : "Criminal science",
+      "value" : "SOCIAL SCIENCES::Social sciences::Criminology::Criminal science",
+      "otherInformation" : {
+        "parent" : "SOCIAL SCIENCES::Social sciences::Criminology",
+        "note" : "Kriminalvetenskap",
+        "hasChildren" : "false",
+        "id" : "VR131502"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR131502/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR131502/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR131502"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 1
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1315/children?page=0&size=100"
+    }
+  }
+}

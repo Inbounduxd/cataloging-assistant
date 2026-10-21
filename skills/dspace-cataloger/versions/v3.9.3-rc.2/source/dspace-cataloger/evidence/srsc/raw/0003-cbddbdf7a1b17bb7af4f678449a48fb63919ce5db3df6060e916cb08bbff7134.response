@@ -1,0 +1,154 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:SCB1201",
+      "display" : "Public law",
+      "value" : "LAW/JURISPRUDENCE::Public law",
+      "otherInformation" : {
+        "parent" : "LAW/JURISPRUDENCE",
+        "note" : "Offentlig rätt",
+        "hasChildren" : "true",
+        "id" : "SCB1201"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1201/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1201/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1201"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1202",
+      "display" : "Procedural law",
+      "value" : "LAW/JURISPRUDENCE::Procedural law",
+      "otherInformation" : {
+        "parent" : "LAW/JURISPRUDENCE",
+        "note" : "Processrätt",
+        "hasChildren" : "true",
+        "id" : "SCB1202"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1202/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1202/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1202"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1203",
+      "display" : "Criminal law",
+      "value" : "LAW/JURISPRUDENCE::Criminal law",
+      "otherInformation" : {
+        "parent" : "LAW/JURISPRUDENCE",
+        "note" : "Straffrätt",
+        "hasChildren" : "false",
+        "id" : "SCB1203"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1203/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1203/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1203"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1204",
+      "display" : "Financial law",
+      "value" : "LAW/JURISPRUDENCE::Financial law",
+      "otherInformation" : {
+        "parent" : "LAW/JURISPRUDENCE",
+        "note" : "Finansrätt",
+        "hasChildren" : "false",
+        "id" : "SCB1204"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1204/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1204/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1204"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1205",
+      "display" : "Private law",
+      "value" : "LAW/JURISPRUDENCE::Private law",
+      "otherInformation" : {
+        "parent" : "LAW/JURISPRUDENCE",
+        "note" : "Civilrätt",
+        "hasChildren" : "true",
+        "id" : "SCB1205"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1205/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1205/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1205"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1209",
+      "display" : "Other law",
+      "value" : "LAW/JURISPRUDENCE::Other law",
+      "otherInformation" : {
+        "parent" : "LAW/JURISPRUDENCE",
+        "note" : "Övrig rätt",
+        "hasChildren" : "true",
+        "id" : "SCB1209"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1209/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1209/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1209"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 6
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB12/children?page=0&size=100"
+    }
+  }
+}

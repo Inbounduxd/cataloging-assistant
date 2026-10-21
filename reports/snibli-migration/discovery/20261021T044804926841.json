@@ -1,0 +1,19 @@
+[
+  {
+    "requested_url": "https://www.iifl.unam.mx/SNIBLI/assets/config.json",
+    "captured_at": "2026-10-21T04:48:04.622308+00:00",
+    "endpoint": "https://www.iifl.unam.mx/SNIBLI/assets/config.json",
+    "redirects": [
+      {
+        "url": "https://www.iifl.unam.mx/SNIBLI/assets/config.json",
+        "status": 200
+      }
+    ],
+    "http_status": 200,
+    "content_type": "application/json; charset=UTF-8",
+    "sha256": "33a286d3e63bfb3024161b7d7d0a10c71c5c3c3071b970d2aab9dd629e0cabf8",
+    "bytes": 7833,
+    "raw_file": "33a286d3e63bfb3024161b7d7d0a10c71c5c3c3071b970d2aab9dd629e0cabf8.response",
+    "preview": "{\n  \"production\": true,\n  \"debug\": false,\n  \"ui\": {\n    \"ssl\": false,\n    \"host\": \"0.0.0.0\",\n    \"port\": 4000,\n    \"nameSpace\": \"/SNIBLI\",\n    \"rateLimiter\": {\n      \"windowMs\": 60000,\n      \"max\": 500\n    },\n    \"useProxies\": true,\n    \"baseUrl\": \"http://0.0.0.0:4000/SNIBLI\"\n  },\n  \"rest\": {\n    \"ssl\": true,\n    \"host\": \"www.iifl.unam.mx\",\n    \"port\": 443,\n    \"nameSpace\": \"/server\",\n    \"ssrBaseUrl\": \"http://localhost:8080/server\",\n    \"baseUrl\": \"https://www.iifl.unam.mx/server\"\n  },\n  \"actuators\": {\n    \"endpointPath\": \"/actuator/health\"\n  },\n  \"cache\": {\n    \"msToLive\": {\n      \"default\": 900000\n    },\n    \"control\": \"max-age=604800\",\n    \"autoSync\": {\n      \"defaultTime\": 0,\n      \"maxBufferSize\": 100,\n      \"timePerMethod\": {\n        \"PATCH\": 3\n      }\n    },\n    \"serverSide\": {\n      \"debug\": false,\n      \"headers\": [\n        \"Link\"\n      ],\n      \"botCache\": {\n        \"max\": 1000,\n        \"timeToLive\": 86400000,\n        \"allowStale\": true\n      },\n      \"anonymousCache\": {\n        \"max\": 0,\n        \"timeToLive\": 10000,\n        \"allowStale\": true\n      }\n    }\n  },\n  \"auth\": {\n    \"ui\": {\n      \"timeUntilIdle\": 900000,\n      \"idleGracePeriod\": 300000\n    },\n    \"rest\": {\n      \"timeLeftBeforeTokenRefresh\": 120000\n    }\n  },\n  \"form\": {\n    \"spellCheck\": true,\n    \"validatorMap\": {\n      \"required\": \"required\",\n      \"regex\": \"pattern\"\n    }\n  },\n  \"notifications\": {\n    \"rtl\": false,\n    \"position\": [\n      \"top\",\n      \"right\"\n    ],\n    \"maxStack\": 8,\n    \"timeOut\":"
+  }
+]

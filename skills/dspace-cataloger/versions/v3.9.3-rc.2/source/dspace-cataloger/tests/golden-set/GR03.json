@@ -1,0 +1,16 @@
+{
+  "goldenRecord": "GR03",
+  "recordId": 22802,
+  "title": "Prácticas lingüísticas en el juego de un grupo de pares bilingües maya-español",
+  "status": "PILOT_ACCEPTED",
+  "purpose": "Semantic regression fixture. Does not contain full copyrighted source text.",
+  "expectedRules": [
+    "PARALLEL_ABSTRACT_NOT_BILINGUAL",
+    "OBJECT_LANGUAGE_DISTINCT_FROM_CONTENT_LANGUAGE",
+    "MAYA_YUCATECO_SUPPORTED",
+    "COVERAGE_FIELDS_NOT_TOPICAL_GEO"
+  ],
+  "mustNever": [
+    "Infer Bilingüe solely from parallel title/abstract."
+  ]
+}

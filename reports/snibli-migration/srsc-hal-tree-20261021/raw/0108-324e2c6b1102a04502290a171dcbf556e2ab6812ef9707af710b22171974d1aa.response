@@ -1,0 +1,62 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:VR167101",
+      "display" : "Geoengineering",
+      "value" : "TECHNOLOGY::Civil engineering and architecture::Geoengineering and mining engineering::Geoengineering",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY::Civil engineering and architecture::Geoengineering and mining engineering",
+        "note" : "Geoteknik",
+        "hasChildren" : "false",
+        "id" : "VR167101"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR167101/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR167101/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR167101"
+        }
+      }
+    }, {
+      "id" : "srsc:VR167102",
+      "display" : "Mining engineering",
+      "value" : "TECHNOLOGY::Civil engineering and architecture::Geoengineering and mining engineering::Mining engineering",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY::Civil engineering and architecture::Geoengineering and mining engineering",
+        "note" : "Gruvteknik",
+        "hasChildren" : "false",
+        "id" : "VR167102"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR167102/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR167102/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR167102"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 2
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1671/children?page=0&size=100"
+    }
+  }
+}

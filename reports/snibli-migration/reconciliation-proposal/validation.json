@@ -1,0 +1,13 @@
+{
+  "scope": "CANDIDATE_FIDELITY_AND_SOURCE_INTEGRITY_ONLY",
+  "status": "PASS",
+  "fullMigrationEquivalence": "UNKNOWN",
+  "bindingsChecked": 57,
+  "uniqueMetadataKeys": 55,
+  "sourceRawResponsesVerified": 64,
+  "referenceReleaseSha256": "b6c435a28f8bb1a8faab237258161edf0233b2ce3608ff4e025a8ae2a11acede",
+  "sourceExportSha256": "32693903ed8f7147be2ca3d21877056b8e728388430416e6345577c2234b4fed",
+  "candidateSha256": "9a0294dfbe4f176a536996db4c855c94374704e7f1e94c5be23ade43fd24f795",
+  "humanApproved": false,
+  "runtimeEnabled": false
+}

@@ -1,0 +1,13 @@
+{
+  "vocabulary": "srsc",
+  "captureStatus": "PASS_REACHABLE_HAL_TREE",
+  "nodeCount": 665,
+  "edgeCount": 653,
+  "rootCount": 12,
+  "rawResponseCount": 126,
+  "exportSha256": "af9f23beadacf6793b3495df28f38f59dec3b61034219e1dac518ba52a511f0e",
+  "treeSha256": "9500d4911faae92f1730a26f601fdf42cebb1273a4fdd74747598f882f44f69e",
+  "capturedAt": "2026-10-21T12:34:54.806483+00:00",
+  "historicalEquivalence": "UNKNOWN",
+  "serverXmlEquivalence": "NOT_TESTED"
+}

@@ -1,0 +1,13 @@
+{
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/search/bySchema?page=0&size=100&schema=periodical"
+    }
+  },
+  "page" : {
+    "size" : 100,
+    "totalElements" : 0,
+    "totalPages" : 0,
+    "number" : 0
+  }
+}

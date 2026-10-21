@@ -1,0 +1,19 @@
+[
+  {
+    "requested_url": "https://www.iifl.unam.mx/server/api/core/collections/e9a8f44f-a8d3-4d22-b02a-cf590285bac6",
+    "captured_at": "2026-10-21T04:51:35.615897+00:00",
+    "endpoint": "https://www.iifl.unam.mx/server/api/core/collections/e9a8f44f-a8d3-4d22-b02a-cf590285bac6",
+    "redirects": [
+      {
+        "url": "https://www.iifl.unam.mx/server/api/core/collections/e9a8f44f-a8d3-4d22-b02a-cf590285bac6",
+        "status": 404
+      }
+    ],
+    "http_status": 404,
+    "content_type": "application/hal+json;charset=UTF-8",
+    "sha256": "00437773a75c4c58ff857de900568f48c14b536087feac2be2d0b5441f802774",
+    "bytes": 191,
+    "raw_file": "00437773a75c4c58ff857de900568f48c14b536087feac2be2d0b5441f802774.response",
+    "preview": "{\"timestamp\":\"2026-10-21T04:51:37.141+00:00\",\"status\":404,\"error\":\"Not Found\",\"message\":\"An exception has occurred\",\"path\":\"/server/api/core/collections/e9a8f44f-a8d3-4d22-b02a-cf590285bac6\"}"
+  }
+]

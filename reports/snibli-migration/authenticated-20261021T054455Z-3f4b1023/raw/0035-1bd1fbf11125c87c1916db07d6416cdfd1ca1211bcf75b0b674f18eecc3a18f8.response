@@ -1,0 +1,349 @@
+{
+  "_embedded" : {
+    "vocabularies" : [ {
+      "id" : "selfDenominationPairs",
+      "name" : "selfDenominationPairs",
+      "scrollable" : true,
+      "hierarchical" : false,
+      "preloadLevel" : null,
+      "type" : "vocabulary",
+      "_links" : {
+        "entries" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularies/selfDenominationPairs/entries"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularies/selfDenominationPairs"
+        }
+      }
+    }, {
+      "id" : "linguisticFamilyPairs",
+      "name" : "linguisticFamilyPairs",
+      "scrollable" : true,
+      "hierarchical" : false,
+      "preloadLevel" : null,
+      "type" : "vocabulary",
+      "_links" : {
+        "entries" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularies/linguisticFamilyPairs/entries"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularies/linguisticFamilyPairs"
+        }
+      }
+    }, {
+      "id" : "educationLevelPairs",
+      "name" : "educationLevelPairs",
+      "scrollable" : true,
+      "hierarchical" : false,
+      "preloadLevel" : null,
+      "type" : "vocabulary",
+      "_links" : {
+        "entries" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularies/educationLevelPairs/entries"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularies/educationLevelPairs"
+        }
+      }
+    }, {
+      "id" : "linguisticBranchPairs",
+      "name" : "linguisticBranchPairs",
+      "scrollable" : true,
+      "hierarchical" : false,
+      "preloadLevel" : null,
+      "type" : "vocabulary",
+      "_links" : {
+        "entries" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularies/linguisticBranchPairs/entries"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularies/linguisticBranchPairs"
+        }
+      }
+    }, {
+      "id" : "extentTypePairs",
+      "name" : "extentTypePairs",
+      "scrollable" : true,
+      "hierarchical" : false,
+      "preloadLevel" : null,
+      "type" : "vocabulary",
+      "_links" : {
+        "entries" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularies/extentTypePairs/entries"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularies/extentTypePairs"
+        }
+      }
+    }, {
+      "id" : "languageUsagePairs",
+      "name" : "languageUsagePairs",
+      "scrollable" : true,
+      "hierarchical" : false,
+      "preloadLevel" : null,
+      "type" : "vocabulary",
+      "_links" : {
+        "entries" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularies/languageUsagePairs/entries"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularies/languageUsagePairs"
+        }
+      }
+    }, {
+      "id" : "common_types",
+      "name" : "common_types",
+      "scrollable" : true,
+      "hierarchical" : false,
+      "preloadLevel" : null,
+      "type" : "vocabulary",
+      "_links" : {
+        "entries" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularies/common_types/entries"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularies/common_types"
+        }
+      }
+    }, {
+      "id" : "accessRightsPairs",
+      "name" : "accessRightsPairs",
+      "scrollable" : true,
+      "hierarchical" : false,
+      "preloadLevel" : null,
+      "type" : "vocabulary",
+      "_links" : {
+        "entries" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularies/accessRightsPairs/entries"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularies/accessRightsPairs"
+        }
+      }
+    }, {
+      "id" : "iso6391Pairs",
+      "name" : "iso6391Pairs",
+      "scrollable" : true,
+      "hierarchical" : false,
+      "preloadLevel" : null,
+      "type" : "vocabulary",
+      "_links" : {
+        "entries" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularies/iso6391Pairs/entries"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularies/iso6391Pairs"
+        }
+      }
+    }, {
+      "id" : "linguiscgroupPairs",
+      "name" : "linguiscgroupPairs",
+      "scrollable" : true,
+      "hierarchical" : false,
+      "preloadLevel" : null,
+      "type" : "vocabulary",
+      "_links" : {
+        "entries" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularies/linguiscgroupPairs/entries"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularies/linguiscgroupPairs"
+        }
+      }
+    }, {
+      "id" : "openaire_types",
+      "name" : "openaire_types",
+      "scrollable" : true,
+      "hierarchical" : false,
+      "preloadLevel" : null,
+      "type" : "vocabulary",
+      "_links" : {
+        "entries" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularies/openaire_types/entries"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularies/openaire_types"
+        }
+      }
+    }, {
+      "id" : "primaryClassificationPairs",
+      "name" : "primaryClassificationPairs",
+      "scrollable" : true,
+      "hierarchical" : false,
+      "preloadLevel" : null,
+      "type" : "vocabulary",
+      "_links" : {
+        "entries" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularies/primaryClassificationPairs/entries"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularies/primaryClassificationPairs"
+        }
+      }
+    }, {
+      "id" : "languageTargetPairs",
+      "name" : "languageTargetPairs",
+      "scrollable" : true,
+      "hierarchical" : false,
+      "preloadLevel" : null,
+      "type" : "vocabulary",
+      "_links" : {
+        "entries" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularies/languageTargetPairs/entries"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularies/languageTargetPairs"
+        }
+      }
+    }, {
+      "id" : "genrePairs",
+      "name" : "genrePairs",
+      "scrollable" : true,
+      "hierarchical" : false,
+      "preloadLevel" : null,
+      "type" : "vocabulary",
+      "_links" : {
+        "entries" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularies/genrePairs/entries"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularies/genrePairs"
+        }
+      }
+    }, {
+      "id" : "topicsPairs",
+      "name" : "topicsPairs",
+      "scrollable" : true,
+      "hierarchical" : false,
+      "preloadLevel" : null,
+      "type" : "vocabulary",
+      "_links" : {
+        "entries" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularies/topicsPairs/entries"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularies/topicsPairs"
+        }
+      }
+    }, {
+      "id" : "registeredLanguagePairs",
+      "name" : "registeredLanguagePairs",
+      "scrollable" : true,
+      "hierarchical" : false,
+      "preloadLevel" : null,
+      "type" : "vocabulary",
+      "_links" : {
+        "entries" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularies/registeredLanguagePairs/entries"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularies/registeredLanguagePairs"
+        }
+      }
+    }, {
+      "id" : "srsc",
+      "name" : "srsc",
+      "scrollable" : false,
+      "hierarchical" : true,
+      "preloadLevel" : 1,
+      "type" : "vocabulary",
+      "_links" : {
+        "entries" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularies/srsc/entries"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularies/srsc"
+        }
+      }
+    }, {
+      "id" : "openaire_organization_types",
+      "name" : "openaire_organization_types",
+      "scrollable" : true,
+      "hierarchical" : false,
+      "preloadLevel" : null,
+      "type" : "vocabulary",
+      "_links" : {
+        "entries" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularies/openaire_organization_types/entries"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularies/openaire_organization_types"
+        }
+      }
+    }, {
+      "id" : "mediumPairs",
+      "name" : "mediumPairs",
+      "scrollable" : true,
+      "hierarchical" : false,
+      "preloadLevel" : null,
+      "type" : "vocabulary",
+      "_links" : {
+        "entries" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularies/mediumPairs/entries"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularies/mediumPairs"
+        }
+      }
+    }, {
+      "id" : "licensePairs",
+      "name" : "licensePairs",
+      "scrollable" : true,
+      "hierarchical" : false,
+      "preloadLevel" : null,
+      "type" : "vocabulary",
+      "_links" : {
+        "entries" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularies/licensePairs/entries"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularies/licensePairs"
+        }
+      }
+    }, {
+      "id" : "common_iso_languages",
+      "name" : "common_iso_languages",
+      "scrollable" : true,
+      "hierarchical" : false,
+      "preloadLevel" : null,
+      "type" : "vocabulary",
+      "_links" : {
+        "entries" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularies/common_iso_languages/entries"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularies/common_iso_languages"
+        }
+      }
+    }, {
+      "id" : "openaire_version_types",
+      "name" : "openaire_version_types",
+      "scrollable" : true,
+      "hierarchical" : false,
+      "preloadLevel" : null,
+      "type" : "vocabulary",
+      "_links" : {
+        "entries" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularies/openaire_version_types/entries"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularies/openaire_version_types"
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularies?page=0&size=100"
+    },
+    "search" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularies/search"
+    }
+  },
+  "page" : {
+    "size" : 100,
+    "totalElements" : 22,
+    "totalPages" : 1,
+    "number" : 0
+  }
+}

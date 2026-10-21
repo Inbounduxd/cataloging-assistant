@@ -1,0 +1,211 @@
+{
+  "_embedded" : {
+    "entries" : [ {
+      "display" : "Indoeuropeo",
+      "value" : "Indoeuropeo",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Maya",
+      "value" : "Maya",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Oto-mangue",
+      "value" : "Oto-mangue",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Mixe-zoque",
+      "value" : "Mixe-zoque",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Yuto-nahua",
+      "value" : "Yuto-nahua",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Cochimí-yumana",
+      "value" : "Cochimí-yumana",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Chontal de Oaxaca",
+      "value" : "Chontal de Oaxaca",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Huave",
+      "value" : "Huave",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Álgica",
+      "value" : "Álgica",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Seri",
+      "value" : "Seri",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Tarasca",
+      "value" : "Tarasca",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Totonaco-tepehua",
+      "value" : "Totonaco-tepehua",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Afroasiática",
+      "value" : "Afroasiática",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "caucásica",
+      "value" : "caucásica",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Indoeuropeo",
+      "value" : "Indoeuropeo",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Niger-congo",
+      "value" : "Niger-congo",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Caucásica nororiental",
+      "value" : "Caucásica nororiental",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Aimárica",
+      "value" : "Aimárica",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Túrquica",
+      "value" : "Túrquica",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Criolla",
+      "value" : "Criolla",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Sino-tibetana",
+      "value" : "Sino-tibetana",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Austronesia",
+      "value" : "Austronesia",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Álgica",
+      "value" : "Álgica",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Lengua construida",
+      "value" : "Lengua construida",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Urálica",
+      "value" : "Urálica",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Aislada",
+      "value" : "Aislada",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Tupí",
+      "value" : "Tupí",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Esquimo-aleutiana",
+      "value" : "Esquimo-aleutiana",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Japonica",
+      "value" : "Japonica",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Kartveliana",
+      "value" : "Kartveliana",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Austroasiática",
+      "value" : "Austroasiática",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Dravídica",
+      "value" : "Dravídica",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Coreánica",
+      "value" : "Coreánica",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Sahariana",
+      "value" : "Sahariana",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Kra-dai",
+      "value" : "Kra-dai",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Mongólica",
+      "value" : "Mongólica",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Na-dené",
+      "value" : "Na-dené",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Quechua",
+      "value" : "Quechua",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Ubanguiana",
+      "value" : "Ubanguiana",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 39
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularies/linguisticFamilyPairs/entries?page=0&size=100"
+    }
+  }
+}

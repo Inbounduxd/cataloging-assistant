@@ -2,11 +2,12 @@ import uuid
 from unittest.mock import AsyncMock, MagicMock
 
 import pytest
+from sqlalchemy.ext.asyncio import AsyncSession
 
 from cataloging_api.dspace.contract_store import (
+    RUN_COMPLETE,
     DSpaceContractRawPage,
     DSpaceContractSyncRun,
-    RUN_COMPLETE,
     canonical_raw_hash,
     checkpoint_next_page,
     persist_page_and_advance_checkpoint,
@@ -28,7 +29,7 @@ def _run() -> DSpaceContractSyncRun:
 
 
 def _session_with_existing(existing: DSpaceContractRawPage | None) -> AsyncMock:
-    session = AsyncMock()
+    session = AsyncMock(spec=AsyncSession)
     result = MagicMock()
     result.scalar_one_or_none.return_value = existing
     session.execute.return_value = result

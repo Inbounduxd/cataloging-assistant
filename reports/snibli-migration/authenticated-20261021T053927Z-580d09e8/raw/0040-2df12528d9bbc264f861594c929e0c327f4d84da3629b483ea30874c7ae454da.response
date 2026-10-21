@@ -1,0 +1,51 @@
+{
+  "_embedded" : {
+    "entries" : [ {
+      "display" : "Impreso (páginas)",
+      "value" : "Impreso",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Impreso (hojas)",
+      "value" : "Impreso hojas",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Digital (páginas)",
+      "value" : "Digital",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Digital (hojas)",
+      "value" : "Digital hojas",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Fotografía",
+      "value" : "Fotografía",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Libro",
+      "value" : "Libro",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Dirección electrónica",
+      "value" : "Dirección electrónica",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 7
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularies/extentTypePairs/entries?page=0&size=100"
+    }
+  }
+}

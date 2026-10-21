@@ -1,0 +1,85 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:SCB1821",
+      "display" : "Dermatology and venerology",
+      "value" : "MEDICINE::Dermatology and venerology,clinical genetics, internal medicine::Dermatology and venerology",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Dermatology and venerology,clinical genetics, internal medicine",
+        "note" : "Dermatologi och venerologi",
+        "hasChildren" : "false",
+        "id" : "SCB1821"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1821/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1821/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1821"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1822",
+      "display" : "Clinical genetics",
+      "value" : "MEDICINE::Dermatology and venerology,clinical genetics, internal medicine::Clinical genetics",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Dermatology and venerology,clinical genetics, internal medicine",
+        "note" : "Klinisk genetik",
+        "hasChildren" : "true",
+        "id" : "SCB1822"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1822/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1822/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1822"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1823",
+      "display" : "Internal medicine",
+      "value" : "MEDICINE::Dermatology and venerology,clinical genetics, internal medicine::Internal medicine",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Dermatology and venerology,clinical genetics, internal medicine",
+        "note" : "Invärtesmedicin",
+        "hasChildren" : "true",
+        "id" : "SCB1823"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1823/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1823/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1823"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 3
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB182/children?page=0&size=100"
+    }
+  }
+}

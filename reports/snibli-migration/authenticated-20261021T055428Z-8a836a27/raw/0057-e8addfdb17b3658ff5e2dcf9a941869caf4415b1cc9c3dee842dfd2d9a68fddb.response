@@ -1,0 +1,216 @@
+{
+  "_embedded" : {
+    "entries" : [ {
+      "display" : "Lingüística",
+      "value" : "Lingüística",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Educación",
+      "value" : "Educación",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Alfabetización",
+      "value" : "Alfabetización",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Lexicografía",
+      "value" : "Lexicografía",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Lexicología",
+      "value" : "Lexicología",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Morfosintaxis",
+      "value" : "Morfosintaxis",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Semántica",
+      "value" : "Semántica",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Sociolingüística",
+      "value" : "Sociolingüística",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Historiografía lingüística",
+      "value" : "Historiografía lingüística",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Documentación lingüística",
+      "value" : "Documentación lingüística",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Etnohistoria",
+      "value" : "Etnohistoria",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Educación indígena",
+      "value" : "Educación indígena",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Fonología",
+      "value" : "Fonología",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Fonética",
+      "value" : "Fonética",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Morfología",
+      "value" : "Morfología",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Sintaxis",
+      "value" : "Sintaxis",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Pragmática",
+      "value" : "Pragmática",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Descripción gramatical",
+      "value" : "Descripción gramatical",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Planificación lingüística",
+      "value" : "Planificación lingüística",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Políticas lingüísticas",
+      "value" : "Políticas lingüísticas",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Literatura indígena",
+      "value" : "Literatura indígena",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Narrativa",
+      "value" : "Narrativa",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Traducción",
+      "value" : "Traducción",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Interpretación",
+      "value" : "Interpretación",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Contacto lingüístico",
+      "value" : "Contacto lingüístico",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Análisis del discurso",
+      "value" : "Análisis del discurso",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Etnolingüística",
+      "value" : "Etnolingüística",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Familias lingüísticas",
+      "value" : "Familias lingüísticas",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Género lingüístico",
+      "value" : "Género lingüístico",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Psicolingüística",
+      "value" : "Psicolingüística",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Patrimonio lingüístico",
+      "value" : "Patrimonio lingüístico",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Diversidad lingüística",
+      "value" : "Diversidad lingüística",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Corpus lingüístico",
+      "value" : "Corpus lingüístico",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Campos semánticos",
+      "value" : "Campos semánticos",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Partículas discursivas",
+      "value" : "Partículas discursivas",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Técnicas etnográficas",
+      "value" : "Técnicas etnográficas",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Transcripción",
+      "value" : "Transcripción",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Género gramatical",
+      "value" : "Género gramatical",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Filología indoamericana",
+      "value" : "Filología indoamericana",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Etnografía",
+      "value" : "Etnografía",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 40
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularies/topicsPairs/entries?page=0&size=100"
+    }
+  }
+}

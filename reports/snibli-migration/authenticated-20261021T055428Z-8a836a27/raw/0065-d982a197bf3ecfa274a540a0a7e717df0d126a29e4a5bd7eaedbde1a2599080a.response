@@ -1,0 +1,81 @@
+{
+  "_embedded" : {
+    "entries" : [ {
+      "display" : "Creative Commons",
+      "value" : "Creative Commons",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Dominio público",
+      "value" : "Dominio público",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Atribución 4.0 Internacional. https://creativecommons.org/licenses/by/4.0/",
+      "value" : "Atribución 4.0 Internacional. https://creativecommons.org/licenses/by/4.0/",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Atribución-CompartirIgual 4.0 Internacional. https://creativecommons.org/licenses/by-sa/4.0/",
+      "value" : "Atribución-CompartirIgual 4.0 Internacional. https://creativecommons.org/licenses/by-sa/4.0/",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Atribución-NoComercial 4.0 Internacional. https://creativecommons.org/licenses/by-nc/4.0/",
+      "value" : "Atribución-NoComercial 4.0 Internacional. https://creativecommons.org/licenses/by-nc/4.0/",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Atribución-NoComercial-CompartirIgual 4.0 Internacional. https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "value" : "Atribución-NoComercial-CompartirIgual 4.0 Internacional. https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Atribución-SinDerivadas 4.0 Internacional. https://creativecommons.org/licenses/by-nd/4.0/",
+      "value" : "Atribución-SinDerivadas 4.0 Internacional. https://creativecommons.org/licenses/by-nd/4.0/",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Atribución-NoComercial-SinDerivadas 4.0 Internacional. https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "value" : "Atribución-NoComercial-SinDerivadas 4.0 Internacional. https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "CC0 1.0 Universal. https://creativecommons.org/publicdomain/zero/1.0/",
+      "value" : "CC0 1.0 Universal. https://creativecommons.org/publicdomain/zero/1.0/",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Reconocimiento-Uso no Comercial-Sin Obras Derivadas 2.5 (Perú)",
+      "value" : "Reconocimiento-Uso no Comercial-Sin Obras Derivadas 2.5 (Perú) https://creativecommons.org/licenses/by-nc-nd/2.5/pe/",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Autorisation HAL v1",
+      "value" : "Autorisation HAL v1 https://about.hal.science/hal-authorisation-v1/#autorisation-hal-v1",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Copyright/Todos los derechos reservados",
+      "value" : "Copyright/Todos los derechos reservados",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Copyleft",
+      "value" : "Copyleft",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 13
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularies/licensePairs/entries?page=0&size=100"
+    }
+  }
+}

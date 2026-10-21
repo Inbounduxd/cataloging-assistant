@@ -1,0 +1,18 @@
+{
+  "selected_by": "operator_provided_frontend_url",
+  "frontend_url": "https://www.iifl.unam.mx/SNIBLI/collections/3ce3afb3-94ed-4f60-bfda-0a1242c4d689",
+  "uuid": "3ce3afb3-94ed-4f60-bfda-0a1242c4d689",
+  "name": "Lingüística Maayat'aan, Maya",
+  "handle": "123456789/393",
+  "identity_evidence": "Existing authenticated collections inventory in export.json",
+  "historical_pilot_equivalence": "UNKNOWN",
+  "active_definition_public_probe": {
+    "endpoint": "https://www.iifl.unam.mx/server/api/config/submissiondefinitions/search/findByCollection?uuid=3ce3afb3-94ed-4f60-bfda-0a1242c4d689",
+    "captured_at": "2026-10-21T05:52:44.937548+00:00",
+    "method": "GET",
+    "authenticated": false,
+    "http_status": 401,
+    "raw_file": "collection-definition-public.response",
+    "sha256": "44efabe991fd368c8e96710e2e4cace02df2dd60237fec13a4c06c8eb0b22071"
+  }
+}

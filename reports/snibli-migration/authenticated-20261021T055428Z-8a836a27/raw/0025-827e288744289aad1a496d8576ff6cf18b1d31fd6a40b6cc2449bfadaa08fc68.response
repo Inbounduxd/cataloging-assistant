@@ -1,0 +1,232 @@
+{
+  "_embedded" : {
+    "metadatafields" : [ {
+      "id" : 255,
+      "element" : "canvas",
+      "qualifier" : "naming",
+      "scopeNote" : "Metadata field used to set the base label used to name all the canvas in the Item. The canvas label will be generated using the value of this metadata as prefix and the canvas position",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/255/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/255"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 17,
+          "prefix" : "iiif",
+          "namespace" : "http://dspace.org/iiif",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/17"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 253,
+      "element" : "description",
+      "qualifier" : null,
+      "scopeNote" : "Metadata field used to set the IIIF description associated with the resource",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/253/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/253"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 17,
+          "prefix" : "iiif",
+          "namespace" : "http://dspace.org/iiif",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/17"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 258,
+      "element" : "image",
+      "qualifier" : "height",
+      "scopeNote" : "Metadata field used to store the height of an image in px",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/258/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/258"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 17,
+          "prefix" : "iiif",
+          "namespace" : "http://dspace.org/iiif",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/17"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 257,
+      "element" : "image",
+      "qualifier" : "width",
+      "scopeNote" : "Metadata field used to store the width of an image in px",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/257/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/257"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 17,
+          "prefix" : "iiif",
+          "namespace" : "http://dspace.org/iiif",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/17"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 252,
+      "element" : "label",
+      "qualifier" : null,
+      "scopeNote" : "Metadata field used to set the IIIF label associated with the resource otherwise the system will derive one according to the configuration and metadata",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/252/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/252"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 17,
+          "prefix" : "iiif",
+          "namespace" : "http://dspace.org/iiif",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/17"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 259,
+      "element" : "search",
+      "qualifier" : "enabled",
+      "scopeNote" : "Metadata field used to enable the IIIF Search service at the item level",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/259/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/259"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 17,
+          "prefix" : "iiif",
+          "namespace" : "http://dspace.org/iiif",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/17"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 254,
+      "element" : "toc",
+      "qualifier" : null,
+      "scopeNote" : "Metadata field used to set the position of the iiif resource in the structure. Levels are separated by triple pipe ||| can be applied to Bundles and Bitstreams",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/254/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/254"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 17,
+          "prefix" : "iiif",
+          "namespace" : "http://dspace.org/iiif",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/17"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 256,
+      "element" : "viewing",
+      "qualifier" : "hint",
+      "scopeNote" : "Metadata field used to set the viewing hint overriding the configuration value if any",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/256/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/256"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 17,
+          "prefix" : "iiif",
+          "namespace" : "http://dspace.org/iiif",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/17"
+            }
+          }
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/search/bySchema?page=0&size=100&schema=iiif"
+    }
+  },
+  "page" : {
+    "size" : 100,
+    "totalElements" : 8,
+    "totalPages" : 1,
+    "number" : 0
+  }
+}

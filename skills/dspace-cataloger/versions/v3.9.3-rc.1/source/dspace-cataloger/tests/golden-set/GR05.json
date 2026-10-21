@@ -1,0 +1,14 @@
+{
+  "goldenRecord": "GR05",
+  "recordId": 20785,
+  "title": "Análisis acústico y descripción de procesos fonológicos del maya lacandón",
+  "status": "PILOT_ACCEPTED",
+  "purpose": "Semantic regression fixture. Does not contain full copyrighted source text.",
+  "expectedRules": [
+    "LACANDON_OBJECT_LANGUAGE",
+    "SELF_DENOMINATION_VOCABULARY_GAP",
+    "DATE_DISCREPANCY_PRESERVED",
+    "EXAMPLES_DO_NOT_IMPLY_BILINGUAL"
+  ],
+  "mustNever": []
+}

@@ -1,0 +1,453 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:SCB1901",
+      "display" : "Biochemistry",
+      "value" : "ODONTOLOGY::Biochemistry",
+      "otherInformation" : {
+        "parent" : "ODONTOLOGY",
+        "note" : "Biokemi",
+        "hasChildren" : "false",
+        "id" : "SCB1901"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1901/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1901/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1901"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1902",
+      "display" : "Biomaterials",
+      "value" : "ODONTOLOGY::Biomaterials",
+      "otherInformation" : {
+        "parent" : "ODONTOLOGY",
+        "note" : "Biomaterial",
+        "hasChildren" : "false",
+        "id" : "SCB1902"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1902/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1902/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1902"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1903",
+      "display" : "Cariology",
+      "value" : "ODONTOLOGY::Cariology",
+      "otherInformation" : {
+        "parent" : "ODONTOLOGY",
+        "note" : "Cariologi",
+        "hasChildren" : "false",
+        "id" : "SCB1903"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1903/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1903/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1903"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1904",
+      "display" : "Cell and  molecular biology",
+      "value" : "ODONTOLOGY::Cell and  molecular biology",
+      "otherInformation" : {
+        "parent" : "ODONTOLOGY",
+        "note" : "Cell- och molekylärbiologi",
+        "hasChildren" : "false",
+        "id" : "SCB1904"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1904/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1904/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1904"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1905",
+      "display" : "Endodontology",
+      "value" : "ODONTOLOGY::Endodontology",
+      "otherInformation" : {
+        "parent" : "ODONTOLOGY",
+        "note" : "Endodonti",
+        "hasChildren" : "false",
+        "id" : "SCB1905"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1905/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1905/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1905"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1906",
+      "display" : "Pharmacological research",
+      "value" : "ODONTOLOGY::Pharmacological research",
+      "otherInformation" : {
+        "parent" : "ODONTOLOGY",
+        "note" : "Farmakologisk forskning",
+        "hasChildren" : "false",
+        "id" : "SCB1906"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1906/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1906/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1906"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1907",
+      "display" : "Physiology",
+      "value" : "ODONTOLOGY::Physiology",
+      "otherInformation" : {
+        "parent" : "ODONTOLOGY",
+        "note" : "Fysiologi",
+        "hasChildren" : "false",
+        "id" : "SCB1907"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1907/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1907/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1907"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1908",
+      "display" : "Gerodontology",
+      "value" : "ODONTOLOGY::Gerodontology",
+      "otherInformation" : {
+        "parent" : "ODONTOLOGY",
+        "note" : "Gerodontologi",
+        "hasChildren" : "false",
+        "id" : "SCB1908"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1908/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1908/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1908"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1911",
+      "display" : "Surgical research",
+      "value" : "ODONTOLOGY::Surgical research",
+      "otherInformation" : {
+        "parent" : "ODONTOLOGY",
+        "note" : "Kirurgisk forskning",
+        "hasChildren" : "false",
+        "id" : "SCB1911"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1911/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1911/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1911"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1912",
+      "display" : "Morphology",
+      "value" : "ODONTOLOGY::Morphology",
+      "otherInformation" : {
+        "parent" : "ODONTOLOGY",
+        "note" : "Morfologi",
+        "hasChildren" : "false",
+        "id" : "SCB1912"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1912/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1912/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1912"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1913",
+      "display" : "Odontological behavioural science",
+      "value" : "ODONTOLOGY::Odontological behavioural science",
+      "otherInformation" : {
+        "parent" : "ODONTOLOGY",
+        "note" : "Odontologisk beteendevetenskap",
+        "hasChildren" : "false",
+        "id" : "SCB1913"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1913/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1913/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1913"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1914",
+      "display" : "Oral microbiology",
+      "value" : "ODONTOLOGY::Oral microbiology",
+      "otherInformation" : {
+        "parent" : "ODONTOLOGY",
+        "note" : "Oral mikrobiologi",
+        "hasChildren" : "false",
+        "id" : "SCB1914"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1914/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1914/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1914"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1915",
+      "display" : "Oral pathology and forensic odontology",
+      "value" : "ODONTOLOGY::Oral pathology and forensic odontology",
+      "otherInformation" : {
+        "parent" : "ODONTOLOGY",
+        "note" : "Oral patologi och rättsodontologi",
+        "hasChildren" : "false",
+        "id" : "SCB1915"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1915/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1915/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1915"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1916",
+      "display" : "Oral prosthetics",
+      "value" : "ODONTOLOGY::Oral prosthetics",
+      "otherInformation" : {
+        "parent" : "ODONTOLOGY",
+        "note" : "Oral protetik",
+        "hasChildren" : "false",
+        "id" : "SCB1916"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1916/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1916/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1916"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1917",
+      "display" : "Orthodontics",
+      "value" : "ODONTOLOGY::Orthodontics",
+      "otherInformation" : {
+        "parent" : "ODONTOLOGY",
+        "note" : "Ortodonti",
+        "hasChildren" : "false",
+        "id" : "SCB1917"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1917/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1917/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1917"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1918",
+      "display" : "Periodontology",
+      "value" : "ODONTOLOGY::Periodontology",
+      "otherInformation" : {
+        "parent" : "ODONTOLOGY",
+        "note" : "Parodontologi",
+        "hasChildren" : "false",
+        "id" : "SCB1918"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1918/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1918/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1918"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1921",
+      "display" : "Paedodontics",
+      "value" : "ODONTOLOGY::Paedodontics",
+      "otherInformation" : {
+        "parent" : "ODONTOLOGY",
+        "note" : "Pedodonti",
+        "hasChildren" : "false",
+        "id" : "SCB1921"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1921/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1921/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1921"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1922",
+      "display" : "Radiological research",
+      "value" : "ODONTOLOGY::Radiological research",
+      "otherInformation" : {
+        "parent" : "ODONTOLOGY",
+        "note" : "Radiologisk forskning",
+        "hasChildren" : "false",
+        "id" : "SCB1922"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1922/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1922/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1922"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1929",
+      "display" : "Other odontology",
+      "value" : "ODONTOLOGY::Other odontology",
+      "otherInformation" : {
+        "parent" : "ODONTOLOGY",
+        "note" : "Övrig odontologi",
+        "hasChildren" : "false",
+        "id" : "SCB1929"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1929/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1929/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1929"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 19
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB19/children?page=0&size=100"
+    }
+  }
+}

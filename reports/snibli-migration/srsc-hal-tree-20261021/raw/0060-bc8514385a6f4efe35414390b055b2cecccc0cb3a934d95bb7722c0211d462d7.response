@@ -1,0 +1,292 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:VR111301",
+      "display" : "History",
+      "value" : "HUMANITIES and RELIGION::History and philosophy subjects::History subjects::History",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::History and philosophy subjects::History subjects",
+        "note" : "Historia",
+        "hasChildren" : "false",
+        "id" : "VR111301"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR111301/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR111301/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR111301"
+        }
+      }
+    }, {
+      "id" : "srsc:VR111302",
+      "display" : "History of science and ideas",
+      "value" : "HUMANITIES and RELIGION::History and philosophy subjects::History subjects::History of science and ideas",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::History and philosophy subjects::History subjects",
+        "note" : "Idé- o lärdomshistoria",
+        "hasChildren" : "false",
+        "id" : "VR111302"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR111302/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR111302/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR111302"
+        }
+      }
+    }, {
+      "id" : "srsc:VR111303",
+      "display" : "Economic history",
+      "value" : "HUMANITIES and RELIGION::History and philosophy subjects::History subjects::Economic history",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::History and philosophy subjects::History subjects",
+        "note" : "Ekonomisk historia",
+        "hasChildren" : "false",
+        "id" : "VR111303"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR111303/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR111303/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR111303"
+        }
+      }
+    }, {
+      "id" : "srsc:VR111304",
+      "display" : "Church history",
+      "value" : "HUMANITIES and RELIGION::History and philosophy subjects::History subjects::Church history",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::History and philosophy subjects::History subjects",
+        "note" : "Kyrkohistoria",
+        "hasChildren" : "false",
+        "id" : "VR111304"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR111304/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR111304/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR111304"
+        }
+      }
+    }, {
+      "id" : "srsc:VR111305",
+      "display" : "History of technology",
+      "value" : "HUMANITIES and RELIGION::History and philosophy subjects::History subjects::History of technology",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::History and philosophy subjects::History subjects",
+        "note" : "Teknikhistoria",
+        "hasChildren" : "false",
+        "id" : "VR111305"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR111305/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR111305/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR111305"
+        }
+      }
+    }, {
+      "id" : "srsc:VR111306",
+      "display" : "Technology and culture",
+      "value" : "HUMANITIES and RELIGION::History and philosophy subjects::History subjects::Technology and culture",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::History and philosophy subjects::History subjects",
+        "note" : "Teknik och kultur",
+        "hasChildren" : "false",
+        "id" : "VR111306"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR111306/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR111306/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR111306"
+        }
+      }
+    }, {
+      "id" : "srsc:VR111307",
+      "display" : "History of technology and industry",
+      "value" : "HUMANITIES and RELIGION::History and philosophy subjects::History subjects::History of technology and industry",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::History and philosophy subjects::History subjects",
+        "note" : "Teknik- och industrihistoria",
+        "hasChildren" : "false",
+        "id" : "VR111307"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR111307/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR111307/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR111307"
+        }
+      }
+    }, {
+      "id" : "srsc:VR111308",
+      "display" : "History of science",
+      "value" : "HUMANITIES and RELIGION::History and philosophy subjects::History subjects::History of science",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::History and philosophy subjects::History subjects",
+        "note" : "Vetenskapshistoria",
+        "hasChildren" : "false",
+        "id" : "VR111308"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR111308/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR111308/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR111308"
+        }
+      }
+    }, {
+      "id" : "srsc:VR111309",
+      "display" : "Legal history",
+      "value" : "HUMANITIES and RELIGION::History and philosophy subjects::History subjects::Legal history",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::History and philosophy subjects::History subjects",
+        "note" : "Rättshistoria",
+        "hasChildren" : "false",
+        "id" : "VR111309"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR111309/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR111309/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR111309"
+        }
+      }
+    }, {
+      "id" : "srsc:VR111310",
+      "display" : "History of medicine",
+      "value" : "HUMANITIES and RELIGION::History and philosophy subjects::History subjects::History of medicine",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::History and philosophy subjects::History subjects",
+        "note" : "Medicinens historia",
+        "hasChildren" : "false",
+        "id" : "VR111310"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR111310/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR111310/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR111310"
+        }
+      }
+    }, {
+      "id" : "srsc:VR111311",
+      "display" : "Agricultural history",
+      "value" : "HUMANITIES and RELIGION::History and philosophy subjects::History subjects::Agricultural history",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::History and philosophy subjects::History subjects",
+        "note" : "Agrarhistoria",
+        "hasChildren" : "false",
+        "id" : "VR111311"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR111311/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR111311/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR111311"
+        }
+      }
+    }, {
+      "id" : "srsc:VR111312",
+      "display" : "Book and library history",
+      "value" : "HUMANITIES and RELIGION::History and philosophy subjects::History subjects::Book and library history",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::History and philosophy subjects::History subjects",
+        "note" : "Bok- och bibliotekshistoria",
+        "hasChildren" : "false",
+        "id" : "VR111312"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR111312/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR111312/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR111312"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 12
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1113/children?page=0&size=100"
+    }
+  }
+}

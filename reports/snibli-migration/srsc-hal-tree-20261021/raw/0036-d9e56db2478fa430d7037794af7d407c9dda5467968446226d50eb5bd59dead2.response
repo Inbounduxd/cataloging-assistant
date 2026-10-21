@@ -1,0 +1,269 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:VR164101",
+      "display" : "Genetic engineering including functional genomics",
+      "value" : "TECHNOLOGY::Bioengineering::Genetic engineering including functional genomics",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY::Bioengineering",
+        "note" : "Genteknik inkl. funktionsgenomik",
+        "hasChildren" : "false",
+        "id" : "VR164101"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR164101/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR164101/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR164101"
+        }
+      }
+    }, {
+      "id" : "srsc:VR164102",
+      "display" : "Structural biochemistry",
+      "value" : "TECHNOLOGY::Bioengineering::Structural biochemistry",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY::Bioengineering",
+        "note" : "Strukturbiokemi",
+        "hasChildren" : "false",
+        "id" : "VR164102"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR164102/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR164102/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR164102"
+        }
+      }
+    }, {
+      "id" : "srsc:VR164103",
+      "display" : "Biochemical process engineering",
+      "value" : "TECHNOLOGY::Bioengineering::Biochemical process engineering",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY::Bioengineering",
+        "note" : "Biokemisk och bioteknisk processteknik",
+        "hasChildren" : "false",
+        "id" : "VR164103"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR164103/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR164103/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR164103"
+        }
+      }
+    }, {
+      "id" : "srsc:VR164104",
+      "display" : "Enzyme engineering",
+      "value" : "TECHNOLOGY::Bioengineering::Enzyme engineering",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY::Bioengineering",
+        "note" : "Enzymteknik",
+        "hasChildren" : "false",
+        "id" : "VR164104"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR164104/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR164104/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR164104"
+        }
+      }
+    }, {
+      "id" : "srsc:VR164105",
+      "display" : "Immunology engineering",
+      "value" : "TECHNOLOGY::Bioengineering::Immunology engineering",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY::Bioengineering",
+        "note" : "Immunteknik",
+        "hasChildren" : "false",
+        "id" : "VR164105"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR164105/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR164105/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR164105"
+        }
+      }
+    }, {
+      "id" : "srsc:VR164106",
+      "display" : "Biotechnological separation",
+      "value" : "TECHNOLOGY::Bioengineering::Biotechnological separation",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY::Bioengineering",
+        "note" : "Bioteknisk separation",
+        "hasChildren" : "false",
+        "id" : "VR164106"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR164106/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR164106/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR164106"
+        }
+      }
+    }, {
+      "id" : "srsc:VR164107",
+      "display" : "Bioanalytical engineering",
+      "value" : "TECHNOLOGY::Bioengineering::Bioanalytical engineering",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY::Bioengineering",
+        "note" : "Bioanalytisk teknik",
+        "hasChildren" : "false",
+        "id" : "VR164107"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR164107/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR164107/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR164107"
+        }
+      }
+    }, {
+      "id" : "srsc:VR164108",
+      "display" : "Bioorganical synthesis",
+      "value" : "TECHNOLOGY::Bioengineering::Bioorganical synthesis",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY::Bioengineering",
+        "note" : "Bioorganisk syntes",
+        "hasChildren" : "false",
+        "id" : "VR164108"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR164108/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR164108/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR164108"
+        }
+      }
+    }, {
+      "id" : "srsc:VR164109",
+      "display" : "Plant biotechnology",
+      "value" : "TECHNOLOGY::Bioengineering::Plant biotechnology",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY::Bioengineering",
+        "note" : "Växtbioteknik",
+        "hasChildren" : "false",
+        "id" : "VR164109"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR164109/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR164109/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR164109"
+        }
+      }
+    }, {
+      "id" : "srsc:VR164110",
+      "display" : "Bioinformatics",
+      "value" : "TECHNOLOGY::Bioengineering::Bioinformatics",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY::Bioengineering",
+        "note" : "Bioinformatik",
+        "hasChildren" : "false",
+        "id" : "VR164110"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR164110/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR164110/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR164110"
+        }
+      }
+    }, {
+      "id" : "srsc:VR164900",
+      "display" : "Other bioengineering",
+      "value" : "TECHNOLOGY::Bioengineering::Other bioengineering",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY::Bioengineering",
+        "note" : "Övrig bioteknik",
+        "hasChildren" : "false",
+        "id" : "VR164900"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR164900/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR164900/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR164900"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 11
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB164/children?page=0&size=100"
+    }
+  }
+}

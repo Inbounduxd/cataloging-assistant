@@ -1,0 +1,246 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:SCB160",
+      "display" : "Information technology",
+      "value" : "TECHNOLOGY::Information technology",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY",
+        "note" : "Informationsteknik",
+        "hasChildren" : "true",
+        "id" : "SCB160"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB160/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB160/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB160"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB161",
+      "display" : "Engineering physics",
+      "value" : "TECHNOLOGY::Engineering physics",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY",
+        "note" : "Teknisk fysik",
+        "hasChildren" : "true",
+        "id" : "SCB161"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB161/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB161/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB161"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB162",
+      "display" : "Electrical engineering, electronics and photonics",
+      "value" : "TECHNOLOGY::Electrical engineering, electronics and photonics",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY",
+        "note" : "Elektroteknik, elektronik och fotonik",
+        "hasChildren" : "true",
+        "id" : "SCB162"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB162/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB162/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB162"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB163",
+      "display" : "Chemical engineering",
+      "value" : "TECHNOLOGY::Chemical engineering",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY",
+        "note" : "Kemiteknik",
+        "hasChildren" : "true",
+        "id" : "SCB163"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB163/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB163/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB163"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB164",
+      "display" : "Bioengineering",
+      "value" : "TECHNOLOGY::Bioengineering",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY",
+        "note" : "Bioteknik",
+        "hasChildren" : "true",
+        "id" : "SCB164"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB164/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB164/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB164"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB165",
+      "display" : "Engineering mechanics",
+      "value" : "TECHNOLOGY::Engineering mechanics",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY",
+        "note" : "Teknisk mekanik",
+        "hasChildren" : "true",
+        "id" : "SCB165"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB165/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB165/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB165"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB166",
+      "display" : "Materials science",
+      "value" : "TECHNOLOGY::Materials science",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY",
+        "note" : "Teknisk materialvetenskap",
+        "hasChildren" : "true",
+        "id" : "SCB166"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB166/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB166/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB166"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB167",
+      "display" : "Civil engineering and architecture",
+      "value" : "TECHNOLOGY::Civil engineering and architecture",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY",
+        "note" : "Samhällsbyggnadsteknik och arkitektur",
+        "hasChildren" : "true",
+        "id" : "SCB167"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB167/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB167/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB167"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB168",
+      "display" : "Industrial engineering and economy",
+      "value" : "TECHNOLOGY::Industrial engineering and economy",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY",
+        "note" : "Industriell teknik och ekonomi",
+        "hasChildren" : "true",
+        "id" : "SCB168"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB168/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB168/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB168"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB169",
+      "display" : "Other technology",
+      "value" : "TECHNOLOGY::Other technology",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY",
+        "note" : "Övriga teknikvetenskaper",
+        "hasChildren" : "true",
+        "id" : "SCB169"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB169/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB169/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB169"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 10
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB16/children?page=0&size=100"
+    }
+  }
+}

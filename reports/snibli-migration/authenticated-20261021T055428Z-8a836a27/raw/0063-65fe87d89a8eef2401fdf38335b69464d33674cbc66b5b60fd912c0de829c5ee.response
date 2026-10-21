@@ -1,0 +1,26 @@
+{
+  "_embedded" : {
+    "entries" : [ {
+      "display" : "N/A",
+      "value" : "",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Is a Funding Organization",
+      "value" : "FundingOrganization",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 2
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularies/openaire_organization_types/entries?page=0&size=100"
+    }
+  }
+}

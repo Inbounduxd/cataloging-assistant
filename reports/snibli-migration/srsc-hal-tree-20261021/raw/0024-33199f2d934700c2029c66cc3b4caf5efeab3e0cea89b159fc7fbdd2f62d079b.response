@@ -1,0 +1,62 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:SCB1331",
+      "display" : "Informatics, computer and systems science",
+      "value" : "SOCIAL SCIENCES::Statistics, computer and systems science::Informatics, computer and systems science",
+      "otherInformation" : {
+        "parent" : "SOCIAL SCIENCES::Statistics, computer and systems science",
+        "note" : "Informatik, data- och systemvetenskap",
+        "hasChildren" : "true",
+        "id" : "SCB1331"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1331/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1331/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1331"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1332",
+      "display" : "Statistics",
+      "value" : "SOCIAL SCIENCES::Statistics, computer and systems science::Statistics",
+      "otherInformation" : {
+        "parent" : "SOCIAL SCIENCES::Statistics, computer and systems science",
+        "note" : "Statistik",
+        "hasChildren" : "true",
+        "id" : "SCB1332"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1332/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1332/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1332"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 2
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB133/children?page=0&size=100"
+    }
+  }
+}

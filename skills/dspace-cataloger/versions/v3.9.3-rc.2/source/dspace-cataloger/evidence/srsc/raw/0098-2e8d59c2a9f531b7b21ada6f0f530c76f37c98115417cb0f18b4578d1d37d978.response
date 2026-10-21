@@ -1,0 +1,154 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:VR152301",
+      "display" : "Cell biology",
+      "value" : "NATURAL SCIENCES::Biology::Cell and molecular biology::Cell biology",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Biology::Cell and molecular biology",
+        "note" : "Cellbiologi",
+        "hasChildren" : "false",
+        "id" : "VR152301"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR152301/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR152301/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR152301"
+        }
+      }
+    }, {
+      "id" : "srsc:VR152302",
+      "display" : "Molecular biology",
+      "value" : "NATURAL SCIENCES::Biology::Cell and molecular biology::Molecular biology",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Biology::Cell and molecular biology",
+        "note" : "Molekylärbiologi",
+        "hasChildren" : "false",
+        "id" : "VR152302"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR152302/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR152302/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR152302"
+        }
+      }
+    }, {
+      "id" : "srsc:VR152303",
+      "display" : "Immunology",
+      "value" : "NATURAL SCIENCES::Biology::Cell and molecular biology::Immunology",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Biology::Cell and molecular biology",
+        "note" : "Immunologi",
+        "hasChildren" : "false",
+        "id" : "VR152303"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR152303/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR152303/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR152303"
+        }
+      }
+    }, {
+      "id" : "srsc:VR152304",
+      "display" : "Toxicology",
+      "value" : "NATURAL SCIENCES::Biology::Cell and molecular biology::Toxicology",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Biology::Cell and molecular biology",
+        "note" : "Toxikologi",
+        "hasChildren" : "false",
+        "id" : "VR152304"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR152304/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR152304/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR152304"
+        }
+      }
+    }, {
+      "id" : "srsc:VR152305",
+      "display" : "Neurobiology",
+      "value" : "NATURAL SCIENCES::Biology::Cell and molecular biology::Neurobiology",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Biology::Cell and molecular biology",
+        "note" : "Neurobiologi",
+        "hasChildren" : "false",
+        "id" : "VR152305"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR152305/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR152305/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR152305"
+        }
+      }
+    }, {
+      "id" : "srsc:VR152306",
+      "display" : "Genetics",
+      "value" : "NATURAL SCIENCES::Biology::Cell and molecular biology::Genetics",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Biology::Cell and molecular biology",
+        "note" : "Genetik",
+        "hasChildren" : "false",
+        "id" : "VR152306"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR152306/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR152306/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR152306"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 6
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1523/children?page=0&size=100"
+    }
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:SCB1681",
+      "display" : "Manufacturing engineering and work sciences",
+      "value" : "TECHNOLOGY::Industrial engineering and economy::Manufacturing engineering and work sciences",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY::Industrial engineering and economy",
+        "note" : "Produktion och arbetsvetenskap",
+        "hasChildren" : "true",
+        "id" : "SCB1681"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1681/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1681/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1681"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1682",
+      "display" : "Industrial organisation, administration and economics",
+      "value" : "TECHNOLOGY::Industrial engineering and economy::Industrial organisation, administration and economics",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY::Industrial engineering and economy",
+        "note" : "Industriell organisation, administration och ekonomi",
+        "hasChildren" : "false",
+        "id" : "SCB1682"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1682/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1682/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1682"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1683",
+      "display" : "Physical planning",
+      "value" : "TECHNOLOGY::Industrial engineering and economy::Physical planning",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY::Industrial engineering and economy",
+        "note" : "Fysisk planläggning",
+        "hasChildren" : "false",
+        "id" : "SCB1683"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1683/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1683/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1683"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1689",
+      "display" : "Other industrial engineering and economics",
+      "value" : "TECHNOLOGY::Industrial engineering and economy::Other industrial engineering and economics",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY::Industrial engineering and economy",
+        "note" : "Övrig industriell teknik och ekonomi",
+        "hasChildren" : "false",
+        "id" : "SCB1689"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1689/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1689/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1689"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 4
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB168/children?page=0&size=100"
+    }
+  }
+}

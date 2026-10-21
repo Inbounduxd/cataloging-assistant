@@ -1,0 +1,85 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:VR180301",
+      "display" : "Obstetrics and gynaecology",
+      "value" : "MEDICINE::Surgery::Obstetrics and women's diseases::Obstetrics and gynaecology",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Surgery::Obstetrics and women's diseases",
+        "note" : "Obstetrik och gynekologi",
+        "hasChildren" : "false",
+        "id" : "VR180301"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR180301/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR180301/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR180301"
+        }
+      }
+    }, {
+      "id" : "srsc:VR180302",
+      "display" : "Reproductive health",
+      "value" : "MEDICINE::Surgery::Obstetrics and women's diseases::Reproductive health",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Surgery::Obstetrics and women's diseases",
+        "note" : "Reproduktiv hälsa",
+        "hasChildren" : "false",
+        "id" : "VR180302"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR180302/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR180302/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR180302"
+        }
+      }
+    }, {
+      "id" : "srsc:VR180303",
+      "display" : "Reproductive and perinatal care",
+      "value" : "MEDICINE::Surgery::Obstetrics and women's diseases::Reproductive and perinatal care",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Surgery::Obstetrics and women's diseases",
+        "note" : "Reproduktiv och  perinatal omvårdnad",
+        "hasChildren" : "false",
+        "id" : "VR180303"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR180303/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR180303/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR180303"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 3
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1803/children?page=0&size=100"
+    }
+  }
+}

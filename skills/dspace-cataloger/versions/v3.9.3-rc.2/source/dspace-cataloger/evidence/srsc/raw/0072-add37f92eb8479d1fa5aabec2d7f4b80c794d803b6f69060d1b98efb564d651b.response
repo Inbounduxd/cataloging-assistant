@@ -1,0 +1,85 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:VR131202",
+      "display" : "Applied psychology",
+      "value" : "SOCIAL SCIENCES::Social sciences::Psychology::Applied psychology",
+      "otherInformation" : {
+        "parent" : "SOCIAL SCIENCES::Social sciences::Psychology",
+        "note" : "Tillämpad psykologi",
+        "hasChildren" : "false",
+        "id" : "VR131202"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR131202/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR131202/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR131202"
+        }
+      }
+    }, {
+      "id" : "srsc:VR131203",
+      "display" : "Environmental psychology",
+      "value" : "SOCIAL SCIENCES::Social sciences::Psychology::Environmental psychology",
+      "otherInformation" : {
+        "parent" : "SOCIAL SCIENCES::Social sciences::Psychology",
+        "note" : "Miljöpsykologi",
+        "hasChildren" : "false",
+        "id" : "VR131203"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR131203/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR131203/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR131203"
+        }
+      }
+    }, {
+      "id" : "srsc:VR131204",
+      "display" : "Cognitive science",
+      "value" : "SOCIAL SCIENCES::Social sciences::Psychology::Cognitive science",
+      "otherInformation" : {
+        "parent" : "SOCIAL SCIENCES::Social sciences::Psychology",
+        "note" : "Kognitionsforskning",
+        "hasChildren" : "false",
+        "id" : "VR131204"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR131204/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR131204/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR131204"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 3
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1312/children?page=0&size=100"
+    }
+  }
+}

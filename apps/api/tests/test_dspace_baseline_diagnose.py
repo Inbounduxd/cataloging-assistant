@@ -8,12 +8,12 @@ from cataloging_api.dspace.baseline_diagnose import diagnose_bindings
 
 def _binding(index: int, *, repeatable: bool | None = None) -> dict:
     expected = FIELDS[index]
-    form = "traditionalpageone" if index < 44 else "traditionalpagetwo"
+    form = "traditionalpageone" if index < 45 else "traditionalpagetwo"
     return {
         "bindingKey": f"{form}:{expected.metadata_field}:{index}",
         "form": form,
         "metadata": expected.metadata_field,
-        "position": [0 if index < 44 else 1, index if index < 44 else index - 44, 0, 0],
+        "position": [0 if index < 45 else 1, index if index < 45 else index - 45, 0, 0],
         "label": live_dspace_label(expected),
         "selectorLabel": live_dspace_selector_label(expected),
         "required": expected.required,
@@ -27,8 +27,8 @@ def test_diagnose_bindings_accepts_runtime_contract_aligned_with_live_shape() ->
 
     report = diagnose_bindings(bindings)
 
-    assert report["binding_count"] == 56
-    assert report["expected_binding_count"] == 56
+    assert report["binding_count"] == 57
+    assert report["expected_binding_count"] == 57
     assert report["mismatch_count"] == 0
     assert report["mismatch_dimensions"] == {}
     assert report["mismatches"] == []
@@ -41,7 +41,7 @@ def test_diagnose_bindings_reports_all_mismatches_not_only_first() -> None:
 
     report = diagnose_bindings(bindings)
 
-    assert report["binding_count"] == 56
+    assert report["binding_count"] == 57
     assert report["mismatch_count"] == 2
     assert report["mismatch_dimensions"] == {"label": 1, "repeatable": 1}
     assert {(item["index"], item["dimension"]) for item in report["mismatches"]} == {
@@ -52,8 +52,8 @@ def test_diagnose_bindings_reports_all_mismatches_not_only_first() -> None:
 
 def test_diagnose_bindings_validates_selector_label_independently() -> None:
     bindings = [_binding(index) for index in range(len(FIELDS))]
-    bindings[15] = {
-        **bindings[15],
+    bindings[16] = {
+        **bindings[16],
         "selectorLabel": "WRONG",
     }
 
@@ -63,3 +63,14 @@ def test_diagnose_bindings_validates_selector_label_independently() -> None:
     assert mismatch["dimension"] == "selectorLabel"
     assert mismatch["live"] == "WRONG"
     assert mismatch["expected"] == "ISSN"
+
+
+def test_diagnose_rejects_previous_form_boundary() -> None:
+    bindings = [_binding(index) for index in range(len(FIELDS))]
+    assert bindings[44]["metadata"] == "dc.subject.primaryClassification"
+    assert bindings[45]["metadata"] == "dc.subject"
+    bindings[44]["form"] = "traditionalpagetwo"
+    report = diagnose_bindings(bindings)
+    assert report["mismatch_count"] == 1
+    assert report["mismatches"][0]["dimension"] == "form"
+    assert report["mismatches"][0]["index"] == 44

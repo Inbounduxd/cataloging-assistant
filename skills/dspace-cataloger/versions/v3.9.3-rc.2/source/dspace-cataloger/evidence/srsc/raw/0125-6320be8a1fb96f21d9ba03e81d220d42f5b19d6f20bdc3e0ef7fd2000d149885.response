@@ -1,0 +1,131 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:VR185101",
+      "display" : "Allergology",
+      "value" : "MEDICINE::Microbiology, immunology, infectious diseases::Immunology::Allergology",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Microbiology, immunology, infectious diseases::Immunology",
+        "note" : "Allergologi",
+        "hasChildren" : "false",
+        "id" : "VR185101"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR185101/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR185101/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR185101"
+        }
+      }
+    }, {
+      "id" : "srsc:VR185102",
+      "display" : "Immunogenetics",
+      "value" : "MEDICINE::Microbiology, immunology, infectious diseases::Immunology::Immunogenetics",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Microbiology, immunology, infectious diseases::Immunology",
+        "note" : "Immungenetik",
+        "hasChildren" : "false",
+        "id" : "VR185102"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR185102/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR185102/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR185102"
+        }
+      }
+    }, {
+      "id" : "srsc:VR185104",
+      "display" : "Immunobiology",
+      "value" : "MEDICINE::Microbiology, immunology, infectious diseases::Immunology::Immunobiology",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Microbiology, immunology, infectious diseases::Immunology",
+        "note" : "Immunbiologi",
+        "hasChildren" : "false",
+        "id" : "VR185104"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR185104/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR185104/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR185104"
+        }
+      }
+    }, {
+      "id" : "srsc:VR185105",
+      "display" : "Clinical immunology",
+      "value" : "MEDICINE::Microbiology, immunology, infectious diseases::Immunology::Clinical immunology",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Microbiology, immunology, infectious diseases::Immunology",
+        "note" : "Klinisk immunologi",
+        "hasChildren" : "false",
+        "id" : "VR185105"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR185105/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR185105/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR185105"
+        }
+      }
+    }, {
+      "id" : "srsc:VR185106",
+      "display" : "Tumour immunology",
+      "value" : "MEDICINE::Microbiology, immunology, infectious diseases::Immunology::Tumour immunology",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Microbiology, immunology, infectious diseases::Immunology",
+        "note" : "Tumörimmunologi",
+        "hasChildren" : "false",
+        "id" : "VR185106"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR185106/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR185106/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR185106"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 5
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1851/children?page=0&size=100"
+    }
+  }
+}

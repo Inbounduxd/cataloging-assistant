@@ -1,0 +1,108 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:SCB1751",
+      "display" : "Landscape architecture",
+      "value" : "FORESTRY, AGRICULTURAL SCIENCES and LANDSCAPE PLANNING::Landscape planning::Landscape architecture",
+      "otherInformation" : {
+        "parent" : "FORESTRY, AGRICULTURAL SCIENCES and LANDSCAPE PLANNING::Landscape planning",
+        "note" : "Landskapsarkitektur",
+        "hasChildren" : "false",
+        "id" : "SCB1751"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1751/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1751/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1751"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1752",
+      "display" : "Planting design",
+      "value" : "FORESTRY, AGRICULTURAL SCIENCES and LANDSCAPE PLANNING::Landscape planning::Planting design",
+      "otherInformation" : {
+        "parent" : "FORESTRY, AGRICULTURAL SCIENCES and LANDSCAPE PLANNING::Landscape planning",
+        "note" : "Vegetationsbyggnad",
+        "hasChildren" : "false",
+        "id" : "SCB1752"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1752/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1752/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1752"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1753",
+      "display" : "Nature conservation and landscape management",
+      "value" : "FORESTRY, AGRICULTURAL SCIENCES and LANDSCAPE PLANNING::Landscape planning::Nature conservation and landscape management",
+      "otherInformation" : {
+        "parent" : "FORESTRY, AGRICULTURAL SCIENCES and LANDSCAPE PLANNING::Landscape planning",
+        "note" : "Natur- och landskapsvård",
+        "hasChildren" : "false",
+        "id" : "SCB1753"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1753/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1753/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1753"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1754",
+      "display" : "Comprehensive planning",
+      "value" : "FORESTRY, AGRICULTURAL SCIENCES and LANDSCAPE PLANNING::Landscape planning::Comprehensive planning",
+      "otherInformation" : {
+        "parent" : "FORESTRY, AGRICULTURAL SCIENCES and LANDSCAPE PLANNING::Landscape planning",
+        "note" : "Översiktlig planering",
+        "hasChildren" : "false",
+        "id" : "SCB1754"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1754/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1754/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1754"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 4
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB175/children?page=0&size=100"
+    }
+  }
+}

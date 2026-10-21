@@ -1,0 +1,108 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:VR151502",
+      "display" : "Coordination chemistry",
+      "value" : "NATURAL SCIENCES::Chemistry::Inorganic chemistry::Coordination chemistry",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Chemistry::Inorganic chemistry",
+        "note" : "Koordinationskemi",
+        "hasChildren" : "false",
+        "id" : "VR151502"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR151502/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR151502/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR151502"
+        }
+      }
+    }, {
+      "id" : "srsc:VR151503",
+      "display" : "Solution chemistry",
+      "value" : "NATURAL SCIENCES::Chemistry::Inorganic chemistry::Solution chemistry",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Chemistry::Inorganic chemistry",
+        "note" : "Lösningskemi",
+        "hasChildren" : "false",
+        "id" : "VR151503"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR151503/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR151503/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR151503"
+        }
+      }
+    }, {
+      "id" : "srsc:VR151504",
+      "display" : "Solid state chemistry",
+      "value" : "NATURAL SCIENCES::Chemistry::Inorganic chemistry::Solid state chemistry",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Chemistry::Inorganic chemistry",
+        "note" : "Fasta tillståndets kemi",
+        "hasChildren" : "false",
+        "id" : "VR151504"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR151504/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR151504/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR151504"
+        }
+      }
+    }, {
+      "id" : "srsc:VR151505",
+      "display" : "Bio-inorganic chemistry",
+      "value" : "NATURAL SCIENCES::Chemistry::Inorganic chemistry::Bio-inorganic chemistry",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Chemistry::Inorganic chemistry",
+        "note" : "Bio-oorganisk kemi",
+        "hasChildren" : "false",
+        "id" : "VR151505"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR151505/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR151505/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR151505"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 4
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1515/children?page=0&size=100"
+    }
+  }
+}

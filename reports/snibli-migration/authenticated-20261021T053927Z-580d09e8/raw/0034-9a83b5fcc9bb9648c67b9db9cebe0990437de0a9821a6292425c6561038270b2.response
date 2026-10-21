@@ -1,0 +1,3768 @@
+{
+  "_embedded" : {
+    "collections" : [ {
+      "id" : "bc1c3dc4-9542-441e-9299-5dda9727a5d6",
+      "uuid" : "bc1c3dc4-9542-441e-9299-5dda9727a5d6",
+      "name" : "Salud akateka",
+      "handle" : "123456789/238",
+      "metadata" : {
+        "dc.identifier.uri" : [ {
+          "value" : "http://132.248.101.240:4000/handle/123456789/238",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ],
+        "dc.title" : [ {
+          "value" : "Salud akateka",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "archivedItemsCount" : -1,
+      "type" : "collection",
+      "_links" : {
+        "harvester" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/bc1c3dc4-9542-441e-9299-5dda9727a5d6/harvester"
+        },
+        "itemtemplate" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/bc1c3dc4-9542-441e-9299-5dda9727a5d6/itemtemplate"
+        },
+        "license" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/bc1c3dc4-9542-441e-9299-5dda9727a5d6/license"
+        },
+        "logo" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/bc1c3dc4-9542-441e-9299-5dda9727a5d6/logo"
+        },
+        "mappedItems" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/bc1c3dc4-9542-441e-9299-5dda9727a5d6/mappedItems"
+        },
+        "parentCommunity" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/bc1c3dc4-9542-441e-9299-5dda9727a5d6/parentCommunity"
+        },
+        "adminGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/bc1c3dc4-9542-441e-9299-5dda9727a5d6/adminGroup"
+        },
+        "submittersGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/bc1c3dc4-9542-441e-9299-5dda9727a5d6/submittersGroup"
+        },
+        "itemReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/bc1c3dc4-9542-441e-9299-5dda9727a5d6/itemReadGroup"
+        },
+        "bitstreamReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/bc1c3dc4-9542-441e-9299-5dda9727a5d6/bitstreamReadGroup"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/bc1c3dc4-9542-441e-9299-5dda9727a5d6"
+        },
+        "workflowGroups" : [ {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/bc1c3dc4-9542-441e-9299-5dda9727a5d6/workflowGroups/reviewer",
+          "name" : "reviewer"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/bc1c3dc4-9542-441e-9299-5dda9727a5d6/workflowGroups/editor",
+          "name" : "editor"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/bc1c3dc4-9542-441e-9299-5dda9727a5d6/workflowGroups/finaleditor",
+          "name" : "finaleditor"
+        } ]
+      }
+    }, {
+      "id" : "d41dd7f2-a3aa-4dfc-b7ca-db6f6421c9dd",
+      "uuid" : "d41dd7f2-a3aa-4dfc-b7ca-db6f6421c9dd",
+      "name" : "Salud amuzga",
+      "handle" : "123456789/113",
+      "metadata" : {
+        "dc.identifier.uri" : [ {
+          "value" : "http://132.248.101.240:4000/handle/123456789/113",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ],
+        "dc.title" : [ {
+          "value" : "Salud amuzga",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "archivedItemsCount" : -1,
+      "type" : "collection",
+      "_links" : {
+        "harvester" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/d41dd7f2-a3aa-4dfc-b7ca-db6f6421c9dd/harvester"
+        },
+        "itemtemplate" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/d41dd7f2-a3aa-4dfc-b7ca-db6f6421c9dd/itemtemplate"
+        },
+        "license" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/d41dd7f2-a3aa-4dfc-b7ca-db6f6421c9dd/license"
+        },
+        "logo" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/d41dd7f2-a3aa-4dfc-b7ca-db6f6421c9dd/logo"
+        },
+        "mappedItems" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/d41dd7f2-a3aa-4dfc-b7ca-db6f6421c9dd/mappedItems"
+        },
+        "parentCommunity" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/d41dd7f2-a3aa-4dfc-b7ca-db6f6421c9dd/parentCommunity"
+        },
+        "adminGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/d41dd7f2-a3aa-4dfc-b7ca-db6f6421c9dd/adminGroup"
+        },
+        "submittersGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/d41dd7f2-a3aa-4dfc-b7ca-db6f6421c9dd/submittersGroup"
+        },
+        "itemReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/d41dd7f2-a3aa-4dfc-b7ca-db6f6421c9dd/itemReadGroup"
+        },
+        "bitstreamReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/d41dd7f2-a3aa-4dfc-b7ca-db6f6421c9dd/bitstreamReadGroup"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/d41dd7f2-a3aa-4dfc-b7ca-db6f6421c9dd"
+        },
+        "workflowGroups" : [ {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/d41dd7f2-a3aa-4dfc-b7ca-db6f6421c9dd/workflowGroups/reviewer",
+          "name" : "reviewer"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/d41dd7f2-a3aa-4dfc-b7ca-db6f6421c9dd/workflowGroups/editor",
+          "name" : "editor"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/d41dd7f2-a3aa-4dfc-b7ca-db6f6421c9dd/workflowGroups/finaleditor",
+          "name" : "finaleditor"
+        } ]
+      }
+    }, {
+      "id" : "5d978f4e-7f58-4506-a547-f27cc9edf1d2",
+      "uuid" : "5d978f4e-7f58-4506-a547-f27cc9edf1d2",
+      "name" : "Salud chatina",
+      "handle" : "123456789/112",
+      "metadata" : {
+        "dc.identifier.uri" : [ {
+          "value" : "http://132.248.101.240:4000/handle/123456789/112",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ],
+        "dc.title" : [ {
+          "value" : "Salud chatina",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "archivedItemsCount" : -1,
+      "type" : "collection",
+      "_links" : {
+        "harvester" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/5d978f4e-7f58-4506-a547-f27cc9edf1d2/harvester"
+        },
+        "itemtemplate" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/5d978f4e-7f58-4506-a547-f27cc9edf1d2/itemtemplate"
+        },
+        "license" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/5d978f4e-7f58-4506-a547-f27cc9edf1d2/license"
+        },
+        "logo" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/5d978f4e-7f58-4506-a547-f27cc9edf1d2/logo"
+        },
+        "mappedItems" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/5d978f4e-7f58-4506-a547-f27cc9edf1d2/mappedItems"
+        },
+        "parentCommunity" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/5d978f4e-7f58-4506-a547-f27cc9edf1d2/parentCommunity"
+        },
+        "adminGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/5d978f4e-7f58-4506-a547-f27cc9edf1d2/adminGroup"
+        },
+        "submittersGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/5d978f4e-7f58-4506-a547-f27cc9edf1d2/submittersGroup"
+        },
+        "itemReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/5d978f4e-7f58-4506-a547-f27cc9edf1d2/itemReadGroup"
+        },
+        "bitstreamReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/5d978f4e-7f58-4506-a547-f27cc9edf1d2/bitstreamReadGroup"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/5d978f4e-7f58-4506-a547-f27cc9edf1d2"
+        },
+        "workflowGroups" : [ {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/5d978f4e-7f58-4506-a547-f27cc9edf1d2/workflowGroups/reviewer",
+          "name" : "reviewer"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/5d978f4e-7f58-4506-a547-f27cc9edf1d2/workflowGroups/editor",
+          "name" : "editor"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/5d978f4e-7f58-4506-a547-f27cc9edf1d2/workflowGroups/finaleditor",
+          "name" : "finaleditor"
+        } ]
+      }
+    }, {
+      "id" : "ac797176-98dd-407c-aa81-24dec68d8bd0",
+      "uuid" : "ac797176-98dd-407c-aa81-24dec68d8bd0",
+      "name" : "Salud Chocholteca",
+      "handle" : "123456789/1442",
+      "metadata" : {
+        "dc.identifier.uri" : [ {
+          "value" : "http://132.248.101.240:4000/handle/123456789/1442",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ],
+        "dc.title" : [ {
+          "value" : "Salud Chocholteca",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "archivedItemsCount" : -1,
+      "type" : "collection",
+      "_links" : {
+        "harvester" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/ac797176-98dd-407c-aa81-24dec68d8bd0/harvester"
+        },
+        "itemtemplate" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/ac797176-98dd-407c-aa81-24dec68d8bd0/itemtemplate"
+        },
+        "license" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/ac797176-98dd-407c-aa81-24dec68d8bd0/license"
+        },
+        "logo" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/ac797176-98dd-407c-aa81-24dec68d8bd0/logo"
+        },
+        "mappedItems" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/ac797176-98dd-407c-aa81-24dec68d8bd0/mappedItems"
+        },
+        "parentCommunity" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/ac797176-98dd-407c-aa81-24dec68d8bd0/parentCommunity"
+        },
+        "adminGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/ac797176-98dd-407c-aa81-24dec68d8bd0/adminGroup"
+        },
+        "submittersGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/ac797176-98dd-407c-aa81-24dec68d8bd0/submittersGroup"
+        },
+        "itemReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/ac797176-98dd-407c-aa81-24dec68d8bd0/itemReadGroup"
+        },
+        "bitstreamReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/ac797176-98dd-407c-aa81-24dec68d8bd0/bitstreamReadGroup"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/ac797176-98dd-407c-aa81-24dec68d8bd0"
+        },
+        "workflowGroups" : [ {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/ac797176-98dd-407c-aa81-24dec68d8bd0/workflowGroups/reviewer",
+          "name" : "reviewer"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/ac797176-98dd-407c-aa81-24dec68d8bd0/workflowGroups/editor",
+          "name" : "editor"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/ac797176-98dd-407c-aa81-24dec68d8bd0/workflowGroups/finaleditor",
+          "name" : "finaleditor"
+        } ]
+      }
+    }, {
+      "id" : "4e1a0519-35f3-4eb8-ad7f-e2be4e9e3819",
+      "uuid" : "4e1a0519-35f3-4eb8-ad7f-e2be4e9e3819",
+      "name" : "Salud ch'ol",
+      "handle" : "123456789/702",
+      "metadata" : {
+        "dc.identifier.uri" : [ {
+          "value" : "http://132.248.101.240:4000/handle/123456789/702",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ],
+        "dc.title" : [ {
+          "value" : "Salud ch'ol",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "archivedItemsCount" : -1,
+      "type" : "collection",
+      "_links" : {
+        "harvester" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/4e1a0519-35f3-4eb8-ad7f-e2be4e9e3819/harvester"
+        },
+        "itemtemplate" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/4e1a0519-35f3-4eb8-ad7f-e2be4e9e3819/itemtemplate"
+        },
+        "license" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/4e1a0519-35f3-4eb8-ad7f-e2be4e9e3819/license"
+        },
+        "logo" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/4e1a0519-35f3-4eb8-ad7f-e2be4e9e3819/logo"
+        },
+        "mappedItems" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/4e1a0519-35f3-4eb8-ad7f-e2be4e9e3819/mappedItems"
+        },
+        "parentCommunity" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/4e1a0519-35f3-4eb8-ad7f-e2be4e9e3819/parentCommunity"
+        },
+        "adminGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/4e1a0519-35f3-4eb8-ad7f-e2be4e9e3819/adminGroup"
+        },
+        "submittersGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/4e1a0519-35f3-4eb8-ad7f-e2be4e9e3819/submittersGroup"
+        },
+        "itemReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/4e1a0519-35f3-4eb8-ad7f-e2be4e9e3819/itemReadGroup"
+        },
+        "bitstreamReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/4e1a0519-35f3-4eb8-ad7f-e2be4e9e3819/bitstreamReadGroup"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/4e1a0519-35f3-4eb8-ad7f-e2be4e9e3819"
+        },
+        "workflowGroups" : [ {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/4e1a0519-35f3-4eb8-ad7f-e2be4e9e3819/workflowGroups/reviewer",
+          "name" : "reviewer"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/4e1a0519-35f3-4eb8-ad7f-e2be4e9e3819/workflowGroups/editor",
+          "name" : "editor"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/4e1a0519-35f3-4eb8-ad7f-e2be4e9e3819/workflowGroups/finaleditor",
+          "name" : "finaleditor"
+        } ]
+      }
+    }, {
+      "id" : "9f3592ca-023e-4b19-acda-a7854a5e1962",
+      "uuid" : "9f3592ca-023e-4b19-acda-a7854a5e1962",
+      "name" : "Salud chontal de Oaxaca",
+      "handle" : "123456789/689",
+      "metadata" : {
+        "dc.identifier.uri" : [ {
+          "value" : "http://132.248.101.240:4000/handle/123456789/689",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ],
+        "dc.title" : [ {
+          "value" : "Salud chontal de Oaxaca",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "archivedItemsCount" : -1,
+      "type" : "collection",
+      "_links" : {
+        "harvester" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/9f3592ca-023e-4b19-acda-a7854a5e1962/harvester"
+        },
+        "itemtemplate" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/9f3592ca-023e-4b19-acda-a7854a5e1962/itemtemplate"
+        },
+        "license" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/9f3592ca-023e-4b19-acda-a7854a5e1962/license"
+        },
+        "logo" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/9f3592ca-023e-4b19-acda-a7854a5e1962/logo"
+        },
+        "mappedItems" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/9f3592ca-023e-4b19-acda-a7854a5e1962/mappedItems"
+        },
+        "parentCommunity" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/9f3592ca-023e-4b19-acda-a7854a5e1962/parentCommunity"
+        },
+        "adminGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/9f3592ca-023e-4b19-acda-a7854a5e1962/adminGroup"
+        },
+        "submittersGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/9f3592ca-023e-4b19-acda-a7854a5e1962/submittersGroup"
+        },
+        "itemReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/9f3592ca-023e-4b19-acda-a7854a5e1962/itemReadGroup"
+        },
+        "bitstreamReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/9f3592ca-023e-4b19-acda-a7854a5e1962/bitstreamReadGroup"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/9f3592ca-023e-4b19-acda-a7854a5e1962"
+        },
+        "workflowGroups" : [ {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/9f3592ca-023e-4b19-acda-a7854a5e1962/workflowGroups/reviewer",
+          "name" : "reviewer"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/9f3592ca-023e-4b19-acda-a7854a5e1962/workflowGroups/editor",
+          "name" : "editor"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/9f3592ca-023e-4b19-acda-a7854a5e1962/workflowGroups/finaleditor",
+          "name" : "finaleditor"
+        } ]
+      }
+    }, {
+      "id" : "87ad1605-30fe-41be-a937-fdc95ea1d224",
+      "uuid" : "87ad1605-30fe-41be-a937-fdc95ea1d224",
+      "name" : "Salud chontal de Tabasco",
+      "handle" : "123456789/700",
+      "metadata" : {
+        "dc.identifier.uri" : [ {
+          "value" : "http://132.248.101.240:4000/handle/123456789/700",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ],
+        "dc.title" : [ {
+          "value" : "Salud chontal de Tabasco",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "archivedItemsCount" : -1,
+      "type" : "collection",
+      "_links" : {
+        "harvester" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/87ad1605-30fe-41be-a937-fdc95ea1d224/harvester"
+        },
+        "itemtemplate" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/87ad1605-30fe-41be-a937-fdc95ea1d224/itemtemplate"
+        },
+        "license" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/87ad1605-30fe-41be-a937-fdc95ea1d224/license"
+        },
+        "logo" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/87ad1605-30fe-41be-a937-fdc95ea1d224/logo"
+        },
+        "mappedItems" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/87ad1605-30fe-41be-a937-fdc95ea1d224/mappedItems"
+        },
+        "parentCommunity" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/87ad1605-30fe-41be-a937-fdc95ea1d224/parentCommunity"
+        },
+        "adminGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/87ad1605-30fe-41be-a937-fdc95ea1d224/adminGroup"
+        },
+        "submittersGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/87ad1605-30fe-41be-a937-fdc95ea1d224/submittersGroup"
+        },
+        "itemReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/87ad1605-30fe-41be-a937-fdc95ea1d224/itemReadGroup"
+        },
+        "bitstreamReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/87ad1605-30fe-41be-a937-fdc95ea1d224/bitstreamReadGroup"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/87ad1605-30fe-41be-a937-fdc95ea1d224"
+        },
+        "workflowGroups" : [ {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/87ad1605-30fe-41be-a937-fdc95ea1d224/workflowGroups/reviewer",
+          "name" : "reviewer"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/87ad1605-30fe-41be-a937-fdc95ea1d224/workflowGroups/editor",
+          "name" : "editor"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/87ad1605-30fe-41be-a937-fdc95ea1d224/workflowGroups/finaleditor",
+          "name" : "finaleditor"
+        } ]
+      }
+    }, {
+      "id" : "0a70bb67-66af-4c66-bbe6-6f91b3a57287",
+      "uuid" : "0a70bb67-66af-4c66-bbe6-6f91b3a57287",
+      "name" : "Salud Chuj, Koti' (Chuj)",
+      "handle" : "123456789/515",
+      "metadata" : {
+        "dc.identifier.uri" : [ {
+          "value" : "http://132.248.101.240:4000/handle/123456789/515",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ],
+        "dc.title" : [ {
+          "value" : "Salud Chuj, Koti' (Chuj)",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "archivedItemsCount" : -1,
+      "type" : "collection",
+      "_links" : {
+        "harvester" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/0a70bb67-66af-4c66-bbe6-6f91b3a57287/harvester"
+        },
+        "itemtemplate" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/0a70bb67-66af-4c66-bbe6-6f91b3a57287/itemtemplate"
+        },
+        "license" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/0a70bb67-66af-4c66-bbe6-6f91b3a57287/license"
+        },
+        "logo" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/0a70bb67-66af-4c66-bbe6-6f91b3a57287/logo"
+        },
+        "mappedItems" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/0a70bb67-66af-4c66-bbe6-6f91b3a57287/mappedItems"
+        },
+        "parentCommunity" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/0a70bb67-66af-4c66-bbe6-6f91b3a57287/parentCommunity"
+        },
+        "adminGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/0a70bb67-66af-4c66-bbe6-6f91b3a57287/adminGroup"
+        },
+        "submittersGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/0a70bb67-66af-4c66-bbe6-6f91b3a57287/submittersGroup"
+        },
+        "itemReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/0a70bb67-66af-4c66-bbe6-6f91b3a57287/itemReadGroup"
+        },
+        "bitstreamReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/0a70bb67-66af-4c66-bbe6-6f91b3a57287/bitstreamReadGroup"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/0a70bb67-66af-4c66-bbe6-6f91b3a57287"
+        },
+        "workflowGroups" : [ {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/0a70bb67-66af-4c66-bbe6-6f91b3a57287/workflowGroups/reviewer",
+          "name" : "reviewer"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/0a70bb67-66af-4c66-bbe6-6f91b3a57287/workflowGroups/editor",
+          "name" : "editor"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/0a70bb67-66af-4c66-bbe6-6f91b3a57287/workflowGroups/finaleditor",
+          "name" : "finaleditor"
+        } ]
+      }
+    }, {
+      "id" : "a734e03b-8a15-4750-a48c-e089b41f3016",
+      "uuid" : "a734e03b-8a15-4750-a48c-e089b41f3016",
+      "name" : "Salud Cmiique Iitom (seri)",
+      "handle" : "123456789/574",
+      "metadata" : {
+        "dc.identifier.uri" : [ {
+          "value" : "http://132.248.101.240:4000/handle/123456789/574",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ],
+        "dc.title" : [ {
+          "value" : "Salud Cmiique Iitom (seri)",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "archivedItemsCount" : -1,
+      "type" : "collection",
+      "_links" : {
+        "harvester" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/a734e03b-8a15-4750-a48c-e089b41f3016/harvester"
+        },
+        "itemtemplate" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/a734e03b-8a15-4750-a48c-e089b41f3016/itemtemplate"
+        },
+        "license" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/a734e03b-8a15-4750-a48c-e089b41f3016/license"
+        },
+        "logo" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/a734e03b-8a15-4750-a48c-e089b41f3016/logo"
+        },
+        "mappedItems" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/a734e03b-8a15-4750-a48c-e089b41f3016/mappedItems"
+        },
+        "parentCommunity" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/a734e03b-8a15-4750-a48c-e089b41f3016/parentCommunity"
+        },
+        "adminGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/a734e03b-8a15-4750-a48c-e089b41f3016/adminGroup"
+        },
+        "submittersGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/a734e03b-8a15-4750-a48c-e089b41f3016/submittersGroup"
+        },
+        "itemReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/a734e03b-8a15-4750-a48c-e089b41f3016/itemReadGroup"
+        },
+        "bitstreamReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/a734e03b-8a15-4750-a48c-e089b41f3016/bitstreamReadGroup"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/a734e03b-8a15-4750-a48c-e089b41f3016"
+        },
+        "workflowGroups" : [ {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/a734e03b-8a15-4750-a48c-e089b41f3016/workflowGroups/reviewer",
+          "name" : "reviewer"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/a734e03b-8a15-4750-a48c-e089b41f3016/workflowGroups/editor",
+          "name" : "editor"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/a734e03b-8a15-4750-a48c-e089b41f3016/workflowGroups/finaleditor",
+          "name" : "finaleditor"
+        } ]
+      }
+    }, {
+      "id" : "b21ac86d-dade-49c5-a811-489500d5dfeb",
+      "uuid" : "b21ac86d-dade-49c5-a811-489500d5dfeb",
+      "name" : "Salud Cora",
+      "handle" : "123456789/540",
+      "metadata" : {
+        "dc.identifier.uri" : [ {
+          "value" : "http://132.248.101.240:4000/handle/123456789/540",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ],
+        "dc.title" : [ {
+          "value" : "Salud Cora",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "archivedItemsCount" : -1,
+      "type" : "collection",
+      "_links" : {
+        "harvester" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/b21ac86d-dade-49c5-a811-489500d5dfeb/harvester"
+        },
+        "itemtemplate" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/b21ac86d-dade-49c5-a811-489500d5dfeb/itemtemplate"
+        },
+        "license" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/b21ac86d-dade-49c5-a811-489500d5dfeb/license"
+        },
+        "logo" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/b21ac86d-dade-49c5-a811-489500d5dfeb/logo"
+        },
+        "mappedItems" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/b21ac86d-dade-49c5-a811-489500d5dfeb/mappedItems"
+        },
+        "parentCommunity" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/b21ac86d-dade-49c5-a811-489500d5dfeb/parentCommunity"
+        },
+        "adminGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/b21ac86d-dade-49c5-a811-489500d5dfeb/adminGroup"
+        },
+        "submittersGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/b21ac86d-dade-49c5-a811-489500d5dfeb/submittersGroup"
+        },
+        "itemReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/b21ac86d-dade-49c5-a811-489500d5dfeb/itemReadGroup"
+        },
+        "bitstreamReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/b21ac86d-dade-49c5-a811-489500d5dfeb/bitstreamReadGroup"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/b21ac86d-dade-49c5-a811-489500d5dfeb"
+        },
+        "workflowGroups" : [ {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/b21ac86d-dade-49c5-a811-489500d5dfeb/workflowGroups/reviewer",
+          "name" : "reviewer"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/b21ac86d-dade-49c5-a811-489500d5dfeb/workflowGroups/editor",
+          "name" : "editor"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/b21ac86d-dade-49c5-a811-489500d5dfeb/workflowGroups/finaleditor",
+          "name" : "finaleditor"
+        } ]
+      }
+    }, {
+      "id" : "a8342913-b82c-42d9-8437-ad1588500864",
+      "uuid" : "a8342913-b82c-42d9-8437-ad1588500864",
+      "name" : "Salud Cuicateca",
+      "handle" : "123456789/1681",
+      "metadata" : {
+        "dc.identifier.uri" : [ {
+          "value" : "http://132.248.101.240:4000/handle/123456789/1681",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ],
+        "dc.title" : [ {
+          "value" : "Salud Cuicateca",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "archivedItemsCount" : -1,
+      "type" : "collection",
+      "_links" : {
+        "harvester" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/a8342913-b82c-42d9-8437-ad1588500864/harvester"
+        },
+        "itemtemplate" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/a8342913-b82c-42d9-8437-ad1588500864/itemtemplate"
+        },
+        "license" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/a8342913-b82c-42d9-8437-ad1588500864/license"
+        },
+        "logo" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/a8342913-b82c-42d9-8437-ad1588500864/logo"
+        },
+        "mappedItems" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/a8342913-b82c-42d9-8437-ad1588500864/mappedItems"
+        },
+        "parentCommunity" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/a8342913-b82c-42d9-8437-ad1588500864/parentCommunity"
+        },
+        "adminGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/a8342913-b82c-42d9-8437-ad1588500864/adminGroup"
+        },
+        "submittersGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/a8342913-b82c-42d9-8437-ad1588500864/submittersGroup"
+        },
+        "itemReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/a8342913-b82c-42d9-8437-ad1588500864/itemReadGroup"
+        },
+        "bitstreamReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/a8342913-b82c-42d9-8437-ad1588500864/bitstreamReadGroup"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/a8342913-b82c-42d9-8437-ad1588500864"
+        },
+        "workflowGroups" : [ {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/a8342913-b82c-42d9-8437-ad1588500864/workflowGroups/reviewer",
+          "name" : "reviewer"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/a8342913-b82c-42d9-8437-ad1588500864/workflowGroups/editor",
+          "name" : "editor"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/a8342913-b82c-42d9-8437-ad1588500864/workflowGroups/finaleditor",
+          "name" : "finaleditor"
+        } ]
+      }
+    }, {
+      "id" : "9fa99415-4324-40e7-8fc5-7552cd7f0538",
+      "uuid" : "9fa99415-4324-40e7-8fc5-7552cd7f0538",
+      "name" : "Salud de variedades de contacto",
+      "handle" : "123456789/232",
+      "metadata" : {
+        "dc.identifier.uri" : [ {
+          "value" : "http://132.248.101.240:4000/handle/123456789/232",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ],
+        "dc.title" : [ {
+          "value" : "Salud de variedades de contacto",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "archivedItemsCount" : -1,
+      "type" : "collection",
+      "_links" : {
+        "harvester" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/9fa99415-4324-40e7-8fc5-7552cd7f0538/harvester"
+        },
+        "itemtemplate" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/9fa99415-4324-40e7-8fc5-7552cd7f0538/itemtemplate"
+        },
+        "license" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/9fa99415-4324-40e7-8fc5-7552cd7f0538/license"
+        },
+        "logo" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/9fa99415-4324-40e7-8fc5-7552cd7f0538/logo"
+        },
+        "mappedItems" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/9fa99415-4324-40e7-8fc5-7552cd7f0538/mappedItems"
+        },
+        "parentCommunity" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/9fa99415-4324-40e7-8fc5-7552cd7f0538/parentCommunity"
+        },
+        "adminGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/9fa99415-4324-40e7-8fc5-7552cd7f0538/adminGroup"
+        },
+        "submittersGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/9fa99415-4324-40e7-8fc5-7552cd7f0538/submittersGroup"
+        },
+        "itemReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/9fa99415-4324-40e7-8fc5-7552cd7f0538/itemReadGroup"
+        },
+        "bitstreamReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/9fa99415-4324-40e7-8fc5-7552cd7f0538/bitstreamReadGroup"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/9fa99415-4324-40e7-8fc5-7552cd7f0538"
+        },
+        "workflowGroups" : [ {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/9fa99415-4324-40e7-8fc5-7552cd7f0538/workflowGroups/reviewer",
+          "name" : "reviewer"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/9fa99415-4324-40e7-8fc5-7552cd7f0538/workflowGroups/editor",
+          "name" : "editor"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/9fa99415-4324-40e7-8fc5-7552cd7f0538/workflowGroups/finaleditor",
+          "name" : "finaleditor"
+        } ]
+      }
+    }, {
+      "id" : "207a751e-e3de-466f-860f-d41f7cca21d6",
+      "uuid" : "207a751e-e3de-466f-860f-d41f7cca21d6",
+      "name" : "Salud del Tepehuano del Norte",
+      "handle" : "123456789/1408",
+      "metadata" : {
+        "dc.identifier.uri" : [ {
+          "value" : "http://132.248.101.240:4000/handle/123456789/1408",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ],
+        "dc.title" : [ {
+          "value" : "Salud del Tepehuano del Norte",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "archivedItemsCount" : -1,
+      "type" : "collection",
+      "_links" : {
+        "harvester" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/207a751e-e3de-466f-860f-d41f7cca21d6/harvester"
+        },
+        "itemtemplate" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/207a751e-e3de-466f-860f-d41f7cca21d6/itemtemplate"
+        },
+        "license" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/207a751e-e3de-466f-860f-d41f7cca21d6/license"
+        },
+        "logo" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/207a751e-e3de-466f-860f-d41f7cca21d6/logo"
+        },
+        "mappedItems" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/207a751e-e3de-466f-860f-d41f7cca21d6/mappedItems"
+        },
+        "parentCommunity" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/207a751e-e3de-466f-860f-d41f7cca21d6/parentCommunity"
+        },
+        "adminGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/207a751e-e3de-466f-860f-d41f7cca21d6/adminGroup"
+        },
+        "submittersGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/207a751e-e3de-466f-860f-d41f7cca21d6/submittersGroup"
+        },
+        "itemReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/207a751e-e3de-466f-860f-d41f7cca21d6/itemReadGroup"
+        },
+        "bitstreamReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/207a751e-e3de-466f-860f-d41f7cca21d6/bitstreamReadGroup"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/207a751e-e3de-466f-860f-d41f7cca21d6"
+        },
+        "workflowGroups" : [ {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/207a751e-e3de-466f-860f-d41f7cca21d6/workflowGroups/reviewer",
+          "name" : "reviewer"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/207a751e-e3de-466f-860f-d41f7cca21d6/workflowGroups/editor",
+          "name" : "editor"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/207a751e-e3de-466f-860f-d41f7cca21d6/workflowGroups/finaleditor",
+          "name" : "finaleditor"
+        } ]
+      }
+    }, {
+      "id" : "ef7c372e-ebb5-4edf-b528-cfbe609d68f0",
+      "uuid" : "ef7c372e-ebb5-4edf-b528-cfbe609d68f0",
+      "name" : "Salud del Tepehuano del Sur",
+      "handle" : "123456789/1415",
+      "metadata" : {
+        "dc.identifier.uri" : [ {
+          "value" : "http://132.248.101.240:4000/handle/123456789/1415",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ],
+        "dc.title" : [ {
+          "value" : "Salud del Tepehuano del Sur",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "archivedItemsCount" : -1,
+      "type" : "collection",
+      "_links" : {
+        "harvester" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/ef7c372e-ebb5-4edf-b528-cfbe609d68f0/harvester"
+        },
+        "itemtemplate" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/ef7c372e-ebb5-4edf-b528-cfbe609d68f0/itemtemplate"
+        },
+        "license" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/ef7c372e-ebb5-4edf-b528-cfbe609d68f0/license"
+        },
+        "logo" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/ef7c372e-ebb5-4edf-b528-cfbe609d68f0/logo"
+        },
+        "mappedItems" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/ef7c372e-ebb5-4edf-b528-cfbe609d68f0/mappedItems"
+        },
+        "parentCommunity" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/ef7c372e-ebb5-4edf-b528-cfbe609d68f0/parentCommunity"
+        },
+        "adminGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/ef7c372e-ebb5-4edf-b528-cfbe609d68f0/adminGroup"
+        },
+        "submittersGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/ef7c372e-ebb5-4edf-b528-cfbe609d68f0/submittersGroup"
+        },
+        "itemReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/ef7c372e-ebb5-4edf-b528-cfbe609d68f0/itemReadGroup"
+        },
+        "bitstreamReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/ef7c372e-ebb5-4edf-b528-cfbe609d68f0/bitstreamReadGroup"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/ef7c372e-ebb5-4edf-b528-cfbe609d68f0"
+        },
+        "workflowGroups" : [ {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/ef7c372e-ebb5-4edf-b528-cfbe609d68f0/workflowGroups/reviewer",
+          "name" : "reviewer"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/ef7c372e-ebb5-4edf-b528-cfbe609d68f0/workflowGroups/editor",
+          "name" : "editor"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/ef7c372e-ebb5-4edf-b528-cfbe609d68f0/workflowGroups/finaleditor",
+          "name" : "finaleditor"
+        } ]
+      }
+    }, {
+      "id" : "98c20910-05b6-4b73-9968-79a9aa2640c9",
+      "uuid" : "98c20910-05b6-4b73-9968-79a9aa2640c9",
+      "name" : "Salud del Texistepequeño",
+      "handle" : "123456789/1421",
+      "metadata" : {
+        "dc.identifier.uri" : [ {
+          "value" : "http://132.248.101.240:4000/handle/123456789/1421",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ],
+        "dc.title" : [ {
+          "value" : "Salud del Texistepequeño",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "archivedItemsCount" : -1,
+      "type" : "collection",
+      "_links" : {
+        "harvester" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/98c20910-05b6-4b73-9968-79a9aa2640c9/harvester"
+        },
+        "itemtemplate" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/98c20910-05b6-4b73-9968-79a9aa2640c9/itemtemplate"
+        },
+        "license" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/98c20910-05b6-4b73-9968-79a9aa2640c9/license"
+        },
+        "logo" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/98c20910-05b6-4b73-9968-79a9aa2640c9/logo"
+        },
+        "mappedItems" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/98c20910-05b6-4b73-9968-79a9aa2640c9/mappedItems"
+        },
+        "parentCommunity" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/98c20910-05b6-4b73-9968-79a9aa2640c9/parentCommunity"
+        },
+        "adminGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/98c20910-05b6-4b73-9968-79a9aa2640c9/adminGroup"
+        },
+        "submittersGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/98c20910-05b6-4b73-9968-79a9aa2640c9/submittersGroup"
+        },
+        "itemReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/98c20910-05b6-4b73-9968-79a9aa2640c9/itemReadGroup"
+        },
+        "bitstreamReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/98c20910-05b6-4b73-9968-79a9aa2640c9/bitstreamReadGroup"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/98c20910-05b6-4b73-9968-79a9aa2640c9"
+        },
+        "workflowGroups" : [ {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/98c20910-05b6-4b73-9968-79a9aa2640c9/workflowGroups/reviewer",
+          "name" : "reviewer"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/98c20910-05b6-4b73-9968-79a9aa2640c9/workflowGroups/editor",
+          "name" : "editor"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/98c20910-05b6-4b73-9968-79a9aa2640c9/workflowGroups/finaleditor",
+          "name" : "finaleditor"
+        } ]
+      }
+    }, {
+      "id" : "9d65a24c-c8dd-436e-9473-143b329de189",
+      "uuid" : "9d65a24c-c8dd-436e-9473-143b329de189",
+      "name" : "Salud Español Mexicano",
+      "handle" : "123456789/596",
+      "metadata" : {
+        "dc.identifier.uri" : [ {
+          "value" : "http://132.248.101.240:4000/handle/123456789/596",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ],
+        "dc.title" : [ {
+          "value" : "Salud Español Mexicano",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "archivedItemsCount" : -1,
+      "type" : "collection",
+      "_links" : {
+        "harvester" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/9d65a24c-c8dd-436e-9473-143b329de189/harvester"
+        },
+        "itemtemplate" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/9d65a24c-c8dd-436e-9473-143b329de189/itemtemplate"
+        },
+        "license" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/9d65a24c-c8dd-436e-9473-143b329de189/license"
+        },
+        "logo" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/9d65a24c-c8dd-436e-9473-143b329de189/logo"
+        },
+        "mappedItems" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/9d65a24c-c8dd-436e-9473-143b329de189/mappedItems"
+        },
+        "parentCommunity" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/9d65a24c-c8dd-436e-9473-143b329de189/parentCommunity"
+        },
+        "adminGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/9d65a24c-c8dd-436e-9473-143b329de189/adminGroup"
+        },
+        "submittersGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/9d65a24c-c8dd-436e-9473-143b329de189/submittersGroup"
+        },
+        "itemReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/9d65a24c-c8dd-436e-9473-143b329de189/itemReadGroup"
+        },
+        "bitstreamReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/9d65a24c-c8dd-436e-9473-143b329de189/bitstreamReadGroup"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/9d65a24c-c8dd-436e-9473-143b329de189"
+        },
+        "workflowGroups" : [ {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/9d65a24c-c8dd-436e-9473-143b329de189/workflowGroups/reviewer",
+          "name" : "reviewer"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/9d65a24c-c8dd-436e-9473-143b329de189/workflowGroups/editor",
+          "name" : "editor"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/9d65a24c-c8dd-436e-9473-143b329de189/workflowGroups/finaleditor",
+          "name" : "finaleditor"
+        } ]
+      }
+    }, {
+      "id" : "919b2c8e-14f1-4f31-b215-8912b447d6fb",
+      "uuid" : "919b2c8e-14f1-4f31-b215-8912b447d6fb",
+      "name" : "Salud Guarijío",
+      "handle" : "123456789/659",
+      "metadata" : {
+        "dc.identifier.uri" : [ {
+          "value" : "http://132.248.101.240:4000/handle/123456789/659",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ],
+        "dc.title" : [ {
+          "value" : "Salud Guarijío",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "archivedItemsCount" : -1,
+      "type" : "collection",
+      "_links" : {
+        "harvester" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/919b2c8e-14f1-4f31-b215-8912b447d6fb/harvester"
+        },
+        "itemtemplate" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/919b2c8e-14f1-4f31-b215-8912b447d6fb/itemtemplate"
+        },
+        "license" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/919b2c8e-14f1-4f31-b215-8912b447d6fb/license"
+        },
+        "logo" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/919b2c8e-14f1-4f31-b215-8912b447d6fb/logo"
+        },
+        "mappedItems" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/919b2c8e-14f1-4f31-b215-8912b447d6fb/mappedItems"
+        },
+        "parentCommunity" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/919b2c8e-14f1-4f31-b215-8912b447d6fb/parentCommunity"
+        },
+        "adminGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/919b2c8e-14f1-4f31-b215-8912b447d6fb/adminGroup"
+        },
+        "submittersGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/919b2c8e-14f1-4f31-b215-8912b447d6fb/submittersGroup"
+        },
+        "itemReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/919b2c8e-14f1-4f31-b215-8912b447d6fb/itemReadGroup"
+        },
+        "bitstreamReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/919b2c8e-14f1-4f31-b215-8912b447d6fb/bitstreamReadGroup"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/919b2c8e-14f1-4f31-b215-8912b447d6fb"
+        },
+        "workflowGroups" : [ {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/919b2c8e-14f1-4f31-b215-8912b447d6fb/workflowGroups/reviewer",
+          "name" : "reviewer"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/919b2c8e-14f1-4f31-b215-8912b447d6fb/workflowGroups/editor",
+          "name" : "editor"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/919b2c8e-14f1-4f31-b215-8912b447d6fb/workflowGroups/finaleditor",
+          "name" : "finaleditor"
+        } ]
+      }
+    }, {
+      "id" : "4b5caa00-1140-4aca-be40-6793a8077c3b",
+      "uuid" : "4b5caa00-1140-4aca-be40-6793a8077c3b",
+      "name" : "Salud Huichol",
+      "handle" : "123456789/597",
+      "metadata" : {
+        "dc.identifier.uri" : [ {
+          "value" : "http://132.248.101.240:4000/handle/123456789/597",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ],
+        "dc.title" : [ {
+          "value" : "Salud Huichol",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "archivedItemsCount" : -1,
+      "type" : "collection",
+      "_links" : {
+        "harvester" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/4b5caa00-1140-4aca-be40-6793a8077c3b/harvester"
+        },
+        "itemtemplate" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/4b5caa00-1140-4aca-be40-6793a8077c3b/itemtemplate"
+        },
+        "license" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/4b5caa00-1140-4aca-be40-6793a8077c3b/license"
+        },
+        "logo" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/4b5caa00-1140-4aca-be40-6793a8077c3b/logo"
+        },
+        "mappedItems" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/4b5caa00-1140-4aca-be40-6793a8077c3b/mappedItems"
+        },
+        "parentCommunity" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/4b5caa00-1140-4aca-be40-6793a8077c3b/parentCommunity"
+        },
+        "adminGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/4b5caa00-1140-4aca-be40-6793a8077c3b/adminGroup"
+        },
+        "submittersGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/4b5caa00-1140-4aca-be40-6793a8077c3b/submittersGroup"
+        },
+        "itemReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/4b5caa00-1140-4aca-be40-6793a8077c3b/itemReadGroup"
+        },
+        "bitstreamReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/4b5caa00-1140-4aca-be40-6793a8077c3b/bitstreamReadGroup"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/4b5caa00-1140-4aca-be40-6793a8077c3b"
+        },
+        "workflowGroups" : [ {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/4b5caa00-1140-4aca-be40-6793a8077c3b/workflowGroups/reviewer",
+          "name" : "reviewer"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/4b5caa00-1140-4aca-be40-6793a8077c3b/workflowGroups/editor",
+          "name" : "editor"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/4b5caa00-1140-4aca-be40-6793a8077c3b/workflowGroups/finaleditor",
+          "name" : "finaleditor"
+        } ]
+      }
+    }, {
+      "id" : "e27cd898-3fce-4b3f-9779-f4551d74bbcf",
+      "uuid" : "e27cd898-3fce-4b3f-9779-f4551d74bbcf",
+      "name" : "Salud Kickapoo",
+      "handle" : "123456789/442",
+      "metadata" : {
+        "dc.identifier.uri" : [ {
+          "value" : "http://132.248.101.240:4000/handle/123456789/442",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ],
+        "dc.title" : [ {
+          "value" : "Salud Kickapoo",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "archivedItemsCount" : -1,
+      "type" : "collection",
+      "_links" : {
+        "harvester" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/e27cd898-3fce-4b3f-9779-f4551d74bbcf/harvester"
+        },
+        "itemtemplate" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/e27cd898-3fce-4b3f-9779-f4551d74bbcf/itemtemplate"
+        },
+        "license" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/e27cd898-3fce-4b3f-9779-f4551d74bbcf/license"
+        },
+        "logo" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/e27cd898-3fce-4b3f-9779-f4551d74bbcf/logo"
+        },
+        "mappedItems" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/e27cd898-3fce-4b3f-9779-f4551d74bbcf/mappedItems"
+        },
+        "parentCommunity" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/e27cd898-3fce-4b3f-9779-f4551d74bbcf/parentCommunity"
+        },
+        "adminGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/e27cd898-3fce-4b3f-9779-f4551d74bbcf/adminGroup"
+        },
+        "submittersGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/e27cd898-3fce-4b3f-9779-f4551d74bbcf/submittersGroup"
+        },
+        "itemReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/e27cd898-3fce-4b3f-9779-f4551d74bbcf/itemReadGroup"
+        },
+        "bitstreamReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/e27cd898-3fce-4b3f-9779-f4551d74bbcf/bitstreamReadGroup"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/e27cd898-3fce-4b3f-9779-f4551d74bbcf"
+        },
+        "workflowGroups" : [ {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/e27cd898-3fce-4b3f-9779-f4551d74bbcf/workflowGroups/reviewer",
+          "name" : "reviewer"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/e27cd898-3fce-4b3f-9779-f4551d74bbcf/workflowGroups/editor",
+          "name" : "editor"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/e27cd898-3fce-4b3f-9779-f4551d74bbcf/workflowGroups/finaleditor",
+          "name" : "finaleditor"
+        } ]
+      }
+    }, {
+      "id" : "2100fa2a-cf0f-4042-a987-91614edddaa2",
+      "uuid" : "2100fa2a-cf0f-4042-a987-91614edddaa2",
+      "name" : "Salud Kumiay",
+      "handle" : "123456789/329",
+      "metadata" : {
+        "dc.identifier.uri" : [ {
+          "value" : "http://132.248.101.240:4000/handle/123456789/329",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ],
+        "dc.title" : [ {
+          "value" : "Salud Kumiay",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "archivedItemsCount" : -1,
+      "type" : "collection",
+      "_links" : {
+        "harvester" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/2100fa2a-cf0f-4042-a987-91614edddaa2/harvester"
+        },
+        "itemtemplate" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/2100fa2a-cf0f-4042-a987-91614edddaa2/itemtemplate"
+        },
+        "license" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/2100fa2a-cf0f-4042-a987-91614edddaa2/license"
+        },
+        "logo" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/2100fa2a-cf0f-4042-a987-91614edddaa2/logo"
+        },
+        "mappedItems" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/2100fa2a-cf0f-4042-a987-91614edddaa2/mappedItems"
+        },
+        "parentCommunity" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/2100fa2a-cf0f-4042-a987-91614edddaa2/parentCommunity"
+        },
+        "adminGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/2100fa2a-cf0f-4042-a987-91614edddaa2/adminGroup"
+        },
+        "submittersGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/2100fa2a-cf0f-4042-a987-91614edddaa2/submittersGroup"
+        },
+        "itemReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/2100fa2a-cf0f-4042-a987-91614edddaa2/itemReadGroup"
+        },
+        "bitstreamReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/2100fa2a-cf0f-4042-a987-91614edddaa2/bitstreamReadGroup"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/2100fa2a-cf0f-4042-a987-91614edddaa2"
+        },
+        "workflowGroups" : [ {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/2100fa2a-cf0f-4042-a987-91614edddaa2/workflowGroups/reviewer",
+          "name" : "reviewer"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/2100fa2a-cf0f-4042-a987-91614edddaa2/workflowGroups/editor",
+          "name" : "editor"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/2100fa2a-cf0f-4042-a987-91614edddaa2/workflowGroups/finaleditor",
+          "name" : "finaleditor"
+        } ]
+      }
+    }, {
+      "id" : "30b9353f-93e0-4625-a56f-0f8980a3981d",
+      "uuid" : "30b9353f-93e0-4625-a56f-0f8980a3981d",
+      "name" : "Salud Lacandón",
+      "handle" : "123456789/335",
+      "metadata" : {
+        "dc.identifier.uri" : [ {
+          "value" : "http://132.248.101.240:4000/handle/123456789/335",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ],
+        "dc.title" : [ {
+          "value" : "Salud Lacandón",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "archivedItemsCount" : -1,
+      "type" : "collection",
+      "_links" : {
+        "harvester" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/30b9353f-93e0-4625-a56f-0f8980a3981d/harvester"
+        },
+        "itemtemplate" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/30b9353f-93e0-4625-a56f-0f8980a3981d/itemtemplate"
+        },
+        "license" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/30b9353f-93e0-4625-a56f-0f8980a3981d/license"
+        },
+        "logo" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/30b9353f-93e0-4625-a56f-0f8980a3981d/logo"
+        },
+        "mappedItems" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/30b9353f-93e0-4625-a56f-0f8980a3981d/mappedItems"
+        },
+        "parentCommunity" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/30b9353f-93e0-4625-a56f-0f8980a3981d/parentCommunity"
+        },
+        "adminGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/30b9353f-93e0-4625-a56f-0f8980a3981d/adminGroup"
+        },
+        "submittersGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/30b9353f-93e0-4625-a56f-0f8980a3981d/submittersGroup"
+        },
+        "itemReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/30b9353f-93e0-4625-a56f-0f8980a3981d/itemReadGroup"
+        },
+        "bitstreamReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/30b9353f-93e0-4625-a56f-0f8980a3981d/bitstreamReadGroup"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/30b9353f-93e0-4625-a56f-0f8980a3981d"
+        },
+        "workflowGroups" : [ {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/30b9353f-93e0-4625-a56f-0f8980a3981d/workflowGroups/reviewer",
+          "name" : "reviewer"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/30b9353f-93e0-4625-a56f-0f8980a3981d/workflowGroups/editor",
+          "name" : "editor"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/30b9353f-93e0-4625-a56f-0f8980a3981d/workflowGroups/finaleditor",
+          "name" : "finaleditor"
+        } ]
+      }
+    }, {
+      "id" : "75c49989-d121-449f-abe3-dac9d3961249",
+      "uuid" : "75c49989-d121-449f-abe3-dac9d3961249",
+      "name" : "Salud Lhima'alhꞋ / Lhimasipij (tepehua)",
+      "handle" : "123456789/341",
+      "metadata" : {
+        "dc.identifier.uri" : [ {
+          "value" : "http://132.248.101.240:4000/handle/123456789/341",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ],
+        "dc.title" : [ {
+          "value" : "Salud Lhima'alhꞋ / Lhimasipij (tepehua)",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "archivedItemsCount" : -1,
+      "type" : "collection",
+      "_links" : {
+        "harvester" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/75c49989-d121-449f-abe3-dac9d3961249/harvester"
+        },
+        "itemtemplate" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/75c49989-d121-449f-abe3-dac9d3961249/itemtemplate"
+        },
+        "license" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/75c49989-d121-449f-abe3-dac9d3961249/license"
+        },
+        "logo" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/75c49989-d121-449f-abe3-dac9d3961249/logo"
+        },
+        "mappedItems" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/75c49989-d121-449f-abe3-dac9d3961249/mappedItems"
+        },
+        "parentCommunity" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/75c49989-d121-449f-abe3-dac9d3961249/parentCommunity"
+        },
+        "adminGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/75c49989-d121-449f-abe3-dac9d3961249/adminGroup"
+        },
+        "submittersGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/75c49989-d121-449f-abe3-dac9d3961249/submittersGroup"
+        },
+        "itemReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/75c49989-d121-449f-abe3-dac9d3961249/itemReadGroup"
+        },
+        "bitstreamReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/75c49989-d121-449f-abe3-dac9d3961249/bitstreamReadGroup"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/75c49989-d121-449f-abe3-dac9d3961249"
+        },
+        "workflowGroups" : [ {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/75c49989-d121-449f-abe3-dac9d3961249/workflowGroups/reviewer",
+          "name" : "reviewer"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/75c49989-d121-449f-abe3-dac9d3961249/workflowGroups/editor",
+          "name" : "editor"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/75c49989-d121-449f-abe3-dac9d3961249/workflowGroups/finaleditor",
+          "name" : "finaleditor"
+        } ]
+      }
+    }, {
+      "id" : "0dec223f-38e0-4bd1-aa72-add6b7df12be",
+      "uuid" : "0dec223f-38e0-4bd1-aa72-add6b7df12be",
+      "name" : "Salud Maayat'aan, Maya",
+      "handle" : "123456789/394",
+      "metadata" : {
+        "dc.identifier.uri" : [ {
+          "value" : "http://132.248.101.240:4000/handle/123456789/394",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ],
+        "dc.title" : [ {
+          "value" : "Salud Maayat'aan, Maya",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "archivedItemsCount" : -1,
+      "type" : "collection",
+      "_links" : {
+        "harvester" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/0dec223f-38e0-4bd1-aa72-add6b7df12be/harvester"
+        },
+        "itemtemplate" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/0dec223f-38e0-4bd1-aa72-add6b7df12be/itemtemplate"
+        },
+        "license" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/0dec223f-38e0-4bd1-aa72-add6b7df12be/license"
+        },
+        "logo" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/0dec223f-38e0-4bd1-aa72-add6b7df12be/logo"
+        },
+        "mappedItems" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/0dec223f-38e0-4bd1-aa72-add6b7df12be/mappedItems"
+        },
+        "parentCommunity" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/0dec223f-38e0-4bd1-aa72-add6b7df12be/parentCommunity"
+        },
+        "adminGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/0dec223f-38e0-4bd1-aa72-add6b7df12be/adminGroup"
+        },
+        "submittersGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/0dec223f-38e0-4bd1-aa72-add6b7df12be/submittersGroup"
+        },
+        "itemReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/0dec223f-38e0-4bd1-aa72-add6b7df12be/itemReadGroup"
+        },
+        "bitstreamReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/0dec223f-38e0-4bd1-aa72-add6b7df12be/bitstreamReadGroup"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/0dec223f-38e0-4bd1-aa72-add6b7df12be"
+        },
+        "workflowGroups" : [ {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/0dec223f-38e0-4bd1-aa72-add6b7df12be/workflowGroups/reviewer",
+          "name" : "reviewer"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/0dec223f-38e0-4bd1-aa72-add6b7df12be/workflowGroups/editor",
+          "name" : "editor"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/0dec223f-38e0-4bd1-aa72-add6b7df12be/workflowGroups/finaleditor",
+          "name" : "finaleditor"
+        } ]
+      }
+    }, {
+      "id" : "8886642a-4699-4ba7-bf68-dd80abcce08d",
+      "uuid" : "8886642a-4699-4ba7-bf68-dd80abcce08d",
+      "name" : "Salud Matlazinca",
+      "handle" : "123456789/347",
+      "metadata" : {
+        "dc.identifier.uri" : [ {
+          "value" : "http://132.248.101.240:4000/handle/123456789/347",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ],
+        "dc.title" : [ {
+          "value" : "Salud Matlazinca",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "archivedItemsCount" : -1,
+      "type" : "collection",
+      "_links" : {
+        "harvester" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/8886642a-4699-4ba7-bf68-dd80abcce08d/harvester"
+        },
+        "itemtemplate" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/8886642a-4699-4ba7-bf68-dd80abcce08d/itemtemplate"
+        },
+        "license" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/8886642a-4699-4ba7-bf68-dd80abcce08d/license"
+        },
+        "logo" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/8886642a-4699-4ba7-bf68-dd80abcce08d/logo"
+        },
+        "mappedItems" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/8886642a-4699-4ba7-bf68-dd80abcce08d/mappedItems"
+        },
+        "parentCommunity" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/8886642a-4699-4ba7-bf68-dd80abcce08d/parentCommunity"
+        },
+        "adminGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/8886642a-4699-4ba7-bf68-dd80abcce08d/adminGroup"
+        },
+        "submittersGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/8886642a-4699-4ba7-bf68-dd80abcce08d/submittersGroup"
+        },
+        "itemReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/8886642a-4699-4ba7-bf68-dd80abcce08d/itemReadGroup"
+        },
+        "bitstreamReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/8886642a-4699-4ba7-bf68-dd80abcce08d/bitstreamReadGroup"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/8886642a-4699-4ba7-bf68-dd80abcce08d"
+        },
+        "workflowGroups" : [ {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/8886642a-4699-4ba7-bf68-dd80abcce08d/workflowGroups/reviewer",
+          "name" : "reviewer"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/8886642a-4699-4ba7-bf68-dd80abcce08d/workflowGroups/editor",
+          "name" : "editor"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/8886642a-4699-4ba7-bf68-dd80abcce08d/workflowGroups/finaleditor",
+          "name" : "finaleditor"
+        } ]
+      }
+    }, {
+      "id" : "c49270d2-8304-40a4-a899-677452a9f64c",
+      "uuid" : "c49270d2-8304-40a4-a899-677452a9f64c",
+      "name" : "Salud Mazahua",
+      "handle" : "123456789/353",
+      "metadata" : {
+        "dc.identifier.uri" : [ {
+          "value" : "http://132.248.101.240:4000/handle/123456789/353",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ],
+        "dc.title" : [ {
+          "value" : "Salud Mazahua",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "archivedItemsCount" : -1,
+      "type" : "collection",
+      "_links" : {
+        "harvester" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/c49270d2-8304-40a4-a899-677452a9f64c/harvester"
+        },
+        "itemtemplate" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/c49270d2-8304-40a4-a899-677452a9f64c/itemtemplate"
+        },
+        "license" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/c49270d2-8304-40a4-a899-677452a9f64c/license"
+        },
+        "logo" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/c49270d2-8304-40a4-a899-677452a9f64c/logo"
+        },
+        "mappedItems" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/c49270d2-8304-40a4-a899-677452a9f64c/mappedItems"
+        },
+        "parentCommunity" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/c49270d2-8304-40a4-a899-677452a9f64c/parentCommunity"
+        },
+        "adminGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/c49270d2-8304-40a4-a899-677452a9f64c/adminGroup"
+        },
+        "submittersGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/c49270d2-8304-40a4-a899-677452a9f64c/submittersGroup"
+        },
+        "itemReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/c49270d2-8304-40a4-a899-677452a9f64c/itemReadGroup"
+        },
+        "bitstreamReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/c49270d2-8304-40a4-a899-677452a9f64c/bitstreamReadGroup"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/c49270d2-8304-40a4-a899-677452a9f64c"
+        },
+        "workflowGroups" : [ {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/c49270d2-8304-40a4-a899-677452a9f64c/workflowGroups/reviewer",
+          "name" : "reviewer"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/c49270d2-8304-40a4-a899-677452a9f64c/workflowGroups/editor",
+          "name" : "editor"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/c49270d2-8304-40a4-a899-677452a9f64c/workflowGroups/finaleditor",
+          "name" : "finaleditor"
+        } ]
+      }
+    }, {
+      "id" : "d5b1feec-0baa-49e3-8ad5-0087816cefd6",
+      "uuid" : "d5b1feec-0baa-49e3-8ad5-0087816cefd6",
+      "name" : "Salud Mazateco",
+      "handle" : "123456789/359",
+      "metadata" : {
+        "dc.identifier.uri" : [ {
+          "value" : "http://132.248.101.240:4000/handle/123456789/359",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ],
+        "dc.title" : [ {
+          "value" : "Salud Mazateco",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "archivedItemsCount" : -1,
+      "type" : "collection",
+      "_links" : {
+        "harvester" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/d5b1feec-0baa-49e3-8ad5-0087816cefd6/harvester"
+        },
+        "itemtemplate" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/d5b1feec-0baa-49e3-8ad5-0087816cefd6/itemtemplate"
+        },
+        "license" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/d5b1feec-0baa-49e3-8ad5-0087816cefd6/license"
+        },
+        "logo" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/d5b1feec-0baa-49e3-8ad5-0087816cefd6/logo"
+        },
+        "mappedItems" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/d5b1feec-0baa-49e3-8ad5-0087816cefd6/mappedItems"
+        },
+        "parentCommunity" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/d5b1feec-0baa-49e3-8ad5-0087816cefd6/parentCommunity"
+        },
+        "adminGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/d5b1feec-0baa-49e3-8ad5-0087816cefd6/adminGroup"
+        },
+        "submittersGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/d5b1feec-0baa-49e3-8ad5-0087816cefd6/submittersGroup"
+        },
+        "itemReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/d5b1feec-0baa-49e3-8ad5-0087816cefd6/itemReadGroup"
+        },
+        "bitstreamReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/d5b1feec-0baa-49e3-8ad5-0087816cefd6/bitstreamReadGroup"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/d5b1feec-0baa-49e3-8ad5-0087816cefd6"
+        },
+        "workflowGroups" : [ {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/d5b1feec-0baa-49e3-8ad5-0087816cefd6/workflowGroups/reviewer",
+          "name" : "reviewer"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/d5b1feec-0baa-49e3-8ad5-0087816cefd6/workflowGroups/editor",
+          "name" : "editor"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/d5b1feec-0baa-49e3-8ad5-0087816cefd6/workflowGroups/finaleditor",
+          "name" : "finaleditor"
+        } ]
+      }
+    }, {
+      "id" : "04c0f23b-7468-478c-b746-e2320acb69f6",
+      "uuid" : "04c0f23b-7468-478c-b746-e2320acb69f6",
+      "name" : "Salud Mè’phàà (tlapaneco)",
+      "handle" : "123456789/365",
+      "metadata" : {
+        "dc.identifier.uri" : [ {
+          "value" : "http://132.248.101.240:4000/handle/123456789/365",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ],
+        "dc.title" : [ {
+          "value" : "Salud Mè’phàà (tlapaneco)",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "archivedItemsCount" : -1,
+      "type" : "collection",
+      "_links" : {
+        "harvester" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/04c0f23b-7468-478c-b746-e2320acb69f6/harvester"
+        },
+        "itemtemplate" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/04c0f23b-7468-478c-b746-e2320acb69f6/itemtemplate"
+        },
+        "license" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/04c0f23b-7468-478c-b746-e2320acb69f6/license"
+        },
+        "logo" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/04c0f23b-7468-478c-b746-e2320acb69f6/logo"
+        },
+        "mappedItems" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/04c0f23b-7468-478c-b746-e2320acb69f6/mappedItems"
+        },
+        "parentCommunity" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/04c0f23b-7468-478c-b746-e2320acb69f6/parentCommunity"
+        },
+        "adminGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/04c0f23b-7468-478c-b746-e2320acb69f6/adminGroup"
+        },
+        "submittersGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/04c0f23b-7468-478c-b746-e2320acb69f6/submittersGroup"
+        },
+        "itemReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/04c0f23b-7468-478c-b746-e2320acb69f6/itemReadGroup"
+        },
+        "bitstreamReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/04c0f23b-7468-478c-b746-e2320acb69f6/bitstreamReadGroup"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/04c0f23b-7468-478c-b746-e2320acb69f6"
+        },
+        "workflowGroups" : [ {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/04c0f23b-7468-478c-b746-e2320acb69f6/workflowGroups/reviewer",
+          "name" : "reviewer"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/04c0f23b-7468-478c-b746-e2320acb69f6/workflowGroups/editor",
+          "name" : "editor"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/04c0f23b-7468-478c-b746-e2320acb69f6/workflowGroups/finaleditor",
+          "name" : "finaleditor"
+        } ]
+      }
+    }, {
+      "id" : "222deb46-ed64-4229-949d-ff112766d447",
+      "uuid" : "222deb46-ed64-4229-949d-ff112766d447",
+      "name" : "Salud Mixe",
+      "handle" : "123456789/1274",
+      "metadata" : {
+        "dc.identifier.uri" : [ {
+          "value" : "http://132.248.101.240:4000/handle/123456789/1274",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ],
+        "dc.title" : [ {
+          "value" : "Salud Mixe",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "archivedItemsCount" : -1,
+      "type" : "collection",
+      "_links" : {
+        "harvester" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/222deb46-ed64-4229-949d-ff112766d447/harvester"
+        },
+        "itemtemplate" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/222deb46-ed64-4229-949d-ff112766d447/itemtemplate"
+        },
+        "license" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/222deb46-ed64-4229-949d-ff112766d447/license"
+        },
+        "logo" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/222deb46-ed64-4229-949d-ff112766d447/logo"
+        },
+        "mappedItems" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/222deb46-ed64-4229-949d-ff112766d447/mappedItems"
+        },
+        "parentCommunity" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/222deb46-ed64-4229-949d-ff112766d447/parentCommunity"
+        },
+        "adminGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/222deb46-ed64-4229-949d-ff112766d447/adminGroup"
+        },
+        "submittersGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/222deb46-ed64-4229-949d-ff112766d447/submittersGroup"
+        },
+        "itemReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/222deb46-ed64-4229-949d-ff112766d447/itemReadGroup"
+        },
+        "bitstreamReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/222deb46-ed64-4229-949d-ff112766d447/bitstreamReadGroup"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/222deb46-ed64-4229-949d-ff112766d447"
+        },
+        "workflowGroups" : [ {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/222deb46-ed64-4229-949d-ff112766d447/workflowGroups/reviewer",
+          "name" : "reviewer"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/222deb46-ed64-4229-949d-ff112766d447/workflowGroups/editor",
+          "name" : "editor"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/222deb46-ed64-4229-949d-ff112766d447/workflowGroups/finaleditor",
+          "name" : "finaleditor"
+        } ]
+      }
+    }, {
+      "id" : "a09a4b8f-0999-49ff-bf0b-f6e5444f85a9",
+      "uuid" : "a09a4b8f-0999-49ff-bf0b-f6e5444f85a9",
+      "name" : "Salud Mixteco",
+      "handle" : "123456789/371",
+      "metadata" : {
+        "dc.identifier.uri" : [ {
+          "value" : "http://132.248.101.240:4000/handle/123456789/371",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ],
+        "dc.title" : [ {
+          "value" : "Salud Mixteco",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "archivedItemsCount" : -1,
+      "type" : "collection",
+      "_links" : {
+        "harvester" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/a09a4b8f-0999-49ff-bf0b-f6e5444f85a9/harvester"
+        },
+        "itemtemplate" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/a09a4b8f-0999-49ff-bf0b-f6e5444f85a9/itemtemplate"
+        },
+        "license" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/a09a4b8f-0999-49ff-bf0b-f6e5444f85a9/license"
+        },
+        "logo" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/a09a4b8f-0999-49ff-bf0b-f6e5444f85a9/logo"
+        },
+        "mappedItems" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/a09a4b8f-0999-49ff-bf0b-f6e5444f85a9/mappedItems"
+        },
+        "parentCommunity" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/a09a4b8f-0999-49ff-bf0b-f6e5444f85a9/parentCommunity"
+        },
+        "adminGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/a09a4b8f-0999-49ff-bf0b-f6e5444f85a9/adminGroup"
+        },
+        "submittersGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/a09a4b8f-0999-49ff-bf0b-f6e5444f85a9/submittersGroup"
+        },
+        "itemReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/a09a4b8f-0999-49ff-bf0b-f6e5444f85a9/itemReadGroup"
+        },
+        "bitstreamReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/a09a4b8f-0999-49ff-bf0b-f6e5444f85a9/bitstreamReadGroup"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/a09a4b8f-0999-49ff-bf0b-f6e5444f85a9"
+        },
+        "workflowGroups" : [ {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/a09a4b8f-0999-49ff-bf0b-f6e5444f85a9/workflowGroups/reviewer",
+          "name" : "reviewer"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/a09a4b8f-0999-49ff-bf0b-f6e5444f85a9/workflowGroups/editor",
+          "name" : "editor"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/a09a4b8f-0999-49ff-bf0b-f6e5444f85a9/workflowGroups/finaleditor",
+          "name" : "finaleditor"
+        } ]
+      }
+    }, {
+      "id" : "5239e006-cf44-4d62-b3a7-0650a76b7d1f",
+      "uuid" : "5239e006-cf44-4d62-b3a7-0650a76b7d1f",
+      "name" : "Salud Náhuatl",
+      "handle" : "123456789/385",
+      "metadata" : {
+        "dc.identifier.uri" : [ {
+          "value" : "http://132.248.101.240:4000/handle/123456789/385",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ],
+        "dc.title" : [ {
+          "value" : "Salud Náhuatl",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "archivedItemsCount" : -1,
+      "type" : "collection",
+      "_links" : {
+        "harvester" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/5239e006-cf44-4d62-b3a7-0650a76b7d1f/harvester"
+        },
+        "itemtemplate" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/5239e006-cf44-4d62-b3a7-0650a76b7d1f/itemtemplate"
+        },
+        "license" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/5239e006-cf44-4d62-b3a7-0650a76b7d1f/license"
+        },
+        "logo" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/5239e006-cf44-4d62-b3a7-0650a76b7d1f/logo"
+        },
+        "mappedItems" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/5239e006-cf44-4d62-b3a7-0650a76b7d1f/mappedItems"
+        },
+        "parentCommunity" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/5239e006-cf44-4d62-b3a7-0650a76b7d1f/parentCommunity"
+        },
+        "adminGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/5239e006-cf44-4d62-b3a7-0650a76b7d1f/adminGroup"
+        },
+        "submittersGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/5239e006-cf44-4d62-b3a7-0650a76b7d1f/submittersGroup"
+        },
+        "itemReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/5239e006-cf44-4d62-b3a7-0650a76b7d1f/itemReadGroup"
+        },
+        "bitstreamReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/5239e006-cf44-4d62-b3a7-0650a76b7d1f/bitstreamReadGroup"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/5239e006-cf44-4d62-b3a7-0650a76b7d1f"
+        },
+        "workflowGroups" : [ {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/5239e006-cf44-4d62-b3a7-0650a76b7d1f/workflowGroups/reviewer",
+          "name" : "reviewer"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/5239e006-cf44-4d62-b3a7-0650a76b7d1f/workflowGroups/editor",
+          "name" : "editor"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/5239e006-cf44-4d62-b3a7-0650a76b7d1f/workflowGroups/finaleditor",
+          "name" : "finaleditor"
+        } ]
+      }
+    }, {
+      "id" : "6d704c1c-1a32-41f0-aa81-f45a046a856b",
+      "uuid" : "6d704c1c-1a32-41f0-aa81-f45a046a856b",
+      "name" : "Salud Ñomndaa (amuzgo)",
+      "handle" : "123456789/507",
+      "metadata" : {
+        "dc.identifier.uri" : [ {
+          "value" : "http://132.248.101.240:4000/handle/123456789/507",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ],
+        "dc.title" : [ {
+          "value" : "Salud Ñomndaa (amuzgo)",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "archivedItemsCount" : -1,
+      "type" : "collection",
+      "_links" : {
+        "harvester" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/6d704c1c-1a32-41f0-aa81-f45a046a856b/harvester"
+        },
+        "itemtemplate" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/6d704c1c-1a32-41f0-aa81-f45a046a856b/itemtemplate"
+        },
+        "license" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/6d704c1c-1a32-41f0-aa81-f45a046a856b/license"
+        },
+        "logo" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/6d704c1c-1a32-41f0-aa81-f45a046a856b/logo"
+        },
+        "mappedItems" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/6d704c1c-1a32-41f0-aa81-f45a046a856b/mappedItems"
+        },
+        "parentCommunity" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/6d704c1c-1a32-41f0-aa81-f45a046a856b/parentCommunity"
+        },
+        "adminGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/6d704c1c-1a32-41f0-aa81-f45a046a856b/adminGroup"
+        },
+        "submittersGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/6d704c1c-1a32-41f0-aa81-f45a046a856b/submittersGroup"
+        },
+        "itemReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/6d704c1c-1a32-41f0-aa81-f45a046a856b/itemReadGroup"
+        },
+        "bitstreamReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/6d704c1c-1a32-41f0-aa81-f45a046a856b/bitstreamReadGroup"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/6d704c1c-1a32-41f0-aa81-f45a046a856b"
+        },
+        "workflowGroups" : [ {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/6d704c1c-1a32-41f0-aa81-f45a046a856b/workflowGroups/reviewer",
+          "name" : "reviewer"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/6d704c1c-1a32-41f0-aa81-f45a046a856b/workflowGroups/editor",
+          "name" : "editor"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/6d704c1c-1a32-41f0-aa81-f45a046a856b/workflowGroups/finaleditor",
+          "name" : "finaleditor"
+        } ]
+      }
+    }, {
+      "id" : "9c4e411e-639a-47d5-bce8-3f591afb6a74",
+      "uuid" : "9c4e411e-639a-47d5-bce8-3f591afb6a74",
+      "name" : "Salud Oichkama no'oka/Oishkam no'ok (pima)",
+      "handle" : "123456789/527",
+      "metadata" : {
+        "dc.identifier.uri" : [ {
+          "value" : "http://132.248.101.240:4000/handle/123456789/527",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ],
+        "dc.title" : [ {
+          "value" : "Salud Oichkama no'oka/Oishkam no'ok (pima)",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "archivedItemsCount" : -1,
+      "type" : "collection",
+      "_links" : {
+        "harvester" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/9c4e411e-639a-47d5-bce8-3f591afb6a74/harvester"
+        },
+        "itemtemplate" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/9c4e411e-639a-47d5-bce8-3f591afb6a74/itemtemplate"
+        },
+        "license" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/9c4e411e-639a-47d5-bce8-3f591afb6a74/license"
+        },
+        "logo" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/9c4e411e-639a-47d5-bce8-3f591afb6a74/logo"
+        },
+        "mappedItems" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/9c4e411e-639a-47d5-bce8-3f591afb6a74/mappedItems"
+        },
+        "parentCommunity" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/9c4e411e-639a-47d5-bce8-3f591afb6a74/parentCommunity"
+        },
+        "adminGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/9c4e411e-639a-47d5-bce8-3f591afb6a74/adminGroup"
+        },
+        "submittersGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/9c4e411e-639a-47d5-bce8-3f591afb6a74/submittersGroup"
+        },
+        "itemReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/9c4e411e-639a-47d5-bce8-3f591afb6a74/itemReadGroup"
+        },
+        "bitstreamReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/9c4e411e-639a-47d5-bce8-3f591afb6a74/bitstreamReadGroup"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/9c4e411e-639a-47d5-bce8-3f591afb6a74"
+        },
+        "workflowGroups" : [ {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/9c4e411e-639a-47d5-bce8-3f591afb6a74/workflowGroups/reviewer",
+          "name" : "reviewer"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/9c4e411e-639a-47d5-bce8-3f591afb6a74/workflowGroups/editor",
+          "name" : "editor"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/9c4e411e-639a-47d5-bce8-3f591afb6a74/workflowGroups/finaleditor",
+          "name" : "finaleditor"
+        } ]
+      }
+    }, {
+      "id" : "f7ff82b3-83b1-4b61-a8cc-5953d38d8087",
+      "uuid" : "f7ff82b3-83b1-4b61-a8cc-5953d38d8087",
+      "name" : "Salud Ombeyiüts/Umbeyajts / Umbeyats (huave)",
+      "handle" : "123456789/541",
+      "metadata" : {
+        "dc.identifier.uri" : [ {
+          "value" : "http://132.248.101.240:4000/handle/123456789/541",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ],
+        "dc.title" : [ {
+          "value" : "Salud Ombeyiüts/Umbeyajts / Umbeyats (huave)",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "archivedItemsCount" : -1,
+      "type" : "collection",
+      "_links" : {
+        "harvester" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/f7ff82b3-83b1-4b61-a8cc-5953d38d8087/harvester"
+        },
+        "itemtemplate" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/f7ff82b3-83b1-4b61-a8cc-5953d38d8087/itemtemplate"
+        },
+        "license" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/f7ff82b3-83b1-4b61-a8cc-5953d38d8087/license"
+        },
+        "logo" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/f7ff82b3-83b1-4b61-a8cc-5953d38d8087/logo"
+        },
+        "mappedItems" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/f7ff82b3-83b1-4b61-a8cc-5953d38d8087/mappedItems"
+        },
+        "parentCommunity" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/f7ff82b3-83b1-4b61-a8cc-5953d38d8087/parentCommunity"
+        },
+        "adminGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/f7ff82b3-83b1-4b61-a8cc-5953d38d8087/adminGroup"
+        },
+        "submittersGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/f7ff82b3-83b1-4b61-a8cc-5953d38d8087/submittersGroup"
+        },
+        "itemReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/f7ff82b3-83b1-4b61-a8cc-5953d38d8087/itemReadGroup"
+        },
+        "bitstreamReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/f7ff82b3-83b1-4b61-a8cc-5953d38d8087/bitstreamReadGroup"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/f7ff82b3-83b1-4b61-a8cc-5953d38d8087"
+        },
+        "workflowGroups" : [ {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/f7ff82b3-83b1-4b61-a8cc-5953d38d8087/workflowGroups/reviewer",
+          "name" : "reviewer"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/f7ff82b3-83b1-4b61-a8cc-5953d38d8087/workflowGroups/editor",
+          "name" : "editor"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/f7ff82b3-83b1-4b61-a8cc-5953d38d8087/workflowGroups/finaleditor",
+          "name" : "finaleditor"
+        } ]
+      }
+    }, {
+      "id" : "6f05f44c-69fa-4d96-9f2e-aa023bed7f7e",
+      "uuid" : "6f05f44c-69fa-4d96-9f2e-aa023bed7f7e",
+      "name" : "Salud O'otam (pápago)",
+      "handle" : "123456789/523",
+      "metadata" : {
+        "dc.identifier.uri" : [ {
+          "value" : "http://132.248.101.240:4000/handle/123456789/523",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ],
+        "dc.title" : [ {
+          "value" : "Salud O'otam (pápago)",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "archivedItemsCount" : -1,
+      "type" : "collection",
+      "_links" : {
+        "harvester" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/6f05f44c-69fa-4d96-9f2e-aa023bed7f7e/harvester"
+        },
+        "itemtemplate" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/6f05f44c-69fa-4d96-9f2e-aa023bed7f7e/itemtemplate"
+        },
+        "license" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/6f05f44c-69fa-4d96-9f2e-aa023bed7f7e/license"
+        },
+        "logo" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/6f05f44c-69fa-4d96-9f2e-aa023bed7f7e/logo"
+        },
+        "mappedItems" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/6f05f44c-69fa-4d96-9f2e-aa023bed7f7e/mappedItems"
+        },
+        "parentCommunity" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/6f05f44c-69fa-4d96-9f2e-aa023bed7f7e/parentCommunity"
+        },
+        "adminGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/6f05f44c-69fa-4d96-9f2e-aa023bed7f7e/adminGroup"
+        },
+        "submittersGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/6f05f44c-69fa-4d96-9f2e-aa023bed7f7e/submittersGroup"
+        },
+        "itemReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/6f05f44c-69fa-4d96-9f2e-aa023bed7f7e/itemReadGroup"
+        },
+        "bitstreamReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/6f05f44c-69fa-4d96-9f2e-aa023bed7f7e/bitstreamReadGroup"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/6f05f44c-69fa-4d96-9f2e-aa023bed7f7e"
+        },
+        "workflowGroups" : [ {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/6f05f44c-69fa-4d96-9f2e-aa023bed7f7e/workflowGroups/reviewer",
+          "name" : "reviewer"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/6f05f44c-69fa-4d96-9f2e-aa023bed7f7e/workflowGroups/editor",
+          "name" : "editor"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/6f05f44c-69fa-4d96-9f2e-aa023bed7f7e/workflowGroups/finaleditor",
+          "name" : "finaleditor"
+        } ]
+      }
+    }, {
+      "id" : "2a021b9e-2dea-4d15-a509-2c8160a5cdca",
+      "uuid" : "2a021b9e-2dea-4d15-a509-2c8160a5cdca",
+      "name" : "Salud Otetzane (zoque)",
+      "handle" : "123456789/550",
+      "metadata" : {
+        "dc.identifier.uri" : [ {
+          "value" : "http://132.248.101.240:4000/handle/123456789/550",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ],
+        "dc.title" : [ {
+          "value" : "Salud Otetzane (zoque)",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "archivedItemsCount" : -1,
+      "type" : "collection",
+      "_links" : {
+        "harvester" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/2a021b9e-2dea-4d15-a509-2c8160a5cdca/harvester"
+        },
+        "itemtemplate" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/2a021b9e-2dea-4d15-a509-2c8160a5cdca/itemtemplate"
+        },
+        "license" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/2a021b9e-2dea-4d15-a509-2c8160a5cdca/license"
+        },
+        "logo" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/2a021b9e-2dea-4d15-a509-2c8160a5cdca/logo"
+        },
+        "mappedItems" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/2a021b9e-2dea-4d15-a509-2c8160a5cdca/mappedItems"
+        },
+        "parentCommunity" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/2a021b9e-2dea-4d15-a509-2c8160a5cdca/parentCommunity"
+        },
+        "adminGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/2a021b9e-2dea-4d15-a509-2c8160a5cdca/adminGroup"
+        },
+        "submittersGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/2a021b9e-2dea-4d15-a509-2c8160a5cdca/submittersGroup"
+        },
+        "itemReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/2a021b9e-2dea-4d15-a509-2c8160a5cdca/itemReadGroup"
+        },
+        "bitstreamReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/2a021b9e-2dea-4d15-a509-2c8160a5cdca/bitstreamReadGroup"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/2a021b9e-2dea-4d15-a509-2c8160a5cdca"
+        },
+        "workflowGroups" : [ {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/2a021b9e-2dea-4d15-a509-2c8160a5cdca/workflowGroups/reviewer",
+          "name" : "reviewer"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/2a021b9e-2dea-4d15-a509-2c8160a5cdca/workflowGroups/editor",
+          "name" : "editor"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/2a021b9e-2dea-4d15-a509-2c8160a5cdca/workflowGroups/finaleditor",
+          "name" : "finaleditor"
+        } ]
+      }
+    }, {
+      "id" : "2028ccd7-2de6-45c5-bf9f-310d65707f85",
+      "uuid" : "2028ccd7-2de6-45c5-bf9f-310d65707f85",
+      "name" : "Salud Otomí",
+      "handle" : "123456789/556",
+      "metadata" : {
+        "dc.identifier.uri" : [ {
+          "value" : "http://132.248.101.240:4000/handle/123456789/556",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ],
+        "dc.title" : [ {
+          "value" : "Salud Otomí",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "archivedItemsCount" : -1,
+      "type" : "collection",
+      "_links" : {
+        "harvester" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/2028ccd7-2de6-45c5-bf9f-310d65707f85/harvester"
+        },
+        "itemtemplate" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/2028ccd7-2de6-45c5-bf9f-310d65707f85/itemtemplate"
+        },
+        "license" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/2028ccd7-2de6-45c5-bf9f-310d65707f85/license"
+        },
+        "logo" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/2028ccd7-2de6-45c5-bf9f-310d65707f85/logo"
+        },
+        "mappedItems" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/2028ccd7-2de6-45c5-bf9f-310d65707f85/mappedItems"
+        },
+        "parentCommunity" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/2028ccd7-2de6-45c5-bf9f-310d65707f85/parentCommunity"
+        },
+        "adminGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/2028ccd7-2de6-45c5-bf9f-310d65707f85/adminGroup"
+        },
+        "submittersGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/2028ccd7-2de6-45c5-bf9f-310d65707f85/submittersGroup"
+        },
+        "itemReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/2028ccd7-2de6-45c5-bf9f-310d65707f85/itemReadGroup"
+        },
+        "bitstreamReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/2028ccd7-2de6-45c5-bf9f-310d65707f85/bitstreamReadGroup"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/2028ccd7-2de6-45c5-bf9f-310d65707f85"
+        },
+        "workflowGroups" : [ {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/2028ccd7-2de6-45c5-bf9f-310d65707f85/workflowGroups/reviewer",
+          "name" : "reviewer"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/2028ccd7-2de6-45c5-bf9f-310d65707f85/workflowGroups/editor",
+          "name" : "editor"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/2028ccd7-2de6-45c5-bf9f-310d65707f85/workflowGroups/finaleditor",
+          "name" : "finaleditor"
+        } ]
+      }
+    }, {
+      "id" : "1df1b85c-53df-44a5-a92e-26e24edc8e14",
+      "uuid" : "1df1b85c-53df-44a5-a92e-26e24edc8e14",
+      "name" : "Salud Paipai",
+      "handle" : "123456789/570",
+      "metadata" : {
+        "dc.identifier.uri" : [ {
+          "value" : "http://132.248.101.240:4000/handle/123456789/570",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ],
+        "dc.title" : [ {
+          "value" : "Salud Paipai",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "archivedItemsCount" : -1,
+      "type" : "collection",
+      "_links" : {
+        "harvester" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/1df1b85c-53df-44a5-a92e-26e24edc8e14/harvester"
+        },
+        "itemtemplate" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/1df1b85c-53df-44a5-a92e-26e24edc8e14/itemtemplate"
+        },
+        "license" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/1df1b85c-53df-44a5-a92e-26e24edc8e14/license"
+        },
+        "logo" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/1df1b85c-53df-44a5-a92e-26e24edc8e14/logo"
+        },
+        "mappedItems" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/1df1b85c-53df-44a5-a92e-26e24edc8e14/mappedItems"
+        },
+        "parentCommunity" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/1df1b85c-53df-44a5-a92e-26e24edc8e14/parentCommunity"
+        },
+        "adminGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/1df1b85c-53df-44a5-a92e-26e24edc8e14/adminGroup"
+        },
+        "submittersGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/1df1b85c-53df-44a5-a92e-26e24edc8e14/submittersGroup"
+        },
+        "itemReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/1df1b85c-53df-44a5-a92e-26e24edc8e14/itemReadGroup"
+        },
+        "bitstreamReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/1df1b85c-53df-44a5-a92e-26e24edc8e14/bitstreamReadGroup"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/1df1b85c-53df-44a5-a92e-26e24edc8e14"
+        },
+        "workflowGroups" : [ {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/1df1b85c-53df-44a5-a92e-26e24edc8e14/workflowGroups/reviewer",
+          "name" : "reviewer"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/1df1b85c-53df-44a5-a92e-26e24edc8e14/workflowGroups/editor",
+          "name" : "editor"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/1df1b85c-53df-44a5-a92e-26e24edc8e14/workflowGroups/finaleditor",
+          "name" : "finaleditor"
+        } ]
+      }
+    }, {
+      "id" : "a2fb7a18-c648-48fc-a010-d99b6829c0a4",
+      "uuid" : "a2fb7a18-c648-48fc-a010-d99b6829c0a4",
+      "name" : "Salud Pame",
+      "handle" : "123456789/579",
+      "metadata" : {
+        "dc.identifier.uri" : [ {
+          "value" : "http://132.248.101.240:4000/handle/123456789/579",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ],
+        "dc.title" : [ {
+          "value" : "Salud Pame",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "archivedItemsCount" : -1,
+      "type" : "collection",
+      "_links" : {
+        "harvester" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/a2fb7a18-c648-48fc-a010-d99b6829c0a4/harvester"
+        },
+        "itemtemplate" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/a2fb7a18-c648-48fc-a010-d99b6829c0a4/itemtemplate"
+        },
+        "license" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/a2fb7a18-c648-48fc-a010-d99b6829c0a4/license"
+        },
+        "logo" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/a2fb7a18-c648-48fc-a010-d99b6829c0a4/logo"
+        },
+        "mappedItems" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/a2fb7a18-c648-48fc-a010-d99b6829c0a4/mappedItems"
+        },
+        "parentCommunity" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/a2fb7a18-c648-48fc-a010-d99b6829c0a4/parentCommunity"
+        },
+        "adminGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/a2fb7a18-c648-48fc-a010-d99b6829c0a4/adminGroup"
+        },
+        "submittersGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/a2fb7a18-c648-48fc-a010-d99b6829c0a4/submittersGroup"
+        },
+        "itemReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/a2fb7a18-c648-48fc-a010-d99b6829c0a4/itemReadGroup"
+        },
+        "bitstreamReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/a2fb7a18-c648-48fc-a010-d99b6829c0a4/bitstreamReadGroup"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/a2fb7a18-c648-48fc-a010-d99b6829c0a4"
+        },
+        "workflowGroups" : [ {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/a2fb7a18-c648-48fc-a010-d99b6829c0a4/workflowGroups/reviewer",
+          "name" : "reviewer"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/a2fb7a18-c648-48fc-a010-d99b6829c0a4/workflowGroups/editor",
+          "name" : "editor"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/a2fb7a18-c648-48fc-a010-d99b6829c0a4/workflowGroups/finaleditor",
+          "name" : "finaleditor"
+        } ]
+      }
+    }, {
+      "id" : "afaa8113-791c-4ee2-91aa-1ba23e8335f8",
+      "uuid" : "afaa8113-791c-4ee2-91aa-1ba23e8335f8",
+      "name" : "Salud Popoloca",
+      "handle" : "123456789/584",
+      "metadata" : {
+        "dc.identifier.uri" : [ {
+          "value" : "http://132.248.101.240:4000/handle/123456789/584",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ],
+        "dc.title" : [ {
+          "value" : "Salud Popoloca",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "archivedItemsCount" : -1,
+      "type" : "collection",
+      "_links" : {
+        "harvester" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/afaa8113-791c-4ee2-91aa-1ba23e8335f8/harvester"
+        },
+        "itemtemplate" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/afaa8113-791c-4ee2-91aa-1ba23e8335f8/itemtemplate"
+        },
+        "license" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/afaa8113-791c-4ee2-91aa-1ba23e8335f8/license"
+        },
+        "logo" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/afaa8113-791c-4ee2-91aa-1ba23e8335f8/logo"
+        },
+        "mappedItems" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/afaa8113-791c-4ee2-91aa-1ba23e8335f8/mappedItems"
+        },
+        "parentCommunity" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/afaa8113-791c-4ee2-91aa-1ba23e8335f8/parentCommunity"
+        },
+        "adminGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/afaa8113-791c-4ee2-91aa-1ba23e8335f8/adminGroup"
+        },
+        "submittersGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/afaa8113-791c-4ee2-91aa-1ba23e8335f8/submittersGroup"
+        },
+        "itemReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/afaa8113-791c-4ee2-91aa-1ba23e8335f8/itemReadGroup"
+        },
+        "bitstreamReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/afaa8113-791c-4ee2-91aa-1ba23e8335f8/bitstreamReadGroup"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/afaa8113-791c-4ee2-91aa-1ba23e8335f8"
+        },
+        "workflowGroups" : [ {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/afaa8113-791c-4ee2-91aa-1ba23e8335f8/workflowGroups/reviewer",
+          "name" : "reviewer"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/afaa8113-791c-4ee2-91aa-1ba23e8335f8/workflowGroups/editor",
+          "name" : "editor"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/afaa8113-791c-4ee2-91aa-1ba23e8335f8/workflowGroups/finaleditor",
+          "name" : "finaleditor"
+        } ]
+      }
+    }, {
+      "id" : "598fd428-1d4d-4fda-adb6-9e140104b027",
+      "uuid" : "598fd428-1d4d-4fda-adb6-9e140104b027",
+      "name" : "Salud Popoluca de la Sierra",
+      "handle" : "123456789/592",
+      "metadata" : {
+        "dc.identifier.uri" : [ {
+          "value" : "http://132.248.101.240:4000/handle/123456789/592",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ],
+        "dc.title" : [ {
+          "value" : "Salud Popoluca de la Sierra",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "archivedItemsCount" : -1,
+      "type" : "collection",
+      "_links" : {
+        "harvester" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/598fd428-1d4d-4fda-adb6-9e140104b027/harvester"
+        },
+        "itemtemplate" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/598fd428-1d4d-4fda-adb6-9e140104b027/itemtemplate"
+        },
+        "license" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/598fd428-1d4d-4fda-adb6-9e140104b027/license"
+        },
+        "logo" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/598fd428-1d4d-4fda-adb6-9e140104b027/logo"
+        },
+        "mappedItems" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/598fd428-1d4d-4fda-adb6-9e140104b027/mappedItems"
+        },
+        "parentCommunity" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/598fd428-1d4d-4fda-adb6-9e140104b027/parentCommunity"
+        },
+        "adminGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/598fd428-1d4d-4fda-adb6-9e140104b027/adminGroup"
+        },
+        "submittersGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/598fd428-1d4d-4fda-adb6-9e140104b027/submittersGroup"
+        },
+        "itemReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/598fd428-1d4d-4fda-adb6-9e140104b027/itemReadGroup"
+        },
+        "bitstreamReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/598fd428-1d4d-4fda-adb6-9e140104b027/bitstreamReadGroup"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/598fd428-1d4d-4fda-adb6-9e140104b027"
+        },
+        "workflowGroups" : [ {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/598fd428-1d4d-4fda-adb6-9e140104b027/workflowGroups/reviewer",
+          "name" : "reviewer"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/598fd428-1d4d-4fda-adb6-9e140104b027/workflowGroups/editor",
+          "name" : "editor"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/598fd428-1d4d-4fda-adb6-9e140104b027/workflowGroups/finaleditor",
+          "name" : "finaleditor"
+        } ]
+      }
+    }, {
+      "id" : "779d229a-e8be-435c-9913-41d60f3195e2",
+      "uuid" : "779d229a-e8be-435c-9913-41d60f3195e2",
+      "name" : "Salud popoluca de Sayula",
+      "handle" : "123456789/710",
+      "metadata" : {
+        "dc.identifier.uri" : [ {
+          "value" : "http://132.248.101.240:4000/handle/123456789/710",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ],
+        "dc.title" : [ {
+          "value" : "Salud popoluca de Sayula",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "archivedItemsCount" : -1,
+      "type" : "collection",
+      "_links" : {
+        "harvester" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/779d229a-e8be-435c-9913-41d60f3195e2/harvester"
+        },
+        "itemtemplate" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/779d229a-e8be-435c-9913-41d60f3195e2/itemtemplate"
+        },
+        "license" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/779d229a-e8be-435c-9913-41d60f3195e2/license"
+        },
+        "logo" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/779d229a-e8be-435c-9913-41d60f3195e2/logo"
+        },
+        "mappedItems" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/779d229a-e8be-435c-9913-41d60f3195e2/mappedItems"
+        },
+        "parentCommunity" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/779d229a-e8be-435c-9913-41d60f3195e2/parentCommunity"
+        },
+        "adminGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/779d229a-e8be-435c-9913-41d60f3195e2/adminGroup"
+        },
+        "submittersGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/779d229a-e8be-435c-9913-41d60f3195e2/submittersGroup"
+        },
+        "itemReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/779d229a-e8be-435c-9913-41d60f3195e2/itemReadGroup"
+        },
+        "bitstreamReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/779d229a-e8be-435c-9913-41d60f3195e2/bitstreamReadGroup"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/779d229a-e8be-435c-9913-41d60f3195e2"
+        },
+        "workflowGroups" : [ {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/779d229a-e8be-435c-9913-41d60f3195e2/workflowGroups/reviewer",
+          "name" : "reviewer"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/779d229a-e8be-435c-9913-41d60f3195e2/workflowGroups/editor",
+          "name" : "editor"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/779d229a-e8be-435c-9913-41d60f3195e2/workflowGroups/finaleditor",
+          "name" : "finaleditor"
+        } ]
+      }
+    }, {
+      "id" : "f15ba459-19ca-4fc8-9249-e2abb96df4eb",
+      "uuid" : "f15ba459-19ca-4fc8-9249-e2abb96df4eb",
+      "name" : "Salud p'uhrépecha",
+      "handle" : "123456789/133",
+      "metadata" : {
+        "dc.identifier.uri" : [ {
+          "value" : "http://132.248.101.240:4000/handle/123456789/133",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ],
+        "dc.title" : [ {
+          "value" : "Salud p'uhrépecha",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "archivedItemsCount" : -1,
+      "type" : "collection",
+      "_links" : {
+        "harvester" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/f15ba459-19ca-4fc8-9249-e2abb96df4eb/harvester"
+        },
+        "itemtemplate" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/f15ba459-19ca-4fc8-9249-e2abb96df4eb/itemtemplate"
+        },
+        "license" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/f15ba459-19ca-4fc8-9249-e2abb96df4eb/license"
+        },
+        "logo" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/f15ba459-19ca-4fc8-9249-e2abb96df4eb/logo"
+        },
+        "mappedItems" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/f15ba459-19ca-4fc8-9249-e2abb96df4eb/mappedItems"
+        },
+        "parentCommunity" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/f15ba459-19ca-4fc8-9249-e2abb96df4eb/parentCommunity"
+        },
+        "adminGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/f15ba459-19ca-4fc8-9249-e2abb96df4eb/adminGroup"
+        },
+        "submittersGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/f15ba459-19ca-4fc8-9249-e2abb96df4eb/submittersGroup"
+        },
+        "itemReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/f15ba459-19ca-4fc8-9249-e2abb96df4eb/itemReadGroup"
+        },
+        "bitstreamReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/f15ba459-19ca-4fc8-9249-e2abb96df4eb/bitstreamReadGroup"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/f15ba459-19ca-4fc8-9249-e2abb96df4eb"
+        },
+        "workflowGroups" : [ {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/f15ba459-19ca-4fc8-9249-e2abb96df4eb/workflowGroups/reviewer",
+          "name" : "reviewer"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/f15ba459-19ca-4fc8-9249-e2abb96df4eb/workflowGroups/editor",
+          "name" : "editor"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/f15ba459-19ca-4fc8-9249-e2abb96df4eb/workflowGroups/finaleditor",
+          "name" : "finaleditor"
+        } ]
+      }
+    }, {
+      "id" : "e1da4d93-41e2-403e-acfc-51f5659a85cb",
+      "uuid" : "e1da4d93-41e2-403e-acfc-51f5659a85cb",
+      "name" : "Salud Qato'k",
+      "handle" : "123456789/1373",
+      "metadata" : {
+        "dc.identifier.uri" : [ {
+          "value" : "http://132.248.101.240:4000/handle/123456789/1373",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ],
+        "dc.title" : [ {
+          "value" : "Salud Qato'k",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "archivedItemsCount" : -1,
+      "type" : "collection",
+      "_links" : {
+        "harvester" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/e1da4d93-41e2-403e-acfc-51f5659a85cb/harvester"
+        },
+        "itemtemplate" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/e1da4d93-41e2-403e-acfc-51f5659a85cb/itemtemplate"
+        },
+        "license" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/e1da4d93-41e2-403e-acfc-51f5659a85cb/license"
+        },
+        "logo" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/e1da4d93-41e2-403e-acfc-51f5659a85cb/logo"
+        },
+        "mappedItems" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/e1da4d93-41e2-403e-acfc-51f5659a85cb/mappedItems"
+        },
+        "parentCommunity" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/e1da4d93-41e2-403e-acfc-51f5659a85cb/parentCommunity"
+        },
+        "adminGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/e1da4d93-41e2-403e-acfc-51f5659a85cb/adminGroup"
+        },
+        "submittersGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/e1da4d93-41e2-403e-acfc-51f5659a85cb/submittersGroup"
+        },
+        "itemReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/e1da4d93-41e2-403e-acfc-51f5659a85cb/itemReadGroup"
+        },
+        "bitstreamReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/e1da4d93-41e2-403e-acfc-51f5659a85cb/bitstreamReadGroup"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/e1da4d93-41e2-403e-acfc-51f5659a85cb"
+        },
+        "workflowGroups" : [ {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/e1da4d93-41e2-403e-acfc-51f5659a85cb/workflowGroups/reviewer",
+          "name" : "reviewer"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/e1da4d93-41e2-403e-acfc-51f5659a85cb/workflowGroups/editor",
+          "name" : "editor"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/e1da4d93-41e2-403e-acfc-51f5659a85cb/workflowGroups/finaleditor",
+          "name" : "finaleditor"
+        } ]
+      }
+    }, {
+      "id" : "81c8b063-b529-4f5c-9e1a-74b9955770b2",
+      "uuid" : "81c8b063-b529-4f5c-9e1a-74b9955770b2",
+      "name" : "Salud Ta Yol Mam",
+      "handle" : "123456789/1374",
+      "metadata" : {
+        "dc.identifier.uri" : [ {
+          "value" : "http://132.248.101.240:4000/handle/123456789/1374",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ],
+        "dc.title" : [ {
+          "value" : "Salud Ta Yol Mam",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "archivedItemsCount" : -1,
+      "type" : "collection",
+      "_links" : {
+        "harvester" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/81c8b063-b529-4f5c-9e1a-74b9955770b2/harvester"
+        },
+        "itemtemplate" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/81c8b063-b529-4f5c-9e1a-74b9955770b2/itemtemplate"
+        },
+        "license" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/81c8b063-b529-4f5c-9e1a-74b9955770b2/license"
+        },
+        "logo" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/81c8b063-b529-4f5c-9e1a-74b9955770b2/logo"
+        },
+        "mappedItems" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/81c8b063-b529-4f5c-9e1a-74b9955770b2/mappedItems"
+        },
+        "parentCommunity" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/81c8b063-b529-4f5c-9e1a-74b9955770b2/parentCommunity"
+        },
+        "adminGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/81c8b063-b529-4f5c-9e1a-74b9955770b2/adminGroup"
+        },
+        "submittersGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/81c8b063-b529-4f5c-9e1a-74b9955770b2/submittersGroup"
+        },
+        "itemReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/81c8b063-b529-4f5c-9e1a-74b9955770b2/itemReadGroup"
+        },
+        "bitstreamReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/81c8b063-b529-4f5c-9e1a-74b9955770b2/bitstreamReadGroup"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/81c8b063-b529-4f5c-9e1a-74b9955770b2"
+        },
+        "workflowGroups" : [ {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/81c8b063-b529-4f5c-9e1a-74b9955770b2/workflowGroups/reviewer",
+          "name" : "reviewer"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/81c8b063-b529-4f5c-9e1a-74b9955770b2/workflowGroups/editor",
+          "name" : "editor"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/81c8b063-b529-4f5c-9e1a-74b9955770b2/workflowGroups/finaleditor",
+          "name" : "finaleditor"
+        } ]
+      }
+    }, {
+      "id" : "91e99419-7fc7-40ab-99aa-53ed1429b794",
+      "uuid" : "91e99419-7fc7-40ab-99aa-53ed1429b794",
+      "name" : "Salud Tarahumara",
+      "handle" : "123456789/1387",
+      "metadata" : {
+        "dc.identifier.uri" : [ {
+          "value" : "http://132.248.101.240:4000/handle/123456789/1387",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ],
+        "dc.title" : [ {
+          "value" : "Salud Tarahumara",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "archivedItemsCount" : -1,
+      "type" : "collection",
+      "_links" : {
+        "harvester" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/91e99419-7fc7-40ab-99aa-53ed1429b794/harvester"
+        },
+        "itemtemplate" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/91e99419-7fc7-40ab-99aa-53ed1429b794/itemtemplate"
+        },
+        "license" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/91e99419-7fc7-40ab-99aa-53ed1429b794/license"
+        },
+        "logo" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/91e99419-7fc7-40ab-99aa-53ed1429b794/logo"
+        },
+        "mappedItems" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/91e99419-7fc7-40ab-99aa-53ed1429b794/mappedItems"
+        },
+        "parentCommunity" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/91e99419-7fc7-40ab-99aa-53ed1429b794/parentCommunity"
+        },
+        "adminGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/91e99419-7fc7-40ab-99aa-53ed1429b794/adminGroup"
+        },
+        "submittersGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/91e99419-7fc7-40ab-99aa-53ed1429b794/submittersGroup"
+        },
+        "itemReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/91e99419-7fc7-40ab-99aa-53ed1429b794/itemReadGroup"
+        },
+        "bitstreamReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/91e99419-7fc7-40ab-99aa-53ed1429b794/bitstreamReadGroup"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/91e99419-7fc7-40ab-99aa-53ed1429b794"
+        },
+        "workflowGroups" : [ {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/91e99419-7fc7-40ab-99aa-53ed1429b794/workflowGroups/reviewer",
+          "name" : "reviewer"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/91e99419-7fc7-40ab-99aa-53ed1429b794/workflowGroups/editor",
+          "name" : "editor"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/91e99419-7fc7-40ab-99aa-53ed1429b794/workflowGroups/finaleditor",
+          "name" : "finaleditor"
+        } ]
+      }
+    }, {
+      "id" : "74ecd6f9-44b6-47df-8f54-4061fbac9875",
+      "uuid" : "74ecd6f9-44b6-47df-8f54-4061fbac9875",
+      "name" : "Salud Teenek",
+      "handle" : "123456789/1394",
+      "metadata" : {
+        "dc.identifier.uri" : [ {
+          "value" : "http://132.248.101.240:4000/handle/123456789/1394",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ],
+        "dc.title" : [ {
+          "value" : "Salud Teenek",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "archivedItemsCount" : -1,
+      "type" : "collection",
+      "_links" : {
+        "harvester" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/74ecd6f9-44b6-47df-8f54-4061fbac9875/harvester"
+        },
+        "itemtemplate" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/74ecd6f9-44b6-47df-8f54-4061fbac9875/itemtemplate"
+        },
+        "license" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/74ecd6f9-44b6-47df-8f54-4061fbac9875/license"
+        },
+        "logo" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/74ecd6f9-44b6-47df-8f54-4061fbac9875/logo"
+        },
+        "mappedItems" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/74ecd6f9-44b6-47df-8f54-4061fbac9875/mappedItems"
+        },
+        "parentCommunity" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/74ecd6f9-44b6-47df-8f54-4061fbac9875/parentCommunity"
+        },
+        "adminGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/74ecd6f9-44b6-47df-8f54-4061fbac9875/adminGroup"
+        },
+        "submittersGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/74ecd6f9-44b6-47df-8f54-4061fbac9875/submittersGroup"
+        },
+        "itemReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/74ecd6f9-44b6-47df-8f54-4061fbac9875/itemReadGroup"
+        },
+        "bitstreamReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/74ecd6f9-44b6-47df-8f54-4061fbac9875/bitstreamReadGroup"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/74ecd6f9-44b6-47df-8f54-4061fbac9875"
+        },
+        "workflowGroups" : [ {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/74ecd6f9-44b6-47df-8f54-4061fbac9875/workflowGroups/reviewer",
+          "name" : "reviewer"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/74ecd6f9-44b6-47df-8f54-4061fbac9875/workflowGroups/editor",
+          "name" : "editor"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/74ecd6f9-44b6-47df-8f54-4061fbac9875/workflowGroups/finaleditor",
+          "name" : "finaleditor"
+        } ]
+      }
+    }, {
+      "id" : "8cfaa455-6210-41c9-a837-c8d99ecce38c",
+      "uuid" : "8cfaa455-6210-41c9-a837-c8d99ecce38c",
+      "name" : "Salud Teko",
+      "handle" : "123456789/1401",
+      "metadata" : {
+        "dc.identifier.uri" : [ {
+          "value" : "http://132.248.101.240:4000/handle/123456789/1401",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ],
+        "dc.title" : [ {
+          "value" : "Salud Teko",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "archivedItemsCount" : -1,
+      "type" : "collection",
+      "_links" : {
+        "harvester" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/8cfaa455-6210-41c9-a837-c8d99ecce38c/harvester"
+        },
+        "itemtemplate" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/8cfaa455-6210-41c9-a837-c8d99ecce38c/itemtemplate"
+        },
+        "license" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/8cfaa455-6210-41c9-a837-c8d99ecce38c/license"
+        },
+        "logo" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/8cfaa455-6210-41c9-a837-c8d99ecce38c/logo"
+        },
+        "mappedItems" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/8cfaa455-6210-41c9-a837-c8d99ecce38c/mappedItems"
+        },
+        "parentCommunity" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/8cfaa455-6210-41c9-a837-c8d99ecce38c/parentCommunity"
+        },
+        "adminGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/8cfaa455-6210-41c9-a837-c8d99ecce38c/adminGroup"
+        },
+        "submittersGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/8cfaa455-6210-41c9-a837-c8d99ecce38c/submittersGroup"
+        },
+        "itemReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/8cfaa455-6210-41c9-a837-c8d99ecce38c/itemReadGroup"
+        },
+        "bitstreamReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/8cfaa455-6210-41c9-a837-c8d99ecce38c/bitstreamReadGroup"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/8cfaa455-6210-41c9-a837-c8d99ecce38c"
+        },
+        "workflowGroups" : [ {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/8cfaa455-6210-41c9-a837-c8d99ecce38c/workflowGroups/reviewer",
+          "name" : "reviewer"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/8cfaa455-6210-41c9-a837-c8d99ecce38c/workflowGroups/editor",
+          "name" : "editor"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/8cfaa455-6210-41c9-a837-c8d99ecce38c/workflowGroups/finaleditor",
+          "name" : "finaleditor"
+        } ]
+      }
+    }, {
+      "id" : "832782ae-7ef4-478f-89e7-0d6fa1dffd42",
+      "uuid" : "832782ae-7ef4-478f-89e7-0d6fa1dffd42",
+      "name" : "Salud Tlahuica",
+      "handle" : "123456789/1429",
+      "metadata" : {
+        "dc.identifier.uri" : [ {
+          "value" : "http://132.248.101.240:4000/handle/123456789/1429",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ],
+        "dc.title" : [ {
+          "value" : "Salud Tlahuica",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "archivedItemsCount" : -1,
+      "type" : "collection",
+      "_links" : {
+        "harvester" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/832782ae-7ef4-478f-89e7-0d6fa1dffd42/harvester"
+        },
+        "itemtemplate" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/832782ae-7ef4-478f-89e7-0d6fa1dffd42/itemtemplate"
+        },
+        "license" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/832782ae-7ef4-478f-89e7-0d6fa1dffd42/license"
+        },
+        "logo" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/832782ae-7ef4-478f-89e7-0d6fa1dffd42/logo"
+        },
+        "mappedItems" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/832782ae-7ef4-478f-89e7-0d6fa1dffd42/mappedItems"
+        },
+        "parentCommunity" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/832782ae-7ef4-478f-89e7-0d6fa1dffd42/parentCommunity"
+        },
+        "adminGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/832782ae-7ef4-478f-89e7-0d6fa1dffd42/adminGroup"
+        },
+        "submittersGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/832782ae-7ef4-478f-89e7-0d6fa1dffd42/submittersGroup"
+        },
+        "itemReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/832782ae-7ef4-478f-89e7-0d6fa1dffd42/itemReadGroup"
+        },
+        "bitstreamReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/832782ae-7ef4-478f-89e7-0d6fa1dffd42/bitstreamReadGroup"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/832782ae-7ef4-478f-89e7-0d6fa1dffd42"
+        },
+        "workflowGroups" : [ {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/832782ae-7ef4-478f-89e7-0d6fa1dffd42/workflowGroups/reviewer",
+          "name" : "reviewer"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/832782ae-7ef4-478f-89e7-0d6fa1dffd42/workflowGroups/editor",
+          "name" : "editor"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/832782ae-7ef4-478f-89e7-0d6fa1dffd42/workflowGroups/finaleditor",
+          "name" : "finaleditor"
+        } ]
+      }
+    }, {
+      "id" : "d35c02ce-fa74-40c7-9896-5281e26173ec",
+      "uuid" : "d35c02ce-fa74-40c7-9896-5281e26173ec",
+      "name" : "Salud Tojol-ab'al",
+      "handle" : "123456789/1436",
+      "metadata" : {
+        "dc.identifier.uri" : [ {
+          "value" : "http://132.248.101.240:4000/handle/123456789/1436",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ],
+        "dc.title" : [ {
+          "value" : "Salud Tojol-ab'al",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "archivedItemsCount" : -1,
+      "type" : "collection",
+      "_links" : {
+        "harvester" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/d35c02ce-fa74-40c7-9896-5281e26173ec/harvester"
+        },
+        "itemtemplate" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/d35c02ce-fa74-40c7-9896-5281e26173ec/itemtemplate"
+        },
+        "license" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/d35c02ce-fa74-40c7-9896-5281e26173ec/license"
+        },
+        "logo" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/d35c02ce-fa74-40c7-9896-5281e26173ec/logo"
+        },
+        "mappedItems" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/d35c02ce-fa74-40c7-9896-5281e26173ec/mappedItems"
+        },
+        "parentCommunity" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/d35c02ce-fa74-40c7-9896-5281e26173ec/parentCommunity"
+        },
+        "adminGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/d35c02ce-fa74-40c7-9896-5281e26173ec/adminGroup"
+        },
+        "submittersGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/d35c02ce-fa74-40c7-9896-5281e26173ec/submittersGroup"
+        },
+        "itemReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/d35c02ce-fa74-40c7-9896-5281e26173ec/itemReadGroup"
+        },
+        "bitstreamReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/d35c02ce-fa74-40c7-9896-5281e26173ec/bitstreamReadGroup"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/d35c02ce-fa74-40c7-9896-5281e26173ec"
+        },
+        "workflowGroups" : [ {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/d35c02ce-fa74-40c7-9896-5281e26173ec/workflowGroups/reviewer",
+          "name" : "reviewer"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/d35c02ce-fa74-40c7-9896-5281e26173ec/workflowGroups/editor",
+          "name" : "editor"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/d35c02ce-fa74-40c7-9896-5281e26173ec/workflowGroups/finaleditor",
+          "name" : "finaleditor"
+        } ]
+      }
+    }, {
+      "id" : "bf3eca04-ec15-493c-8d39-8e44d3bd026d",
+      "uuid" : "bf3eca04-ec15-493c-8d39-8e44d3bd026d",
+      "name" : "Salud Totonaca",
+      "handle" : "123456789/1449",
+      "metadata" : {
+        "dc.identifier.uri" : [ {
+          "value" : "http://132.248.101.240:4000/handle/123456789/1449",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ],
+        "dc.title" : [ {
+          "value" : "Salud Totonaca",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "archivedItemsCount" : -1,
+      "type" : "collection",
+      "_links" : {
+        "harvester" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/bf3eca04-ec15-493c-8d39-8e44d3bd026d/harvester"
+        },
+        "itemtemplate" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/bf3eca04-ec15-493c-8d39-8e44d3bd026d/itemtemplate"
+        },
+        "license" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/bf3eca04-ec15-493c-8d39-8e44d3bd026d/license"
+        },
+        "logo" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/bf3eca04-ec15-493c-8d39-8e44d3bd026d/logo"
+        },
+        "mappedItems" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/bf3eca04-ec15-493c-8d39-8e44d3bd026d/mappedItems"
+        },
+        "parentCommunity" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/bf3eca04-ec15-493c-8d39-8e44d3bd026d/parentCommunity"
+        },
+        "adminGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/bf3eca04-ec15-493c-8d39-8e44d3bd026d/adminGroup"
+        },
+        "submittersGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/bf3eca04-ec15-493c-8d39-8e44d3bd026d/submittersGroup"
+        },
+        "itemReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/bf3eca04-ec15-493c-8d39-8e44d3bd026d/itemReadGroup"
+        },
+        "bitstreamReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/bf3eca04-ec15-493c-8d39-8e44d3bd026d/bitstreamReadGroup"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/bf3eca04-ec15-493c-8d39-8e44d3bd026d"
+        },
+        "workflowGroups" : [ {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/bf3eca04-ec15-493c-8d39-8e44d3bd026d/workflowGroups/reviewer",
+          "name" : "reviewer"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/bf3eca04-ec15-493c-8d39-8e44d3bd026d/workflowGroups/editor",
+          "name" : "editor"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/bf3eca04-ec15-493c-8d39-8e44d3bd026d/workflowGroups/finaleditor",
+          "name" : "finaleditor"
+        } ]
+      }
+    }, {
+      "id" : "03e9d551-db70-4e0b-8795-af91a77e2a31",
+      "uuid" : "03e9d551-db70-4e0b-8795-af91a77e2a31",
+      "name" : "Salud triqui",
+      "handle" : "123456789/717",
+      "metadata" : {
+        "dc.identifier.uri" : [ {
+          "value" : "http://132.248.101.240:4000/handle/123456789/717",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ],
+        "dc.title" : [ {
+          "value" : "Salud triqui",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "archivedItemsCount" : -1,
+      "type" : "collection",
+      "_links" : {
+        "harvester" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/03e9d551-db70-4e0b-8795-af91a77e2a31/harvester"
+        },
+        "itemtemplate" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/03e9d551-db70-4e0b-8795-af91a77e2a31/itemtemplate"
+        },
+        "license" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/03e9d551-db70-4e0b-8795-af91a77e2a31/license"
+        },
+        "logo" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/03e9d551-db70-4e0b-8795-af91a77e2a31/logo"
+        },
+        "mappedItems" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/03e9d551-db70-4e0b-8795-af91a77e2a31/mappedItems"
+        },
+        "parentCommunity" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/03e9d551-db70-4e0b-8795-af91a77e2a31/parentCommunity"
+        },
+        "adminGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/03e9d551-db70-4e0b-8795-af91a77e2a31/adminGroup"
+        },
+        "submittersGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/03e9d551-db70-4e0b-8795-af91a77e2a31/submittersGroup"
+        },
+        "itemReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/03e9d551-db70-4e0b-8795-af91a77e2a31/itemReadGroup"
+        },
+        "bitstreamReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/03e9d551-db70-4e0b-8795-af91a77e2a31/bitstreamReadGroup"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/03e9d551-db70-4e0b-8795-af91a77e2a31"
+        },
+        "workflowGroups" : [ {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/03e9d551-db70-4e0b-8795-af91a77e2a31/workflowGroups/reviewer",
+          "name" : "reviewer"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/03e9d551-db70-4e0b-8795-af91a77e2a31/workflowGroups/editor",
+          "name" : "editor"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/03e9d551-db70-4e0b-8795-af91a77e2a31/workflowGroups/finaleditor",
+          "name" : "finaleditor"
+        } ]
+      }
+    }, {
+      "id" : "a8297ab1-fb07-46fd-950c-2907636a8b73",
+      "uuid" : "a8297ab1-fb07-46fd-950c-2907636a8b73",
+      "name" : "Salud Úza' (chichimeca jonaz)",
+      "handle" : "123456789/642",
+      "metadata" : {
+        "dc.identifier.uri" : [ {
+          "value" : "http://132.248.101.240:4000/handle/123456789/642",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ],
+        "dc.title" : [ {
+          "value" : "Salud Úza' (chichimeca jonaz)",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "archivedItemsCount" : -1,
+      "type" : "collection",
+      "_links" : {
+        "harvester" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/a8297ab1-fb07-46fd-950c-2907636a8b73/harvester"
+        },
+        "itemtemplate" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/a8297ab1-fb07-46fd-950c-2907636a8b73/itemtemplate"
+        },
+        "license" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/a8297ab1-fb07-46fd-950c-2907636a8b73/license"
+        },
+        "logo" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/a8297ab1-fb07-46fd-950c-2907636a8b73/logo"
+        },
+        "mappedItems" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/a8297ab1-fb07-46fd-950c-2907636a8b73/mappedItems"
+        },
+        "parentCommunity" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/a8297ab1-fb07-46fd-950c-2907636a8b73/parentCommunity"
+        },
+        "adminGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/a8297ab1-fb07-46fd-950c-2907636a8b73/adminGroup"
+        },
+        "submittersGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/a8297ab1-fb07-46fd-950c-2907636a8b73/submittersGroup"
+        },
+        "itemReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/a8297ab1-fb07-46fd-950c-2907636a8b73/itemReadGroup"
+        },
+        "bitstreamReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/a8297ab1-fb07-46fd-950c-2907636a8b73/bitstreamReadGroup"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/a8297ab1-fb07-46fd-950c-2907636a8b73"
+        },
+        "workflowGroups" : [ {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/a8297ab1-fb07-46fd-950c-2907636a8b73/workflowGroups/reviewer",
+          "name" : "reviewer"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/a8297ab1-fb07-46fd-950c-2907636a8b73/workflowGroups/editor",
+          "name" : "editor"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/a8297ab1-fb07-46fd-950c-2907636a8b73/workflowGroups/finaleditor",
+          "name" : "finaleditor"
+        } ]
+      }
+    }, {
+      "id" : "3df326a8-319c-44f5-933f-00a537959480",
+      "uuid" : "3df326a8-319c-44f5-933f-00a537959480",
+      "name" : "Salud Yaak avu (Popoluca de Oluta)",
+      "handle" : "123456789/620",
+      "metadata" : {
+        "dc.identifier.uri" : [ {
+          "value" : "http://132.248.101.240:4000/handle/123456789/620",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ],
+        "dc.title" : [ {
+          "value" : "Salud Yaak avu (Popoluca de Oluta)",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "archivedItemsCount" : -1,
+      "type" : "collection",
+      "_links" : {
+        "harvester" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/3df326a8-319c-44f5-933f-00a537959480/harvester"
+        },
+        "itemtemplate" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/3df326a8-319c-44f5-933f-00a537959480/itemtemplate"
+        },
+        "license" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/3df326a8-319c-44f5-933f-00a537959480/license"
+        },
+        "logo" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/3df326a8-319c-44f5-933f-00a537959480/logo"
+        },
+        "mappedItems" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/3df326a8-319c-44f5-933f-00a537959480/mappedItems"
+        },
+        "parentCommunity" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/3df326a8-319c-44f5-933f-00a537959480/parentCommunity"
+        },
+        "adminGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/3df326a8-319c-44f5-933f-00a537959480/adminGroup"
+        },
+        "submittersGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/3df326a8-319c-44f5-933f-00a537959480/submittersGroup"
+        },
+        "itemReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/3df326a8-319c-44f5-933f-00a537959480/itemReadGroup"
+        },
+        "bitstreamReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/3df326a8-319c-44f5-933f-00a537959480/bitstreamReadGroup"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/3df326a8-319c-44f5-933f-00a537959480"
+        },
+        "workflowGroups" : [ {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/3df326a8-319c-44f5-933f-00a537959480/workflowGroups/reviewer",
+          "name" : "reviewer"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/3df326a8-319c-44f5-933f-00a537959480/workflowGroups/editor",
+          "name" : "editor"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/3df326a8-319c-44f5-933f-00a537959480/workflowGroups/finaleditor",
+          "name" : "finaleditor"
+        } ]
+      }
+    }, {
+      "id" : "82525238-304b-4101-896a-945d3542c3a0",
+      "uuid" : "82525238-304b-4101-896a-945d3542c3a0",
+      "name" : "Salud Yoremnokki (mayo)",
+      "handle" : "123456789/626",
+      "metadata" : {
+        "dc.identifier.uri" : [ {
+          "value" : "http://132.248.101.240:4000/handle/123456789/626",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ],
+        "dc.title" : [ {
+          "value" : "Salud Yoremnokki (mayo)",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "archivedItemsCount" : -1,
+      "type" : "collection",
+      "_links" : {
+        "harvester" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/82525238-304b-4101-896a-945d3542c3a0/harvester"
+        },
+        "itemtemplate" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/82525238-304b-4101-896a-945d3542c3a0/itemtemplate"
+        },
+        "license" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/82525238-304b-4101-896a-945d3542c3a0/license"
+        },
+        "logo" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/82525238-304b-4101-896a-945d3542c3a0/logo"
+        },
+        "mappedItems" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/82525238-304b-4101-896a-945d3542c3a0/mappedItems"
+        },
+        "parentCommunity" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/82525238-304b-4101-896a-945d3542c3a0/parentCommunity"
+        },
+        "adminGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/82525238-304b-4101-896a-945d3542c3a0/adminGroup"
+        },
+        "submittersGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/82525238-304b-4101-896a-945d3542c3a0/submittersGroup"
+        },
+        "itemReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/82525238-304b-4101-896a-945d3542c3a0/itemReadGroup"
+        },
+        "bitstreamReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/82525238-304b-4101-896a-945d3542c3a0/bitstreamReadGroup"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/82525238-304b-4101-896a-945d3542c3a0"
+        },
+        "workflowGroups" : [ {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/82525238-304b-4101-896a-945d3542c3a0/workflowGroups/reviewer",
+          "name" : "reviewer"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/82525238-304b-4101-896a-945d3542c3a0/workflowGroups/editor",
+          "name" : "editor"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/82525238-304b-4101-896a-945d3542c3a0/workflowGroups/finaleditor",
+          "name" : "finaleditor"
+        } ]
+      }
+    }, {
+      "id" : "ee89ea67-8ddf-4284-bea0-23d004472f6a",
+      "uuid" : "ee89ea67-8ddf-4284-bea0-23d004472f6a",
+      "name" : "Zapoteco colonial",
+      "handle" : "123456789/126",
+      "metadata" : {
+        "dc.identifier.uri" : [ {
+          "value" : "http://132.248.101.240:4000/handle/123456789/126",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ],
+        "dc.title" : [ {
+          "value" : "Zapoteco colonial",
+          "language" : null,
+          "authority" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "archivedItemsCount" : -1,
+      "type" : "collection",
+      "_links" : {
+        "harvester" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/ee89ea67-8ddf-4284-bea0-23d004472f6a/harvester"
+        },
+        "itemtemplate" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/ee89ea67-8ddf-4284-bea0-23d004472f6a/itemtemplate"
+        },
+        "license" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/ee89ea67-8ddf-4284-bea0-23d004472f6a/license"
+        },
+        "logo" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/ee89ea67-8ddf-4284-bea0-23d004472f6a/logo"
+        },
+        "mappedItems" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/ee89ea67-8ddf-4284-bea0-23d004472f6a/mappedItems"
+        },
+        "parentCommunity" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/ee89ea67-8ddf-4284-bea0-23d004472f6a/parentCommunity"
+        },
+        "adminGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/ee89ea67-8ddf-4284-bea0-23d004472f6a/adminGroup"
+        },
+        "submittersGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/ee89ea67-8ddf-4284-bea0-23d004472f6a/submittersGroup"
+        },
+        "itemReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/ee89ea67-8ddf-4284-bea0-23d004472f6a/itemReadGroup"
+        },
+        "bitstreamReadGroup" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/ee89ea67-8ddf-4284-bea0-23d004472f6a/bitstreamReadGroup"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/ee89ea67-8ddf-4284-bea0-23d004472f6a"
+        },
+        "workflowGroups" : [ {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/ee89ea67-8ddf-4284-bea0-23d004472f6a/workflowGroups/reviewer",
+          "name" : "reviewer"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/ee89ea67-8ddf-4284-bea0-23d004472f6a/workflowGroups/editor",
+          "name" : "editor"
+        }, {
+          "href" : "https://www.iifl.unam.mx/server/api/core/collections/ee89ea67-8ddf-4284-bea0-23d004472f6a/workflowGroups/finaleditor",
+          "name" : "finaleditor"
+        } ]
+      }
+    } ]
+  },
+  "_links" : {
+    "first" : {
+      "href" : "https://www.iifl.unam.mx/server/api/core/collections?page=0&size=100"
+    },
+    "prev" : {
+      "href" : "https://www.iifl.unam.mx/server/api/core/collections?page=3&size=100"
+    },
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/core/collections?page=4&size=100"
+    },
+    "last" : {
+      "href" : "https://www.iifl.unam.mx/server/api/core/collections?page=4&size=100"
+    },
+    "search" : {
+      "href" : "https://www.iifl.unam.mx/server/api/core/collections/search"
+    }
+  },
+  "page" : {
+    "size" : 100,
+    "totalElements" : 455,
+    "totalPages" : 5,
+    "number" : 4
+  }
+}

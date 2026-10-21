@@ -1,0 +1,19 @@
+{
+  "_links" : {
+    "findSubmitAuthorizedByCommunity" : {
+      "href" : "https://www.iifl.unam.mx/server/api/core/collections/search/findSubmitAuthorizedByCommunity"
+    },
+    "findSubmitAuthorized" : {
+      "href" : "https://www.iifl.unam.mx/server/api/core/collections/search/findSubmitAuthorized"
+    },
+    "findAdminAuthorized" : {
+      "href" : "https://www.iifl.unam.mx/server/api/core/collections/search/findAdminAuthorized"
+    },
+    "findSubmitAuthorizedByEntityType" : {
+      "href" : "https://www.iifl.unam.mx/server/api/core/collections/search/findSubmitAuthorizedByEntityType"
+    },
+    "findSubmitAuthorizedByCommunityAndEntityType" : {
+      "href" : "https://www.iifl.unam.mx/server/api/core/collections/search/findSubmitAuthorizedByCommunityAndEntityType"
+    }
+  }
+}

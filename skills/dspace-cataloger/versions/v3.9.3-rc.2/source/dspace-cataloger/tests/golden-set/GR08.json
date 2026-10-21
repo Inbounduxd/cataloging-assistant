@@ -1,0 +1,15 @@
+{
+  "goldenRecord": "GR08",
+  "recordId": 20133,
+  "title": "Poemas en maya y español",
+  "status": "PILOT_ACCEPTED",
+  "purpose": "Semantic regression fixture. Does not contain full copyrighted source text.",
+  "expectedRules": [
+    "TRUE_BILINGUAL_POSITIVE_CONTROL",
+    "CONTENT_PARALLEL_IN_TWO_LANGUAGES",
+    "POETRY_TYPE_VOCABULARY_GAP",
+    "NO_TRANSLATOR_INFERENCE",
+    "HTML_INTELLECTUAL_EXTENT_POLICY_REVIEW"
+  ],
+  "mustNever": []
+}

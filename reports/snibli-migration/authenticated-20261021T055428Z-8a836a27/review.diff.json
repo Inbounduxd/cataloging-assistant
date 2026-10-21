@@ -1,0 +1,1199 @@
+{
+  "scope": "CONFIGURED_FORMS_AND_VOCABULARIES_VS_PRESERVED_RELEASE_ONLY",
+  "full_contract_comparison": false,
+  "baseline_release_sha256": "b6c435a28f8bb1a8faab237258161edf0233b2ce3608ff4e025a8ae2a11acede",
+  "source_export_sha256": "32693903ed8f7147be2ca3d21877056b8e728388430416e6345577c2234b4fed",
+  "collection_uuid": "3ce3afb3-94ed-4f60-bfda-0a1242c4d689",
+  "observed_definition": "traditional",
+  "active_sections_observable": false,
+  "binding_changes": [
+    {
+      "change_type": "BINDING_ADDED",
+      "severity": "MEDIUM",
+      "identity": "traditionalpageone:dc.type.genre:0",
+      "before": null,
+      "after": {
+        "form": "traditionalpageone",
+        "metadata": "dc.type.genre",
+        "position": [
+          0,
+          13,
+          0,
+          0
+        ],
+        "label": "¿Es un texto comparativo?",
+        "required": false,
+        "repeatable": false,
+        "inputType": "dropdown",
+        "controlledVocabulary": "genrePairs",
+        "closed": true,
+        "bindingKey": "traditionalpageone:dc.type.genre:0"
+      }
+    },
+    {
+      "change_type": "ORDER_CHANGED",
+      "severity": "INFO",
+      "identity": "traditionalpageone:dc.description.languageUsage:0",
+      "before": {
+        "form": "traditionalpageone",
+        "metadata": "dc.description.languageUsage",
+        "position": [
+          0,
+          16,
+          0,
+          0
+        ],
+        "label": "Uso de lengua",
+        "required": false,
+        "repeatable": false,
+        "inputType": "dropdown",
+        "controlledVocabulary": "languageUsagePairs",
+        "closed": true,
+        "bindingKey": "traditionalpageone:dc.description.languageUsage:0"
+      },
+      "after": {
+        "form": "traditionalpageone",
+        "metadata": "dc.description.languageUsage",
+        "position": [
+          0,
+          17,
+          0,
+          0
+        ],
+        "label": "Uso de lengua",
+        "required": false,
+        "repeatable": false,
+        "inputType": "dropdown",
+        "controlledVocabulary": "languageUsagePairs",
+        "closed": true,
+        "bindingKey": "traditionalpageone:dc.description.languageUsage:0"
+      }
+    },
+    {
+      "change_type": "ORDER_CHANGED",
+      "severity": "INFO",
+      "identity": "traditionalpageone:dc.description.registeredLanguage:0",
+      "before": {
+        "form": "traditionalpageone",
+        "metadata": "dc.description.registeredLanguage",
+        "position": [
+          0,
+          17,
+          0,
+          0
+        ],
+        "label": "Lengua de registro",
+        "required": false,
+        "repeatable": true,
+        "inputType": "dropdown",
+        "controlledVocabulary": "registeredLanguagePairs",
+        "closed": true,
+        "bindingKey": "traditionalpageone:dc.description.registeredLanguage:0"
+      },
+      "after": {
+        "form": "traditionalpageone",
+        "metadata": "dc.description.registeredLanguage",
+        "position": [
+          0,
+          18,
+          0,
+          0
+        ],
+        "label": "Lengua de registro",
+        "required": false,
+        "repeatable": true,
+        "inputType": "dropdown",
+        "controlledVocabulary": "registeredLanguagePairs",
+        "closed": true,
+        "bindingKey": "traditionalpageone:dc.description.registeredLanguage:0"
+      }
+    },
+    {
+      "change_type": "ORDER_CHANGED",
+      "severity": "INFO",
+      "identity": "traditionalpageone:dc.format.extent:0",
+      "before": {
+        "form": "traditionalpageone",
+        "metadata": "dc.format.extent",
+        "position": [
+          0,
+          26,
+          0,
+          0
+        ],
+        "label": "Número de páginas / extensión",
+        "required": true,
+        "repeatable": false,
+        "inputType": "onebox",
+        "controlledVocabulary": null,
+        "closed": false,
+        "bindingKey": "traditionalpageone:dc.format.extent:0"
+      },
+      "after": {
+        "form": "traditionalpageone",
+        "metadata": "dc.format.extent",
+        "position": [
+          0,
+          27,
+          0,
+          0
+        ],
+        "label": "Número de páginas / extensión",
+        "required": true,
+        "repeatable": false,
+        "inputType": "onebox",
+        "controlledVocabulary": null,
+        "closed": false,
+        "bindingKey": "traditionalpageone:dc.format.extent:0"
+      }
+    },
+    {
+      "change_type": "ORDER_CHANGED",
+      "severity": "INFO",
+      "identity": "traditionalpageone:dc.format.medium:0",
+      "before": {
+        "form": "traditionalpageone",
+        "metadata": "dc.format.medium",
+        "position": [
+          0,
+          24,
+          0,
+          0
+        ],
+        "label": "Soporte",
+        "required": false,
+        "repeatable": false,
+        "inputType": "dropdown",
+        "controlledVocabulary": "mediumPairs",
+        "closed": true,
+        "bindingKey": "traditionalpageone:dc.format.medium:0"
+      },
+      "after": {
+        "form": "traditionalpageone",
+        "metadata": "dc.format.medium",
+        "position": [
+          0,
+          25,
+          0,
+          0
+        ],
+        "label": "Soporte",
+        "required": false,
+        "repeatable": false,
+        "inputType": "dropdown",
+        "controlledVocabulary": "mediumPairs",
+        "closed": true,
+        "bindingKey": "traditionalpageone:dc.format.medium:0"
+      }
+    },
+    {
+      "change_type": "ORDER_CHANGED",
+      "severity": "INFO",
+      "identity": "traditionalpageone:dc.format.medium:1",
+      "before": {
+        "form": "traditionalpageone",
+        "metadata": "dc.format.medium",
+        "position": [
+          0,
+          25,
+          0,
+          0
+        ],
+        "label": "Tipo de extensión",
+        "required": true,
+        "repeatable": false,
+        "inputType": "dropdown",
+        "controlledVocabulary": "extentTypePairs",
+        "closed": true,
+        "bindingKey": "traditionalpageone:dc.format.medium:1"
+      },
+      "after": {
+        "form": "traditionalpageone",
+        "metadata": "dc.format.medium",
+        "position": [
+          0,
+          26,
+          0,
+          0
+        ],
+        "label": "Tipo de extensión",
+        "required": true,
+        "repeatable": false,
+        "inputType": "dropdown",
+        "controlledVocabulary": "extentTypePairs",
+        "closed": true,
+        "bindingKey": "traditionalpageone:dc.format.medium:1"
+      }
+    },
+    {
+      "change_type": "ORDER_CHANGED",
+      "severity": "INFO",
+      "identity": "traditionalpageone:dc.identifier.doi:0",
+      "before": {
+        "form": "traditionalpageone",
+        "metadata": "dc.identifier.doi",
+        "position": [
+          0,
+          13,
+          0,
+          9
+        ],
+        "label": "Identificador",
+        "required": false,
+        "repeatable": true,
+        "inputType": "onebox",
+        "controlledVocabulary": null,
+        "closed": false,
+        "bindingKey": "traditionalpageone:dc.identifier.doi:0"
+      },
+      "after": {
+        "form": "traditionalpageone",
+        "metadata": "dc.identifier.doi",
+        "position": [
+          0,
+          14,
+          0,
+          9
+        ],
+        "label": "Identificador",
+        "required": false,
+        "repeatable": true,
+        "inputType": "onebox",
+        "controlledVocabulary": null,
+        "closed": false,
+        "bindingKey": "traditionalpageone:dc.identifier.doi:0"
+      }
+    },
+    {
+      "change_type": "ORDER_CHANGED",
+      "severity": "INFO",
+      "identity": "traditionalpageone:dc.identifier.eisbn:0",
+      "before": {
+        "form": "traditionalpageone",
+        "metadata": "dc.identifier.eisbn",
+        "position": [
+          0,
+          13,
+          0,
+          7
+        ],
+        "label": "Identificador",
+        "required": false,
+        "repeatable": true,
+        "inputType": "onebox",
+        "controlledVocabulary": null,
+        "closed": false,
+        "bindingKey": "traditionalpageone:dc.identifier.eisbn:0"
+      },
+      "after": {
+        "form": "traditionalpageone",
+        "metadata": "dc.identifier.eisbn",
+        "position": [
+          0,
+          14,
+          0,
+          7
+        ],
+        "label": "Identificador",
+        "required": false,
+        "repeatable": true,
+        "inputType": "onebox",
+        "controlledVocabulary": null,
+        "closed": false,
+        "bindingKey": "traditionalpageone:dc.identifier.eisbn:0"
+      }
+    },
+    {
+      "change_type": "ORDER_CHANGED",
+      "severity": "INFO",
+      "identity": "traditionalpageone:dc.identifier.eissn:0",
+      "before": {
+        "form": "traditionalpageone",
+        "metadata": "dc.identifier.eissn",
+        "position": [
+          0,
+          13,
+          0,
+          6
+        ],
+        "label": "Identificador",
+        "required": false,
+        "repeatable": true,
+        "inputType": "onebox",
+        "controlledVocabulary": null,
+        "closed": false,
+        "bindingKey": "traditionalpageone:dc.identifier.eissn:0"
+      },
+      "after": {
+        "form": "traditionalpageone",
+        "metadata": "dc.identifier.eissn",
+        "position": [
+          0,
+          14,
+          0,
+          6
+        ],
+        "label": "Identificador",
+        "required": false,
+        "repeatable": true,
+        "inputType": "onebox",
+        "controlledVocabulary": null,
+        "closed": false,
+        "bindingKey": "traditionalpageone:dc.identifier.eissn:0"
+      }
+    },
+    {
+      "change_type": "ORDER_CHANGED",
+      "severity": "INFO",
+      "identity": "traditionalpageone:dc.identifier.govdoc:0",
+      "before": {
+        "form": "traditionalpageone",
+        "metadata": "dc.identifier.govdoc",
+        "position": [
+          0,
+          13,
+          0,
+          3
+        ],
+        "label": "Identificador",
+        "required": false,
+        "repeatable": true,
+        "inputType": "onebox",
+        "controlledVocabulary": null,
+        "closed": false,
+        "bindingKey": "traditionalpageone:dc.identifier.govdoc:0"
+      },
+      "after": {
+        "form": "traditionalpageone",
+        "metadata": "dc.identifier.govdoc",
+        "position": [
+          0,
+          14,
+          0,
+          3
+        ],
+        "label": "Identificador",
+        "required": false,
+        "repeatable": true,
+        "inputType": "onebox",
+        "controlledVocabulary": null,
+        "closed": false,
+        "bindingKey": "traditionalpageone:dc.identifier.govdoc:0"
+      }
+    },
+    {
+      "change_type": "ORDER_CHANGED",
+      "severity": "INFO",
+      "identity": "traditionalpageone:dc.identifier.handle:0",
+      "before": {
+        "form": "traditionalpageone",
+        "metadata": "dc.identifier.handle",
+        "position": [
+          0,
+          13,
+          0,
+          8
+        ],
+        "label": "Identificador",
+        "required": false,
+        "repeatable": true,
+        "inputType": "onebox",
+        "controlledVocabulary": null,
+        "closed": false,
+        "bindingKey": "traditionalpageone:dc.identifier.handle:0"
+      },
+      "after": {
+        "form": "traditionalpageone",
+        "metadata": "dc.identifier.handle",
+        "position": [
+          0,
+          14,
+          0,
+          8
+        ],
+        "label": "Identificador",
+        "required": false,
+        "repeatable": true,
+        "inputType": "onebox",
+        "controlledVocabulary": null,
+        "closed": false,
+        "bindingKey": "traditionalpageone:dc.identifier.handle:0"
+      }
+    },
+    {
+      "change_type": "ORDER_CHANGED",
+      "severity": "INFO",
+      "identity": "traditionalpageone:dc.identifier.isbn:0",
+      "before": {
+        "form": "traditionalpageone",
+        "metadata": "dc.identifier.isbn",
+        "position": [
+          0,
+          13,
+          0,
+          5
+        ],
+        "label": "Identificador",
+        "required": false,
+        "repeatable": true,
+        "inputType": "onebox",
+        "controlledVocabulary": null,
+        "closed": false,
+        "bindingKey": "traditionalpageone:dc.identifier.isbn:0"
+      },
+      "after": {
+        "form": "traditionalpageone",
+        "metadata": "dc.identifier.isbn",
+        "position": [
+          0,
+          14,
+          0,
+          5
+        ],
+        "label": "Identificador",
+        "required": false,
+        "repeatable": true,
+        "inputType": "onebox",
+        "controlledVocabulary": null,
+        "closed": false,
+        "bindingKey": "traditionalpageone:dc.identifier.isbn:0"
+      }
+    },
+    {
+      "change_type": "ORDER_CHANGED",
+      "severity": "INFO",
+      "identity": "traditionalpageone:dc.identifier.ismn:0",
+      "before": {
+        "form": "traditionalpageone",
+        "metadata": "dc.identifier.ismn",
+        "position": [
+          0,
+          13,
+          0,
+          2
+        ],
+        "label": "Identificador",
+        "required": false,
+        "repeatable": true,
+        "inputType": "onebox",
+        "controlledVocabulary": null,
+        "closed": false,
+        "bindingKey": "traditionalpageone:dc.identifier.ismn:0"
+      },
+      "after": {
+        "form": "traditionalpageone",
+        "metadata": "dc.identifier.ismn",
+        "position": [
+          0,
+          14,
+          0,
+          2
+        ],
+        "label": "Identificador",
+        "required": false,
+        "repeatable": true,
+        "inputType": "onebox",
+        "controlledVocabulary": null,
+        "closed": false,
+        "bindingKey": "traditionalpageone:dc.identifier.ismn:0"
+      }
+    },
+    {
+      "change_type": "ORDER_CHANGED",
+      "severity": "INFO",
+      "identity": "traditionalpageone:dc.identifier.issn:0",
+      "before": {
+        "form": "traditionalpageone",
+        "metadata": "dc.identifier.issn",
+        "position": [
+          0,
+          13,
+          0,
+          0
+        ],
+        "label": "Identificador",
+        "required": false,
+        "repeatable": true,
+        "inputType": "onebox",
+        "controlledVocabulary": null,
+        "closed": false,
+        "bindingKey": "traditionalpageone:dc.identifier.issn:0"
+      },
+      "after": {
+        "form": "traditionalpageone",
+        "metadata": "dc.identifier.issn",
+        "position": [
+          0,
+          14,
+          0,
+          0
+        ],
+        "label": "Identificador",
+        "required": false,
+        "repeatable": true,
+        "inputType": "onebox",
+        "controlledVocabulary": null,
+        "closed": false,
+        "bindingKey": "traditionalpageone:dc.identifier.issn:0"
+      }
+    },
+    {
+      "change_type": "ORDER_CHANGED",
+      "severity": "INFO",
+      "identity": "traditionalpageone:dc.identifier.other:0",
+      "before": {
+        "form": "traditionalpageone",
+        "metadata": "dc.identifier.other",
+        "position": [
+          0,
+          13,
+          0,
+          1
+        ],
+        "label": "Identificador",
+        "required": false,
+        "repeatable": true,
+        "inputType": "onebox",
+        "controlledVocabulary": null,
+        "closed": false,
+        "bindingKey": "traditionalpageone:dc.identifier.other:0"
+      },
+      "after": {
+        "form": "traditionalpageone",
+        "metadata": "dc.identifier.other",
+        "position": [
+          0,
+          14,
+          0,
+          1
+        ],
+        "label": "Identificador",
+        "required": false,
+        "repeatable": true,
+        "inputType": "onebox",
+        "controlledVocabulary": null,
+        "closed": false,
+        "bindingKey": "traditionalpageone:dc.identifier.other:0"
+      }
+    },
+    {
+      "change_type": "ORDER_CHANGED",
+      "severity": "INFO",
+      "identity": "traditionalpageone:dc.identifier.uri:0",
+      "before": {
+        "form": "traditionalpageone",
+        "metadata": "dc.identifier.uri",
+        "position": [
+          0,
+          13,
+          0,
+          4
+        ],
+        "label": "Identificador",
+        "required": false,
+        "repeatable": true,
+        "inputType": "onebox",
+        "controlledVocabulary": null,
+        "closed": false,
+        "bindingKey": "traditionalpageone:dc.identifier.uri:0"
+      },
+      "after": {
+        "form": "traditionalpageone",
+        "metadata": "dc.identifier.uri",
+        "position": [
+          0,
+          14,
+          0,
+          4
+        ],
+        "label": "Identificador",
+        "required": false,
+        "repeatable": true,
+        "inputType": "onebox",
+        "controlledVocabulary": null,
+        "closed": false,
+        "bindingKey": "traditionalpageone:dc.identifier.uri:0"
+      }
+    },
+    {
+      "change_type": "ORDER_CHANGED",
+      "severity": "INFO",
+      "identity": "traditionalpageone:dc.identifier.url:0",
+      "before": {
+        "form": "traditionalpageone",
+        "metadata": "dc.identifier.url",
+        "position": [
+          0,
+          31,
+          0,
+          0
+        ],
+        "label": "Repositorio digital (URL)",
+        "required": false,
+        "repeatable": true,
+        "inputType": "onebox",
+        "controlledVocabulary": null,
+        "closed": false,
+        "bindingKey": "traditionalpageone:dc.identifier.url:0"
+      },
+      "after": {
+        "form": "traditionalpageone",
+        "metadata": "dc.identifier.url",
+        "position": [
+          0,
+          32,
+          0,
+          0
+        ],
+        "label": "Repositorio digital (URL)",
+        "required": false,
+        "repeatable": true,
+        "inputType": "onebox",
+        "controlledVocabulary": null,
+        "closed": false,
+        "bindingKey": "traditionalpageone:dc.identifier.url:0"
+      }
+    },
+    {
+      "change_type": "ORDER_CHANGED",
+      "severity": "INFO",
+      "identity": "traditionalpageone:dc.language.iso6391:0",
+      "before": {
+        "form": "traditionalpageone",
+        "metadata": "dc.language.iso6391",
+        "position": [
+          0,
+          23,
+          0,
+          0
+        ],
+        "label": "ISO 639-1",
+        "required": false,
+        "repeatable": true,
+        "inputType": "dropdown",
+        "controlledVocabulary": "iso6391Pairs",
+        "closed": true,
+        "bindingKey": "traditionalpageone:dc.language.iso6391:0"
+      },
+      "after": {
+        "form": "traditionalpageone",
+        "metadata": "dc.language.iso6391",
+        "position": [
+          0,
+          24,
+          0,
+          0
+        ],
+        "label": "ISO 639-1",
+        "required": false,
+        "repeatable": true,
+        "inputType": "dropdown",
+        "controlledVocabulary": "iso6391Pairs",
+        "closed": true,
+        "bindingKey": "traditionalpageone:dc.language.iso6391:0"
+      }
+    },
+    {
+      "change_type": "ORDER_CHANGED",
+      "severity": "INFO",
+      "identity": "traditionalpageone:dc.rights.accessRights:0",
+      "before": {
+        "form": "traditionalpageone",
+        "metadata": "dc.rights.accessRights",
+        "position": [
+          0,
+          29,
+          0,
+          0
+        ],
+        "label": "Derecho de acceso",
+        "required": false,
+        "repeatable": false,
+        "inputType": "dropdown",
+        "controlledVocabulary": "accessRightsPairs",
+        "closed": true,
+        "bindingKey": "traditionalpageone:dc.rights.accessRights:0"
+      },
+      "after": {
+        "form": "traditionalpageone",
+        "metadata": "dc.rights.accessRights",
+        "position": [
+          0,
+          30,
+          0,
+          0
+        ],
+        "label": "Derecho de acceso",
+        "required": false,
+        "repeatable": false,
+        "inputType": "dropdown",
+        "controlledVocabulary": "accessRightsPairs",
+        "closed": true,
+        "bindingKey": "traditionalpageone:dc.rights.accessRights:0"
+      }
+    },
+    {
+      "change_type": "ORDER_CHANGED",
+      "severity": "INFO",
+      "identity": "traditionalpageone:dc.rights.license:0",
+      "before": {
+        "form": "traditionalpageone",
+        "metadata": "dc.rights.license",
+        "position": [
+          0,
+          28,
+          0,
+          0
+        ],
+        "label": "Licencia de uso",
+        "required": false,
+        "repeatable": false,
+        "inputType": "dropdown",
+        "controlledVocabulary": "licensePairs",
+        "closed": true,
+        "bindingKey": "traditionalpageone:dc.rights.license:0"
+      },
+      "after": {
+        "form": "traditionalpageone",
+        "metadata": "dc.rights.license",
+        "position": [
+          0,
+          29,
+          0,
+          0
+        ],
+        "label": "Licencia de uso",
+        "required": false,
+        "repeatable": false,
+        "inputType": "dropdown",
+        "controlledVocabulary": "licensePairs",
+        "closed": true,
+        "bindingKey": "traditionalpageone:dc.rights.license:0"
+      }
+    },
+    {
+      "change_type": "ORDER_CHANGED",
+      "severity": "INFO",
+      "identity": "traditionalpageone:dc.rights:0",
+      "before": {
+        "form": "traditionalpageone",
+        "metadata": "dc.rights",
+        "position": [
+          0,
+          27,
+          0,
+          0
+        ],
+        "label": "Derechos",
+        "required": false,
+        "repeatable": false,
+        "inputType": "textarea",
+        "controlledVocabulary": null,
+        "closed": false,
+        "bindingKey": "traditionalpageone:dc.rights:0"
+      },
+      "after": {
+        "form": "traditionalpageone",
+        "metadata": "dc.rights",
+        "position": [
+          0,
+          28,
+          0,
+          0
+        ],
+        "label": "Derechos",
+        "required": false,
+        "repeatable": false,
+        "inputType": "textarea",
+        "controlledVocabulary": null,
+        "closed": false,
+        "bindingKey": "traditionalpageone:dc.rights:0"
+      }
+    },
+    {
+      "change_type": "ORDER_CHANGED",
+      "severity": "INFO",
+      "identity": "traditionalpageone:dc.source.physicalRepository:0",
+      "before": {
+        "form": "traditionalpageone",
+        "metadata": "dc.source.physicalRepository",
+        "position": [
+          0,
+          30,
+          0,
+          0
+        ],
+        "label": "Repositorio físico",
+        "required": false,
+        "repeatable": true,
+        "inputType": "onebox",
+        "controlledVocabulary": null,
+        "closed": false,
+        "bindingKey": "traditionalpageone:dc.source.physicalRepository:0"
+      },
+      "after": {
+        "form": "traditionalpageone",
+        "metadata": "dc.source.physicalRepository",
+        "position": [
+          0,
+          31,
+          0,
+          0
+        ],
+        "label": "Repositorio físico",
+        "required": false,
+        "repeatable": true,
+        "inputType": "onebox",
+        "controlledVocabulary": null,
+        "closed": false,
+        "bindingKey": "traditionalpageone:dc.source.physicalRepository:0"
+      }
+    },
+    {
+      "change_type": "ORDER_CHANGED",
+      "severity": "INFO",
+      "identity": "traditionalpageone:dc.source:0",
+      "before": {
+        "form": "traditionalpageone",
+        "metadata": "dc.source",
+        "position": [
+          0,
+          14,
+          0,
+          0
+        ],
+        "label": "Fuente",
+        "required": false,
+        "repeatable": false,
+        "inputType": "onebox",
+        "controlledVocabulary": null,
+        "closed": false,
+        "bindingKey": "traditionalpageone:dc.source:0"
+      },
+      "after": {
+        "form": "traditionalpageone",
+        "metadata": "dc.source",
+        "position": [
+          0,
+          15,
+          0,
+          0
+        ],
+        "label": "Fuente",
+        "required": false,
+        "repeatable": false,
+        "inputType": "onebox",
+        "controlledVocabulary": null,
+        "closed": false,
+        "bindingKey": "traditionalpageone:dc.source:0"
+      }
+    },
+    {
+      "change_type": "ORDER_CHANGED",
+      "severity": "INFO",
+      "identity": "traditionalpageone:dc.subject.linguiscgroup:0",
+      "before": {
+        "form": "traditionalpageone",
+        "metadata": "dc.subject.linguiscgroup",
+        "position": [
+          0,
+          18,
+          0,
+          0
+        ],
+        "label": "Lengua registrada (Agrupación lingüística)",
+        "required": false,
+        "repeatable": true,
+        "inputType": "dropdown",
+        "controlledVocabulary": "linguiscgroupPairs",
+        "closed": true,
+        "bindingKey": "traditionalpageone:dc.subject.linguiscgroup:0"
+      },
+      "after": {
+        "form": "traditionalpageone",
+        "metadata": "dc.subject.linguiscgroup",
+        "position": [
+          0,
+          19,
+          0,
+          0
+        ],
+        "label": "Lengua registrada (Agrupación lingüística)",
+        "required": false,
+        "repeatable": true,
+        "inputType": "dropdown",
+        "controlledVocabulary": "linguiscgroupPairs",
+        "closed": true,
+        "bindingKey": "traditionalpageone:dc.subject.linguiscgroup:0"
+      }
+    },
+    {
+      "change_type": "ORDER_CHANGED",
+      "severity": "INFO",
+      "identity": "traditionalpageone:dc.subject.linguisticBranch:0",
+      "before": {
+        "form": "traditionalpageone",
+        "metadata": "dc.subject.linguisticBranch",
+        "position": [
+          0,
+          20,
+          0,
+          0
+        ],
+        "label": "Rama lingüística",
+        "required": false,
+        "repeatable": true,
+        "inputType": "dropdown",
+        "controlledVocabulary": "linguisticBranchPairs",
+        "closed": true,
+        "bindingKey": "traditionalpageone:dc.subject.linguisticBranch:0"
+      },
+      "after": {
+        "form": "traditionalpageone",
+        "metadata": "dc.subject.linguisticBranch",
+        "position": [
+          0,
+          21,
+          0,
+          0
+        ],
+        "label": "Rama lingüística",
+        "required": false,
+        "repeatable": true,
+        "inputType": "dropdown",
+        "controlledVocabulary": "linguisticBranchPairs",
+        "closed": true,
+        "bindingKey": "traditionalpageone:dc.subject.linguisticBranch:0"
+      }
+    },
+    {
+      "change_type": "ORDER_CHANGED",
+      "severity": "INFO",
+      "identity": "traditionalpageone:dc.subject.linguisticFamily:0",
+      "before": {
+        "form": "traditionalpageone",
+        "metadata": "dc.subject.linguisticFamily",
+        "position": [
+          0,
+          19,
+          0,
+          0
+        ],
+        "label": "Familia lingüística",
+        "required": false,
+        "repeatable": true,
+        "inputType": "dropdown",
+        "controlledVocabulary": "linguisticFamilyPairs",
+        "closed": true,
+        "bindingKey": "traditionalpageone:dc.subject.linguisticFamily:0"
+      },
+      "after": {
+        "form": "traditionalpageone",
+        "metadata": "dc.subject.linguisticFamily",
+        "position": [
+          0,
+          20,
+          0,
+          0
+        ],
+        "label": "Familia lingüística",
+        "required": false,
+        "repeatable": true,
+        "inputType": "dropdown",
+        "controlledVocabulary": "linguisticFamilyPairs",
+        "closed": true,
+        "bindingKey": "traditionalpageone:dc.subject.linguisticFamily:0"
+      }
+    },
+    {
+      "change_type": "ORDER_CHANGED",
+      "severity": "INFO",
+      "identity": "traditionalpageone:dc.subject.linguisticVariant:0",
+      "before": {
+        "form": "traditionalpageone",
+        "metadata": "dc.subject.linguisticVariant",
+        "position": [
+          0,
+          21,
+          0,
+          0
+        ],
+        "label": "Variante lingüística (CLIN)",
+        "required": false,
+        "repeatable": true,
+        "inputType": "onebox",
+        "controlledVocabulary": null,
+        "closed": false,
+        "bindingKey": "traditionalpageone:dc.subject.linguisticVariant:0"
+      },
+      "after": {
+        "form": "traditionalpageone",
+        "metadata": "dc.subject.linguisticVariant",
+        "position": [
+          0,
+          22,
+          0,
+          0
+        ],
+        "label": "Variante lingüística (CLIN)",
+        "required": false,
+        "repeatable": true,
+        "inputType": "onebox",
+        "controlledVocabulary": null,
+        "closed": false,
+        "bindingKey": "traditionalpageone:dc.subject.linguisticVariant:0"
+      }
+    },
+    {
+      "change_type": "ORDER_CHANGED",
+      "severity": "INFO",
+      "identity": "traditionalpageone:dc.subject.primaryClassification:0",
+      "before": {
+        "form": "traditionalpageone",
+        "metadata": "dc.subject.primaryClassification",
+        "position": [
+          0,
+          32,
+          0,
+          0
+        ],
+        "label": "Clasificación primaria",
+        "required": false,
+        "repeatable": false,
+        "inputType": "dropdown",
+        "controlledVocabulary": "primaryClassificationPairs",
+        "closed": true,
+        "bindingKey": "traditionalpageone:dc.subject.primaryClassification:0"
+      },
+      "after": {
+        "form": "traditionalpageone",
+        "metadata": "dc.subject.primaryClassification",
+        "position": [
+          0,
+          33,
+          0,
+          0
+        ],
+        "label": "Clasificación primaria",
+        "required": false,
+        "repeatable": false,
+        "inputType": "dropdown",
+        "controlledVocabulary": "primaryClassificationPairs",
+        "closed": true,
+        "bindingKey": "traditionalpageone:dc.subject.primaryClassification:0"
+      }
+    },
+    {
+      "change_type": "ORDER_CHANGED",
+      "severity": "INFO",
+      "identity": "traditionalpageone:dc.subject.selfDenomination:0",
+      "before": {
+        "form": "traditionalpageone",
+        "metadata": "dc.subject.selfDenomination",
+        "position": [
+          0,
+          22,
+          0,
+          0
+        ],
+        "label": "Autodenominación",
+        "required": false,
+        "repeatable": true,
+        "inputType": "dropdown",
+        "controlledVocabulary": "selfDenominationPairs",
+        "closed": true,
+        "bindingKey": "traditionalpageone:dc.subject.selfDenomination:0"
+      },
+      "after": {
+        "form": "traditionalpageone",
+        "metadata": "dc.subject.selfDenomination",
+        "position": [
+          0,
+          23,
+          0,
+          0
+        ],
+        "label": "Autodenominación",
+        "required": false,
+        "repeatable": true,
+        "inputType": "dropdown",
+        "controlledVocabulary": "selfDenominationPairs",
+        "closed": true,
+        "bindingKey": "traditionalpageone:dc.subject.selfDenomination:0"
+      }
+    },
+    {
+      "change_type": "ORDER_CHANGED",
+      "severity": "INFO",
+      "identity": "traditionalpageone:dc.type:0",
+      "before": {
+        "form": "traditionalpageone",
+        "metadata": "dc.type",
+        "position": [
+          0,
+          15,
+          0,
+          0
+        ],
+        "label": "Type",
+        "required": false,
+        "repeatable": true,
+        "inputType": "dropdown",
+        "controlledVocabulary": "common_types",
+        "closed": true,
+        "bindingKey": "traditionalpageone:dc.type:0"
+      },
+      "after": {
+        "form": "traditionalpageone",
+        "metadata": "dc.type",
+        "position": [
+          0,
+          16,
+          0,
+          0
+        ],
+        "label": "Type",
+        "required": false,
+        "repeatable": true,
+        "inputType": "dropdown",
+        "controlledVocabulary": "common_types",
+        "closed": true,
+        "bindingKey": "traditionalpageone:dc.type:0"
+      }
+    }
+  ],
+  "vocabulary_value_changes": [
+    {
+      "change_type": "VOCABULARY_VALUE_ADDED",
+      "vocabulary": "common_types",
+      "value": "Códice",
+      "count": 1
+    },
+    {
+      "change_type": "VOCABULARY_VALUE_ADDED",
+      "vocabulary": "common_types",
+      "value": "Reseña",
+      "count": 1
+    },
+    {
+      "change_type": "VOCABULARY_VALUE_ADDED",
+      "vocabulary": "common_types",
+      "value": "Documento Colonial",
+      "count": 1
+    }
+  ],
+  "registry_original_54_mismatches": {},
+  "between_captures": {
+    "configured_bindings_identical": true,
+    "referenced_vocabulary_results_identical": true,
+    "scope": "Observable configured controls and reference vocabulary results only; active section membership unresolved",
+    "first_export_sha256": "17bfa6eea9df0dc878c5d07907cfb0aeb2cc9551a617f27a4e3f12ddb90ee7c0",
+    "second_export_sha256": "32693903ed8f7147be2ca3d21877056b8e728388430416e6345577c2234b4fed"
+  },
+  "warnings": [
+    "ACTIVE_SUBMISSION_SECTIONS_UNRESOLVED_HTTP_204",
+    "NO_ACTIVE_SUBMISSION_FORMS",
+    "Preserved release is not a deployed approved ACTIVE historical snapshot.",
+    "Global configured forms are not proof of complete active section membership."
+  ]
+}

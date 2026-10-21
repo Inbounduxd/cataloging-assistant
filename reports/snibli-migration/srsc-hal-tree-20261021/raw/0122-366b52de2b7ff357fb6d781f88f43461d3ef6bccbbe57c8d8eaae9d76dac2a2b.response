@@ -1,0 +1,62 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:VR183302",
+      "display" : "Ophtalmiatrics",
+      "value" : "MEDICINE::Physiology and pharmacology::Ophtalmology::Ophtalmiatrics",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Physiology and pharmacology::Ophtalmology",
+        "note" : "Oftalmiatrik",
+        "hasChildren" : "false",
+        "id" : "VR183302"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR183302/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR183302/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR183302"
+        }
+      }
+    }, {
+      "id" : "srsc:VR183303",
+      "display" : "Optometry",
+      "value" : "MEDICINE::Physiology and pharmacology::Ophtalmology::Optometry",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Physiology and pharmacology::Ophtalmology",
+        "note" : "Optometri",
+        "hasChildren" : "false",
+        "id" : "VR183303"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR183303/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR183303/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR183303"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 2
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1833/children?page=0&size=100"
+    }
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:SCB180",
+      "display" : "Surgery",
+      "value" : "MEDICINE::Surgery",
+      "otherInformation" : {
+        "parent" : "MEDICINE",
+        "note" : "Kirurgi",
+        "hasChildren" : "true",
+        "id" : "SCB180"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB180/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB180/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB180"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB181",
+      "display" : "Morphology, cell biology, pathology",
+      "value" : "MEDICINE::Morphology, cell biology, pathology",
+      "otherInformation" : {
+        "parent" : "MEDICINE",
+        "note" : "Morfologi, cellbiologi, patologi",
+        "hasChildren" : "true",
+        "id" : "SCB181"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB181/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB181/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB181"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB182",
+      "display" : "Dermatology and venerology,clinical genetics, internal medicine",
+      "value" : "MEDICINE::Dermatology and venerology,clinical genetics, internal medicine",
+      "otherInformation" : {
+        "parent" : "MEDICINE",
+        "note" : "Dermatologi och venerologi, klinisk genetik, invärtesmedicin",
+        "hasChildren" : "true",
+        "id" : "SCB182"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB182/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB182/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB182"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB183",
+      "display" : "Physiology and pharmacology",
+      "value" : "MEDICINE::Physiology and pharmacology",
+      "otherInformation" : {
+        "parent" : "MEDICINE",
+        "note" : "Fysiologi och farmakologi",
+        "hasChildren" : "true",
+        "id" : "SCB183"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB183/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB183/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB183"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB184",
+      "display" : "Social medicine",
+      "value" : "MEDICINE::Social medicine",
+      "otherInformation" : {
+        "parent" : "MEDICINE",
+        "note" : "Socialmedicin",
+        "hasChildren" : "true",
+        "id" : "SCB184"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB184/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB184/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB184"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB185",
+      "display" : "Microbiology, immunology, infectious diseases",
+      "value" : "MEDICINE::Microbiology, immunology, infectious diseases",
+      "otherInformation" : {
+        "parent" : "MEDICINE",
+        "note" : "Mikrobiologi, immunologi, infektionssjukdomar",
+        "hasChildren" : "true",
+        "id" : "SCB185"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB185/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB185/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB185"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB186",
+      "display" : "Chemistry",
+      "value" : "MEDICINE::Chemistry",
+      "otherInformation" : {
+        "parent" : "MEDICINE",
+        "note" : "Kemi",
+        "hasChildren" : "true",
+        "id" : "SCB186"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB186/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB186/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB186"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB187",
+      "display" : "Psychiatry",
+      "value" : "MEDICINE::Psychiatry",
+      "otherInformation" : {
+        "parent" : "MEDICINE",
+        "note" : "Psykiatri",
+        "hasChildren" : "true",
+        "id" : "SCB187"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB187/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB187/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB187"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 8
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB18/children?page=0&size=100"
+    }
+  }
+}

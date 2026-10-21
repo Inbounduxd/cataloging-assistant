@@ -16,7 +16,7 @@ def _form_payload() -> dict:
     page_one_rows = []
     page_two_rows = []
     for index, field in enumerate(FIELDS):
-        form_rows = page_one_rows if index < 44 else page_two_rows
+        form_rows = page_one_rows if index < 45 else page_two_rows
         option = {"metadata": field.metadata_field}
         if field.vocabulary_id is not None:
             option["controlledVocabulary"] = field.vocabulary_id
@@ -131,7 +131,7 @@ def test_exact_match_inherits_approved_204_resolution_despite_form_position_offs
     assert inherited is not None
     assert inherited.complete is True
     assert inherited.semantic_hash == active.effective_hash
-    assert len(inherited.canonical["bindings"]) == 56
+    assert len(inherited.canonical["bindings"]) == 57
 
 
 def test_registry_change_invalidates_inheritance() -> None:

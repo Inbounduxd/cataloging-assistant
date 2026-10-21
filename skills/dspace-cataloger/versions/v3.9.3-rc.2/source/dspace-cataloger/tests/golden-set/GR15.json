@@ -1,0 +1,16 @@
+{
+  "goldenRecord": "GR15",
+  "recordId": null,
+  "title": "Alias and autodenomination reconciliation",
+  "status": "PILOT_ACCEPTED",
+  "purpose": "Semantic regression fixture derived from cataloguing-learning v3.5. Does not contain copyrighted full text.",
+  "expectedRules": [
+    "SOURCE_LABEL_PRESERVED",
+    "AUTHORIZED_DSPACE_LABEL_SEPARATE",
+    "ALIAS_REQUIRES_TRACEABILITY"
+  ],
+  "mustNever": [
+    "Silently replace Ngigua with Chocholteco.",
+    "Lose Purépecha when normalizing to an authorized label."
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:VR153201",
+      "display" : "History of geology and palaeontology",
+      "value" : "NATURAL SCIENCES::Earth sciences::Exogenous earth sciences::History of geology and palaeontology",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Earth sciences::Exogenous earth sciences",
+        "note" : "Historisk geologi och paleontologi",
+        "hasChildren" : "false",
+        "id" : "VR153201"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR153201/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR153201/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR153201"
+        }
+      }
+    }, {
+      "id" : "srsc:VR153202",
+      "display" : "Quaternary geology",
+      "value" : "NATURAL SCIENCES::Earth sciences::Exogenous earth sciences::Quaternary geology",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Earth sciences::Exogenous earth sciences",
+        "note" : "Kvartärgeologi",
+        "hasChildren" : "false",
+        "id" : "VR153202"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR153202/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR153202/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR153202"
+        }
+      }
+    }, {
+      "id" : "srsc:VR153203",
+      "display" : "Physical geography",
+      "value" : "NATURAL SCIENCES::Earth sciences::Exogenous earth sciences::Physical geography",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Earth sciences::Exogenous earth sciences",
+        "note" : "Naturgeografi",
+        "hasChildren" : "false",
+        "id" : "VR153203"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR153203/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR153203/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR153203"
+        }
+      }
+    }, {
+      "id" : "srsc:VR153204",
+      "display" : "Exogenous geochemistry",
+      "value" : "NATURAL SCIENCES::Earth sciences::Exogenous earth sciences::Exogenous geochemistry",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Earth sciences::Exogenous earth sciences",
+        "note" : "Exogen geokemi",
+        "hasChildren" : "false",
+        "id" : "VR153204"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR153204/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR153204/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR153204"
+        }
+      }
+    }, {
+      "id" : "srsc:VR153205",
+      "display" : "Sedimentology",
+      "value" : "NATURAL SCIENCES::Earth sciences::Exogenous earth sciences::Sedimentology",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Earth sciences::Exogenous earth sciences",
+        "note" : "Sedimentologi",
+        "hasChildren" : "false",
+        "id" : "VR153205"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR153205/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR153205/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR153205"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 5
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1532/children?page=0&size=100"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "goldenRecord": "GR01",
+  "recordId": 22665,
+  "title": "Trabajo para luchar contra la violencia lingüística",
+  "status": "PILOT_ACCEPTED",
+  "purpose": "Semantic regression fixture. Does not contain full copyrighted source text.",
+  "expectedRules": [
+    "EXACT_DSPACE_KEYS",
+    "OBJECT_LANGUAGE_NOT_CONTENT_LANGUAGE",
+    "MAYA_GENERIC_NO_FORCED_NORMALIZATION",
+    "RIGHTS_WEB_VISIBILITY_NOT_LICENSE",
+    "EXTENT_REQUIRED_PENDING_ALLOWED"
+  ],
+  "mustNever": [
+    "Normalize generic Maya to Maya yucateco without supporting authority/evidence."
+  ]
+}

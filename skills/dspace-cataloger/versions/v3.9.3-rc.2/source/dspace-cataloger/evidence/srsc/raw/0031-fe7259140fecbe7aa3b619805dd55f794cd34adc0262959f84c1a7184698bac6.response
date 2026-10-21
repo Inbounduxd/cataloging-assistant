@@ -1,0 +1,108 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:SCB1531",
+      "display" : "Endogenous earth sciences",
+      "value" : "NATURAL SCIENCES::Earth sciences::Endogenous earth sciences",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Earth sciences",
+        "note" : "Endogen geovetenskap",
+        "hasChildren" : "true",
+        "id" : "SCB1531"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1531/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1531/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1531"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1532",
+      "display" : "Exogenous earth sciences",
+      "value" : "NATURAL SCIENCES::Earth sciences::Exogenous earth sciences",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Earth sciences",
+        "note" : "Exogen geovetenskap",
+        "hasChildren" : "true",
+        "id" : "SCB1532"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1532/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1532/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1532"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1533",
+      "display" : "Atmosphere and hydrosphere sciences",
+      "value" : "NATURAL SCIENCES::Earth sciences::Atmosphere and hydrosphere sciences",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Earth sciences",
+        "note" : "Atmosfärs- och hydrosfärsvetenskap",
+        "hasChildren" : "true",
+        "id" : "SCB1533"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1533/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1533/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1533"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1539",
+      "display" : "Other earth sciences",
+      "value" : "NATURAL SCIENCES::Earth sciences::Other earth sciences",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Earth sciences",
+        "note" : "Övrig geovetenskap",
+        "hasChildren" : "false",
+        "id" : "SCB1539"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1539/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1539/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1539"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 4
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB153/children?page=0&size=100"
+    }
+  }
+}

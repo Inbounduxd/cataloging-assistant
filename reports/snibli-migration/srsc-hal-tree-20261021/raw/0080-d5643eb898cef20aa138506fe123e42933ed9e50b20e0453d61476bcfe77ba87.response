@@ -1,0 +1,223 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:VR133101",
+      "display" : "Informatics",
+      "value" : "SOCIAL SCIENCES::Statistics, computer and systems science::Informatics, computer and systems science::Informatics",
+      "otherInformation" : {
+        "parent" : "SOCIAL SCIENCES::Statistics, computer and systems science::Informatics, computer and systems science",
+        "note" : "Informatik",
+        "hasChildren" : "false",
+        "id" : "VR133101"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR133101/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR133101/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR133101"
+        }
+      }
+    }, {
+      "id" : "srsc:VR133102",
+      "display" : "Informatics and systems science",
+      "value" : "SOCIAL SCIENCES::Statistics, computer and systems science::Informatics, computer and systems science::Informatics and systems science",
+      "otherInformation" : {
+        "parent" : "SOCIAL SCIENCES::Statistics, computer and systems science::Informatics, computer and systems science",
+        "note" : "Informatik och systemvetenskap",
+        "hasChildren" : "false",
+        "id" : "VR133102"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR133102/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR133102/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR133102"
+        }
+      }
+    }, {
+      "id" : "srsc:VR133103",
+      "display" : "ADP",
+      "value" : "SOCIAL SCIENCES::Statistics, computer and systems science::Informatics, computer and systems science::ADP",
+      "otherInformation" : {
+        "parent" : "SOCIAL SCIENCES::Statistics, computer and systems science::Informatics, computer and systems science",
+        "note" : "ADB",
+        "hasChildren" : "false",
+        "id" : "VR133103"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR133103/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR133103/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR133103"
+        }
+      }
+    }, {
+      "id" : "srsc:VR133104",
+      "display" : "Computer and systems science",
+      "value" : "SOCIAL SCIENCES::Statistics, computer and systems science::Informatics, computer and systems science::Computer and systems science",
+      "otherInformation" : {
+        "parent" : "SOCIAL SCIENCES::Statistics, computer and systems science::Informatics, computer and systems science",
+        "note" : "Data- och systemvetenskap",
+        "hasChildren" : "false",
+        "id" : "VR133104"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR133104/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR133104/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR133104"
+        }
+      }
+    }, {
+      "id" : "srsc:VR133105",
+      "display" : "Databases",
+      "value" : "SOCIAL SCIENCES::Statistics, computer and systems science::Informatics, computer and systems science::Databases",
+      "otherInformation" : {
+        "parent" : "SOCIAL SCIENCES::Statistics, computer and systems science::Informatics, computer and systems science",
+        "note" : "Databaser",
+        "hasChildren" : "false",
+        "id" : "VR133105"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR133105/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR133105/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR133105"
+        }
+      }
+    }, {
+      "id" : "srsc:VR133106",
+      "display" : "Data processing",
+      "value" : "SOCIAL SCIENCES::Statistics, computer and systems science::Informatics, computer and systems science::Data processing",
+      "otherInformation" : {
+        "parent" : "SOCIAL SCIENCES::Statistics, computer and systems science::Informatics, computer and systems science",
+        "note" : "Databehandling",
+        "hasChildren" : "false",
+        "id" : "VR133106"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR133106/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR133106/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR133106"
+        }
+      }
+    }, {
+      "id" : "srsc:VR133107",
+      "display" : "Information and language technology",
+      "value" : "SOCIAL SCIENCES::Statistics, computer and systems science::Informatics, computer and systems science::Information and language technology",
+      "otherInformation" : {
+        "parent" : "SOCIAL SCIENCES::Statistics, computer and systems science::Informatics, computer and systems science",
+        "note" : "Informations- och språkteknologi",
+        "hasChildren" : "false",
+        "id" : "VR133107"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR133107/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR133107/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR133107"
+        }
+      }
+    }, {
+      "id" : "srsc:VR133108",
+      "display" : "Information processing",
+      "value" : "SOCIAL SCIENCES::Statistics, computer and systems science::Informatics, computer and systems science::Information processing",
+      "otherInformation" : {
+        "parent" : "SOCIAL SCIENCES::Statistics, computer and systems science::Informatics, computer and systems science",
+        "note" : "Informationsbehandling",
+        "hasChildren" : "false",
+        "id" : "VR133108"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR133108/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR133108/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR133108"
+        }
+      }
+    }, {
+      "id" : "srsc:VR133109",
+      "display" : "Information technology",
+      "value" : "SOCIAL SCIENCES::Statistics, computer and systems science::Informatics, computer and systems science::Information technology",
+      "otherInformation" : {
+        "parent" : "SOCIAL SCIENCES::Statistics, computer and systems science::Informatics, computer and systems science",
+        "note" : "Informationsteknologi",
+        "hasChildren" : "false",
+        "id" : "VR133109"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR133109/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR133109/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR133109"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 9
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1331/children?page=0&size=100"
+    }
+  }
+}

@@ -1,0 +1,206 @@
+{
+  "dspaceUI" : "https://www.iifl.unam.mx/SNIBLI",
+  "dspaceName" : "Respositorio Ind",
+  "dspaceServer" : "https://www.iifl.unam.mx/server",
+  "dspaceVersion" : "DSpace 7.6.6",
+  "type" : "root",
+  "_links" : {
+    "actuator" : {
+      "href" : "https://www.iifl.unam.mx/server/actuator"
+    },
+    "authn" : {
+      "href" : "https://www.iifl.unam.mx/server/api/authn"
+    },
+    "authorizations" : {
+      "href" : "https://www.iifl.unam.mx/server/api/authz/authorizations"
+    },
+    "bitstreamformats" : {
+      "href" : "https://www.iifl.unam.mx/server/api/core/bitstreamformats"
+    },
+    "bitstreams" : {
+      "href" : "https://www.iifl.unam.mx/server/api/core/bitstreams"
+    },
+    "browses" : {
+      "href" : "https://www.iifl.unam.mx/server/api/discover/browses"
+    },
+    "bulkaccessconditionoptions" : {
+      "href" : "https://www.iifl.unam.mx/server/api/config/bulkaccessconditionoptions"
+    },
+    "bundles" : {
+      "href" : "https://www.iifl.unam.mx/server/api/core/bundles"
+    },
+    "claimedtasks" : {
+      "href" : "https://www.iifl.unam.mx/server/api/workflow/claimedtasks"
+    },
+    "claimedtasks-search" : {
+      "href" : "https://www.iifl.unam.mx/server/api/workflow/claimedtasks/search"
+    },
+    "collections" : {
+      "href" : "https://www.iifl.unam.mx/server/api/core/collections"
+    },
+    "communities" : {
+      "href" : "https://www.iifl.unam.mx/server/api/core/communities"
+    },
+    "discover" : {
+      "href" : "https://www.iifl.unam.mx/server/api/discover"
+    },
+    "dso" : {
+      "href" : "https://www.iifl.unam.mx/server/api/dso/find{?uuid}",
+      "templated" : true
+    },
+    "entitytypes" : {
+      "href" : "https://www.iifl.unam.mx/server/api/core/entitytypes"
+    },
+    "eperson-registration" : {
+      "href" : "https://www.iifl.unam.mx/server/api/eperson/registrations"
+    },
+    "epersons" : {
+      "href" : "https://www.iifl.unam.mx/server/api/eperson/epersons"
+    },
+    "externalsources" : {
+      "href" : "https://www.iifl.unam.mx/server/api/integration/externalsources"
+    },
+    "features" : {
+      "href" : "https://www.iifl.unam.mx/server/api/authz/features"
+    },
+    "feedbacks" : {
+      "href" : "https://www.iifl.unam.mx/server/api/tools/feedbacks"
+    },
+    "groups" : {
+      "href" : "https://www.iifl.unam.mx/server/api/eperson/groups"
+    },
+    "identifiers" : {
+      "href" : "https://www.iifl.unam.mx/server/api/pid/identifiers"
+    },
+    "itemrequests" : {
+      "href" : "https://www.iifl.unam.mx/server/api/tools/itemrequests"
+    },
+    "items" : {
+      "href" : "https://www.iifl.unam.mx/server/api/core/items"
+    },
+    "itemtemplates" : {
+      "href" : "https://www.iifl.unam.mx/server/api/core/itemtemplates"
+    },
+    "metadatafields" : {
+      "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields"
+    },
+    "metadataschemas" : {
+      "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas"
+    },
+    "oidc" : {
+      "href" : "https://www.iifl.unam.mx/server/api/authn"
+    },
+    "pid" : {
+      "href" : "https://www.iifl.unam.mx/server/api/pid/find{?id}",
+      "templated" : true
+    },
+    "pooltasks" : {
+      "href" : "https://www.iifl.unam.mx/server/api/workflow/pooltasks"
+    },
+    "pooltasks-search" : {
+      "href" : "https://www.iifl.unam.mx/server/api/workflow/pooltasks/search"
+    },
+    "processes" : {
+      "href" : "https://www.iifl.unam.mx/server/api/system/processes"
+    },
+    "properties" : {
+      "href" : "https://www.iifl.unam.mx/server/api/config/properties"
+    },
+    "registrations" : {
+      "href" : "https://www.iifl.unam.mx/server/api/eperson/registrations"
+    },
+    "relationships" : {
+      "href" : "https://www.iifl.unam.mx/server/api/core/relationships"
+    },
+    "relationshiptypes" : {
+      "href" : "https://www.iifl.unam.mx/server/api/core/relationshiptypes"
+    },
+    "resourcepolicies" : {
+      "href" : "https://www.iifl.unam.mx/server/api/authz/resourcepolicies"
+    },
+    "resourcepolicies-search" : {
+      "href" : "https://www.iifl.unam.mx/server/api/authz/resourcepolicies/search"
+    },
+    "scripts" : {
+      "href" : "https://www.iifl.unam.mx/server/api/system/scripts"
+    },
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api"
+    },
+    "sites" : {
+      "href" : "https://www.iifl.unam.mx/server/api/core/sites"
+    },
+    "statistics" : {
+      "href" : "https://www.iifl.unam.mx/server/api/statistics"
+    },
+    "submissionaccessoptions" : {
+      "href" : "https://www.iifl.unam.mx/server/api/config/submissionaccessoptions"
+    },
+    "submissioncclicenseUrls" : {
+      "href" : "https://www.iifl.unam.mx/server/api/config/submissioncclicenseUrls"
+    },
+    "submissioncclicenseUrls-search" : {
+      "href" : "https://www.iifl.unam.mx/server/api/config/submissioncclicenseUrls/search"
+    },
+    "submissioncclicenses" : {
+      "href" : "https://www.iifl.unam.mx/server/api/config/submissioncclicenses"
+    },
+    "submissiondefinitions" : {
+      "href" : "https://www.iifl.unam.mx/server/api/config/submissiondefinitions"
+    },
+    "submissionforms" : {
+      "href" : "https://www.iifl.unam.mx/server/api/config/submissionforms"
+    },
+    "submissionsections" : {
+      "href" : "https://www.iifl.unam.mx/server/api/config/submissionsections"
+    },
+    "submissionuploads" : {
+      "href" : "https://www.iifl.unam.mx/server/api/config/submissionuploads"
+    },
+    "subscriptions" : {
+      "href" : "https://www.iifl.unam.mx/server/api/core/subscriptions"
+    },
+    "subscriptions-search" : {
+      "href" : "https://www.iifl.unam.mx/server/api/core/subscriptions/search"
+    },
+    "supervisionorders" : {
+      "href" : "https://www.iifl.unam.mx/server/api/core/supervisionorders"
+    },
+    "systemwidealerts" : {
+      "href" : "https://www.iifl.unam.mx/server/api/system/systemwidealerts"
+    },
+    "usagereports" : {
+      "href" : "https://www.iifl.unam.mx/server/api/statistics/usagereports"
+    },
+    "versionhistories" : {
+      "href" : "https://www.iifl.unam.mx/server/api/versioning/versionhistories"
+    },
+    "versions" : {
+      "href" : "https://www.iifl.unam.mx/server/api/versioning/versions"
+    },
+    "vocabularies" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularies"
+    },
+    "vocabularyEntryDetails" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails"
+    },
+    "vocabularyEntryDetails-search" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/search"
+    },
+    "workflowactions" : {
+      "href" : "https://www.iifl.unam.mx/server/api/config/workflowactions"
+    },
+    "workflowdefinitions" : {
+      "href" : "https://www.iifl.unam.mx/server/api/config/workflowdefinitions"
+    },
+    "workflowitems" : {
+      "href" : "https://www.iifl.unam.mx/server/api/workflow/workflowitems"
+    },
+    "workflowsteps" : {
+      "href" : "https://www.iifl.unam.mx/server/api/config/workflowsteps"
+    },
+    "workspaceitems" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/workspaceitems"
+    }
+  }
+}

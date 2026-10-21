@@ -1,0 +1,62 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:VR187101",
+      "display" : "Child and adolescent psychiatry",
+      "value" : "MEDICINE::Psychiatry::Child and adolescent psychiatry",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Psychiatry",
+        "note" : "Barn- och ungdomspsykiatri",
+        "hasChildren" : "false",
+        "id" : "VR187101"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR187101/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR187101/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR187101"
+        }
+      }
+    }, {
+      "id" : "srsc:VR187102",
+      "display" : "Addiction medicine",
+      "value" : "MEDICINE::Psychiatry::Addiction medicine",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Psychiatry",
+        "note" : "Beroendelära",
+        "hasChildren" : "false",
+        "id" : "VR187102"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR187102/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR187102/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR187102"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 2
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB187/children?page=0&size=100"
+    }
+  }
+}

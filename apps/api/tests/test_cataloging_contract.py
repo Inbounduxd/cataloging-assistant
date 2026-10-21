@@ -2,6 +2,7 @@ from cataloging_api.cataloging_contract import (
     CLIN_RELATIONSHIPS,
     CONTRACT_VERSION,
     CONTROLLED_RUNTIME_FIELDS,
+    CONTROLLED_VOCABULARIES,
     DRAFTABLE_LINGUISTIC_FIELDS,
     EVIDENCE_STATES,
     FIELD_BY_BINDING,
@@ -17,9 +18,10 @@ from cataloging_api.cataloging_contract import (
 )
 
 
-def test_master_contract_keeps_56_ui_bindings() -> None:
-    assert CONTRACT_VERSION == "dspace-cataloger-v3.9.1"
-    assert len(FIELDS) == 56
+def test_master_contract_includes_approved_57_ui_bindings() -> None:
+    assert CONTRACT_VERSION == "snibli-contract-2026-10-21"
+    assert len(FIELDS) == 57
+    assert len({field.metadata_field for field in FIELDS}) == 55
     assert sum(field.metadata_field == "dc.format.medium" for field in FIELDS) == 2
     assert sum(field.metadata_field == "dc.subject" for field in FIELDS) == 2
 
@@ -28,6 +30,60 @@ def test_literal_external_metadata_keys_are_preserved() -> None:
     assert LINGUISTIC_GROUP == "dc.subject.linguiscgroup"
     assert LINGUISTIC_GROUP in DRAFTABLE_LINGUISTIC_FIELDS
     assert LINGUISTIC_GROUP in CONTROLLED_RUNTIME_FIELDS
+
+
+def test_comparative_mapping_preserves_literal_options_without_automatic_inference() -> None:
+    field = FIELD_BY_BINDING["comparative-text"]
+    assert field.metadata_field == "dc.type.genre"
+    assert field.ui_label == "¿Es un texto comparativo?"
+    assert field.controlled and field.vocabulary_id == "genrePairs"
+    assert not field.required and not field.repeatable
+    assert not field.runtime_draftable and not field.runtime_profiled
+    assert not field.runtime_vocabularied
+    assert CONTROLLED_VOCABULARIES["genrePairs"] == (
+        "Sí",
+        "No",
+        "Incluye Datos de Diferentes Lenguas",
+    )
+    ids = [item.binding_id for item in FIELDS]
+    index = ids.index("comparative-text")
+    assert ids[index - 1 : index + 2] == ["issue", "comparative-text", "issn"]
+
+
+def test_document_types_retain_original_values_and_append_approved_literals() -> None:
+    assert CONTROLLED_VOCABULARIES["common_types"] == (
+        "Animation",
+        "Article",
+        "Book",
+        "Book chapter",
+        "Dataset",
+        "Learning Object",
+        "Image",
+        "Image, 3-D",
+        "Map",
+        "Musical Score",
+        "Plan or blueprint",
+        "Preprint",
+        "Presentation",
+        "Recording, acoustical",
+        "Recording, musical",
+        "Recording, oral",
+        "Software",
+        "Technical Report",
+        "Thesis",
+        "Video",
+        "Working Paper",
+        "Other",
+        "Pagina Web",
+        "Códice",
+        "Reseña",
+        "Documento Colonial",
+    )
+    payload = contract_payload()
+    assert payload["unique_metadata_count"] == 55
+    assert "srsc" not in payload["controlled_vocabulary_values"]
+    payload["controlled_vocabulary_values"]["genrePairs"].clear()
+    assert len(CONTROLLED_VOCABULARIES["genrePairs"]) == 3
 
 
 def test_runtime_contract_includes_variant_and_keeps_registered_language_independent() -> None:
@@ -55,7 +111,7 @@ def test_variant_is_controlled_without_presuming_dspace_list() -> None:
 def test_master_contract_preserves_dspace_ui_order() -> None:
     binding_ids = [field.binding_id for field in FIELDS]
 
-    assert binding_ids[27:35] == [
+    assert binding_ids[28:36] == [
         "language-usage",
         "registered-language",
         "linguistic-group",
@@ -124,7 +180,7 @@ def test_evidence_states_exclude_qa_statuses() -> None:
 
 def test_contract_payload_is_runtime_serializable() -> None:
     payload = contract_payload()
-    assert payload["field_count"] == 56
+    assert payload["field_count"] == 57
     runtime = payload["runtime"]
     assert runtime["branch_is_optional_enrichment"] is True
     assert runtime["registered_language_is_independent"] is True

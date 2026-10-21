@@ -1,0 +1,131 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:SCB1721",
+      "display" : "Plant breeding",
+      "value" : "FORESTRY, AGRICULTURAL SCIENCES and LANDSCAPE PLANNING::Plant production::Plant breeding",
+      "otherInformation" : {
+        "parent" : "FORESTRY, AGRICULTURAL SCIENCES and LANDSCAPE PLANNING::Plant production",
+        "note" : "Växtförädling",
+        "hasChildren" : "false",
+        "id" : "SCB1721"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1721/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1721/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1721"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1722",
+      "display" : "Horticulture",
+      "value" : "FORESTRY, AGRICULTURAL SCIENCES and LANDSCAPE PLANNING::Plant production::Horticulture",
+      "otherInformation" : {
+        "parent" : "FORESTRY, AGRICULTURAL SCIENCES and LANDSCAPE PLANNING::Plant production",
+        "note" : "Trädgårdsväxtodling",
+        "hasChildren" : "false",
+        "id" : "SCB1722"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1722/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1722/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1722"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1723",
+      "display" : "Agronomy",
+      "value" : "FORESTRY, AGRICULTURAL SCIENCES and LANDSCAPE PLANNING::Plant production::Agronomy",
+      "otherInformation" : {
+        "parent" : "FORESTRY, AGRICULTURAL SCIENCES and LANDSCAPE PLANNING::Plant production",
+        "note" : "Jordbruksväxtodling",
+        "hasChildren" : "false",
+        "id" : "SCB1723"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1723/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1723/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1723"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1724",
+      "display" : "Forestry",
+      "value" : "FORESTRY, AGRICULTURAL SCIENCES and LANDSCAPE PLANNING::Plant production::Forestry",
+      "otherInformation" : {
+        "parent" : "FORESTRY, AGRICULTURAL SCIENCES and LANDSCAPE PLANNING::Plant production",
+        "note" : "Skogsskötsel",
+        "hasChildren" : "false",
+        "id" : "SCB1724"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1724/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1724/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1724"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1725",
+      "display" : "Plant and forest protection",
+      "value" : "FORESTRY, AGRICULTURAL SCIENCES and LANDSCAPE PLANNING::Plant production::Plant and forest protection",
+      "otherInformation" : {
+        "parent" : "FORESTRY, AGRICULTURAL SCIENCES and LANDSCAPE PLANNING::Plant production",
+        "note" : "Växt- och skogsskydd",
+        "hasChildren" : "false",
+        "id" : "SCB1725"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1725/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1725/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1725"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 5
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB172/children?page=0&size=100"
+    }
+  }
+}

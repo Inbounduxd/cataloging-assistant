@@ -1,0 +1,223 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:SCB1131",
+      "display" : "Scandinavian languages",
+      "value" : "HUMANITIES and RELIGION::Languages and linguistics::Scandinavian languages",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::Languages and linguistics",
+        "note" : "Nordiska språk",
+        "hasChildren" : "true",
+        "id" : "SCB1131"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1131/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1131/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1131"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1132",
+      "display" : "Other Germanic languages",
+      "value" : "HUMANITIES and RELIGION::Languages and linguistics::Other Germanic languages",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::Languages and linguistics",
+        "note" : "Övriga germanska språk",
+        "hasChildren" : "true",
+        "id" : "SCB1132"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1132/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1132/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1132"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1133",
+      "display" : "Romance languages",
+      "value" : "HUMANITIES and RELIGION::Languages and linguistics::Romance languages",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::Languages and linguistics",
+        "note" : "Romanska språk",
+        "hasChildren" : "true",
+        "id" : "SCB1133"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1133/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1133/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1133"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1134",
+      "display" : "Finno-Ugric languages",
+      "value" : "HUMANITIES and RELIGION::Languages and linguistics::Finno-Ugric languages",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::Languages and linguistics",
+        "note" : "Finsk-ugriska språk",
+        "hasChildren" : "true",
+        "id" : "SCB1134"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1134/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1134/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1134"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1135",
+      "display" : "Slavic languages",
+      "value" : "HUMANITIES and RELIGION::Languages and linguistics::Slavic languages",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::Languages and linguistics",
+        "note" : "Slaviska språk",
+        "hasChildren" : "true",
+        "id" : "SCB1135"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1135/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1135/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1135"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1136",
+      "display" : "Classical philology",
+      "value" : "HUMANITIES and RELIGION::Languages and linguistics::Classical philology",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::Languages and linguistics",
+        "note" : "Klassiska språk",
+        "hasChildren" : "true",
+        "id" : "SCB1136"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1136/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1136/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1136"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1137",
+      "display" : "Other languages",
+      "value" : "HUMANITIES and RELIGION::Languages and linguistics::Other languages",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::Languages and linguistics",
+        "note" : "Övriga språk",
+        "hasChildren" : "true",
+        "id" : "SCB1137"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1137/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1137/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1137"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1138",
+      "display" : "Sign language",
+      "value" : "HUMANITIES and RELIGION::Languages and linguistics::Sign language",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::Languages and linguistics",
+        "note" : "Teckenspråk",
+        "hasChildren" : "false",
+        "id" : "SCB1138"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1138/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1138/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1138"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1139",
+      "display" : "Linguistic subjects",
+      "value" : "HUMANITIES and RELIGION::Languages and linguistics::Linguistic subjects",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::Languages and linguistics",
+        "note" : "Lingvistikämnen",
+        "hasChildren" : "true",
+        "id" : "SCB1139"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1139/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1139/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1139"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 9
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB113/children?page=0&size=100"
+    }
+  }
+}

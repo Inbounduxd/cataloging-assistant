@@ -1,0 +1,131 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:SCB1661",
+      "display" : "Functional materials",
+      "value" : "TECHNOLOGY::Materials science::Functional materials",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY::Materials science",
+        "note" : "Funktionella material",
+        "hasChildren" : "false",
+        "id" : "SCB1661"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1661/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1661/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1661"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1662",
+      "display" : "Construction materials",
+      "value" : "TECHNOLOGY::Materials science::Construction materials",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY::Materials science",
+        "note" : "Konstruktionsmaterial",
+        "hasChildren" : "false",
+        "id" : "SCB1662"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1662/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1662/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1662"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1663",
+      "display" : "Surface engineering",
+      "value" : "TECHNOLOGY::Materials science::Surface engineering",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY::Materials science",
+        "note" : "Ytbehandlingsteknik",
+        "hasChildren" : "false",
+        "id" : "SCB1663"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1663/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1663/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1663"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1664",
+      "display" : "Other processing/assembly",
+      "value" : "TECHNOLOGY::Materials science::Other processing/assembly",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY::Materials science",
+        "note" : "Övrig bearbetning/sammanfogning",
+        "hasChildren" : "false",
+        "id" : "SCB1664"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1664/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1664/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1664"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1669",
+      "display" : "Other materials science",
+      "value" : "TECHNOLOGY::Materials science::Other materials science",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY::Materials science",
+        "note" : "Övrig teknisk materialvetenskap",
+        "hasChildren" : "false",
+        "id" : "SCB1669"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1669/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1669/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1669"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 5
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB166/children?page=0&size=100"
+    }
+  }
+}

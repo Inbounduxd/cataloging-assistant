@@ -1,0 +1,14 @@
+{
+  "goldenRecord": "GR18",
+  "recordId": null,
+  "title": "No author keywords but inferable controlled topics",
+  "status": "PILOT_ACCEPTED",
+  "purpose": "Semantic regression fixture derived from cataloguing-learning v3.5. Does not contain copyrighted full text.",
+  "expectedRules": [
+    "AUTHOR_KEYWORDS_PROVENANCE",
+    "CONTROLLED_TOPICS_SEPARATE"
+  ],
+  "mustNever": [
+    "Present inferred topics as author keywords."
+  ]
+}

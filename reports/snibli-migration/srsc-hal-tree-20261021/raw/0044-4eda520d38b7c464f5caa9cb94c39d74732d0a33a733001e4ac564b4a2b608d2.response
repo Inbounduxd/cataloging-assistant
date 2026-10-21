@@ -1,0 +1,108 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:SCB1731",
+      "display" : "Animal breeding",
+      "value" : "FORESTRY, AGRICULTURAL SCIENCES and LANDSCAPE PLANNING::Animal production::Animal breeding",
+      "otherInformation" : {
+        "parent" : "FORESTRY, AGRICULTURAL SCIENCES and LANDSCAPE PLANNING::Animal production",
+        "note" : "Husdjursförädling",
+        "hasChildren" : "false",
+        "id" : "SCB1731"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1731/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1731/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1731"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1732",
+      "display" : "Animal nutrition and management",
+      "value" : "FORESTRY, AGRICULTURAL SCIENCES and LANDSCAPE PLANNING::Animal production::Animal nutrition and management",
+      "otherInformation" : {
+        "parent" : "FORESTRY, AGRICULTURAL SCIENCES and LANDSCAPE PLANNING::Animal production",
+        "note" : "Husdjurens utfodring och vård",
+        "hasChildren" : "false",
+        "id" : "SCB1732"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1732/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1732/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1732"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1733",
+      "display" : "Aquaculture",
+      "value" : "FORESTRY, AGRICULTURAL SCIENCES and LANDSCAPE PLANNING::Animal production::Aquaculture",
+      "otherInformation" : {
+        "parent" : "FORESTRY, AGRICULTURAL SCIENCES and LANDSCAPE PLANNING::Animal production",
+        "note" : "Vattenbruk",
+        "hasChildren" : "false",
+        "id" : "SCB1733"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1733/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1733/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1733"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1734",
+      "display" : "Fishery",
+      "value" : "FORESTRY, AGRICULTURAL SCIENCES and LANDSCAPE PLANNING::Animal production::Fishery",
+      "otherInformation" : {
+        "parent" : "FORESTRY, AGRICULTURAL SCIENCES and LANDSCAPE PLANNING::Animal production",
+        "note" : "Fiske",
+        "hasChildren" : "false",
+        "id" : "SCB1734"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1734/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1734/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1734"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 4
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB173/children?page=0&size=100"
+    }
+  }
+}
