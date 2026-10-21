@@ -1,0 +1,19 @@
+{
+  "status": "TECHNICAL_PASS_HUMAN_REVIEW_REQUIRED",
+  "checks": {
+    "rc2_integrity": true,
+    "draft_schema": true,
+    "new_document_type_exact_match": true,
+    "comparative_abstention": true,
+    "language_separation": true,
+    "shared_metadata_separate_bindings": true,
+    "extent_not_borrowed_from_reviewed_book": true,
+    "pending_human_review_no_final_values": true,
+    "no_dspace_writes": true
+  },
+  "skillSha256": "c1680bf6b452097e6d8b6e4263043f991676015a3173b3a9673bc1f520660cae",
+  "existingRecordIssue": "DOCUMENT_TYPE_MISMATCH",
+  "humanAcceptance": "PENDING",
+  "stableReleasePromotion": "NOT_PERFORMED",
+  "scope": "One focused case; no independent adjudication, full-text evaluation or global migration certification"
+}

@@ -1,0 +1,62 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:VR180502",
+      "display" : "Audiology",
+      "value" : "MEDICINE::Surgery::Otorhinolaryngology::Audiology",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Surgery::Otorhinolaryngology",
+        "note" : "Audiologi",
+        "hasChildren" : "false",
+        "id" : "VR180502"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR180502/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR180502/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR180502"
+        }
+      }
+    }, {
+      "id" : "srsc:VR180503",
+      "display" : "Logopedics and phoniatrics",
+      "value" : "MEDICINE::Surgery::Otorhinolaryngology::Logopedics and phoniatrics",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Surgery::Otorhinolaryngology",
+        "note" : "Logopedi och foniatrik",
+        "hasChildren" : "false",
+        "id" : "VR180503"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR180503/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR180503/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR180503"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 2
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1805/children?page=0&size=100"
+    }
+  }
+}

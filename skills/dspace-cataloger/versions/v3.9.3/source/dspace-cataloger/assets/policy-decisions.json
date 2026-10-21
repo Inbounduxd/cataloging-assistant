@@ -1,0 +1,303 @@
+{
+  "version": "3.9",
+  "generatedAt": "2026-08-18T10:21:03.838555+00:00",
+  "statusSemantics": {
+    "PILOT_APPROVED": "Aprobado durante el Golden Set; requiere formalización institucional antes de tratarlo como política permanente.",
+    "PROVISIONAL": "Regla útil para MVP que aún requiere decisión institucional explícita.",
+    "OPEN": "Decisión no resuelta."
+  },
+  "policies": [
+    {
+      "policyId": "POL-LANGUSE-001",
+      "title": "Bilingüismo por función discursiva",
+      "status": "PILOT_APPROVED",
+      "rule": "No determinar dc.description.languageUsage contando idiomas detectados. Título paralelo, abstract paralelo, citas, ejemplos o corpus citado no convierten por sí solos el recurso en bilingüe. Bilingüe requiere contenido sustantivo en dos lenguas; Multilingüe, contenido sustantivo en tres o más.",
+      "evidenceCases": [
+        "GR03",
+        "GR07",
+        "GR08",
+        "GR09",
+        "GR10"
+      ]
+    },
+    {
+      "policyId": "POL-LANGUSE-002",
+      "title": "Roles lingüísticos explícitos",
+      "status": "PILOT_APPROVED",
+      "rule": "Separar CONTENT_LANGUAGE, OBJECT_LANGUAGE, EXAMPLE_LANGUAGE, MENTION_ONLY y REFERENCE_ONLY antes de mapear lenguas a DSpace.",
+      "evidenceCases": [
+        "GR02",
+        "GR03",
+        "GR05",
+        "GR07",
+        "GR08",
+        "GR09",
+        "GR10"
+      ]
+    },
+    {
+      "policyId": "POL-ABSTRACT-001",
+      "title": "Abstract no repetible",
+      "status": "PROVISIONAL",
+      "rule": "Conservar todos los abstracts en Evidence Corpus. Si dc.description.abstract no es repetible, seleccionar el abstract de la lengua principal del contenido salvo política institucional distinta; nunca descartar silenciosamente los demás.",
+      "evidenceCases": [
+        "GR03",
+        "GR09",
+        "GR10"
+      ]
+    },
+    {
+      "policyId": "POL-ROLE-001",
+      "title": "Roles sin campo específico",
+      "status": "PROVISIONAL",
+      "rule": "Preservar el rol canónico original (advisor, thesis_committee, examiner, coordinator, collective, translator, editor). Mapear temporalmente a dc.contributor.other solo cuando no exista un campo DSpace más preciso y marcar POLICY_REVIEW.",
+      "evidenceCases": [
+        "GR06",
+        "GR07",
+        "GR09"
+      ]
+    },
+    {
+      "policyId": "POL-EXTENT-001",
+      "title": "Extensión bibliográfica antes que páginas físicas",
+      "status": "PILOT_APPROVED",
+      "rule": "Para PDF paginado, preferir la extensión bibliográfica declarada o derivada de la paginación editorial sobre el número físico de páginas del archivo.",
+      "evidenceCases": [
+        "GR06"
+      ]
+    },
+    {
+      "policyId": "POL-EXTENT-002",
+      "title": "Extensión de recursos HTML",
+      "status": "PROVISIONAL",
+      "rule": "dc.format.extent no se limita a páginas. En HTML sin paginación puede proponerse una unidad intelectual explícita y verificable, pero debe permanecer en POLICY_REVIEW hasta aprobación institucional.",
+      "evidenceCases": [
+        "GR07",
+        "GR08"
+      ]
+    },
+    {
+      "policyId": "POL-TYPE-001",
+      "title": "Tipo documental independiente del contenedor",
+      "status": "PILOT_APPROVED",
+      "rule": "Determinar dc.type por la naturaleza intelectual/documental del recurso, no únicamente porque esté publicado en una revista o sitio web.",
+      "evidenceCases": [
+        "GR02",
+        "GR08"
+      ]
+    },
+    {
+      "policyId": "POL-LING-001",
+      "title": "No ampliar especificidad lingüística",
+      "status": "PILOT_APPROVED",
+      "rule": "No normalizar Maya a Maya yucateco, ni asignar una rama, cuando la fuente no ofrece evidencia suficiente. La geografía o la plausibilidad no sustituyen una autoridad o crosswalk.",
+      "evidenceCases": [
+        "GR02",
+        "GR04",
+        "GR06",
+        "GR10"
+      ]
+    },
+    {
+      "policyId": "POL-RIGHTS-001",
+      "title": "Separación de derechos, licencia y acceso",
+      "status": "PILOT_APPROVED",
+      "rule": "Tratar copyrightStatement, license y accessRights como dimensiones independientes. Derechos reservados no implica Acceso restringido; visibilidad web no implica Acceso abierto ni licencia CC.",
+      "evidenceCases": [
+        "GR06",
+        "GR09"
+      ]
+    },
+    {
+      "policyId": "POL-DISCOVERY-001",
+      "title": "Recuperación bibliográfica cuando falta URL",
+      "status": "PILOT_APPROVED",
+      "rule": "Una fila sin URL debe activar búsqueda por identidad bibliográfica antes de declarar FULLTEXT_UNAVAILABLE. La fuente recuperada debe pasar un control de identidad.",
+      "evidenceCases": [
+        "GR10"
+      ]
+    },
+    {
+      "policyId": "POL-CLIN-001",
+      "title": "Jerarquía normativa CLIN",
+      "status": "PILOT_APPROVED",
+      "rule": "Para lenguas indígenas nacionales de México, usar CLIN/INALI como autoridad primaria: Familia lingüística → Agrupación lingüística → Variante lingüística. Rama lingüística es enriquecimiento secundario y no un nivel normativo CLIN.",
+      "evidenceCases": [
+        "GR11",
+        "GR12",
+        "GR13"
+      ]
+    },
+    {
+      "policyId": "POL-LANGROLE-003",
+      "title": "Lengua de registro separada de lengua objeto",
+      "status": "PILOT_APPROVED",
+      "rule": "dc.description.registeredLanguage describe la lengua de redacción/registro del recurso. dc.subject.linguiscgroup describe la agrupación lingüística objeto de estudio. No duplicar mecánicamente una dimensión en la otra.",
+      "evidenceCases": [
+        "GR11",
+        "GR12"
+      ]
+    },
+    {
+      "policyId": "POL-LINGMULTI-001",
+      "title": "Integridad multientidad lingüística",
+      "status": "PROVISIONAL",
+      "rule": "En recursos con múltiples lenguas, preservar internamente las relaciones Familia–Rama?–Agrupación–Variante antes de serializar listas planas en DSpace.",
+      "evidenceCases": [
+        "GR12"
+      ]
+    },
+    {
+      "policyId": "POL-VARIANT-001",
+      "title": "Variante lingüística con autoridad",
+      "status": "PILOT_APPROVED",
+      "rule": "No convertir localidades, regiones o etiquetas dialectales libres en variantes CLIN sin reconciliación de autoridad y coincidencia válida con el vocabulario DSpace.",
+      "evidenceCases": [
+        "GR14"
+      ]
+    },
+    {
+      "policyId": "POL-ALIAS-001",
+      "title": "Alias, exónimos y autodenominaciones",
+      "status": "PROVISIONAL",
+      "rule": "Preservar forma fuente, forma autorizada, valor DSpace y autodenominación como capas distintas. No realizar sustituciones silenciosas.",
+      "evidenceCases": [
+        "GR15"
+      ]
+    },
+    {
+      "policyId": "POL-VOCAB-003",
+      "title": "No sustitución por proximidad",
+      "status": "PILOT_APPROVED",
+      "rule": "Si el valor verificado no existe en un vocabulario cerrado, registrar VOCABULARY_GAP; nunca sustituirlo por la opción semánticamente más cercana.",
+      "evidenceCases": [
+        "GR16"
+      ]
+    },
+    {
+      "policyId": "POL-ABSTRACT-002",
+      "title": "Precedencia del abstract autoral",
+      "status": "PILOT_APPROVED",
+      "rule": "Si existe abstract autoral accesible, usarlo como EXTRAÍDO. Toda síntesis adicional del asistente permanece separada como GENERADO.",
+      "evidenceCases": [
+        "GR17"
+      ]
+    },
+    {
+      "policyId": "POL-SUBJ-001",
+      "title": "Palabras clave autorales vs tópicos inferidos",
+      "status": "PILOT_APPROVED",
+      "rule": "Los términos inferidos o normalizados no pueden presentarse como palabras clave del autor. Mantener provenance separada.",
+      "evidenceCases": [
+        "GR18"
+      ]
+    },
+    {
+      "policyId": "POL-DATE-001",
+      "title": "Fechas editoriales diferenciadas",
+      "status": "PROVISIONAL",
+      "rule": "Distinguir fecha del fascículo, online-first, recepción, aceptación y revisión. dc.date.issued sigue la manifestación catalogada y la política de colección.",
+      "evidenceCases": [
+        "GR19"
+      ]
+    },
+    {
+      "policyId": "POL-TITLE-001",
+      "title": "Dos puntos no implica subtítulo",
+      "status": "PILOT_APPROVED",
+      "rule": "No dividir dc.title/dc.title.subtitle solo por la presencia de dos puntos; exigir distinción editorial o política catalográfica explícita.",
+      "evidenceCases": [
+        "GR20"
+      ]
+    },
+    {
+      "policyId": "POL-LANG-REG-001",
+      "title": "Lengua de registro = lengua de escritura del recurso",
+      "status": "PILOT_APPROVED",
+      "rule": "dc.description.registeredLanguage representa la lengua de escritura/registro del recurso; no sustituye la lengua objeto/estudiada.",
+      "evidenceCases": [
+        "VERTICAL-021-rereview-v3"
+      ]
+    },
+    {
+      "policyId": "POL-LLM-001",
+      "title": "model_intent separado de evidence_state",
+      "status": "PROVISIONAL",
+      "rule": "INFERRED_VALUE deriva INFERIDO y GENERATED_CONTENT deriva GENERADO. Una salida LLM nunca origina EXTRAÍDO ni VERIFICADO.",
+      "evidenceCases": [
+        "VERTICAL-021"
+      ]
+    },
+    {
+      "policyId": "POL-LLM-002",
+      "title": "Backend authoritative para bindings LLM",
+      "status": "PROVISIONAL",
+      "rule": "El modelo sólo puede proponer binding_id allowlisted. El backend resuelve metadata_field, evidence state, vocabulario, draftability y copy eligibility.",
+      "evidenceCases": [
+        "VERTICAL-021"
+      ]
+    },
+    {
+      "policyId": "POL-EVAL-001",
+      "title": "ADJUDICATED_GOLD es evaluation-only",
+      "status": "PROVISIONAL",
+      "rule": "ADJUDICATED_GOLD no concede escritura DSpace, verificación automática, egress a proveedor, OCR ni activación productiva de LLM.",
+      "evidenceCases": [
+        "VERTICAL-021"
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "id": "PD-APP-001",
+      "version": "3.6",
+      "title": "Dual execution modes",
+      "decision": "Standalone and Cataloging Assistant Runtime modes are distinct; app restrictions take precedence in Runtime Mode."
+    },
+    {
+      "id": "PD-APP-002",
+      "version": "3.6",
+      "title": "Variant application gap",
+      "decision": "dc.subject.linguisticVariant is not draftable in current Cataloging Assistant; mark APP_SCHEMA_GAP instead of forcing it into the four-field contract.",
+      "status": "SUPERSEDED",
+      "supersededBy": "PD-APP-005",
+      "historicalNote": "Valid for pre-Phase-1 runtime only; Variant support is now implemented in main."
+    },
+    {
+      "id": "PD-APP-003",
+      "version": "3.6",
+      "title": "Runtime vocabulary authority",
+      "decision": "Only active human-approved vocabulary revisions in Cataloging Assistant determine runtime validation status."
+    },
+    {
+      "id": "PD-APP-004",
+      "version": "3.6",
+      "title": "Runtime suggestion semantics",
+      "decision": "Only the application's deterministic suggestion service may be called a runtime suggestion; model inference remains INFERIDO."
+    },
+    {
+      "id": "PD-APP-005",
+      "version": "3.7",
+      "title": "Variant runtime support",
+      "decision": "dc.subject.linguisticVariant is runtime draftable/profiled/vocabularied in the current app; it is not APP_SCHEMA_GAP. No DSpace linguisticVariantPairs vocabulary is assumed."
+    },
+    {
+      "id": "PD-APP-006",
+      "version": "3.7",
+      "title": "Controlled evidence ingestion contract",
+      "decision": "Runtime evidence sessions may persist explicit URL locators and text snapshots for human review; extraction is deterministic/idempotent, preserves binding_id, and never writes DSpace. Conversational agent permissions remain read-only."
+    },
+    {
+      "id": "PD-APP-007",
+      "version": "3.7",
+      "title": "Canonical evidence states",
+      "decision": "Evidence states are exactly EXTRAÍDO, VERIFICADO, INFERIDO, PENDIENTE, GENERADO. APP_SCHEMA_GAP is a QA/mapping concept only and never an evidence state."
+    },
+    {
+      "id": "PD-APP-008",
+      "version": "3.7",
+      "title": "Stable evidence ordering and copy-time validation",
+      "decision": "Source and candidate logical order is represented by per-session position. copy-to-draft revalidates against the currently active local vocabulary, honors source_hash staleness, and orders copied values by candidate position."
+    }
+  ]
+}

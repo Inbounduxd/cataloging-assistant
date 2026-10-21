@@ -1,0 +1,200 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:VR112101",
+      "display" : "Aesthetics",
+      "value" : "HUMANITIES and RELIGION::Aesthetic subjects::Aesthetics",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::Aesthetic subjects",
+        "note" : "Estetik",
+        "hasChildren" : "false",
+        "id" : "VR112101"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR112101/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR112101/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR112101"
+        }
+      }
+    }, {
+      "id" : "srsc:VR112102",
+      "display" : "Film",
+      "value" : "HUMANITIES and RELIGION::Aesthetic subjects::Film",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::Aesthetic subjects",
+        "note" : "Filmvetenskap",
+        "hasChildren" : "false",
+        "id" : "VR112102"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR112102/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR112102/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR112102"
+        }
+      }
+    }, {
+      "id" : "srsc:VR112103",
+      "display" : "Art",
+      "value" : "HUMANITIES and RELIGION::Aesthetic subjects::Art",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::Aesthetic subjects",
+        "note" : "Konstvetenskap",
+        "hasChildren" : "false",
+        "id" : "VR112103"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR112103/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR112103/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR112103"
+        }
+      }
+    }, {
+      "id" : "srsc:VR112104",
+      "display" : "Literature",
+      "value" : "HUMANITIES and RELIGION::Aesthetic subjects::Literature",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::Aesthetic subjects",
+        "note" : "Litteraturvetenskap",
+        "hasChildren" : "false",
+        "id" : "VR112104"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR112104/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR112104/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR112104"
+        }
+      }
+    }, {
+      "id" : "srsc:VR112105",
+      "display" : "Music",
+      "value" : "HUMANITIES and RELIGION::Aesthetic subjects::Music",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::Aesthetic subjects",
+        "note" : "Musikvetenskap",
+        "hasChildren" : "false",
+        "id" : "VR112105"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR112105/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR112105/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR112105"
+        }
+      }
+    }, {
+      "id" : "srsc:VR112106",
+      "display" : "Rhetoric",
+      "value" : "HUMANITIES and RELIGION::Aesthetic subjects::Rhetoric",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::Aesthetic subjects",
+        "note" : "Retorik",
+        "hasChildren" : "false",
+        "id" : "VR112106"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR112106/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR112106/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR112106"
+        }
+      }
+    }, {
+      "id" : "srsc:VR112107",
+      "display" : "Theatre",
+      "value" : "HUMANITIES and RELIGION::Aesthetic subjects::Theatre",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::Aesthetic subjects",
+        "note" : "Teatervetenskap",
+        "hasChildren" : "false",
+        "id" : "VR112107"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR112107/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR112107/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR112107"
+        }
+      }
+    }, {
+      "id" : "srsc:VR112108",
+      "display" : "Settlement studies",
+      "value" : "HUMANITIES and RELIGION::Aesthetic subjects::Settlement studies",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::Aesthetic subjects",
+        "note" : "Bebyggelseforskning",
+        "hasChildren" : "false",
+        "id" : "VR112108"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR112108/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR112108/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR112108"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 8
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB112/children?page=0&size=100"
+    }
+  }
+}

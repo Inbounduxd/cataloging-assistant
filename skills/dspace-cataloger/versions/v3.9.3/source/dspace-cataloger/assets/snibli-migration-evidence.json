@@ -1,0 +1,86 @@
+{
+  "parentRelease": "3.9.3-rc.2",
+  "parentSha256": "c1680bf6b452097e6d8b6e4263043f991676015a3173b3a9673bc1f520660cae",
+  "candidateSha256": "9a0294dfbe4f176a536996db4c855c94374704e7f1e94c5be23ade43fd24f795",
+  "decisionSha256": "908a52f864be6b6fb3801ef77ed462e0b915c968bff43fd93c2bcd2f80d33c3c",
+  "captureSha256": "32693903ed8f7147be2ca3d21877056b8e728388430416e6345577c2234b4fed",
+  "approval": {
+    "proposalId": "SNIBLI-CONTRACT-RECONCILIATION-2026-10-20",
+    "status": "C1_C2_C3_APPROVED_FOR_LOCAL_CONTRACT_CHANGE",
+    "approvedBy": "Usuario de esta conversación; identidad institucional no verificada",
+    "approvedAt": "2026-10-21",
+    "approvalComment": "Aprobación explícita en el chat de C1 y C3, seguida de aceptación del orden observado (C2) y preparación del cambio local del contrato. No autoriza despliegue ni promoción automática.",
+    "changes": [
+      {
+        "id": "C1",
+        "proposal": "Recognize the observed optional dc.type.genre control in a future governed contract",
+        "approved": true
+      },
+      {
+        "id": "C2",
+        "proposal": "Retain the 56 original binding identities, literal labels and observed updated positions",
+        "approved": true
+      },
+      {
+        "id": "C3",
+        "proposal": "Accept Códice, Reseña and Documento Colonial as exact common_types values",
+        "approved": true
+      }
+    ],
+    "doesNotAuthorize": [
+      "DSpace mutations",
+      "skill v3.9.2 artifact changes",
+      "runtime baseline promotion",
+      "deployment configuration changes",
+      "scheduler activation"
+    ],
+    "evidenceStillNeeded": [
+      "General applicability of active section membership/order beyond workspace 2050; independent GUI evidence recorded in workspace-2050-observation.md",
+      "Full srsc hierarchy if complete equivalence is required"
+    ]
+  },
+  "coverage": {
+    "fullMigrationEquivalence": "UNKNOWN",
+    "srscHierarchy": "PASS_CURRENT_HAL_CAPTURE",
+    "activeSectionsHAL": "UNKNOWN_HTTP_204",
+    "guiEvidenceScope": "workspaceitems/2050 only",
+    "adopted": false,
+    "runtimeEnabled": false,
+    "srscHistoricalEquivalence": "UNKNOWN",
+    "repositoryAdoption": "PENDING_POINTER_PR_REVIEW"
+  },
+  "srscCapture": {
+    "vocabulary": "srsc",
+    "captureStatus": "PASS_REACHABLE_HAL_TREE",
+    "nodeCount": 665,
+    "edgeCount": 653,
+    "rootCount": 12,
+    "rawResponseCount": 126,
+    "exportSha256": "af9f23beadacf6793b3495df28f38f59dec3b61034219e1dac518ba52a511f0e",
+    "treeSha256": "9500d4911faae92f1730a26f601fdf42cebb1273a4fdd74747598f882f44f69e",
+    "capturedAt": "2026-10-21T12:34:54.806483+00:00",
+    "historicalEquivalence": "UNKNOWN",
+    "serverXmlEquivalence": "NOT_TESTED"
+  },
+  "srscPreparationApproval": {
+    "source": "Explicit user approval in this conversation",
+    "date": "2026-10-21",
+    "scope": "Prepare local rc.2 with captured srsc evidence",
+    "adoptionAuthorized": false,
+    "deploymentAuthorized": false
+  },
+  "stablePreparationApproval": {
+    "status": "ACCEPTED_FOR_STABLE_PREPARATION_AND_PR",
+    "date": "2026-10-21",
+    "source": "Explicit user reply Adelante after the proposed pilot acceptance and stable release/pointer PR step",
+    "reviewer": "User of this conversation; institutional identity not independently verified",
+    "proposalSha256": "45b66afdf39cc2f9777c4e8ce952f11b060b0e1cb9f5186abe6f5b4f5a04accd",
+    "validationSha256": "e34eaadc91253dd75c4f0841776cd471f18567b50af9b32cc73720b1d4d33d00",
+    "acceptedOutcome": "Article to Reseña remains a proposal; dc.type.genre remains pending",
+    "scope": "Prepare stable v3.9.3, validate its package and open a PR proposing the repository current pointer",
+    "dspaceWriteAuthorized": false,
+    "deploymentAuthorized": false,
+    "prMergeAuthorized": false,
+    "independentGoldAdjudication": false
+  }
+}

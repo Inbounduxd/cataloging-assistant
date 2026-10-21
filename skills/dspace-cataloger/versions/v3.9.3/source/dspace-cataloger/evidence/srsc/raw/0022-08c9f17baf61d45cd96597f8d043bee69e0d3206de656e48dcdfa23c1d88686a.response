@@ -1,0 +1,223 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:SCB1311",
+      "display" : "Education",
+      "value" : "SOCIAL SCIENCES::Social sciences::Education",
+      "otherInformation" : {
+        "parent" : "SOCIAL SCIENCES::Social sciences",
+        "note" : "Pedagogik",
+        "hasChildren" : "true",
+        "id" : "SCB1311"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1311/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1311/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1311"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1312",
+      "display" : "Psychology",
+      "value" : "SOCIAL SCIENCES::Social sciences::Psychology",
+      "otherInformation" : {
+        "parent" : "SOCIAL SCIENCES::Social sciences",
+        "note" : "Psykologi",
+        "hasChildren" : "true",
+        "id" : "SCB1312"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1312/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1312/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1312"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1313",
+      "display" : "Social anthropology/ethnography",
+      "value" : "SOCIAL SCIENCES::Social sciences::Social anthropology/ethnography",
+      "otherInformation" : {
+        "parent" : "SOCIAL SCIENCES::Social sciences",
+        "note" : "Socialantrolopologi/etnografi",
+        "hasChildren" : "true",
+        "id" : "SCB1313"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1313/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1313/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1313"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1314",
+      "display" : "Social work",
+      "value" : "SOCIAL SCIENCES::Social sciences::Social work",
+      "otherInformation" : {
+        "parent" : "SOCIAL SCIENCES::Social sciences",
+        "note" : "Socialt arbete",
+        "hasChildren" : "true",
+        "id" : "SCB1314"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1314/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1314/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1314"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1315",
+      "display" : "Criminology",
+      "value" : "SOCIAL SCIENCES::Social sciences::Criminology",
+      "otherInformation" : {
+        "parent" : "SOCIAL SCIENCES::Social sciences",
+        "note" : "Kriminologi",
+        "hasChildren" : "true",
+        "id" : "SCB1315"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1315/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1315/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1315"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1316",
+      "display" : "Sociology",
+      "value" : "SOCIAL SCIENCES::Social sciences::Sociology",
+      "otherInformation" : {
+        "parent" : "SOCIAL SCIENCES::Social sciences",
+        "note" : "Sociologi",
+        "hasChildren" : "true",
+        "id" : "SCB1316"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1316/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1316/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1316"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1317",
+      "display" : "Demography",
+      "value" : "SOCIAL SCIENCES::Social sciences::Demography",
+      "otherInformation" : {
+        "parent" : "SOCIAL SCIENCES::Social sciences",
+        "note" : "Demografi",
+        "hasChildren" : "false",
+        "id" : "SCB1317"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1317/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1317/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1317"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1318",
+      "display" : "Political science",
+      "value" : "SOCIAL SCIENCES::Social sciences::Political science",
+      "otherInformation" : {
+        "parent" : "SOCIAL SCIENCES::Social sciences",
+        "note" : "Statsvetenskap",
+        "hasChildren" : "true",
+        "id" : "SCB1318"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1318/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1318/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1318"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1319",
+      "display" : "Pedgogical work",
+      "value" : "SOCIAL SCIENCES::Social sciences::Pedgogical work",
+      "otherInformation" : {
+        "parent" : "SOCIAL SCIENCES::Social sciences",
+        "note" : "Pedagogiskt arbete",
+        "hasChildren" : "false",
+        "id" : "SCB1319"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1319/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1319/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1319"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 9
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB131/children?page=0&size=100"
+    }
+  }
+}

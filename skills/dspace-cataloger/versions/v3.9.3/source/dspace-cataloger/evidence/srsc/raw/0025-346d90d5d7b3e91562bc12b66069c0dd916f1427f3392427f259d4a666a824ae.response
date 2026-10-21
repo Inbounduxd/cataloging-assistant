@@ -1,0 +1,200 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:VR139901",
+      "display" : "Mass communication",
+      "value" : "SOCIAL SCIENCES::Other social sciences::Mass communication",
+      "otherInformation" : {
+        "parent" : "SOCIAL SCIENCES::Other social sciences",
+        "note" : "Masskommunikation",
+        "hasChildren" : "false",
+        "id" : "VR139901"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR139901/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR139901/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR139901"
+        }
+      }
+    }, {
+      "id" : "srsc:VR139902",
+      "display" : "Media and communication studies",
+      "value" : "SOCIAL SCIENCES::Other social sciences::Media and communication studies",
+      "otherInformation" : {
+        "parent" : "SOCIAL SCIENCES::Other social sciences",
+        "note" : "Medie- och kommunikationsvetenskap",
+        "hasChildren" : "false",
+        "id" : "VR139902"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR139902/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR139902/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR139902"
+        }
+      }
+    }, {
+      "id" : "srsc:VR139903",
+      "display" : "Library and information science",
+      "value" : "SOCIAL SCIENCES::Other social sciences::Library and information science",
+      "otherInformation" : {
+        "parent" : "SOCIAL SCIENCES::Other social sciences",
+        "note" : "Biblioteks- och informationsvetenskap",
+        "hasChildren" : "false",
+        "id" : "VR139903"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR139903/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR139903/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR139903"
+        }
+      }
+    }, {
+      "id" : "srsc:VR139904",
+      "display" : "Labour market research",
+      "value" : "SOCIAL SCIENCES::Other social sciences::Labour market research",
+      "otherInformation" : {
+        "parent" : "SOCIAL SCIENCES::Other social sciences",
+        "note" : "Arbetsmarknadsforskning",
+        "hasChildren" : "false",
+        "id" : "VR139904"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR139904/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR139904/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR139904"
+        }
+      }
+    }, {
+      "id" : "srsc:VR139905",
+      "display" : "European research cooperation",
+      "value" : "SOCIAL SCIENCES::Other social sciences::European research cooperation",
+      "otherInformation" : {
+        "parent" : "SOCIAL SCIENCES::Other social sciences",
+        "note" : "Europeiskt forskningssamarbete",
+        "hasChildren" : "false",
+        "id" : "VR139905"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR139905/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR139905/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR139905"
+        }
+      }
+    }, {
+      "id" : "srsc:VR139907",
+      "display" : "Public sector research",
+      "value" : "SOCIAL SCIENCES::Other social sciences::Public sector research",
+      "otherInformation" : {
+        "parent" : "SOCIAL SCIENCES::Other social sciences",
+        "note" : "Forskning om offentlig sektor",
+        "hasChildren" : "false",
+        "id" : "VR139907"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR139907/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR139907/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR139907"
+        }
+      }
+    }, {
+      "id" : "srsc:VR139908",
+      "display" : "Research policy",
+      "value" : "SOCIAL SCIENCES::Other social sciences::Research policy",
+      "otherInformation" : {
+        "parent" : "SOCIAL SCIENCES::Other social sciences",
+        "note" : "Forskningspolitik",
+        "hasChildren" : "false",
+        "id" : "VR139908"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR139908/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR139908/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR139908"
+        }
+      }
+    }, {
+      "id" : "srsc:VR139910",
+      "display" : "Military intelligence and security service",
+      "value" : "SOCIAL SCIENCES::Other social sciences::Military intelligence and security service",
+      "otherInformation" : {
+        "parent" : "SOCIAL SCIENCES::Other social sciences",
+        "note" : "Militär underrättelse- och säkerhetstjänst",
+        "hasChildren" : "false",
+        "id" : "VR139910"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR139910/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR139910/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR139910"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 8
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB139/children?page=0&size=100"
+    }
+  }
+}

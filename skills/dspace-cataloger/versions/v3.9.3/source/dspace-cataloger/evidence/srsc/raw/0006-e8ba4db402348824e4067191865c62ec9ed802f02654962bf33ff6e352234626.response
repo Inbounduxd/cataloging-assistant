@@ -1,0 +1,108 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:SCB150",
+      "display" : "Physics",
+      "value" : "NATURAL SCIENCES::Physics",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES",
+        "note" : "Fysik",
+        "hasChildren" : "true",
+        "id" : "SCB150"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB150/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB150/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB150"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB151",
+      "display" : "Chemistry",
+      "value" : "NATURAL SCIENCES::Chemistry",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES",
+        "note" : "Kemi",
+        "hasChildren" : "true",
+        "id" : "SCB151"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB151/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB151/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB151"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB152",
+      "display" : "Biology",
+      "value" : "NATURAL SCIENCES::Biology",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES",
+        "note" : "Biologi",
+        "hasChildren" : "true",
+        "id" : "SCB152"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB152/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB152/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB152"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB153",
+      "display" : "Earth sciences",
+      "value" : "NATURAL SCIENCES::Earth sciences",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES",
+        "note" : "Geovetenskap",
+        "hasChildren" : "true",
+        "id" : "SCB153"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB153/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB153/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB153"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 4
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB15/children?page=0&size=100"
+    }
+  }
+}

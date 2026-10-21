@@ -1,0 +1,55 @@
+{
+  "version": "3.3",
+  "generatedAt": "2026-08-14T09:03:19.470486+00:00",
+  "gaps": [
+    {
+      "gapId": "SG-SERIAL-VOLUME",
+      "concept": "Campo de volumen",
+      "status": "OPEN",
+      "firstSeenCase": "GR10",
+      "note": "El perfil dispone de dc.identifier.issue pero no de un campo explícito para volumen. Nunca mapear volume a issue."
+    },
+    {
+      "gapId": "SG-FORM-MEDIUM-COLLISION",
+      "concept": "Colisión dc.format.medium",
+      "status": "CONFIRMED",
+      "firstSeenCase": "GR01",
+      "note": "Soporte y Tipo de extensión escriben sobre dc.format.medium usando vocabularios distintos."
+    },
+    {
+      "gapId": "SG-ABSTRACT-NONREPEATABLE",
+      "concept": "Abstract no repetible",
+      "status": "CONFIRMED",
+      "firstSeenCase": "GR03",
+      "note": "El perfil no permite conservar directamente múltiples abstracts paralelos."
+    },
+    {
+      "gapId": "SG-THESIS-ROLES",
+      "concept": "Roles académicos de tesis",
+      "status": "OPEN",
+      "firstSeenCase": "GR06",
+      "note": "No existen campos específicos para tutor/director, comité tutor, sinodales, programa y grado."
+    },
+    {
+      "gapId": "SG-CONTRIB-COORDINATOR",
+      "concept": "Rol coordinador de obra",
+      "status": "OPEN",
+      "firstSeenCase": "GR09",
+      "note": "Definir si coordinador se mapea a editor u otro rol."
+    },
+    {
+      "gapId": "SG-WEB-EXTENT",
+      "concept": "Política de dc.format.extent para HTML sin paginación",
+      "status": "OPEN",
+      "firstSeenCase": "GR07",
+      "note": "El campo es obligatorio y necesita una convención institucional para recursos web."
+    },
+    {
+      "gapId": "SG-SOURCE-CONTRADICTION",
+      "concept": "Contradicción dc.source",
+      "status": "CONFIRMED",
+      "firstSeenCase": "PROFILE",
+      "note": "El formulario y el scope registral expresan usos incompatibles de dc.source."
+    }
+  ]
+}

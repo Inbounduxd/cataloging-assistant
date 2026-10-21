@@ -1,0 +1,16 @@
+{
+  "goldenRecord": "GR12",
+  "recordId": null,
+  "title": "Multi-entity Indigenous-language diagnostic",
+  "status": "PILOT_ACCEPTED",
+  "purpose": "Semantic regression fixture derived from cataloguing-learning v3.5. Does not contain copyrighted full text.",
+  "expectedRules": [
+    "MULTI_ENTITY_LINGUISTIC_INTEGRITY",
+    "CLIN_FAMILY_GROUP_VARIANT",
+    "DEDUP_SHARED_FAMILY_BRANCH_VALUES"
+  ],
+  "mustNever": [
+    "Flatten relations before QA.",
+    "Reduce a 12-language resource to one convenient language."
+  ]
+}

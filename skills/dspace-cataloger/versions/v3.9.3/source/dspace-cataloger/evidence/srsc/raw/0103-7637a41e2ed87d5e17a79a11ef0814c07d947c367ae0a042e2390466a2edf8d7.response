@@ -1,0 +1,85 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:VR160101",
+      "display" : "Computer science",
+      "value" : "TECHNOLOGY::Information technology::Computer science::Computer science",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY::Information technology::Computer science",
+        "note" : "Datalogi",
+        "hasChildren" : "false",
+        "id" : "VR160101"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR160101/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR160101/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR160101"
+        }
+      }
+    }, {
+      "id" : "srsc:VR160102",
+      "display" : "Software engineering",
+      "value" : "TECHNOLOGY::Information technology::Computer science::Software engineering",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY::Information technology::Computer science",
+        "note" : "Programvaruteknik",
+        "hasChildren" : "false",
+        "id" : "VR160102"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR160102/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR160102/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR160102"
+        }
+      }
+    }, {
+      "id" : "srsc:VR160103",
+      "display" : "Cognitive science",
+      "value" : "TECHNOLOGY::Information technology::Computer science::Cognitive science",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY::Information technology::Computer science",
+        "note" : "Kognitionsvetenskap",
+        "hasChildren" : "false",
+        "id" : "VR160103"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR160103/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR160103/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR160103"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 3
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1601/children?page=0&size=100"
+    }
+  }
+}

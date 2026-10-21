@@ -1,0 +1,62 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:VR132201",
+      "display" : "Human geography",
+      "value" : "SOCIAL SCIENCES::Business and economics::Human geography, economic geography::Human geography",
+      "otherInformation" : {
+        "parent" : "SOCIAL SCIENCES::Business and economics::Human geography, economic geography",
+        "note" : "Kulturgeografi",
+        "hasChildren" : "false",
+        "id" : "VR132201"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR132201/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR132201/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR132201"
+        }
+      }
+    }, {
+      "id" : "srsc:VR132202",
+      "display" : "Economic geography",
+      "value" : "SOCIAL SCIENCES::Business and economics::Human geography, economic geography::Economic geography",
+      "otherInformation" : {
+        "parent" : "SOCIAL SCIENCES::Business and economics::Human geography, economic geography",
+        "note" : "Ekonomisk geografi",
+        "hasChildren" : "false",
+        "id" : "VR132202"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR132202/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR132202/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR132202"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 2
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1322/children?page=0&size=100"
+    }
+  }
+}

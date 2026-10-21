@@ -1,0 +1,15 @@
+{
+  "goldenRecord": "GR22",
+  "recordId": 2716,
+  "title": "No genealogical propagation from secondary language mentions",
+  "status": "PILOT_ACCEPTED",
+  "purpose": "Regression fixture preventing family, branch or variant propagation from secondary mentions.",
+  "source": "https://balaju.uv.mx/index.php/balaju/article/view/2716",
+  "expectedRules": [
+    "SECONDARY_MENTION_NO_GENEALOGICAL_PROPAGATION",
+    "VARIANT_REQUIRES_AUTHORITY_RECONCILIATION"
+  ],
+  "mustNever": [
+    "Infer linguistic family, branch, or variant from SECONDARY_LANGUAGE_MENTION."
+  ]
+}

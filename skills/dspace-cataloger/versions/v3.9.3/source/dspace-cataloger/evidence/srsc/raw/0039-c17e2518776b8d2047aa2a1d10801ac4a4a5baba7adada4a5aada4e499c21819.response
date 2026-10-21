@@ -1,0 +1,177 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:SCB1671",
+      "display" : "Geoengineering and mining engineering",
+      "value" : "TECHNOLOGY::Civil engineering and architecture::Geoengineering and mining engineering",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY::Civil engineering and architecture",
+        "note" : "Geoteknik och gruvteknik",
+        "hasChildren" : "true",
+        "id" : "SCB1671"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1671/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1671/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1671"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1672",
+      "display" : "Building engineering",
+      "value" : "TECHNOLOGY::Civil engineering and architecture::Building engineering",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY::Civil engineering and architecture",
+        "note" : "Byggnadsteknik",
+        "hasChildren" : "false",
+        "id" : "SCB1672"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1672/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1672/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1672"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1673",
+      "display" : "Building manufacturing engineering",
+      "value" : "TECHNOLOGY::Civil engineering and architecture::Building manufacturing engineering",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY::Civil engineering and architecture",
+        "note" : "Byggproduktionsteknik",
+        "hasChildren" : "false",
+        "id" : "SCB1673"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1673/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1673/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1673"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1674",
+      "display" : "Water engineering",
+      "value" : "TECHNOLOGY::Civil engineering and architecture::Water engineering",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY::Civil engineering and architecture",
+        "note" : "Vattenteknik",
+        "hasChildren" : "false",
+        "id" : "SCB1674"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1674/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1674/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1674"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1675",
+      "display" : "Surveying",
+      "value" : "TECHNOLOGY::Civil engineering and architecture::Surveying",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY::Civil engineering and architecture",
+        "note" : "Lantmäteri",
+        "hasChildren" : "false",
+        "id" : "SCB1675"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1675/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1675/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1675"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1676",
+      "display" : "Architecture and architectural conservation and restoration",
+      "value" : "TECHNOLOGY::Civil engineering and architecture::Architecture and architectural conservation and restoration",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY::Civil engineering and architecture",
+        "note" : "Arkitektur och bebyggelsevård",
+        "hasChildren" : "true",
+        "id" : "SCB1676"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1676/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1676/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1676"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1679",
+      "display" : "Other civil engineering and architecture",
+      "value" : "TECHNOLOGY::Civil engineering and architecture::Other civil engineering and architecture",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY::Civil engineering and architecture",
+        "note" : "Övrig samhällsbyggnadsteknik och arkitektur",
+        "hasChildren" : "false",
+        "id" : "SCB1679"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1679/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1679/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1679"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 7
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB167/children?page=0&size=100"
+    }
+  }
+}

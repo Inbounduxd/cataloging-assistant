@@ -1,0 +1,15 @@
+{
+  "goldenRecord": "GR13",
+  "recordId": null,
+  "title": "CLIN hierarchy with optional genealogical branch",
+  "status": "PILOT_ACCEPTED",
+  "purpose": "Semantic regression fixture derived from cataloguing-learning v3.5. Does not contain copyrighted full text.",
+  "expectedRules": [
+    "CLIN_BRANCH_IS_OPTIONAL_ENRICHMENT",
+    "BRANCH_REQUIRES_SECONDARY_AUTHORITY"
+  ],
+  "mustNever": [
+    "Present linguisticBranch as an official CLIN level.",
+    "Invent branch from geography."
+  ]
+}

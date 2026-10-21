@@ -1,0 +1,315 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:VR150401",
+      "display" : "Magnetism",
+      "value" : "NATURAL SCIENCES::Physics::Condensed matter physics::Magnetism",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Physics::Condensed matter physics",
+        "note" : "Magnetism",
+        "hasChildren" : "false",
+        "id" : "VR150401"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150401/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150401/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150401"
+        }
+      }
+    }, {
+      "id" : "srsc:VR150402",
+      "display" : "Surfaces and interfaces",
+      "value" : "NATURAL SCIENCES::Physics::Condensed matter physics::Surfaces and interfaces",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Physics::Condensed matter physics",
+        "note" : "Ytor och mellanytor",
+        "hasChildren" : "false",
+        "id" : "VR150402"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150402/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150402/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150402"
+        }
+      }
+    }, {
+      "id" : "srsc:VR150403",
+      "display" : "Semiconductor physics",
+      "value" : "NATURAL SCIENCES::Physics::Condensed matter physics::Semiconductor physics",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Physics::Condensed matter physics",
+        "note" : "Halvledarfysik",
+        "hasChildren" : "false",
+        "id" : "VR150403"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150403/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150403/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150403"
+        }
+      }
+    }, {
+      "id" : "srsc:VR150404",
+      "display" : "Electronic structure",
+      "value" : "NATURAL SCIENCES::Physics::Condensed matter physics::Electronic structure",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Physics::Condensed matter physics",
+        "note" : "Elektronstruktur",
+        "hasChildren" : "false",
+        "id" : "VR150404"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150404/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150404/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150404"
+        }
+      }
+    }, {
+      "id" : "srsc:VR150405",
+      "display" : "Superconductivity",
+      "value" : "NATURAL SCIENCES::Physics::Condensed matter physics::Superconductivity",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Physics::Condensed matter physics",
+        "note" : "Supraledning",
+        "hasChildren" : "false",
+        "id" : "VR150405"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150405/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150405/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150405"
+        }
+      }
+    }, {
+      "id" : "srsc:VR150406",
+      "display" : "Defects and diffusion",
+      "value" : "NATURAL SCIENCES::Physics::Condensed matter physics::Defects and diffusion",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Physics::Condensed matter physics",
+        "note" : "Defekter och diffusion",
+        "hasChildren" : "false",
+        "id" : "VR150406"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150406/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150406/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150406"
+        }
+      }
+    }, {
+      "id" : "srsc:VR150407",
+      "display" : "Structural and vibration physics",
+      "value" : "NATURAL SCIENCES::Physics::Condensed matter physics::Structural and vibration physics",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Physics::Condensed matter physics",
+        "note" : "Struktur- och vibrationsfysik",
+        "hasChildren" : "false",
+        "id" : "VR150407"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150407/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150407/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150407"
+        }
+      }
+    }, {
+      "id" : "srsc:VR150408",
+      "display" : "Critical phenomena (phase transitions)",
+      "value" : "NATURAL SCIENCES::Physics::Condensed matter physics::Critical phenomena (phase transitions)",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Physics::Condensed matter physics",
+        "note" : "Kritiska fenomen (fasövergångar)",
+        "hasChildren" : "false",
+        "id" : "VR150408"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150408/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150408/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150408"
+        }
+      }
+    }, {
+      "id" : "srsc:VR150409",
+      "display" : "Liquid physics",
+      "value" : "NATURAL SCIENCES::Physics::Condensed matter physics::Liquid physics",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Physics::Condensed matter physics",
+        "note" : "Vätskefysik",
+        "hasChildren" : "false",
+        "id" : "VR150409"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150409/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150409/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150409"
+        }
+      }
+    }, {
+      "id" : "srsc:VR150410",
+      "display" : "Low temperature physics",
+      "value" : "NATURAL SCIENCES::Physics::Condensed matter physics::Low temperature physics",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Physics::Condensed matter physics",
+        "note" : "Lågtemperaturfysik",
+        "hasChildren" : "false",
+        "id" : "VR150410"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150410/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150410/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150410"
+        }
+      }
+    }, {
+      "id" : "srsc:VR150411",
+      "display" : "Macromolecular physics",
+      "value" : "NATURAL SCIENCES::Physics::Condensed matter physics::Macromolecular physics",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Physics::Condensed matter physics",
+        "note" : "Makromolekylfysik",
+        "hasChildren" : "false",
+        "id" : "VR150411"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150411/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150411/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150411"
+        }
+      }
+    }, {
+      "id" : "srsc:VR150412",
+      "display" : "Mesoscopic physics",
+      "value" : "NATURAL SCIENCES::Physics::Condensed matter physics::Mesoscopic physics",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Physics::Condensed matter physics",
+        "note" : "Mesoskopisk fysik",
+        "hasChildren" : "false",
+        "id" : "VR150412"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150412/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150412/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150412"
+        }
+      }
+    }, {
+      "id" : "srsc:VR150413",
+      "display" : "Biological physics",
+      "value" : "NATURAL SCIENCES::Physics::Condensed matter physics::Biological physics",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Physics::Condensed matter physics",
+        "note" : "Biologisk fysik",
+        "hasChildren" : "false",
+        "id" : "VR150413"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150413/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150413/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150413"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 13
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1504/children?page=0&size=100"
+    }
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:SCB1651",
+      "display" : "Solid mechanics",
+      "value" : "TECHNOLOGY::Engineering mechanics::Solid mechanics",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY::Engineering mechanics",
+        "note" : "Fastkroppsmekanik",
+        "hasChildren" : "false",
+        "id" : "SCB1651"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1651/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1651/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1651"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1652",
+      "display" : "Fluid mechanics",
+      "value" : "TECHNOLOGY::Engineering mechanics::Fluid mechanics",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY::Engineering mechanics",
+        "note" : "Strömningsmekanik",
+        "hasChildren" : "false",
+        "id" : "SCB1652"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1652/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1652/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1652"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1653",
+      "display" : "Construction engineering",
+      "value" : "TECHNOLOGY::Engineering mechanics::Construction engineering",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY::Engineering mechanics",
+        "note" : "Konstruktionsteknik",
+        "hasChildren" : "false",
+        "id" : "SCB1653"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1653/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1653/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1653"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1654",
+      "display" : "Mechanical manufacturing engineering",
+      "value" : "TECHNOLOGY::Engineering mechanics::Mechanical manufacturing engineering",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY::Engineering mechanics",
+        "note" : "Mekanisk tillverkningsteknik",
+        "hasChildren" : "false",
+        "id" : "SCB1654"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1654/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1654/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1654"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1655",
+      "display" : "Mechanical and thermal engineering",
+      "value" : "TECHNOLOGY::Engineering mechanics::Mechanical and thermal engineering",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY::Engineering mechanics",
+        "note" : "Mekanisk och termisk energiteknik",
+        "hasChildren" : "true",
+        "id" : "SCB1655"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1655/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1655/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1655"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1656",
+      "display" : "Vehicle engineering",
+      "value" : "TECHNOLOGY::Engineering mechanics::Vehicle engineering",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY::Engineering mechanics",
+        "note" : "Farkostteknik",
+        "hasChildren" : "false",
+        "id" : "SCB1656"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1656/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1656/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1656"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1659",
+      "display" : "Other engineering mechanics",
+      "value" : "TECHNOLOGY::Engineering mechanics::Other engineering mechanics",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY::Engineering mechanics",
+        "note" : "Övrig teknisk mekanik",
+        "hasChildren" : "false",
+        "id" : "SCB1659"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1659/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1659/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1659"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 7
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB165/children?page=0&size=100"
+    }
+  }
+}

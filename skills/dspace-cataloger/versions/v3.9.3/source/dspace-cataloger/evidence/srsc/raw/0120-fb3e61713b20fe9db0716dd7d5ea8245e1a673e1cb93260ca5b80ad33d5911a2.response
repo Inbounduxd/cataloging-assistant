@@ -1,0 +1,85 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:VR183101",
+      "display" : "Pharmacology",
+      "value" : "MEDICINE::Physiology and pharmacology::Pharmacological research::Pharmacology",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Physiology and pharmacology::Pharmacological research",
+        "note" : "Farmakologi",
+        "hasChildren" : "false",
+        "id" : "VR183101"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR183101/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR183101/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR183101"
+        }
+      }
+    }, {
+      "id" : "srsc:VR183102",
+      "display" : "Clinical pharmacology",
+      "value" : "MEDICINE::Physiology and pharmacology::Pharmacological research::Clinical pharmacology",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Physiology and pharmacology::Pharmacological research",
+        "note" : "Klinisk farmakologi",
+        "hasChildren" : "false",
+        "id" : "VR183102"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR183102/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR183102/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR183102"
+        }
+      }
+    }, {
+      "id" : "srsc:VR183103",
+      "display" : "Toxicology",
+      "value" : "MEDICINE::Physiology and pharmacology::Pharmacological research::Toxicology",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Physiology and pharmacology::Pharmacological research",
+        "note" : "Toxikologi",
+        "hasChildren" : "false",
+        "id" : "VR183103"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR183103/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR183103/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR183103"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 3
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1831/children?page=0&size=100"
+    }
+  }
+}

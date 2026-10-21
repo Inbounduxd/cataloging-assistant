@@ -1,0 +1,85 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:VR150601",
+      "display" : "Space physics",
+      "value" : "NATURAL SCIENCES::Physics::Geocosmophysics and plasma physics::Space physics",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Physics::Geocosmophysics and plasma physics",
+        "note" : "Rymdfysik",
+        "hasChildren" : "false",
+        "id" : "VR150601"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150601/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150601/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150601"
+        }
+      }
+    }, {
+      "id" : "srsc:VR150602",
+      "display" : "Plasma physics",
+      "value" : "NATURAL SCIENCES::Physics::Geocosmophysics and plasma physics::Plasma physics",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Physics::Geocosmophysics and plasma physics",
+        "note" : "Plasmafysik",
+        "hasChildren" : "false",
+        "id" : "VR150602"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150602/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150602/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150602"
+        }
+      }
+    }, {
+      "id" : "srsc:VR150603",
+      "display" : "Fusion",
+      "value" : "NATURAL SCIENCES::Physics::Geocosmophysics and plasma physics::Fusion",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Physics::Geocosmophysics and plasma physics",
+        "note" : "Fusion",
+        "hasChildren" : "false",
+        "id" : "VR150603"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150603/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150603/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150603"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 3
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1506/children?page=0&size=100"
+    }
+  }
+}

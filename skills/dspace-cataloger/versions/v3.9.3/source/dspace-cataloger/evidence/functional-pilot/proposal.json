@@ -1,0 +1,277 @@
+{
+  "status": "REQUIERE-REVISIÓN",
+  "formContractVersion": "1.1",
+  "skillVersion": "3.9.3-rc.2",
+  "scope": "Focused real-record pilot; not full recataloging",
+  "source": {
+    "primary": "https://ela.enallt.unam.mx/index.php/ela/article/view/632",
+    "accessedAt": "2026-10-21T13:25:58.995569+00:00",
+    "itemUuid": "ba2d355b-a2de-4c29-8fbf-0c9c335c6452",
+    "handle": "123456789/733",
+    "itemSha256": "de925e7ca0525e10bcce9c303aa7e4de9e468623d5bc0a33909a3327a5e9106a",
+    "publisherSha256": "1b60672c34f4b0bb9dfbeb11efaccd98b0d2d8645d451193045ad15cc6052ffc"
+  },
+  "collectionContext": {
+    "selectedCollection": "3ce3afb3-94ed-4f60-bfda-0a1242c4d689",
+    "owningCollection": "2b1a6e73-92d4-45e4-970d-6186d8c895fe",
+    "membership": "MAPPED_COLLECTION_NOT_OWNER"
+  },
+  "fields": [
+    {
+      "field": "dc.type",
+      "bindingId": "traditionalpageone:r16:f0:m0",
+      "formId": "traditionalpageone",
+      "uiLabel": "Type",
+      "renderOrder": 28,
+      "currentValue": [
+        "Article"
+      ],
+      "sourceValue": "Reseñas",
+      "suggestedValue": [
+        "Reseña"
+      ],
+      "finalValue": null,
+      "evidenceStatus": "VERIFICADO",
+      "mappingStatus": "MAPPED",
+      "vocabulary": "common_types",
+      "vocabularyValidated": true,
+      "requiresHumanApproval": true,
+      "humanDecision": "PENDING",
+      "explanation": "La fuente editorial declara DC.Type.articleType=Reseñas. La naturaleza documental se conserva frente al contenedor revista; propuesta sin aplicar.",
+      "evidence": [
+        {
+          "file": "publisher.response",
+          "url": "https://ela.enallt.unam.mx/index.php/ela/article/view/632",
+          "locator": "meta[name=\"DC.Type.articleType\"]"
+        }
+      ]
+    },
+    {
+      "field": "dc.type.genre",
+      "bindingId": "traditionalpageone:r13:f0:m0",
+      "formId": "traditionalpageone",
+      "uiLabel": "¿Es un texto comparativo?",
+      "renderOrder": 16,
+      "currentValue": [],
+      "sourceValue": null,
+      "suggestedValue": null,
+      "finalValue": null,
+      "evidenceStatus": "PENDIENTE",
+      "mappingStatus": "POLICY_REVIEW",
+      "vocabulary": "genrePairs",
+      "vocabularyValidated": null,
+      "requiresHumanApproval": true,
+      "humanDecision": "PENDING",
+      "explanation": "No se consultó el texto completo. Ni la ausencia del campo ni las múltiples lenguas en el registro prueban ninguna de las tres respuestas; no elegir No por defecto.",
+      "evidence": [
+        {
+          "file": "item.response",
+          "pointer": "/metadata/dc.type.genre"
+        }
+      ]
+    },
+    {
+      "field": "dc.description.registeredLanguage",
+      "bindingId": "traditionalpageone:r18:f0:m0",
+      "formId": "traditionalpageone",
+      "uiLabel": "Lengua de registro",
+      "renderOrder": 30,
+      "currentValue": [
+        "Español"
+      ],
+      "sourceValue": [
+        "Español"
+      ],
+      "suggestedValue": [
+        "Español"
+      ],
+      "finalValue": null,
+      "evidenceStatus": "EXTRAÍDO",
+      "mappingStatus": "MAPPED",
+      "vocabulary": "registeredLanguagePairs",
+      "vocabularyValidated": true,
+      "requiresHumanApproval": true,
+      "humanDecision": "PENDING",
+      "explanation": "Conservar el Español declarado en DSpace; extraído del registro, no verificación independiente de toda la lengua de redacción. No añadir lenguas objeto ni deducirla del idioma de la interfaz editorial.",
+      "evidence": [
+        {
+          "file": "item.response",
+          "pointer": "/metadata/dc.description.registeredLanguage"
+        }
+      ]
+    },
+    {
+      "field": "dc.subject.linguiscgroup",
+      "bindingId": "traditionalpageone:r19:f0:m0",
+      "formId": "traditionalpageone",
+      "uiLabel": "Lengua registrada (Agrupación lingüística)",
+      "renderOrder": 31,
+      "currentValue": [
+        "Náhuatl",
+        "Tarasco (Purépecha)",
+        "Español",
+        "Maya yucateco",
+        "Tseltal",
+        "Chichimeca Jonaz",
+        "Otomí",
+        "Mazahua"
+      ],
+      "sourceValue": [
+        "Náhuatl",
+        "Tarasco (Purépecha)",
+        "Español",
+        "Maya yucateco",
+        "Tseltal",
+        "Chichimeca Jonaz",
+        "Otomí",
+        "Mazahua"
+      ],
+      "suggestedValue": null,
+      "finalValue": null,
+      "evidenceStatus": "PENDIENTE",
+      "mappingStatus": "POLICY_REVIEW",
+      "vocabulary": "linguiscgroupPairs",
+      "vocabularyValidated": null,
+      "requiresHumanApproval": true,
+      "humanDecision": "PENDING",
+      "explanation": "El registro contiene ocho agrupaciones. Su pertinencia como objetos primarios no se verifica con el resumen o la pertenencia a colecciones; conservar como evidencia sin proponer adiciones o eliminaciones.",
+      "evidence": [
+        {
+          "file": "item.response",
+          "pointer": "/metadata/dc.subject.linguiscgroup"
+        }
+      ]
+    },
+    {
+      "field": "dc.subject",
+      "bindingId": "traditionalpagetwo:r0:f0:m0",
+      "formId": "traditionalpagetwo",
+      "uiLabel": "Palabras Clave",
+      "renderOrder": 46,
+      "currentValue": [
+        "Sociolingüística",
+        "Morfosintaxis",
+        "Fonología",
+        "Fonética",
+        "Psicolingüística",
+        "Lexicografía",
+        "Lexicología",
+        "Pragmática",
+        "Análisis del discurso",
+        "Adquisición y desarrollo de L1 y L2",
+        "Metodología cualitativa",
+        "Metodología cuantitativa",
+        "Actitud  lingüística",
+        "Dialectología",
+        "Migración",
+        "Geolingüística"
+      ],
+      "sourceValue": null,
+      "suggestedValue": null,
+      "finalValue": null,
+      "evidenceStatus": "PENDIENTE",
+      "mappingStatus": "POLICY_REVIEW",
+      "vocabulary": "srsc",
+      "vocabularyValidated": null,
+      "requiresHumanApproval": true,
+      "humanDecision": "PENDING",
+      "explanation": "La clave compartida dc.subject no revela qué control originó cada valor. No traducir Sociolingüística a una categoría srsc por aproximación ni asignarla a ambos controles.",
+      "evidence": [
+        {
+          "file": "item.response",
+          "pointer": "/metadata/dc.subject"
+        }
+      ]
+    },
+    {
+      "field": "dc.subject",
+      "bindingId": "traditionalpagetwo:r4:f0:m0",
+      "formId": "traditionalpagetwo",
+      "uiLabel": "Tópicos (disciplinas, temas específicos)",
+      "renderOrder": 50,
+      "currentValue": [
+        "Sociolingüística",
+        "Morfosintaxis",
+        "Fonología",
+        "Fonética",
+        "Psicolingüística",
+        "Lexicografía",
+        "Lexicología",
+        "Pragmática",
+        "Análisis del discurso",
+        "Adquisición y desarrollo de L1 y L2",
+        "Metodología cualitativa",
+        "Metodología cuantitativa",
+        "Actitud  lingüística",
+        "Dialectología",
+        "Migración",
+        "Geolingüística"
+      ],
+      "sourceValue": "Sociolingüística",
+      "suggestedValue": [
+        "Sociolingüística"
+      ],
+      "finalValue": null,
+      "evidenceStatus": "EXTRAÍDO",
+      "mappingStatus": "MAPPED",
+      "vocabulary": "topicsPairs",
+      "vocabularyValidated": true,
+      "requiresHumanApproval": true,
+      "humanDecision": "PENDING",
+      "explanation": "Valor literal ya presente en dc.subject y permitido en topicsPairs; candidato para este control, no identificación del widget original. Revisión humana antes de reubicar o copiar; no sustituye los demás valores existentes.",
+      "evidence": [
+        {
+          "file": "item.response",
+          "pointer": "/metadata/dc.subject"
+        }
+      ]
+    },
+    {
+      "field": "dc.format.extent",
+      "bindingId": "traditionalpageone:r27:f0:m0",
+      "formId": "traditionalpageone",
+      "uiLabel": "Número de páginas / extensión",
+      "renderOrder": 39,
+      "currentValue": [
+        "páginas 207-213"
+      ],
+      "sourceValue": [
+        "páginas 207-213"
+      ],
+      "suggestedValue": [
+        "páginas 207-213"
+      ],
+      "finalValue": null,
+      "evidenceStatus": "EXTRAÍDO",
+      "mappingStatus": "MAPPED",
+      "vocabulary": null,
+      "vocabularyValidated": null,
+      "requiresHumanApproval": true,
+      "humanDecision": "PENDING",
+      "explanation": "Conservar páginas 207-213 de la reseña. Las 802 páginas del título corresponden al libro reseñado y no deben reemplazar su extensión.",
+      "evidence": [
+        {
+          "file": "item.response",
+          "pointer": "/metadata/dc.format.extent"
+        }
+      ]
+    }
+  ],
+  "qa": [
+    {
+      "code": "PILOT-DOCUMENT-TYPE",
+      "severity": "REVIEW",
+      "status": "FAIL",
+      "fields": [
+        "dc.type"
+      ],
+      "explanation": "Article en DSpace frente a Reseñas en fuente editorial; corrección pendiente."
+    }
+  ],
+  "governance": {
+    "humanApprovalRequired": true,
+    "humanApprovalGranted": false,
+    "dspaceWriteEnabled": false,
+    "applied": false
+  }
+}

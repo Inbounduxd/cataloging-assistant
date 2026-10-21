@@ -1,0 +1,392 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "DSpace Cataloger Evidence Corpus v3.2",
+  "type": "object",
+  "required": [
+    "caseId",
+    "inputs",
+    "representations",
+    "evidenceUnits",
+    "provenance"
+  ],
+  "properties": {
+    "caseId": {
+      "type": "string"
+    },
+    "recordId": {
+      "type": [
+        "string",
+        "integer",
+        "null"
+      ]
+    },
+    "inputs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "inputType",
+          "sourceOrigin"
+        ],
+        "properties": {
+          "inputType": {
+            "enum": [
+              "URL",
+              "PDF_UPLOAD",
+              "EPUB_UPLOAD",
+              "SPREADSHEET_ROW",
+              "DSpace_ITEM",
+              "DSpace_BITSTREAM",
+              "TEXT_UPLOAD",
+              "OTHER"
+            ]
+          },
+          "sourceOrigin": {
+            "enum": [
+              "UPLOAD_USER",
+              "FETCH_PUBLISHER",
+              "FETCH_REPOSITORY",
+              "FETCH_ISSUE",
+              "DSpace_BITSTREAM",
+              "SPREADSHEET",
+              "MANUAL_INPUT",
+              "OTHER"
+            ]
+          },
+          "uri": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "fileName": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "mimeType": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "sizeBytes": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 0
+          },
+          "sha256": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "retrievedAt": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "notes": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "representations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "kind",
+          "sourceOrigin",
+          "status"
+        ],
+        "properties": {
+          "kind": {
+            "enum": [
+              "LANDING",
+              "XML",
+              "PDF",
+              "HTML",
+              "EPUB",
+              "OCR",
+              "TEXT",
+              "OTHER"
+            ]
+          },
+          "sourceOrigin": {
+            "enum": [
+              "UPLOAD_USER",
+              "FETCH_PUBLISHER",
+              "FETCH_REPOSITORY",
+              "FETCH_ISSUE",
+              "DSpace_BITSTREAM",
+              "SPREADSHEET",
+              "MANUAL_INPUT",
+              "OTHER"
+            ]
+          },
+          "status": {
+            "enum": [
+              "DISCOVERED",
+              "FETCHED",
+              "PARSED",
+              "FAILED",
+              "BLOCKED"
+            ]
+          },
+          "uri": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "fileName": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "mimeType": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "pageCount": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 1
+          },
+          "textExtractable": {
+            "type": [
+              "boolean",
+              "null"
+            ]
+          },
+          "sha256": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "contentAuthority": {
+            "enum": [
+              "PRIMARY",
+              "OFFICIAL",
+              "USER_SUPPLIED",
+              "SECONDARY",
+              "UNKNOWN"
+            ]
+          },
+          "bibliographicAuthority": {
+            "enum": [
+              "PRIMARY",
+              "OFFICIAL",
+              "USER_SUPPLIED",
+              "SECONDARY",
+              "UNKNOWN"
+            ]
+          },
+          "notes": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "documentProfile": {
+      "type": "object",
+      "properties": {
+        "detectedDocumentType": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "dominantLanguage": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "hasFrontMatter": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "hasAbstract": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "hasKeywords": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "hasBody": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "hasReferences": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "pageCount": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1
+        }
+      },
+      "additionalProperties": true
+    },
+    "evidenceUnits": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "representationKind",
+          "sectionClass",
+          "text",
+          "evidenceWeight"
+        ],
+        "properties": {
+          "representationKind": {
+            "enum": [
+              "LANDING",
+              "XML",
+              "PDF",
+              "HTML",
+              "EPUB",
+              "OCR",
+              "TEXT",
+              "SPREADSHEET"
+            ]
+          },
+          "sourceOrigin": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "page": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 1
+          },
+          "sectionTitle": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "sectionClass": {
+            "enum": [
+              "TITLE",
+              "AUTHOR",
+              "AFFILIATION",
+              "ABSTRACT",
+              "KEYWORDS",
+              "FRONT_MATTER",
+              "INTRODUCTION",
+              "METHODS",
+              "RESULTS",
+              "DISCUSSION",
+              "CONCLUSION",
+              "BODY",
+              "NOTES",
+              "REFERENCES",
+              "SPREADSHEET_METADATA",
+              "OTHER"
+            ]
+          },
+          "locator": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "text": {
+            "type": "string"
+          },
+          "evidenceWeight": {
+            "enum": [
+              "PRIMARY",
+              "STRONG",
+              "SUPPORTING",
+              "WEAK",
+              "EXCLUDE_FOR_SUBJECT"
+            ]
+          },
+          "languageRole": {
+            "enum": [
+              "CONTENT_LANGUAGE",
+              "OBJECT_LANGUAGE",
+              "EXAMPLE_LANGUAGE",
+              "MENTION_ONLY",
+              "REFERENCE_ONLY",
+              "NOT_APPLICABLE"
+            ]
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "properties": {
+        "corpusCreatedAt": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "createdBy": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "inputHashesVerified": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "notes": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": true
+}

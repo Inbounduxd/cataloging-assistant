@@ -1,0 +1,14 @@
+{
+  "goldenRecord": "GR16",
+  "recordId": null,
+  "title": "Closed vocabulary license version gap",
+  "status": "PILOT_ACCEPTED",
+  "purpose": "Semantic regression fixture derived from cataloguing-learning v3.5. Does not contain copyrighted full text.",
+  "expectedRules": [
+    "EXACT_CLOSED_VOCABULARY_MATCH",
+    "VOCABULARY_GAP_FOR_CC_BY_3_0"
+  ],
+  "mustNever": [
+    "Replace CC BY 3.0 with CC BY 4.0 because it is available."
+  ]
+}

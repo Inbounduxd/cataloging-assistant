@@ -1,0 +1,604 @@
+{
+  "id" : "ba2d355b-a2de-4c29-8fbf-0c9c335c6452",
+  "uuid" : "ba2d355b-a2de-4c29-8fbf-0c9c335c6452",
+  "name" : "Pedro  Martín  Butragueño  &  Leonor  Orozco  (eds.).  Argumentos  cuantitativos  y  cualitativos en sociolingüística.Segundo coloquio de cambio y variación lingüís-tica. México: El Colegio de México, 2014. 802 págs",
+  "handle" : "123456789/733",
+  "metadata" : {
+    "dc.contributor.author" : [ {
+      "value" : "Zacarías Ponce de León, Ramón Felipe",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.contributor.institution" : [ {
+      "value" : "Instituto de Investigaciones Filológicas (IIF), Universidad Nacional Autónoma de México (UNAM)",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.coverage.century" : [ {
+      "value" : "XVI",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.coverage.community" : [ {
+      "value" : "Guadalupe Tlachco",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    }, {
+      "value" : "Janitzio",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 1
+    }, {
+      "value" : "La Paz",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 2
+    }, {
+      "value" : "Todos Santos",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 3
+    }, {
+      "value" : "El Rosario",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 4
+    }, {
+      "value" : "San Ildefonso Chantepec",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 5
+    } ],
+    "dc.coverage.country" : [ {
+      "value" : "México",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.coverage.countryFound" : [ {
+      "value" : "México",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.coverage.state" : [ {
+      "value" : "Tlaxcala",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    }, {
+      "value" : "Michoacan",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 1
+    }, {
+      "value" : "Baja California Sur",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 2
+    }, {
+      "value" : "Hidalgo",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 3
+    } ],
+    "dc.date.accessioned" : [ {
+      "value" : "2026-06-16T20:17:10Z",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.date.available" : [ {
+      "value" : "2026-06-16T20:17:10Z",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.date.issued" : [ {
+      "value" : "2016-09-29",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.description" : [ {
+      "value" : "La variantes lingüisticas fueron añadidas por el catalogador en base al Catálogo de las lenguas indígenas nacionales.",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.description.abstract" : [ {
+      "value" : "Reseña del libro \"Argumentos cuantitativos y cualitativos en sociolingüística. Segundo coloquio de cambio y variación lingüística\" editado por Pedro Martín Butragueño y Leonor Orozco y publicado por El Colegio de México",
+      "language" : null,
+      "authority" : null,
+      "confidence" : 0,
+      "place" : 0
+    } ],
+    "dc.description.languageUsage" : [ {
+      "value" : "Monolingüe",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.description.registeredLanguage" : [ {
+      "value" : "Español",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.format.extent" : [ {
+      "value" : "páginas 207-213",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.format.medium" : [ {
+      "value" : "Digital",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.issn" : [ {
+      "value" : "0185-2647",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.issue" : [ {
+      "value" : "Año 34, Núm. 63 (julio 2016)",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.uri" : [ {
+      "value" : "https://ela.enallt.unam.mx/index.php/ela/article/view/632",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    }, {
+      "value" : "http://132.248.101.240:4000/handle/123456789/733",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 1
+    } ],
+    "dc.identifier.url" : [ {
+      "value" : "https://ela.enallt.unam.mx/",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.language.iso6391" : [ {
+      "value" : "nah",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    }, {
+      "value" : "tsz",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 1
+    }, {
+      "value" : "spa",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 2
+    }, {
+      "value" : "yua",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 3
+    }, {
+      "value" : "tzc",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 4
+    }, {
+      "value" : "pei",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 5
+    }, {
+      "value" : "ote",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 6
+    }, {
+      "value" : "maz",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 7
+    } ],
+    "dc.publisher" : [ {
+      "value" : "Universidad Nacional Autónoma de México (UNAM)",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.relation.ispartof" : [ {
+      "value" : "Estudios de Lingüística Aplicada (ELA)",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.rights" : [ {
+      "value" : "Bajo una licencia Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.rights.accessRights" : [ {
+      "value" : "Acceso abierto",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.rights.license" : [ {
+      "value" : "Atribución-NoComercial-CompartirIgual 4.0 Internacional. https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.source" : [ {
+      "value" : "LINGMEX",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.subject" : [ {
+      "value" : "Sociolingüística",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    }, {
+      "value" : "Morfosintaxis",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 1
+    }, {
+      "value" : "Fonología",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 2
+    }, {
+      "value" : "Fonética",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 3
+    }, {
+      "value" : "Psicolingüística",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 4
+    }, {
+      "value" : "Lexicografía",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 5
+    }, {
+      "value" : "Lexicología",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 6
+    }, {
+      "value" : "Pragmática",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 7
+    }, {
+      "value" : "Análisis del discurso",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 8
+    }, {
+      "value" : "Adquisición y desarrollo de L1 y L2",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 9
+    }, {
+      "value" : "Metodología cualitativa",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 10
+    }, {
+      "value" : "Metodología cuantitativa",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 11
+    }, {
+      "value" : "Actitud  lingüística",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 12
+    }, {
+      "value" : "Dialectología",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 13
+    }, {
+      "value" : "Migración",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 14
+    }, {
+      "value" : "Geolingüística",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 15
+    } ],
+    "dc.subject.linguiscgroup" : [ {
+      "value" : "Náhuatl",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    }, {
+      "value" : "Tarasco (Purépecha)",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 1
+    }, {
+      "value" : "Español",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 2
+    }, {
+      "value" : "Maya yucateco",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 3
+    }, {
+      "value" : "Tseltal",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 4
+    }, {
+      "value" : "Chichimeca Jonaz",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 5
+    }, {
+      "value" : "Otomí",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 6
+    }, {
+      "value" : "Mazahua",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 7
+    } ],
+    "dc.subject.linguisticBranch" : [ {
+      "value" : "Nahuatlano",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    }, {
+      "value" : "Lengua aislada",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 1
+    }, {
+      "value" : "Romance",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 2
+    }, {
+      "value" : "Yucateco-lacandón",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 3
+    }, {
+      "value" : "Tseltalano",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 4
+    }, {
+      "value" : "Otopame",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 5
+    } ],
+    "dc.subject.linguisticFamily" : [ {
+      "value" : "Yuto-nahua",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    }, {
+      "value" : "Tarasca",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 1
+    }, {
+      "value" : "Indoeuropeo",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 2
+    }, {
+      "value" : "Maya",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 3
+    }, {
+      "value" : "Oto-mangue",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 4
+    } ],
+    "dc.subject.linguisticVariant" : [ {
+      "value" : "mexicano del oriente central",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    }, {
+      "value" : "p’urhepecha",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 1
+    }, {
+      "value" : "bats’il k’op (tseltal del occidente)",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 2
+    }, {
+      "value" : "uzá’",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 3
+    }, {
+      "value" : "hñähñú (otomí del Valle del Mezquital)",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 4
+    } ],
+    "dc.subject.primaryClassification" : [ {
+      "value" : "Lingüísticos",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.title" : [ {
+      "value" : "Pedro  Martín  Butragueño  &  Leonor  Orozco  (eds.).  Argumentos  cuantitativos  y  cualitativos en sociolingüística.Segundo coloquio de cambio y variación lingüís-tica. México: El Colegio de México, 2014. 802 págs",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.type" : [ {
+      "value" : "Article",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dcterms.provenance" : [ {
+      "value" : "MEO-20260616",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ]
+  },
+  "inArchive" : true,
+  "discoverable" : true,
+  "withdrawn" : false,
+  "lastModified" : "2026-06-26T04:20:21.785+00:00",
+  "entityType" : null,
+  "type" : "item",
+  "_links" : {
+    "accessStatus" : {
+      "href" : "https://www.iifl.unam.mx/server/api/core/items/ba2d355b-a2de-4c29-8fbf-0c9c335c6452/accessStatus"
+    },
+    "bundles" : {
+      "href" : "https://www.iifl.unam.mx/server/api/core/items/ba2d355b-a2de-4c29-8fbf-0c9c335c6452/bundles"
+    },
+    "identifiers" : {
+      "href" : "https://www.iifl.unam.mx/server/api/core/items/ba2d355b-a2de-4c29-8fbf-0c9c335c6452/identifiers"
+    },
+    "mappedCollections" : {
+      "href" : "https://www.iifl.unam.mx/server/api/core/items/ba2d355b-a2de-4c29-8fbf-0c9c335c6452/mappedCollections"
+    },
+    "owningCollection" : {
+      "href" : "https://www.iifl.unam.mx/server/api/core/items/ba2d355b-a2de-4c29-8fbf-0c9c335c6452/owningCollection"
+    },
+    "relationships" : {
+      "href" : "https://www.iifl.unam.mx/server/api/core/items/ba2d355b-a2de-4c29-8fbf-0c9c335c6452/relationships"
+    },
+    "version" : {
+      "href" : "https://www.iifl.unam.mx/server/api/core/items/ba2d355b-a2de-4c29-8fbf-0c9c335c6452/version"
+    },
+    "templateItemOf" : {
+      "href" : "https://www.iifl.unam.mx/server/api/core/items/ba2d355b-a2de-4c29-8fbf-0c9c335c6452/templateItemOf"
+    },
+    "thumbnail" : {
+      "href" : "https://www.iifl.unam.mx/server/api/core/items/ba2d355b-a2de-4c29-8fbf-0c9c335c6452/thumbnail"
+    },
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/core/items/ba2d355b-a2de-4c29-8fbf-0c9c335c6452"
+    }
+  }
+}

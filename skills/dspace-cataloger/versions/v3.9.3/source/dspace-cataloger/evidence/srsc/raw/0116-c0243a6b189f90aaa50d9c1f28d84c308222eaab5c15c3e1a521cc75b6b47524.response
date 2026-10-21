@@ -1,0 +1,108 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:VR181201",
+      "display" : "Anatomy",
+      "value" : "MEDICINE::Morphology, cell biology, pathology::Morphology::Anatomy",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Morphology, cell biology, pathology::Morphology",
+        "note" : "Anatomi",
+        "hasChildren" : "false",
+        "id" : "VR181201"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR181201/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR181201/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR181201"
+        }
+      }
+    }, {
+      "id" : "srsc:VR181202",
+      "display" : "Biomaterials",
+      "value" : "MEDICINE::Morphology, cell biology, pathology::Morphology::Biomaterials",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Morphology, cell biology, pathology::Morphology",
+        "note" : "Biomaterial",
+        "hasChildren" : "false",
+        "id" : "VR181202"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR181202/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR181202/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR181202"
+        }
+      }
+    }, {
+      "id" : "srsc:VR181203",
+      "display" : "Histology",
+      "value" : "MEDICINE::Morphology, cell biology, pathology::Morphology::Histology",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Morphology, cell biology, pathology::Morphology",
+        "note" : "Histologi",
+        "hasChildren" : "false",
+        "id" : "VR181203"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR181203/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR181203/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR181203"
+        }
+      }
+    }, {
+      "id" : "srsc:VR181204",
+      "display" : "Tumour biology",
+      "value" : "MEDICINE::Morphology, cell biology, pathology::Morphology::Tumour biology",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Morphology, cell biology, pathology::Morphology",
+        "note" : "Tumörbiologi",
+        "hasChildren" : "false",
+        "id" : "VR181204"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR181204/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR181204/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR181204"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 4
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1812/children?page=0&size=100"
+    }
+  }
+}

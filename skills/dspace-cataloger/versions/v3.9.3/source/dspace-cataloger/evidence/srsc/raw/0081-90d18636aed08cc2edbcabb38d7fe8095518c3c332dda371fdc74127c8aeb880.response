@@ -1,0 +1,39 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:VR133202",
+      "display" : "Biostatistics",
+      "value" : "SOCIAL SCIENCES::Statistics, computer and systems science::Statistics::Biostatistics",
+      "otherInformation" : {
+        "parent" : "SOCIAL SCIENCES::Statistics, computer and systems science::Statistics",
+        "note" : "Biostatistik",
+        "hasChildren" : "false",
+        "id" : "VR133202"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR133202/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR133202/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR133202"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 1
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1332/children?page=0&size=100"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "endpoint": "https://www.iifl.unam.mx/server/api/core/items/ba2d355b-a2de-4c29-8fbf-0c9c335c6452/mappedCollections",
+  "redirects": [
+    {
+      "url": "https://www.iifl.unam.mx/server/api/core/items/ba2d355b-a2de-4c29-8fbf-0c9c335c6452/mappedCollections",
+      "status": 200
+    }
+  ],
+  "http_status": 200,
+  "content_type": "application/hal+json;charset=UTF-8",
+  "body_sha256": "3f688848adf07a5eb96be2ec693dea17ad4282acfff96633f9a94544feafbec9",
+  "captured_at": "2026-10-21T13:22:40.319558+00:00"
+}

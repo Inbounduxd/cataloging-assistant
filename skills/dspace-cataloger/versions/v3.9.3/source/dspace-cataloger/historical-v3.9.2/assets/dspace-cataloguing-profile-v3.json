@@ -1,0 +1,7160 @@
+{
+  "profileVersion": "3.0",
+  "generatedAt": "2026-08-14T02:27:17.417621+00:00",
+  "source": {
+    "base": "http://132.248.101.240:8080/server",
+    "authenticated": true,
+    "mode": "READ_ONLY_PROFILE_EXTRACTION"
+  },
+  "instance": {
+    "dspaceName": "Respositorio Ind",
+    "dspaceVersion": "DSpace 7.6.6",
+    "dspaceUI": "http://132.248.101.240:4000",
+    "dspaceServer": "http://132.248.101.240:8080/server"
+  },
+  "targetFields": {
+    "dc.subject.linguisticFamily": {
+      "registered": true,
+      "metadataField": {
+        "id": 265,
+        "key": "dc.subject.linguisticFamily",
+        "element": "subject",
+        "qualifier": "linguisticFamily",
+        "scopeNote": "Familia linguistica a la que pertenece la lengua del recurso"
+      },
+      "formBindings": [
+        {
+          "form": "traditionalpageone",
+          "label": "Familia lingüística",
+          "inputType": "dropdown",
+          "mandatory": false,
+          "repeatable": true,
+          "controlledVocabulary": "linguisticFamilyPairs",
+          "closed": true,
+          "hints": "Seleccione la familia lingüística a la que pertenece la lengua del recurso."
+        }
+      ]
+    },
+    "dc.subject.linguisticBranch": {
+      "registered": true,
+      "metadataField": {
+        "id": 266,
+        "key": "dc.subject.linguisticBranch",
+        "element": "subject",
+        "qualifier": "linguisticBranch",
+        "scopeNote": "Rama linguistica a la que pertenece la lengua del recurso"
+      },
+      "formBindings": [
+        {
+          "form": "traditionalpageone",
+          "label": "Rama lingüística",
+          "inputType": "dropdown",
+          "mandatory": false,
+          "repeatable": true,
+          "controlledVocabulary": "linguisticBranchPairs",
+          "closed": true,
+          "hints": "Seleccione la rama lingüística a la que pertenece la lengua del recurso."
+        }
+      ]
+    },
+    "dc.subject.linguiscgroup": {
+      "registered": true,
+      "metadataField": {
+        "id": 264,
+        "key": "dc.subject.linguiscgroup",
+        "element": "subject",
+        "qualifier": "linguiscgroup",
+        "scopeNote": "Agrupacion linguistica de la que trata el texto"
+      },
+      "formBindings": [
+        {
+          "form": "traditionalpageone",
+          "label": "Lengua registrada (Agrupación lingüística)",
+          "inputType": "dropdown",
+          "mandatory": false,
+          "repeatable": true,
+          "controlledVocabulary": "linguiscgroupPairs",
+          "closed": true,
+          "hints": "Seleccione la agrupación lingüística de la que trata el texto."
+        }
+      ]
+    },
+    "dc.description.registeredLanguage": {
+      "registered": true,
+      "metadataField": {
+        "id": 263,
+        "key": "dc.description.registeredLanguage",
+        "element": "description",
+        "qualifier": "registeredLanguage",
+        "scopeNote": "Lengua registrada en el recurso"
+      },
+      "formBindings": [
+        {
+          "form": "traditionalpageone",
+          "label": "Lengua de registro",
+          "inputType": "dropdown",
+          "mandatory": false,
+          "repeatable": true,
+          "controlledVocabulary": "registeredLanguagePairs",
+          "closed": true,
+          "hints": "Seleccione la lengua o lenguas registradas en el recurso."
+        }
+      ]
+    }
+  },
+  "traditionalForms": {
+    "traditionalpageone": {
+      "id": "traditionalpageone",
+      "name": "traditionalpageone",
+      "fields": [
+        {
+          "row": 0,
+          "fieldIndex": 0,
+          "metadataIndex": 0,
+          "label": "Provenance / Catalogación",
+          "inputType": "onebox",
+          "mandatory": false,
+          "repeatable": false,
+          "hints": "Ejemplo: Catalogación: YCT-20260116",
+          "metadata": "dcterms.provenance",
+          "controlledVocabulary": null,
+          "closed": false
+        },
+        {
+          "row": 1,
+          "fieldIndex": 0,
+          "metadataIndex": 0,
+          "label": "Titulo",
+          "inputType": "onebox",
+          "mandatory": true,
+          "repeatable": false,
+          "hints": "Coloca el nombre del Titulo del Item.",
+          "metadata": "dc.title",
+          "controlledVocabulary": null,
+          "closed": false
+        },
+        {
+          "row": 2,
+          "fieldIndex": 0,
+          "metadataIndex": 0,
+          "label": "Variante de título",
+          "inputType": "onebox",
+          "mandatory": false,
+          "repeatable": true,
+          "hints": "Ingrese una variante o título alternativo del recurso.",
+          "metadata": "dc.title.alternative",
+          "controlledVocabulary": null,
+          "closed": false
+        },
+        {
+          "row": 3,
+          "fieldIndex": 0,
+          "metadataIndex": 0,
+          "label": "Subtítulo",
+          "inputType": "onebox",
+          "mandatory": false,
+          "repeatable": true,
+          "hints": "Coloca el Subtítulo del Item",
+          "metadata": "dc.title.subtitle",
+          "controlledVocabulary": null,
+          "closed": false
+        },
+        {
+          "row": 4,
+          "fieldIndex": 0,
+          "metadataIndex": 0,
+          "label": "Título de revista",
+          "inputType": "onebox",
+          "mandatory": false,
+          "repeatable": false,
+          "hints": "Ingrese el nombre de la revista.",
+          "metadata": "dc.relation.ispartof",
+          "controlledVocabulary": null,
+          "closed": false
+        },
+        {
+          "row": 5,
+          "fieldIndex": 0,
+          "metadataIndex": 0,
+          "label": "Es parte de (título del libro)",
+          "inputType": "onebox",
+          "mandatory": false,
+          "repeatable": false,
+          "hints": "Ingrese el título del libro del que forma parte este capítulo.",
+          "metadata": "dc.source.booktitle",
+          "controlledVocabulary": null,
+          "closed": false
+        },
+        {
+          "row": 6,
+          "fieldIndex": 0,
+          "metadataIndex": 0,
+          "label": "Autor",
+          "inputType": "onebox",
+          "mandatory": false,
+          "repeatable": true,
+          "hints": "Coloca el Nombre del autor.",
+          "metadata": "dc.contributor.author",
+          "controlledVocabulary": null,
+          "closed": false
+        },
+        {
+          "row": 7,
+          "fieldIndex": 0,
+          "metadataIndex": 0,
+          "label": "Traductor",
+          "inputType": "onebox",
+          "mandatory": false,
+          "repeatable": true,
+          "hints": "Ingrese el nombre del traductor.",
+          "metadata": "dc.contributor.translator",
+          "controlledVocabulary": null,
+          "closed": false
+        },
+        {
+          "row": 8,
+          "fieldIndex": 0,
+          "metadataIndex": 0,
+          "label": "Colaboradores",
+          "inputType": "onebox",
+          "mandatory": false,
+          "repeatable": true,
+          "hints": "Ingrese los nombres de los colaboradores.",
+          "metadata": "dc.contributor.other",
+          "controlledVocabulary": null,
+          "closed": false
+        },
+        {
+          "row": 9,
+          "fieldIndex": 0,
+          "metadataIndex": 0,
+          "label": "Instituciones participantes",
+          "inputType": "onebox",
+          "mandatory": false,
+          "repeatable": true,
+          "hints": "Ingrese las instituciones involucradas.",
+          "metadata": "dc.contributor.institution",
+          "controlledVocabulary": null,
+          "closed": false
+        },
+        {
+          "row": 10,
+          "fieldIndex": 0,
+          "metadataIndex": 0,
+          "label": "Editores",
+          "inputType": "onebox",
+          "mandatory": false,
+          "repeatable": true,
+          "hints": "Ingrese los nombres de los editores.",
+          "metadata": "dc.contributor.editor",
+          "controlledVocabulary": null,
+          "closed": false
+        },
+        {
+          "row": 11,
+          "fieldIndex": 0,
+          "metadataIndex": 0,
+          "label": "Fecha de Creacion",
+          "inputType": "date",
+          "mandatory": false,
+          "repeatable": false,
+          "hints": "Fecha de creacion o publicacion del documento",
+          "metadata": "dc.date.issued",
+          "controlledVocabulary": null,
+          "closed": false
+        },
+        {
+          "row": 11,
+          "fieldIndex": 1,
+          "metadataIndex": 0,
+          "label": "País donde se encontró el recurso",
+          "inputType": "onebox",
+          "mandatory": false,
+          "repeatable": false,
+          "hints": "Ingrese el país donde se encontró el recurso.",
+          "metadata": "dc.coverage.countryFound",
+          "controlledVocabulary": null,
+          "closed": false
+        },
+        {
+          "row": 11,
+          "fieldIndex": 2,
+          "metadataIndex": 0,
+          "label": "Editorial",
+          "inputType": "onebox",
+          "mandatory": false,
+          "repeatable": true,
+          "hints": "El nombre de la editorial que publico el libro",
+          "metadata": "dc.publisher",
+          "controlledVocabulary": null,
+          "closed": false
+        },
+        {
+          "row": 12,
+          "fieldIndex": 0,
+          "metadataIndex": 0,
+          "label": "Edicion(No)/Periodicdad",
+          "inputType": "onebox",
+          "mandatory": false,
+          "repeatable": false,
+          "hints": "Ejemplo: 12",
+          "metadata": "dc.identifier.issue",
+          "controlledVocabulary": null,
+          "closed": false
+        },
+        {
+          "row": 13,
+          "fieldIndex": 0,
+          "metadataIndex": 0,
+          "label": "Identificador",
+          "inputType": "onebox",
+          "mandatory": false,
+          "repeatable": true,
+          "hints": "Numero de Identificacion del libro , revistas ,etc",
+          "metadata": "dc.identifier.issn",
+          "controlledVocabulary": null,
+          "closed": false
+        },
+        {
+          "row": 13,
+          "fieldIndex": 0,
+          "metadataIndex": 1,
+          "label": "Identificador",
+          "inputType": "onebox",
+          "mandatory": false,
+          "repeatable": true,
+          "hints": "Numero de Identificacion del libro , revistas ,etc",
+          "metadata": "dc.identifier.other",
+          "controlledVocabulary": null,
+          "closed": false
+        },
+        {
+          "row": 13,
+          "fieldIndex": 0,
+          "metadataIndex": 2,
+          "label": "Identificador",
+          "inputType": "onebox",
+          "mandatory": false,
+          "repeatable": true,
+          "hints": "Numero de Identificacion del libro , revistas ,etc",
+          "metadata": "dc.identifier.ismn",
+          "controlledVocabulary": null,
+          "closed": false
+        },
+        {
+          "row": 13,
+          "fieldIndex": 0,
+          "metadataIndex": 3,
+          "label": "Identificador",
+          "inputType": "onebox",
+          "mandatory": false,
+          "repeatable": true,
+          "hints": "Numero de Identificacion del libro , revistas ,etc",
+          "metadata": "dc.identifier.govdoc",
+          "controlledVocabulary": null,
+          "closed": false
+        },
+        {
+          "row": 13,
+          "fieldIndex": 0,
+          "metadataIndex": 4,
+          "label": "Identificador",
+          "inputType": "onebox",
+          "mandatory": false,
+          "repeatable": true,
+          "hints": "Numero de Identificacion del libro , revistas ,etc",
+          "metadata": "dc.identifier.uri",
+          "controlledVocabulary": null,
+          "closed": false
+        },
+        {
+          "row": 13,
+          "fieldIndex": 0,
+          "metadataIndex": 5,
+          "label": "Identificador",
+          "inputType": "onebox",
+          "mandatory": false,
+          "repeatable": true,
+          "hints": "Numero de Identificacion del libro , revistas ,etc",
+          "metadata": "dc.identifier.isbn",
+          "controlledVocabulary": null,
+          "closed": false
+        },
+        {
+          "row": 13,
+          "fieldIndex": 0,
+          "metadataIndex": 6,
+          "label": "Identificador",
+          "inputType": "onebox",
+          "mandatory": false,
+          "repeatable": true,
+          "hints": "Numero de Identificacion del libro , revistas ,etc",
+          "metadata": "dc.identifier.eissn",
+          "controlledVocabulary": null,
+          "closed": false
+        },
+        {
+          "row": 13,
+          "fieldIndex": 0,
+          "metadataIndex": 7,
+          "label": "Identificador",
+          "inputType": "onebox",
+          "mandatory": false,
+          "repeatable": true,
+          "hints": "Numero de Identificacion del libro , revistas ,etc",
+          "metadata": "dc.identifier.eisbn",
+          "controlledVocabulary": null,
+          "closed": false
+        },
+        {
+          "row": 13,
+          "fieldIndex": 0,
+          "metadataIndex": 8,
+          "label": "Identificador",
+          "inputType": "onebox",
+          "mandatory": false,
+          "repeatable": true,
+          "hints": "Numero de Identificacion del libro , revistas ,etc",
+          "metadata": "dc.identifier.handle",
+          "controlledVocabulary": null,
+          "closed": false
+        },
+        {
+          "row": 13,
+          "fieldIndex": 0,
+          "metadataIndex": 9,
+          "label": "Identificador",
+          "inputType": "onebox",
+          "mandatory": false,
+          "repeatable": true,
+          "hints": "Numero de Identificacion del libro , revistas ,etc",
+          "metadata": "dc.identifier.doi",
+          "controlledVocabulary": null,
+          "closed": false
+        },
+        {
+          "row": 14,
+          "fieldIndex": 0,
+          "metadataIndex": 0,
+          "label": "Fuente",
+          "inputType": "onebox",
+          "mandatory": false,
+          "repeatable": false,
+          "hints": "Indique la fuente de donde se obtuvo el material (archivo, biblioteca, comunidad, colección, etc.).",
+          "metadata": "dc.source",
+          "controlledVocabulary": null,
+          "closed": false
+        },
+        {
+          "row": 15,
+          "fieldIndex": 0,
+          "metadataIndex": 0,
+          "label": "Type",
+          "inputType": "dropdown",
+          "mandatory": false,
+          "repeatable": true,
+          "hints": "Select the type of content of the item.",
+          "metadata": "dc.type",
+          "controlledVocabulary": "common_types",
+          "closed": true
+        },
+        {
+          "row": 16,
+          "fieldIndex": 0,
+          "metadataIndex": 0,
+          "label": "Uso de lengua",
+          "inputType": "dropdown",
+          "mandatory": false,
+          "repeatable": false,
+          "hints": "Uso lingüístico del recurso: monolingüe, bilingüe o multilingüe.",
+          "metadata": "dc.description.languageUsage",
+          "controlledVocabulary": "languageUsagePairs",
+          "closed": true
+        },
+        {
+          "row": 17,
+          "fieldIndex": 0,
+          "metadataIndex": 0,
+          "label": "Lengua de registro",
+          "inputType": "dropdown",
+          "mandatory": false,
+          "repeatable": true,
+          "hints": "Seleccione la lengua o lenguas registradas en el recurso.",
+          "metadata": "dc.description.registeredLanguage",
+          "controlledVocabulary": "registeredLanguagePairs",
+          "closed": true
+        },
+        {
+          "row": 18,
+          "fieldIndex": 0,
+          "metadataIndex": 0,
+          "label": "Lengua registrada (Agrupación lingüística)",
+          "inputType": "dropdown",
+          "mandatory": false,
+          "repeatable": true,
+          "hints": "Seleccione la agrupación lingüística de la que trata el texto.",
+          "metadata": "dc.subject.linguiscgroup",
+          "controlledVocabulary": "linguiscgroupPairs",
+          "closed": true
+        },
+        {
+          "row": 19,
+          "fieldIndex": 0,
+          "metadataIndex": 0,
+          "label": "Familia lingüística",
+          "inputType": "dropdown",
+          "mandatory": false,
+          "repeatable": true,
+          "hints": "Seleccione la familia lingüística a la que pertenece la lengua del recurso.",
+          "metadata": "dc.subject.linguisticFamily",
+          "controlledVocabulary": "linguisticFamilyPairs",
+          "closed": true
+        },
+        {
+          "row": 20,
+          "fieldIndex": 0,
+          "metadataIndex": 0,
+          "label": "Rama lingüística",
+          "inputType": "dropdown",
+          "mandatory": false,
+          "repeatable": true,
+          "hints": "Seleccione la rama lingüística a la que pertenece la lengua del recurso.",
+          "metadata": "dc.subject.linguisticBranch",
+          "controlledVocabulary": "linguisticBranchPairs",
+          "closed": true
+        },
+        {
+          "row": 21,
+          "fieldIndex": 0,
+          "metadataIndex": 0,
+          "label": "Variante lingüística (CLIN)",
+          "inputType": "onebox",
+          "mandatory": false,
+          "repeatable": true,
+          "hints": "Ingrese la variante lingüística (CLIN) del recurso.",
+          "metadata": "dc.subject.linguisticVariant",
+          "controlledVocabulary": null,
+          "closed": false
+        },
+        {
+          "row": 22,
+          "fieldIndex": 0,
+          "metadataIndex": 0,
+          "label": "Autodenominación",
+          "inputType": "dropdown",
+          "mandatory": false,
+          "repeatable": true,
+          "hints": "Seleccione la autodenominación de la lengua registrada en el recurso.",
+          "metadata": "dc.subject.selfDenomination",
+          "controlledVocabulary": "selfDenominationPairs",
+          "closed": true
+        },
+        {
+          "row": 23,
+          "fieldIndex": 0,
+          "metadataIndex": 0,
+          "label": "ISO 639-1",
+          "inputType": "dropdown",
+          "mandatory": false,
+          "repeatable": true,
+          "hints": "Seleccione el código ISO 639-1 de la lengua del recurso.",
+          "metadata": "dc.language.iso6391",
+          "controlledVocabulary": "iso6391Pairs",
+          "closed": true
+        },
+        {
+          "row": 24,
+          "fieldIndex": 0,
+          "metadataIndex": 0,
+          "label": "Soporte",
+          "inputType": "dropdown",
+          "mandatory": false,
+          "repeatable": false,
+          "hints": "Seleccione el soporte del recurso.",
+          "metadata": "dc.format.medium",
+          "controlledVocabulary": "mediumPairs",
+          "closed": true
+        },
+        {
+          "row": 25,
+          "fieldIndex": 0,
+          "metadataIndex": 0,
+          "label": "Tipo de extensión",
+          "inputType": "dropdown",
+          "mandatory": true,
+          "repeatable": false,
+          "hints": "Seleccione el tipo de soporte o formato físico.",
+          "metadata": "dc.format.medium",
+          "controlledVocabulary": "extentTypePairs",
+          "closed": true
+        },
+        {
+          "row": 26,
+          "fieldIndex": 0,
+          "metadataIndex": 0,
+          "label": "Número de páginas / extensión",
+          "inputType": "onebox",
+          "mandatory": true,
+          "repeatable": false,
+          "hints": "Escriba el número de páginas o cantidad física.",
+          "metadata": "dc.format.extent",
+          "controlledVocabulary": null,
+          "closed": false
+        },
+        {
+          "row": 27,
+          "fieldIndex": 0,
+          "metadataIndex": 0,
+          "label": "Derechos",
+          "inputType": "textarea",
+          "mandatory": false,
+          "repeatable": false,
+          "hints": "Ingrese los derechos del recurso. Ejemplos: \n                        \"D.R. 2010 Instituto de Biología, UNAM. Se autoriza la reproducción total o parcial siempre y cuando se cite la fuente completa y su dirección electrónica\"; \n                        \"cc_public_domain\"; \n                        \"cc_by_nc\"; \n                        \"Derechos reservados © El Colegio de México, A.C.\"; \n                        \"DERECHOS RESERVADOS © PROHIBIDA SU REPRODUCCIÓN TOTAL O PARCIAL.\"",
+          "metadata": "dc.rights",
+          "controlledVocabulary": null,
+          "closed": false
+        },
+        {
+          "row": 28,
+          "fieldIndex": 0,
+          "metadataIndex": 0,
+          "label": "Licencia de uso",
+          "inputType": "dropdown",
+          "mandatory": false,
+          "repeatable": false,
+          "hints": "Seleccione la licencia de uso del recurso.",
+          "metadata": "dc.rights.license",
+          "controlledVocabulary": "licensePairs",
+          "closed": true
+        },
+        {
+          "row": 29,
+          "fieldIndex": 0,
+          "metadataIndex": 0,
+          "label": "Derecho de acceso",
+          "inputType": "dropdown",
+          "mandatory": false,
+          "repeatable": false,
+          "hints": "Seleccione el derecho de acceso al recurso.",
+          "metadata": "dc.rights.accessRights",
+          "controlledVocabulary": "accessRightsPairs",
+          "closed": true
+        },
+        {
+          "row": 30,
+          "fieldIndex": 0,
+          "metadataIndex": 0,
+          "label": "Repositorio físico",
+          "inputType": "onebox",
+          "mandatory": false,
+          "repeatable": true,
+          "hints": "Ingrese el nombre del repositorio físico donde se encuentra el recurso.",
+          "metadata": "dc.source.physicalRepository",
+          "controlledVocabulary": null,
+          "closed": false
+        },
+        {
+          "row": 31,
+          "fieldIndex": 0,
+          "metadataIndex": 0,
+          "label": "Repositorio digital (URL)",
+          "inputType": "onebox",
+          "mandatory": false,
+          "repeatable": true,
+          "hints": "Ingrese la URL del repositorio digital donde se encuentra el recurso.",
+          "metadata": "dc.identifier.url",
+          "controlledVocabulary": null,
+          "closed": false
+        },
+        {
+          "row": 32,
+          "fieldIndex": 0,
+          "metadataIndex": 0,
+          "label": "Clasificación primaria",
+          "inputType": "dropdown",
+          "mandatory": false,
+          "repeatable": false,
+          "hints": "Seleccione la clasificación primaria del recurso.",
+          "metadata": "dc.subject.primaryClassification",
+          "controlledVocabulary": "primaryClassificationPairs",
+          "closed": true
+        }
+      ]
+    },
+    "traditionalpagetwo": {
+      "id": "traditionalpagetwo",
+      "name": "traditionalpagetwo",
+      "fields": [
+        {
+          "row": 0,
+          "fieldIndex": 0,
+          "metadataIndex": 0,
+          "label": "Palabras Clave",
+          "inputType": "tag",
+          "mandatory": false,
+          "repeatable": true,
+          "hints": "Proporciona Palabras Clave sobre el item.",
+          "metadata": "dc.subject",
+          "controlledVocabulary": "srsc",
+          "closed": false
+        },
+        {
+          "row": 1,
+          "fieldIndex": 0,
+          "metadataIndex": 0,
+          "label": "Abstract",
+          "inputType": "textarea",
+          "mandatory": false,
+          "repeatable": false,
+          "hints": "Enter the abstract of the item.",
+          "metadata": "dc.description.abstract",
+          "controlledVocabulary": null,
+          "closed": false
+        },
+        {
+          "row": 2,
+          "fieldIndex": 0,
+          "metadataIndex": 0,
+          "label": "Nivel educativo",
+          "inputType": "dropdown",
+          "mandatory": false,
+          "repeatable": true,
+          "hints": "Seleccione el nivel educativo al que va dirigido el recurso.",
+          "metadata": "dc.audience.educationLevel",
+          "controlledVocabulary": "educationLevelPairs",
+          "closed": true
+        },
+        {
+          "row": 3,
+          "fieldIndex": 0,
+          "metadataIndex": 0,
+          "label": "Para L1 o para L2",
+          "inputType": "dropdown",
+          "mandatory": false,
+          "repeatable": false,
+          "hints": "Seleccione si el recurso está dirigido a hablantes de lengua materna (L1) o segunda lengua (L2).",
+          "metadata": "dc.audience.languageTarget",
+          "controlledVocabulary": "languageTargetPairs",
+          "closed": true
+        },
+        {
+          "row": 4,
+          "fieldIndex": 0,
+          "metadataIndex": 0,
+          "label": "Tópicos (disciplinas, temas específicos)",
+          "inputType": "dropdown",
+          "mandatory": false,
+          "repeatable": true,
+          "hints": "Seleccione el tópico o disciplina del recurso.",
+          "metadata": "dc.subject",
+          "controlledVocabulary": "topicsPairs",
+          "closed": true
+        },
+        {
+          "row": 5,
+          "fieldIndex": 0,
+          "metadataIndex": 0,
+          "label": "País",
+          "inputType": "onebox",
+          "mandatory": false,
+          "repeatable": true,
+          "hints": "Ingrese el país de origen del recurso.",
+          "metadata": "dc.coverage.country",
+          "controlledVocabulary": null,
+          "closed": false
+        },
+        {
+          "row": 5,
+          "fieldIndex": 1,
+          "metadataIndex": 0,
+          "label": "Estado",
+          "inputType": "onebox",
+          "mandatory": false,
+          "repeatable": true,
+          "hints": "Ingrese el estado de origen del recurso.",
+          "metadata": "dc.coverage.state",
+          "controlledVocabulary": null,
+          "closed": false
+        },
+        {
+          "row": 5,
+          "fieldIndex": 2,
+          "metadataIndex": 0,
+          "label": "Región",
+          "inputType": "onebox",
+          "mandatory": false,
+          "repeatable": true,
+          "hints": "Ingrese la región de origen del recurso.",
+          "metadata": "dc.coverage.region",
+          "controlledVocabulary": null,
+          "closed": false
+        },
+        {
+          "row": 5,
+          "fieldIndex": 3,
+          "metadataIndex": 0,
+          "label": "Comunidad",
+          "inputType": "onebox",
+          "mandatory": false,
+          "repeatable": true,
+          "hints": "Ingrese la comunidad de origen del recurso.",
+          "metadata": "dc.coverage.community",
+          "controlledVocabulary": null,
+          "closed": false
+        },
+        {
+          "row": 6,
+          "fieldIndex": 0,
+          "metadataIndex": 0,
+          "label": "Temporal",
+          "inputType": "onebox",
+          "mandatory": false,
+          "repeatable": true,
+          "hints": "Ingrese el periodo temporal del recurso. Ejemplo: 1950-2000.",
+          "metadata": "dc.coverage.temporal",
+          "controlledVocabulary": null,
+          "closed": false
+        },
+        {
+          "row": 6,
+          "fieldIndex": 1,
+          "metadataIndex": 0,
+          "label": "Siglo",
+          "inputType": "onebox",
+          "mandatory": false,
+          "repeatable": true,
+          "hints": "Ingrese el siglo al que pertenece el recurso. Ejemplo: XIX, XX.",
+          "metadata": "dc.coverage.century",
+          "controlledVocabulary": null,
+          "closed": false
+        },
+        {
+          "row": 7,
+          "fieldIndex": 0,
+          "metadataIndex": 0,
+          "label": "Notas",
+          "inputType": "textarea",
+          "mandatory": false,
+          "repeatable": false,
+          "hints": "Coloque alguna nota sobre el documento.",
+          "metadata": "dc.description",
+          "controlledVocabulary": null,
+          "closed": false
+        }
+      ]
+    }
+  },
+  "fieldToVocabulary": {
+    "dc.type": [
+      "common_types"
+    ],
+    "dc.description.languageUsage": [
+      "languageUsagePairs"
+    ],
+    "dc.description.registeredLanguage": [
+      "registeredLanguagePairs"
+    ],
+    "dc.subject.linguiscgroup": [
+      "linguiscgroupPairs"
+    ],
+    "dc.subject.linguisticFamily": [
+      "linguisticFamilyPairs"
+    ],
+    "dc.subject.linguisticBranch": [
+      "linguisticBranchPairs"
+    ],
+    "dc.subject.selfDenomination": [
+      "selfDenominationPairs"
+    ],
+    "dc.language.iso6391": [
+      "iso6391Pairs"
+    ],
+    "dc.format.medium": [
+      "mediumPairs",
+      "extentTypePairs"
+    ],
+    "dc.rights.license": [
+      "licensePairs"
+    ],
+    "dc.rights.accessRights": [
+      "accessRightsPairs"
+    ],
+    "dc.subject.primaryClassification": [
+      "primaryClassificationPairs"
+    ],
+    "dc.subject": [
+      "srsc",
+      "topicsPairs"
+    ],
+    "dc.audience.educationLevel": [
+      "educationLevelPairs"
+    ],
+    "dc.audience.languageTarget": [
+      "languageTargetPairs"
+    ]
+  },
+  "metadataRegistryForTraditionalForms": {
+    "dc.audience.educationLevel": {
+      "id": 277,
+      "key": "dc.audience.educationLevel",
+      "element": "audience",
+      "qualifier": "educationLevel",
+      "scopeNote": "Nivel educativo al que va dirigido el recurso "
+    },
+    "dc.audience.languageTarget": {
+      "id": 278,
+      "key": "dc.audience.languageTarget",
+      "element": "audience",
+      "qualifier": "languageTarget",
+      "scopeNote": "Indica si el recurso esta dirigido a hablantes de L1 o L2"
+    },
+    "dc.contributor.author": {
+      "id": 10,
+      "key": "dc.contributor.author",
+      "element": "contributor",
+      "qualifier": "author",
+      "scopeNote": null
+    },
+    "dc.contributor.editor": {
+      "id": 11,
+      "key": "dc.contributor.editor",
+      "element": "contributor",
+      "qualifier": "editor",
+      "scopeNote": null
+    },
+    "dc.contributor.institution": {
+      "id": 270,
+      "key": "dc.contributor.institution",
+      "element": "contributor",
+      "qualifier": "institution",
+      "scopeNote": "descripción del campo, por ejemplo: “Institución a la que pertenece el autor”"
+    },
+    "dc.contributor.other": {
+      "id": 13,
+      "key": "dc.contributor.other",
+      "element": "contributor",
+      "qualifier": "other",
+      "scopeNote": null
+    },
+    "dc.contributor.translator": {
+      "id": 268,
+      "key": "dc.contributor.translator",
+      "element": "contributor",
+      "qualifier": "translator",
+      "scopeNote": "Traductor del recurso"
+    },
+    "dc.coverage.century": {
+      "id": 283,
+      "key": "dc.coverage.century",
+      "element": "coverage",
+      "qualifier": "century",
+      "scopeNote": "Siglo al que pertenece el recurso"
+    },
+    "dc.coverage.community": {
+      "id": 282,
+      "key": "dc.coverage.community",
+      "element": "coverage",
+      "qualifier": "community",
+      "scopeNote": "Comunidad de origen del recurso"
+    },
+    "dc.coverage.country": {
+      "id": 279,
+      "key": "dc.coverage.country",
+      "element": "coverage",
+      "qualifier": "country",
+      "scopeNote": "Pais de origen del recurso"
+    },
+    "dc.coverage.countryFound": {
+      "id": 290,
+      "key": "dc.coverage.countryFound",
+      "element": "coverage",
+      "qualifier": "countryFound",
+      "scopeNote": "Pais donde se encontro el recurso"
+    },
+    "dc.coverage.region": {
+      "id": 281,
+      "key": "dc.coverage.region",
+      "element": "coverage",
+      "qualifier": "region",
+      "scopeNote": "Region de origen del recurso"
+    },
+    "dc.coverage.state": {
+      "id": 280,
+      "key": "dc.coverage.state",
+      "element": "coverage",
+      "qualifier": "state",
+      "scopeNote": "Estado de origen del recurso"
+    },
+    "dc.coverage.temporal": {
+      "id": 15,
+      "key": "dc.coverage.temporal",
+      "element": "coverage",
+      "qualifier": "temporal",
+      "scopeNote": "Temporal characteristics of content."
+    },
+    "dc.date.issued": {
+      "id": 22,
+      "key": "dc.date.issued",
+      "element": "date",
+      "qualifier": "issued",
+      "scopeNote": "Date of publication or distribution."
+    },
+    "dc.description": {
+      "id": 35,
+      "key": "dc.description",
+      "element": "description",
+      "qualifier": null,
+      "scopeNote": "Catch-all for any description not defined by qualifiers."
+    },
+    "dc.description.abstract": {
+      "id": 36,
+      "key": "dc.description.abstract",
+      "element": "description",
+      "qualifier": "abstract",
+      "scopeNote": "Abstract or summary."
+    },
+    "dc.description.languageUsage": {
+      "id": 262,
+      "key": "dc.description.languageUsage",
+      "element": "description",
+      "qualifier": "languageUsage",
+      "scopeNote": "Uso linguistico del recurso: monolingue, bilingue o multilingue."
+    },
+    "dc.description.registeredLanguage": {
+      "id": 263,
+      "key": "dc.description.registeredLanguage",
+      "element": "description",
+      "qualifier": "registeredLanguage",
+      "scopeNote": "Lengua registrada en el recurso"
+    },
+    "dc.format.extent": {
+      "id": 43,
+      "key": "dc.format.extent",
+      "element": "format",
+      "qualifier": "extent",
+      "scopeNote": "Size or duration."
+    },
+    "dc.format.medium": {
+      "id": 44,
+      "key": "dc.format.medium",
+      "element": "format",
+      "qualifier": "medium",
+      "scopeNote": "Physical medium."
+    },
+    "dc.identifier.doi": {
+      "id": 32,
+      "key": "dc.identifier.doi",
+      "element": "identifier",
+      "qualifier": "doi",
+      "scopeNote": null
+    },
+    "dc.identifier.eisbn": {
+      "id": 286,
+      "key": "dc.identifier.eisbn",
+      "element": "identifier",
+      "qualifier": "eisbn",
+      "scopeNote": "Electronic ISBN"
+    },
+    "dc.identifier.eissn": {
+      "id": 285,
+      "key": "dc.identifier.eissn",
+      "element": "identifier",
+      "qualifier": "eissn",
+      "scopeNote": "Electronic ISSN"
+    },
+    "dc.identifier.govdoc": {
+      "id": 26,
+      "key": "dc.identifier.govdoc",
+      "element": "identifier",
+      "qualifier": "govdoc",
+      "scopeNote": "A government document number"
+    },
+    "dc.identifier.handle": {
+      "id": 288,
+      "key": "dc.identifier.handle",
+      "element": "identifier",
+      "qualifier": "handle",
+      "scopeNote": "Handle\n"
+    },
+    "dc.identifier.isbn": {
+      "id": 27,
+      "key": "dc.identifier.isbn",
+      "element": "identifier",
+      "qualifier": "isbn",
+      "scopeNote": "International Standard Book Number"
+    },
+    "dc.identifier.ismn": {
+      "id": 30,
+      "key": "dc.identifier.ismn",
+      "element": "identifier",
+      "qualifier": "ismn",
+      "scopeNote": "International Standard Music Number"
+    },
+    "dc.identifier.issn": {
+      "id": 28,
+      "key": "dc.identifier.issn",
+      "element": "identifier",
+      "qualifier": "issn",
+      "scopeNote": "International Standard Serial Number"
+    },
+    "dc.identifier.issue": {
+      "id": 269,
+      "key": "dc.identifier.issue",
+      "element": "identifier",
+      "qualifier": "issue",
+      "scopeNote": "Fixeale"
+    },
+    "dc.identifier.other": {
+      "id": 31,
+      "key": "dc.identifier.other",
+      "element": "identifier",
+      "qualifier": "other",
+      "scopeNote": "A known identifier type common to a local collection."
+    },
+    "dc.identifier.uri": {
+      "id": 34,
+      "key": "dc.identifier.uri",
+      "element": "identifier",
+      "qualifier": "uri",
+      "scopeNote": "Uniform Resource Identifier"
+    },
+    "dc.identifier.url": {
+      "id": 287,
+      "key": "dc.identifier.url",
+      "element": "identifier",
+      "qualifier": "url",
+      "scopeNote": "URL"
+    },
+    "dc.language.iso6391": {
+      "id": 273,
+      "key": "dc.language.iso6391",
+      "element": "language",
+      "qualifier": "iso6391",
+      "scopeNote": "Codigo ISO 639-1 de la lengua del recurso"
+    },
+    "dc.publisher": {
+      "id": 48,
+      "key": "dc.publisher",
+      "element": "publisher",
+      "qualifier": null,
+      "scopeNote": "Entity responsible for publication, distribution, or imprint."
+    },
+    "dc.relation.ispartof": {
+      "id": 51,
+      "key": "dc.relation.ispartof",
+      "element": "relation",
+      "qualifier": "ispartof",
+      "scopeNote": "References physically or logically containing item."
+    },
+    "dc.rights": {
+      "id": 62,
+      "key": "dc.rights",
+      "element": "rights",
+      "qualifier": null,
+      "scopeNote": "Terms governing use and reproduction."
+    },
+    "dc.rights.accessRights": {
+      "id": 274,
+      "key": "dc.rights.accessRights",
+      "element": "rights",
+      "qualifier": "accessRights",
+      "scopeNote": "Derecho de acceso al recurso"
+    },
+    "dc.rights.license": {
+      "id": 6,
+      "key": "dc.rights.license",
+      "element": "rights",
+      "qualifier": "license",
+      "scopeNote": null
+    },
+    "dc.source": {
+      "id": 64,
+      "key": "dc.source",
+      "element": "source",
+      "qualifier": null,
+      "scopeNote": "Do not use; only for harvested metadata."
+    },
+    "dc.source.booktitle": {
+      "id": 292,
+      "key": "dc.source.booktitle",
+      "element": "source",
+      "qualifier": "booktitle",
+      "scopeNote": "Titulo del libro del que forma parte el capitulo"
+    },
+    "dc.source.physicalRepository": {
+      "id": 275,
+      "key": "dc.source.physicalRepository",
+      "element": "source",
+      "qualifier": "physicalRepository",
+      "scopeNote": "Repositorio fisico donde se encuentra el recurso"
+    },
+    "dc.subject": {
+      "id": 66,
+      "key": "dc.subject",
+      "element": "subject",
+      "qualifier": null,
+      "scopeNote": "Uncontrolled index term."
+    },
+    "dc.subject.linguiscgroup": {
+      "id": 264,
+      "key": "dc.subject.linguiscgroup",
+      "element": "subject",
+      "qualifier": "linguiscgroup",
+      "scopeNote": "Agrupacion linguistica de la que trata el texto"
+    },
+    "dc.subject.linguisticBranch": {
+      "id": 266,
+      "key": "dc.subject.linguisticBranch",
+      "element": "subject",
+      "qualifier": "linguisticBranch",
+      "scopeNote": "Rama linguistica a la que pertenece la lengua del recurso"
+    },
+    "dc.subject.linguisticFamily": {
+      "id": 265,
+      "key": "dc.subject.linguisticFamily",
+      "element": "subject",
+      "qualifier": "linguisticFamily",
+      "scopeNote": "Familia linguistica a la que pertenece la lengua del recurso"
+    },
+    "dc.subject.linguisticVariant": {
+      "id": 267,
+      "key": "dc.subject.linguisticVariant",
+      "element": "subject",
+      "qualifier": "linguisticVariant",
+      "scopeNote": "Variante linguistica (CLIN) del recurso"
+    },
+    "dc.subject.primaryClassification": {
+      "id": 276,
+      "key": "dc.subject.primaryClassification",
+      "element": "subject",
+      "qualifier": "primaryClassification",
+      "scopeNote": "Clasificacion primaria del recurso"
+    },
+    "dc.subject.selfDenomination": {
+      "id": 272,
+      "key": "dc.subject.selfDenomination",
+      "element": "subject",
+      "qualifier": "selfDenomination",
+      "scopeNote": "Autodenominacion de la lengua registrada en el recurso"
+    },
+    "dc.title": {
+      "id": 73,
+      "key": "dc.title",
+      "element": "title",
+      "qualifier": null,
+      "scopeNote": "Title statement/title proper."
+    },
+    "dc.title.alternative": {
+      "id": 74,
+      "key": "dc.title.alternative",
+      "element": "title",
+      "qualifier": "alternative",
+      "scopeNote": "Varying (or substitute) form of title proper appearing in item,\n    e.g. abbreviation or translation"
+    },
+    "dc.title.subtitle": {
+      "id": 291,
+      "key": "dc.title.subtitle",
+      "element": "title",
+      "qualifier": "subtitle",
+      "scopeNote": "Subtitulo del recurso"
+    },
+    "dc.type": {
+      "id": 75,
+      "key": "dc.type",
+      "element": "type",
+      "qualifier": null,
+      "scopeNote": "Nature or genre of content."
+    },
+    "dcterms.provenance": {
+      "id": 115,
+      "key": "dcterms.provenance",
+      "element": "provenance",
+      "qualifier": null,
+      "scopeNote": "A statement of any changes in ownership and custody of the resource since its creation that are significant for its authenticity, integrity, and interpretation."
+    }
+  },
+  "vocabularies": {
+    "selfDenominationPairs": {
+      "id": "selfDenominationPairs",
+      "name": "selfDenominationPairs",
+      "entryCount": 20,
+      "entries": [
+        {
+          "display": "ñonmda",
+          "value": "ñonmda",
+          "otherInformation": {}
+        },
+        {
+          "display": "qa'yool",
+          "value": "qa'yool",
+          "otherInformation": {}
+        },
+        {
+          "display": "úza'",
+          "value": "úza'",
+          "otherInformation": {}
+        },
+        {
+          "display": "koti'",
+          "value": "koti'",
+          "otherInformation": {}
+        },
+        {
+          "display": "teenek",
+          "value": "teenek",
+          "otherInformation": {}
+        },
+        {
+          "display": "popti'-abxub'al",
+          "value": "popti'-abxub'al",
+          "otherInformation": {}
+        },
+        {
+          "display": "ta_yoi_mam",
+          "value": "ta_yoi_mam",
+          "otherInformation": {}
+        },
+        {
+          "display": "maayat'aan",
+          "value": "maayat'aan",
+          "otherInformation": {}
+        },
+        {
+          "display": "yoremnokki",
+          "value": "yoremnokki",
+          "otherInformation": {}
+        },
+        {
+          "display": "yaak_avu",
+          "value": "yaak_avu",
+          "otherInformation": {}
+        },
+        {
+          "display": "cmiique_litom",
+          "value": "cmiique_litom",
+          "otherInformation": {}
+        },
+        {
+          "display": "púrhepecha",
+          "value": "púrhepecha",
+          "otherInformation": {}
+        },
+        {
+          "display": "tektiteco",
+          "value": "tektiteco",
+          "otherInformation": {}
+        },
+        {
+          "display": "lhima'alh'ama'",
+          "value": "lhima'alh'ama'",
+          "otherInformation": {}
+        },
+        {
+          "display": "tohol-ab'al",
+          "value": "tohol-ab'al",
+          "otherInformation": {}
+        },
+        {
+          "display": "tutunakú",
+          "value": "tutunakú",
+          "otherInformation": {}
+        },
+        {
+          "display": "mé'phaa",
+          "value": "mé'phaa",
+          "otherInformation": {}
+        },
+        {
+          "display": "bats'il_k'op",
+          "value": "bats'il_k'op",
+          "otherInformation": {}
+        },
+        {
+          "display": "jiaj noki",
+          "value": "jiaj noki",
+          "otherInformation": {}
+        },
+        {
+          "display": "otetzane",
+          "value": "otetzane",
+          "otherInformation": {}
+        }
+      ],
+      "duplicateValues": [],
+      "pagesFetched": [
+        {
+          "status": 200,
+          "url": "http://132.248.101.240:8080/server/api/submission/vocabularies/selfDenominationPairs/entries?size=1000"
+        }
+      ]
+    },
+    "linguisticFamilyPairs": {
+      "id": "linguisticFamilyPairs",
+      "name": "linguisticFamilyPairs",
+      "entryCount": 39,
+      "entries": [
+        {
+          "display": "Indoeuropeo",
+          "value": "Indoeuropeo",
+          "otherInformation": {}
+        },
+        {
+          "display": "Maya",
+          "value": "Maya",
+          "otherInformation": {}
+        },
+        {
+          "display": "Oto-mangue",
+          "value": "Oto-mangue",
+          "otherInformation": {}
+        },
+        {
+          "display": "Mixe-zoque",
+          "value": "Mixe-zoque",
+          "otherInformation": {}
+        },
+        {
+          "display": "Yuto-nahua",
+          "value": "Yuto-nahua",
+          "otherInformation": {}
+        },
+        {
+          "display": "Cochimí-yumana",
+          "value": "Cochimí-yumana",
+          "otherInformation": {}
+        },
+        {
+          "display": "Chontal de Oaxaca",
+          "value": "Chontal de Oaxaca",
+          "otherInformation": {}
+        },
+        {
+          "display": "Huave",
+          "value": "Huave",
+          "otherInformation": {}
+        },
+        {
+          "display": "Álgica",
+          "value": "Álgica",
+          "otherInformation": {}
+        },
+        {
+          "display": "Seri",
+          "value": "Seri",
+          "otherInformation": {}
+        },
+        {
+          "display": "Tarasca",
+          "value": "Tarasca",
+          "otherInformation": {}
+        },
+        {
+          "display": "Totonaco-tepehua",
+          "value": "Totonaco-tepehua",
+          "otherInformation": {}
+        },
+        {
+          "display": "Afroasiática",
+          "value": "Afroasiática",
+          "otherInformation": {}
+        },
+        {
+          "display": "caucásica",
+          "value": "caucásica",
+          "otherInformation": {}
+        },
+        {
+          "display": "Indoeuropeo",
+          "value": "Indoeuropeo",
+          "otherInformation": {}
+        },
+        {
+          "display": "Niger-congo",
+          "value": "Niger-congo",
+          "otherInformation": {}
+        },
+        {
+          "display": "Caucásica nororiental",
+          "value": "Caucásica nororiental",
+          "otherInformation": {}
+        },
+        {
+          "display": "Aimárica",
+          "value": "Aimárica",
+          "otherInformation": {}
+        },
+        {
+          "display": "Túrquica",
+          "value": "Túrquica",
+          "otherInformation": {}
+        },
+        {
+          "display": "Criolla",
+          "value": "Criolla",
+          "otherInformation": {}
+        },
+        {
+          "display": "Sino-tibetana",
+          "value": "Sino-tibetana",
+          "otherInformation": {}
+        },
+        {
+          "display": "Austronesia",
+          "value": "Austronesia",
+          "otherInformation": {}
+        },
+        {
+          "display": "Álgica",
+          "value": "Álgica",
+          "otherInformation": {}
+        },
+        {
+          "display": "Lengua construida",
+          "value": "Lengua construida",
+          "otherInformation": {}
+        },
+        {
+          "display": "Urálica",
+          "value": "Urálica",
+          "otherInformation": {}
+        },
+        {
+          "display": "Aislada",
+          "value": "Aislada",
+          "otherInformation": {}
+        },
+        {
+          "display": "Tupí",
+          "value": "Tupí",
+          "otherInformation": {}
+        },
+        {
+          "display": "Esquimo-aleutiana",
+          "value": "Esquimo-aleutiana",
+          "otherInformation": {}
+        },
+        {
+          "display": "Japonica",
+          "value": "Japonica",
+          "otherInformation": {}
+        },
+        {
+          "display": "Kartveliana",
+          "value": "Kartveliana",
+          "otherInformation": {}
+        },
+        {
+          "display": "Austroasiática",
+          "value": "Austroasiática",
+          "otherInformation": {}
+        },
+        {
+          "display": "Dravídica",
+          "value": "Dravídica",
+          "otherInformation": {}
+        },
+        {
+          "display": "Coreánica",
+          "value": "Coreánica",
+          "otherInformation": {}
+        },
+        {
+          "display": "Sahariana",
+          "value": "Sahariana",
+          "otherInformation": {}
+        },
+        {
+          "display": "Kra-dai",
+          "value": "Kra-dai",
+          "otherInformation": {}
+        },
+        {
+          "display": "Mongólica",
+          "value": "Mongólica",
+          "otherInformation": {}
+        },
+        {
+          "display": "Na-dené",
+          "value": "Na-dené",
+          "otherInformation": {}
+        },
+        {
+          "display": "Quechua",
+          "value": "Quechua",
+          "otherInformation": {}
+        },
+        {
+          "display": "Ubanguiana",
+          "value": "Ubanguiana",
+          "otherInformation": {}
+        }
+      ],
+      "duplicateValues": [
+        "Indoeuropeo",
+        "Álgica"
+      ],
+      "pagesFetched": [
+        {
+          "status": 200,
+          "url": "http://132.248.101.240:8080/server/api/submission/vocabularies/linguisticFamilyPairs/entries?size=1000"
+        }
+      ]
+    },
+    "educationLevelPairs": {
+      "id": "educationLevelPairs",
+      "name": "educationLevelPairs",
+      "entryCount": 6,
+      "entries": [
+        {
+          "display": "Preescolar (Básica)",
+          "value": "Preescolar",
+          "otherInformation": {}
+        },
+        {
+          "display": "Primaria (Básica)",
+          "value": "Primaria",
+          "otherInformation": {}
+        },
+        {
+          "display": "Secundaria (Media superior)",
+          "value": "Secundaria",
+          "otherInformation": {}
+        },
+        {
+          "display": "Preparatoria (Media superior)",
+          "value": "Preparatoria",
+          "otherInformation": {}
+        },
+        {
+          "display": "Universidad (Superior)",
+          "value": "Universidad",
+          "otherInformation": {}
+        },
+        {
+          "display": "Postgrado (Superior)",
+          "value": "Postgrado",
+          "otherInformation": {}
+        }
+      ],
+      "duplicateValues": [],
+      "pagesFetched": [
+        {
+          "status": 200,
+          "url": "http://132.248.101.240:8080/server/api/submission/vocabularies/educationLevelPairs/entries?size=1000"
+        }
+      ]
+    },
+    "linguisticBranchPairs": {
+      "id": "linguisticBranchPairs",
+      "name": "linguisticBranchPairs",
+      "entryCount": 82,
+      "entries": [
+        {
+          "display": "Romance",
+          "value": "Romance",
+          "otherInformation": {}
+        },
+        {
+          "display": "Germánico",
+          "value": "Germánico",
+          "otherInformation": {}
+        },
+        {
+          "display": "Q'anjob'alano",
+          "value": "Q'anjob'alano",
+          "otherInformation": {}
+        },
+        {
+          "display": "Amuzgo-mixtecano",
+          "value": "Amuzgo-mixtecano",
+          "otherInformation": {}
+        },
+        {
+          "display": "Aguacateco-ixil",
+          "value": "Aguacateco-ixil",
+          "otherInformation": {}
+        },
+        {
+          "display": "Zoqueano del golfo",
+          "value": "Zoqueano del golfo",
+          "otherInformation": {}
+        },
+        {
+          "display": "Cora-huichol",
+          "value": "Cora-huichol",
+          "otherInformation": {}
+        },
+        {
+          "display": "Delta-California",
+          "value": "Delta-California",
+          "otherInformation": {}
+        },
+        {
+          "display": "Mixtecano",
+          "value": "Mixtecano",
+          "otherInformation": {}
+        },
+        {
+          "display": "Zapotecano",
+          "value": "Zapotecano",
+          "otherInformation": {}
+        },
+        {
+          "display": "Otopame",
+          "value": "Otopame",
+          "otherInformation": {}
+        },
+        {
+          "display": "Chinantecano",
+          "value": "Chinantecano",
+          "otherInformation": {}
+        },
+        {
+          "display": "Popolocano",
+          "value": "Popolocano",
+          "otherInformation": {}
+        },
+        {
+          "display": "Lengua aislada",
+          "value": "Lengua aislada",
+          "otherInformation": {}
+        },
+        {
+          "display": "Cholano",
+          "value": "Cholano",
+          "otherInformation": {}
+        },
+        {
+          "display": "Taracahita",
+          "value": "Taracahita",
+          "otherInformation": {}
+        },
+        {
+          "display": "Kaqchikel-tz'utuhil",
+          "value": "Kaqchikel-tz'utuhil",
+          "otherInformation": {}
+        },
+        {
+          "display": "Algonquino-fox",
+          "value": "Algonquino-fox",
+          "otherInformation": {}
+        },
+        {
+          "display": "Yumano",
+          "value": "Yumano",
+          "otherInformation": {}
+        },
+        {
+          "display": "Pai-yumano del norte",
+          "value": "Pai-yumano del norte",
+          "otherInformation": {}
+        },
+        {
+          "display": "K'ichiano",
+          "value": "K'ichiano",
+          "otherInformation": {}
+        },
+        {
+          "display": "Yucateco-lacandón",
+          "value": "Yucateco-lacandón",
+          "otherInformation": {}
+        },
+        {
+          "display": "Teko-mam",
+          "value": "Teko-mam",
+          "otherInformation": {}
+        },
+        {
+          "display": "Cahita",
+          "value": "Cahita",
+          "otherInformation": {}
+        },
+        {
+          "display": "Mixeano",
+          "value": "Mixeano",
+          "otherInformation": {}
+        },
+        {
+          "display": "Nahuatlano",
+          "value": "Nahuatlano",
+          "otherInformation": {}
+        },
+        {
+          "display": "Tepimano",
+          "value": "Tepimano",
+          "otherInformation": {}
+        },
+        {
+          "display": "Tepehua",
+          "value": "Tepehua",
+          "otherInformation": {}
+        },
+        {
+          "display": "Totonaco",
+          "value": "Totonaco",
+          "otherInformation": {}
+        },
+        {
+          "display": "Tlapaneco-subtiaba",
+          "value": "Tlapaneco-subtiaba",
+          "otherInformation": {}
+        },
+        {
+          "display": "Tseltalano",
+          "value": "Tseltalano",
+          "otherInformation": {}
+        },
+        {
+          "display": "Zoquenano",
+          "value": "Zoquenano",
+          "otherInformation": {}
+        },
+        {
+          "display": "cushítica",
+          "value": "cushítica",
+          "otherInformation": {}
+        },
+        {
+          "display": "abjasio-abaza",
+          "value": "abjasio-abaza",
+          "otherInformation": {}
+        },
+        {
+          "display": "indoirania",
+          "value": "indoirania",
+          "otherInformation": {}
+        },
+        {
+          "display": "germánica",
+          "value": "germánica",
+          "otherInformation": {}
+        },
+        {
+          "display": "kwa",
+          "value": "kwa",
+          "otherInformation": {}
+        },
+        {
+          "display": "semítica",
+          "value": "semítica",
+          "otherInformation": {}
+        },
+        {
+          "display": "itálica (romance)",
+          "value": "itálica (romance)",
+          "otherInformation": {}
+        },
+        {
+          "display": "ávaro-andina",
+          "value": "ávaro-andina",
+          "otherInformation": {}
+        },
+        {
+          "display": "aimara",
+          "value": "aimara",
+          "otherInformation": {}
+        },
+        {
+          "display": "oghuz",
+          "value": "oghuz",
+          "otherInformation": {}
+        },
+        {
+          "display": "kipchak",
+          "value": "kipchak",
+          "otherInformation": {}
+        },
+        {
+          "display": "eslava",
+          "value": "eslava",
+          "otherInformation": {}
+        },
+        {
+          "display": "criollo de base inglesa",
+          "value": "criollo de base inglesa",
+          "otherInformation": {}
+        },
+        {
+          "display": "mandé",
+          "value": "mandé",
+          "otherInformation": {}
+        },
+        {
+          "display": "tibeto-birmana",
+          "value": "tibeto-birmana",
+          "otherInformation": {}
+        },
+        {
+          "display": "celta",
+          "value": "celta",
+          "otherInformation": {}
+        },
+        {
+          "display": "naj",
+          "value": "naj",
+          "otherInformation": {}
+        },
+        {
+          "display": "malayo-polinesia",
+          "value": "malayo-polinesia",
+          "otherInformation": {}
+        },
+        {
+          "display": "algonquina",
+          "value": "algonquina",
+          "otherInformation": {}
+        },
+        {
+          "display": "ogur",
+          "value": "ogur",
+          "otherInformation": {}
+        },
+        {
+          "display": "helénica",
+          "value": "helénica",
+          "otherInformation": {}
+        },
+        {
+          "display": "auxiliar internacional",
+          "value": "auxiliar internacional",
+          "otherInformation": {}
+        },
+        {
+          "display": "fino-ugria",
+          "value": "fino-ugria",
+          "otherInformation": {}
+        },
+        {
+          "display": "vasca",
+          "value": "vasca",
+          "otherInformation": {}
+        },
+        {
+          "display": "atlántica",
+          "value": "atlántica",
+          "otherInformation": {}
+        },
+        {
+          "display": "tupí-guaraní",
+          "value": "tupí-guaraní",
+          "otherInformation": {}
+        },
+        {
+          "display": "chádica",
+          "value": "chádica",
+          "otherInformation": {}
+        },
+        {
+          "display": "oceánica",
+          "value": "oceánica",
+          "otherInformation": {}
+        },
+        {
+          "display": "criollo de base francesa",
+          "value": "criollo de base francesa",
+          "otherInformation": {}
+        },
+        {
+          "display": "ugria",
+          "value": "ugria",
+          "otherInformation": {}
+        },
+        {
+          "display": "armenia",
+          "value": "armenia",
+          "otherInformation": {}
+        },
+        {
+          "display": "bantú",
+          "value": "bantú",
+          "otherInformation": {}
+        },
+        {
+          "display": "volta-níger",
+          "value": "volta-níger",
+          "otherInformation": {}
+        },
+        {
+          "display": "esquimal",
+          "value": "esquimal",
+          "otherInformation": {}
+        },
+        {
+          "display": "japonesa",
+          "value": "japonesa",
+          "otherInformation": {}
+        },
+        {
+          "display": "georgiana",
+          "value": "georgiana",
+          "otherInformation": {}
+        },
+        {
+          "display": "mon-jemer",
+          "value": "mon-jemer",
+          "otherInformation": {}
+        },
+        {
+          "display": "dravídica meridional",
+          "value": "dravídica meridional",
+          "otherInformation": {}
+        },
+        {
+          "display": "coreana",
+          "value": "coreana",
+          "otherInformation": {}
+        },
+        {
+          "display": "sahariana occidental",
+          "value": "sahariana occidental",
+          "otherInformation": {}
+        },
+        {
+          "display": "itálica",
+          "value": "itálica",
+          "otherInformation": {}
+        },
+        {
+          "display": "tai",
+          "value": "tai",
+          "otherInformation": {}
+        },
+        {
+          "display": "báltica",
+          "value": "báltica",
+          "otherInformation": {}
+        },
+        {
+          "display": "mongólica",
+          "value": "mongólica",
+          "otherInformation": {}
+        },
+        {
+          "display": "atabascana",
+          "value": "atabascana",
+          "otherInformation": {}
+        },
+        {
+          "display": "quechua",
+          "value": "quechua",
+          "otherInformation": {}
+        },
+        {
+          "display": "ubanguiana",
+          "value": "ubanguiana",
+          "otherInformation": {}
+        },
+        {
+          "display": "albanesa",
+          "value": "albanesa",
+          "otherInformation": {}
+        },
+        {
+          "display": "karluk",
+          "value": "karluk",
+          "otherInformation": {}
+        },
+        {
+          "display": "sínica",
+          "value": "sínica",
+          "otherInformation": {}
+        }
+      ],
+      "duplicateValues": [],
+      "pagesFetched": [
+        {
+          "status": 200,
+          "url": "http://132.248.101.240:8080/server/api/submission/vocabularies/linguisticBranchPairs/entries?size=1000"
+        }
+      ]
+    },
+    "extentTypePairs": {
+      "id": "extentTypePairs",
+      "name": "extentTypePairs",
+      "entryCount": 7,
+      "entries": [
+        {
+          "display": "Impreso (páginas)",
+          "value": "Impreso",
+          "otherInformation": {}
+        },
+        {
+          "display": "Impreso (hojas)",
+          "value": "Impreso hojas",
+          "otherInformation": {}
+        },
+        {
+          "display": "Digital (páginas)",
+          "value": "Digital",
+          "otherInformation": {}
+        },
+        {
+          "display": "Digital (hojas)",
+          "value": "Digital hojas",
+          "otherInformation": {}
+        },
+        {
+          "display": "Fotografía",
+          "value": "Fotografía",
+          "otherInformation": {}
+        },
+        {
+          "display": "Libro",
+          "value": "Libro",
+          "otherInformation": {}
+        },
+        {
+          "display": "Dirección electrónica",
+          "value": "Dirección electrónica",
+          "otherInformation": {}
+        }
+      ],
+      "duplicateValues": [],
+      "pagesFetched": [
+        {
+          "status": 200,
+          "url": "http://132.248.101.240:8080/server/api/submission/vocabularies/extentTypePairs/entries?size=1000"
+        }
+      ]
+    },
+    "languageUsagePairs": {
+      "id": "languageUsagePairs",
+      "name": "languageUsagePairs",
+      "entryCount": 3,
+      "entries": [
+        {
+          "display": "Monolingüe",
+          "value": "Monolingüe",
+          "otherInformation": {}
+        },
+        {
+          "display": "Bilingüe",
+          "value": "Bilingüe",
+          "otherInformation": {}
+        },
+        {
+          "display": "Multilingüe",
+          "value": "Multilingüe",
+          "otherInformation": {}
+        }
+      ],
+      "duplicateValues": [],
+      "pagesFetched": [
+        {
+          "status": 200,
+          "url": "http://132.248.101.240:8080/server/api/submission/vocabularies/languageUsagePairs/entries?size=1000"
+        }
+      ]
+    },
+    "common_types": {
+      "id": "common_types",
+      "name": "common_types",
+      "entryCount": 23,
+      "entries": [
+        {
+          "display": "Animation",
+          "value": "Animation",
+          "otherInformation": {}
+        },
+        {
+          "display": "Article",
+          "value": "Article",
+          "otherInformation": {}
+        },
+        {
+          "display": "Book",
+          "value": "Book",
+          "otherInformation": {}
+        },
+        {
+          "display": "Book chapter",
+          "value": "Book chapter",
+          "otherInformation": {}
+        },
+        {
+          "display": "Dataset",
+          "value": "Dataset",
+          "otherInformation": {}
+        },
+        {
+          "display": "Learning Object",
+          "value": "Learning Object",
+          "otherInformation": {}
+        },
+        {
+          "display": "Image",
+          "value": "Image",
+          "otherInformation": {}
+        },
+        {
+          "display": "Image, 3-D",
+          "value": "Image, 3-D",
+          "otherInformation": {}
+        },
+        {
+          "display": "Map",
+          "value": "Map",
+          "otherInformation": {}
+        },
+        {
+          "display": "Musical Score",
+          "value": "Musical Score",
+          "otherInformation": {}
+        },
+        {
+          "display": "Plan or blueprint",
+          "value": "Plan or blueprint",
+          "otherInformation": {}
+        },
+        {
+          "display": "Preprint",
+          "value": "Preprint",
+          "otherInformation": {}
+        },
+        {
+          "display": "Presentation",
+          "value": "Presentation",
+          "otherInformation": {}
+        },
+        {
+          "display": "Recording, acoustical",
+          "value": "Recording, acoustical",
+          "otherInformation": {}
+        },
+        {
+          "display": "Recording, musical",
+          "value": "Recording, musical",
+          "otherInformation": {}
+        },
+        {
+          "display": "Recording, oral",
+          "value": "Recording, oral",
+          "otherInformation": {}
+        },
+        {
+          "display": "Software",
+          "value": "Software",
+          "otherInformation": {}
+        },
+        {
+          "display": "Technical Report",
+          "value": "Technical Report",
+          "otherInformation": {}
+        },
+        {
+          "display": "Thesis",
+          "value": "Thesis",
+          "otherInformation": {}
+        },
+        {
+          "display": "Video",
+          "value": "Video",
+          "otherInformation": {}
+        },
+        {
+          "display": "Working Paper",
+          "value": "Working Paper",
+          "otherInformation": {}
+        },
+        {
+          "display": "Other",
+          "value": "Other",
+          "otherInformation": {}
+        },
+        {
+          "display": "Pagina Web",
+          "value": "Pagina Web",
+          "otherInformation": {}
+        }
+      ],
+      "duplicateValues": [],
+      "pagesFetched": [
+        {
+          "status": 200,
+          "url": "http://132.248.101.240:8080/server/api/submission/vocabularies/common_types/entries?size=1000"
+        }
+      ]
+    },
+    "accessRightsPairs": {
+      "id": "accessRightsPairs",
+      "name": "accessRightsPairs",
+      "entryCount": 4,
+      "entries": [
+        {
+          "display": "Acceso abierto",
+          "value": "Acceso abierto",
+          "otherInformation": {}
+        },
+        {
+          "display": "Acceso embargado",
+          "value": "Acceso embargado",
+          "otherInformation": {}
+        },
+        {
+          "display": "Acceso restringido",
+          "value": "Acceso restringido",
+          "otherInformation": {}
+        },
+        {
+          "display": "Acceso a registro bibliográfico",
+          "value": "Acceso a registro bibliográfico",
+          "otherInformation": {}
+        }
+      ],
+      "duplicateValues": [],
+      "pagesFetched": [
+        {
+          "status": 200,
+          "url": "http://132.248.101.240:8080/server/api/submission/vocabularies/accessRightsPairs/entries?size=1000"
+        }
+      ]
+    },
+    "iso6391Pairs": {
+      "id": "iso6391Pairs",
+      "name": "iso6391Pairs",
+      "entryCount": 253,
+      "entries": [
+        {
+          "display": "spa",
+          "value": "spa",
+          "otherInformation": {}
+        },
+        {
+          "display": "eng",
+          "value": "eng",
+          "otherInformation": {}
+        },
+        {
+          "display": "knj",
+          "value": "knj",
+          "otherInformation": {}
+        },
+        {
+          "display": "amu",
+          "value": "amu",
+          "otherInformation": {}
+        },
+        {
+          "display": "agu",
+          "value": "agu",
+          "otherInformation": {}
+        },
+        {
+          "display": "ayo",
+          "value": "ayo",
+          "otherInformation": {}
+        },
+        {
+          "display": "crn",
+          "value": "crn",
+          "otherInformation": {}
+        },
+        {
+          "display": "cuc",
+          "value": "cuc",
+          "otherInformation": {}
+        },
+        {
+          "display": "cut",
+          "value": "cut",
+          "otherInformation": {}
+        },
+        {
+          "display": "ctp",
+          "value": "ctp",
+          "otherInformation": {}
+        },
+        {
+          "display": "pei",
+          "value": "pei",
+          "otherInformation": {}
+        },
+        {
+          "display": "chj",
+          "value": "chj",
+          "otherInformation": {}
+        },
+        {
+          "display": "coz",
+          "value": "coz",
+          "otherInformation": {}
+        },
+        {
+          "display": "chd",
+          "value": "chd",
+          "otherInformation": {}
+        },
+        {
+          "display": "chf",
+          "value": "chf",
+          "otherInformation": {}
+        },
+        {
+          "display": "cac",
+          "value": "cac",
+          "otherInformation": {}
+        },
+        {
+          "display": "ctu",
+          "value": "ctu",
+          "otherInformation": {}
+        },
+        {
+          "display": "var",
+          "value": "var",
+          "otherInformation": {}
+        },
+        {
+          "display": "hus",
+          "value": "hus",
+          "otherInformation": {}
+        },
+        {
+          "display": "huv",
+          "value": "huv",
+          "otherInformation": {}
+        },
+        {
+          "display": "hch",
+          "value": "hch",
+          "otherInformation": {}
+        },
+        {
+          "display": "ixc",
+          "value": "ixc",
+          "otherInformation": {}
+        },
+        {
+          "display": "ixl",
+          "value": "ixl",
+          "otherInformation": {}
+        },
+        {
+          "display": "jac",
+          "value": "jac",
+          "otherInformation": {}
+        },
+        {
+          "display": "cak",
+          "value": "cak",
+          "otherInformation": {}
+        },
+        {
+          "display": "kic",
+          "value": "kic",
+          "otherInformation": {}
+        },
+        {
+          "display": "klb",
+          "value": "klb",
+          "otherInformation": {}
+        },
+        {
+          "display": "dih",
+          "value": "dih",
+          "otherInformation": {}
+        },
+        {
+          "display": "yku",
+          "value": "yku",
+          "otherInformation": {}
+        },
+        {
+          "display": "quc",
+          "value": "quc",
+          "otherInformation": {}
+        },
+        {
+          "display": "lac",
+          "value": "lac",
+          "otherInformation": {}
+        },
+        {
+          "display": "mam",
+          "value": "mam",
+          "otherInformation": {}
+        },
+        {
+          "display": "mat",
+          "value": "mat",
+          "otherInformation": {}
+        },
+        {
+          "display": "yua",
+          "value": "yua",
+          "otherInformation": {}
+        },
+        {
+          "display": "mfy",
+          "value": "mfy",
+          "otherInformation": {}
+        },
+        {
+          "display": "maz",
+          "value": "maz",
+          "otherInformation": {}
+        },
+        {
+          "display": "maq",
+          "value": "maq",
+          "otherInformation": {}
+        },
+        {
+          "display": "mco",
+          "value": "mco",
+          "otherInformation": {}
+        },
+        {
+          "display": "mix",
+          "value": "mix",
+          "otherInformation": {}
+        },
+        {
+          "display": "nah",
+          "value": "nah",
+          "otherInformation": {}
+        },
+        {
+          "display": "plo",
+          "value": "plo",
+          "otherInformation": {}
+        },
+        {
+          "display": "ote",
+          "value": "ote",
+          "otherInformation": {}
+        },
+        {
+          "display": "ppi",
+          "value": "ppi",
+          "otherInformation": {}
+        },
+        {
+          "display": "pbs",
+          "value": "pbs",
+          "otherInformation": {}
+        },
+        {
+          "display": "ood",
+          "value": "ood",
+          "otherInformation": {}
+        },
+        {
+          "display": "pls",
+          "value": "pls",
+          "otherInformation": {}
+        },
+        {
+          "display": "poi",
+          "value": "poi",
+          "otherInformation": {}
+        },
+        {
+          "display": "ckt",
+          "value": "ckt",
+          "otherInformation": {}
+        },
+        {
+          "display": "kjb",
+          "value": "kjb",
+          "otherInformation": {}
+        },
+        {
+          "display": "kek",
+          "value": "kek",
+          "otherInformation": {}
+        },
+        {
+          "display": "pos",
+          "value": "pos",
+          "otherInformation": {}
+        },
+        {
+          "display": "sei",
+          "value": "sei",
+          "otherInformation": {}
+        },
+        {
+          "display": "tar",
+          "value": "tar",
+          "otherInformation": {}
+        },
+        {
+          "display": "tsz",
+          "value": "tsz",
+          "otherInformation": {}
+        },
+        {
+          "display": "ttc",
+          "value": "ttc",
+          "otherInformation": {}
+        },
+        {
+          "display": "tpt",
+          "value": "tpt",
+          "otherInformation": {}
+        },
+        {
+          "display": "thn",
+          "value": "thn",
+          "otherInformation": {}
+        },
+        {
+          "display": "stp",
+          "value": "stp",
+          "otherInformation": {}
+        },
+        {
+          "display": "poq",
+          "value": "poq",
+          "otherInformation": {}
+        },
+        {
+          "display": "toj",
+          "value": "toj",
+          "otherInformation": {}
+        },
+        {
+          "display": "top",
+          "value": "top",
+          "otherInformation": {}
+        },
+        {
+          "display": "trs",
+          "value": "trs",
+          "otherInformation": {}
+        },
+        {
+          "display": "otm",
+          "value": "otm",
+          "otherInformation": {}
+        },
+        {
+          "display": "tcf",
+          "value": "tcf",
+          "otherInformation": {}
+        },
+        {
+          "display": "tzc",
+          "value": "tzc",
+          "otherInformation": {}
+        },
+        {
+          "display": "tzo",
+          "value": "tzo",
+          "otherInformation": {}
+        },
+        {
+          "display": "yaq",
+          "value": "yaq",
+          "otherInformation": {}
+        },
+        {
+          "display": "zap",
+          "value": "zap",
+          "otherInformation": {}
+        },
+        {
+          "display": "zoc",
+          "value": "zoc",
+          "otherInformation": {}
+        },
+        {
+          "display": "aa",
+          "value": "aa",
+          "otherInformation": {}
+        },
+        {
+          "display": "ab",
+          "value": "ab",
+          "otherInformation": {}
+        },
+        {
+          "display": "ae",
+          "value": "ae",
+          "otherInformation": {}
+        },
+        {
+          "display": "af",
+          "value": "af",
+          "otherInformation": {}
+        },
+        {
+          "display": "ak",
+          "value": "ak",
+          "otherInformation": {}
+        },
+        {
+          "display": "am",
+          "value": "am",
+          "otherInformation": {}
+        },
+        {
+          "display": "an",
+          "value": "an",
+          "otherInformation": {}
+        },
+        {
+          "display": "ar",
+          "value": "ar",
+          "otherInformation": {}
+        },
+        {
+          "display": "as",
+          "value": "as",
+          "otherInformation": {}
+        },
+        {
+          "display": "av",
+          "value": "av",
+          "otherInformation": {}
+        },
+        {
+          "display": "ay",
+          "value": "ay",
+          "otherInformation": {}
+        },
+        {
+          "display": "az",
+          "value": "az",
+          "otherInformation": {}
+        },
+        {
+          "display": "ba",
+          "value": "ba",
+          "otherInformation": {}
+        },
+        {
+          "display": "be",
+          "value": "be",
+          "otherInformation": {}
+        },
+        {
+          "display": "bg",
+          "value": "bg",
+          "otherInformation": {}
+        },
+        {
+          "display": "bh",
+          "value": "bh",
+          "otherInformation": {}
+        },
+        {
+          "display": "bi",
+          "value": "bi",
+          "otherInformation": {}
+        },
+        {
+          "display": "bm",
+          "value": "bm",
+          "otherInformation": {}
+        },
+        {
+          "display": "bn",
+          "value": "bn",
+          "otherInformation": {}
+        },
+        {
+          "display": "bo",
+          "value": "bo",
+          "otherInformation": {}
+        },
+        {
+          "display": "br",
+          "value": "br",
+          "otherInformation": {}
+        },
+        {
+          "display": "bs",
+          "value": "bs",
+          "otherInformation": {}
+        },
+        {
+          "display": "ca",
+          "value": "ca",
+          "otherInformation": {}
+        },
+        {
+          "display": "ce",
+          "value": "ce",
+          "otherInformation": {}
+        },
+        {
+          "display": "ch",
+          "value": "ch",
+          "otherInformation": {}
+        },
+        {
+          "display": "co",
+          "value": "co",
+          "otherInformation": {}
+        },
+        {
+          "display": "cr",
+          "value": "cr",
+          "otherInformation": {}
+        },
+        {
+          "display": "cs",
+          "value": "cs",
+          "otherInformation": {}
+        },
+        {
+          "display": "cu",
+          "value": "cu",
+          "otherInformation": {}
+        },
+        {
+          "display": "cv",
+          "value": "cv",
+          "otherInformation": {}
+        },
+        {
+          "display": "cy",
+          "value": "cy",
+          "otherInformation": {}
+        },
+        {
+          "display": "da",
+          "value": "da",
+          "otherInformation": {}
+        },
+        {
+          "display": "de",
+          "value": "de",
+          "otherInformation": {}
+        },
+        {
+          "display": "dv",
+          "value": "dv",
+          "otherInformation": {}
+        },
+        {
+          "display": "dz",
+          "value": "dz",
+          "otherInformation": {}
+        },
+        {
+          "display": "ee",
+          "value": "ee",
+          "otherInformation": {}
+        },
+        {
+          "display": "el",
+          "value": "el",
+          "otherInformation": {}
+        },
+        {
+          "display": "en",
+          "value": "en",
+          "otherInformation": {}
+        },
+        {
+          "display": "eo",
+          "value": "eo",
+          "otherInformation": {}
+        },
+        {
+          "display": "es",
+          "value": "es",
+          "otherInformation": {}
+        },
+        {
+          "display": "et",
+          "value": "et",
+          "otherInformation": {}
+        },
+        {
+          "display": "eu",
+          "value": "eu",
+          "otherInformation": {}
+        },
+        {
+          "display": "fa",
+          "value": "fa",
+          "otherInformation": {}
+        },
+        {
+          "display": "ff",
+          "value": "ff",
+          "otherInformation": {}
+        },
+        {
+          "display": "fi",
+          "value": "fi",
+          "otherInformation": {}
+        },
+        {
+          "display": "fj",
+          "value": "fj",
+          "otherInformation": {}
+        },
+        {
+          "display": "fo",
+          "value": "fo",
+          "otherInformation": {}
+        },
+        {
+          "display": "fr",
+          "value": "fr",
+          "otherInformation": {}
+        },
+        {
+          "display": "fy",
+          "value": "fy",
+          "otherInformation": {}
+        },
+        {
+          "display": "ga",
+          "value": "ga",
+          "otherInformation": {}
+        },
+        {
+          "display": "gd",
+          "value": "gd",
+          "otherInformation": {}
+        },
+        {
+          "display": "gl",
+          "value": "gl",
+          "otherInformation": {}
+        },
+        {
+          "display": "gn",
+          "value": "gn",
+          "otherInformation": {}
+        },
+        {
+          "display": "gu",
+          "value": "gu",
+          "otherInformation": {}
+        },
+        {
+          "display": "gv",
+          "value": "gv",
+          "otherInformation": {}
+        },
+        {
+          "display": "ha",
+          "value": "ha",
+          "otherInformation": {}
+        },
+        {
+          "display": "he",
+          "value": "he",
+          "otherInformation": {}
+        },
+        {
+          "display": "hi",
+          "value": "hi",
+          "otherInformation": {}
+        },
+        {
+          "display": "ho",
+          "value": "ho",
+          "otherInformation": {}
+        },
+        {
+          "display": "hr",
+          "value": "hr",
+          "otherInformation": {}
+        },
+        {
+          "display": "ht",
+          "value": "ht",
+          "otherInformation": {}
+        },
+        {
+          "display": "hu",
+          "value": "hu",
+          "otherInformation": {}
+        },
+        {
+          "display": "hy",
+          "value": "hy",
+          "otherInformation": {}
+        },
+        {
+          "display": "hz",
+          "value": "hz",
+          "otherInformation": {}
+        },
+        {
+          "display": "ia",
+          "value": "ia",
+          "otherInformation": {}
+        },
+        {
+          "display": "id",
+          "value": "id",
+          "otherInformation": {}
+        },
+        {
+          "display": "ie",
+          "value": "ie",
+          "otherInformation": {}
+        },
+        {
+          "display": "ig",
+          "value": "ig",
+          "otherInformation": {}
+        },
+        {
+          "display": "ii",
+          "value": "ii",
+          "otherInformation": {}
+        },
+        {
+          "display": "ik",
+          "value": "ik",
+          "otherInformation": {}
+        },
+        {
+          "display": "io",
+          "value": "io",
+          "otherInformation": {}
+        },
+        {
+          "display": "is",
+          "value": "is",
+          "otherInformation": {}
+        },
+        {
+          "display": "it",
+          "value": "it",
+          "otherInformation": {}
+        },
+        {
+          "display": "iu",
+          "value": "iu",
+          "otherInformation": {}
+        },
+        {
+          "display": "ja",
+          "value": "ja",
+          "otherInformation": {}
+        },
+        {
+          "display": "jv",
+          "value": "jv",
+          "otherInformation": {}
+        },
+        {
+          "display": "ka",
+          "value": "ka",
+          "otherInformation": {}
+        },
+        {
+          "display": "kg",
+          "value": "kg",
+          "otherInformation": {}
+        },
+        {
+          "display": "ki",
+          "value": "ki",
+          "otherInformation": {}
+        },
+        {
+          "display": "kj",
+          "value": "kj",
+          "otherInformation": {}
+        },
+        {
+          "display": "kk",
+          "value": "kk",
+          "otherInformation": {}
+        },
+        {
+          "display": "kl",
+          "value": "kl",
+          "otherInformation": {}
+        },
+        {
+          "display": "km",
+          "value": "km",
+          "otherInformation": {}
+        },
+        {
+          "display": "kn",
+          "value": "kn",
+          "otherInformation": {}
+        },
+        {
+          "display": "ko",
+          "value": "ko",
+          "otherInformation": {}
+        },
+        {
+          "display": "kr",
+          "value": "kr",
+          "otherInformation": {}
+        },
+        {
+          "display": "ks",
+          "value": "ks",
+          "otherInformation": {}
+        },
+        {
+          "display": "ku",
+          "value": "ku",
+          "otherInformation": {}
+        },
+        {
+          "display": "kv",
+          "value": "kv",
+          "otherInformation": {}
+        },
+        {
+          "display": "kw",
+          "value": "kw",
+          "otherInformation": {}
+        },
+        {
+          "display": "ky",
+          "value": "ky",
+          "otherInformation": {}
+        },
+        {
+          "display": "la",
+          "value": "la",
+          "otherInformation": {}
+        },
+        {
+          "display": "lb",
+          "value": "lb",
+          "otherInformation": {}
+        },
+        {
+          "display": "lg",
+          "value": "lg",
+          "otherInformation": {}
+        },
+        {
+          "display": "li",
+          "value": "li",
+          "otherInformation": {}
+        },
+        {
+          "display": "ln",
+          "value": "ln",
+          "otherInformation": {}
+        },
+        {
+          "display": "lo",
+          "value": "lo",
+          "otherInformation": {}
+        },
+        {
+          "display": "lt",
+          "value": "lt",
+          "otherInformation": {}
+        },
+        {
+          "display": "lu",
+          "value": "lu",
+          "otherInformation": {}
+        },
+        {
+          "display": "lv",
+          "value": "lv",
+          "otherInformation": {}
+        },
+        {
+          "display": "mg",
+          "value": "mg",
+          "otherInformation": {}
+        },
+        {
+          "display": "mh",
+          "value": "mh",
+          "otherInformation": {}
+        },
+        {
+          "display": "mi",
+          "value": "mi",
+          "otherInformation": {}
+        },
+        {
+          "display": "mk",
+          "value": "mk",
+          "otherInformation": {}
+        },
+        {
+          "display": "ml",
+          "value": "ml",
+          "otherInformation": {}
+        },
+        {
+          "display": "mn",
+          "value": "mn",
+          "otherInformation": {}
+        },
+        {
+          "display": "mr",
+          "value": "mr",
+          "otherInformation": {}
+        },
+        {
+          "display": "ms",
+          "value": "ms",
+          "otherInformation": {}
+        },
+        {
+          "display": "mt",
+          "value": "mt",
+          "otherInformation": {}
+        },
+        {
+          "display": "my",
+          "value": "my",
+          "otherInformation": {}
+        },
+        {
+          "display": "na",
+          "value": "na",
+          "otherInformation": {}
+        },
+        {
+          "display": "nb",
+          "value": "nb",
+          "otherInformation": {}
+        },
+        {
+          "display": "nd",
+          "value": "nd",
+          "otherInformation": {}
+        },
+        {
+          "display": "ne",
+          "value": "ne",
+          "otherInformation": {}
+        },
+        {
+          "display": "ng",
+          "value": "ng",
+          "otherInformation": {}
+        },
+        {
+          "display": "nl",
+          "value": "nl",
+          "otherInformation": {}
+        },
+        {
+          "display": "nn",
+          "value": "nn",
+          "otherInformation": {}
+        },
+        {
+          "display": "no",
+          "value": "no",
+          "otherInformation": {}
+        },
+        {
+          "display": "nr",
+          "value": "nr",
+          "otherInformation": {}
+        },
+        {
+          "display": "nv",
+          "value": "nv",
+          "otherInformation": {}
+        },
+        {
+          "display": "ny",
+          "value": "ny",
+          "otherInformation": {}
+        },
+        {
+          "display": "oc",
+          "value": "oc",
+          "otherInformation": {}
+        },
+        {
+          "display": "oj",
+          "value": "oj",
+          "otherInformation": {}
+        },
+        {
+          "display": "om",
+          "value": "om",
+          "otherInformation": {}
+        },
+        {
+          "display": "or",
+          "value": "or",
+          "otherInformation": {}
+        },
+        {
+          "display": "os",
+          "value": "os",
+          "otherInformation": {}
+        },
+        {
+          "display": "pa",
+          "value": "pa",
+          "otherInformation": {}
+        },
+        {
+          "display": "pi",
+          "value": "pi",
+          "otherInformation": {}
+        },
+        {
+          "display": "pl",
+          "value": "pl",
+          "otherInformation": {}
+        },
+        {
+          "display": "ps",
+          "value": "ps",
+          "otherInformation": {}
+        },
+        {
+          "display": "pt",
+          "value": "pt",
+          "otherInformation": {}
+        },
+        {
+          "display": "qc",
+          "value": "qc",
+          "otherInformation": {}
+        },
+        {
+          "display": "rm",
+          "value": "rm",
+          "otherInformation": {}
+        },
+        {
+          "display": "rn",
+          "value": "rn",
+          "otherInformation": {}
+        },
+        {
+          "display": "ro",
+          "value": "ro",
+          "otherInformation": {}
+        },
+        {
+          "display": "ru",
+          "value": "ru",
+          "otherInformation": {}
+        },
+        {
+          "display": "rw",
+          "value": "rw",
+          "otherInformation": {}
+        },
+        {
+          "display": "sa",
+          "value": "sa",
+          "otherInformation": {}
+        },
+        {
+          "display": "sc",
+          "value": "sc",
+          "otherInformation": {}
+        },
+        {
+          "display": "sd",
+          "value": "sd",
+          "otherInformation": {}
+        },
+        {
+          "display": "se",
+          "value": "se",
+          "otherInformation": {}
+        },
+        {
+          "display": "sg",
+          "value": "sg",
+          "otherInformation": {}
+        },
+        {
+          "display": "si",
+          "value": "si",
+          "otherInformation": {}
+        },
+        {
+          "display": "sk",
+          "value": "sk",
+          "otherInformation": {}
+        },
+        {
+          "display": "sl",
+          "value": "sl",
+          "otherInformation": {}
+        },
+        {
+          "display": "sm",
+          "value": "sm",
+          "otherInformation": {}
+        },
+        {
+          "display": "sn",
+          "value": "sn",
+          "otherInformation": {}
+        },
+        {
+          "display": "so",
+          "value": "so",
+          "otherInformation": {}
+        },
+        {
+          "display": "sq",
+          "value": "sq",
+          "otherInformation": {}
+        },
+        {
+          "display": "sr",
+          "value": "sr",
+          "otherInformation": {}
+        },
+        {
+          "display": "ss",
+          "value": "ss",
+          "otherInformation": {}
+        },
+        {
+          "display": "st",
+          "value": "st",
+          "otherInformation": {}
+        },
+        {
+          "display": "su",
+          "value": "su",
+          "otherInformation": {}
+        },
+        {
+          "display": "sv",
+          "value": "sv",
+          "otherInformation": {}
+        },
+        {
+          "display": "sw",
+          "value": "sw",
+          "otherInformation": {}
+        },
+        {
+          "display": "ta",
+          "value": "ta",
+          "otherInformation": {}
+        },
+        {
+          "display": "te",
+          "value": "te",
+          "otherInformation": {}
+        },
+        {
+          "display": "tg",
+          "value": "tg",
+          "otherInformation": {}
+        },
+        {
+          "display": "th",
+          "value": "th",
+          "otherInformation": {}
+        },
+        {
+          "display": "ti",
+          "value": "ti",
+          "otherInformation": {}
+        },
+        {
+          "display": "tk",
+          "value": "tk",
+          "otherInformation": {}
+        },
+        {
+          "display": "tl",
+          "value": "tl",
+          "otherInformation": {}
+        },
+        {
+          "display": "tn",
+          "value": "tn",
+          "otherInformation": {}
+        },
+        {
+          "display": "to",
+          "value": "to",
+          "otherInformation": {}
+        },
+        {
+          "display": "tr",
+          "value": "tr",
+          "otherInformation": {}
+        },
+        {
+          "display": "ts",
+          "value": "ts",
+          "otherInformation": {}
+        },
+        {
+          "display": "tt",
+          "value": "tt",
+          "otherInformation": {}
+        },
+        {
+          "display": "tw",
+          "value": "tw",
+          "otherInformation": {}
+        },
+        {
+          "display": "ty",
+          "value": "ty",
+          "otherInformation": {}
+        },
+        {
+          "display": "ug",
+          "value": "ug",
+          "otherInformation": {}
+        },
+        {
+          "display": "uk",
+          "value": "uk",
+          "otherInformation": {}
+        },
+        {
+          "display": "ur",
+          "value": "ur",
+          "otherInformation": {}
+        },
+        {
+          "display": "uz",
+          "value": "uz",
+          "otherInformation": {}
+        },
+        {
+          "display": "ve",
+          "value": "ve",
+          "otherInformation": {}
+        },
+        {
+          "display": "vi",
+          "value": "vi",
+          "otherInformation": {}
+        },
+        {
+          "display": "vo",
+          "value": "vo",
+          "otherInformation": {}
+        },
+        {
+          "display": "wa",
+          "value": "wa",
+          "otherInformation": {}
+        },
+        {
+          "display": "wo",
+          "value": "wo",
+          "otherInformation": {}
+        },
+        {
+          "display": "xh",
+          "value": "xh",
+          "otherInformation": {}
+        },
+        {
+          "display": "yi",
+          "value": "yi",
+          "otherInformation": {}
+        },
+        {
+          "display": "yo",
+          "value": "yo",
+          "otherInformation": {}
+        },
+        {
+          "display": "za",
+          "value": "za",
+          "otherInformation": {}
+        },
+        {
+          "display": "zh",
+          "value": "zh",
+          "otherInformation": {}
+        },
+        {
+          "display": "zu",
+          "value": "zu",
+          "otherInformation": {}
+        }
+      ],
+      "duplicateValues": [],
+      "pagesFetched": [
+        {
+          "status": 200,
+          "url": "http://132.248.101.240:8080/server/api/submission/vocabularies/iso6391Pairs/entries?size=1000"
+        }
+      ]
+    },
+    "linguiscgroupPairs": {
+      "id": "linguiscgroupPairs",
+      "name": "linguiscgroupPairs",
+      "entryCount": 256,
+      "entries": [
+        {
+          "display": "Español",
+          "value": "Español",
+          "otherInformation": {}
+        },
+        {
+          "display": "Inglés",
+          "value": "Inglés",
+          "otherInformation": {}
+        },
+        {
+          "display": "Akateko",
+          "value": "Akateko",
+          "otherInformation": {}
+        },
+        {
+          "display": "Amuzgo",
+          "value": "Amuzgo",
+          "otherInformation": {}
+        },
+        {
+          "display": "Awakateko",
+          "value": "Awakateko",
+          "otherInformation": {}
+        },
+        {
+          "display": "Ayapaneco",
+          "value": "Ayapaneco",
+          "otherInformation": {}
+        },
+        {
+          "display": "Cora",
+          "value": "Cora",
+          "otherInformation": {}
+        },
+        {
+          "display": "Cucapá",
+          "value": "Cucapá",
+          "otherInformation": {}
+        },
+        {
+          "display": "Cuicateco",
+          "value": "Cuicateco",
+          "otherInformation": {}
+        },
+        {
+          "display": "Chatino",
+          "value": "Chatino",
+          "otherInformation": {}
+        },
+        {
+          "display": "Chichimeca Jonaz",
+          "value": "Chichimeca Jonaz",
+          "otherInformation": {}
+        },
+        {
+          "display": "Chinanteco",
+          "value": "Chinanteco",
+          "otherInformation": {}
+        },
+        {
+          "display": "Chocholteco",
+          "value": "Chocholteco",
+          "otherInformation": {}
+        },
+        {
+          "display": "Chontal de Oaxaca",
+          "value": "Chontal de Oaxaca",
+          "otherInformation": {}
+        },
+        {
+          "display": "Chontal de Tabasco",
+          "value": "Chontal de Tabasco",
+          "otherInformation": {}
+        },
+        {
+          "display": "Chuj",
+          "value": "Chuj",
+          "otherInformation": {}
+        },
+        {
+          "display": "Ch'ol",
+          "value": "Ch'ol",
+          "otherInformation": {}
+        },
+        {
+          "display": "Guarijío",
+          "value": "Guarijío",
+          "otherInformation": {}
+        },
+        {
+          "display": "Huasteco",
+          "value": "Huasteco",
+          "otherInformation": {}
+        },
+        {
+          "display": "Huave",
+          "value": "Huave",
+          "otherInformation": {}
+        },
+        {
+          "display": "Huichol",
+          "value": "Huichol",
+          "otherInformation": {}
+        },
+        {
+          "display": "Ixcateco",
+          "value": "Ixcateco",
+          "otherInformation": {}
+        },
+        {
+          "display": "Ixil",
+          "value": "Ixil",
+          "otherInformation": {}
+        },
+        {
+          "display": "Jakalteko",
+          "value": "Jakalteko",
+          "otherInformation": {}
+        },
+        {
+          "display": "Kaqchikel",
+          "value": "Kaqchikel",
+          "otherInformation": {}
+        },
+        {
+          "display": "Kickapoo",
+          "value": "Kickapoo",
+          "otherInformation": {}
+        },
+        {
+          "display": "Kiliwa",
+          "value": "Kiliwa",
+          "otherInformation": {}
+        },
+        {
+          "display": "Kumiai",
+          "value": "Kumiai",
+          "otherInformation": {}
+        },
+        {
+          "display": "Ku'ahl",
+          "value": "Ku'ahl",
+          "otherInformation": {}
+        },
+        {
+          "display": "K'iche'",
+          "value": "K'iche'",
+          "otherInformation": {}
+        },
+        {
+          "display": "Lacandón",
+          "value": "Lacandón",
+          "otherInformation": {}
+        },
+        {
+          "display": "Mam",
+          "value": "Mam",
+          "otherInformation": {}
+        },
+        {
+          "display": "Matlatzinca",
+          "value": "Matlatzinca",
+          "otherInformation": {}
+        },
+        {
+          "display": "Maya yucateco",
+          "value": "Maya yucateco",
+          "otherInformation": {}
+        },
+        {
+          "display": "Mayo",
+          "value": "Mayo",
+          "otherInformation": {}
+        },
+        {
+          "display": "Mazahua",
+          "value": "Mazahua",
+          "otherInformation": {}
+        },
+        {
+          "display": "Mazateco",
+          "value": "Mazateco",
+          "otherInformation": {}
+        },
+        {
+          "display": "Mixe",
+          "value": "Mixe",
+          "otherInformation": {}
+        },
+        {
+          "display": "Mixteco",
+          "value": "Mixteco",
+          "otherInformation": {}
+        },
+        {
+          "display": "Náhuatl",
+          "value": "Náhuatl",
+          "otherInformation": {}
+        },
+        {
+          "display": "Oluteco",
+          "value": "Oluteco",
+          "otherInformation": {}
+        },
+        {
+          "display": "Otomí",
+          "value": "Otomí",
+          "otherInformation": {}
+        },
+        {
+          "display": "Paipai",
+          "value": "Paipai",
+          "otherInformation": {}
+        },
+        {
+          "display": "Pame",
+          "value": "Pame",
+          "otherInformation": {}
+        },
+        {
+          "display": "Pápago (Tohono O'odham)",
+          "value": "Pápago (Tohono O'odham)",
+          "otherInformation": {}
+        },
+        {
+          "display": "Pima",
+          "value": "Pima",
+          "otherInformation": {}
+        },
+        {
+          "display": "Popoloca",
+          "value": "Popoloca",
+          "otherInformation": {}
+        },
+        {
+          "display": "Popoluca de la Sierra",
+          "value": "Popoluca de la Sierra",
+          "otherInformation": {}
+        },
+        {
+          "display": "Qato'k",
+          "value": "Qato'k",
+          "otherInformation": {}
+        },
+        {
+          "display": "Q'anjob'al",
+          "value": "Q'anjob'al",
+          "otherInformation": {}
+        },
+        {
+          "display": "Q'eqchi'",
+          "value": "Q'eqchi'",
+          "otherInformation": {}
+        },
+        {
+          "display": "Sayulteco",
+          "value": "Sayulteco",
+          "otherInformation": {}
+        },
+        {
+          "display": "Seri",
+          "value": "Seri",
+          "otherInformation": {}
+        },
+        {
+          "display": "Tarahumara",
+          "value": "Tarahumara",
+          "otherInformation": {}
+        },
+        {
+          "display": "Tarasco (Purépecha)",
+          "value": "Tarasco (Purépecha)",
+          "otherInformation": {}
+        },
+        {
+          "display": "Teko",
+          "value": "Teko",
+          "otherInformation": {}
+        },
+        {
+          "display": "Tepehua",
+          "value": "Tepehua",
+          "otherInformation": {}
+        },
+        {
+          "display": "Tepehuano del norte",
+          "value": "Tepehuano del norte",
+          "otherInformation": {}
+        },
+        {
+          "display": "Tepehuano del sur",
+          "value": "Tepehuano del sur",
+          "otherInformation": {}
+        },
+        {
+          "display": "Texistepequeño",
+          "value": "Texistepequeño",
+          "otherInformation": {}
+        },
+        {
+          "display": "Tojolabal",
+          "value": "Tojolabal",
+          "otherInformation": {}
+        },
+        {
+          "display": "Totonaco",
+          "value": "Totonaco",
+          "otherInformation": {}
+        },
+        {
+          "display": "Triqui",
+          "value": "Triqui",
+          "otherInformation": {}
+        },
+        {
+          "display": "Tlahuica",
+          "value": "Tlahuica",
+          "otherInformation": {}
+        },
+        {
+          "display": "Tlapaneco",
+          "value": "Tlapaneco",
+          "otherInformation": {}
+        },
+        {
+          "display": "Tseltal",
+          "value": "Tseltal",
+          "otherInformation": {}
+        },
+        {
+          "display": "Tsotsil",
+          "value": "Tsotsil",
+          "otherInformation": {}
+        },
+        {
+          "display": "Yaqui",
+          "value": "Yaqui",
+          "otherInformation": {}
+        },
+        {
+          "display": "Zapoteco",
+          "value": "Zapoteco",
+          "otherInformation": {}
+        },
+        {
+          "display": "Zoque",
+          "value": "Zoque",
+          "otherInformation": {}
+        },
+        {
+          "display": "P'urepecha",
+          "value": "P'urepecha",
+          "otherInformation": {}
+        },
+        {
+          "display": "Tarasco",
+          "value": "Tarasco",
+          "otherInformation": {}
+        },
+        {
+          "display": "afar",
+          "value": "afar",
+          "otherInformation": {}
+        },
+        {
+          "display": "abjasio (o abjasiano)",
+          "value": "abjasio (o abjasiano)",
+          "otherInformation": {}
+        },
+        {
+          "display": "avéstico",
+          "value": "avéstico",
+          "otherInformation": {}
+        },
+        {
+          "display": "afrikáans",
+          "value": "afrikáans",
+          "otherInformation": {}
+        },
+        {
+          "display": "akano",
+          "value": "akano",
+          "otherInformation": {}
+        },
+        {
+          "display": "amhárico",
+          "value": "amhárico",
+          "otherInformation": {}
+        },
+        {
+          "display": "aragonés",
+          "value": "aragonés",
+          "otherInformation": {}
+        },
+        {
+          "display": "árabe",
+          "value": "árabe",
+          "otherInformation": {}
+        },
+        {
+          "display": "asamés",
+          "value": "asamés",
+          "otherInformation": {}
+        },
+        {
+          "display": "avar (o ávaro)",
+          "value": "avar (o ávaro)",
+          "otherInformation": {}
+        },
+        {
+          "display": "aimara",
+          "value": "aimara",
+          "otherInformation": {}
+        },
+        {
+          "display": "azerí",
+          "value": "azerí",
+          "otherInformation": {}
+        },
+        {
+          "display": "baskir",
+          "value": "baskir",
+          "otherInformation": {}
+        },
+        {
+          "display": "bielorruso",
+          "value": "bielorruso",
+          "otherInformation": {}
+        },
+        {
+          "display": "búlgaro",
+          "value": "búlgaro",
+          "otherInformation": {}
+        },
+        {
+          "display": "bhoyapurí",
+          "value": "bhoyapurí",
+          "otherInformation": {}
+        },
+        {
+          "display": "bislama",
+          "value": "bislama",
+          "otherInformation": {}
+        },
+        {
+          "display": "bambara",
+          "value": "bambara",
+          "otherInformation": {}
+        },
+        {
+          "display": "bengalí",
+          "value": "bengalí",
+          "otherInformation": {}
+        },
+        {
+          "display": "tibetano",
+          "value": "tibetano",
+          "otherInformation": {}
+        },
+        {
+          "display": "bretón",
+          "value": "bretón",
+          "otherInformation": {}
+        },
+        {
+          "display": "bosnio",
+          "value": "bosnio",
+          "otherInformation": {}
+        },
+        {
+          "display": "catalán",
+          "value": "catalán",
+          "otherInformation": {}
+        },
+        {
+          "display": "checheno",
+          "value": "checheno",
+          "otherInformation": {}
+        },
+        {
+          "display": "chamorro",
+          "value": "chamorro",
+          "otherInformation": {}
+        },
+        {
+          "display": "corso",
+          "value": "corso",
+          "otherInformation": {}
+        },
+        {
+          "display": "cree",
+          "value": "cree",
+          "otherInformation": {}
+        },
+        {
+          "display": "checo",
+          "value": "checo",
+          "otherInformation": {}
+        },
+        {
+          "display": "eslavo eclesiástico antiguo",
+          "value": "eslavo eclesiástico antiguo",
+          "otherInformation": {}
+        },
+        {
+          "display": "chuvasio",
+          "value": "chuvasio",
+          "otherInformation": {}
+        },
+        {
+          "display": "galés",
+          "value": "galés",
+          "otherInformation": {}
+        },
+        {
+          "display": "danés",
+          "value": "danés",
+          "otherInformation": {}
+        },
+        {
+          "display": "alemán",
+          "value": "alemán",
+          "otherInformation": {}
+        },
+        {
+          "display": "maldivo (dhivehi)",
+          "value": "maldivo (dhivehi)",
+          "otherInformation": {}
+        },
+        {
+          "display": "dzongkha",
+          "value": "dzongkha",
+          "otherInformation": {}
+        },
+        {
+          "display": "ewé",
+          "value": "ewé",
+          "otherInformation": {}
+        },
+        {
+          "display": "griego (moderno)",
+          "value": "griego (moderno)",
+          "otherInformation": {}
+        },
+        {
+          "display": "inglés",
+          "value": "inglés",
+          "otherInformation": {}
+        },
+        {
+          "display": "esperanto",
+          "value": "esperanto",
+          "otherInformation": {}
+        },
+        {
+          "display": "español (castellano)",
+          "value": "español (castellano)",
+          "otherInformation": {}
+        },
+        {
+          "display": "estonio",
+          "value": "estonio",
+          "otherInformation": {}
+        },
+        {
+          "display": "euskera",
+          "value": "euskera",
+          "otherInformation": {}
+        },
+        {
+          "display": "persa (farsi)",
+          "value": "persa (farsi)",
+          "otherInformation": {}
+        },
+        {
+          "display": "fula",
+          "value": "fula",
+          "otherInformation": {}
+        },
+        {
+          "display": "finés",
+          "value": "finés",
+          "otherInformation": {}
+        },
+        {
+          "display": "fiyiano",
+          "value": "fiyiano",
+          "otherInformation": {}
+        },
+        {
+          "display": "feroés",
+          "value": "feroés",
+          "otherInformation": {}
+        },
+        {
+          "display": "francés",
+          "value": "francés",
+          "otherInformation": {}
+        },
+        {
+          "display": "frisón",
+          "value": "frisón",
+          "otherInformation": {}
+        },
+        {
+          "display": "irlandés",
+          "value": "irlandés",
+          "otherInformation": {}
+        },
+        {
+          "display": "gaélico escocés",
+          "value": "gaélico escocés",
+          "otherInformation": {}
+        },
+        {
+          "display": "gallego",
+          "value": "gallego",
+          "otherInformation": {}
+        },
+        {
+          "display": "guaraní",
+          "value": "guaraní",
+          "otherInformation": {}
+        },
+        {
+          "display": "guyaratí",
+          "value": "guyaratí",
+          "otherInformation": {}
+        },
+        {
+          "display": "manés",
+          "value": "manés",
+          "otherInformation": {}
+        },
+        {
+          "display": "hausa",
+          "value": "hausa",
+          "otherInformation": {}
+        },
+        {
+          "display": "hebreo",
+          "value": "hebreo",
+          "otherInformation": {}
+        },
+        {
+          "display": "hindi",
+          "value": "hindi",
+          "otherInformation": {}
+        },
+        {
+          "display": "hiri motu",
+          "value": "hiri motu",
+          "otherInformation": {}
+        },
+        {
+          "display": "croata",
+          "value": "croata",
+          "otherInformation": {}
+        },
+        {
+          "display": "haitiano",
+          "value": "haitiano",
+          "otherInformation": {}
+        },
+        {
+          "display": "húngaro",
+          "value": "húngaro",
+          "otherInformation": {}
+        },
+        {
+          "display": "armenio",
+          "value": "armenio",
+          "otherInformation": {}
+        },
+        {
+          "display": "herero",
+          "value": "herero",
+          "otherInformation": {}
+        },
+        {
+          "display": "interlingua",
+          "value": "interlingua",
+          "otherInformation": {}
+        },
+        {
+          "display": "indonesio",
+          "value": "indonesio",
+          "otherInformation": {}
+        },
+        {
+          "display": "occidental",
+          "value": "occidental",
+          "otherInformation": {}
+        },
+        {
+          "display": "igbo",
+          "value": "igbo",
+          "otherInformation": {}
+        },
+        {
+          "display": "yi de Sichuán",
+          "value": "yi de Sichuán",
+          "otherInformation": {}
+        },
+        {
+          "display": "iñupiaq",
+          "value": "iñupiaq",
+          "otherInformation": {}
+        },
+        {
+          "display": "ido",
+          "value": "ido",
+          "otherInformation": {}
+        },
+        {
+          "display": "islandés",
+          "value": "islandés",
+          "otherInformation": {}
+        },
+        {
+          "display": "italiano",
+          "value": "italiano",
+          "otherInformation": {}
+        },
+        {
+          "display": "inuktitut",
+          "value": "inuktitut",
+          "otherInformation": {}
+        },
+        {
+          "display": "japonés",
+          "value": "japonés",
+          "otherInformation": {}
+        },
+        {
+          "display": "javanés",
+          "value": "javanés",
+          "otherInformation": {}
+        },
+        {
+          "display": "georgiano",
+          "value": "georgiano",
+          "otherInformation": {}
+        },
+        {
+          "display": "kongo (kikongo)",
+          "value": "kongo (kikongo)",
+          "otherInformation": {}
+        },
+        {
+          "display": "kikuyu",
+          "value": "kikuyu",
+          "otherInformation": {}
+        },
+        {
+          "display": "kuanyama",
+          "value": "kuanyama",
+          "otherInformation": {}
+        },
+        {
+          "display": "kazajo",
+          "value": "kazajo",
+          "otherInformation": {}
+        },
+        {
+          "display": "groenlandés (kalaallisut)",
+          "value": "groenlandés (kalaallisut)",
+          "otherInformation": {}
+        },
+        {
+          "display": "camboyano (jemer)",
+          "value": "camboyano (jemer)",
+          "otherInformation": {}
+        },
+        {
+          "display": "canarés",
+          "value": "canarés",
+          "otherInformation": {}
+        },
+        {
+          "display": "coreano",
+          "value": "coreano",
+          "otherInformation": {}
+        },
+        {
+          "display": "kanuri",
+          "value": "kanuri",
+          "otherInformation": {}
+        },
+        {
+          "display": "cachemiro",
+          "value": "cachemiro",
+          "otherInformation": {}
+        },
+        {
+          "display": "kurdo",
+          "value": "kurdo",
+          "otherInformation": {}
+        },
+        {
+          "display": "komi",
+          "value": "komi",
+          "otherInformation": {}
+        },
+        {
+          "display": "córnico",
+          "value": "córnico",
+          "otherInformation": {}
+        },
+        {
+          "display": "kirguís",
+          "value": "kirguís",
+          "otherInformation": {}
+        },
+        {
+          "display": "latín",
+          "value": "latín",
+          "otherInformation": {}
+        },
+        {
+          "display": "luxemburgués",
+          "value": "luxemburgués",
+          "otherInformation": {}
+        },
+        {
+          "display": "luganda",
+          "value": "luganda",
+          "otherInformation": {}
+        },
+        {
+          "display": "limburgués",
+          "value": "limburgués",
+          "otherInformation": {}
+        },
+        {
+          "display": "lingala",
+          "value": "lingala",
+          "otherInformation": {}
+        },
+        {
+          "display": "lao",
+          "value": "lao",
+          "otherInformation": {}
+        },
+        {
+          "display": "lituano",
+          "value": "lituano",
+          "otherInformation": {}
+        },
+        {
+          "display": "luba-katanga",
+          "value": "luba-katanga",
+          "otherInformation": {}
+        },
+        {
+          "display": "letón",
+          "value": "letón",
+          "otherInformation": {}
+        },
+        {
+          "display": "malgache",
+          "value": "malgache",
+          "otherInformation": {}
+        },
+        {
+          "display": "marshalés",
+          "value": "marshalés",
+          "otherInformation": {}
+        },
+        {
+          "display": "maorí",
+          "value": "maorí",
+          "otherInformation": {}
+        },
+        {
+          "display": "macedonio",
+          "value": "macedonio",
+          "otherInformation": {}
+        },
+        {
+          "display": "malayalam",
+          "value": "malayalam",
+          "otherInformation": {}
+        },
+        {
+          "display": "mongol",
+          "value": "mongol",
+          "otherInformation": {}
+        },
+        {
+          "display": "maratí",
+          "value": "maratí",
+          "otherInformation": {}
+        },
+        {
+          "display": "malayo",
+          "value": "malayo",
+          "otherInformation": {}
+        },
+        {
+          "display": "maltés",
+          "value": "maltés",
+          "otherInformation": {}
+        },
+        {
+          "display": "birmano",
+          "value": "birmano",
+          "otherInformation": {}
+        },
+        {
+          "display": "nauruano",
+          "value": "nauruano",
+          "otherInformation": {}
+        },
+        {
+          "display": "noruego bokmål",
+          "value": "noruego bokmål",
+          "otherInformation": {}
+        },
+        {
+          "display": "ndebele del norte",
+          "value": "ndebele del norte",
+          "otherInformation": {}
+        },
+        {
+          "display": "nepalí",
+          "value": "nepalí",
+          "otherInformation": {}
+        },
+        {
+          "display": "ndonga",
+          "value": "ndonga",
+          "otherInformation": {}
+        },
+        {
+          "display": "neerlandés",
+          "value": "neerlandés",
+          "otherInformation": {}
+        },
+        {
+          "display": "nynorsk",
+          "value": "nynorsk",
+          "otherInformation": {}
+        },
+        {
+          "display": "noruego",
+          "value": "noruego",
+          "otherInformation": {}
+        },
+        {
+          "display": "ndebele del sur",
+          "value": "ndebele del sur",
+          "otherInformation": {}
+        },
+        {
+          "display": "navajo",
+          "value": "navajo",
+          "otherInformation": {}
+        },
+        {
+          "display": "chichewa",
+          "value": "chichewa",
+          "otherInformation": {}
+        },
+        {
+          "display": "occitano",
+          "value": "occitano",
+          "otherInformation": {}
+        },
+        {
+          "display": "ojibwa",
+          "value": "ojibwa",
+          "otherInformation": {}
+        },
+        {
+          "display": "oromo",
+          "value": "oromo",
+          "otherInformation": {}
+        },
+        {
+          "display": "oriya (odia)",
+          "value": "oriya (odia)",
+          "otherInformation": {}
+        },
+        {
+          "display": "osético",
+          "value": "osético",
+          "otherInformation": {}
+        },
+        {
+          "display": "panyabí",
+          "value": "panyabí",
+          "otherInformation": {}
+        },
+        {
+          "display": "pali",
+          "value": "pali",
+          "otherInformation": {}
+        },
+        {
+          "display": "polaco",
+          "value": "polaco",
+          "otherInformation": {}
+        },
+        {
+          "display": "pastú (pashto)",
+          "value": "pastú (pashto)",
+          "otherInformation": {}
+        },
+        {
+          "display": "portugués",
+          "value": "portugués",
+          "otherInformation": {}
+        },
+        {
+          "display": "quechua",
+          "value": "quechua",
+          "otherInformation": {}
+        },
+        {
+          "display": "romanche",
+          "value": "romanche",
+          "otherInformation": {}
+        },
+        {
+          "display": "kirundi",
+          "value": "kirundi",
+          "otherInformation": {}
+        },
+        {
+          "display": "rumano",
+          "value": "rumano",
+          "otherInformation": {}
+        },
+        {
+          "display": "ruso",
+          "value": "ruso",
+          "otherInformation": {}
+        },
+        {
+          "display": "ruandés (kiñaruanda)",
+          "value": "ruandés (kiñaruanda)",
+          "otherInformation": {}
+        },
+        {
+          "display": "sánscrito",
+          "value": "sánscrito",
+          "otherInformation": {}
+        },
+        {
+          "display": "sardo",
+          "value": "sardo",
+          "otherInformation": {}
+        },
+        {
+          "display": "sindhi",
+          "value": "sindhi",
+          "otherInformation": {}
+        },
+        {
+          "display": "sami septentrional",
+          "value": "sami septentrional",
+          "otherInformation": {}
+        },
+        {
+          "display": "sango",
+          "value": "sango",
+          "otherInformation": {}
+        },
+        {
+          "display": "cingalés",
+          "value": "cingalés",
+          "otherInformation": {}
+        },
+        {
+          "display": "eslovaco",
+          "value": "eslovaco",
+          "otherInformation": {}
+        },
+        {
+          "display": "esloveno",
+          "value": "esloveno",
+          "otherInformation": {}
+        },
+        {
+          "display": "samoano",
+          "value": "samoano",
+          "otherInformation": {}
+        },
+        {
+          "display": "shona",
+          "value": "shona",
+          "otherInformation": {}
+        },
+        {
+          "display": "somalí",
+          "value": "somalí",
+          "otherInformation": {}
+        },
+        {
+          "display": "albanés",
+          "value": "albanés",
+          "otherInformation": {}
+        },
+        {
+          "display": "serbio",
+          "value": "serbio",
+          "otherInformation": {}
+        },
+        {
+          "display": "suazi (swati)",
+          "value": "suazi (swati)",
+          "otherInformation": {}
+        },
+        {
+          "display": "sesotho",
+          "value": "sesotho",
+          "otherInformation": {}
+        },
+        {
+          "display": "sundanés",
+          "value": "sundanés",
+          "otherInformation": {}
+        },
+        {
+          "display": "sueco",
+          "value": "sueco",
+          "otherInformation": {}
+        },
+        {
+          "display": "suajili",
+          "value": "suajili",
+          "otherInformation": {}
+        },
+        {
+          "display": "tamil",
+          "value": "tamil",
+          "otherInformation": {}
+        },
+        {
+          "display": "télugu",
+          "value": "télugu",
+          "otherInformation": {}
+        },
+        {
+          "display": "tayiko",
+          "value": "tayiko",
+          "otherInformation": {}
+        },
+        {
+          "display": "tailandés",
+          "value": "tailandés",
+          "otherInformation": {}
+        },
+        {
+          "display": "tigriña",
+          "value": "tigriña",
+          "otherInformation": {}
+        },
+        {
+          "display": "turcomano",
+          "value": "turcomano",
+          "otherInformation": {}
+        },
+        {
+          "display": "tagalo",
+          "value": "tagalo",
+          "otherInformation": {}
+        },
+        {
+          "display": "setsuana",
+          "value": "setsuana",
+          "otherInformation": {}
+        },
+        {
+          "display": "tongano",
+          "value": "tongano",
+          "otherInformation": {}
+        },
+        {
+          "display": "turco",
+          "value": "turco",
+          "otherInformation": {}
+        },
+        {
+          "display": "tsonga",
+          "value": "tsonga",
+          "otherInformation": {}
+        },
+        {
+          "display": "tártaro",
+          "value": "tártaro",
+          "otherInformation": {}
+        },
+        {
+          "display": "twi",
+          "value": "twi",
+          "otherInformation": {}
+        },
+        {
+          "display": "tahitiano",
+          "value": "tahitiano",
+          "otherInformation": {}
+        },
+        {
+          "display": "uigur",
+          "value": "uigur",
+          "otherInformation": {}
+        },
+        {
+          "display": "ucraniano",
+          "value": "ucraniano",
+          "otherInformation": {}
+        },
+        {
+          "display": "urdu",
+          "value": "urdu",
+          "otherInformation": {}
+        },
+        {
+          "display": "uzbeko",
+          "value": "uzbeko",
+          "otherInformation": {}
+        },
+        {
+          "display": "venda",
+          "value": "venda",
+          "otherInformation": {}
+        },
+        {
+          "display": "vietnamita",
+          "value": "vietnamita",
+          "otherInformation": {}
+        },
+        {
+          "display": "volapük",
+          "value": "volapük",
+          "otherInformation": {}
+        },
+        {
+          "display": "valón",
+          "value": "valón",
+          "otherInformation": {}
+        },
+        {
+          "display": "wolof",
+          "value": "wolof",
+          "otherInformation": {}
+        },
+        {
+          "display": "xhosa",
+          "value": "xhosa",
+          "otherInformation": {}
+        },
+        {
+          "display": "yídish",
+          "value": "yídish",
+          "otherInformation": {}
+        },
+        {
+          "display": "yoruba",
+          "value": "yoruba",
+          "otherInformation": {}
+        },
+        {
+          "display": "chuan (zhuang)",
+          "value": "chuan (zhuang)",
+          "otherInformation": {}
+        },
+        {
+          "display": "chino",
+          "value": "chino",
+          "otherInformation": {}
+        },
+        {
+          "display": "zulú",
+          "value": "zulú",
+          "otherInformation": {}
+        }
+      ],
+      "duplicateValues": [],
+      "pagesFetched": [
+        {
+          "status": 200,
+          "url": "http://132.248.101.240:8080/server/api/submission/vocabularies/linguiscgroupPairs/entries?size=1000"
+        }
+      ]
+    },
+    "openaire_types": {
+      "id": "openaire_types",
+      "name": "openaire_types",
+      "entryCount": 74,
+      "entries": [
+        {
+          "display": "Interactive Resource",
+          "value": "interactive resource",
+          "otherInformation": {}
+        },
+        {
+          "display": "- Website",
+          "value": "website",
+          "otherInformation": {}
+        },
+        {
+          "display": "Dataset",
+          "value": "dataset",
+          "otherInformation": {}
+        },
+        {
+          "display": "- Interview",
+          "value": "interview",
+          "otherInformation": {}
+        },
+        {
+          "display": "Image",
+          "value": "image",
+          "otherInformation": {}
+        },
+        {
+          "display": "- Moving Image",
+          "value": "moving image",
+          "otherInformation": {}
+        },
+        {
+          "display": "-- Video",
+          "value": "video",
+          "otherInformation": {}
+        },
+        {
+          "display": "- Still Image",
+          "value": "still image",
+          "otherInformation": {}
+        },
+        {
+          "display": "Other",
+          "value": "other",
+          "otherInformation": {}
+        },
+        {
+          "display": "Software",
+          "value": "software",
+          "otherInformation": {}
+        },
+        {
+          "display": "- Research Software",
+          "value": "research software",
+          "otherInformation": {}
+        },
+        {
+          "display": "Workflow",
+          "value": "workflow",
+          "otherInformation": {}
+        },
+        {
+          "display": "Cartographic Material",
+          "value": "cartographic material",
+          "otherInformation": {}
+        },
+        {
+          "display": "- Map",
+          "value": "map",
+          "otherInformation": {}
+        },
+        {
+          "display": "Sound",
+          "value": "sound",
+          "otherInformation": {}
+        },
+        {
+          "display": "- Musical Composition",
+          "value": "musical composition",
+          "otherInformation": {}
+        },
+        {
+          "display": "Text",
+          "value": "text",
+          "otherInformation": {}
+        },
+        {
+          "display": "- Annotation",
+          "value": "annotation",
+          "otherInformation": {}
+        },
+        {
+          "display": "- Bibliography",
+          "value": "bibliography",
+          "otherInformation": {}
+        },
+        {
+          "display": "- Book",
+          "value": "book",
+          "otherInformation": {}
+        },
+        {
+          "display": "-- Book Part",
+          "value": "book part",
+          "otherInformation": {}
+        },
+        {
+          "display": "- Conference Object",
+          "value": "conference object",
+          "otherInformation": {}
+        },
+        {
+          "display": "-- Conference Proceedings",
+          "value": "conference proceedings",
+          "otherInformation": {}
+        },
+        {
+          "display": "--- Conference Paper",
+          "value": "conference paper",
+          "otherInformation": {}
+        },
+        {
+          "display": "--- Conference Poster",
+          "value": "conference poster",
+          "otherInformation": {}
+        },
+        {
+          "display": "-- Conference Paper Not In Proceedings",
+          "value": "conference paper not in proceedings",
+          "otherInformation": {}
+        },
+        {
+          "display": "-- Conference Poster Not In Proceedings",
+          "value": "conference poster not in proceedings",
+          "otherInformation": {}
+        },
+        {
+          "display": "- Lecture",
+          "value": "lecture",
+          "otherInformation": {}
+        },
+        {
+          "display": "- Letter",
+          "value": "letter",
+          "otherInformation": {}
+        },
+        {
+          "display": "- Periodical",
+          "value": "periodical",
+          "otherInformation": {}
+        },
+        {
+          "display": "-- Journal",
+          "value": "journal",
+          "otherInformation": {}
+        },
+        {
+          "display": "--- Contribution to Journal",
+          "value": "contribution to journal",
+          "otherInformation": {}
+        },
+        {
+          "display": "---- Journal Article",
+          "value": "journal article",
+          "otherInformation": {}
+        },
+        {
+          "display": "----- Data Paper",
+          "value": "data paper",
+          "otherInformation": {}
+        },
+        {
+          "display": "----- Review Article",
+          "value": "review article",
+          "otherInformation": {}
+        },
+        {
+          "display": "----- Research Article",
+          "value": "research article",
+          "otherInformation": {}
+        },
+        {
+          "display": "----- Corrigendum",
+          "value": "corrigendum",
+          "otherInformation": {}
+        },
+        {
+          "display": "----- Software Paper",
+          "value": "software paper",
+          "otherInformation": {}
+        },
+        {
+          "display": "---- Editorial",
+          "value": "editorial",
+          "otherInformation": {}
+        },
+        {
+          "display": "---- Letter to the Editor",
+          "value": "letter to the editor",
+          "otherInformation": {}
+        },
+        {
+          "display": "-- Newspaper",
+          "value": "newspaper",
+          "otherInformation": {}
+        },
+        {
+          "display": "--- Newspaper Article",
+          "value": "newspaper article",
+          "otherInformation": {}
+        },
+        {
+          "display": "-- Magazine",
+          "value": "magazine",
+          "otherInformation": {}
+        },
+        {
+          "display": "- Patent",
+          "value": "patent",
+          "otherInformation": {}
+        },
+        {
+          "display": "- Preprint",
+          "value": "preprint",
+          "otherInformation": {}
+        },
+        {
+          "display": "- Report",
+          "value": "report",
+          "otherInformation": {}
+        },
+        {
+          "display": "-- Report Part",
+          "value": "report part",
+          "otherInformation": {}
+        },
+        {
+          "display": "-- Internal Report",
+          "value": "internal report",
+          "otherInformation": {}
+        },
+        {
+          "display": "-- Memorandum",
+          "value": "memorandum",
+          "otherInformation": {}
+        },
+        {
+          "display": "-- Other Type of Report",
+          "value": "other type of report",
+          "otherInformation": {}
+        },
+        {
+          "display": "-- Policy Report",
+          "value": "policy report",
+          "otherInformation": {}
+        },
+        {
+          "display": "-- Project Deliverable",
+          "value": "project deliverable",
+          "otherInformation": {}
+        },
+        {
+          "display": "--- Data Management Plan",
+          "value": "data management plan",
+          "otherInformation": {}
+        },
+        {
+          "display": "-- Report to Funding Agency",
+          "value": "report to funding agency",
+          "otherInformation": {}
+        },
+        {
+          "display": "-- Research Report",
+          "value": "research report",
+          "otherInformation": {}
+        },
+        {
+          "display": "-- Technical Report",
+          "value": "technical report",
+          "otherInformation": {}
+        },
+        {
+          "display": "- Research Proposal",
+          "value": "research proposal",
+          "otherInformation": {}
+        },
+        {
+          "display": "- Review",
+          "value": "review",
+          "otherInformation": {}
+        },
+        {
+          "display": "-- Book Review",
+          "value": "book review",
+          "otherInformation": {}
+        },
+        {
+          "display": "- Technical Documentation",
+          "value": "technical documentation",
+          "otherInformation": {}
+        },
+        {
+          "display": "- Working Paper",
+          "value": "working paper",
+          "otherInformation": {}
+        },
+        {
+          "display": "- Thesis",
+          "value": "thesis",
+          "otherInformation": {}
+        },
+        {
+          "display": "-- Bachelor Thesis",
+          "value": "bachelor thesis",
+          "otherInformation": {}
+        },
+        {
+          "display": "-- Doctoral Thesis",
+          "value": "doctoral thesis",
+          "otherInformation": {}
+        },
+        {
+          "display": "-- Master Thesis",
+          "value": "master thesis",
+          "otherInformation": {}
+        },
+        {
+          "display": "- Musical Notation",
+          "value": "musical notation",
+          "otherInformation": {}
+        },
+        {
+          "display": "- Blog Post",
+          "value": "blog post",
+          "otherInformation": {}
+        },
+        {
+          "display": "- Manuscript",
+          "value": "website",
+          "otherInformation": {}
+        },
+        {
+          "display": "Learning Object",
+          "value": "learning object",
+          "otherInformation": {}
+        },
+        {
+          "display": "Clinical Trial",
+          "value": "clinical trial",
+          "otherInformation": {}
+        },
+        {
+          "display": "Clinical Study",
+          "value": "clinical study",
+          "otherInformation": {}
+        },
+        {
+          "display": "Tesis Licenciatura",
+          "value": "tesis licenciatura",
+          "otherInformation": {}
+        },
+        {
+          "display": "Tesis de Doctorado",
+          "value": "tesis doctorado",
+          "otherInformation": {}
+        },
+        {
+          "display": "Tesis de Maestría",
+          "value": "tesis maestria",
+          "otherInformation": {}
+        }
+      ],
+      "duplicateValues": [
+        "website"
+      ],
+      "pagesFetched": [
+        {
+          "status": 200,
+          "url": "http://132.248.101.240:8080/server/api/submission/vocabularies/openaire_types/entries?size=1000"
+        }
+      ]
+    },
+    "primaryClassificationPairs": {
+      "id": "primaryClassificationPairs",
+      "name": "primaryClassificationPairs",
+      "entryCount": 6,
+      "entries": [
+        {
+          "display": "Didácticos (libros de texto, guías, cuadernos, flashcards, audios, apps)",
+          "value": "Didácticos",
+          "otherInformation": {}
+        },
+        {
+          "display": "Históricos (gramáticas, vocabularios, documentos antiguos, tradición oral)",
+          "value": "Históricos",
+          "otherInformation": {}
+        },
+        {
+          "display": "Culturales (canciones, poesía, leyendas, ceremonias, arte, literatura traducida)",
+          "value": "Culturales",
+          "otherInformation": {}
+        },
+        {
+          "display": "Lingüísticos (gramáticas, diccionarios, metodologías, registros lingüísticos)",
+          "value": "Lingüísticos",
+          "otherInformation": {}
+        },
+        {
+          "display": "Derecho",
+          "value": "Derecho",
+          "otherInformation": {}
+        },
+        {
+          "display": "Salud",
+          "value": "Salud",
+          "otherInformation": {}
+        }
+      ],
+      "duplicateValues": [],
+      "pagesFetched": [
+        {
+          "status": 200,
+          "url": "http://132.248.101.240:8080/server/api/submission/vocabularies/primaryClassificationPairs/entries?size=1000"
+        }
+      ]
+    },
+    "languageTargetPairs": {
+      "id": "languageTargetPairs",
+      "name": "languageTargetPairs",
+      "entryCount": 3,
+      "entries": [
+        {
+          "display": "L1 (Lengua materna)",
+          "value": "L1",
+          "otherInformation": {}
+        },
+        {
+          "display": "L2 (Segunda lengua)",
+          "value": "L2",
+          "otherInformation": {}
+        },
+        {
+          "display": "L1 y L2",
+          "value": "L1 y L2",
+          "otherInformation": {}
+        }
+      ],
+      "duplicateValues": [],
+      "pagesFetched": [
+        {
+          "status": 200,
+          "url": "http://132.248.101.240:8080/server/api/submission/vocabularies/languageTargetPairs/entries?size=1000"
+        }
+      ]
+    },
+    "topicsPairs": {
+      "id": "topicsPairs",
+      "name": "topicsPairs",
+      "entryCount": 40,
+      "entries": [
+        {
+          "display": "Lingüística",
+          "value": "Lingüística",
+          "otherInformation": {}
+        },
+        {
+          "display": "Educación",
+          "value": "Educación",
+          "otherInformation": {}
+        },
+        {
+          "display": "Alfabetización",
+          "value": "Alfabetización",
+          "otherInformation": {}
+        },
+        {
+          "display": "Lexicografía",
+          "value": "Lexicografía",
+          "otherInformation": {}
+        },
+        {
+          "display": "Lexicología",
+          "value": "Lexicología",
+          "otherInformation": {}
+        },
+        {
+          "display": "Morfosintaxis",
+          "value": "Morfosintaxis",
+          "otherInformation": {}
+        },
+        {
+          "display": "Semántica",
+          "value": "Semántica",
+          "otherInformation": {}
+        },
+        {
+          "display": "Sociolingüística",
+          "value": "Sociolingüística",
+          "otherInformation": {}
+        },
+        {
+          "display": "Historiografía lingüística",
+          "value": "Historiografía lingüística",
+          "otherInformation": {}
+        },
+        {
+          "display": "Documentación lingüística",
+          "value": "Documentación lingüística",
+          "otherInformation": {}
+        },
+        {
+          "display": "Etnohistoria",
+          "value": "Etnohistoria",
+          "otherInformation": {}
+        },
+        {
+          "display": "Educación indígena",
+          "value": "Educación indígena",
+          "otherInformation": {}
+        },
+        {
+          "display": "Fonología",
+          "value": "Fonología",
+          "otherInformation": {}
+        },
+        {
+          "display": "Fonética",
+          "value": "Fonética",
+          "otherInformation": {}
+        },
+        {
+          "display": "Morfología",
+          "value": "Morfología",
+          "otherInformation": {}
+        },
+        {
+          "display": "Sintaxis",
+          "value": "Sintaxis",
+          "otherInformation": {}
+        },
+        {
+          "display": "Pragmática",
+          "value": "Pragmática",
+          "otherInformation": {}
+        },
+        {
+          "display": "Descripción gramatical",
+          "value": "Descripción gramatical",
+          "otherInformation": {}
+        },
+        {
+          "display": "Planificación lingüística",
+          "value": "Planificación lingüística",
+          "otherInformation": {}
+        },
+        {
+          "display": "Políticas lingüísticas",
+          "value": "Políticas lingüísticas",
+          "otherInformation": {}
+        },
+        {
+          "display": "Literatura indígena",
+          "value": "Literatura indígena",
+          "otherInformation": {}
+        },
+        {
+          "display": "Narrativa",
+          "value": "Narrativa",
+          "otherInformation": {}
+        },
+        {
+          "display": "Traducción",
+          "value": "Traducción",
+          "otherInformation": {}
+        },
+        {
+          "display": "Interpretación",
+          "value": "Interpretación",
+          "otherInformation": {}
+        },
+        {
+          "display": "Contacto lingüístico",
+          "value": "Contacto lingüístico",
+          "otherInformation": {}
+        },
+        {
+          "display": "Análisis del discurso",
+          "value": "Análisis del discurso",
+          "otherInformation": {}
+        },
+        {
+          "display": "Etnolingüística",
+          "value": "Etnolingüística",
+          "otherInformation": {}
+        },
+        {
+          "display": "Familias lingüísticas",
+          "value": "Familias lingüísticas",
+          "otherInformation": {}
+        },
+        {
+          "display": "Género lingüístico",
+          "value": "Género lingüístico",
+          "otherInformation": {}
+        },
+        {
+          "display": "Psicolingüística",
+          "value": "Psicolingüística",
+          "otherInformation": {}
+        },
+        {
+          "display": "Patrimonio lingüístico",
+          "value": "Patrimonio lingüístico",
+          "otherInformation": {}
+        },
+        {
+          "display": "Diversidad lingüística",
+          "value": "Diversidad lingüística",
+          "otherInformation": {}
+        },
+        {
+          "display": "Corpus lingüístico",
+          "value": "Corpus lingüístico",
+          "otherInformation": {}
+        },
+        {
+          "display": "Campos semánticos",
+          "value": "Campos semánticos",
+          "otherInformation": {}
+        },
+        {
+          "display": "Partículas discursivas",
+          "value": "Partículas discursivas",
+          "otherInformation": {}
+        },
+        {
+          "display": "Técnicas etnográficas",
+          "value": "Técnicas etnográficas",
+          "otherInformation": {}
+        },
+        {
+          "display": "Transcripción",
+          "value": "Transcripción",
+          "otherInformation": {}
+        },
+        {
+          "display": "Género gramatical",
+          "value": "Género gramatical",
+          "otherInformation": {}
+        },
+        {
+          "display": "Filología indoamericana",
+          "value": "Filología indoamericana",
+          "otherInformation": {}
+        },
+        {
+          "display": "Etnografía",
+          "value": "Etnografía",
+          "otherInformation": {}
+        }
+      ],
+      "duplicateValues": [],
+      "pagesFetched": [
+        {
+          "status": 200,
+          "url": "http://132.248.101.240:8080/server/api/submission/vocabularies/topicsPairs/entries?size=1000"
+        }
+      ]
+    },
+    "registeredLanguagePairs": {
+      "id": "registeredLanguagePairs",
+      "name": "registeredLanguagePairs",
+      "entryCount": 256,
+      "entries": [
+        {
+          "display": "Español",
+          "value": "Español",
+          "otherInformation": {}
+        },
+        {
+          "display": "Inglés",
+          "value": "Inglés",
+          "otherInformation": {}
+        },
+        {
+          "display": "Akateko",
+          "value": "Akateko",
+          "otherInformation": {}
+        },
+        {
+          "display": "Amuzgo",
+          "value": "Amuzgo",
+          "otherInformation": {}
+        },
+        {
+          "display": "Awakateko",
+          "value": "Awakateko",
+          "otherInformation": {}
+        },
+        {
+          "display": "Ayapaneco",
+          "value": "Ayapaneco",
+          "otherInformation": {}
+        },
+        {
+          "display": "Cora",
+          "value": "Cora",
+          "otherInformation": {}
+        },
+        {
+          "display": "Cucapá",
+          "value": "Cucapá",
+          "otherInformation": {}
+        },
+        {
+          "display": "Cuicateco",
+          "value": "Cuicateco",
+          "otherInformation": {}
+        },
+        {
+          "display": "Chatino",
+          "value": "Chatino",
+          "otherInformation": {}
+        },
+        {
+          "display": "Chichimeca Jonaz",
+          "value": "Chichimeca Jonaz",
+          "otherInformation": {}
+        },
+        {
+          "display": "Chinanteco",
+          "value": "Chinanteco",
+          "otherInformation": {}
+        },
+        {
+          "display": "Chocholteco",
+          "value": "Chocholteco",
+          "otherInformation": {}
+        },
+        {
+          "display": "Chontal de Oaxaca",
+          "value": "Chontal de Oaxaca",
+          "otherInformation": {}
+        },
+        {
+          "display": "Chontal de Tabasco",
+          "value": "Chontal de Tabasco",
+          "otherInformation": {}
+        },
+        {
+          "display": "Chuj",
+          "value": "Chuj",
+          "otherInformation": {}
+        },
+        {
+          "display": "Ch'ol",
+          "value": "Ch'ol",
+          "otherInformation": {}
+        },
+        {
+          "display": "Guarijío",
+          "value": "Guarijío",
+          "otherInformation": {}
+        },
+        {
+          "display": "Huasteco",
+          "value": "Huasteco",
+          "otherInformation": {}
+        },
+        {
+          "display": "Huave",
+          "value": "Huave",
+          "otherInformation": {}
+        },
+        {
+          "display": "Huichol",
+          "value": "Huichol",
+          "otherInformation": {}
+        },
+        {
+          "display": "Ixcateco",
+          "value": "Ixcateco",
+          "otherInformation": {}
+        },
+        {
+          "display": "Ixil",
+          "value": "Ixil",
+          "otherInformation": {}
+        },
+        {
+          "display": "Jakalteko",
+          "value": "Jakalteko",
+          "otherInformation": {}
+        },
+        {
+          "display": "Kaqchikel",
+          "value": "Kaqchikel",
+          "otherInformation": {}
+        },
+        {
+          "display": "Kickapoo",
+          "value": "Kickapoo",
+          "otherInformation": {}
+        },
+        {
+          "display": "Kiliwa",
+          "value": "Kiliwa",
+          "otherInformation": {}
+        },
+        {
+          "display": "Kumiai",
+          "value": "Kumiai",
+          "otherInformation": {}
+        },
+        {
+          "display": "Ku'ahl",
+          "value": "Ku'ahl",
+          "otherInformation": {}
+        },
+        {
+          "display": "K'iche'",
+          "value": "K'iche'",
+          "otherInformation": {}
+        },
+        {
+          "display": "Lacandón",
+          "value": "Lacandón",
+          "otherInformation": {}
+        },
+        {
+          "display": "Mam",
+          "value": "Mam",
+          "otherInformation": {}
+        },
+        {
+          "display": "Matlatzinca",
+          "value": "Matlatzinca",
+          "otherInformation": {}
+        },
+        {
+          "display": "Maya yucateco",
+          "value": "Maya yucateco",
+          "otherInformation": {}
+        },
+        {
+          "display": "Mayo",
+          "value": "Mayo",
+          "otherInformation": {}
+        },
+        {
+          "display": "Mazahua",
+          "value": "Mazahua",
+          "otherInformation": {}
+        },
+        {
+          "display": "Mazateco",
+          "value": "Mazateco",
+          "otherInformation": {}
+        },
+        {
+          "display": "Mixe",
+          "value": "Mixe",
+          "otherInformation": {}
+        },
+        {
+          "display": "Mixteco",
+          "value": "Mixteco",
+          "otherInformation": {}
+        },
+        {
+          "display": "Náhuatl",
+          "value": "Náhuatl",
+          "otherInformation": {}
+        },
+        {
+          "display": "Oluteco",
+          "value": "Oluteco",
+          "otherInformation": {}
+        },
+        {
+          "display": "Otomí",
+          "value": "Otomí",
+          "otherInformation": {}
+        },
+        {
+          "display": "Paipai",
+          "value": "Paipai",
+          "otherInformation": {}
+        },
+        {
+          "display": "Pame",
+          "value": "Pame",
+          "otherInformation": {}
+        },
+        {
+          "display": "Pápago (Tohono O'odham)",
+          "value": "Pápago (Tohono O'odham)",
+          "otherInformation": {}
+        },
+        {
+          "display": "Pima",
+          "value": "Pima",
+          "otherInformation": {}
+        },
+        {
+          "display": "Popoloca",
+          "value": "Popoloca",
+          "otherInformation": {}
+        },
+        {
+          "display": "Popoluca de la Sierra",
+          "value": "Popoluca de la Sierra",
+          "otherInformation": {}
+        },
+        {
+          "display": "Qato'k",
+          "value": "Qato'k",
+          "otherInformation": {}
+        },
+        {
+          "display": "Q'anjob'al",
+          "value": "Q'anjob'al",
+          "otherInformation": {}
+        },
+        {
+          "display": "Q'eqchi'",
+          "value": "Q'eqchi'",
+          "otherInformation": {}
+        },
+        {
+          "display": "Sayulteco",
+          "value": "Sayulteco",
+          "otherInformation": {}
+        },
+        {
+          "display": "Seri",
+          "value": "Seri",
+          "otherInformation": {}
+        },
+        {
+          "display": "Tarahumara",
+          "value": "Tarahumara",
+          "otherInformation": {}
+        },
+        {
+          "display": "Tarasco (Purépecha)",
+          "value": "Tarasco (Purépecha)",
+          "otherInformation": {}
+        },
+        {
+          "display": "Teko",
+          "value": "Teko",
+          "otherInformation": {}
+        },
+        {
+          "display": "Tepehua",
+          "value": "Tepehua",
+          "otherInformation": {}
+        },
+        {
+          "display": "Tepehuano del norte",
+          "value": "Tepehuano del norte",
+          "otherInformation": {}
+        },
+        {
+          "display": "Tepehuano del sur",
+          "value": "Tepehuano del sur",
+          "otherInformation": {}
+        },
+        {
+          "display": "Texistepequeño",
+          "value": "Texistepequeño",
+          "otherInformation": {}
+        },
+        {
+          "display": "Tojolabal",
+          "value": "Tojolabal",
+          "otherInformation": {}
+        },
+        {
+          "display": "Totonaco",
+          "value": "Totonaco",
+          "otherInformation": {}
+        },
+        {
+          "display": "Triqui",
+          "value": "Triqui",
+          "otherInformation": {}
+        },
+        {
+          "display": "Tlahuica",
+          "value": "Tlahuica",
+          "otherInformation": {}
+        },
+        {
+          "display": "Tlapaneco",
+          "value": "Tlapaneco",
+          "otherInformation": {}
+        },
+        {
+          "display": "Tseltal",
+          "value": "Tseltal",
+          "otherInformation": {}
+        },
+        {
+          "display": "Tsotsil",
+          "value": "Tsotsil",
+          "otherInformation": {}
+        },
+        {
+          "display": "Yaqui",
+          "value": "Yaqui",
+          "otherInformation": {}
+        },
+        {
+          "display": "Zapoteco",
+          "value": "Zapoteco",
+          "otherInformation": {}
+        },
+        {
+          "display": "Zoque",
+          "value": "Zoque",
+          "otherInformation": {}
+        },
+        {
+          "display": "P'urepecha",
+          "value": "P'urepecha",
+          "otherInformation": {}
+        },
+        {
+          "display": "Tarasco",
+          "value": "Tarasco",
+          "otherInformation": {}
+        },
+        {
+          "display": "afar",
+          "value": "afar",
+          "otherInformation": {}
+        },
+        {
+          "display": "abjasio (o abjasiano)",
+          "value": "abjasio (o abjasiano)",
+          "otherInformation": {}
+        },
+        {
+          "display": "avéstico",
+          "value": "avéstico",
+          "otherInformation": {}
+        },
+        {
+          "display": "afrikáans",
+          "value": "afrikáans",
+          "otherInformation": {}
+        },
+        {
+          "display": "akano",
+          "value": "akano",
+          "otherInformation": {}
+        },
+        {
+          "display": "amhárico",
+          "value": "amhárico",
+          "otherInformation": {}
+        },
+        {
+          "display": "aragonés",
+          "value": "aragonés",
+          "otherInformation": {}
+        },
+        {
+          "display": "árabe",
+          "value": "árabe",
+          "otherInformation": {}
+        },
+        {
+          "display": "asamés",
+          "value": "asamés",
+          "otherInformation": {}
+        },
+        {
+          "display": "avar (o ávaro)",
+          "value": "avar (o ávaro)",
+          "otherInformation": {}
+        },
+        {
+          "display": "aimara",
+          "value": "aimara",
+          "otherInformation": {}
+        },
+        {
+          "display": "azerí",
+          "value": "azerí",
+          "otherInformation": {}
+        },
+        {
+          "display": "baskir",
+          "value": "baskir",
+          "otherInformation": {}
+        },
+        {
+          "display": "bielorruso",
+          "value": "bielorruso",
+          "otherInformation": {}
+        },
+        {
+          "display": "búlgaro",
+          "value": "búlgaro",
+          "otherInformation": {}
+        },
+        {
+          "display": "bhoyapurí",
+          "value": "bhoyapurí",
+          "otherInformation": {}
+        },
+        {
+          "display": "bislama",
+          "value": "bislama",
+          "otherInformation": {}
+        },
+        {
+          "display": "bambara",
+          "value": "bambara",
+          "otherInformation": {}
+        },
+        {
+          "display": "bengalí",
+          "value": "bengalí",
+          "otherInformation": {}
+        },
+        {
+          "display": "tibetano",
+          "value": "tibetano",
+          "otherInformation": {}
+        },
+        {
+          "display": "bretón",
+          "value": "bretón",
+          "otherInformation": {}
+        },
+        {
+          "display": "bosnio",
+          "value": "bosnio",
+          "otherInformation": {}
+        },
+        {
+          "display": "catalán",
+          "value": "catalán",
+          "otherInformation": {}
+        },
+        {
+          "display": "checheno",
+          "value": "checheno",
+          "otherInformation": {}
+        },
+        {
+          "display": "chamorro",
+          "value": "chamorro",
+          "otherInformation": {}
+        },
+        {
+          "display": "corso",
+          "value": "corso",
+          "otherInformation": {}
+        },
+        {
+          "display": "cree",
+          "value": "cree",
+          "otherInformation": {}
+        },
+        {
+          "display": "checo",
+          "value": "checo",
+          "otherInformation": {}
+        },
+        {
+          "display": "eslavo eclesiástico antiguo",
+          "value": "eslavo eclesiástico antiguo",
+          "otherInformation": {}
+        },
+        {
+          "display": "chuvasio",
+          "value": "chuvasio",
+          "otherInformation": {}
+        },
+        {
+          "display": "galés",
+          "value": "galés",
+          "otherInformation": {}
+        },
+        {
+          "display": "danés",
+          "value": "danés",
+          "otherInformation": {}
+        },
+        {
+          "display": "alemán",
+          "value": "alemán",
+          "otherInformation": {}
+        },
+        {
+          "display": "maldivo (o dhivehi)",
+          "value": "maldivo (o dhivehi)",
+          "otherInformation": {}
+        },
+        {
+          "display": "dzongkha",
+          "value": "dzongkha",
+          "otherInformation": {}
+        },
+        {
+          "display": "ewé",
+          "value": "ewé",
+          "otherInformation": {}
+        },
+        {
+          "display": "griego (moderno)",
+          "value": "griego (moderno)",
+          "otherInformation": {}
+        },
+        {
+          "display": "inglés",
+          "value": "inglés",
+          "otherInformation": {}
+        },
+        {
+          "display": "esperanto",
+          "value": "esperanto",
+          "otherInformation": {}
+        },
+        {
+          "display": "español (o castellano)",
+          "value": "español (o castellano)",
+          "otherInformation": {}
+        },
+        {
+          "display": "estonio",
+          "value": "estonio",
+          "otherInformation": {}
+        },
+        {
+          "display": "euskera",
+          "value": "euskera",
+          "otherInformation": {}
+        },
+        {
+          "display": "persa (o farsi)",
+          "value": "persa (o farsi)",
+          "otherInformation": {}
+        },
+        {
+          "display": "fula",
+          "value": "fula",
+          "otherInformation": {}
+        },
+        {
+          "display": "finés (o finlandés)",
+          "value": "finés (o finlandés)",
+          "otherInformation": {}
+        },
+        {
+          "display": "fiyiano (o fiyi)",
+          "value": "fiyiano (o fiyi)",
+          "otherInformation": {}
+        },
+        {
+          "display": "feroés",
+          "value": "feroés",
+          "otherInformation": {}
+        },
+        {
+          "display": "francés",
+          "value": "francés",
+          "otherInformation": {}
+        },
+        {
+          "display": "frisón (o frisio)",
+          "value": "frisón (o frisio)",
+          "otherInformation": {}
+        },
+        {
+          "display": "irlandés (o gaélico)",
+          "value": "irlandés (o gaélico)",
+          "otherInformation": {}
+        },
+        {
+          "display": "gaélico escocés",
+          "value": "gaélico escocés",
+          "otherInformation": {}
+        },
+        {
+          "display": "gallego",
+          "value": "gallego",
+          "otherInformation": {}
+        },
+        {
+          "display": "guaraní",
+          "value": "guaraní",
+          "otherInformation": {}
+        },
+        {
+          "display": "guyaratí (o gujaratí)",
+          "value": "guyaratí (o gujaratí)",
+          "otherInformation": {}
+        },
+        {
+          "display": "manés (gaélico manés o de Isla de Man)",
+          "value": "manés (gaélico manés o de Isla de Man)",
+          "otherInformation": {}
+        },
+        {
+          "display": "hausa",
+          "value": "hausa",
+          "otherInformation": {}
+        },
+        {
+          "display": "hebreo",
+          "value": "hebreo",
+          "otherInformation": {}
+        },
+        {
+          "display": "hindi (o hindú)",
+          "value": "hindi (o hindú)",
+          "otherInformation": {}
+        },
+        {
+          "display": "hiri motu",
+          "value": "hiri motu",
+          "otherInformation": {}
+        },
+        {
+          "display": "croata",
+          "value": "croata",
+          "otherInformation": {}
+        },
+        {
+          "display": "haitiano",
+          "value": "haitiano",
+          "otherInformation": {}
+        },
+        {
+          "display": "húngaro",
+          "value": "húngaro",
+          "otherInformation": {}
+        },
+        {
+          "display": "armenio",
+          "value": "armenio",
+          "otherInformation": {}
+        },
+        {
+          "display": "herero",
+          "value": "herero",
+          "otherInformation": {}
+        },
+        {
+          "display": "interlingua",
+          "value": "interlingua",
+          "otherInformation": {}
+        },
+        {
+          "display": "indonesio",
+          "value": "indonesio",
+          "otherInformation": {}
+        },
+        {
+          "display": "occidental",
+          "value": "occidental",
+          "otherInformation": {}
+        },
+        {
+          "display": "igbo",
+          "value": "igbo",
+          "otherInformation": {}
+        },
+        {
+          "display": "yi de Sichuán",
+          "value": "yi de Sichuán",
+          "otherInformation": {}
+        },
+        {
+          "display": "iñupiaq",
+          "value": "iñupiaq",
+          "otherInformation": {}
+        },
+        {
+          "display": "ido",
+          "value": "ido",
+          "otherInformation": {}
+        },
+        {
+          "display": "islandés",
+          "value": "islandés",
+          "otherInformation": {}
+        },
+        {
+          "display": "italiano",
+          "value": "italiano",
+          "otherInformation": {}
+        },
+        {
+          "display": "inuktitut (o inuit)",
+          "value": "inuktitut (o inuit)",
+          "otherInformation": {}
+        },
+        {
+          "display": "japonés",
+          "value": "japonés",
+          "otherInformation": {}
+        },
+        {
+          "display": "javanés",
+          "value": "javanés",
+          "otherInformation": {}
+        },
+        {
+          "display": "georgiano",
+          "value": "georgiano",
+          "otherInformation": {}
+        },
+        {
+          "display": "kongo (o kikongo)",
+          "value": "kongo (o kikongo)",
+          "otherInformation": {}
+        },
+        {
+          "display": "kikuyu",
+          "value": "kikuyu",
+          "otherInformation": {}
+        },
+        {
+          "display": "kuanyama",
+          "value": "kuanyama",
+          "otherInformation": {}
+        },
+        {
+          "display": "kazajo (o kazajio)",
+          "value": "kazajo (o kazajio)",
+          "otherInformation": {}
+        },
+        {
+          "display": "groenlandés (o kalaallisut)",
+          "value": "groenlandés (o kalaallisut)",
+          "otherInformation": {}
+        },
+        {
+          "display": "camboyano (o jemer)",
+          "value": "camboyano (o jemer)",
+          "otherInformation": {}
+        },
+        {
+          "display": "canarés",
+          "value": "canarés",
+          "otherInformation": {}
+        },
+        {
+          "display": "coreano",
+          "value": "coreano",
+          "otherInformation": {}
+        },
+        {
+          "display": "kanuri",
+          "value": "kanuri",
+          "otherInformation": {}
+        },
+        {
+          "display": "cachemiro (o cachemir)",
+          "value": "cachemiro (o cachemir)",
+          "otherInformation": {}
+        },
+        {
+          "display": "kurdo",
+          "value": "kurdo",
+          "otherInformation": {}
+        },
+        {
+          "display": "komi",
+          "value": "komi",
+          "otherInformation": {}
+        },
+        {
+          "display": "córnico",
+          "value": "córnico",
+          "otherInformation": {}
+        },
+        {
+          "display": "kirguís",
+          "value": "kirguís",
+          "otherInformation": {}
+        },
+        {
+          "display": "latín",
+          "value": "latín",
+          "otherInformation": {}
+        },
+        {
+          "display": "luxemburgués",
+          "value": "luxemburgués",
+          "otherInformation": {}
+        },
+        {
+          "display": "luganda",
+          "value": "luganda",
+          "otherInformation": {}
+        },
+        {
+          "display": "limburgués",
+          "value": "limburgués",
+          "otherInformation": {}
+        },
+        {
+          "display": "lingala",
+          "value": "lingala",
+          "otherInformation": {}
+        },
+        {
+          "display": "lao",
+          "value": "lao",
+          "otherInformation": {}
+        },
+        {
+          "display": "lituano",
+          "value": "lituano",
+          "otherInformation": {}
+        },
+        {
+          "display": "luba-katanga (o chiluba)",
+          "value": "luba-katanga (o chiluba)",
+          "otherInformation": {}
+        },
+        {
+          "display": "letón",
+          "value": "letón",
+          "otherInformation": {}
+        },
+        {
+          "display": "malgache (o malagasy)",
+          "value": "malgache (o malagasy)",
+          "otherInformation": {}
+        },
+        {
+          "display": "marshalés",
+          "value": "marshalés",
+          "otherInformation": {}
+        },
+        {
+          "display": "maorí",
+          "value": "maorí",
+          "otherInformation": {}
+        },
+        {
+          "display": "macedonio",
+          "value": "macedonio",
+          "otherInformation": {}
+        },
+        {
+          "display": "malayalam",
+          "value": "malayalam",
+          "otherInformation": {}
+        },
+        {
+          "display": "mongol",
+          "value": "mongol",
+          "otherInformation": {}
+        },
+        {
+          "display": "maratí",
+          "value": "maratí",
+          "otherInformation": {}
+        },
+        {
+          "display": "malayo",
+          "value": "malayo",
+          "otherInformation": {}
+        },
+        {
+          "display": "maltés",
+          "value": "maltés",
+          "otherInformation": {}
+        },
+        {
+          "display": "birmano",
+          "value": "birmano",
+          "otherInformation": {}
+        },
+        {
+          "display": "nauruano",
+          "value": "nauruano",
+          "otherInformation": {}
+        },
+        {
+          "display": "noruego bokmål",
+          "value": "noruego bokmål",
+          "otherInformation": {}
+        },
+        {
+          "display": "ndebele del norte",
+          "value": "ndebele del norte",
+          "otherInformation": {}
+        },
+        {
+          "display": "nepalí",
+          "value": "nepalí",
+          "otherInformation": {}
+        },
+        {
+          "display": "ndonga",
+          "value": "ndonga",
+          "otherInformation": {}
+        },
+        {
+          "display": "neerlandés (u holandés)",
+          "value": "neerlandés (u holandés)",
+          "otherInformation": {}
+        },
+        {
+          "display": "nynorsk",
+          "value": "nynorsk",
+          "otherInformation": {}
+        },
+        {
+          "display": "noruego",
+          "value": "noruego",
+          "otherInformation": {}
+        },
+        {
+          "display": "ndebele del sur",
+          "value": "ndebele del sur",
+          "otherInformation": {}
+        },
+        {
+          "display": "navajo",
+          "value": "navajo",
+          "otherInformation": {}
+        },
+        {
+          "display": "chichewa",
+          "value": "chichewa",
+          "otherInformation": {}
+        },
+        {
+          "display": "occitano",
+          "value": "occitano",
+          "otherInformation": {}
+        },
+        {
+          "display": "ojibwa",
+          "value": "ojibwa",
+          "otherInformation": {}
+        },
+        {
+          "display": "oromo",
+          "value": "oromo",
+          "otherInformation": {}
+        },
+        {
+          "display": "oriya",
+          "value": "oriya",
+          "otherInformation": {}
+        },
+        {
+          "display": "osético (u osetio, u oseta)",
+          "value": "osético (u osetio, u oseta)",
+          "otherInformation": {}
+        },
+        {
+          "display": "panyabí (o penyabi)",
+          "value": "panyabí (o penyabi)",
+          "otherInformation": {}
+        },
+        {
+          "display": "pali",
+          "value": "pali",
+          "otherInformation": {}
+        },
+        {
+          "display": "polaco",
+          "value": "polaco",
+          "otherInformation": {}
+        },
+        {
+          "display": "pastú (o pastún, o pashto)",
+          "value": "pastú (o pastún, o pashto)",
+          "otherInformation": {}
+        },
+        {
+          "display": "portugués",
+          "value": "portugués",
+          "otherInformation": {}
+        },
+        {
+          "display": "quechua",
+          "value": "quechua",
+          "otherInformation": {}
+        },
+        {
+          "display": "romanche",
+          "value": "romanche",
+          "otherInformation": {}
+        },
+        {
+          "display": "kirundi",
+          "value": "kirundi",
+          "otherInformation": {}
+        },
+        {
+          "display": "rumano",
+          "value": "rumano",
+          "otherInformation": {}
+        },
+        {
+          "display": "ruso",
+          "value": "ruso",
+          "otherInformation": {}
+        },
+        {
+          "display": "ruandés (o kiñaruanda)",
+          "value": "ruandés (o kiñaruanda)",
+          "otherInformation": {}
+        },
+        {
+          "display": "sánscrito",
+          "value": "sánscrito",
+          "otherInformation": {}
+        },
+        {
+          "display": "sardo",
+          "value": "sardo",
+          "otherInformation": {}
+        },
+        {
+          "display": "sindhi",
+          "value": "sindhi",
+          "otherInformation": {}
+        },
+        {
+          "display": "sami septentrional",
+          "value": "sami septentrional",
+          "otherInformation": {}
+        },
+        {
+          "display": "sango",
+          "value": "sango",
+          "otherInformation": {}
+        },
+        {
+          "display": "cingalés",
+          "value": "cingalés",
+          "otherInformation": {}
+        },
+        {
+          "display": "eslovaco",
+          "value": "eslovaco",
+          "otherInformation": {}
+        },
+        {
+          "display": "esloveno",
+          "value": "esloveno",
+          "otherInformation": {}
+        },
+        {
+          "display": "samoano",
+          "value": "samoano",
+          "otherInformation": {}
+        },
+        {
+          "display": "shona",
+          "value": "shona",
+          "otherInformation": {}
+        },
+        {
+          "display": "somalí",
+          "value": "somalí",
+          "otherInformation": {}
+        },
+        {
+          "display": "albanés",
+          "value": "albanés",
+          "otherInformation": {}
+        },
+        {
+          "display": "serbio",
+          "value": "serbio",
+          "otherInformation": {}
+        },
+        {
+          "display": "suazi (o swati, o siSwati)",
+          "value": "suazi (o swati, o siSwati)",
+          "otherInformation": {}
+        },
+        {
+          "display": "sesotho",
+          "value": "sesotho",
+          "otherInformation": {}
+        },
+        {
+          "display": "sundanés (o sondanés)",
+          "value": "sundanés (o sondanés)",
+          "otherInformation": {}
+        },
+        {
+          "display": "sueco",
+          "value": "sueco",
+          "otherInformation": {}
+        },
+        {
+          "display": "suajili",
+          "value": "suajili",
+          "otherInformation": {}
+        },
+        {
+          "display": "tamil",
+          "value": "tamil",
+          "otherInformation": {}
+        },
+        {
+          "display": "télugu",
+          "value": "télugu",
+          "otherInformation": {}
+        },
+        {
+          "display": "tayiko",
+          "value": "tayiko",
+          "otherInformation": {}
+        },
+        {
+          "display": "tailandés",
+          "value": "tailandés",
+          "otherInformation": {}
+        },
+        {
+          "display": "tigriña",
+          "value": "tigriña",
+          "otherInformation": {}
+        },
+        {
+          "display": "turcomano",
+          "value": "turcomano",
+          "otherInformation": {}
+        },
+        {
+          "display": "tagalo",
+          "value": "tagalo",
+          "otherInformation": {}
+        },
+        {
+          "display": "setsuana",
+          "value": "setsuana",
+          "otherInformation": {}
+        },
+        {
+          "display": "tongano",
+          "value": "tongano",
+          "otherInformation": {}
+        },
+        {
+          "display": "turco",
+          "value": "turco",
+          "otherInformation": {}
+        },
+        {
+          "display": "tsonga",
+          "value": "tsonga",
+          "otherInformation": {}
+        },
+        {
+          "display": "tártaro",
+          "value": "tártaro",
+          "otherInformation": {}
+        },
+        {
+          "display": "twi",
+          "value": "twi",
+          "otherInformation": {}
+        },
+        {
+          "display": "tahitiano",
+          "value": "tahitiano",
+          "otherInformation": {}
+        },
+        {
+          "display": "uigur",
+          "value": "uigur",
+          "otherInformation": {}
+        },
+        {
+          "display": "ucraniano",
+          "value": "ucraniano",
+          "otherInformation": {}
+        },
+        {
+          "display": "urdu",
+          "value": "urdu",
+          "otherInformation": {}
+        },
+        {
+          "display": "uzbeko",
+          "value": "uzbeko",
+          "otherInformation": {}
+        },
+        {
+          "display": "venda",
+          "value": "venda",
+          "otherInformation": {}
+        },
+        {
+          "display": "vietnamita",
+          "value": "vietnamita",
+          "otherInformation": {}
+        },
+        {
+          "display": "volapük",
+          "value": "volapük",
+          "otherInformation": {}
+        },
+        {
+          "display": "valón",
+          "value": "valón",
+          "otherInformation": {}
+        },
+        {
+          "display": "wolof",
+          "value": "wolof",
+          "otherInformation": {}
+        },
+        {
+          "display": "xhosa",
+          "value": "xhosa",
+          "otherInformation": {}
+        },
+        {
+          "display": "yídish (o yidis, o yiddish)",
+          "value": "yídish (o yidis, o yiddish)",
+          "otherInformation": {}
+        },
+        {
+          "display": "yoruba",
+          "value": "yoruba",
+          "otherInformation": {}
+        },
+        {
+          "display": "chuan (o chuang, o zhuang)",
+          "value": "chuan (o chuang, o zhuang)",
+          "otherInformation": {}
+        },
+        {
+          "display": "chino",
+          "value": "chino",
+          "otherInformation": {}
+        },
+        {
+          "display": "zulú",
+          "value": "zulú",
+          "otherInformation": {}
+        }
+      ],
+      "duplicateValues": [],
+      "pagesFetched": [
+        {
+          "status": 200,
+          "url": "http://132.248.101.240:8080/server/api/submission/vocabularies/registeredLanguagePairs/entries?size=1000"
+        }
+      ]
+    },
+    "srsc": {
+      "id": "srsc",
+      "name": "srsc",
+      "entryCount": null,
+      "entries": [],
+      "error": "GET falló (422): http://132.248.101.240:8080/server/api/submission/vocabularies/srsc/entries?size=1000"
+    },
+    "openaire_organization_types": {
+      "id": "openaire_organization_types",
+      "name": "openaire_organization_types",
+      "entryCount": 2,
+      "entries": [
+        {
+          "display": "N/A",
+          "value": "",
+          "otherInformation": {}
+        },
+        {
+          "display": "Is a Funding Organization",
+          "value": "FundingOrganization",
+          "otherInformation": {}
+        }
+      ],
+      "duplicateValues": [],
+      "pagesFetched": [
+        {
+          "status": 200,
+          "url": "http://132.248.101.240:8080/server/api/submission/vocabularies/openaire_organization_types/entries?size=1000"
+        }
+      ]
+    },
+    "mediumPairs": {
+      "id": "mediumPairs",
+      "name": "mediumPairs",
+      "entryCount": 4,
+      "entries": [
+        {
+          "display": "Impreso",
+          "value": "Impreso",
+          "otherInformation": {}
+        },
+        {
+          "display": "Digital",
+          "value": "Digital",
+          "otherInformation": {}
+        },
+        {
+          "display": "Audiovisual",
+          "value": "Audiovisual",
+          "otherInformation": {}
+        },
+        {
+          "display": "Sonoro",
+          "value": "Sonoro",
+          "otherInformation": {}
+        }
+      ],
+      "duplicateValues": [],
+      "pagesFetched": [
+        {
+          "status": 200,
+          "url": "http://132.248.101.240:8080/server/api/submission/vocabularies/mediumPairs/entries?size=1000"
+        }
+      ]
+    },
+    "licensePairs": {
+      "id": "licensePairs",
+      "name": "licensePairs",
+      "entryCount": 13,
+      "entries": [
+        {
+          "display": "Creative Commons",
+          "value": "Creative Commons",
+          "otherInformation": {}
+        },
+        {
+          "display": "Dominio público",
+          "value": "Dominio público",
+          "otherInformation": {}
+        },
+        {
+          "display": "Atribución 4.0 Internacional. https://creativecommons.org/licenses/by/4.0/",
+          "value": "Atribución 4.0 Internacional. https://creativecommons.org/licenses/by/4.0/",
+          "otherInformation": {}
+        },
+        {
+          "display": "Atribución-CompartirIgual 4.0 Internacional. https://creativecommons.org/licenses/by-sa/4.0/",
+          "value": "Atribución-CompartirIgual 4.0 Internacional. https://creativecommons.org/licenses/by-sa/4.0/",
+          "otherInformation": {}
+        },
+        {
+          "display": "Atribución-NoComercial 4.0 Internacional. https://creativecommons.org/licenses/by-nc/4.0/",
+          "value": "Atribución-NoComercial 4.0 Internacional. https://creativecommons.org/licenses/by-nc/4.0/",
+          "otherInformation": {}
+        },
+        {
+          "display": "Atribución-NoComercial-CompartirIgual 4.0 Internacional. https://creativecommons.org/licenses/by-nc-sa/4.0/",
+          "value": "Atribución-NoComercial-CompartirIgual 4.0 Internacional. https://creativecommons.org/licenses/by-nc-sa/4.0/",
+          "otherInformation": {}
+        },
+        {
+          "display": "Atribución-SinDerivadas 4.0 Internacional. https://creativecommons.org/licenses/by-nd/4.0/",
+          "value": "Atribución-SinDerivadas 4.0 Internacional. https://creativecommons.org/licenses/by-nd/4.0/",
+          "otherInformation": {}
+        },
+        {
+          "display": "Atribución-NoComercial-SinDerivadas 4.0 Internacional. https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "value": "Atribución-NoComercial-SinDerivadas 4.0 Internacional. https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "otherInformation": {}
+        },
+        {
+          "display": "CC0 1.0 Universal. https://creativecommons.org/publicdomain/zero/1.0/",
+          "value": "CC0 1.0 Universal. https://creativecommons.org/publicdomain/zero/1.0/",
+          "otherInformation": {}
+        },
+        {
+          "display": "Reconocimiento-Uso no Comercial-Sin Obras Derivadas 2.5 (Perú)",
+          "value": "Reconocimiento-Uso no Comercial-Sin Obras Derivadas 2.5 (Perú) https://creativecommons.org/licenses/by-nc-nd/2.5/pe/",
+          "otherInformation": {}
+        },
+        {
+          "display": "Autorisation HAL v1",
+          "value": "Autorisation HAL v1 https://about.hal.science/hal-authorisation-v1/#autorisation-hal-v1",
+          "otherInformation": {}
+        },
+        {
+          "display": "Copyright/Todos los derechos reservados",
+          "value": "Copyright/Todos los derechos reservados",
+          "otherInformation": {}
+        },
+        {
+          "display": "Copyleft",
+          "value": "Copyleft",
+          "otherInformation": {}
+        }
+      ],
+      "duplicateValues": [],
+      "pagesFetched": [
+        {
+          "status": 200,
+          "url": "http://132.248.101.240:8080/server/api/submission/vocabularies/licensePairs/entries?size=1000"
+        }
+      ]
+    },
+    "common_iso_languages": {
+      "id": "common_iso_languages",
+      "name": "common_iso_languages",
+      "entryCount": 12,
+      "entries": [
+        {
+          "display": "N/A",
+          "value": "",
+          "otherInformation": {}
+        },
+        {
+          "display": "English (United States)",
+          "value": "en_US",
+          "otherInformation": {}
+        },
+        {
+          "display": "English",
+          "value": "en",
+          "otherInformation": {}
+        },
+        {
+          "display": "Spanish",
+          "value": "es",
+          "otherInformation": {}
+        },
+        {
+          "display": "German",
+          "value": "de",
+          "otherInformation": {}
+        },
+        {
+          "display": "French",
+          "value": "fr",
+          "otherInformation": {}
+        },
+        {
+          "display": "Italian",
+          "value": "it",
+          "otherInformation": {}
+        },
+        {
+          "display": "Japanese",
+          "value": "ja",
+          "otherInformation": {}
+        },
+        {
+          "display": "Chinese",
+          "value": "zh",
+          "otherInformation": {}
+        },
+        {
+          "display": "Portuguese",
+          "value": "pt",
+          "otherInformation": {}
+        },
+        {
+          "display": "Turkish",
+          "value": "tr",
+          "otherInformation": {}
+        },
+        {
+          "display": "(Other)",
+          "value": "other",
+          "otherInformation": {}
+        }
+      ],
+      "duplicateValues": [],
+      "pagesFetched": [
+        {
+          "status": 200,
+          "url": "http://132.248.101.240:8080/server/api/submission/vocabularies/common_iso_languages/entries?size=1000"
+        }
+      ]
+    },
+    "openaire_version_types": {
+      "id": "openaire_version_types",
+      "name": "openaire_version_types",
+      "entryCount": 8,
+      "entries": [
+        {
+          "display": "Author’s Original",
+          "value": "http://purl.org/coar/version/c_b1a7d7d4d402bcce",
+          "otherInformation": {}
+        },
+        {
+          "display": "Submitted Manuscript Under Review",
+          "value": "http://purl.org/coar/version/c_71e4c1898caa6e32",
+          "otherInformation": {}
+        },
+        {
+          "display": "Accepted Manuscript",
+          "value": "http://purl.org/coar/version/c_ab4af688f83e57aa",
+          "otherInformation": {}
+        },
+        {
+          "display": "Proof",
+          "value": "http://purl.org/coar/version/c_fa2ee174bc00049f",
+          "otherInformation": {}
+        },
+        {
+          "display": "Version of Record",
+          "value": "http://purl.org/coar/version/c_970fb48d4fbd8a85",
+          "otherInformation": {}
+        },
+        {
+          "display": "Corrected Version of Record",
+          "value": "http://purl.org/coar/version/c_e19f295774971610",
+          "otherInformation": {}
+        },
+        {
+          "display": "Enhanced Version of Record",
+          "value": "http://purl.org/coar/version/c_dc82b40f9837b551",
+          "otherInformation": {}
+        },
+        {
+          "display": "Not Applicable (or Unknown)",
+          "value": "http://purl.org/coar/version/c_be7fb7dd8ff6fe43",
+          "otherInformation": {}
+        }
+      ],
+      "duplicateValues": [],
+      "pagesFetched": [
+        {
+          "status": 200,
+          "url": "http://132.248.101.240:8080/server/api/submission/vocabularies/openaire_version_types/entries?size=1000"
+        }
+      ]
+    }
+  },
+  "qa": {
+    "allTargetFieldsRegistered": true,
+    "allTargetFieldsBoundToForms": true,
+    "allTargetFieldVocabulariesClosed": true,
+    "identicalVocabularyPairs": [],
+    "vocabulariesWithDuplicateValues": {
+      "linguisticFamilyPairs": [
+        "Indoeuropeo",
+        "Álgica"
+      ],
+      "openaire_types": [
+        "website"
+      ]
+    }
+  },
+  "extraction": {
+    "metadataFieldPages": [
+      {
+        "status": 200,
+        "url": "http://132.248.101.240:8080/server/api/core/metadatafields?size=1000"
+      }
+    ],
+    "submissionFormPages": [
+      {
+        "status": 200,
+        "url": "http://132.248.101.240:8080/server/api/config/submissionforms?size=1000"
+      }
+    ],
+    "vocabularyPages": [
+      {
+        "status": 200,
+        "url": "http://132.248.101.240:8080/server/api/submission/vocabularies?size=1000"
+      }
+    ]
+  }
+}

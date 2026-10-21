@@ -1,0 +1,108 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:VR151702",
+      "display" : "Molecular biology",
+      "value" : "NATURAL SCIENCES::Chemistry::Biochemistry::Molecular biology",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Chemistry::Biochemistry",
+        "note" : "Molekylärbiologi",
+        "hasChildren" : "false",
+        "id" : "VR151702"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR151702/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR151702/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR151702"
+        }
+      }
+    }, {
+      "id" : "srsc:VR151703",
+      "display" : "Toxicology",
+      "value" : "NATURAL SCIENCES::Chemistry::Biochemistry::Toxicology",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Chemistry::Biochemistry",
+        "note" : "Toxikologi",
+        "hasChildren" : "false",
+        "id" : "VR151703"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR151703/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR151703/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR151703"
+        }
+      }
+    }, {
+      "id" : "srsc:VR151704",
+      "display" : "Structural biology",
+      "value" : "NATURAL SCIENCES::Chemistry::Biochemistry::Structural biology",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Chemistry::Biochemistry",
+        "note" : "Strukturbiologi",
+        "hasChildren" : "false",
+        "id" : "VR151704"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR151704/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR151704/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR151704"
+        }
+      }
+    }, {
+      "id" : "srsc:VR151705",
+      "display" : "Functional genomics",
+      "value" : "NATURAL SCIENCES::Chemistry::Biochemistry::Functional genomics",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Chemistry::Biochemistry",
+        "note" : "Funktionsgenomik",
+        "hasChildren" : "false",
+        "id" : "VR151705"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR151705/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR151705/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR151705"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 4
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1517/children?page=0&size=100"
+    }
+  }
+}
