@@ -1,0 +1,108 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:VR186101",
+      "display" : "Biochemistry",
+      "value" : "MEDICINE::Chemistry::Biochemistry",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Chemistry",
+        "note" : "Biokemi",
+        "hasChildren" : "false",
+        "id" : "VR186101"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR186101/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR186101/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR186101"
+        }
+      }
+    }, {
+      "id" : "srsc:VR186102",
+      "display" : "Clinical chemistry",
+      "value" : "MEDICINE::Chemistry::Clinical chemistry",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Chemistry",
+        "note" : "Klinisk kemi",
+        "hasChildren" : "false",
+        "id" : "VR186102"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR186102/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR186102/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR186102"
+        }
+      }
+    }, {
+      "id" : "srsc:VR186103",
+      "display" : "Neurochemistry",
+      "value" : "MEDICINE::Chemistry::Neurochemistry",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Chemistry",
+        "note" : "Neurokemi",
+        "hasChildren" : "false",
+        "id" : "VR186103"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR186103/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR186103/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR186103"
+        }
+      }
+    }, {
+      "id" : "srsc:VR186104",
+      "display" : "Forensic chemistry",
+      "value" : "MEDICINE::Chemistry::Forensic chemistry",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Chemistry",
+        "note" : "Rättskemi",
+        "hasChildren" : "false",
+        "id" : "VR186104"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR186104/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR186104/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR186104"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 4
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB186/children?page=0&size=100"
+    }
+  }
+}

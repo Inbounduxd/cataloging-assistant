@@ -1,0 +1,14 @@
+{
+  "goldenRecord": "GR21",
+  "recordId": 2716,
+  "title": "Linguistic relevance for indexing",
+  "status": "PILOT_ACCEPTED",
+  "purpose": "Regression fixture distinguishing primary subject languages from secondary mentions.",
+  "source": "https://balaju.uv.mx/index.php/balaju/article/view/2716",
+  "expectedRules": [
+    "LINGUISTIC_RELEVANCE_CLASSIFICATION"
+  ],
+  "mustNever": [
+    "Map every language mention automatically to dc.subject.linguiscgroup."
+  ]
+}

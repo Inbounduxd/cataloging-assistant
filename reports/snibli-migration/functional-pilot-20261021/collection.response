@@ -1,0 +1,69 @@
+{
+  "id" : "2b1a6e73-92d4-45e4-970d-6186d8c895fe",
+  "uuid" : "2b1a6e73-92d4-45e4-970d-6186d8c895fe",
+  "name" : "Lingüística p'uhrépecha",
+  "handle" : "123456789/137",
+  "metadata" : {
+    "dc.identifier.uri" : [ {
+      "value" : "http://132.248.101.240:4000/handle/123456789/137",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.title" : [ {
+      "value" : "Lingüística p'uhrépecha",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ]
+  },
+  "archivedItemsCount" : -1,
+  "type" : "collection",
+  "_links" : {
+    "harvester" : {
+      "href" : "https://www.iifl.unam.mx/server/api/core/collections/2b1a6e73-92d4-45e4-970d-6186d8c895fe/harvester"
+    },
+    "itemtemplate" : {
+      "href" : "https://www.iifl.unam.mx/server/api/core/collections/2b1a6e73-92d4-45e4-970d-6186d8c895fe/itemtemplate"
+    },
+    "license" : {
+      "href" : "https://www.iifl.unam.mx/server/api/core/collections/2b1a6e73-92d4-45e4-970d-6186d8c895fe/license"
+    },
+    "logo" : {
+      "href" : "https://www.iifl.unam.mx/server/api/core/collections/2b1a6e73-92d4-45e4-970d-6186d8c895fe/logo"
+    },
+    "mappedItems" : {
+      "href" : "https://www.iifl.unam.mx/server/api/core/collections/2b1a6e73-92d4-45e4-970d-6186d8c895fe/mappedItems"
+    },
+    "parentCommunity" : {
+      "href" : "https://www.iifl.unam.mx/server/api/core/collections/2b1a6e73-92d4-45e4-970d-6186d8c895fe/parentCommunity"
+    },
+    "adminGroup" : {
+      "href" : "https://www.iifl.unam.mx/server/api/core/collections/2b1a6e73-92d4-45e4-970d-6186d8c895fe/adminGroup"
+    },
+    "submittersGroup" : {
+      "href" : "https://www.iifl.unam.mx/server/api/core/collections/2b1a6e73-92d4-45e4-970d-6186d8c895fe/submittersGroup"
+    },
+    "itemReadGroup" : {
+      "href" : "https://www.iifl.unam.mx/server/api/core/collections/2b1a6e73-92d4-45e4-970d-6186d8c895fe/itemReadGroup"
+    },
+    "bitstreamReadGroup" : {
+      "href" : "https://www.iifl.unam.mx/server/api/core/collections/2b1a6e73-92d4-45e4-970d-6186d8c895fe/bitstreamReadGroup"
+    },
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/core/collections/2b1a6e73-92d4-45e4-970d-6186d8c895fe"
+    },
+    "workflowGroups" : [ {
+      "href" : "https://www.iifl.unam.mx/server/api/core/collections/2b1a6e73-92d4-45e4-970d-6186d8c895fe/workflowGroups/reviewer",
+      "name" : "reviewer"
+    }, {
+      "href" : "https://www.iifl.unam.mx/server/api/core/collections/2b1a6e73-92d4-45e4-970d-6186d8c895fe/workflowGroups/editor",
+      "name" : "editor"
+    }, {
+      "href" : "https://www.iifl.unam.mx/server/api/core/collections/2b1a6e73-92d4-45e4-970d-6186d8c895fe/workflowGroups/finaleditor",
+      "name" : "finaleditor"
+    } ]
+  }
+}

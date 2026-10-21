@@ -1,0 +1,62 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:VR181302",
+      "display" : "Forensic medicine",
+      "value" : "MEDICINE::Morphology, cell biology, pathology::Pathology::Forensic medicine",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Morphology, cell biology, pathology::Pathology",
+        "note" : "Rättsmedicin",
+        "hasChildren" : "false",
+        "id" : "VR181302"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR181302/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR181302/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR181302"
+        }
+      }
+    }, {
+      "id" : "srsc:VR181303",
+      "display" : "Molecular medicine",
+      "value" : "MEDICINE::Morphology, cell biology, pathology::Pathology::Molecular medicine",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Morphology, cell biology, pathology::Pathology",
+        "note" : "Molekylär medicin",
+        "hasChildren" : "false",
+        "id" : "VR181303"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR181303/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR181303/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR181303"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 2
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1813/children?page=0&size=100"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "endpoint": "https://www.iifl.unam.mx/server/api/core/items/ba2d355b-a2de-4c29-8fbf-0c9c335c6452",
+  "redirects": [
+    {
+      "url": "https://www.iifl.unam.mx/server/api/core/items/ba2d355b-a2de-4c29-8fbf-0c9c335c6452",
+      "status": 200
+    }
+  ],
+  "http_status": 200,
+  "content_type": "application/hal+json;charset=UTF-8"
+}

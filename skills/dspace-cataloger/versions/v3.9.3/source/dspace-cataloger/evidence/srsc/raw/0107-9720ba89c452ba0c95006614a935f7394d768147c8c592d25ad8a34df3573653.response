@@ -1,0 +1,62 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:VR165501",
+      "display" : "Mechanical energy engineering",
+      "value" : "TECHNOLOGY::Engineering mechanics::Mechanical and thermal engineering::Mechanical energy engineering",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY::Engineering mechanics::Mechanical and thermal engineering",
+        "note" : "Mekanisk energiteknik",
+        "hasChildren" : "false",
+        "id" : "VR165501"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR165501/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR165501/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR165501"
+        }
+      }
+    }, {
+      "id" : "srsc:VR165502",
+      "display" : "Thermal energy engineering",
+      "value" : "TECHNOLOGY::Engineering mechanics::Mechanical and thermal engineering::Thermal energy engineering",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY::Engineering mechanics::Mechanical and thermal engineering",
+        "note" : "Termisk energiteknik",
+        "hasChildren" : "false",
+        "id" : "VR165502"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR165502/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR165502/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR165502"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 2
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1655/children?page=0&size=100"
+    }
+  }
+}

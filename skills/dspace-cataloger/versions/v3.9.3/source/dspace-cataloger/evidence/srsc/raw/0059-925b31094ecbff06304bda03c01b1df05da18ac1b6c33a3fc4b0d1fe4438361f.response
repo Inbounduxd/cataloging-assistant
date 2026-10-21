@@ -1,0 +1,177 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:VR111201",
+      "display" : "Archaeology",
+      "value" : "HUMANITIES and RELIGION::History and philosophy subjects::Archaeology subjects::Archaeology",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::History and philosophy subjects::Archaeology subjects",
+        "note" : "Arkeologi",
+        "hasChildren" : "false",
+        "id" : "VR111201"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR111201/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR111201/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR111201"
+        }
+      }
+    }, {
+      "id" : "srsc:VR111202",
+      "display" : "Archaeology, classical",
+      "value" : "HUMANITIES and RELIGION::History and philosophy subjects::Archaeology subjects::Archaeology, classical",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::History and philosophy subjects::Archaeology subjects",
+        "note" : "Arkeologi, klassisk",
+        "hasChildren" : "false",
+        "id" : "VR111202"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR111202/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR111202/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR111202"
+        }
+      }
+    }, {
+      "id" : "srsc:VR111203",
+      "display" : "Archaeology, medieval",
+      "value" : "HUMANITIES and RELIGION::History and philosophy subjects::Archaeology subjects::Archaeology, medieval",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::History and philosophy subjects::Archaeology subjects",
+        "note" : "Arkeologi, medeltid",
+        "hasChildren" : "false",
+        "id" : "VR111203"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR111203/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR111203/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR111203"
+        }
+      }
+    }, {
+      "id" : "srsc:VR111204",
+      "display" : "Archaeology, North European",
+      "value" : "HUMANITIES and RELIGION::History and philosophy subjects::Archaeology subjects::Archaeology, North European",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::History and philosophy subjects::Archaeology subjects",
+        "note" : "Arkeologi, nordeuropeisk",
+        "hasChildren" : "false",
+        "id" : "VR111204"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR111204/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR111204/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR111204"
+        }
+      }
+    }, {
+      "id" : "srsc:VR111205",
+      "display" : "Archaeology, Non-European",
+      "value" : "HUMANITIES and RELIGION::History and philosophy subjects::Archaeology subjects::Archaeology, Non-European",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::History and philosophy subjects::Archaeology subjects",
+        "note" : "Arkeologi, utomeuropeisk",
+        "hasChildren" : "false",
+        "id" : "VR111205"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR111205/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR111205/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR111205"
+        }
+      }
+    }, {
+      "id" : "srsc:VR111206",
+      "display" : "African and comparative archaelogy",
+      "value" : "HUMANITIES and RELIGION::History and philosophy subjects::Archaeology subjects::African and comparative archaelogy",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::History and philosophy subjects::Archaeology subjects",
+        "note" : "Afrikansk och jämförande arkeologi",
+        "hasChildren" : "false",
+        "id" : "VR111206"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR111206/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR111206/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR111206"
+        }
+      }
+    }, {
+      "id" : "srsc:VR111207",
+      "display" : "Historical osteology",
+      "value" : "HUMANITIES and RELIGION::History and philosophy subjects::Archaeology subjects::Historical osteology",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::History and philosophy subjects::Archaeology subjects",
+        "note" : "Historisk osteologi",
+        "hasChildren" : "false",
+        "id" : "VR111207"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR111207/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR111207/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR111207"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 7
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1112/children?page=0&size=100"
+    }
+  }
+}

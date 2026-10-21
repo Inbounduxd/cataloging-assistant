@@ -1,0 +1,108 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:VR180101",
+      "display" : "Anaesthetics",
+      "value" : "MEDICINE::Surgery::Anaesthetics and intensive care::Anaesthetics",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Surgery::Anaesthetics and intensive care",
+        "note" : "Anestesiologi",
+        "hasChildren" : "false",
+        "id" : "VR180101"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR180101/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR180101/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR180101"
+        }
+      }
+    }, {
+      "id" : "srsc:VR180102",
+      "display" : "Intensive care",
+      "value" : "MEDICINE::Surgery::Anaesthetics and intensive care::Intensive care",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Surgery::Anaesthetics and intensive care",
+        "note" : "Intensivvård",
+        "hasChildren" : "false",
+        "id" : "VR180102"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR180102/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR180102/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR180102"
+        }
+      }
+    }, {
+      "id" : "srsc:VR180103",
+      "display" : "Diasaster medicine",
+      "value" : "MEDICINE::Surgery::Anaesthetics and intensive care::Diasaster medicine",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Surgery::Anaesthetics and intensive care",
+        "note" : "Katastrofmedicin",
+        "hasChildren" : "false",
+        "id" : "VR180103"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR180103/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR180103/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR180103"
+        }
+      }
+    }, {
+      "id" : "srsc:VR180104",
+      "display" : "Traumatology",
+      "value" : "MEDICINE::Surgery::Anaesthetics and intensive care::Traumatology",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Surgery::Anaesthetics and intensive care",
+        "note" : "Traumatologi",
+        "hasChildren" : "false",
+        "id" : "VR180104"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR180104/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR180104/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR180104"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 4
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1801/children?page=0&size=100"
+    }
+  }
+}

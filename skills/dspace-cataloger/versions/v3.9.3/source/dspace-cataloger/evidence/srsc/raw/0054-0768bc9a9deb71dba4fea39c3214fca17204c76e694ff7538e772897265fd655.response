@@ -1,0 +1,85 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:SCB1851",
+      "display" : "Immunology",
+      "value" : "MEDICINE::Microbiology, immunology, infectious diseases::Immunology",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Microbiology, immunology, infectious diseases",
+        "note" : "Immunologi",
+        "hasChildren" : "true",
+        "id" : "SCB1851"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1851/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1851/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1851"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1852",
+      "display" : "Microbiology",
+      "value" : "MEDICINE::Microbiology, immunology, infectious diseases::Microbiology",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Microbiology, immunology, infectious diseases",
+        "note" : "Mikrobiologi",
+        "hasChildren" : "true",
+        "id" : "SCB1852"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1852/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1852/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1852"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1853",
+      "display" : "Infectious diseases",
+      "value" : "MEDICINE::Microbiology, immunology, infectious diseases::Infectious diseases",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Microbiology, immunology, infectious diseases",
+        "note" : "Infektionssjukdomar",
+        "hasChildren" : "false",
+        "id" : "SCB1853"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1853/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1853/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1853"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 3
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB185/children?page=0&size=100"
+    }
+  }
+}

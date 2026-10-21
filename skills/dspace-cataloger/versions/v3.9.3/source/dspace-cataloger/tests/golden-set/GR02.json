@@ -1,0 +1,18 @@
+{
+  "goldenRecord": "GR02",
+  "recordId": 22754,
+  "title": "Ámbitos morfológicos — reseña",
+  "status": "PILOT_ACCEPTED",
+  "purpose": "Semantic regression fixture. Does not contain full copyrighted source text.",
+  "expectedRules": [
+    "DOCUMENT_TYPE_NOT_FROM_CONTAINER",
+    "REVIEW_TYPE_VOCABULARY_GAP",
+    "ABSTRACT_NOT_PRESENT_IN_SOURCE",
+    "MAYA_GENERIC_NO_FORCED_NORMALIZATION",
+    "FULLTEXT_IMPROVES_LANGUAGE_EVIDENCE"
+  ],
+  "mustNever": [
+    "Normalize generic Maya to Maya yucateco without supporting authority/evidence.",
+    "Infer Article solely because the resource is published in a journal."
+  ]
+}

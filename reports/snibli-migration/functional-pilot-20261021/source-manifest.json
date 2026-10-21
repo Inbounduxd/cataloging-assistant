@@ -1,0 +1,24 @@
+{
+  "methods": [
+    "GET"
+  ],
+  "credentialsUsed": false,
+  "files": {
+    "item.response": {
+      "sha256": "de925e7ca0525e10bcce9c303aa7e4de9e468623d5bc0a33909a3327a5e9106a",
+      "bytes": 15925
+    },
+    "publisher.response": {
+      "sha256": "1b60672c34f4b0bb9dfbeb11efaccd98b0d2d8645d451193045ad15cc6052ffc",
+      "bytes": 38414
+    },
+    "collection.response": {
+      "sha256": "da26f9bbed7ca45a0b425540e589486f36fa3a696e7085a03d9aa77240222250",
+      "bytes": 2785
+    },
+    "mapped-collections.response": {
+      "sha256": "3f688848adf07a5eb96be2ec693dea17ad4282acfff96633f9a94544feafbec9",
+      "bytes": 21728
+    }
+  }
+}

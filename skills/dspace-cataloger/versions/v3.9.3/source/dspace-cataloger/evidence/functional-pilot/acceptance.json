@@ -1,0 +1,14 @@
+{
+  "status": "ACCEPTED_FOR_STABLE_PREPARATION_AND_PR",
+  "date": "2026-10-21",
+  "source": "Explicit user reply Adelante after the proposed pilot acceptance and stable release/pointer PR step",
+  "reviewer": "User of this conversation; institutional identity not independently verified",
+  "proposalSha256": "45b66afdf39cc2f9777c4e8ce952f11b060b0e1cb9f5186abe6f5b4f5a04accd",
+  "validationSha256": "e34eaadc91253dd75c4f0841776cd471f18567b50af9b32cc73720b1d4d33d00",
+  "acceptedOutcome": "Article to Reseña remains a proposal; dc.type.genre remains pending",
+  "scope": "Prepare stable v3.9.3, validate its package and open a PR proposing the repository current pointer",
+  "dspaceWriteAuthorized": false,
+  "deploymentAuthorized": false,
+  "prMergeAuthorized": false,
+  "independentGoldAdjudication": false
+}

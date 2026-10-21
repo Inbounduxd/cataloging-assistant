@@ -1,0 +1,85 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:SCB1401",
+      "display" : "Algebra, geometry and mathematical analysis",
+      "value" : "MATHEMATICS::Algebra, geometry and mathematical analysis",
+      "otherInformation" : {
+        "parent" : "MATHEMATICS",
+        "note" : "Algebra, geometri och analys",
+        "hasChildren" : "true",
+        "id" : "SCB1401"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1401/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1401/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1401"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1402",
+      "display" : "Applied mathematics",
+      "value" : "MATHEMATICS::Applied mathematics",
+      "otherInformation" : {
+        "parent" : "MATHEMATICS",
+        "note" : "Tillämpad matematik",
+        "hasChildren" : "true",
+        "id" : "SCB1402"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1402/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1402/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1402"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1409",
+      "display" : "Other mathematics",
+      "value" : "MATHEMATICS::Other mathematics",
+      "otherInformation" : {
+        "parent" : "MATHEMATICS",
+        "note" : "Övrig matematik",
+        "hasChildren" : "false",
+        "id" : "SCB1409"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1409/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1409/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1409"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 3
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB14/children?page=0&size=100"
+    }
+  }
+}

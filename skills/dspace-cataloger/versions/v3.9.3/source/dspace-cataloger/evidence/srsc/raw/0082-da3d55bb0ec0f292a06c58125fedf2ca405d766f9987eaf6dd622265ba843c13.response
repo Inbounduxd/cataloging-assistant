@@ -1,0 +1,62 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:VR150102",
+      "display" : "Astroparticle physics",
+      "value" : "NATURAL SCIENCES::Physics::Elementary particle physics::Astroparticle physics",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Physics::Elementary particle physics",
+        "note" : "Astropartikelfysik",
+        "hasChildren" : "false",
+        "id" : "VR150102"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150102/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150102/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150102"
+        }
+      }
+    }, {
+      "id" : "srsc:VR150103",
+      "display" : "Ion physics",
+      "value" : "NATURAL SCIENCES::Physics::Elementary particle physics::Ion physics",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Physics::Elementary particle physics",
+        "note" : "Jonfysik",
+        "hasChildren" : "false",
+        "id" : "VR150103"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150103/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150103/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150103"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 2
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1501/children?page=0&size=100"
+    }
+  }
+}

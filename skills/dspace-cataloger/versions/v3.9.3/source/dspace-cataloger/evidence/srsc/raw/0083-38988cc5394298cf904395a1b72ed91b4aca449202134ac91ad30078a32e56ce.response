@@ -1,0 +1,85 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:VR150202",
+      "display" : "Heavy ion physics",
+      "value" : "NATURAL SCIENCES::Physics::Nuclear physics::Heavy ion physics",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Physics::Nuclear physics",
+        "note" : "Tungjonsfysik",
+        "hasChildren" : "false",
+        "id" : "VR150202"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150202/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150202/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150202"
+        }
+      }
+    }, {
+      "id" : "srsc:VR150203",
+      "display" : "Middle energy physics",
+      "value" : "NATURAL SCIENCES::Physics::Nuclear physics::Middle energy physics",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Physics::Nuclear physics",
+        "note" : "Mellanenergifysik",
+        "hasChildren" : "false",
+        "id" : "VR150203"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150203/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150203/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150203"
+        }
+      }
+    }, {
+      "id" : "srsc:VR150204",
+      "display" : "Low energy physics",
+      "value" : "NATURAL SCIENCES::Physics::Nuclear physics::Low energy physics",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Physics::Nuclear physics",
+        "note" : "Lågenergifysik",
+        "hasChildren" : "false",
+        "id" : "VR150204"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150204/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150204/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150204"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 3
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1502/children?page=0&size=100"
+    }
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:VR111101",
+      "display" : "Logic",
+      "value" : "HUMANITIES and RELIGION::History and philosophy subjects::Philosophy subjects::Logic",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::History and philosophy subjects::Philosophy subjects",
+        "note" : "Logik",
+        "hasChildren" : "false",
+        "id" : "VR111101"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR111101/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR111101/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR111101"
+        }
+      }
+    }, {
+      "id" : "srsc:VR111102",
+      "display" : "Practical philosophy",
+      "value" : "HUMANITIES and RELIGION::History and philosophy subjects::Philosophy subjects::Practical philosophy",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::History and philosophy subjects::Philosophy subjects",
+        "note" : "Praktisk filosofi",
+        "hasChildren" : "false",
+        "id" : "VR111102"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR111102/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR111102/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR111102"
+        }
+      }
+    }, {
+      "id" : "srsc:VR111103",
+      "display" : "Theoretical philosophy",
+      "value" : "HUMANITIES and RELIGION::History and philosophy subjects::Philosophy subjects::Theoretical philosophy",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::History and philosophy subjects::Philosophy subjects",
+        "note" : "Teoretisk filosofi",
+        "hasChildren" : "false",
+        "id" : "VR111103"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR111103/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR111103/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR111103"
+        }
+      }
+    }, {
+      "id" : "srsc:VR111104",
+      "display" : "Theory of science",
+      "value" : "HUMANITIES and RELIGION::History and philosophy subjects::Philosophy subjects::Theory of science",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::History and philosophy subjects::Philosophy subjects",
+        "note" : "Vetenskapsteori",
+        "hasChildren" : "false",
+        "id" : "VR111104"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR111104/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR111104/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR111104"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 4
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1111/children?page=0&size=100"
+    }
+  }
+}

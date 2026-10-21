@@ -2,3 +2,4 @@
 # Their original whitespace belongs to the evidence, not application formatting.
 reports/snibli-migration/** -text -whitespace
 skills/dspace-cataloger/versions/v3.9.3-rc.[12]/** -text -whitespace
+skills/dspace-cataloger/versions/v3.9.3/** -text -whitespace

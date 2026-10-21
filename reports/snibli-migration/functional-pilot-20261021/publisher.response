@@ -1,0 +1,678 @@
+
+
+
+<!DOCTYPE html>
+<html lang="es" xml:lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>
+		Pedro Martín Butragueño &amp; Leonor Orozco (eds.). Argumentos cuantitativos y cualitativos en sociolingüística. Segundo coloquio de cambio y variación lingüística. México: El Colegio de México, 2014. 802 págs.
+							| Estudios de Lingüística Aplicada
+			</title>
+
+	
+<link rel="icon" href="https://ela.enallt.unam.mx/public/journals/1/favicon_es.png">
+<meta name="generator" content="Open Journal Systems 3.4.0.8">
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+<meta name="DC.Creator.PersonalName" content="Ramón Felipe Zacarías Ponce de León"/>
+<meta name="DC.Date.created" scheme="ISO8601" content="2016-09-29"/>
+<meta name="DC.Date.dateSubmitted" scheme="ISO8601" content="2016-09-28"/>
+<meta name="DC.Date.issued" scheme="ISO8601" content="2016-09-29"/>
+<meta name="DC.Date.modified" scheme="ISO8601" content="2025-11-24"/>
+<meta name="DC.Format" scheme="IMT" content="application/pdf"/>
+<meta name="DC.Format" scheme="IMT" content="text/html"/>
+<meta name="DC.Identifier" content="632"/>
+<meta name="DC.Identifier.pageNumber" content="207-213"/>
+<meta name="DC.Identifier.DOI" content="10.22201/enallt.01852647p.2016.63.632"/>
+<meta name="DC.Identifier.URI" content="https://ela.enallt.unam.mx/index.php/ela/article/view/632"/>
+<meta name="DC.Language" scheme="ISO639-1" content="es"/>
+<meta name="DC.Rights" content="Derechos de autor 2016 Estudios de Lingüística Aplicada"/>
+<meta name="DC.Rights" content="https://creativecommons.org/licenses/by-nc-sa/4.0"/>
+<meta name="DC.Source" content="Estudios de Lingüística Aplicada"/>
+<meta name="DC.Source.ISSN" content="0185-2647"/>
+<meta name="DC.Source.URI" content="https://ela.enallt.unam.mx/index.php/ela"/>
+<meta name="DC.Title" content="Pedro Martín Butragueño &amp; Leonor Orozco (eds.). Argumentos cuantitativos y cualitativos en sociolingüística. Segundo coloquio de cambio y variación lingüística. México: El Colegio de México, 2014. 802 págs."/>
+<meta name="DC.Type" content="Text.Serial.Journal"/>
+<meta name="DC.Type.articleType" content="Reseñas"/>
+<meta name="gs_meta_revision" content="1.1"/>
+<meta name="citation_journal_title" content="Estudios de Lingüística Aplicada"/>
+<meta name="citation_journal_abbrev" content="ELA"/>
+<meta name="citation_issn" content="0185-2647"/> 
+<meta name="citation_author" content="Ramón Felipe Zacarías Ponce de León"/>
+<meta name="citation_author_institution" content="Universidad Nacional Autónoma de México, Instituto de Investigaciones Filológicas, Centro de Lingüística Hispánica Juan M. Lope Blanch"/>
+<meta name="citation_title" content="Pedro Martín Butragueño &amp; Leonor Orozco (eds.). Argumentos cuantitativos y cualitativos en sociolingüística. Segundo coloquio de cambio y variación lingüística. México: El Colegio de México, 2014. 802 págs."/>
+<meta name="citation_language" content="es"/>
+<meta name="citation_date" content="2016/09/29"/>
+<meta name="citation_firstpage" content="207"/>
+<meta name="citation_lastpage" content="213"/>
+<meta name="citation_doi" content="10.22201/enallt.01852647p.2016.63.632"/>
+<meta name="citation_abstract_html_url" content="https://ela.enallt.unam.mx/index.php/ela/article/view/632"/>
+<meta name="citation_pdf_url" content="https://ela.enallt.unam.mx/index.php/ela/article/download/632/677"/>
+<meta name="citation_fulltext_html_url" content="https://ela.enallt.unam.mx/index.php/ela/article/view/632/html"/>
+	<link rel="stylesheet" href="https://ela.enallt.unam.mx/plugins/themes/classic/resources/app.min.css?v=3.4.0.8" type="text/css" /><link rel="stylesheet" href="https://ela.enallt.unam.mx/index.php/ela/$$$call$$$/page/page/css?name=stylesheet" type="text/css" /><link rel="stylesheet" href="https://ela.enallt.unam.mx/plugins/themes/classic/custom/_slick/slick.css?v=3.4.0.8" type="text/css" /><link rel="stylesheet" href="https://ela.enallt.unam.mx/plugins/themes/classic/custom/_slick/slick-theme.css?v=3.4.0.8" type="text/css" /><link rel="stylesheet" href="https://ela.enallt.unam.mx/plugins/themes/classic/custom/_slick/slick_custom.css?v=3.4.0.8" type="text/css" /><link rel="stylesheet" href="https://ela.enallt.unam.mx/public/journals/1/styleSheet.css?d=2025-09-19+17%3A13%3A11" type="text/css" /><link rel="stylesheet" href="https://ela.enallt.unam.mx/plugins/generic/citationStyleLanguage/css/citationStyleLanguagePlugin.css?v=3.4.0.8" type="text/css" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+	
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+<script>
+$(document).ready(function(){
+	// hide #back-top first
+    $("#back-top").hide();
+    // fade in #back-top
+    $(function () {
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 100) {
+                $('#back-top').fadeIn();
+            } else {
+                $('#back-top').fadeOut();
+            }
+        });
+
+        // scroll body to 0px on click
+        $('#back-top a').click(function () {
+            $('body,html').animate({
+                scrollTop: 0
+            }, 800);
+            return false;
+        });
+    });
+});
+</script>
+<script>(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create","UA-10863533-3","auto");ga("send","pageview");</script></head>
+<body>
+	<div id="back-top"><a href="#" class="btsubir"><img src="https://ela.enallt.unam.mx/plugins/themes/classic/imgs/blank.png" width="60" height="20"></a></div>
+<header>
+	<div class="header container-fluid">
+		<div class="upper-header row">
+			<h1 class="logo-wrapper col-md-7">
+				<a href="https://ela.enallt.unam.mx/index.php/ela/index" class="home-link">
+								<img class="journal-logo" src="https://ela.enallt.unam.mx/public/journals/1/pageHeaderLogoImage_es.png"
+		     alt="Estudios de Lingüística Aplicada"
+		     >
+	
+				</a>
+			</h1>
+			<div id="user-nav-wraper" class="col-md-5">
+				<!--a href="https://www.unam.mx" target="_blank" class="inst"><img src="/plugins/themes/classic/templates/images/lg_unam.png" width="45" height="48" alt="Universidad Nacional Autónoma de México" title="Universidad Nacional Autónoma de México" class="lg_unam"></a>
+				<a href="https://enallt.unam.mx" target="_blank" class="inst"><img src="/plugins/themes/classic/templates/images/lg_enallt.png" width="284" height="48" alt="Escuela Nacional de Lenguas, Lingüística y Traducción" title="Escuela Nacional de Lenguas, Lingüística y Traducción" class="lg_enallt"></a-->
+								
+	<ul id="navigationUser" class="pkp_navigation_user nav nav-tabs">
+												<li class=" nav-item">
+					<a class="nav-link"
+					   href="https://ela.enallt.unam.mx/index.php/ela/user/register">Registrarse</a>
+				</li>
+															<li class=" nav-item">
+					<a class="nav-link"
+					   href="https://ela.enallt.unam.mx/index.php/ela/login">Entrar</a>
+				</li>
+													</ul>
+
+								
+	<ul id="languageNav" class="dropdown language-toggle nav nav-tabs">
+		<li class="nav-item dropdown">
+			<a class="nav-link dropdown-toggle" id="languageToggleMenulanguageNav" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				<span class="visually-hidden">Cambiar el idioma. El idioma actual es:</span>
+				Español
+			</a>
+
+			<div class="navigation-dropdown dropdown-menu dropdown-menu-right" aria-labelledby="languageToggleMenulanguageNav">
+															<a class="dropdown-item" href="https://ela.enallt.unam.mx/index.php/ela/user/setLocale/en?source=%2Findex.php%2Fela%2Farticle%2Fview%2F632">
+							Inglés
+						</a>
+																					</div>
+		</li>
+	</ul>
+			</div>
+		</div>
+
+		
+							<div class="lower-header">
+				<ul id="nav-small" class="nav nav-tabs">
+					<li class="nav-item">
+						<a id="show-modal" class="nav-link">
+							<ion-icon name="menu"></ion-icon>
+							<span class="ion-icon-text">Menú</span>
+						</a>
+					</li>
+				</ul>
+								<div id="modal-on-small" class="nav-modal hide">
+					 
+                                                                                       <div class="buscador">
+                                                        <form class="" role="search" method="post" action="https://ela.enallt.unam.mx/index.php/ela/search/search">
+    <input class="" name="query" value="" type="search" aria-label="Búsqueda" placeholder=""> <button type="submit" class="btn btn-default">Buscar</button>
+</form>
+                                               </div>
+                                               <div class="limpia"></div>
+                                        					<div id="primary-nav-wraper">
+		                    <span id="close-small-modal">
+		                        <ion-icon name="close"></ion-icon>
+		                    </span>
+									
+	<ul id="navigationPrimary" class="pkp_navigation_primary nav nav-tabs">
+																<li class=" nav-item dropdown">
+					<a							class="nav-link dropdown-toggle"
+							href="https://ela.enallt.unam.mx/index.php/ela/about" role="button"
+							data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Acerca de
+					</a>
+					<div class="navigation-dropdown dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+																					<a class=" dropdown-item"
+								   href="https://ela.enallt.unam.mx/index.php/ela/enfoqueyalcance">
+									Enfoque y alcance
+								</a>
+																												<a class=" dropdown-item"
+								   href="https://ela.enallt.unam.mx/index.php/ela/contribuciones">
+									Tipos de contribuciones
+								</a>
+																												<a class=" dropdown-item"
+								   href="https://ela.enallt.unam.mx/index.php/ela/estructura">
+									Estructura
+								</a>
+																		</div>
+				</li>
+															<li class=" nav-item">
+					<a class="nav-link"
+					   href="https://ela.enallt.unam.mx/index.php/ela/issue/archive">Num. anteriores</a>
+				</li>
+															<li class=" nav-item">
+					<a class="nav-link"
+					   href="https://ela.enallt.unam.mx/index.php/ela/politicas">Políticas</a>
+				</li>
+																			<li class=" nav-item dropdown">
+					<a							class="nav-link dropdown-toggle"
+							href="https://ela.enallt.unam.mx/index.php/ela/colaboracion" role="button"
+							data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Envíos
+					</a>
+					<div class="navigation-dropdown dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+																					<a class=" dropdown-item"
+								   href="https://ela.enallt.unam.mx/index.php/ela/enviosonline">
+									Envíos online
+								</a>
+																												<a class=" dropdown-item"
+								   href="https://ela.enallt.unam.mx/index.php/ela/preparing">
+									Preparación del envío
+								</a>
+																												<a class=" dropdown-item"
+								   href="https://ela.enallt.unam.mx/index.php/ela/garantizar">
+									Garantizar evaluación anónima
+								</a>
+																		</div>
+				</li>
+															<li class=" nav-item">
+					<a class="nav-link"
+					   href="https://ela.enallt.unam.mx/index.php/ela/adquiere">Adquiere ELA</a>
+				</li>
+															<li class=" nav-item">
+					<a class="nav-link"
+					   href="https://ela.enallt.unam.mx/index.php/ela/indizacion">Indización</a>
+				</li>
+															<li class=" nav-item">
+					<a class="nav-link"
+					   href="https://ela.enallt.unam.mx/index.php/ela/contacto">Contáctanos</a>
+				</li>
+						</ul>
+
+		
+					</div>
+				</div>
+			</div>
+			</div>
+</header>
+
+<main class="page page_article">
+	<div class="container-fluid container-page">
+
+				 
+<article class="obj_article_details">
+	<div class="article_header_wrapper">
+				
+					<div class="article_issue_credentials">
+				<a href="https://ela.enallt.unam.mx/index.php/ela/issue/view/62">Año 34, Núm. 63 (julio 2016)</a>
+			</div>
+		
+		<div class="article_section_title">
+			Reseñas
+		</div>
+		<div class="row">
+			<div class="col-md-8">
+
+								<h1 class="page_title article-full-title">
+					Pedro Martín Butragueño &amp; Leonor Orozco (eds.). <i>Argumentos cuantitativos y cualitativos en sociolingüística. Segundo coloquio de cambio y variación lingüística.</i> México: El Colegio de México, 2014. 802 págs.
+				</h1>
+			</div>
+
+			<div class="col-md-4">
+
+													<div class="item galleys">
+													
+	
+							
+
+<a class="btn galley-link obj_galley_link pdf" href="https://ela.enallt.unam.mx/index.php/ela/article/view/632/677" >
+
+		
+	PDF
+
+	</a>
+													
+	
+							
+
+<a class="btn galley-link obj_galley_link file" href="https://ela.enallt.unam.mx/index.php/ela/article/view/632/html" >
+
+		
+	HTML
+
+	</a>
+											</div>
+								
+			</div>
+
+			<div class="col-md-12">
+
+													<div class="authors_info">
+						<ul class="entry_authors_list">
+							<li class="entry_author_block"><a class="orcid-image-url" href="http://orcid.org/0000-0002-1262-4107"><img src="https://ela.enallt.unam.mx/plugins/themes/classic/templates/images/orcid.png"></a><span class="name_wrapper">Ramón Felipe Zacarías Ponce de León</span></li>						</ul>
+					</div>
+					<div class="additional-authors-info">
+													<a class="more-authors-info-button" id="collapseButton" data-bs-toggle="collapse" href="#authorInfoCollapse" role="button" aria-expanded="false" aria-controls="authorInfoCollapse">
+								<ion-icon name="add" class="ion_icon" id="more-authors-data-symbol"></ion-icon>
+								<ion-icon name="remove" class="ion_icon hide" id="less-authors-data-symbol"></ion-icon>
+								<span class="ion-icon-text">más información</span>
+							</a>
+												<div class="collapse" id="authorInfoCollapse">
+																								<div class="additional-author-block">
+										<span class="additional-author-name">Ramón Felipe Zacarías Ponce de León</span>
+																					<br/>
+											<span class="additional-author-affiliation">Universidad Nacional Autónoma de México, Instituto de Investigaciones Filológicas, Centro de Lingüística Hispánica Juan M. Lope Blanch</span>
+																															<br/>
+											<a class="more_button" data-toggle="modal" data-target="#modalAuthorBio-0">
+												Biografía
+											</a>
+																						<div class="modal fade" id="modalAuthorBio-0" tabindex="-1" role="dialog" aria-labelledby="modalAuthorBioTitle" aria-hidden="true">
+												<div class="modal-dialog" role="document">
+													<div class="modal-content">
+														<div class="modal-header">
+															<h5 class="modal-title" id="modalAuthorBioTitle">Biografía del autor/a</h5>
+															<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+																<span aria-hidden="true">&times;</span>
+															</button>
+														</div>
+														<div class="modal-body">
+															Investigador asociado.Centro de Lingüística Hispánica "Juan M. Lope Blanch"Instituto de Investigaciones Filológicas.UNAM.
+														</div>
+														<div class="modal-footer">
+															<button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+														</div>
+													</div>
+												</div>
+											</div>
+																			</div>
+																					</div>
+					</div>
+							</div>
+		</div>
+	</div>
+
+	<div class="row article_main_data" id="articleMainData">
+		<div class="main_entry col-md-4" id="mainEntry" >
+
+						
+						
+			
+						        		<p>
+          			Publicado
+          			          			            			29-09-2016
+					          			        		</p>
+
+        		      		
+									
+																		
+							<div class="item copyright">
+																										<p>Derechos de autor 2016 Estudios de Lingüística Aplicada</p>
+														<a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" src="//i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><p>Esta obra está bajo una licencia internacional <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Atribución-NoComercial-CompartirIgual 4.0</a>.</p>
+																									</div>
+			
+				<div class="item citation">
+		<div class="sub_item citation_display">
+			<h3>
+                Cómo citar
+			</h3>
+			<div class="citation_format_value">
+				<div id="citationOutput" role="region" aria-live="polite">
+                    <div class="csl-bib-body">
+  <div class="csl-entry">Zacarías Ponce de León, R. F. (2016). Pedro Martín Butragueño &amp; Leonor Orozco (eds.). Argumentos cuantitativos y cualitativos en sociolingüística. Segundo coloquio de cambio y variación lingüística. México: El Colegio de México, 2014. 802 págs. <i>Estudios De Lingüística Aplicada</i>, <i>63</i>, 207-213. <a href="https://doi.org/10.22201/enallt.01852647p.2016.63.632">https://doi.org/10.22201/enallt.01852647p.2016.63.632</a></div>
+</div>
+				</div>
+				<div class="citation_formats dropdown">
+					<button class="btn btn-primary" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true"
+					        aria-expanded="false">
+                        Más formatos de cita
+					</button>
+					<div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="dropdown-cit">
+                        							<a
+									class="dropdown-cite-link dropdown-item"
+									aria-controls="citationOutput"
+									href="https://ela.enallt.unam.mx/index.php/ela/citationstylelanguage/get/acm-sig-proceedings?submissionId=632&amp;publicationId=596&amp;issueId=62"
+									data-load-citation
+									data-json-href="https://ela.enallt.unam.mx/index.php/ela/citationstylelanguage/get/acm-sig-proceedings?submissionId=632&amp;publicationId=596&amp;issueId=62&amp;return=json"
+							>
+                                ACM
+							</a>
+                        							<a
+									class="dropdown-cite-link dropdown-item"
+									aria-controls="citationOutput"
+									href="https://ela.enallt.unam.mx/index.php/ela/citationstylelanguage/get/acs-nano?submissionId=632&amp;publicationId=596&amp;issueId=62"
+									data-load-citation
+									data-json-href="https://ela.enallt.unam.mx/index.php/ela/citationstylelanguage/get/acs-nano?submissionId=632&amp;publicationId=596&amp;issueId=62&amp;return=json"
+							>
+                                ACS
+							</a>
+                        							<a
+									class="dropdown-cite-link dropdown-item"
+									aria-controls="citationOutput"
+									href="https://ela.enallt.unam.mx/index.php/ela/citationstylelanguage/get/apa?submissionId=632&amp;publicationId=596&amp;issueId=62"
+									data-load-citation
+									data-json-href="https://ela.enallt.unam.mx/index.php/ela/citationstylelanguage/get/apa?submissionId=632&amp;publicationId=596&amp;issueId=62&amp;return=json"
+							>
+                                APA
+							</a>
+                        							<a
+									class="dropdown-cite-link dropdown-item"
+									aria-controls="citationOutput"
+									href="https://ela.enallt.unam.mx/index.php/ela/citationstylelanguage/get/associacao-brasileira-de-normas-tecnicas?submissionId=632&amp;publicationId=596&amp;issueId=62"
+									data-load-citation
+									data-json-href="https://ela.enallt.unam.mx/index.php/ela/citationstylelanguage/get/associacao-brasileira-de-normas-tecnicas?submissionId=632&amp;publicationId=596&amp;issueId=62&amp;return=json"
+							>
+                                ABNT
+							</a>
+                        							<a
+									class="dropdown-cite-link dropdown-item"
+									aria-controls="citationOutput"
+									href="https://ela.enallt.unam.mx/index.php/ela/citationstylelanguage/get/chicago-author-date?submissionId=632&amp;publicationId=596&amp;issueId=62"
+									data-load-citation
+									data-json-href="https://ela.enallt.unam.mx/index.php/ela/citationstylelanguage/get/chicago-author-date?submissionId=632&amp;publicationId=596&amp;issueId=62&amp;return=json"
+							>
+                                Chicago
+							</a>
+                        							<a
+									class="dropdown-cite-link dropdown-item"
+									aria-controls="citationOutput"
+									href="https://ela.enallt.unam.mx/index.php/ela/citationstylelanguage/get/harvard-cite-them-right?submissionId=632&amp;publicationId=596&amp;issueId=62"
+									data-load-citation
+									data-json-href="https://ela.enallt.unam.mx/index.php/ela/citationstylelanguage/get/harvard-cite-them-right?submissionId=632&amp;publicationId=596&amp;issueId=62&amp;return=json"
+							>
+                                Harvard
+							</a>
+                        							<a
+									class="dropdown-cite-link dropdown-item"
+									aria-controls="citationOutput"
+									href="https://ela.enallt.unam.mx/index.php/ela/citationstylelanguage/get/ieee?submissionId=632&amp;publicationId=596&amp;issueId=62"
+									data-load-citation
+									data-json-href="https://ela.enallt.unam.mx/index.php/ela/citationstylelanguage/get/ieee?submissionId=632&amp;publicationId=596&amp;issueId=62&amp;return=json"
+							>
+                                IEEE
+							</a>
+                        							<a
+									class="dropdown-cite-link dropdown-item"
+									aria-controls="citationOutput"
+									href="https://ela.enallt.unam.mx/index.php/ela/citationstylelanguage/get/modern-language-association?submissionId=632&amp;publicationId=596&amp;issueId=62"
+									data-load-citation
+									data-json-href="https://ela.enallt.unam.mx/index.php/ela/citationstylelanguage/get/modern-language-association?submissionId=632&amp;publicationId=596&amp;issueId=62&amp;return=json"
+							>
+                                MLA
+							</a>
+                        							<a
+									class="dropdown-cite-link dropdown-item"
+									aria-controls="citationOutput"
+									href="https://ela.enallt.unam.mx/index.php/ela/citationstylelanguage/get/turabian-fullnote-bibliography?submissionId=632&amp;publicationId=596&amp;issueId=62"
+									data-load-citation
+									data-json-href="https://ela.enallt.unam.mx/index.php/ela/citationstylelanguage/get/turabian-fullnote-bibliography?submissionId=632&amp;publicationId=596&amp;issueId=62&amp;return=json"
+							>
+                                Turabian
+							</a>
+                        							<a
+									class="dropdown-cite-link dropdown-item"
+									aria-controls="citationOutput"
+									href="https://ela.enallt.unam.mx/index.php/ela/citationstylelanguage/get/vancouver?submissionId=632&amp;publicationId=596&amp;issueId=62"
+									data-load-citation
+									data-json-href="https://ela.enallt.unam.mx/index.php/ela/citationstylelanguage/get/vancouver?submissionId=632&amp;publicationId=596&amp;issueId=62&amp;return=json"
+							>
+                                Vancouver
+							</a>
+                        							<a
+									class="dropdown-cite-link dropdown-item"
+									aria-controls="citationOutput"
+									href="https://ela.enallt.unam.mx/index.php/ela/citationstylelanguage/get/ama?submissionId=632&amp;publicationId=596&amp;issueId=62"
+									data-load-citation
+									data-json-href="https://ela.enallt.unam.mx/index.php/ela/citationstylelanguage/get/ama?submissionId=632&amp;publicationId=596&amp;issueId=62&amp;return=json"
+							>
+                                AMA
+							</a>
+                                                							<div class="dropdown-divider"></div>
+							<h4 class="download-cite">
+                                Descargar cita
+							</h4>
+                            								<a class="dropdown-item"
+								   href="https://ela.enallt.unam.mx/index.php/ela/citationstylelanguage/download/ris?submissionId=632&amp;publicationId=596&amp;issueId=62">
+									<span class="fa fa-download"></span>
+                                    Endnote/Zotero/Mendeley (RIS)
+								</a>
+                            								<a class="dropdown-item"
+								   href="https://ela.enallt.unam.mx/index.php/ela/citationstylelanguage/download/bibtex?submissionId=632&amp;publicationId=596&amp;issueId=62">
+									<span class="fa fa-download"></span>
+                                    BibTeX
+								</a>
+                                                    					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+		</div><!-- .main_entry -->
+
+		<div class="article_abstract_block col-md-8" id="articleAbstractBlock">
+
+						
+						<div class="for-mobile-view">
+									<div class="item galleys">
+													
+	
+							
+
+<a class="btn galley-link obj_galley_link pdf" href="https://ela.enallt.unam.mx/index.php/ela/article/view/632/677" >
+
+		
+	PDF
+
+	</a>
+													
+	
+							
+
+<a class="btn galley-link obj_galley_link file" href="https://ela.enallt.unam.mx/index.php/ela/article/view/632/html" >
+
+		
+	HTML
+
+	</a>
+											</div>
+											</div>
+
+			
+
+						
+
+		</div><!-- .article_abstract_block -->
+	</div><!-- .row -->
+
+</article>
+
+		<div class="footer-hook-block">
+			
+		</div>
+	</div>
+
+</main><!-- .page -->
+
+<footer class="site-footer">
+	<div class="container-fluid container-footer">
+					<div class="sidebar_wrapper" role="complementary">
+				<div class="pkp_block block_make_submission">
+	<h2 class="pkp_screen_reader">
+		Enviar un artículo
+	</h2>
+
+	<div class="content">
+		<a class="block_make_submission_link" href="https://ela.enallt.unam.mx/index.php/ela/about/submissions">
+			Enviar un artículo
+		</a>
+	</div>
+</div>
+<div class="pkp_block block_keyword_cloud">
+    <h2 class="title">Palabras clave</h2>
+    <div class="content" id='wordcloud'></div>
+
+    <script>
+        function randomColor() {
+            var cores = ['#1f77b4', '#ff7f0e', '#2ca02c', '#d62728', '#9467bd', '#8c564b', '#e377c2', '#7f7f7f', '#bcbd22', '#17becf'];
+            return cores[Math.floor(Math.random()*cores.length)];
+        }
+
+                    document.addEventListener("DOMContentLoaded", function() {
+                var keywords = [{"text":"ling\u00fc\u00edstica descriptiva","size":1},{"text":"lenguas \u00edndigenas","size":1},{"text":"tepehuano","size":1},{"text":"dialectolog\u00eda","size":1},{"text":"ense\u00f1anza de lenguas","size":1},{"text":"profesor de lenguas - habla","size":1},{"text":"fonolog\u00eda","size":1},{"text":"ling\u00fc\u00edstica","size":1},{"text":"comprensi\u00f3n auditiva","size":1},{"text":"taxonom\u00edas de ense\u00f1anza - aprendizaje","size":1},{"text":"comprensi\u00f3n de lectura - ingl\u00e9s","size":1},{"text":"comprensi\u00f3n de lectura - franc\u00e9s","size":1},{"text":"comprensi\u00f3n de lectura - espa\u00f1ol","size":1},{"text":"ense\u00f1anza del ingl\u00e9s como lengua extranjera","size":1},{"text":"literatura en ingl\u00e9s","size":1},{"text":"psicolog\u00eda","size":1},{"text":"hispanohablantes","size":1},{"text":"gram\u00e1tica - presente progresivo en ingl\u00e9s","size":1},{"text":"gram\u00e1tica pedagogica","size":1},{"text":"hispanohablantes universitarios","size":1},{"text":"ingl\u00e9s - sintaxis","size":1},{"text":"modelo parasitario del l\u00e9xico mental","size":1},{"text":"","size":1},{"text":"interacci\u00f3n en el aula","size":1},{"text":"hispanohablantes universitarios - producci\u00f3n escrita","size":1},{"text":"ense\u00f1anza del portug\u00e9s como lengua extranjera","size":1},{"text":"hispanohablantes - estudiantes universitarios","size":1},{"text":"competencias ling\u00fc\u00edsticas  - estudiantes universitarios","size":1},{"text":"teor\u00eda del interlenguaje","size":1},{"text":"teor\u00eda del discurso","size":1},{"text":"adquisici\u00f3n de segundas lenguas","size":1},{"text":"psicoling\u00fc\u00edstica","size":1},{"text":"interpretaci\u00f3n simult\u00e1nea","size":1},{"text":"interpretaci\u00f3n simult\u00e1nea - autocorrecci\u00f3n","size":1},{"text":"an\u00e1lisis del discurso","size":1},{"text":"investigaci\u00f3n ling\u00fc\u00edstica - clinica","size":1},{"text":"discurso verbal","size":1},{"text":"hablantes - gestos faciales","size":1},{"text":"lenguas ind\u00edgenas","size":1},{"text":"lengua maya","size":1},{"text":"actos verbales - identidad \u00e9tnica","size":1},{"text":"p'urh\u00e9pecha","size":1},{"text":"an\u00e1lisis pronominal - p'urh\u00e9pecha","size":1},{"text":"lengua pima","size":1},{"text":"lengua pima - sonora y chihuahua","size":1},{"text":"espa\u00f1ol - micmac","size":1},{"text":"ingl\u00e9s - micmac","size":1},{"text":"biling\u00fcismo","size":1},{"text":"adquisici\u00f3n de lenguaje","size":1},{"text":"pragm\u00e1tica","size":1}];
+                var totalWeight = 0;
+                var blockWidth = 300;
+                var blockHeight = 200;
+                var transitionDuration = 200;
+                var length_keywords = keywords.length;
+                var layout = d3.layout.cloud();
+
+                layout.size([blockWidth, blockHeight])
+                    .words(keywords)
+                    .fontSize(function(d)
+                    {
+                        return fontSize(+d.size);
+                    })
+                    .on('end', draw);
+
+                var svg = d3.select("#wordcloud").append("svg")
+                    .attr("viewBox", "0 0 " + blockWidth + " " + blockHeight)
+                    .attr("width", '100%');
+
+                function update() {
+                    var words = layout.words();
+                    fontSize = d3.scaleLinear().range([16, 34]);
+                    if (words.length) {
+                        fontSize.domain([+words[words.length - 1].size || 1, +words[0].size]);
+                    }
+                }
+
+                keywords.forEach(function(item,index){totalWeight += item.size;});
+
+                update();
+
+                function draw(words, bounds) {
+                    var width = layout.size()[0],
+                        height = layout.size()[1];
+
+                    scaling = bounds
+                        ? Math.min(
+                            width / Math.abs(bounds[1].x - width / 2),
+                            width / Math.abs(bounds[0].x - width / 2),
+                            height / Math.abs(bounds[1].y - height / 2),
+                            height / Math.abs(bounds[0].y - height / 2),
+                        ) / 2
+                        : 1;
+
+                    svg
+                    .append("g")
+                    .attr(
+                        "transform",
+                        "translate(" + [width >> 1, height >> 1] + ")scale(" + scaling + ")",
+                    )
+                    .selectAll("text")
+                        .data(words)
+                    .enter().append("text")
+                        .style("font-size", function(d) { return d.size + "px"; })
+                        .style("font-family", 'serif')
+                        .style("fill", randomColor)
+                        .style('cursor', 'pointer')
+                        .style('opacity', 0.7)
+                        .attr('class', 'keyword')
+                        .attr("text-anchor", "middle")
+                        .attr("transform", function(d) {
+                            return "translate(" + [d.x, d.y] + ")rotate(" + d.rotate + ")";
+                        })
+                        .text(function(d) { return d.text; })
+                        .on("click", function(d, i){
+                            window.location = "https://ela.enallt.unam.mx/index.php/ela/search?query=QUERY_SLUG".replace(/QUERY_SLUG/, encodeURIComponent(''+d.text+''));
+                        })
+                        .on("mouseover", function(d, i) {
+                            d3.select(this).transition()
+                                .duration(transitionDuration)
+                                .style('font-size',function(d) { return (d.size + 3) + "px"; })
+                                .style('opacity', 1);
+                        })
+                        .on("mouseout", function(d, i) {
+                            d3.select(this).transition()
+                                .duration(transitionDuration)
+                                .style('font-size',function(d) { return d.size + "px"; })
+                                .style('opacity', 0.7);
+                        })
+                        .on('resize', function() { update() });
+                }
+
+                layout.start();
+            });
+        	</script>
+</div>
+<div class="pkp_block block_custom" id="customblock-indexada-en">
+	<h2 class="title">Indexada en</h2>
+	<div class="content">
+		<p><a href="https://www.mla.org/" target="_blank" rel="noopener"><img src="https://ela.enallt.unam.mx/public/site/images/admin/mla.jpg" alt="logo MLA" width="200" height="56"></a></p>
+<p><a href="https://about.proquest.com/en/products-services/llba-set-c" target="_blank" rel="noopener"><img src="https://ela.enallt.unam.mx/public/site/images/admin/llba.jpg" alt="" width="150" height="87"></a></p>
+<p><a href="https://clase.dgb.unam.mx/F?func=find-b-0&amp;local_base=cla01" target="_blank" rel="noopener"><img src="https://ela.enallt.unam.mx/public/site/images/admin/clase-7c789ad9c09922a62d3e5a8d2a7c004c.jpg" alt="" width="132" height="107"></a></p>
+<p><a href="https://infoling.org/" target="_blank" rel="noopener"><img src="https://ela.enallt.unam.mx/public/site/images/admin/infoling-ok2.jpg" alt="" width="214" height="42"></a></p>
+<p><a href="https://www.latindex.org/latindex/inicio?lang=en" target="_blank" rel="noopener"><img src="https://ela.enallt.unam.mx/public/site/images/admin/latindex.jpg" alt="" width="167" height="62"></a></p>
+<p><a href="https://revistas.unam.mx/catalogo/" target="_blank" rel="noopener"><img src="https://ela.enallt.unam.mx/public/site/images/admin/rev-unam.jpg" alt="" width="182" height="99"></a></p>
+<p><a href="https://ulrichsweb.serialssolutions.com/" target="_blank" rel="noopener"><img src="https://ela.enallt.unam.mx/public/site/images/admin/ulrich-d6725d7577273ea1199bfd581e9f8c78.jpg" alt="" width="205" height="48"></a></p>
+<p><a href="https://search.worldcat.org/" target="_blank" rel="noopener"><img src="https://ela.enallt.unam.mx/public/site/images/admin/worldcat.jpg" alt="" width="171" height="64"></a></p>
+	</div>
+</div>
+
+			</div>
+				<div class="additional-footer-info">
+							<div class="user-page-footer">
+					<p align="center"><em>Estudios de Lingüística Aplicada</em>, año 43, número 81, julio de 2025, es una publicación semestral de acceso abierto editada por la Universidad Nacional Autónoma de México (UNAM), Av. Universidad 3000, Ciudad Universitaria, Alcaldía Coyoacán, C.P. 04510, Ciudad de México, a través de la Escuela Nacional de Lenguas, Lingüística y Traducción (enallt), Circuito interior s/n, entre la Facultad de Ingeniería y Química, Ciudad Universitaria, Alcaldía Coyoacán, C.P. 04510, Ciudad de México, correo electrónico: ela@enallt.unam.mx. Dirección electrónica: <a href="https://ela.enallt.unam.mx/index.php/ela">https://ela.enallt.unam.mx</a>. Edición disponible en los formatos impreso y electrónico. Responsable editorial: Dra. Gala Karina Villaseñor García. Reserva de Derechos al uso Exclusivo del Título: en proceso; ISSN (impreso): 0185‑2647, e-ISSN en proceso. Responsable de la última actualización de este número: Mariela Elizabeth Pérez Castañeda y Claudia Isabel Carrillo Sánchez. Fecha de la última modificación: 10 de julio de 2025.</p>
+<p align="center">Las opiniones expresadas por los autores no necesariamente reflejan la postura del comité editorial ni de la UNAM. Todos los contenidos se distribuyen bajo una licencia Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional (CC BY-NC-SA 4.0). Para más información al respecto véase la sección <em>Política de acceso abierto</em>.</p>
+<p align="center">Sitio implementado por el equipo de la <a href="http://www.revistas.unam.mx/">Subdirección de Revistas Académicas y Publicaciones Digitales</a> de la <a href="http://www.publicaciones.unam.mx/">Dirección General de Publicaciones y Fomento Editorial</a> de la UNAM sobre la plataforma OJS3/PKP.</p>
+<p>© 2025. Universidad Nacional Autónoma de México, Escuela Nacional de Lenguas, Lingüística y Traducción. Algunos derechos reservados.</p>
+<p align="center">Hecho en México.</p>
+				</div>
+						<div class="pkpbrand-wrapper" role="complementary">
+				<a href="https://ela.enallt.unam.mx/index.php/ela/about/aboutThisPublishingSystem">
+					<img class="footer-brand-image" alt="Más información acerca del sistema de publicación, de la plataforma y del flujo de trabajo de OJS/PKP." src="https://ela.enallt.unam.mx/templates/images/ojs_brand.png">
+				</a>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<script src="https://ela.enallt.unam.mx/plugins/themes/classic/custom/_slick/slick.min.js?v=3.4.0.8" type="text/javascript"></script><script src="https://ela.enallt.unam.mx/plugins/themes/classic/custom/_slick/slick_custom.js?v=3.4.0.8" type="text/javascript"></script><script src="https://ela.enallt.unam.mx/plugins/themes/classic/resources/app.min.js?v=3.4.0.8" type="text/javascript"></script><script src="https://ela.enallt.unam.mx/plugins/themes/classic/resources/ionicons.js?v=3.4.0.8" type="text/javascript"></script><script src="https://ela.enallt.unam.mx/plugins/generic/citationStyleLanguage/js/articleCitation.js?v=3.4.0.8" type="text/javascript"></script><script src="https://d3js.org/d3.v4.js?v=3.4.0.8" type="text/javascript"></script><script src="https://cdn.jsdelivr.net/gh/holtzy/D3-graph-gallery@master/LIB/d3.layout.cloud.js?v=3.4.0.8" type="text/javascript"></script><script type="text/javascript">
+(function (w, d, s, l, i) { w[l] = w[l] || []; var f = d.getElementsByTagName(s)[0],
+j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true;
+j.src = 'https://www.googletagmanager.com/gtag/js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+function gtag(){dataLayer.push(arguments)}; gtag('js', new Date()); gtag('config', i); })
+(window, document, 'script', 'dataLayer', 'G-7QVJPQR5S1');
+</script>
+
+
+
+</body>
+</html>

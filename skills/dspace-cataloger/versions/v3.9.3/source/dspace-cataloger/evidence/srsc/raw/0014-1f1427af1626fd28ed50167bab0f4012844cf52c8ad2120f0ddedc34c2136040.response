@@ -1,0 +1,292 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:VR110102",
+      "display" : "History of religion",
+      "value" : "HUMANITIES and RELIGION::Religion/Theology::History of religion",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::Religion/Theology",
+        "note" : "Religionshistoria",
+        "hasChildren" : "false",
+        "id" : "VR110102"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR110102/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR110102/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR110102"
+        }
+      }
+    }, {
+      "id" : "srsc:VR110103",
+      "display" : "Church studies",
+      "value" : "HUMANITIES and RELIGION::Religion/Theology::Church studies",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::Religion/Theology",
+        "note" : "Kyrkovetenskap",
+        "hasChildren" : "false",
+        "id" : "VR110103"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR110103/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR110103/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR110103"
+        }
+      }
+    }, {
+      "id" : "srsc:VR110104",
+      "display" : "Missionary studies",
+      "value" : "HUMANITIES and RELIGION::Religion/Theology::Missionary studies",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::Religion/Theology",
+        "note" : "Missionsvetenskap",
+        "hasChildren" : "false",
+        "id" : "VR110104"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR110104/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR110104/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR110104"
+        }
+      }
+    }, {
+      "id" : "srsc:VR110105",
+      "display" : "Systematic theology",
+      "value" : "HUMANITIES and RELIGION::Religion/Theology::Systematic theology",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::Religion/Theology",
+        "note" : "Systematisk teologi",
+        "hasChildren" : "false",
+        "id" : "VR110105"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR110105/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR110105/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR110105"
+        }
+      }
+    }, {
+      "id" : "srsc:VR110106",
+      "display" : "Islamology",
+      "value" : "HUMANITIES and RELIGION::Religion/Theology::Islamology",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::Religion/Theology",
+        "note" : "Islamologi",
+        "hasChildren" : "false",
+        "id" : "VR110106"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR110106/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR110106/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR110106"
+        }
+      }
+    }, {
+      "id" : "srsc:VR110107",
+      "display" : "Faith and reason",
+      "value" : "HUMANITIES and RELIGION::Religion/Theology::Faith and reason",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::Religion/Theology",
+        "note" : "Tros- och livsåskådningsvetenskap",
+        "hasChildren" : "false",
+        "id" : "VR110107"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR110107/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR110107/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR110107"
+        }
+      }
+    }, {
+      "id" : "srsc:VR110108",
+      "display" : "Sociology of religion",
+      "value" : "HUMANITIES and RELIGION::Religion/Theology::Sociology of religion",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::Religion/Theology",
+        "note" : "Religionssociologi",
+        "hasChildren" : "false",
+        "id" : "VR110108"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR110108/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR110108/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR110108"
+        }
+      }
+    }, {
+      "id" : "srsc:VR110109",
+      "display" : "Psychology of religion",
+      "value" : "HUMANITIES and RELIGION::Religion/Theology::Psychology of religion",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::Religion/Theology",
+        "note" : "Religionspsykologi",
+        "hasChildren" : "false",
+        "id" : "VR110109"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR110109/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR110109/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR110109"
+        }
+      }
+    }, {
+      "id" : "srsc:VR110110",
+      "display" : "Philosophy of religion",
+      "value" : "HUMANITIES and RELIGION::Religion/Theology::Philosophy of religion",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::Religion/Theology",
+        "note" : "Religionsfilosofi",
+        "hasChildren" : "false",
+        "id" : "VR110110"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR110110/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR110110/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR110110"
+        }
+      }
+    }, {
+      "id" : "srsc:VR110111",
+      "display" : "New Testament exegesis",
+      "value" : "HUMANITIES and RELIGION::Religion/Theology::New Testament exegesis",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::Religion/Theology",
+        "note" : "Nya testamentets exegetik",
+        "hasChildren" : "false",
+        "id" : "VR110111"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR110111/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR110111/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR110111"
+        }
+      }
+    }, {
+      "id" : "srsc:VR110112",
+      "display" : "Old Testament exegesis",
+      "value" : "HUMANITIES and RELIGION::Religion/Theology::Old Testament exegesis",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::Religion/Theology",
+        "note" : "Gamla testamentets exegetik",
+        "hasChildren" : "false",
+        "id" : "VR110112"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR110112/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR110112/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR110112"
+        }
+      }
+    }, {
+      "id" : "srsc:VR110113",
+      "display" : "Dogmatics with symbolics",
+      "value" : "HUMANITIES and RELIGION::Religion/Theology::Dogmatics with symbolics",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::Religion/Theology",
+        "note" : "Dogmatik med symbolik",
+        "hasChildren" : "false",
+        "id" : "VR110113"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR110113/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR110113/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR110113"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 12
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB110/children?page=0&size=100"
+    }
+  }
+}

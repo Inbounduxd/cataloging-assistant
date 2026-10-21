@@ -1,0 +1,131 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:VR151602",
+      "display" : "Organic synthesis",
+      "value" : "NATURAL SCIENCES::Chemistry::Organic chemistry::Organic synthesis",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Chemistry::Organic chemistry",
+        "note" : "Organisk syntes",
+        "hasChildren" : "false",
+        "id" : "VR151602"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR151602/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR151602/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR151602"
+        }
+      }
+    }, {
+      "id" : "srsc:VR151603",
+      "display" : "Physical organic chemistry",
+      "value" : "NATURAL SCIENCES::Chemistry::Organic chemistry::Physical organic chemistry",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Chemistry::Organic chemistry",
+        "note" : "Fysikalisk organisk kemi",
+        "hasChildren" : "false",
+        "id" : "VR151603"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR151603/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR151603/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR151603"
+        }
+      }
+    }, {
+      "id" : "srsc:VR151604",
+      "display" : "Bioorganic chemistry",
+      "value" : "NATURAL SCIENCES::Chemistry::Organic chemistry::Bioorganic chemistry",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Chemistry::Organic chemistry",
+        "note" : "Bioorganisk kemi",
+        "hasChildren" : "false",
+        "id" : "VR151604"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR151604/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR151604/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR151604"
+        }
+      }
+    }, {
+      "id" : "srsc:VR151605",
+      "display" : "Polymer chemistry",
+      "value" : "NATURAL SCIENCES::Chemistry::Organic chemistry::Polymer chemistry",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Chemistry::Organic chemistry",
+        "note" : "Polymerkemi",
+        "hasChildren" : "false",
+        "id" : "VR151605"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR151605/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR151605/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR151605"
+        }
+      }
+    }, {
+      "id" : "srsc:VR151606",
+      "display" : "Pharmaceutical chemistry",
+      "value" : "NATURAL SCIENCES::Chemistry::Organic chemistry::Pharmaceutical chemistry",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Chemistry::Organic chemistry",
+        "note" : "Läkemedelskemi",
+        "hasChildren" : "false",
+        "id" : "VR151606"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR151606/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR151606/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR151606"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 5
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1516/children?page=0&size=100"
+    }
+  }
+}

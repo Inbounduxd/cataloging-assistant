@@ -1,0 +1,108 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:SCB1631",
+      "display" : "Chemical process and manufacturing engineering",
+      "value" : "TECHNOLOGY::Chemical engineering::Chemical process and manufacturing engineering",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY::Chemical engineering",
+        "note" : "Kemisk process- och produktionsteknik",
+        "hasChildren" : "true",
+        "id" : "SCB1631"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1631/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1631/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1631"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1632",
+      "display" : "Metallurgical process and manufacturing engineering",
+      "value" : "TECHNOLOGY::Chemical engineering::Metallurgical process and manufacturing engineering",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY::Chemical engineering",
+        "note" : "Metallurgisk process- och produktionsteknik",
+        "hasChildren" : "true",
+        "id" : "SCB1632"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1632/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1632/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1632"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1633",
+      "display" : "Food technology",
+      "value" : "TECHNOLOGY::Chemical engineering::Food technology",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY::Chemical engineering",
+        "note" : "Livsmedelsteknik",
+        "hasChildren" : "false",
+        "id" : "SCB1633"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1633/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1633/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1633"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1639",
+      "display" : "Other chemical engineering",
+      "value" : "TECHNOLOGY::Chemical engineering::Other chemical engineering",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY::Chemical engineering",
+        "note" : "Övrig kemiteknik",
+        "hasChildren" : "false",
+        "id" : "SCB1639"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1639/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1639/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1639"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 4
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB163/children?page=0&size=100"
+    }
+  }
+}

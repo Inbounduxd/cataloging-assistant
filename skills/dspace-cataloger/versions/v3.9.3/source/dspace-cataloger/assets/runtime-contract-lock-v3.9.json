@@ -1,0 +1,66 @@
+{
+  "skillVersion": "3.9.3",
+  "runtimeContractVersion": "snibli-contract-2026-10-21",
+  "catalogContractSha256": "fb9473e926eefe0c7d119944422cf26c364d9f95afcda618851782544563b106",
+  "hashAlgorithm": "SHA256_CANONICAL_JSON_UTF8",
+  "fieldCount": 57,
+  "uniqueMetadataCount": 55,
+  "applicationRepository": "Inbounduxd/cataloging-assistant",
+  "applicationCommit": null,
+  "status": "LOCAL_WORKING_TREE_NOT_DEPLOYED",
+  "governance": {
+    "draftable_fields": [
+      "dc.description.registeredLanguage",
+      "dc.subject.linguiscgroup",
+      "dc.subject.linguisticFamily",
+      "dc.subject.linguisticBranch",
+      "dc.subject.linguisticVariant"
+    ],
+    "controlled_fields": [
+      "dc.description.registeredLanguage",
+      "dc.subject.linguiscgroup",
+      "dc.subject.linguisticFamily",
+      "dc.subject.linguisticBranch",
+      "dc.subject.linguisticVariant"
+    ],
+    "profile_fields": [
+      "dc.description.registeredLanguage",
+      "dc.subject.linguiscgroup",
+      "dc.subject.linguisticFamily",
+      "dc.subject.linguisticBranch",
+      "dc.subject.linguisticVariant"
+    ],
+    "profile_relationships": [
+      [
+        "dc.subject.linguisticFamily",
+        "dc.subject.linguiscgroup"
+      ],
+      [
+        "dc.subject.linguiscgroup",
+        "dc.subject.linguisticVariant"
+      ],
+      [
+        "dc.subject.linguisticFamily",
+        "dc.subject.linguisticBranch"
+      ],
+      [
+        "dc.subject.linguisticBranch",
+        "dc.subject.linguiscgroup"
+      ]
+    ],
+    "clin_relationships": [
+      [
+        "dc.subject.linguisticFamily",
+        "dc.subject.linguiscgroup"
+      ],
+      [
+        "dc.subject.linguiscgroup",
+        "dc.subject.linguisticVariant"
+      ]
+    ],
+    "branch_is_optional_enrichment": true,
+    "registered_language_is_independent": true,
+    "dspace_write_enabled": false,
+    "human_approval_required": true
+  }
+}

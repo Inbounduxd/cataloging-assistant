@@ -1,0 +1,292 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:SCB231",
+      "display" : "Children",
+      "value" : "INTERDISCIPLINARY RESEARCH AREAS::Children",
+      "otherInformation" : {
+        "parent" : "INTERDISCIPLINARY RESEARCH AREAS",
+        "note" : "Barn",
+        "hasChildren" : "false",
+        "id" : "SCB231"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB231/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB231/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB231"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB232",
+      "display" : "Domestic science and nutrition",
+      "value" : "INTERDISCIPLINARY RESEARCH AREAS::Domestic science and nutrition",
+      "otherInformation" : {
+        "parent" : "INTERDISCIPLINARY RESEARCH AREAS",
+        "note" : "Hushålls- och kostvetenskap",
+        "hasChildren" : "false",
+        "id" : "SCB232"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB232/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB232/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB232"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB233",
+      "display" : "Health and medical services in society",
+      "value" : "INTERDISCIPLINARY RESEARCH AREAS::Health and medical services in society",
+      "otherInformation" : {
+        "parent" : "INTERDISCIPLINARY RESEARCH AREAS",
+        "note" : "Hälso- och sjukvård i samhället",
+        "hasChildren" : "false",
+        "id" : "SCB233"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB233/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB233/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB233"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB234",
+      "display" : "Human communication",
+      "value" : "INTERDISCIPLINARY RESEARCH AREAS::Human communication",
+      "otherInformation" : {
+        "parent" : "INTERDISCIPLINARY RESEARCH AREAS",
+        "note" : "Kommunikation mellan människor",
+        "hasChildren" : "false",
+        "id" : "SCB234"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB234/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB234/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB234"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB235",
+      "display" : "Technology and social change",
+      "value" : "INTERDISCIPLINARY RESEARCH AREAS::Technology and social change",
+      "otherInformation" : {
+        "parent" : "INTERDISCIPLINARY RESEARCH AREAS",
+        "note" : "Teknik och social förändring",
+        "hasChildren" : "false",
+        "id" : "SCB235"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB235/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB235/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB235"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB236",
+      "display" : "Water in nature and society",
+      "value" : "INTERDISCIPLINARY RESEARCH AREAS::Water in nature and society",
+      "otherInformation" : {
+        "parent" : "INTERDISCIPLINARY RESEARCH AREAS",
+        "note" : "Vatten i natur och samhälle",
+        "hasChildren" : "false",
+        "id" : "SCB236"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB236/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB236/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB236"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB237",
+      "display" : "Caring sciences",
+      "value" : "INTERDISCIPLINARY RESEARCH AREAS::Caring sciences",
+      "otherInformation" : {
+        "parent" : "INTERDISCIPLINARY RESEARCH AREAS",
+        "note" : "Vårdvetenskap",
+        "hasChildren" : "true",
+        "id" : "SCB237"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB237/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB237/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB237"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB238",
+      "display" : "Ethnicity",
+      "value" : "INTERDISCIPLINARY RESEARCH AREAS::Ethnicity",
+      "otherInformation" : {
+        "parent" : "INTERDISCIPLINARY RESEARCH AREAS",
+        "note" : "Etnicitet",
+        "hasChildren" : "false",
+        "id" : "SCB238"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB238/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB238/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB238"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB239",
+      "display" : "Gender studies",
+      "value" : "INTERDISCIPLINARY RESEARCH AREAS::Gender studies",
+      "otherInformation" : {
+        "parent" : "INTERDISCIPLINARY RESEARCH AREAS",
+        "note" : "Genus",
+        "hasChildren" : "false",
+        "id" : "SCB239"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB239/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB239/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB239"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB241",
+      "display" : "Cultural heritage and cultural production",
+      "value" : "INTERDISCIPLINARY RESEARCH AREAS::Cultural heritage and cultural production",
+      "otherInformation" : {
+        "parent" : "INTERDISCIPLINARY RESEARCH AREAS",
+        "note" : "Kulturarv och kulturproduktion",
+        "hasChildren" : "false",
+        "id" : "SCB241"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB241/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB241/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB241"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB242",
+      "display" : "Sports",
+      "value" : "INTERDISCIPLINARY RESEARCH AREAS::Sports",
+      "otherInformation" : {
+        "parent" : "INTERDISCIPLINARY RESEARCH AREAS",
+        "note" : "Idrott",
+        "hasChildren" : "false",
+        "id" : "SCB242"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB242/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB242/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB242"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB243",
+      "display" : "Older people and ageing",
+      "value" : "INTERDISCIPLINARY RESEARCH AREAS::Older people and ageing",
+      "otherInformation" : {
+        "parent" : "INTERDISCIPLINARY RESEARCH AREAS",
+        "note" : "Äldre och åldrande",
+        "hasChildren" : "false",
+        "id" : "SCB243"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB243/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB243/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB243"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 12
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB23/children?page=0&size=100"
+    }
+  }
+}

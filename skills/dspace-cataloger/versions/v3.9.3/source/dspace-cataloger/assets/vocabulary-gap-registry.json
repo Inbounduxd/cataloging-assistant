@@ -1,0 +1,111 @@
+{
+  "version": "3.3",
+  "generatedAt": "2026-08-14T09:03:19.470486+00:00",
+  "gaps": [
+    {
+      "gapId": "VG-TYPE-REVIEW",
+      "field": "dc.type",
+      "concept": "Review / Reseña",
+      "sourceForms": [
+        "Review",
+        "Reseña",
+        "Reseñas"
+      ],
+      "status": "OPEN",
+      "firstSeenCase": "GR02",
+      "occurrenceCount": 1,
+      "note": "common_types no contiene Review/Reseña; no forzar Article."
+    },
+    {
+      "gapId": "VG-TYPE-POETRY",
+      "field": "dc.type",
+      "concept": "Poetry / Poesía",
+      "sourceForms": [
+        "Poesía",
+        "Poemas"
+      ],
+      "status": "OPEN",
+      "firstSeenCase": "GR08",
+      "occurrenceCount": 1,
+      "note": "common_types no tiene Poetry/Poesía ni Literary work."
+    },
+    {
+      "gapId": "VG-LING-MAYA-GENERIC",
+      "field": "dc.subject.linguiscgroup",
+      "concept": "Maya genérico / lengua maya no reducible a una agrupación contemporánea",
+      "sourceForms": [
+        "Maya",
+        "lengua maya",
+        "lengua de las inscripciones jeroglíficas mayas"
+      ],
+      "status": "OPEN",
+      "firstSeenCase": "GR02",
+      "occurrenceCount": 4,
+      "note": "No sustituir por Maya yucateco sin evidencia de especificidad."
+    },
+    {
+      "gapId": "VG-LING-PROTO-MAYAN",
+      "field": "dc.subject.linguiscgroup",
+      "concept": "Proto-Mayan / Proto-maya",
+      "sourceForms": [
+        "Proto-Mayan",
+        "proto-maya"
+      ],
+      "status": "OPEN",
+      "firstSeenCase": "GR10",
+      "occurrenceCount": 1,
+      "note": "Requiere política para proto-lenguas/lenguas reconstruidas."
+    },
+    {
+      "gapId": "VG-SELF-JACH-TAAN",
+      "field": "dc.subject.selfDenomination",
+      "concept": "jach-t’aan",
+      "sourceForms": [
+        "jach t’aan",
+        "jach-t’aan"
+      ],
+      "status": "OPEN",
+      "firstSeenCase": "GR05",
+      "occurrenceCount": 1,
+      "note": "Valor verificado por fuente/autoridad, ausente de selfDenominationPairs."
+    },
+    {
+      "gapId": "VG-TOPIC-HISTLING",
+      "field": "dc.subject",
+      "concept": "Lingüística histórica",
+      "sourceForms": [
+        "Lingüística histórica",
+        "historical linguistics"
+      ],
+      "status": "OPEN",
+      "firstSeenCase": "GR10",
+      "occurrenceCount": 1,
+      "note": "No sustituir por Historiografía lingüística."
+    },
+    {
+      "gapId": "VG-TOPIC-EPIGRAPHY",
+      "field": "dc.subject",
+      "concept": "Epigrafía",
+      "sourceForms": [
+        "Epigrafía"
+      ],
+      "status": "OPEN",
+      "firstSeenCase": "GR06",
+      "occurrenceCount": 1,
+      "note": "Puede preservarse como dc.subject abierto mientras no exista en topicsPairs."
+    },
+    {
+      "gapId": "VG-TOPIC-REVITALIZATION",
+      "field": "dc.subject",
+      "concept": "Revitalización lingüística",
+      "sourceForms": [
+        "Revitalización",
+        "Revitalización lingüística"
+      ],
+      "status": "OPEN",
+      "firstSeenCase": "GR01",
+      "occurrenceCount": 2,
+      "note": "Evaluar si debe incorporarse al vocabulario temático institucional."
+    }
+  ]
+}

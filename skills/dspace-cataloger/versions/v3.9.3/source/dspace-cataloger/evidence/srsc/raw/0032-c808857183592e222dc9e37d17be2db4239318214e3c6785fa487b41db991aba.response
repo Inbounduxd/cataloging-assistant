@@ -1,0 +1,200 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:SCB1601",
+      "display" : "Computer science",
+      "value" : "TECHNOLOGY::Information technology::Computer science",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY::Information technology",
+        "note" : "Datavetenskap",
+        "hasChildren" : "true",
+        "id" : "SCB1601"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1601/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1601/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1601"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1602",
+      "display" : "Automatic control",
+      "value" : "TECHNOLOGY::Information technology::Automatic control",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY::Information technology",
+        "note" : "Reglerteknik",
+        "hasChildren" : "false",
+        "id" : "SCB1602"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1602/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1602/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1602"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1603",
+      "display" : "Telecommunication",
+      "value" : "TECHNOLOGY::Information technology::Telecommunication",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY::Information technology",
+        "note" : "Telekommunikation",
+        "hasChildren" : "true",
+        "id" : "SCB1603"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1603/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1603/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1603"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1604",
+      "display" : "Signal processing",
+      "value" : "TECHNOLOGY::Information technology::Signal processing",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY::Information technology",
+        "note" : "Signalbehandling",
+        "hasChildren" : "false",
+        "id" : "SCB1604"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1604/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1604/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1604"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1605",
+      "display" : "Image analysis",
+      "value" : "TECHNOLOGY::Information technology::Image analysis",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY::Information technology",
+        "note" : "Bildanalys",
+        "hasChildren" : "false",
+        "id" : "SCB1605"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1605/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1605/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1605"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1606",
+      "display" : "Computer engineering",
+      "value" : "TECHNOLOGY::Information technology::Computer engineering",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY::Information technology",
+        "note" : "Datorteknik",
+        "hasChildren" : "false",
+        "id" : "SCB1606"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1606/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1606/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1606"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1607",
+      "display" : "Systems engineering",
+      "value" : "TECHNOLOGY::Information technology::Systems engineering",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY::Information technology",
+        "note" : "Systemteknik",
+        "hasChildren" : "false",
+        "id" : "SCB1607"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1607/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1607/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1607"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1609",
+      "display" : "Other information technology",
+      "value" : "TECHNOLOGY::Information technology::Other information technology",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY::Information technology",
+        "note" : "Övrig informationsteknik",
+        "hasChildren" : "false",
+        "id" : "SCB1609"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1609/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1609/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1609"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 8
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB160/children?page=0&size=100"
+    }
+  }
+}

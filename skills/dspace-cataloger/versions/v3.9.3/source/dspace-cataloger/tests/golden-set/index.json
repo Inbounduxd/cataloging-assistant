@@ -1,0 +1,121 @@
+{
+  "version": "3.9.2",
+  "count": 23,
+  "records": [
+    {
+      "id": "GR01",
+      "recordId": 22665,
+      "title": "Trabajo para luchar contra la violencia lingüística"
+    },
+    {
+      "id": "GR02",
+      "recordId": 22754,
+      "title": "Ámbitos morfológicos — reseña"
+    },
+    {
+      "id": "GR03",
+      "recordId": 22802,
+      "title": "Prácticas lingüísticas en el juego de un grupo de pares bilingües maya-español"
+    },
+    {
+      "id": "GR04",
+      "recordId": 23178,
+      "title": "Aprendizaje situado para el cuidado del paisaje"
+    },
+    {
+      "id": "GR05",
+      "recordId": 20785,
+      "title": "Análisis acústico y descripción de procesos fonológicos del maya lacandón"
+    },
+    {
+      "id": "GR06",
+      "recordId": 20915,
+      "title": "Gramática descriptiva de la lengua de las inscripciones jeroglíficas mayas"
+    },
+    {
+      "id": "GR07",
+      "recordId": 21610,
+      "title": "Cantar y reír en mayat’aan, tu’un savi, chaqF jnyaJ, äyuujk, o’dam y en Niya/Te̱ja̱o̱"
+    },
+    {
+      "id": "GR08",
+      "recordId": 20133,
+      "title": "Poemas en maya y español"
+    },
+    {
+      "id": "GR09",
+      "recordId": 22898,
+      "title": "El Iknal: canal y espacio para el aprendizaje cotidiano de los maya-hablantes"
+    },
+    {
+      "id": "GR10",
+      "recordId": 21456,
+      "title": "The position of Set B markers in Proto-Mayan"
+    },
+    {
+      "id": "GR11",
+      "recordId": null,
+      "title": "Article in Spanish studying multiple Indigenous languages"
+    },
+    {
+      "id": "GR12",
+      "recordId": null,
+      "title": "Multi-entity Indigenous-language diagnostic"
+    },
+    {
+      "id": "GR13",
+      "recordId": null,
+      "title": "CLIN hierarchy with optional genealogical branch"
+    },
+    {
+      "id": "GR14",
+      "recordId": null,
+      "title": "Locality labels are not automatically CLIN variants"
+    },
+    {
+      "id": "GR15",
+      "recordId": null,
+      "title": "Alias and autodenomination reconciliation"
+    },
+    {
+      "id": "GR16",
+      "recordId": null,
+      "title": "Closed vocabulary license version gap"
+    },
+    {
+      "id": "GR17",
+      "recordId": null,
+      "title": "Author abstract plus generated cataloguing synthesis"
+    },
+    {
+      "id": "GR18",
+      "recordId": null,
+      "title": "No author keywords but inferable controlled topics"
+    },
+    {
+      "id": "GR19",
+      "recordId": null,
+      "title": "Online-first date differs from issue date"
+    },
+    {
+      "id": "GR20",
+      "recordId": null,
+      "title": "Colon in title without explicit subtitle"
+    },
+    {
+      "id": "GR21",
+      "recordId": 2716,
+      "title": "Linguistic relevance for indexing"
+    },
+    {
+      "id": "GR22",
+      "recordId": 2716,
+      "title": "No genealogical propagation from secondary language mentions"
+    },
+    {
+      "id": "GR23",
+      "recordId": null,
+      "title": "ORCID is not an ISSN fragment"
+    }
+  ]
+}

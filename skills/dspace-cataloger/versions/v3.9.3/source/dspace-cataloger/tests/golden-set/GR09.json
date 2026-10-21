@@ -1,0 +1,15 @@
+{
+  "goldenRecord": "GR09",
+  "recordId": 22898,
+  "title": "El Iknal: canal y espacio para el aprendizaje cotidiano de los maya-hablantes",
+  "status": "PILOT_ACCEPTED",
+  "purpose": "Semantic regression fixture. Does not contain full copyrighted source text.",
+  "expectedRules": [
+    "BOOK_CHAPTER_MAPPING",
+    "COORDINATOR_ROLE_PRESERVED",
+    "ISBN_LABEL_MISMATCH",
+    "EXTENSIVE_MAYA_DATA_NOT_BILINGUAL",
+    "LEXICOGRAPHY_OVERCLASSIFICATION_REJECTED"
+  ],
+  "mustNever": []
+}

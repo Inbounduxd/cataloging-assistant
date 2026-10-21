@@ -1,0 +1,20 @@
+{
+  "artifactVersion": "1.0.0",
+  "skillVersion": "3.9",
+  "runtimeContractVersion": "dspace-cataloger-v3.6",
+  "dspaceVersion": "7.6.6",
+  "fieldCount": 56,
+  "catalogContractSha256": "a68fbf9664b7165ea240508da85167058cd57796fbda9c1a9869986afb0178bb",
+  "applicationRepository": "keilynrp/cataloging-assistant",
+  "applicationMainCommitReviewed": "c57d48bf7ff07e47c6c44e0a625e1f5445e2b33e",
+  "frozenDateUtc": "2026-08-18",
+  "governance": {
+    "skillVersionDoesNotRenameRuntimeContract": true,
+    "dspaceWriteEnabled": false,
+    "humanApprovalRequired": true,
+    "ocrRuntimeEnabled": false,
+    "llmAssistedExtractionProductivelyEnabled": false,
+    "agentMutationsEnabled": false
+  },
+  "notes": "The runtime contract identity is frozen independently from the skill package version. VERTICAL-021 governance/evaluation does not authorize productive LLM runtime behavior, provider egress, OCR, agent mutation or DSpace write."
+}

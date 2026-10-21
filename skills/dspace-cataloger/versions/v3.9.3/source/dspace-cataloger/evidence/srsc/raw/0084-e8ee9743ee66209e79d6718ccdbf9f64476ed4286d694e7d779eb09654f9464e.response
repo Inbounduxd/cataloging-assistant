@@ -1,0 +1,85 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:VR150301",
+      "display" : "Atomic physics",
+      "value" : "NATURAL SCIENCES::Physics::Atomic and molecular physics::Atomic physics",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Physics::Atomic and molecular physics",
+        "note" : "Atomfysik",
+        "hasChildren" : "false",
+        "id" : "VR150301"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150301/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150301/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150301"
+        }
+      }
+    }, {
+      "id" : "srsc:VR150302",
+      "display" : "Molecular physics",
+      "value" : "NATURAL SCIENCES::Physics::Atomic and molecular physics::Molecular physics",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Physics::Atomic and molecular physics",
+        "note" : "Molekylfysik",
+        "hasChildren" : "false",
+        "id" : "VR150302"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150302/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150302/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150302"
+        }
+      }
+    }, {
+      "id" : "srsc:VR150303",
+      "display" : "Chemical physics",
+      "value" : "NATURAL SCIENCES::Physics::Atomic and molecular physics::Chemical physics",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Physics::Atomic and molecular physics",
+        "note" : "Kemisk fysik",
+        "hasChildren" : "false",
+        "id" : "VR150303"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150303/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150303/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150303"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 3
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1503/children?page=0&size=100"
+    }
+  }
+}

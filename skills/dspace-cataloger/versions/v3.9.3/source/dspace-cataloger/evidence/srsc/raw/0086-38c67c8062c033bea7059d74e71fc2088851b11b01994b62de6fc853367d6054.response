@@ -1,0 +1,223 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:VR150501",
+      "display" : "Astronomy",
+      "value" : "NATURAL SCIENCES::Physics::Astronomy and astrophysics::Astronomy",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Physics::Astronomy and astrophysics",
+        "note" : "Astronomi",
+        "hasChildren" : "false",
+        "id" : "VR150501"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150501/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150501/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150501"
+        }
+      }
+    }, {
+      "id" : "srsc:VR150502",
+      "display" : "Astroparticle physics",
+      "value" : "NATURAL SCIENCES::Physics::Astronomy and astrophysics::Astroparticle physics",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Physics::Astronomy and astrophysics",
+        "note" : "Astropartikelfysik",
+        "hasChildren" : "false",
+        "id" : "VR150502"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150502/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150502/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150502"
+        }
+      }
+    }, {
+      "id" : "srsc:VR150503",
+      "display" : "High energy astrophysics",
+      "value" : "NATURAL SCIENCES::Physics::Astronomy and astrophysics::High energy astrophysics",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Physics::Astronomy and astrophysics",
+        "note" : "Högenergiastrofysik",
+        "hasChildren" : "false",
+        "id" : "VR150503"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150503/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150503/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150503"
+        }
+      }
+    }, {
+      "id" : "srsc:VR150504",
+      "display" : "Solar physics",
+      "value" : "NATURAL SCIENCES::Physics::Astronomy and astrophysics::Solar physics",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Physics::Astronomy and astrophysics",
+        "note" : "Solfysik",
+        "hasChildren" : "false",
+        "id" : "VR150504"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150504/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150504/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150504"
+        }
+      }
+    }, {
+      "id" : "srsc:VR150505",
+      "display" : "Planetary system",
+      "value" : "NATURAL SCIENCES::Physics::Astronomy and astrophysics::Planetary system",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Physics::Astronomy and astrophysics",
+        "note" : "Planetsystemet",
+        "hasChildren" : "false",
+        "id" : "VR150505"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150505/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150505/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150505"
+        }
+      }
+    }, {
+      "id" : "srsc:VR150506",
+      "display" : "Galactical astronomy",
+      "value" : "NATURAL SCIENCES::Physics::Astronomy and astrophysics::Galactical astronomy",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Physics::Astronomy and astrophysics",
+        "note" : "Galaktisk astronomi",
+        "hasChildren" : "false",
+        "id" : "VR150506"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150506/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150506/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150506"
+        }
+      }
+    }, {
+      "id" : "srsc:VR150507",
+      "display" : "Extragalactical astronomy",
+      "value" : "NATURAL SCIENCES::Physics::Astronomy and astrophysics::Extragalactical astronomy",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Physics::Astronomy and astrophysics",
+        "note" : "Extragalaktisk astronomi",
+        "hasChildren" : "false",
+        "id" : "VR150507"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150507/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150507/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150507"
+        }
+      }
+    }, {
+      "id" : "srsc:VR150508",
+      "display" : "Formation and development of stars",
+      "value" : "NATURAL SCIENCES::Physics::Astronomy and astrophysics::Formation and development of stars",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Physics::Astronomy and astrophysics",
+        "note" : "Stjärnors bildning och utveckling",
+        "hasChildren" : "false",
+        "id" : "VR150508"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150508/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150508/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150508"
+        }
+      }
+    }, {
+      "id" : "srsc:VR150509",
+      "display" : "Cosmology",
+      "value" : "NATURAL SCIENCES::Physics::Astronomy and astrophysics::Cosmology",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Physics::Astronomy and astrophysics",
+        "note" : "Kosmologi",
+        "hasChildren" : "false",
+        "id" : "VR150509"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150509/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150509/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150509"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 9
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1505/children?page=0&size=100"
+    }
+  }
+}

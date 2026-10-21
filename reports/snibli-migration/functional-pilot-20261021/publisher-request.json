@@ -1,0 +1,12 @@
+{
+  "endpoint": "https://ela.enallt.unam.mx/index.php/ela/article/view/632",
+  "redirects": [
+    {
+      "url": "https://ela.enallt.unam.mx/index.php/ela/article/view/632",
+      "status": 200
+    }
+  ],
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "sha256": "1b60672c34f4b0bb9dfbeb11efaccd98b0d2d8645d451193045ad15cc6052ffc"
+}

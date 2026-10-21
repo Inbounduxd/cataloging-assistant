@@ -1,0 +1,108 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:VR131803",
+      "display" : "Peace and conflict research",
+      "value" : "SOCIAL SCIENCES::Social sciences::Political science::Peace and conflict research",
+      "otherInformation" : {
+        "parent" : "SOCIAL SCIENCES::Social sciences::Political science",
+        "note" : "Freds- och konfliktforskning",
+        "hasChildren" : "false",
+        "id" : "VR131803"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR131803/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR131803/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR131803"
+        }
+      }
+    }, {
+      "id" : "srsc:VR131804",
+      "display" : "Peace and development research",
+      "value" : "SOCIAL SCIENCES::Social sciences::Political science::Peace and development research",
+      "otherInformation" : {
+        "parent" : "SOCIAL SCIENCES::Social sciences::Political science",
+        "note" : "Freds- och utvecklingsforskning",
+        "hasChildren" : "false",
+        "id" : "VR131804"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR131804/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR131804/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR131804"
+        }
+      }
+    }, {
+      "id" : "srsc:VR131805",
+      "display" : "Empirical conflict research",
+      "value" : "SOCIAL SCIENCES::Social sciences::Political science::Empirical conflict research",
+      "otherInformation" : {
+        "parent" : "SOCIAL SCIENCES::Social sciences::Political science",
+        "note" : "Empirisk konfliktforskning",
+        "hasChildren" : "false",
+        "id" : "VR131805"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR131805/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR131805/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR131805"
+        }
+      }
+    }, {
+      "id" : "srsc:VR131806",
+      "display" : "Research on Europe",
+      "value" : "SOCIAL SCIENCES::Social sciences::Political science::Research on Europe",
+      "otherInformation" : {
+        "parent" : "SOCIAL SCIENCES::Social sciences::Political science",
+        "note" : "Forskning om Europa",
+        "hasChildren" : "false",
+        "id" : "VR131806"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR131806/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR131806/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR131806"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 4
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1318/children?page=0&size=100"
+    }
+  }
+}
