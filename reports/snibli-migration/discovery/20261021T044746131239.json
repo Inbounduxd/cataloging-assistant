@@ -1,0 +1,55 @@
+[
+  {
+    "requested_url": "https://www.iifl.unam.mx/SNIBLI/home",
+    "captured_at": "2026-10-21T04:47:45.069764+00:00",
+    "endpoint": "https://www.iifl.unam.mx/SNIBLI/home",
+    "redirects": [
+      {
+        "url": "https://www.iifl.unam.mx/SNIBLI/home",
+        "status": 200
+      }
+    ],
+    "http_status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "sha256": "50f06e29dcdfacb388dd744bc904911c0457316be2d8843fdc51b92b88173e0c",
+    "bytes": 847,
+    "raw_file": "50f06e29dcdfacb388dd744bc904911c0457316be2d8843fdc51b92b88173e0c.response",
+    "references": [
+      {
+        "tag": "base",
+        "attribute": "href",
+        "value": "/SNIBLI/"
+      },
+      {
+        "tag": "link",
+        "attribute": "href",
+        "value": "assets/images/Filologicas-principal.png"
+      },
+      {
+        "tag": "link",
+        "attribute": "href",
+        "value": "styles.e382c7dd35ca1222.css"
+      },
+      {
+        "tag": "link",
+        "attribute": "href",
+        "value": "styles.e382c7dd35ca1222.css"
+      },
+      {
+        "tag": "script",
+        "attribute": "src",
+        "value": "runtime.6e9781db428db3f5.js"
+      },
+      {
+        "tag": "script",
+        "attribute": "src",
+        "value": "polyfills.625dba166e8d2999.js"
+      },
+      {
+        "tag": "script",
+        "attribute": "src",
+        "value": "main.c6d5cfd5ea7ee9be.js"
+      }
+    ]
+  }
+]

@@ -1,0 +1,528 @@
+{
+  "_embedded" : {
+    "entries" : [ {
+      "display" : "eslavo eclesiástico antiguo",
+      "value" : "eslavo eclesiástico antiguo",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "chuvasio",
+      "value" : "chuvasio",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "galés",
+      "value" : "galés",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "danés",
+      "value" : "danés",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "alemán",
+      "value" : "alemán",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "maldivo (dhivehi)",
+      "value" : "maldivo (dhivehi)",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "dzongkha",
+      "value" : "dzongkha",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "ewé",
+      "value" : "ewé",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "griego (moderno)",
+      "value" : "griego (moderno)",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "inglés",
+      "value" : "inglés",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "esperanto",
+      "value" : "esperanto",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "español (castellano)",
+      "value" : "español (castellano)",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "estonio",
+      "value" : "estonio",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "euskera",
+      "value" : "euskera",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "persa (farsi)",
+      "value" : "persa (farsi)",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "fula",
+      "value" : "fula",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "finés",
+      "value" : "finés",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "fiyiano",
+      "value" : "fiyiano",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "feroés",
+      "value" : "feroés",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "francés",
+      "value" : "francés",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "frisón",
+      "value" : "frisón",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "irlandés",
+      "value" : "irlandés",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "gaélico escocés",
+      "value" : "gaélico escocés",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "gallego",
+      "value" : "gallego",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "guaraní",
+      "value" : "guaraní",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "guyaratí",
+      "value" : "guyaratí",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "manés",
+      "value" : "manés",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "hausa",
+      "value" : "hausa",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "hebreo",
+      "value" : "hebreo",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "hindi",
+      "value" : "hindi",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "hiri motu",
+      "value" : "hiri motu",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "croata",
+      "value" : "croata",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "haitiano",
+      "value" : "haitiano",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "húngaro",
+      "value" : "húngaro",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "armenio",
+      "value" : "armenio",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "herero",
+      "value" : "herero",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "interlingua",
+      "value" : "interlingua",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "indonesio",
+      "value" : "indonesio",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "occidental",
+      "value" : "occidental",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "igbo",
+      "value" : "igbo",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "yi de Sichuán",
+      "value" : "yi de Sichuán",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "iñupiaq",
+      "value" : "iñupiaq",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "ido",
+      "value" : "ido",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "islandés",
+      "value" : "islandés",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "italiano",
+      "value" : "italiano",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "inuktitut",
+      "value" : "inuktitut",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "japonés",
+      "value" : "japonés",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "javanés",
+      "value" : "javanés",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "georgiano",
+      "value" : "georgiano",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "kongo (kikongo)",
+      "value" : "kongo (kikongo)",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "kikuyu",
+      "value" : "kikuyu",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "kuanyama",
+      "value" : "kuanyama",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "kazajo",
+      "value" : "kazajo",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "groenlandés (kalaallisut)",
+      "value" : "groenlandés (kalaallisut)",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "camboyano (jemer)",
+      "value" : "camboyano (jemer)",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "canarés",
+      "value" : "canarés",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "coreano",
+      "value" : "coreano",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "kanuri",
+      "value" : "kanuri",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "cachemiro",
+      "value" : "cachemiro",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "kurdo",
+      "value" : "kurdo",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "komi",
+      "value" : "komi",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "córnico",
+      "value" : "córnico",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "kirguís",
+      "value" : "kirguís",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "latín",
+      "value" : "latín",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "luxemburgués",
+      "value" : "luxemburgués",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "luganda",
+      "value" : "luganda",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "limburgués",
+      "value" : "limburgués",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "lingala",
+      "value" : "lingala",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "lao",
+      "value" : "lao",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "lituano",
+      "value" : "lituano",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "luba-katanga",
+      "value" : "luba-katanga",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "letón",
+      "value" : "letón",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "malgache",
+      "value" : "malgache",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "marshalés",
+      "value" : "marshalés",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "maorí",
+      "value" : "maorí",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "macedonio",
+      "value" : "macedonio",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "malayalam",
+      "value" : "malayalam",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "mongol",
+      "value" : "mongol",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "maratí",
+      "value" : "maratí",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "malayo",
+      "value" : "malayo",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "maltés",
+      "value" : "maltés",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "birmano",
+      "value" : "birmano",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "nauruano",
+      "value" : "nauruano",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "noruego bokmål",
+      "value" : "noruego bokmål",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "ndebele del norte",
+      "value" : "ndebele del norte",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "nepalí",
+      "value" : "nepalí",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "ndonga",
+      "value" : "ndonga",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "neerlandés",
+      "value" : "neerlandés",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "nynorsk",
+      "value" : "nynorsk",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "noruego",
+      "value" : "noruego",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "ndebele del sur",
+      "value" : "ndebele del sur",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "navajo",
+      "value" : "navajo",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "chichewa",
+      "value" : "chichewa",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "occitano",
+      "value" : "occitano",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "ojibwa",
+      "value" : "ojibwa",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "oromo",
+      "value" : "oromo",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "oriya (odia)",
+      "value" : "oriya (odia)",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "osético",
+      "value" : "osético",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "panyabí",
+      "value" : "panyabí",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "pali",
+      "value" : "pali",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    } ]
+  },
+  "page" : {
+    "number" : 1,
+    "size" : 100,
+    "totalPages" : 3,
+    "totalElements" : 256
+  },
+  "_links" : {
+    "next" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularies/linguiscgroupPairs/entries?page=2&size=100"
+    },
+    "last" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularies/linguiscgroupPairs/entries?page=2&size=100"
+    },
+    "prev" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularies/linguiscgroupPairs/entries?page=0&size=100"
+    },
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularies/linguiscgroupPairs/entries?page=1&size=100"
+    },
+    "first" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularies/linguiscgroupPairs/entries?page=0&size=100"
+    }
+  }
+}

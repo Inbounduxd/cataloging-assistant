@@ -1,0 +1,36 @@
+{
+  "_embedded" : {
+    "entries" : [ {
+      "display" : "Acceso abierto",
+      "value" : "Acceso abierto",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Acceso embargado",
+      "value" : "Acceso embargado",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Acceso restringido",
+      "value" : "Acceso restringido",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Acceso a registro bibliográfico",
+      "value" : "Acceso a registro bibliográfico",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 4
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularies/accessRightsPairs/entries?page=0&size=100"
+    }
+  }
+}

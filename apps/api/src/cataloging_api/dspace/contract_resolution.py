@@ -5,7 +5,7 @@ import json
 import string
 import uuid
 from collections import Counter
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from typing import Any
 
 from sqlalchemy import select
@@ -19,10 +19,9 @@ from cataloging_api.cataloging_contract import (
 from cataloging_api.dspace.contract_snapshot_store import DSpaceContractSnapshot
 from cataloging_api.dspace.contract_store import DSpaceContractRawPage
 
-
 RESOLVABLE_SURFACE = "active_submission_sections"
 EXPECTED_FORMS = ("traditionalpageone", "traditionalpagetwo")
-EXPECTED_FORM_BINDING_COUNTS = {"traditionalpageone": 44, "traditionalpagetwo": 12}
+EXPECTED_FORM_BINDING_COUNTS = {"traditionalpageone": 45, "traditionalpagetwo": 12}
 EXPECTED_BINDING_COUNT = len(FIELDS)
 EXPECTED_UNIQUE_METADATA_COUNT = len({field.metadata_field for field in FIELDS})
 ALLOWED_RESOLUTION_WARNINGS = {
@@ -111,14 +110,18 @@ def validate_reconciled_overlay(
     if not metadata.issubset(registry):
         raise ContractResolutionError("resolved_binding_metadata_not_in_registry")
 
-    # The authenticated reconciliation established render-order identity 56/56.
+    # The approved local revision includes the inserted comparative-text binding.
     # Validate DSpace's raw widget label and selector label independently from the
     # assistant-facing ui_label so selectableMetadata fields are not conflated.
     ordered = sorted(bindings, key=lambda item: tuple(item.get("position") or []))
     if len(ordered) != len(FIELDS):
         raise ContractResolutionError("resolved_binding_order_mismatch")
     for index, (binding, expected) in enumerate(zip(ordered, FIELDS, strict=True)):
-        expected_form = "traditionalpageone" if index < 44 else "traditionalpagetwo"
+        expected_form = (
+            "traditionalpageone"
+            if index < EXPECTED_FORM_BINDING_COUNTS["traditionalpageone"]
+            else "traditionalpagetwo"
+        )
         if binding.get("form") != expected_form:
             raise ContractResolutionError("resolved_binding_form_order_mismatch")
         if binding.get("metadata") != expected.metadata_field:
@@ -216,13 +219,11 @@ async def resolve_authoritative_evidence(
     snapshot.resolution_source_hash = source_export_hash
     snapshot.resolution_reconciliation_hash = reconciliation_hash
     snapshot.resolved_by = resolved_by
-    snapshot.resolved_at = datetime.now(timezone.utc)
+    snapshot.resolved_at = datetime.now(UTC)
     snapshot.resolution_note = resolution_note
 
     active_result = await session.execute(
-        select(DSpaceContractSnapshot)
-        .where(DSpaceContractSnapshot.status == "ACTIVE")
-        .limit(1)
+        select(DSpaceContractSnapshot).where(DSpaceContractSnapshot.status == "ACTIVE").limit(1)
     )
     active = active_result.scalar_one_or_none()
     if active is None:

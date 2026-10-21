@@ -1,0 +1,108 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:VR140202",
+      "display" : "Numerical analysis",
+      "value" : "MATHEMATICS::Applied mathematics::Numerical analysis",
+      "otherInformation" : {
+        "parent" : "MATHEMATICS::Applied mathematics",
+        "note" : "Numerisk analys",
+        "hasChildren" : "false",
+        "id" : "VR140202"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR140202/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR140202/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR140202"
+        }
+      }
+    }, {
+      "id" : "srsc:VR140203",
+      "display" : "Mathematical statistics",
+      "value" : "MATHEMATICS::Applied mathematics::Mathematical statistics",
+      "otherInformation" : {
+        "parent" : "MATHEMATICS::Applied mathematics",
+        "note" : "Matematisk statistik",
+        "hasChildren" : "false",
+        "id" : "VR140203"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR140203/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR140203/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR140203"
+        }
+      }
+    }, {
+      "id" : "srsc:VR140204",
+      "display" : "Optimization, systems theory",
+      "value" : "MATHEMATICS::Applied mathematics::Optimization, systems theory",
+      "otherInformation" : {
+        "parent" : "MATHEMATICS::Applied mathematics",
+        "note" : "Optimeringslära, systemteori",
+        "hasChildren" : "false",
+        "id" : "VR140204"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR140204/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR140204/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR140204"
+        }
+      }
+    }, {
+      "id" : "srsc:VR140205",
+      "display" : "Theoretical computer science",
+      "value" : "MATHEMATICS::Applied mathematics::Theoretical computer science",
+      "otherInformation" : {
+        "parent" : "MATHEMATICS::Applied mathematics",
+        "note" : "Teoretisk datalogi",
+        "hasChildren" : "false",
+        "id" : "VR140205"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR140205/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR140205/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR140205"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 4
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1402/children?page=0&size=100"
+    }
+  }
+}

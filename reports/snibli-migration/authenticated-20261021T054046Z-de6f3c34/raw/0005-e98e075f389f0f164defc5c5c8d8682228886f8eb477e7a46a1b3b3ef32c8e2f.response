@@ -1,0 +1,2728 @@
+{
+  "_embedded" : {
+    "metadatafields" : [ {
+      "id" : 223,
+      "element" : "datePublished",
+      "qualifier" : null,
+      "scopeNote" : "Date of first broadcast/publication.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/223/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/223"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 11,
+          "prefix" : "creativework",
+          "namespace" : "https://schema.org/CreativeWork",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/11"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 218,
+      "element" : "editor",
+      "qualifier" : null,
+      "scopeNote" : "Specifies the Person who edited the CreativeWork.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/218/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/218"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 11,
+          "prefix" : "creativework",
+          "namespace" : "https://schema.org/CreativeWork",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/11"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 222,
+      "element" : "keywords",
+      "qualifier" : null,
+      "scopeNote" : "Keywords or tags used to describe this content. Multiple entries in a keywords list are typically\n            delimited by commas.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/222/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/222"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 11,
+          "prefix" : "creativework",
+          "namespace" : "https://schema.org/CreativeWork",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/11"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 219,
+      "element" : "publisher",
+      "qualifier" : null,
+      "scopeNote" : "The publisher of the creative work.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/219/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/219"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 11,
+          "prefix" : "creativework",
+          "namespace" : "https://schema.org/CreativeWork",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/11"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 220,
+      "element" : "issn",
+      "qualifier" : null,
+      "scopeNote" : "The International Standard Serial Number (ISSN) that identifies this serial publication. You can\n            repeat this property to identify different formats of, or the linking ISSN (ISSN-L) for, this serial\n            publication.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/220/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/220"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 12,
+          "prefix" : "creativeworkseries",
+          "namespace" : "https://schema.org/CreativeWorkSeries",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/12"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 238,
+      "element" : "geoLocation",
+      "qualifier" : null,
+      "scopeNote" : "Spatial region or named place where the data was gathered or about which the data is focused.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/238/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/238"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 16,
+          "prefix" : "datacite",
+          "namespace" : "http://datacite.org/schema/kernel-4",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/16"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 239,
+      "element" : "subject",
+      "qualifier" : "fos",
+      "scopeNote" : "Fields of Science and Technology - OECD",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/239/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/239"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 16,
+          "prefix" : "datacite",
+          "namespace" : "http://datacite.org/schema/kernel-4",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/16"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 277,
+      "element" : "audience",
+      "qualifier" : "educationLevel",
+      "scopeNote" : "Nivel educativo al que va dirigido el recurso ",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/277/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/277"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 278,
+      "element" : "audience",
+      "qualifier" : "languageTarget",
+      "scopeNote" : "Indica si el recurso esta dirigido a hablantes de L1 o L2",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/278/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/278"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 9,
+      "element" : "contributor",
+      "qualifier" : "advisor",
+      "scopeNote" : "Use primarily for thesis advisor.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/9/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/9"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 10,
+      "element" : "contributor",
+      "qualifier" : "author",
+      "scopeNote" : null,
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/10/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/10"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 11,
+      "element" : "contributor",
+      "qualifier" : "editor",
+      "scopeNote" : null,
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/11/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/11"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 12,
+      "element" : "contributor",
+      "qualifier" : "illustrator",
+      "scopeNote" : null,
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/12/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/12"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 270,
+      "element" : "contributor",
+      "qualifier" : "institution",
+      "scopeNote" : "descripción del campo, por ejemplo: “Institución a la que pertenece el autor”",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/270/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/270"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 13,
+      "element" : "contributor",
+      "qualifier" : "other",
+      "scopeNote" : null,
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/13/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/13"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 268,
+      "element" : "contributor",
+      "qualifier" : "translator",
+      "scopeNote" : "Traductor del recurso",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/268/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/268"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 8,
+      "element" : "contributor",
+      "qualifier" : null,
+      "scopeNote" : "A person, organization, or service responsible for the content of the resource.  Catch-all for unspecified contributors.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/8/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/8"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 283,
+      "element" : "coverage",
+      "qualifier" : "century",
+      "scopeNote" : "Siglo al que pertenece el recurso",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/283/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/283"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 282,
+      "element" : "coverage",
+      "qualifier" : "community",
+      "scopeNote" : "Comunidad de origen del recurso",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/282/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/282"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 279,
+      "element" : "coverage",
+      "qualifier" : "country",
+      "scopeNote" : "Pais de origen del recurso",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/279/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/279"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 290,
+      "element" : "coverage",
+      "qualifier" : "countryFound",
+      "scopeNote" : "Pais donde se encontro el recurso",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/290/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/290"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 281,
+      "element" : "coverage",
+      "qualifier" : "region",
+      "scopeNote" : "Region de origen del recurso",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/281/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/281"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 14,
+      "element" : "coverage",
+      "qualifier" : "spatial",
+      "scopeNote" : "Spatial characteristics of content.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/14/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/14"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 280,
+      "element" : "coverage",
+      "qualifier" : "state",
+      "scopeNote" : "Estado de origen del recurso",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/280/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/280"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 15,
+      "element" : "coverage",
+      "qualifier" : "temporal",
+      "scopeNote" : "Temporal characteristics of content.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/15/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/15"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 16,
+      "element" : "creator",
+      "qualifier" : null,
+      "scopeNote" : "Do not use; only for harvested metadata.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/16/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/16"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 18,
+      "element" : "date",
+      "qualifier" : "accessioned",
+      "scopeNote" : "Date DSpace takes possession of item.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/18/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/18"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 19,
+      "element" : "date",
+      "qualifier" : "available",
+      "scopeNote" : "Date or date range item became available to the public.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/19/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/19"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 20,
+      "element" : "date",
+      "qualifier" : "copyright",
+      "scopeNote" : "Date of copyright.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/20/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/20"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 21,
+      "element" : "date",
+      "qualifier" : "created",
+      "scopeNote" : "Date of creation or manufacture of intellectual content if different from date.issued.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/21/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/21"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 22,
+      "element" : "date",
+      "qualifier" : "issued",
+      "scopeNote" : "Date of publication or distribution.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/22/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/22"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 23,
+      "element" : "date",
+      "qualifier" : "submitted",
+      "scopeNote" : "Recommend for theses/dissertations.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/23/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/23"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 133,
+      "element" : "date",
+      "qualifier" : "updated",
+      "scopeNote" : "The last time the item was updated via the SWORD interface",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/133/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/133"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 17,
+      "element" : "date",
+      "qualifier" : null,
+      "scopeNote" : "Use qualified form if possible.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/17/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/17"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 36,
+      "element" : "description",
+      "qualifier" : "abstract",
+      "scopeNote" : "Abstract or summary.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/36/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/36"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 262,
+      "element" : "description",
+      "qualifier" : "languageUsage",
+      "scopeNote" : "Uso linguistico del recurso: monolingue, bilingue o multilingue.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/262/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/262"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 271,
+      "element" : "description",
+      "qualifier" : "native",
+      "scopeNote" : "Descripción en lengua nativa",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/271/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/271"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 37,
+      "element" : "description",
+      "qualifier" : "provenance",
+      "scopeNote" : "The history of custody of the item since its creation, including any changes successive custodians made to it.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/37/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/37"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 263,
+      "element" : "description",
+      "qualifier" : "registeredLanguage",
+      "scopeNote" : "Lengua registrada en el recurso",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/263/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/263"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 38,
+      "element" : "description",
+      "qualifier" : "sponsorship",
+      "scopeNote" : "Information about sponsoring agencies, individuals, or\n    contractual arrangements for the item.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/38/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/38"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 39,
+      "element" : "description",
+      "qualifier" : "statementofresponsibility",
+      "scopeNote" : "To preserve statement of responsibility from MARC records.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/39/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/39"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 40,
+      "element" : "description",
+      "qualifier" : "tableofcontents",
+      "scopeNote" : "A table of contents for a given item.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/40/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/40"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 41,
+      "element" : "description",
+      "qualifier" : "uri",
+      "scopeNote" : "Uniform Resource Identifier pointing to description of\n    this item.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/41/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/41"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 134,
+      "element" : "description",
+      "qualifier" : "version",
+      "scopeNote" : "The Peer Reviewed status of an item",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/134/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/134"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 35,
+      "element" : "description",
+      "qualifier" : null,
+      "scopeNote" : "Catch-all for any description not defined by qualifiers.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/35/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/35"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 43,
+      "element" : "format",
+      "qualifier" : "extent",
+      "scopeNote" : "Size or duration.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/43/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/43"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 44,
+      "element" : "format",
+      "qualifier" : "medium",
+      "scopeNote" : "Physical medium.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/44/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/44"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 45,
+      "element" : "format",
+      "qualifier" : "mimetype",
+      "scopeNote" : "Registered MIME type identifiers.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/45/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/45"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 42,
+      "element" : "format",
+      "qualifier" : null,
+      "scopeNote" : "Catch-all for any format information not defined by qualifiers.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/42/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/42"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 25,
+      "element" : "identifier",
+      "qualifier" : "citation",
+      "scopeNote" : "Human-readable, standard bibliographic citation \n    of non-DSpace format of this item",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/25/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/25"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 284,
+      "element" : "identifier",
+      "qualifier" : "digital",
+      "scopeNote" : "Identificador de recurso digital (e-book, revista virtual)",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/284/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/284"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 32,
+      "element" : "identifier",
+      "qualifier" : "doi",
+      "scopeNote" : null,
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/32/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/32"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 289,
+      "element" : "identifier",
+      "qualifier" : "DOI",
+      "scopeNote" : "DOI\n\n",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/289/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/289"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 286,
+      "element" : "identifier",
+      "qualifier" : "eisbn",
+      "scopeNote" : "Electronic ISBN",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/286/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/286"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 285,
+      "element" : "identifier",
+      "qualifier" : "eissn",
+      "scopeNote" : "Electronic ISSN",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/285/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/285"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 26,
+      "element" : "identifier",
+      "qualifier" : "govdoc",
+      "scopeNote" : "A government document number",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/26/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/26"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 288,
+      "element" : "identifier",
+      "qualifier" : "handle",
+      "scopeNote" : "Handle\n",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/288/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/288"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 27,
+      "element" : "identifier",
+      "qualifier" : "isbn",
+      "scopeNote" : "International Standard Book Number",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/27/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/27"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 30,
+      "element" : "identifier",
+      "qualifier" : "ismn",
+      "scopeNote" : "International Standard Music Number",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/30/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/30"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 28,
+      "element" : "identifier",
+      "qualifier" : "issn",
+      "scopeNote" : "International Standard Serial Number",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/28/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/28"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 269,
+      "element" : "identifier",
+      "qualifier" : "issue",
+      "scopeNote" : "Fixeale",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/269/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/269"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 31,
+      "element" : "identifier",
+      "qualifier" : "other",
+      "scopeNote" : "A known identifier type common to a local collection.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/31/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/31"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 33,
+      "element" : "identifier",
+      "qualifier" : "scopus",
+      "scopeNote" : "The scopus identifier",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/33/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/33"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 29,
+      "element" : "identifier",
+      "qualifier" : "sici",
+      "scopeNote" : "Serial Item and Contribution Identifier",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/29/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/29"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 135,
+      "element" : "identifier",
+      "qualifier" : "slug",
+      "scopeNote" : "a uri supplied via the sword slug header, as a suggested uri for the item",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/135/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/135"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 34,
+      "element" : "identifier",
+      "qualifier" : "uri",
+      "scopeNote" : "Uniform Resource Identifier",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/34/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/34"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 287,
+      "element" : "identifier",
+      "qualifier" : "url",
+      "scopeNote" : "URL",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/287/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/287"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 24,
+      "element" : "identifier",
+      "qualifier" : null,
+      "scopeNote" : "Catch-all for unambiguous identifiers not defined by\n    qualified form; use identifier.other for a known identifier common\n    to a local collection instead of unqualified form.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/24/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/24"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 47,
+      "element" : "language",
+      "qualifier" : "iso",
+      "scopeNote" : "Current ISO standard for language of intellectual content, including country codes (e.g. \"en_US\").",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/47/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/47"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 273,
+      "element" : "language",
+      "qualifier" : "iso6391",
+      "scopeNote" : "Codigo ISO 639-1 de la lengua del recurso",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/273/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/273"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 136,
+      "element" : "language",
+      "qualifier" : "rfc3066",
+      "scopeNote" : "the rfc3066 form of the language for the item",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/136/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/136"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 46,
+      "element" : "language",
+      "qualifier" : null,
+      "scopeNote" : "Catch-all for non-ISO forms of the language of the\n    item, accommodating harvested values.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/46/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/46"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 5,
+      "element" : "provenance",
+      "qualifier" : null,
+      "scopeNote" : null,
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/5/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/5"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 48,
+      "element" : "publisher",
+      "qualifier" : null,
+      "scopeNote" : "Entity responsible for publication, distribution, or imprint.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/48/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/48"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 53,
+      "element" : "relation",
+      "qualifier" : "haspart",
+      "scopeNote" : "References physically or logically contained item.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/53/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/53"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 55,
+      "element" : "relation",
+      "qualifier" : "hasversion",
+      "scopeNote" : "References later version.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/55/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/55"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 56,
+      "element" : "relation",
+      "qualifier" : "isbasedon",
+      "scopeNote" : "References source.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/56/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/56"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 50,
+      "element" : "relation",
+      "qualifier" : "isformatof",
+      "scopeNote" : "References additional physical form.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/50/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/50"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 51,
+      "element" : "relation",
+      "qualifier" : "ispartof",
+      "scopeNote" : "References physically or logically containing item.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/51/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/51"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 52,
+      "element" : "relation",
+      "qualifier" : "ispartofseries",
+      "scopeNote" : "Series name and number within that series, if available.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/52/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/52"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 57,
+      "element" : "relation",
+      "qualifier" : "isreferencedby",
+      "scopeNote" : "Pointed to by referenced resource.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/57/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/57"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 60,
+      "element" : "relation",
+      "qualifier" : "isreplacedby",
+      "scopeNote" : "References succeeding item.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/60/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/60"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 54,
+      "element" : "relation",
+      "qualifier" : "isversionof",
+      "scopeNote" : "References earlier version.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/54/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/54"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 59,
+      "element" : "relation",
+      "qualifier" : "replaces",
+      "scopeNote" : "References preceeding item.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/59/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/59"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 58,
+      "element" : "relation",
+      "qualifier" : "requires",
+      "scopeNote" : "Referenced resource is required to support function,\n    delivery, or coherence of item.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/58/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/58"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 61,
+      "element" : "relation",
+      "qualifier" : "uri",
+      "scopeNote" : "References Uniform Resource Identifier for related item.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/61/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/61"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 49,
+      "element" : "relation",
+      "qualifier" : null,
+      "scopeNote" : "Catch-all for references to other related items.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/49/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/49"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 274,
+      "element" : "rights",
+      "qualifier" : "accessRights",
+      "scopeNote" : "Derecho de acceso al recurso",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/274/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/274"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 137,
+      "element" : "rights",
+      "qualifier" : "holder",
+      "scopeNote" : "The owner of the copyright",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/137/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/137"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 6,
+      "element" : "rights",
+      "qualifier" : "license",
+      "scopeNote" : null,
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/6/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/6"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 63,
+      "element" : "rights",
+      "qualifier" : "uri",
+      "scopeNote" : "References terms governing use and reproduction.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/63/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/63"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 62,
+      "element" : "rights",
+      "qualifier" : null,
+      "scopeNote" : "Terms governing use and reproduction.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/62/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/62"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 292,
+      "element" : "source",
+      "qualifier" : "booktitle",
+      "scopeNote" : "Titulo del libro del que forma parte el capitulo",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/292/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/292"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 275,
+      "element" : "source",
+      "qualifier" : "physicalRepository",
+      "scopeNote" : "Repositorio fisico donde se encuentra el recurso",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/275/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/275"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 65,
+      "element" : "source",
+      "qualifier" : "uri",
+      "scopeNote" : "Do not use; only for harvested metadata.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/65/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/65"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 64,
+      "element" : "source",
+      "qualifier" : null,
+      "scopeNote" : "Do not use; only for harvested metadata.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/64/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/64"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 67,
+      "element" : "subject",
+      "qualifier" : "classification",
+      "scopeNote" : "Catch-all for value from local classification system;\n    global classification systems will receive specific qualifier",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/67/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/67"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 68,
+      "element" : "subject",
+      "qualifier" : "ddc",
+      "scopeNote" : "Dewey Decimal Classification Number",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/68/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/68"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 69,
+      "element" : "subject",
+      "qualifier" : "lcc",
+      "scopeNote" : "Library of Congress Classification Number",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/69/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/69"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 70,
+      "element" : "subject",
+      "qualifier" : "lcsh",
+      "scopeNote" : "Library of Congress Subject Headings",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/70/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/70"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 1,
+          "prefix" : "dc",
+          "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "first" : {
+      "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields?page=0&size=100"
+    },
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields?page=0&size=100"
+    },
+    "next" : {
+      "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields?page=1&size=100"
+    },
+    "last" : {
+      "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields?page=2&size=100"
+    },
+    "search" : {
+      "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/search"
+    }
+  },
+  "page" : {
+    "size" : 100,
+    "totalElements" : 293,
+    "totalPages" : 3,
+    "number" : 0
+  }
+}

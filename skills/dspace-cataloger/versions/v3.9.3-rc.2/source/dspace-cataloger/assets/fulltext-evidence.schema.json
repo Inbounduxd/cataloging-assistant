@@ -1,0 +1,210 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Cataloguing Full-Text Evidence Corpus",
+  "type": "object",
+  "required": [
+    "sourceUrl",
+    "acquisitionStatus",
+    "representations",
+    "evidenceUnits"
+  ],
+  "properties": {
+    "sourceUrl": {
+      "type": "string"
+    },
+    "retrievedAt": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "acquisitionStatus": {
+      "enum": [
+        "FULLTEXT_XML",
+        "FULLTEXT_PDF",
+        "FULLTEXT_HTML",
+        "FULLTEXT_OCR",
+        "FULLTEXT_MULTIPLE",
+        "FULLTEXT_UNAVAILABLE",
+        "FULLTEXT_BLOCKED"
+      ]
+    },
+    "preferredRepresentation": {
+      "enum": [
+        "XML",
+        "PDF",
+        "HTML",
+        "OCR",
+        "NONE"
+      ]
+    },
+    "representations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "kind",
+          "url",
+          "status"
+        ],
+        "properties": {
+          "kind": {
+            "enum": [
+              "XML",
+              "PDF",
+              "HTML",
+              "EPUB",
+              "OTHER"
+            ]
+          },
+          "url": {
+            "type": "string"
+          },
+          "status": {
+            "enum": [
+              "DISCOVERED",
+              "FETCHED",
+              "FAILED",
+              "BLOCKED"
+            ]
+          },
+          "mimeType": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "pageCount": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 1
+          },
+          "textExtractable": {
+            "type": [
+              "boolean",
+              "null"
+            ]
+          },
+          "sourceHash": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "notes": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "documentStructure": {
+      "type": "object",
+      "properties": {
+        "hasFrontMatter": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "hasAbstract": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "hasKeywords": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "hasBody": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "hasReferences": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        }
+      },
+      "additionalProperties": true
+    },
+    "evidenceUnits": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "sectionClass",
+          "text",
+          "evidenceWeight"
+        ],
+        "properties": {
+          "representation": {
+            "enum": [
+              "XML",
+              "PDF",
+              "HTML",
+              "OCR"
+            ]
+          },
+          "sectionClass": {
+            "enum": [
+              "TITLE",
+              "AUTHOR",
+              "AFFILIATION",
+              "ABSTRACT",
+              "KEYWORDS",
+              "FRONT_MATTER",
+              "INTRODUCTION",
+              "METHODS",
+              "RESULTS",
+              "DISCUSSION",
+              "CONCLUSION",
+              "BODY",
+              "NOTES",
+              "REFERENCES",
+              "OTHER"
+            ]
+          },
+          "page": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 1
+          },
+          "sectionTitle": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "text": {
+            "type": "string"
+          },
+          "evidenceWeight": {
+            "enum": [
+              "PRIMARY",
+              "STRONG",
+              "SUPPORTING",
+              "WEAK",
+              "EXCLUDE_FOR_SUBJECT"
+            ]
+          }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,453 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:VR113701",
+      "display" : "Sanskrit language with Indo-European lingustics",
+      "value" : "HUMANITIES and RELIGION::Languages and linguistics::Other languages::Sanskrit language with Indo-European lingustics",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::Languages and linguistics::Other languages",
+        "note" : "Sanskrit med indoeuropeisk språkforskning",
+        "hasChildren" : "false",
+        "id" : "VR113701"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113701/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113701/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113701"
+        }
+      }
+    }, {
+      "id" : "srsc:VR113702",
+      "display" : "Celtic languages",
+      "value" : "HUMANITIES and RELIGION::Languages and linguistics::Other languages::Celtic languages",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::Languages and linguistics::Other languages",
+        "note" : "Keltiska språk",
+        "hasChildren" : "false",
+        "id" : "VR113702"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113702/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113702/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113702"
+        }
+      }
+    }, {
+      "id" : "srsc:VR113703",
+      "display" : "Baltic languages",
+      "value" : "HUMANITIES and RELIGION::Languages and linguistics::Other languages::Baltic languages",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::Languages and linguistics::Other languages",
+        "note" : "Baltiska språk",
+        "hasChildren" : "false",
+        "id" : "VR113703"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113703/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113703/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113703"
+        }
+      }
+    }, {
+      "id" : "srsc:VR113704",
+      "display" : "East Asian languages",
+      "value" : "HUMANITIES and RELIGION::Languages and linguistics::Other languages::East Asian languages",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::Languages and linguistics::Other languages",
+        "note" : "Östasiatiska språk",
+        "hasChildren" : "false",
+        "id" : "VR113704"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113704/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113704/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113704"
+        }
+      }
+    }, {
+      "id" : "srsc:VR113705",
+      "display" : "Turkic languages",
+      "value" : "HUMANITIES and RELIGION::Languages and linguistics::Other languages::Turkic languages",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::Languages and linguistics::Other languages",
+        "note" : "Turkiska språk",
+        "hasChildren" : "false",
+        "id" : "VR113705"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113705/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113705/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113705"
+        }
+      }
+    }, {
+      "id" : "srsc:VR113706",
+      "display" : "Iranian languages",
+      "value" : "HUMANITIES and RELIGION::Languages and linguistics::Other languages::Iranian languages",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::Languages and linguistics::Other languages",
+        "note" : "Iranska språk",
+        "hasChildren" : "false",
+        "id" : "VR113706"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113706/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113706/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113706"
+        }
+      }
+    }, {
+      "id" : "srsc:VR113707",
+      "display" : "Arabic language",
+      "value" : "HUMANITIES and RELIGION::Languages and linguistics::Other languages::Arabic language",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::Languages and linguistics::Other languages",
+        "note" : "Arabiska",
+        "hasChildren" : "false",
+        "id" : "VR113707"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113707/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113707/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113707"
+        }
+      }
+    }, {
+      "id" : "srsc:VR113708",
+      "display" : "Chinese language",
+      "value" : "HUMANITIES and RELIGION::Languages and linguistics::Other languages::Chinese language",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::Languages and linguistics::Other languages",
+        "note" : "Kinesiska",
+        "hasChildren" : "false",
+        "id" : "VR113708"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113708/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113708/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113708"
+        }
+      }
+    }, {
+      "id" : "srsc:VR113709",
+      "display" : "Egyptology",
+      "value" : "HUMANITIES and RELIGION::Languages and linguistics::Other languages::Egyptology",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::Languages and linguistics::Other languages",
+        "note" : "Egyptologi",
+        "hasChildren" : "false",
+        "id" : "VR113709"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113709/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113709/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113709"
+        }
+      }
+    }, {
+      "id" : "srsc:VR113710",
+      "display" : "Indonesian language",
+      "value" : "HUMANITIES and RELIGION::Languages and linguistics::Other languages::Indonesian language",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::Languages and linguistics::Other languages",
+        "note" : "Indonesiska",
+        "hasChildren" : "false",
+        "id" : "VR113710"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113710/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113710/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113710"
+        }
+      }
+    }, {
+      "id" : "srsc:VR113711",
+      "display" : "African languages",
+      "value" : "HUMANITIES and RELIGION::Languages and linguistics::Other languages::African languages",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::Languages and linguistics::Other languages",
+        "note" : "Afrikanska språk",
+        "hasChildren" : "false",
+        "id" : "VR113711"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113711/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113711/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113711"
+        }
+      }
+    }, {
+      "id" : "srsc:VR113712",
+      "display" : "Bantu languages",
+      "value" : "HUMANITIES and RELIGION::Languages and linguistics::Other languages::Bantu languages",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::Languages and linguistics::Other languages",
+        "note" : "Bantuistik",
+        "hasChildren" : "false",
+        "id" : "VR113712"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113712/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113712/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113712"
+        }
+      }
+    }, {
+      "id" : "srsc:VR113713",
+      "display" : "Caucasian languages",
+      "value" : "HUMANITIES and RELIGION::Languages and linguistics::Other languages::Caucasian languages",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::Languages and linguistics::Other languages",
+        "note" : "Kaukasiska språk",
+        "hasChildren" : "false",
+        "id" : "VR113713"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113713/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113713/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113713"
+        }
+      }
+    }, {
+      "id" : "srsc:VR113714",
+      "display" : "Semitic languages",
+      "value" : "HUMANITIES and RELIGION::Languages and linguistics::Other languages::Semitic languages",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::Languages and linguistics::Other languages",
+        "note" : "Semitiska språk",
+        "hasChildren" : "false",
+        "id" : "VR113714"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113714/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113714/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113714"
+        }
+      }
+    }, {
+      "id" : "srsc:VR113715",
+      "display" : "Altaic languages",
+      "value" : "HUMANITIES and RELIGION::Languages and linguistics::Other languages::Altaic languages",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::Languages and linguistics::Other languages",
+        "note" : "Altaistik",
+        "hasChildren" : "false",
+        "id" : "VR113715"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113715/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113715/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113715"
+        }
+      }
+    }, {
+      "id" : "srsc:VR113716",
+      "display" : "Assyriology",
+      "value" : "HUMANITIES and RELIGION::Languages and linguistics::Other languages::Assyriology",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::Languages and linguistics::Other languages",
+        "note" : "Assyriologi",
+        "hasChildren" : "false",
+        "id" : "VR113716"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113716/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113716/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113716"
+        }
+      }
+    }, {
+      "id" : "srsc:VR113717",
+      "display" : "Indology",
+      "value" : "HUMANITIES and RELIGION::Languages and linguistics::Other languages::Indology",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::Languages and linguistics::Other languages",
+        "note" : "Indologi",
+        "hasChildren" : "false",
+        "id" : "VR113717"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113717/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113717/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113717"
+        }
+      }
+    }, {
+      "id" : "srsc:VR113719",
+      "display" : "Japanology",
+      "value" : "HUMANITIES and RELIGION::Languages and linguistics::Other languages::Japanology",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::Languages and linguistics::Other languages",
+        "note" : "Japanologi",
+        "hasChildren" : "false",
+        "id" : "VR113719"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113719/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113719/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113719"
+        }
+      }
+    }, {
+      "id" : "srsc:VR113720",
+      "display" : "Koreanology",
+      "value" : "HUMANITIES and RELIGION::Languages and linguistics::Other languages::Koreanology",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::Languages and linguistics::Other languages",
+        "note" : "Koreanologi",
+        "hasChildren" : "false",
+        "id" : "VR113720"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113720/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113720/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113720"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 19
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1137/children?page=0&size=100"
+    }
+  }
+}

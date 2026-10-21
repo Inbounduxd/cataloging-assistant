@@ -1,0 +1,16 @@
+{
+  "goldenRecord": "GR06",
+  "recordId": 20915,
+  "title": "Gramática descriptiva de la lengua de las inscripciones jeroglíficas mayas",
+  "status": "PILOT_ACCEPTED",
+  "purpose": "Semantic regression fixture. Does not contain full copyrighted source text.",
+  "expectedRules": [
+    "PDF_UPLOAD_FIRST_CLASS",
+    "BIBLIOGRAPHIC_EXTENT_OVER_FILE_PAGECOUNT",
+    "ABSTRACT_NOT_PRESENT_IN_SOURCE",
+    "HISTORICAL_MAYA_NO_FORCED_BRANCH",
+    "THESIS_ROLE_SCHEMA_GAP",
+    "RIGHTS_LICENSE_ACCESS_SEPARATE"
+  ],
+  "mustNever": []
+}

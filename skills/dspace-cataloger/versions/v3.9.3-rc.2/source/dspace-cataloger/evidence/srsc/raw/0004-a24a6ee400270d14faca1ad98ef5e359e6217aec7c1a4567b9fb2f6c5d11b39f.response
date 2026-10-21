@@ -1,0 +1,108 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:SCB131",
+      "display" : "Social sciences",
+      "value" : "SOCIAL SCIENCES::Social sciences",
+      "otherInformation" : {
+        "parent" : "SOCIAL SCIENCES",
+        "note" : "Socialvetenskap",
+        "hasChildren" : "true",
+        "id" : "SCB131"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB131/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB131/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB131"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB132",
+      "display" : "Business and economics",
+      "value" : "SOCIAL SCIENCES::Business and economics",
+      "otherInformation" : {
+        "parent" : "SOCIAL SCIENCES",
+        "note" : "Ekonomi",
+        "hasChildren" : "true",
+        "id" : "SCB132"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB132/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB132/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB132"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB133",
+      "display" : "Statistics, computer and systems science",
+      "value" : "SOCIAL SCIENCES::Statistics, computer and systems science",
+      "otherInformation" : {
+        "parent" : "SOCIAL SCIENCES",
+        "note" : "Statistik, data- och systemvetenskap",
+        "hasChildren" : "true",
+        "id" : "SCB133"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB133/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB133/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB133"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB139",
+      "display" : "Other social sciences",
+      "value" : "SOCIAL SCIENCES::Other social sciences",
+      "otherInformation" : {
+        "parent" : "SOCIAL SCIENCES",
+        "note" : "Övrig samhällsvetenskap",
+        "hasChildren" : "true",
+        "id" : "SCB139"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB139/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB139/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB139"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 4
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB13/children?page=0&size=100"
+    }
+  }
+}

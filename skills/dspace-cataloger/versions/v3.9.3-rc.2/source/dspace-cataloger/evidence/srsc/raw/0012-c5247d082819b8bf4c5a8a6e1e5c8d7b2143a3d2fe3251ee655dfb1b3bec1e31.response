@@ -1,0 +1,384 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:SCB2201",
+      "display" : "Biochemistry and clinical chemistry",
+      "value" : "VETERINARY MEDICINE::Biochemistry and clinical chemistry",
+      "otherInformation" : {
+        "parent" : "VETERINARY MEDICINE",
+        "note" : "Biokemi och klinisk kemi",
+        "hasChildren" : "false",
+        "id" : "SCB2201"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2201/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2201/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2201"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB2202",
+      "display" : "Cell biology and genome research",
+      "value" : "VETERINARY MEDICINE::Cell biology and genome research",
+      "otherInformation" : {
+        "parent" : "VETERINARY MEDICINE",
+        "note" : "Cellbiologi och genomforskning",
+        "hasChildren" : "false",
+        "id" : "SCB2202"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2202/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2202/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2202"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB2203",
+      "display" : "Ethology of domestic animals",
+      "value" : "VETERINARY MEDICINE::Ethology of domestic animals",
+      "otherInformation" : {
+        "parent" : "VETERINARY MEDICINE",
+        "note" : "Husdjurens etologi",
+        "hasChildren" : "false",
+        "id" : "SCB2203"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2203/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2203/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2203"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB2204",
+      "display" : "Pharmacological research",
+      "value" : "VETERINARY MEDICINE::Pharmacological research",
+      "otherInformation" : {
+        "parent" : "VETERINARY MEDICINE",
+        "note" : "Farmakologisk forskning",
+        "hasChildren" : "false",
+        "id" : "SCB2204"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2204/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2204/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2204"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB2205",
+      "display" : "Physiology and nutrition",
+      "value" : "VETERINARY MEDICINE::Physiology and nutrition",
+      "otherInformation" : {
+        "parent" : "VETERINARY MEDICINE",
+        "note" : "Fysiologi och näringslära",
+        "hasChildren" : "false",
+        "id" : "SCB2205"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2205/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2205/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2205"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB2206",
+      "display" : "Animal hygiene",
+      "value" : "VETERINARY MEDICINE::Animal hygiene",
+      "otherInformation" : {
+        "parent" : "VETERINARY MEDICINE",
+        "note" : "Husdjurshygien",
+        "hasChildren" : "false",
+        "id" : "SCB2206"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2206/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2206/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2206"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB2207",
+      "display" : "Surgery",
+      "value" : "VETERINARY MEDICINE::Surgery",
+      "otherInformation" : {
+        "parent" : "VETERINARY MEDICINE",
+        "note" : "Kirurgi",
+        "hasChildren" : "false",
+        "id" : "SCB2207"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2207/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2207/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2207"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB2208",
+      "display" : "Food hygiene",
+      "value" : "VETERINARY MEDICINE::Food hygiene",
+      "otherInformation" : {
+        "parent" : "VETERINARY MEDICINE",
+        "note" : "Livsmedelshygien",
+        "hasChildren" : "false",
+        "id" : "SCB2208"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2208/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2208/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2208"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB2211",
+      "display" : "Medicine",
+      "value" : "VETERINARY MEDICINE::Medicine",
+      "otherInformation" : {
+        "parent" : "VETERINARY MEDICINE",
+        "note" : "Medicin",
+        "hasChildren" : "false",
+        "id" : "SCB2211"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2211/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2211/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2211"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB2212",
+      "display" : "Microbiology and immunology",
+      "value" : "VETERINARY MEDICINE::Microbiology and immunology",
+      "otherInformation" : {
+        "parent" : "VETERINARY MEDICINE",
+        "note" : "Mikrobiologi och immunologi",
+        "hasChildren" : "false",
+        "id" : "SCB2212"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2212/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2212/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2212"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB2213",
+      "display" : "Morphology",
+      "value" : "VETERINARY MEDICINE::Morphology",
+      "otherInformation" : {
+        "parent" : "VETERINARY MEDICINE",
+        "note" : "Morfologi",
+        "hasChildren" : "false",
+        "id" : "SCB2213"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2213/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2213/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2213"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB2214",
+      "display" : "Obstetrics and gynaecology",
+      "value" : "VETERINARY MEDICINE::Obstetrics and gynaecology",
+      "otherInformation" : {
+        "parent" : "VETERINARY MEDICINE",
+        "note" : "Obstetrik och gynekologi",
+        "hasChildren" : "false",
+        "id" : "SCB2214"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2214/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2214/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2214"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB2215",
+      "display" : "Pathology",
+      "value" : "VETERINARY MEDICINE::Pathology",
+      "otherInformation" : {
+        "parent" : "VETERINARY MEDICINE",
+        "note" : "Patologi",
+        "hasChildren" : "false",
+        "id" : "SCB2215"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2215/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2215/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2215"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB2216",
+      "display" : "Radiology",
+      "value" : "VETERINARY MEDICINE::Radiology",
+      "otherInformation" : {
+        "parent" : "VETERINARY MEDICINE",
+        "note" : "Radiologi",
+        "hasChildren" : "false",
+        "id" : "SCB2216"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2216/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2216/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2216"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB2217",
+      "display" : "Veterinary epidemiology",
+      "value" : "VETERINARY MEDICINE::Veterinary epidemiology",
+      "otherInformation" : {
+        "parent" : "VETERINARY MEDICINE",
+        "note" : "Veterinärmedicinsk epidemiologi",
+        "hasChildren" : "false",
+        "id" : "SCB2217"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2217/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2217/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2217"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB2219",
+      "display" : "Other veterinary medicine",
+      "value" : "VETERINARY MEDICINE::Other veterinary medicine",
+      "otherInformation" : {
+        "parent" : "VETERINARY MEDICINE",
+        "note" : "Övrig veterinärmedicin",
+        "hasChildren" : "false",
+        "id" : "SCB2219"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2219/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2219/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2219"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 16
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB22/children?page=0&size=100"
+    }
+  }
+}

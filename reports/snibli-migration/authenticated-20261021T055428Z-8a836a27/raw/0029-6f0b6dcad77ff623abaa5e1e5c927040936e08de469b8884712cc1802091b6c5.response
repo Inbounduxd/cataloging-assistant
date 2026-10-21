@@ -1,0 +1,2693 @@
+{
+  "_embedded" : {
+    "submissionforms" : [ {
+      "id" : "journalStep",
+      "name" : "journalStep",
+      "rows" : [ {
+        "fields" : [ {
+          "input" : {
+            "type" : "onebox"
+          },
+          "label" : "Name",
+          "mandatory" : false,
+          "repeatable" : false,
+          "hints" : "Enter the name of the journal",
+          "selectableMetadata" : [ {
+            "metadata" : "dc.title",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "name"
+          },
+          "label" : "Editor",
+          "mandatory" : false,
+          "repeatable" : false,
+          "hints" : "Enter the editor of the journal",
+          "selectableMetadata" : [ {
+            "metadata" : "creativework.editor",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "onebox"
+          },
+          "label" : "ISSN",
+          "mandatory" : false,
+          "repeatable" : false,
+          "hints" : "Enter the issn of the journal",
+          "selectableMetadata" : [ {
+            "metadata" : "creativeworkseries.issn",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "textarea"
+          },
+          "label" : "Description",
+          "mandatory" : false,
+          "repeatable" : false,
+          "hints" : "Enter the description of the journal",
+          "selectableMetadata" : [ {
+            "metadata" : "dc.description",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "onebox"
+          },
+          "label" : "Publisher",
+          "mandatory" : false,
+          "repeatable" : false,
+          "hints" : "Enter the publisher of the journal",
+          "selectableMetadata" : [ {
+            "metadata" : "creativework.publisher",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      } ],
+      "type" : "submissionform",
+      "_links" : {
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissionforms/journalStep"
+        }
+      }
+    }, {
+      "id" : "openAIREPublicationPagetwoForm",
+      "name" : "openAIREPublicationPagetwoForm",
+      "rows" : [ {
+        "fields" : [ {
+          "input" : {
+            "type" : "tag"
+          },
+          "label" : "Subject Keywords",
+          "mandatory" : false,
+          "repeatable" : true,
+          "hints" : "Enter appropriate subject keywords or phrases.",
+          "selectableMetadata" : [ {
+            "metadata" : "dc.subject",
+            "label" : null,
+            "controlledVocabulary" : "srsc",
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "textarea"
+          },
+          "label" : "Abstract",
+          "mandatory" : false,
+          "repeatable" : false,
+          "hints" : "Enter the abstract of the item.",
+          "selectableMetadata" : [ {
+            "metadata" : "dc.description.abstract",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "onebox"
+          },
+          "label" : "Funding",
+          "mandatory" : false,
+          "repeatable" : true,
+          "hints" : "Add a related Funding",
+          "selectableRelationship" : {
+            "relationshipType" : "isProjectOfPublication",
+            "filter" : null,
+            "searchConfiguration" : "project",
+            "nameVariants" : "false",
+            "externalSources" : [ "openAIREFunding" ]
+          },
+          "selectableMetadata" : [ {
+            "metadata" : "dc.relation",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "onebox"
+          },
+          "label" : "Coverage",
+          "mandatory" : false,
+          "repeatable" : false,
+          "hints" : "Enter the coverage of the item, like a period, jurisdiction, etc.",
+          "selectableMetadata" : [ {
+            "metadata" : "dc.coverage",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "textarea"
+          },
+          "label" : "Description",
+          "mandatory" : false,
+          "repeatable" : false,
+          "hints" : "Enter any other description or comments in this box.",
+          "selectableMetadata" : [ {
+            "metadata" : "dc.description",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      } ],
+      "type" : "submissionform",
+      "_links" : {
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissionforms/openAIREPublicationPagetwoForm"
+        }
+      }
+    }, {
+      "id" : "journalVolumeStep",
+      "name" : "journalVolumeStep",
+      "rows" : [ {
+        "fields" : [ {
+          "input" : { },
+          "label" : "Journal",
+          "mandatory" : false,
+          "repeatable" : false,
+          "hints" : "Select the journal related to this volume.",
+          "selectableRelationship" : {
+            "relationshipType" : "isJournalOfVolume",
+            "filter" : null,
+            "searchConfiguration" : "journal",
+            "nameVariants" : "false",
+            "externalSources" : [ "sherpaJournal" ]
+          },
+          "languageCodes" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "onebox"
+          },
+          "label" : "Name",
+          "mandatory" : false,
+          "repeatable" : false,
+          "hints" : "Enter the name of the journal volume",
+          "selectableMetadata" : [ {
+            "metadata" : "dc.title",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "onebox"
+          },
+          "label" : "Volume",
+          "mandatory" : false,
+          "repeatable" : false,
+          "hints" : "Enter the volume of the journal volume",
+          "selectableMetadata" : [ {
+            "metadata" : "publicationvolume.volumeNumber",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "date"
+          },
+          "label" : "Issue date",
+          "mandatory" : false,
+          "repeatable" : false,
+          "hints" : "Enter the issue date of the journal volume",
+          "selectableMetadata" : [ {
+            "metadata" : "creativework.datePublished",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "textarea"
+          },
+          "label" : "Description",
+          "mandatory" : false,
+          "repeatable" : false,
+          "hints" : "Enter the description of the journal volume",
+          "selectableMetadata" : [ {
+            "metadata" : "dc.description",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      } ],
+      "type" : "submissionform",
+      "_links" : {
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissionforms/journalVolumeStep"
+        }
+      }
+    }, {
+      "id" : "journalIssueStep",
+      "name" : "journalIssueStep",
+      "rows" : [ {
+        "fields" : [ {
+          "input" : { },
+          "label" : "Journal Volume",
+          "mandatory" : false,
+          "repeatable" : false,
+          "hints" : "Select the journal volume related to this issue.",
+          "selectableRelationship" : {
+            "relationshipType" : "isJournalVolumeOfIssue",
+            "filter" : null,
+            "searchConfiguration" : "journalvolume",
+            "nameVariants" : "false",
+            "externalSources" : null
+          },
+          "languageCodes" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "onebox"
+          },
+          "label" : "Name",
+          "mandatory" : false,
+          "repeatable" : false,
+          "hints" : "Enter the name of the journal issue",
+          "selectableMetadata" : [ {
+            "metadata" : "dc.title",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "onebox"
+          },
+          "label" : "Number",
+          "mandatory" : false,
+          "repeatable" : false,
+          "hints" : "Enter the number of the journal issue",
+          "selectableMetadata" : [ {
+            "metadata" : "publicationissue.issueNumber",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "date"
+          },
+          "label" : "Issue date",
+          "mandatory" : false,
+          "repeatable" : false,
+          "hints" : "Enter the issue date of the journal issue",
+          "selectableMetadata" : [ {
+            "metadata" : "creativework.datePublished",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "textarea"
+          },
+          "label" : "Description",
+          "mandatory" : false,
+          "repeatable" : false,
+          "hints" : "Enter the description of the journal issue",
+          "selectableMetadata" : [ {
+            "metadata" : "dc.description",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "onebox"
+          },
+          "label" : "Keywords",
+          "mandatory" : false,
+          "repeatable" : true,
+          "hints" : "Enter the keywords of the journal issue",
+          "selectableMetadata" : [ {
+            "metadata" : "creativework.keywords",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      } ],
+      "type" : "submissionform",
+      "_links" : {
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissionforms/journalIssueStep"
+        }
+      }
+    }, {
+      "id" : "openAIREPersonForm",
+      "name" : "openAIREPersonForm",
+      "rows" : [ {
+        "fields" : [ {
+          "input" : {
+            "type" : "onebox"
+          },
+          "label" : "Last name",
+          "mandatory" : false,
+          "repeatable" : false,
+          "hints" : "Enter surname or last name of the person",
+          "selectableMetadata" : [ {
+            "metadata" : "person.familyName",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        }, {
+          "input" : {
+            "type" : "onebox"
+          },
+          "label" : "First name",
+          "mandatory" : false,
+          "repeatable" : false,
+          "hints" : "Enter personal or first name of the person",
+          "selectableMetadata" : [ {
+            "metadata" : "person.givenName",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "onebox"
+          },
+          "label" : "Author preferred name",
+          "mandatory" : false,
+          "repeatable" : false,
+          "hints" : "Enter the preferred name of this person regarding the authorship",
+          "selectableMetadata" : [ {
+            "metadata" : "dc.title",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "onebox"
+          },
+          "label" : "Affiliation Name",
+          "mandatory" : false,
+          "repeatable" : true,
+          "hints" : "Enter the organizational or institutional affiliation of this person",
+          "selectableMetadata" : [ {
+            "metadata" : "person.affiliation.name",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "onebox"
+          },
+          "label" : "Email",
+          "mandatory" : false,
+          "repeatable" : true,
+          "hints" : "Enter the email of the person",
+          "selectableMetadata" : [ {
+            "metadata" : "person.email",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "onebox"
+          },
+          "label" : "Author identifier",
+          "mandatory" : false,
+          "repeatable" : true,
+          "hints" : "If the author has any identifiers or codes associated with\n                        it, please enter the types and the actual numbers or codes.",
+          "selectableMetadata" : [ {
+            "metadata" : "person.identifier.scopus-author-id",
+            "label" : "Scopus Author ID",
+            "closed" : false
+          }, {
+            "metadata" : "person.identifier.ciencia-id",
+            "label" : "Ciencia ID",
+            "closed" : false
+          }, {
+            "metadata" : "person.identifier.gsid",
+            "label" : "Google Scholar ID",
+            "closed" : false
+          }, {
+            "metadata" : "person.identifier.orcid",
+            "label" : "Open Researcher and Contributor ID (ORCID)",
+            "closed" : false
+          }, {
+            "metadata" : "person.identifier.rid",
+            "label" : "Web of Science ResearcherID",
+            "closed" : false
+          }, {
+            "metadata" : "person.identifier.isni",
+            "label" : "ISNI - International Standard Name Identifier",
+            "closed" : false
+          }, {
+            "metadata" : "person.identifier",
+            "label" : "Other",
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      } ],
+      "type" : "submissionform",
+      "_links" : {
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissionforms/openAIREPersonForm"
+        }
+      }
+    }, {
+      "id" : "openAIREPublicationPageoneForm",
+      "name" : "openAIREPublicationPageoneForm",
+      "rows" : [ {
+        "fields" : [ {
+          "input" : {
+            "type" : "onebox"
+          },
+          "label" : "Title",
+          "mandatory" : true,
+          "repeatable" : false,
+          "mandatoryMessage" : "You must enter a main title for this item.",
+          "hints" : "Enter the main title of the item.",
+          "selectableMetadata" : [ {
+            "metadata" : "dc.title",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "onebox"
+          },
+          "label" : "Other Titles",
+          "mandatory" : false,
+          "repeatable" : true,
+          "hints" : "If the item has any alternative titles, please enter them here.",
+          "selectableMetadata" : [ {
+            "metadata" : "dc.title.alternative",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "name"
+          },
+          "label" : "Author",
+          "mandatory" : true,
+          "repeatable" : true,
+          "mandatoryMessage" : "At least one author (plain text or relationship) is required",
+          "hints" : "Add an author",
+          "selectableRelationship" : {
+            "relationshipType" : "isAuthorOfPublication",
+            "filter" : null,
+            "searchConfiguration" : "personOrOrgunit",
+            "nameVariants" : "true",
+            "externalSources" : [ "orcid" ]
+          },
+          "selectableMetadata" : [ {
+            "metadata" : "dc.contributor.author",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "date"
+          },
+          "label" : "Date of Issue",
+          "mandatory" : true,
+          "repeatable" : false,
+          "mandatoryMessage" : "You must enter at least the year.",
+          "hints" : "Please give the date of previous publication or public distribution.\n                        You can leave out the day\n                        and/or month if they aren't applicable.",
+          "style" : "col-sm-4",
+          "selectableMetadata" : [ {
+            "metadata" : "dc.date.issued",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "onebox"
+          },
+          "label" : "Publisher",
+          "mandatory" : false,
+          "repeatable" : false,
+          "hints" : "Enter the name of the publisher of the previously issued instance of this item.",
+          "style" : "col-sm-8",
+          "selectableMetadata" : [ {
+            "metadata" : "dc.publisher",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "onebox"
+          },
+          "label" : "Editor Version",
+          "mandatory" : false,
+          "repeatable" : false,
+          "hints" : "Enter the URL/DOI of the editor version of this item.",
+          "selectableMetadata" : [ {
+            "metadata" : "dc.relation.hasversion",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "onebox"
+          },
+          "label" : "Related Dataset",
+          "mandatory" : false,
+          "repeatable" : false,
+          "hints" : "Enter the URL/DOI of the related Dataset.",
+          "selectableMetadata" : [ {
+            "metadata" : "dcterms.references",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "onebox"
+          },
+          "label" : "Identifiers",
+          "mandatory" : false,
+          "repeatable" : true,
+          "hints" : "If the item has any identification numbers or codes associated with\n                        it, please enter the types\n                        and the actual numbers or codes.",
+          "selectableMetadata" : [ {
+            "metadata" : "dc.identifier.issn",
+            "label" : "ISSN",
+            "closed" : false
+          }, {
+            "metadata" : "dc.identifier.other",
+            "label" : "Other",
+            "closed" : false
+          }, {
+            "metadata" : "dc.identifier.ismn",
+            "label" : "ISMN",
+            "closed" : false
+          }, {
+            "metadata" : "dc.identifier.govdoc",
+            "label" : "Gov't Doc #",
+            "closed" : false
+          }, {
+            "metadata" : "dc.identifier.uri",
+            "label" : "URI",
+            "closed" : false
+          }, {
+            "metadata" : "dc.identifier.isbn",
+            "label" : "ISBN",
+            "closed" : false
+          }, {
+            "metadata" : "dc.identifier.eissn",
+            "label" : "eISSN",
+            "closed" : false
+          }, {
+            "metadata" : "dc.identifier.eisbn",
+            "label" : "eISBN",
+            "closed" : false
+          }, {
+            "metadata" : "dc.identifier.handle",
+            "label" : "Handle",
+            "closed" : false
+          }, {
+            "metadata" : "dc.identifier.doi",
+            "label" : "DOI",
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "onebox"
+          },
+          "label" : "Title of Journal, Book or Event",
+          "mandatory" : false,
+          "repeatable" : false,
+          "hints" : "Include the name of related item like the journal name, book title or event name.",
+          "selectableMetadata" : [ {
+            "metadata" : "oaire.citation.title",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "onebox"
+          },
+          "label" : "Event/Conference Place",
+          "mandatory" : false,
+          "repeatable" : false,
+          "hints" : "Enter the event location.",
+          "selectableMetadata" : [ {
+            "metadata" : "oaire.citation.conferencePlace",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "date"
+          },
+          "label" : "Conference Date",
+          "mandatory" : false,
+          "repeatable" : false,
+          "hints" : "Enter the date of the event.",
+          "selectableMetadata" : [ {
+            "metadata" : "oaire.citation.conferenceDate",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "onebox"
+          },
+          "label" : "Volume",
+          "mandatory" : false,
+          "repeatable" : false,
+          "hints" : "Enter the volume of the item.",
+          "selectableMetadata" : [ {
+            "metadata" : "oaire.citation.volume",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "onebox"
+          },
+          "label" : "Issue",
+          "mandatory" : false,
+          "repeatable" : false,
+          "hints" : "Enter the issue number of the item.",
+          "selectableMetadata" : [ {
+            "metadata" : "oaire.citation.issue",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "onebox"
+          },
+          "label" : "Edition",
+          "mandatory" : false,
+          "repeatable" : false,
+          "hints" : "Enter the edition of the item.",
+          "selectableMetadata" : [ {
+            "metadata" : "oaire.citation.edition",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "onebox"
+          },
+          "label" : "First Page",
+          "mandatory" : false,
+          "repeatable" : false,
+          "hints" : "Enter the start page number.",
+          "selectableMetadata" : [ {
+            "metadata" : "oaire.citation.startPage",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        }, {
+          "input" : {
+            "type" : "onebox"
+          },
+          "label" : "Last Page",
+          "mandatory" : false,
+          "repeatable" : false,
+          "hints" : "Enter the last page number.",
+          "selectableMetadata" : [ {
+            "metadata" : "oaire.citation.endPage",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "dropdown"
+          },
+          "label" : "Type",
+          "mandatory" : false,
+          "repeatable" : true,
+          "hints" : "Select the type(s) of content of the item. To select more than one value in the list, you may\n                        have to hold down the \"CTRL\" or \"Shift\" key.",
+          "selectableMetadata" : [ {
+            "metadata" : "dc.type",
+            "label" : null,
+            "controlledVocabulary" : "openaire_types",
+            "closed" : true
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "dropdown"
+          },
+          "label" : "Resource Version",
+          "mandatory" : false,
+          "repeatable" : false,
+          "hints" : "Select the version of the resource. If the resource does not have that information, please\n                        select \"Not Applicable (or Unknown)\".",
+          "selectableMetadata" : [ {
+            "metadata" : "oaire.version",
+            "label" : null,
+            "controlledVocabulary" : "openaire_version_types",
+            "closed" : true
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        }, {
+          "input" : {
+            "type" : "dropdown"
+          },
+          "label" : "Language",
+          "mandatory" : false,
+          "repeatable" : false,
+          "hints" : "Select the language of the main content of the item. If the language does not appear in the\n                        list, please select 'Other'. If the content does not really have a language (for example, if it\n                        is a dataset or an image) please select 'N/A'.",
+          "selectableMetadata" : [ {
+            "metadata" : "dc.language.iso",
+            "label" : null,
+            "controlledVocabulary" : "common_iso_languages",
+            "closed" : true
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      } ],
+      "type" : "submissionform",
+      "_links" : {
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissionforms/openAIREPublicationPageoneForm"
+        }
+      }
+    }, {
+      "id" : "openAIREProjectForm",
+      "name" : "openAIREProjectForm",
+      "rows" : [ {
+        "fields" : [ {
+          "input" : {
+            "type" : "onebox"
+          },
+          "label" : "Project name",
+          "mandatory" : false,
+          "repeatable" : false,
+          "hints" : "Enter the name of the project",
+          "selectableMetadata" : [ {
+            "metadata" : "dc.title",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "onebox"
+          },
+          "label" : "Project web page",
+          "mandatory" : false,
+          "repeatable" : false,
+          "hints" : "Enter the URL of the project webpage",
+          "selectableMetadata" : [ {
+            "metadata" : "dc.identifier.uri",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "onebox"
+          },
+          "label" : "Funding Agency",
+          "mandatory" : true,
+          "repeatable" : false,
+          "mandatoryMessage" : "One funding agency is required",
+          "hints" : "Add a Funding Agency",
+          "selectableRelationship" : {
+            "relationshipType" : "isFundingAgencyOfProject",
+            "filter" : null,
+            "searchConfiguration" : "openAIREFundingAgency",
+            "nameVariants" : "false",
+            "externalSources" : null
+          },
+          "selectableMetadata" : [ {
+            "metadata" : "project.funder.name",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "onebox"
+          },
+          "label" : "Name of the Funding Stream",
+          "mandatory" : false,
+          "repeatable" : false,
+          "hints" : "Enter the name of the funding stream of the project",
+          "selectableMetadata" : [ {
+            "metadata" : "oaire.fundingStream",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        }, {
+          "input" : {
+            "type" : "onebox"
+          },
+          "label" : "Award number",
+          "mandatory" : false,
+          "repeatable" : false,
+          "hints" : "Enter the identifier of the project",
+          "selectableMetadata" : [ {
+            "metadata" : "dc.identifier",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      } ],
+      "type" : "submissionform",
+      "_links" : {
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissionforms/openAIREProjectForm"
+        }
+      }
+    }, {
+      "id" : "bitstream-metadata",
+      "name" : "bitstream-metadata",
+      "rows" : [ {
+        "fields" : [ {
+          "input" : {
+            "type" : "onebox"
+          },
+          "label" : "Title",
+          "mandatory" : true,
+          "repeatable" : false,
+          "mandatoryMessage" : "You must enter a name for this file",
+          "hints" : "Enter the name of the file.",
+          "selectableMetadata" : [ {
+            "metadata" : "dc.title",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "textarea"
+          },
+          "label" : "Description",
+          "mandatory" : false,
+          "repeatable" : true,
+          "hints" : "Enter a description for the file",
+          "selectableMetadata" : [ {
+            "metadata" : "dc.description",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      } ],
+      "type" : "submissionform",
+      "_links" : {
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissionforms/bitstream-metadata"
+        }
+      }
+    }, {
+      "id" : "personStep",
+      "name" : "personStep",
+      "rows" : [ {
+        "fields" : [ {
+          "input" : { },
+          "label" : "Publication",
+          "mandatory" : false,
+          "repeatable" : false,
+          "hints" : "import a publicaton",
+          "selectableRelationship" : {
+            "relationshipType" : "isPublicationOfAuthor",
+            "filter" : null,
+            "searchConfiguration" : "publication",
+            "nameVariants" : "false",
+            "externalSources" : [ "pubmed" ]
+          },
+          "languageCodes" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "onebox"
+          },
+          "label" : "Last name",
+          "mandatory" : false,
+          "repeatable" : false,
+          "hints" : "Enter the last name of the person",
+          "selectableMetadata" : [ {
+            "metadata" : "person.familyName",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "onebox"
+          },
+          "label" : "First name",
+          "mandatory" : false,
+          "repeatable" : false,
+          "hints" : "Enter the first name of the person",
+          "selectableMetadata" : [ {
+            "metadata" : "person.givenName",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "onebox"
+          },
+          "label" : "Email",
+          "mandatory" : false,
+          "repeatable" : false,
+          "hints" : "Enter the email of the person",
+          "selectableMetadata" : [ {
+            "metadata" : "person.email",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "date"
+          },
+          "label" : "Birth date",
+          "mandatory" : false,
+          "repeatable" : false,
+          "hints" : "Enter the birth date of the person",
+          "selectableMetadata" : [ {
+            "metadata" : "person.birthDate",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "onebox"
+          },
+          "label" : "Job title",
+          "mandatory" : false,
+          "repeatable" : false,
+          "hints" : "Enter the job title of the person",
+          "selectableMetadata" : [ {
+            "metadata" : "person.jobTitle",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      } ],
+      "type" : "submissionform",
+      "_links" : {
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissionforms/personStep"
+        }
+      }
+    }, {
+      "id" : "publicationStep",
+      "name" : "publicationStep",
+      "rows" : [ {
+        "fields" : [ {
+          "input" : {
+            "type" : "onebox"
+          },
+          "label" : "Author",
+          "mandatory" : false,
+          "repeatable" : true,
+          "hints" : "Enter the author's name (Family name, Given names).",
+          "selectableRelationship" : {
+            "relationshipType" : "isAuthorOfPublication",
+            "filter" : null,
+            "searchConfiguration" : "person",
+            "nameVariants" : "false",
+            "externalSources" : [ "orcid" ]
+          },
+          "selectableMetadata" : [ {
+            "metadata" : "dc.contributor.author",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "onebox"
+          },
+          "label" : "Title",
+          "mandatory" : true,
+          "repeatable" : false,
+          "mandatoryMessage" : "You must enter a main title for this item.",
+          "hints" : "Enter the main title of the item.",
+          "selectableMetadata" : [ {
+            "metadata" : "dc.title",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "onebox"
+          },
+          "label" : "Other Titles",
+          "mandatory" : false,
+          "repeatable" : true,
+          "hints" : "If the item has any alternative titles, please enter them here.",
+          "selectableMetadata" : [ {
+            "metadata" : "dc.title.alternative",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "date"
+          },
+          "label" : "Date of Issue",
+          "mandatory" : true,
+          "repeatable" : false,
+          "mandatoryMessage" : "You must enter at least the year.",
+          "hints" : "Please give the date of previous publication or public distribution.\n                        You can leave out the day and/or month if they aren't applicable.",
+          "style" : "col-sm-4",
+          "selectableMetadata" : [ {
+            "metadata" : "dc.date.issued",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        }, {
+          "input" : {
+            "type" : "onebox"
+          },
+          "label" : "Publisher",
+          "mandatory" : false,
+          "repeatable" : false,
+          "hints" : "Enter the name of the publisher of the previously issued instance of this item.",
+          "style" : "col-sm-8",
+          "selectableMetadata" : [ {
+            "metadata" : "dc.publisher",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "onebox"
+          },
+          "label" : "Citation",
+          "mandatory" : false,
+          "repeatable" : false,
+          "hints" : "Enter the standard citation for the previously issued instance of this item.",
+          "selectableMetadata" : [ {
+            "metadata" : "dc.identifier.citation",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "series"
+          },
+          "label" : "Series/Report No.",
+          "mandatory" : false,
+          "repeatable" : true,
+          "hints" : "Enter the series and number assigned to this item by your community.",
+          "selectableMetadata" : [ {
+            "metadata" : "dc.relation.ispartofseries",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "onebox"
+          },
+          "label" : "Identifiers",
+          "mandatory" : false,
+          "repeatable" : true,
+          "hints" : "If the item has any identification numbers or codes associated with\n                        it, please enter the types and the actual numbers or codes.",
+          "selectableMetadata" : [ {
+            "metadata" : "dc.identifier.issn",
+            "label" : "ISSN",
+            "closed" : false
+          }, {
+            "metadata" : "dc.identifier.other",
+            "label" : "Other",
+            "closed" : false
+          }, {
+            "metadata" : "dc.identifier.ismn",
+            "label" : "ISMN",
+            "closed" : false
+          }, {
+            "metadata" : "dc.identifier.govdoc",
+            "label" : "Gov't Doc #",
+            "closed" : false
+          }, {
+            "metadata" : "dc.identifier.uri",
+            "label" : "URI",
+            "closed" : false
+          }, {
+            "metadata" : "dc.identifier.isbn",
+            "label" : "ISBN",
+            "closed" : false
+          }, {
+            "metadata" : "dc.identifier.eissn",
+            "label" : "eISSN",
+            "closed" : false
+          }, {
+            "metadata" : "dc.identifier.eisbn",
+            "label" : "eISBN",
+            "closed" : false
+          }, {
+            "metadata" : "dc.identifier.handle",
+            "label" : "Handle",
+            "closed" : false
+          }, {
+            "metadata" : "dc.identifier.doi",
+            "label" : "DOI",
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "dropdown"
+          },
+          "label" : "Type",
+          "mandatory" : false,
+          "repeatable" : true,
+          "hints" : "Select the type(s) of content of the item. To select more than one value in the list, you may\n                        have to hold down the \"CTRL\" or \"Shift\" key.",
+          "selectableMetadata" : [ {
+            "metadata" : "dc.type",
+            "label" : null,
+            "controlledVocabulary" : "common_types",
+            "closed" : true
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "dropdown"
+          },
+          "label" : "Language",
+          "mandatory" : false,
+          "repeatable" : false,
+          "hints" : "Select the language of the main content of the item. If the language does not appear in the\n                        list, please select 'Other'. If the content does not really have a language (for example, if it\n                        is a dataset or an image) please select 'N/A'.",
+          "selectableMetadata" : [ {
+            "metadata" : "dc.language.iso",
+            "label" : null,
+            "controlledVocabulary" : "common_iso_languages",
+            "closed" : true
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      } ],
+      "type" : "submissionform",
+      "_links" : {
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissionforms/publicationStep"
+        }
+      }
+    }, {
+      "id" : "orgUnitStep",
+      "name" : "orgUnitStep",
+      "rows" : [ {
+        "fields" : [ {
+          "input" : {
+            "type" : "onebox"
+          },
+          "label" : "Name",
+          "mandatory" : false,
+          "repeatable" : false,
+          "hints" : "Enter the name of the orgunit",
+          "selectableMetadata" : [ {
+            "metadata" : "organization.legalName",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "onebox"
+          },
+          "label" : "ID",
+          "mandatory" : false,
+          "repeatable" : false,
+          "hints" : "Enter the id of the orgunit",
+          "selectableMetadata" : [ {
+            "metadata" : "dc.identifier",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "date"
+          },
+          "label" : "Date established",
+          "mandatory" : false,
+          "repeatable" : false,
+          "hints" : "Enter the established date of the orgunit",
+          "selectableMetadata" : [ {
+            "metadata" : "organization.foundingDate",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "onebox"
+          },
+          "label" : "City",
+          "mandatory" : false,
+          "repeatable" : false,
+          "hints" : "Enter the city of the orgunit",
+          "selectableMetadata" : [ {
+            "metadata" : "organization.address.addressLocality",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "onebox"
+          },
+          "label" : "Country",
+          "mandatory" : false,
+          "repeatable" : false,
+          "hints" : "Enter the country of the orgunit",
+          "selectableMetadata" : [ {
+            "metadata" : "organization.address.addressCountry",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "textarea"
+          },
+          "label" : "Description",
+          "mandatory" : false,
+          "repeatable" : false,
+          "hints" : "Enter the description of the orgunit",
+          "selectableMetadata" : [ {
+            "metadata" : "dc.description",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      } ],
+      "type" : "submissionform",
+      "_links" : {
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissionforms/orgUnitStep"
+        }
+      }
+    }, {
+      "id" : "traditionalpagetwo",
+      "name" : "traditionalpagetwo",
+      "rows" : [ {
+        "fields" : [ {
+          "input" : {
+            "type" : "tag"
+          },
+          "label" : "Palabras Clave",
+          "mandatory" : false,
+          "repeatable" : true,
+          "hints" : "Proporciona Palabras Clave sobre el item.",
+          "selectableMetadata" : [ {
+            "metadata" : "dc.subject",
+            "label" : null,
+            "controlledVocabulary" : "srsc",
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "textarea"
+          },
+          "label" : "Abstract",
+          "mandatory" : false,
+          "repeatable" : false,
+          "hints" : "Enter the abstract of the item.",
+          "selectableMetadata" : [ {
+            "metadata" : "dc.description.abstract",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "dropdown"
+          },
+          "label" : "Nivel educativo",
+          "mandatory" : false,
+          "repeatable" : true,
+          "hints" : "Seleccione el nivel educativo al que va dirigido el recurso.",
+          "selectableMetadata" : [ {
+            "metadata" : "dc.audience.educationLevel",
+            "label" : null,
+            "controlledVocabulary" : "educationLevelPairs",
+            "closed" : true
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "dropdown"
+          },
+          "label" : "Para L1 o para L2",
+          "mandatory" : false,
+          "repeatable" : false,
+          "hints" : "Seleccione si el recurso está dirigido a hablantes de lengua materna (L1) o segunda lengua (L2).",
+          "selectableMetadata" : [ {
+            "metadata" : "dc.audience.languageTarget",
+            "label" : null,
+            "controlledVocabulary" : "languageTargetPairs",
+            "closed" : true
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "dropdown"
+          },
+          "label" : "Tópicos (disciplinas, temas específicos)",
+          "mandatory" : false,
+          "repeatable" : true,
+          "hints" : "Seleccione el tópico o disciplina del recurso.",
+          "selectableMetadata" : [ {
+            "metadata" : "dc.subject",
+            "label" : null,
+            "controlledVocabulary" : "topicsPairs",
+            "closed" : true
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "onebox"
+          },
+          "label" : "País",
+          "mandatory" : false,
+          "repeatable" : true,
+          "hints" : "Ingrese el país de origen del recurso.",
+          "selectableMetadata" : [ {
+            "metadata" : "dc.coverage.country",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        }, {
+          "input" : {
+            "type" : "onebox"
+          },
+          "label" : "Estado",
+          "mandatory" : false,
+          "repeatable" : true,
+          "hints" : "Ingrese el estado de origen del recurso.",
+          "selectableMetadata" : [ {
+            "metadata" : "dc.coverage.state",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        }, {
+          "input" : {
+            "type" : "onebox"
+          },
+          "label" : "Región",
+          "mandatory" : false,
+          "repeatable" : true,
+          "hints" : "Ingrese la región de origen del recurso.",
+          "selectableMetadata" : [ {
+            "metadata" : "dc.coverage.region",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        }, {
+          "input" : {
+            "type" : "onebox"
+          },
+          "label" : "Comunidad",
+          "mandatory" : false,
+          "repeatable" : true,
+          "hints" : "Ingrese la comunidad de origen del recurso.",
+          "selectableMetadata" : [ {
+            "metadata" : "dc.coverage.community",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "onebox"
+          },
+          "label" : "Temporal",
+          "mandatory" : false,
+          "repeatable" : true,
+          "hints" : "Ingrese el periodo temporal del recurso. Ejemplo: 1950-2000.",
+          "selectableMetadata" : [ {
+            "metadata" : "dc.coverage.temporal",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        }, {
+          "input" : {
+            "type" : "onebox"
+          },
+          "label" : "Siglo",
+          "mandatory" : false,
+          "repeatable" : true,
+          "hints" : "Ingrese el siglo al que pertenece el recurso. Ejemplo: XIX, XX.",
+          "selectableMetadata" : [ {
+            "metadata" : "dc.coverage.century",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "textarea"
+          },
+          "label" : "Notas",
+          "mandatory" : false,
+          "repeatable" : false,
+          "hints" : "Coloque alguna nota sobre el documento.",
+          "selectableMetadata" : [ {
+            "metadata" : "dc.description",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      } ],
+      "type" : "submissionform",
+      "_links" : {
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissionforms/traditionalpagetwo"
+        }
+      }
+    }, {
+      "id" : "openAIREOrganizationForm",
+      "name" : "openAIREOrganizationForm",
+      "rows" : [ {
+        "fields" : [ {
+          "input" : {
+            "type" : "onebox"
+          },
+          "label" : "Organization name",
+          "mandatory" : false,
+          "repeatable" : false,
+          "hints" : "Enter the name of the orgunit or organization",
+          "selectableMetadata" : [ {
+            "metadata" : "organization.legalName",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "onebox"
+          },
+          "label" : "Organization identifier",
+          "mandatory" : false,
+          "repeatable" : true,
+          "hints" : "If the organization has any identifiers or codes associated with\n                        it, please enter the types and the actual numbers or codes.",
+          "selectableMetadata" : [ {
+            "metadata" : "organization.identifier.isni",
+            "label" : "ISNI - International Standard Name Identifier",
+            "closed" : false
+          }, {
+            "metadata" : "organization.identifier.rin",
+            "label" : "Ringgold identifier",
+            "closed" : false
+          }, {
+            "metadata" : "organization.identifier.ror",
+            "label" : "Research Organization Registry",
+            "closed" : false
+          }, {
+            "metadata" : "organization.identifier",
+            "label" : "Other",
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "dropdown"
+          },
+          "label" : "Organization type",
+          "mandatory" : false,
+          "repeatable" : false,
+          "hints" : "Choose the attributes of the Organization",
+          "selectableMetadata" : [ {
+            "metadata" : "dc.type",
+            "label" : null,
+            "controlledVocabulary" : "openaire_organization_types",
+            "closed" : true
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "textarea"
+          },
+          "label" : "Description",
+          "mandatory" : false,
+          "repeatable" : false,
+          "hints" : "Enter the description of the orgunit",
+          "selectableMetadata" : [ {
+            "metadata" : "dc.description",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      } ],
+      "type" : "submissionform",
+      "_links" : {
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissionforms/openAIREOrganizationForm"
+        }
+      }
+    }, {
+      "id" : "traditionalpageone",
+      "name" : "traditionalpageone",
+      "rows" : [ {
+        "fields" : [ {
+          "input" : {
+            "type" : "onebox"
+          },
+          "label" : "Provenance / Catalogación",
+          "mandatory" : false,
+          "repeatable" : false,
+          "hints" : "Ejemplo: Catalogación: YCT-20260116",
+          "selectableMetadata" : [ {
+            "metadata" : "dcterms.provenance",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "onebox"
+          },
+          "label" : "Titulo",
+          "mandatory" : true,
+          "repeatable" : false,
+          "mandatoryMessage" : "You must enter a main title for this item.",
+          "hints" : "Coloca el nombre del Titulo del Item.",
+          "selectableMetadata" : [ {
+            "metadata" : "dc.title",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "onebox"
+          },
+          "label" : "Variante de título",
+          "mandatory" : false,
+          "repeatable" : true,
+          "hints" : "Ingrese una variante o título alternativo del recurso.",
+          "selectableMetadata" : [ {
+            "metadata" : "dc.title.alternative",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "onebox"
+          },
+          "label" : "Subtítulo",
+          "mandatory" : false,
+          "repeatable" : true,
+          "hints" : "Coloca el Subtítulo del Item",
+          "selectableMetadata" : [ {
+            "metadata" : "dc.title.subtitle",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "onebox"
+          },
+          "label" : "Título de revista",
+          "mandatory" : false,
+          "repeatable" : false,
+          "hints" : "Ingrese el nombre de la revista.",
+          "selectableMetadata" : [ {
+            "metadata" : "dc.relation.ispartof",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "onebox"
+          },
+          "label" : "Es parte de (título del libro)",
+          "mandatory" : false,
+          "repeatable" : false,
+          "hints" : "Ingrese el título del libro del que forma parte este capítulo.",
+          "selectableMetadata" : [ {
+            "metadata" : "dc.source.booktitle",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "onebox"
+          },
+          "label" : "Autor",
+          "mandatory" : false,
+          "repeatable" : true,
+          "hints" : "Coloca el Nombre del autor.",
+          "selectableMetadata" : [ {
+            "metadata" : "dc.contributor.author",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "onebox"
+          },
+          "label" : "Traductor",
+          "mandatory" : false,
+          "repeatable" : true,
+          "hints" : "Ingrese el nombre del traductor.",
+          "selectableMetadata" : [ {
+            "metadata" : "dc.contributor.translator",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "onebox"
+          },
+          "label" : "Colaboradores",
+          "mandatory" : false,
+          "repeatable" : true,
+          "hints" : "Ingrese los nombres de los colaboradores.",
+          "selectableMetadata" : [ {
+            "metadata" : "dc.contributor.other",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "onebox"
+          },
+          "label" : "Instituciones participantes",
+          "mandatory" : false,
+          "repeatable" : true,
+          "hints" : "Ingrese las instituciones involucradas.",
+          "selectableMetadata" : [ {
+            "metadata" : "dc.contributor.institution",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "onebox"
+          },
+          "label" : "Editores",
+          "mandatory" : false,
+          "repeatable" : true,
+          "hints" : "Ingrese los nombres de los editores.",
+          "selectableMetadata" : [ {
+            "metadata" : "dc.contributor.editor",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "date"
+          },
+          "label" : "Fecha de Creacion",
+          "mandatory" : false,
+          "repeatable" : false,
+          "hints" : "Fecha de creacion o publicacion del documento",
+          "style" : "col-sm-4",
+          "selectableMetadata" : [ {
+            "metadata" : "dc.date.issued",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        }, {
+          "input" : {
+            "type" : "onebox"
+          },
+          "label" : "País donde se encontró el recurso",
+          "mandatory" : false,
+          "repeatable" : false,
+          "hints" : "Ingrese el país donde se encontró el recurso.",
+          "selectableMetadata" : [ {
+            "metadata" : "dc.coverage.countryFound",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        }, {
+          "input" : {
+            "type" : "onebox"
+          },
+          "label" : "Editorial",
+          "mandatory" : false,
+          "repeatable" : true,
+          "hints" : "El nombre de la editorial que publico el libro",
+          "style" : "col-sm-8",
+          "selectableMetadata" : [ {
+            "metadata" : "dc.publisher",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "onebox"
+          },
+          "label" : "Edicion(No)/Periodicdad",
+          "mandatory" : false,
+          "repeatable" : false,
+          "hints" : "Ejemplo: 12",
+          "selectableMetadata" : [ {
+            "metadata" : "dc.identifier.issue",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "dropdown"
+          },
+          "label" : "¿Es un texto comparativo?",
+          "mandatory" : false,
+          "repeatable" : false,
+          "hints" : "Indique si el recurso es un texto comparativo.",
+          "selectableMetadata" : [ {
+            "metadata" : "dc.type.genre",
+            "label" : null,
+            "controlledVocabulary" : "genrePairs",
+            "closed" : true
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "onebox"
+          },
+          "label" : "Identificador",
+          "mandatory" : false,
+          "repeatable" : true,
+          "hints" : "Numero de Identificacion del libro , revistas ,etc",
+          "selectableMetadata" : [ {
+            "metadata" : "dc.identifier.issn",
+            "label" : "ISSN",
+            "closed" : false
+          }, {
+            "metadata" : "dc.identifier.other",
+            "label" : "Other",
+            "closed" : false
+          }, {
+            "metadata" : "dc.identifier.ismn",
+            "label" : "ISMN",
+            "closed" : false
+          }, {
+            "metadata" : "dc.identifier.govdoc",
+            "label" : "Gov't Doc #",
+            "closed" : false
+          }, {
+            "metadata" : "dc.identifier.uri",
+            "label" : "URI",
+            "closed" : false
+          }, {
+            "metadata" : "dc.identifier.isbn",
+            "label" : "ISBN",
+            "closed" : false
+          }, {
+            "metadata" : "dc.identifier.eissn",
+            "label" : "eISSN",
+            "closed" : false
+          }, {
+            "metadata" : "dc.identifier.eisbn",
+            "label" : "eISBN",
+            "closed" : false
+          }, {
+            "metadata" : "dc.identifier.handle",
+            "label" : "Handle",
+            "closed" : false
+          }, {
+            "metadata" : "dc.identifier.doi",
+            "label" : "DOI",
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "onebox"
+          },
+          "label" : "Fuente",
+          "mandatory" : false,
+          "repeatable" : false,
+          "hints" : "Indique la fuente de donde se obtuvo el material (archivo, biblioteca, comunidad, colección, etc.).",
+          "selectableMetadata" : [ {
+            "metadata" : "dc.source",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "dropdown"
+          },
+          "label" : "Type",
+          "mandatory" : false,
+          "repeatable" : true,
+          "hints" : "Select the type of content of the item.",
+          "selectableMetadata" : [ {
+            "metadata" : "dc.type",
+            "label" : null,
+            "controlledVocabulary" : "common_types",
+            "closed" : true
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "dropdown"
+          },
+          "label" : "Uso de lengua",
+          "mandatory" : false,
+          "repeatable" : false,
+          "hints" : "Uso lingüístico del recurso: monolingüe, bilingüe o multilingüe.",
+          "selectableMetadata" : [ {
+            "metadata" : "dc.description.languageUsage",
+            "label" : null,
+            "controlledVocabulary" : "languageUsagePairs",
+            "closed" : true
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "dropdown"
+          },
+          "label" : "Lengua de registro",
+          "mandatory" : false,
+          "repeatable" : true,
+          "hints" : "Seleccione la lengua o lenguas registradas en el recurso.",
+          "selectableMetadata" : [ {
+            "metadata" : "dc.description.registeredLanguage",
+            "label" : null,
+            "controlledVocabulary" : "registeredLanguagePairs",
+            "closed" : true
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "dropdown"
+          },
+          "label" : "Lengua registrada (Agrupación lingüística)",
+          "mandatory" : false,
+          "repeatable" : true,
+          "hints" : "Seleccione la agrupación lingüística de la que trata el texto.",
+          "selectableMetadata" : [ {
+            "metadata" : "dc.subject.linguiscgroup",
+            "label" : null,
+            "controlledVocabulary" : "linguiscgroupPairs",
+            "closed" : true
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "dropdown"
+          },
+          "label" : "Familia lingüística",
+          "mandatory" : false,
+          "repeatable" : true,
+          "hints" : "Seleccione la familia lingüística a la que pertenece la lengua del recurso.",
+          "selectableMetadata" : [ {
+            "metadata" : "dc.subject.linguisticFamily",
+            "label" : null,
+            "controlledVocabulary" : "linguisticFamilyPairs",
+            "closed" : true
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "dropdown"
+          },
+          "label" : "Rama lingüística",
+          "mandatory" : false,
+          "repeatable" : true,
+          "hints" : "Seleccione la rama lingüística a la que pertenece la lengua del recurso.",
+          "selectableMetadata" : [ {
+            "metadata" : "dc.subject.linguisticBranch",
+            "label" : null,
+            "controlledVocabulary" : "linguisticBranchPairs",
+            "closed" : true
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "onebox"
+          },
+          "label" : "Variante lingüística (CLIN)",
+          "mandatory" : false,
+          "repeatable" : true,
+          "hints" : "Ingrese la variante lingüística (CLIN) del recurso.",
+          "selectableMetadata" : [ {
+            "metadata" : "dc.subject.linguisticVariant",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "dropdown"
+          },
+          "label" : "Autodenominación",
+          "mandatory" : false,
+          "repeatable" : true,
+          "hints" : "Seleccione la autodenominación de la lengua registrada en el recurso.",
+          "selectableMetadata" : [ {
+            "metadata" : "dc.subject.selfDenomination",
+            "label" : null,
+            "controlledVocabulary" : "selfDenominationPairs",
+            "closed" : true
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "dropdown"
+          },
+          "label" : "ISO 639-1",
+          "mandatory" : false,
+          "repeatable" : true,
+          "hints" : "Seleccione el código ISO 639-1 de la lengua del recurso.",
+          "selectableMetadata" : [ {
+            "metadata" : "dc.language.iso6391",
+            "label" : null,
+            "controlledVocabulary" : "iso6391Pairs",
+            "closed" : true
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "dropdown"
+          },
+          "label" : "Soporte",
+          "mandatory" : false,
+          "repeatable" : false,
+          "hints" : "Seleccione el soporte del recurso.",
+          "selectableMetadata" : [ {
+            "metadata" : "dc.format.medium",
+            "label" : null,
+            "controlledVocabulary" : "mediumPairs",
+            "closed" : true
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "dropdown"
+          },
+          "label" : "Tipo de extensión",
+          "mandatory" : true,
+          "repeatable" : false,
+          "mandatoryMessage" : "false",
+          "hints" : "Seleccione el tipo de soporte o formato físico.",
+          "selectableMetadata" : [ {
+            "metadata" : "dc.format.medium",
+            "label" : null,
+            "controlledVocabulary" : "extentTypePairs",
+            "closed" : true
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "onebox"
+          },
+          "label" : "Número de páginas / extensión",
+          "mandatory" : true,
+          "repeatable" : false,
+          "mandatoryMessage" : "false",
+          "hints" : "Escriba el número de páginas o cantidad física.",
+          "selectableMetadata" : [ {
+            "metadata" : "dc.format.extent",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "textarea"
+          },
+          "label" : "Derechos",
+          "mandatory" : false,
+          "repeatable" : false,
+          "hints" : "Ingrese los derechos del recurso. Ejemplos: \n                        \"D.R. 2010 Instituto de Biología, UNAM. Se autoriza la reproducción total o parcial siempre y cuando se cite la fuente completa y su dirección electrónica\"; \n                        \"cc_public_domain\"; \n                        \"cc_by_nc\"; \n                        \"Derechos reservados © El Colegio de México, A.C.\"; \n                        \"DERECHOS RESERVADOS © PROHIBIDA SU REPRODUCCIÓN TOTAL O PARCIAL.\"",
+          "selectableMetadata" : [ {
+            "metadata" : "dc.rights",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "dropdown"
+          },
+          "label" : "Licencia de uso",
+          "mandatory" : false,
+          "repeatable" : false,
+          "hints" : "Seleccione la licencia de uso del recurso.",
+          "selectableMetadata" : [ {
+            "metadata" : "dc.rights.license",
+            "label" : null,
+            "controlledVocabulary" : "licensePairs",
+            "closed" : true
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "dropdown"
+          },
+          "label" : "Derecho de acceso",
+          "mandatory" : false,
+          "repeatable" : false,
+          "hints" : "Seleccione el derecho de acceso al recurso.",
+          "selectableMetadata" : [ {
+            "metadata" : "dc.rights.accessRights",
+            "label" : null,
+            "controlledVocabulary" : "accessRightsPairs",
+            "closed" : true
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "onebox"
+          },
+          "label" : "Repositorio físico",
+          "mandatory" : false,
+          "repeatable" : true,
+          "hints" : "Ingrese el nombre del repositorio físico donde se encuentra el recurso.",
+          "selectableMetadata" : [ {
+            "metadata" : "dc.source.physicalRepository",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "onebox"
+          },
+          "label" : "Repositorio digital (URL)",
+          "mandatory" : false,
+          "repeatable" : true,
+          "hints" : "Ingrese la URL del repositorio digital donde se encuentra el recurso.",
+          "selectableMetadata" : [ {
+            "metadata" : "dc.identifier.url",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "dropdown"
+          },
+          "label" : "Clasificación primaria",
+          "mandatory" : false,
+          "repeatable" : false,
+          "hints" : "Seleccione la clasificación primaria del recurso.",
+          "selectableMetadata" : [ {
+            "metadata" : "dc.subject.primaryClassification",
+            "label" : null,
+            "controlledVocabulary" : "primaryClassificationPairs",
+            "closed" : true
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      } ],
+      "type" : "submissionform",
+      "_links" : {
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissionforms/traditionalpageone"
+        }
+      }
+    }, {
+      "id" : "projectStep",
+      "name" : "projectStep",
+      "rows" : [ {
+        "fields" : [ {
+          "input" : {
+            "type" : "onebox"
+          },
+          "label" : "Name",
+          "mandatory" : false,
+          "repeatable" : false,
+          "hints" : "Enter the name of the project",
+          "selectableMetadata" : [ {
+            "metadata" : "dc.title",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "onebox"
+          },
+          "label" : "ID",
+          "mandatory" : false,
+          "repeatable" : false,
+          "hints" : "Enter the id of the project",
+          "selectableMetadata" : [ {
+            "metadata" : "dc.identifier",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "onebox"
+          },
+          "label" : "Investigator",
+          "mandatory" : false,
+          "repeatable" : true,
+          "hints" : "Enter the investigator's name (Family name, Given names).",
+          "selectableRelationship" : {
+            "relationshipType" : "isPersonOfProject",
+            "filter" : null,
+            "searchConfiguration" : "person",
+            "nameVariants" : "false",
+            "externalSources" : [ "orcid" ]
+          },
+          "selectableMetadata" : [ {
+            "metadata" : "project.investigator",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "onebox"
+          },
+          "label" : "Organization",
+          "mandatory" : false,
+          "repeatable" : false,
+          "hints" : "Enter the organization's name",
+          "selectableRelationship" : {
+            "relationshipType" : "isProjectOfOrgUnit",
+            "filter" : null,
+            "searchConfiguration" : "orgunit",
+            "nameVariants" : "false",
+            "externalSources" : null
+          },
+          "selectableMetadata" : [ {
+            "metadata" : "project.funder.name",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "onebox"
+          },
+          "label" : "Keywords",
+          "mandatory" : false,
+          "repeatable" : true,
+          "hints" : "Enter the keywords of the project",
+          "selectableMetadata" : [ {
+            "metadata" : "dc.subject",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "date"
+          },
+          "label" : "Start date",
+          "mandatory" : false,
+          "repeatable" : false,
+          "hints" : "Enter the start date of the project",
+          "selectableMetadata" : [ {
+            "metadata" : "project.startDate",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        }, {
+          "input" : {
+            "type" : "date"
+          },
+          "label" : "End date",
+          "mandatory" : false,
+          "repeatable" : false,
+          "hints" : "Enter the end date of the project",
+          "selectableMetadata" : [ {
+            "metadata" : "project.endDate",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "onebox"
+          },
+          "label" : "Amount",
+          "mandatory" : false,
+          "repeatable" : false,
+          "hints" : "Enter the amount of the project",
+          "selectableMetadata" : [ {
+            "metadata" : "project.amount",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        }, {
+          "input" : {
+            "type" : "onebox"
+          },
+          "label" : "Amount currency",
+          "mandatory" : false,
+          "repeatable" : false,
+          "hints" : "Enter the amount currency of the project",
+          "selectableMetadata" : [ {
+            "metadata" : "project.amount.currency",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      }, {
+        "fields" : [ {
+          "input" : {
+            "type" : "textarea"
+          },
+          "label" : "Description",
+          "mandatory" : false,
+          "repeatable" : false,
+          "hints" : "Enter the description of the project",
+          "selectableMetadata" : [ {
+            "metadata" : "dc.description",
+            "label" : null,
+            "closed" : false
+          } ],
+          "languageCodes" : [ ],
+          "typeBind" : [ ]
+        } ]
+      } ],
+      "type" : "submissionform",
+      "_links" : {
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissionforms/projectStep"
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/config/submissionforms?page=0&size=100"
+    }
+  },
+  "page" : {
+    "size" : 100,
+    "totalElements" : 15,
+    "totalPages" : 1,
+    "number" : 0
+  }
+}

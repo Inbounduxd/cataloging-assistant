@@ -1,0 +1,108 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:SCB1521",
+      "display" : "Terrestrial, freshwater and marine ecology",
+      "value" : "NATURAL SCIENCES::Biology::Terrestrial, freshwater and marine ecology",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Biology",
+        "note" : "Terrestisk, limnisk och marin ekologi",
+        "hasChildren" : "true",
+        "id" : "SCB1521"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1521/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1521/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1521"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1522",
+      "display" : "Organism biology",
+      "value" : "NATURAL SCIENCES::Biology::Organism biology",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Biology",
+        "note" : "Organismbiologi",
+        "hasChildren" : "true",
+        "id" : "SCB1522"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1522/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1522/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1522"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1523",
+      "display" : "Cell and molecular biology",
+      "value" : "NATURAL SCIENCES::Biology::Cell and molecular biology",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Biology",
+        "note" : "Cell- och molekylärbiologi",
+        "hasChildren" : "true",
+        "id" : "SCB1523"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1523/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1523/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1523"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1529",
+      "display" : "Other biology",
+      "value" : "NATURAL SCIENCES::Biology::Other biology",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Biology",
+        "note" : "Övrig biologi",
+        "hasChildren" : "true",
+        "id" : "SCB1529"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1529/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1529/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1529"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 4
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB152/children?page=0&size=100"
+    }
+  }
+}

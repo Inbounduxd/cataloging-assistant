@@ -1,0 +1,108 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:VR131102",
+      "display" : "Subject didactics",
+      "value" : "SOCIAL SCIENCES::Social sciences::Education::Subject didactics",
+      "otherInformation" : {
+        "parent" : "SOCIAL SCIENCES::Social sciences::Education",
+        "note" : "Ämnesdidaktik",
+        "hasChildren" : "false",
+        "id" : "VR131102"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR131102/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR131102/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR131102"
+        }
+      }
+    }, {
+      "id" : "srsc:VR131103",
+      "display" : "Nursing education",
+      "value" : "SOCIAL SCIENCES::Social sciences::Education::Nursing education",
+      "otherInformation" : {
+        "parent" : "SOCIAL SCIENCES::Social sciences::Education",
+        "note" : "Vårdpedagogik",
+        "hasChildren" : "false",
+        "id" : "VR131103"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR131103/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR131103/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR131103"
+        }
+      }
+    }, {
+      "id" : "srsc:VR131104",
+      "display" : "Music education",
+      "value" : "SOCIAL SCIENCES::Social sciences::Education::Music education",
+      "otherInformation" : {
+        "parent" : "SOCIAL SCIENCES::Social sciences::Education",
+        "note" : "Musikpedagogik",
+        "hasChildren" : "false",
+        "id" : "VR131104"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR131104/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR131104/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR131104"
+        }
+      }
+    }, {
+      "id" : "srsc:VR131105",
+      "display" : "International education",
+      "value" : "SOCIAL SCIENCES::Social sciences::Education::International education",
+      "otherInformation" : {
+        "parent" : "SOCIAL SCIENCES::Social sciences::Education",
+        "note" : "Internationell pedagogik",
+        "hasChildren" : "false",
+        "id" : "VR131105"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR131105/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR131105/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR131105"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 4
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1311/children?page=0&size=100"
+    }
+  }
+}

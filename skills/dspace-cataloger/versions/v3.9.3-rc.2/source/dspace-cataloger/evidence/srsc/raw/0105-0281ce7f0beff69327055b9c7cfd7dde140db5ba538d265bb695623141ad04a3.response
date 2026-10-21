@@ -1,0 +1,269 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:VR163101",
+      "display" : "Process chemistry",
+      "value" : "TECHNOLOGY::Chemical engineering::Chemical process and manufacturing engineering::Process chemistry",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY::Chemical engineering::Chemical process and manufacturing engineering",
+        "note" : "Processkemi",
+        "hasChildren" : "false",
+        "id" : "VR163101"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR163101/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR163101/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR163101"
+        }
+      }
+    }, {
+      "id" : "srsc:VR163102",
+      "display" : "Catalysis",
+      "value" : "TECHNOLOGY::Chemical engineering::Chemical process and manufacturing engineering::Catalysis",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY::Chemical engineering::Chemical process and manufacturing engineering",
+        "note" : "Katalys",
+        "hasChildren" : "false",
+        "id" : "VR163102"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR163102/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR163102/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR163102"
+        }
+      }
+    }, {
+      "id" : "srsc:VR163103",
+      "display" : "Molecular transport processes in chemical process engineering",
+      "value" : "TECHNOLOGY::Chemical engineering::Chemical process and manufacturing engineering::Molecular transport processes in chemical process engineering",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY::Chemical engineering::Chemical process and manufacturing engineering",
+        "note" : "Molekylära transportprocesser i kemisk processteknik",
+        "hasChildren" : "false",
+        "id" : "VR163103"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR163103/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR163103/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR163103"
+        }
+      }
+    }, {
+      "id" : "srsc:VR163104",
+      "display" : "Chemical energy engineering",
+      "value" : "TECHNOLOGY::Chemical engineering::Chemical process and manufacturing engineering::Chemical energy engineering",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY::Chemical engineering::Chemical process and manufacturing engineering",
+        "note" : "Kemisk energiteknik",
+        "hasChildren" : "false",
+        "id" : "VR163104"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR163104/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR163104/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR163104"
+        }
+      }
+    }, {
+      "id" : "srsc:VR163105",
+      "display" : "Cellulose and paper engineering",
+      "value" : "TECHNOLOGY::Chemical engineering::Chemical process and manufacturing engineering::Cellulose and paper engineering",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY::Chemical engineering::Chemical process and manufacturing engineering",
+        "note" : "Cellulosa- och pappersteknik",
+        "hasChildren" : "false",
+        "id" : "VR163105"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR163105/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR163105/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR163105"
+        }
+      }
+    }, {
+      "id" : "srsc:VR163106",
+      "display" : "Materials chemistry",
+      "value" : "TECHNOLOGY::Chemical engineering::Chemical process and manufacturing engineering::Materials chemistry",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY::Chemical engineering::Chemical process and manufacturing engineering",
+        "note" : "Materialkemi",
+        "hasChildren" : "false",
+        "id" : "VR163106"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR163106/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR163106/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR163106"
+        }
+      }
+    }, {
+      "id" : "srsc:VR163107",
+      "display" : "Electrochemistry",
+      "value" : "TECHNOLOGY::Chemical engineering::Chemical process and manufacturing engineering::Electrochemistry",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY::Chemical engineering::Chemical process and manufacturing engineering",
+        "note" : "Elektrokemi",
+        "hasChildren" : "false",
+        "id" : "VR163107"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR163107/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR163107/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR163107"
+        }
+      }
+    }, {
+      "id" : "srsc:VR163108",
+      "display" : "Surface and colloid chemistry",
+      "value" : "TECHNOLOGY::Chemical engineering::Chemical process and manufacturing engineering::Surface and colloid chemistry",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY::Chemical engineering::Chemical process and manufacturing engineering",
+        "note" : "Yt- och kolloidkemi",
+        "hasChildren" : "false",
+        "id" : "VR163108"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR163108/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR163108/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR163108"
+        }
+      }
+    }, {
+      "id" : "srsc:VR163109",
+      "display" : "Nuclear chemistry",
+      "value" : "TECHNOLOGY::Chemical engineering::Chemical process and manufacturing engineering::Nuclear chemistry",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY::Chemical engineering::Chemical process and manufacturing engineering",
+        "note" : "Kärnkemi",
+        "hasChildren" : "false",
+        "id" : "VR163109"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR163109/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR163109/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR163109"
+        }
+      }
+    }, {
+      "id" : "srsc:VR163110",
+      "display" : "Chemical process equipment",
+      "value" : "TECHNOLOGY::Chemical engineering::Chemical process and manufacturing engineering::Chemical process equipment",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY::Chemical engineering::Chemical process and manufacturing engineering",
+        "note" : "Kemisk apparatteknik",
+        "hasChildren" : "false",
+        "id" : "VR163110"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR163110/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR163110/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR163110"
+        }
+      }
+    }, {
+      "id" : "srsc:VR163111",
+      "display" : "Chemical manufacturing engineering",
+      "value" : "TECHNOLOGY::Chemical engineering::Chemical process and manufacturing engineering::Chemical manufacturing engineering",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY::Chemical engineering::Chemical process and manufacturing engineering",
+        "note" : "Kemisk produktionsteknik",
+        "hasChildren" : "false",
+        "id" : "VR163111"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR163111/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR163111/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR163111"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 11
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1631/children?page=0&size=100"
+    }
+  }
+}

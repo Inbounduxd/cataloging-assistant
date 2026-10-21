@@ -1,0 +1,138 @@
+[
+  {
+    "requested_url": "https://www.iifl.unam.mx/server/api/core/collections",
+    "captured_at": "2026-10-21T04:48:57.727639+00:00",
+    "endpoint": "https://www.iifl.unam.mx/server/api/core/collections",
+    "redirects": [
+      {
+        "url": "https://www.iifl.unam.mx/server/api/core/collections",
+        "status": 200
+      }
+    ],
+    "http_status": 200,
+    "content_type": "application/hal+json;charset=UTF-8",
+    "sha256": "5cf26df58b52ced1ef1e764470de2b7ff6f95d8f105339c581500e1b0957373d",
+    "bytes": 61521,
+    "raw_file": "5cf26df58b52ced1ef1e764470de2b7ff6f95d8f105339c581500e1b0957373d.response",
+    "preview": "{\n  \"_embedded\" : {\n    \"collections\" : [ {\n      \"id\" : \"eef4eca2-b1c6-4d0b-9785-ea5ed581bfbd\",\n      \"uuid\" : \"eef4eca2-b1c6-4d0b-9785-ea5ed581bfbd\",\n      \"name\" : \"Cultura Awakateko\",\n      \"handle\" : \"123456789/283\",\n      \"metadata\" : {\n        \"dc.identifier.uri\" : [ {\n          \"value\" : \"http://132.248.101.240:4000/handle/123456789/283\",\n          \"language\" : null,\n          \"authority\" : null,\n          \"confidence\" : -1,\n          \"place\" : 0\n        } ],\n        \"dc.title\" : [ {\n          \"value\" : \"Cultura Awakateko\",\n          \"language\" : null,\n          \"authority\" : null,\n          \"confidence\" : -1,\n          \"place\" : 0\n        } ]\n      },\n      \"archivedItemsCount\" : -1,\n      \"type\" : \"collection\",\n      \"_links\" : {\n        \"harvester\" : {\n          \"href\" : \"https://www.iifl.unam.mx/server/api/core/collections/eef4eca2-b1c6-4d0b-9785-ea5ed581bfbd/harvester\"\n        },\n        \"itemtemplate\" : {\n          \"href\" : \"https://www.iifl.unam.mx/server/api/core/collections/eef4eca2-b1c6-4d0b-9785-ea5ed581bfbd/itemtemplate\"\n        },\n        \"license\" : {\n          \"href\" : \"https://www.iifl.unam.mx/server/api/core/collections/eef4eca2-b1c6-4d0b-9785-ea5ed581bfbd/license\"\n        },\n        \"logo\" : {\n          \"href\" : \"https://www.iifl.unam.mx/server/api/core/collections/eef4eca2-b1c6-4d0b-9785-ea5ed581bfbd/logo\"\n        },\n        \"mappedItems\" : {\n          \"href\" : \"https://www.iifl.unam.mx/server/api/core/collections/eef4eca2-b1c6-4d0b-9785-ea5ed581bfb"
+  },
+  {
+    "requested_url": "https://www.iifl.unam.mx/server/api/core/metadataschemas",
+    "captured_at": "2026-10-21T04:48:58.184950+00:00",
+    "endpoint": "https://www.iifl.unam.mx/server/api/core/metadataschemas",
+    "redirects": [
+      {
+        "url": "https://www.iifl.unam.mx/server/api/core/metadataschemas",
+        "status": 200
+      }
+    ],
+    "http_status": 200,
+    "content_type": "application/hal+json;charset=UTF-8",
+    "sha256": "e942e623df15e586c46a42a863016b8700296d071f993d08bbe1f331132d9761",
+    "bytes": 5301,
+    "raw_file": "e942e623df15e586c46a42a863016b8700296d071f993d08bbe1f331132d9761.response",
+    "preview": "{\n  \"_embedded\" : {\n    \"metadataschemas\" : [ {\n      \"id\" : 1,\n      \"prefix\" : \"dc\",\n      \"namespace\" : \"http://dublincore.org/documents/dcmi-terms/\",\n      \"type\" : \"metadataschema\",\n      \"_links\" : {\n        \"self\" : {\n          \"href\" : \"https://www.iifl.unam.mx/server/api/core/metadataschemas/1\"\n        }\n      }\n    }, {\n      \"id\" : 2,\n      \"prefix\" : \"eperson\",\n      \"namespace\" : \"http://dspace.org/eperson\",\n      \"type\" : \"metadataschema\",\n      \"_links\" : {\n        \"self\" : {\n          \"href\" : \"https://www.iifl.unam.mx/server/api/core/metadataschemas/2\"\n        }\n      }\n    }, {\n      \"id\" : 3,\n      \"prefix\" : \"dspace\",\n      \"namespace\" : \"http://dspace.org/dspace\",\n      \"type\" : \"metadataschema\",\n      \"_links\" : {\n        \"self\" : {\n          \"href\" : \"https://www.iifl.unam.mx/server/api/core/metadataschemas/3\"\n        }\n      }\n    }, {\n      \"id\" : 4,\n      \"prefix\" : \"dcterms\",\n      \"namespace\" : \"http://purl.org/dc/terms/\",\n      \"type\" : \"metadataschema\",\n      \"_links\" : {\n        \"self\" : {\n          \"href\" : \"https://www.iifl.unam.mx/server/api/core/metadataschemas/4\"\n        }\n      }\n    }, {\n      \"id\" : 5,\n      \"prefix\" : \"local\",\n      \"namespace\" : \"http://dspace.org/namespace/local/\",\n      \"type\" : \"metadataschema\",\n      \"_links\" : {\n        \"self\" : {\n          \"href\" : \"https://www.iifl.unam.mx/server/api/core/metadataschemas/5\"\n        }\n      }\n    }, {\n      \"id\" : 6,\n      \"prefix\" : \"relation\",\n      \"namespace\" : \"http://dspace"
+  },
+  {
+    "requested_url": "https://www.iifl.unam.mx/server/api/core/metadatafields",
+    "captured_at": "2026-10-21T04:48:58.450330+00:00",
+    "endpoint": "https://www.iifl.unam.mx/server/api/core/metadatafields",
+    "redirects": [
+      {
+        "url": "https://www.iifl.unam.mx/server/api/core/metadatafields",
+        "status": 200
+      }
+    ],
+    "http_status": 200,
+    "content_type": "application/hal+json;charset=UTF-8",
+    "sha256": "d1d0d84208068860b81eb9e7f3bab27b98fdcff6c118c7c9dc888a4c0521ccf8",
+    "bytes": 17258,
+    "raw_file": "d1d0d84208068860b81eb9e7f3bab27b98fdcff6c118c7c9dc888a4c0521ccf8.response",
+    "preview": "{\n  \"_embedded\" : {\n    \"metadatafields\" : [ {\n      \"id\" : 223,\n      \"element\" : \"datePublished\",\n      \"qualifier\" : null,\n      \"scopeNote\" : \"Date of first broadcast/publication.\",\n      \"type\" : \"metadatafield\",\n      \"_links\" : {\n        \"schema\" : {\n          \"href\" : \"https://www.iifl.unam.mx/server/api/core/metadatafields/223/schema\"\n        },\n        \"self\" : {\n          \"href\" : \"https://www.iifl.unam.mx/server/api/core/metadatafields/223\"\n        }\n      },\n      \"_embedded\" : {\n        \"schema\" : {\n          \"id\" : 11,\n          \"prefix\" : \"creativework\",\n          \"namespace\" : \"https://schema.org/CreativeWork\",\n          \"type\" : \"metadataschema\",\n          \"_links\" : {\n            \"self\" : {\n              \"href\" : \"https://www.iifl.unam.mx/server/api/core/metadataschemas/11\"\n            }\n          }\n        }\n      }\n    }, {\n      \"id\" : 218,\n      \"element\" : \"editor\",\n      \"qualifier\" : null,\n      \"scopeNote\" : \"Specifies the Person who edited the CreativeWork.\",\n      \"type\" : \"metadatafield\",\n      \"_links\" : {\n        \"schema\" : {\n          \"href\" : \"https://www.iifl.unam.mx/server/api/core/metadatafields/218/schema\"\n        },\n        \"self\" : {\n          \"href\" : \"https://www.iifl.unam.mx/server/api/core/metadatafields/218\"\n        }\n      },\n      \"_embedded\" : {\n        \"schema\" : {\n          \"id\" : 11,\n          \"prefix\" : \"creativework\",\n          \"namespace\" : \"https://schema.org/CreativeWork\",\n          \"type\" : \"metadataschema\",\n          \""
+  },
+  {
+    "requested_url": "https://www.iifl.unam.mx/server/api/config/submissiondefinitions",
+    "captured_at": "2026-10-21T04:48:58.732671+00:00",
+    "endpoint": "https://www.iifl.unam.mx/server/api/config/submissiondefinitions",
+    "redirects": [
+      {
+        "url": "https://www.iifl.unam.mx/server/api/config/submissiondefinitions",
+        "status": 401
+      }
+    ],
+    "http_status": 401,
+    "content_type": "application/hal+json;charset=UTF-8",
+    "sha256": "bf4665a5605c468129561e6b26cc28a943cadf7ea608fec3189208bd81c12831",
+    "bytes": 170,
+    "raw_file": "bf4665a5605c468129561e6b26cc28a943cadf7ea608fec3189208bd81c12831.response",
+    "preview": "{\"timestamp\":\"2026-10-21T04:48:59.253+00:00\",\"status\":401,\"error\":\"Unauthorized\",\"message\":\"Authentication is required\",\"path\":\"/server/api/config/submissiondefinitions\"}"
+  },
+  {
+    "requested_url": "https://www.iifl.unam.mx/server/api/config/submissionforms",
+    "captured_at": "2026-10-21T04:48:59.076480+00:00",
+    "endpoint": "https://www.iifl.unam.mx/server/api/config/submissionforms",
+    "redirects": [
+      {
+        "url": "https://www.iifl.unam.mx/server/api/config/submissionforms",
+        "status": 401
+      }
+    ],
+    "http_status": 401,
+    "content_type": "application/hal+json;charset=UTF-8",
+    "sha256": "1384589f5a168f656bc33f3b3dc3487f4723fe616712707ea64aee5bcb7b55bc",
+    "bytes": 164,
+    "raw_file": "1384589f5a168f656bc33f3b3dc3487f4723fe616712707ea64aee5bcb7b55bc.response",
+    "preview": "{\"timestamp\":\"2026-10-21T04:48:59.540+00:00\",\"status\":401,\"error\":\"Unauthorized\",\"message\":\"Authentication is required\",\"path\":\"/server/api/config/submissionforms\"}"
+  },
+  {
+    "requested_url": "https://www.iifl.unam.mx/server/api/config/submissionsections",
+    "captured_at": "2026-10-21T04:48:59.309168+00:00",
+    "endpoint": "https://www.iifl.unam.mx/server/api/config/submissionsections",
+    "redirects": [
+      {
+        "url": "https://www.iifl.unam.mx/server/api/config/submissionsections",
+        "status": 401
+      }
+    ],
+    "http_status": 401,
+    "content_type": "application/hal+json;charset=UTF-8",
+    "sha256": "4e73672aabad86344faf3b9e27267f24d772e3392f5850ce95941c70a8c80e20",
+    "bytes": 167,
+    "raw_file": "4e73672aabad86344faf3b9e27267f24d772e3392f5850ce95941c70a8c80e20.response",
+    "preview": "{\"timestamp\":\"2026-10-21T04:48:59.788+00:00\",\"status\":401,\"error\":\"Unauthorized\",\"message\":\"Authentication is required\",\"path\":\"/server/api/config/submissionsections\"}"
+  },
+  {
+    "requested_url": "https://www.iifl.unam.mx/server/api/submission/vocabularies",
+    "captured_at": "2026-10-21T04:48:59.546297+00:00",
+    "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularies",
+    "redirects": [
+      {
+        "url": "https://www.iifl.unam.mx/server/api/submission/vocabularies",
+        "status": 401
+      }
+    ],
+    "http_status": 401,
+    "content_type": "application/hal+json;charset=UTF-8",
+    "sha256": "3b139307633490dfa8eec02bbb89a3d2f3ee57a39727a616080ae07d52b06510",
+    "bytes": 165,
+    "raw_file": "3b139307633490dfa8eec02bbb89a3d2f3ee57a39727a616080ae07d52b06510.response",
+    "preview": "{\"timestamp\":\"2026-10-21T04:49:00.079+00:00\",\"status\":401,\"error\":\"Unauthorized\",\"message\":\"Authentication is required\",\"path\":\"/server/api/submission/vocabularies\"}"
+  },
+  {
+    "requested_url": "https://www.iifl.unam.mx/server/api/authn",
+    "captured_at": "2026-10-21T04:48:59.821632+00:00",
+    "endpoint": "https://www.iifl.unam.mx/server/api/authn",
+    "redirects": [
+      {
+        "url": "https://www.iifl.unam.mx/server/api/authn",
+        "status": 200
+      }
+    ],
+    "http_status": 200,
+    "content_type": "application/hal+json;charset=UTF-8",
+    "sha256": "aff512ef40c3aa4aecc21706a335148ca5f42e3393b6115c7feb698910a14862",
+    "bytes": 405,
+    "raw_file": "aff512ef40c3aa4aecc21706a335148ca5f42e3393b6115c7feb698910a14862.response",
+    "preview": "{\n  \"id\" : null,\n  \"type\" : \"authn\",\n  \"_links\" : {\n    \"self\" : {\n      \"href\" : \"https://www.iifl.unam.mx/server/api/authn\"\n    },\n    \"login\" : {\n      \"href\" : \"https://www.iifl.unam.mx/server/api/authn/login\"\n    },\n    \"logout\" : {\n      \"href\" : \"https://www.iifl.unam.mx/server/api/authn/logout\"\n    },\n    \"status\" : {\n      \"href\" : \"https://www.iifl.unam.mx/server/api/authn/status\"\n    }\n  }\n}"
+  }
+]

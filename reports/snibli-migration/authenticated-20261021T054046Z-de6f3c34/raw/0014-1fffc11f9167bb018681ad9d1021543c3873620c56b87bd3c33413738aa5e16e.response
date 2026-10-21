@@ -1,0 +1,1258 @@
+{
+  "_embedded" : {
+    "metadatafields" : [ {
+      "id" : 139,
+      "element" : "isAuthorOfPublication",
+      "qualifier" : "latestForDiscovery",
+      "scopeNote" : "Contains all uuids of AUTHORS which link to the current PUBLICATION via a \"latest\" relationship. In other words, this stores all relationships pointing to the current PUBLICATION from an AUTHOR, implying that the PUBLICATION is marked as \"latest\". Internally used by DSpace to support versioning. Do not manually add, remove or edit values.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/139/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/139"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 6,
+          "prefix" : "relation",
+          "namespace" : "http://dspace.org/relation",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/6"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 138,
+      "element" : "isAuthorOfPublication",
+      "qualifier" : null,
+      "scopeNote" : "Contains all uuids of the \"latest\" AUTHORS that the current PUBLICATION links to via a relationship. In other words, this stores all relationships pointing from the current PUBLICATION to any AUTHOR where the AUTHOR is marked as \"latest\". Internally used by DSpace. Do not manually add, remove or edit values.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/138/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/138"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 6,
+          "prefix" : "relation",
+          "namespace" : "http://dspace.org/relation",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/6"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 177,
+      "element" : "isContributorOfPublication",
+      "qualifier" : "latestForDiscovery",
+      "scopeNote" : "Contains all uuids of CONTRIBUTORS which link to the current PUBLICATION via a \"latest\" relationship. In other words, this stores all relationships pointing to the current PUBLICATION from any CONTRIBUTOR, implying that the PUBLICATION is marked as \"latest\". Internally used by DSpace to support versioning. Do not manually add, remove or edit values.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/177/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/177"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 6,
+          "prefix" : "relation",
+          "namespace" : "http://dspace.org/relation",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/6"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 176,
+      "element" : "isContributorOfPublication",
+      "qualifier" : null,
+      "scopeNote" : "Contains all uuids of the \"latest\" CONTRIBUTORS that the current PUBLICATION links to via a relationship. In other words, this stores all relationships pointing from the current PUBLICATION to any CONTRIBUTOR where the CONTRIBUTOR is marked as \"latest\". Internally used by DSpace. Do not manually add, remove or edit values.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/176/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/176"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 6,
+          "prefix" : "relation",
+          "namespace" : "http://dspace.org/relation",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/6"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 181,
+      "element" : "isFundingAgencyOfProject",
+      "qualifier" : "latestForDiscovery",
+      "scopeNote" : "Contains all uuids of FUNDING AGENCIES which link to the current PROJECT via a \"latest\" relationship. In other words, this stores all relationships pointing to the current PROJECT from any FUNDING AGENCY, implying that the PROJECT is marked as \"latest\". Internally used by DSpace to support versioning. Do not manually add, remove or edit values.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/181/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/181"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 6,
+          "prefix" : "relation",
+          "namespace" : "http://dspace.org/relation",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/6"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 180,
+      "element" : "isFundingAgencyOfProject",
+      "qualifier" : null,
+      "scopeNote" : "Contains all uuids of the \"latest\" FUNDING AGENCIES that the current PROJECT links to via a relationship. In other words, this stores all relationships pointing from the current PROJECT to any FUNDING AGENCY where the FUNDING AGENCY is marked as \"latest\". Internally used by DSpace. Do not manually add, remove or edit values.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/180/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/180"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 6,
+          "prefix" : "relation",
+          "namespace" : "http://dspace.org/relation",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/6"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 167,
+      "element" : "isIssueOfJournalVolume",
+      "qualifier" : "latestForDiscovery",
+      "scopeNote" : "Contains all uuids of ISSUES which link to the current VOLUME via a \"latest\" relationship. In other words, this stores all relationships pointing to the current VOLUME from any ISSUE, implying that the VOLUME is marked as \"latest\". Internally used by DSpace to support versioning. Do not manually add, remove or edit values.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/167/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/167"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 6,
+          "prefix" : "relation",
+          "namespace" : "http://dspace.org/relation",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/6"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 166,
+      "element" : "isIssueOfJournalVolume",
+      "qualifier" : null,
+      "scopeNote" : "Contains all uuids of the \"latest\" ISSUES that the current VOLUME links to via a relationship. In other words, this stores all relationships pointing from the current VOLUME to any ISSUE where the ISSUE is marked as \"latest\". Internally used by DSpace. Do not manually add, remove or edit values.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/166/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/166"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 6,
+          "prefix" : "relation",
+          "namespace" : "http://dspace.org/relation",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/6"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 173,
+      "element" : "isJournalIssueOfPublication",
+      "qualifier" : "latestForDiscovery",
+      "scopeNote" : "Contains all uuids of ISSUES which link to the current PUBLICATION via a \"latest\" relationship. In other words, this stores all relationships pointing to the current PUBLICATION from any ISSUE, implying that the PUBLICATION is marked as \"latest\". Internally used by DSpace to support versioning. Do not manually add, remove or edit values.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/173/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/173"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 6,
+          "prefix" : "relation",
+          "namespace" : "http://dspace.org/relation",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/6"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 172,
+      "element" : "isJournalIssueOfPublication",
+      "qualifier" : null,
+      "scopeNote" : "Contains all uuids of the \"latest\" ISSUES that the current PUBLICATION links to via a relationship. In other words, this stores all relationships pointing from the current PUBLICATION to any ISSUE where the ISSUE is marked as \"latest\". Internally used by DSpace. Do not manually add, remove or edit values.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/172/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/172"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 6,
+          "prefix" : "relation",
+          "namespace" : "http://dspace.org/relation",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/6"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 171,
+      "element" : "isJournalOfPublication",
+      "qualifier" : "latestForDiscovery",
+      "scopeNote" : "Contains all uuids of JOURNALS which link to the current PUBLICATION via a \"latest\" relationship. In other words, this stores all relationships pointing to the current PUBLICATION from any JOURNAL, implying that the PUBLICATION is marked as \"latest\". Internally used by DSpace to support versioning. Do not manually add, remove or edit values.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/171/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/171"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 6,
+          "prefix" : "relation",
+          "namespace" : "http://dspace.org/relation",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/6"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 170,
+      "element" : "isJournalOfPublication",
+      "qualifier" : null,
+      "scopeNote" : "Contains all uuids of the \"latest\" JOURNALS that the current PUBLICATION links to via a relationship. In other words, this stores all relationships pointing from the current PUBLICATION to any JOURNAL where the JOURNAL is marked as \"latest\". Internally used by DSpace. Do not manually add, remove or edit values.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/170/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/170"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 6,
+          "prefix" : "relation",
+          "namespace" : "http://dspace.org/relation",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/6"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 165,
+      "element" : "isJournalOfVolume",
+      "qualifier" : "latestForDiscovery",
+      "scopeNote" : "Contains all uuids of JOURNALS which link to the current VOLUME via a \"latest\" relationship. In other words, this stores all relationships pointing to the current VOLUME from any JOURNAL, implying that the VOLUME is marked as \"latest\". Internally used by DSpace to support versioning. Do not manually add, remove or edit values.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/165/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/165"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 6,
+          "prefix" : "relation",
+          "namespace" : "http://dspace.org/relation",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/6"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 164,
+      "element" : "isJournalOfVolume",
+      "qualifier" : null,
+      "scopeNote" : "Contains all uuids of the \"latest\" JOURNALS that the current VOLUME links to via a relationship. In other words, this stores all relationships pointing from the current VOLUME to any JOURNAL where the JOURNAL is marked as \"latest\". Internally used by DSpace. Do not manually add, remove or edit values.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/164/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/164"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 6,
+          "prefix" : "relation",
+          "namespace" : "http://dspace.org/relation",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/6"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 169,
+      "element" : "isJournalVolumeOfIssue",
+      "qualifier" : "latestForDiscovery",
+      "scopeNote" : "Contains all uuids of VOLUMES which link to the current ISSUE via a \"latest\" relationship. In other words, this stores all relationships pointing to the current ISSUE from any VOLUME, implying that the ISSUE is marked as \"latest\". Internally used by DSpace to support versioning. Do not manually add, remove or edit values.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/169/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/169"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 6,
+          "prefix" : "relation",
+          "namespace" : "http://dspace.org/relation",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/6"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 168,
+      "element" : "isJournalVolumeOfIssue",
+      "qualifier" : null,
+      "scopeNote" : "Contains all uuids of the \"latest\" VOLUMES that the current ISSUE links to via a relationship. In other words, this stores all relationships pointing from the current ISSUE to any VOLUME where the VOLUME is marked as \"latest\". Internally used by DSpace. Do not manually add, remove or edit values.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/168/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/168"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 6,
+          "prefix" : "relation",
+          "namespace" : "http://dspace.org/relation",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/6"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 155,
+      "element" : "isOrgUnitOfPerson",
+      "qualifier" : "latestForDiscovery",
+      "scopeNote" : "Contains all uuids of ORGANISATIONAL UNITS which link to the current PERSON via a \"latest\" relationship. In other words, this stores all relationships pointing to the current PERSON from any ORGANISATIONAL UNIT, implying that the PERSON is marked as \"latest\". Internally used by DSpace to support versioning. Do not manually add, remove or edit values.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/155/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/155"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 6,
+          "prefix" : "relation",
+          "namespace" : "http://dspace.org/relation",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/6"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 154,
+      "element" : "isOrgUnitOfPerson",
+      "qualifier" : null,
+      "scopeNote" : "Contains all uuids of the \"latest\" ORGANISATIONAL UNITS that the current PERSON links to via a relationship. In other words, this stores all relationships pointing from the current PERSON to any ORGANISATIONAL UNIT where the ORGANISATIONAL UNIT is marked as \"latest\". Internally used by DSpace. Do not manually add, remove or edit values.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/154/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/154"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 6,
+          "prefix" : "relation",
+          "namespace" : "http://dspace.org/relation",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/6"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 159,
+      "element" : "isOrgUnitOfProject",
+      "qualifier" : "latestForDiscovery",
+      "scopeNote" : "Contains all uuids of ORGANISATIONAL UNITS which link to the current PROJECT via a \"latest\" relationship. In other words, this stores all relationships pointing to the current PROJECT from any ORGANISATIONAL UNIT, implying that the PROJECT is marked as \"latest\". Internally used by DSpace to support versioning. Do not manually add, remove or edit values.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/159/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/159"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 6,
+          "prefix" : "relation",
+          "namespace" : "http://dspace.org/relation",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/6"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 158,
+      "element" : "isOrgUnitOfProject",
+      "qualifier" : null,
+      "scopeNote" : "Contains all uuids of the \"latest\" ORGANISATIONAL UNITS that the current PROJECT links to via a relationship. In other words, this stores all relationships pointing from the current PROJECT to any ORGANISATIONAL UNIT where the ORGANISATIONAL UNIT is marked as \"latest\". Internally used by DSpace. Do not manually add, remove or edit values.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/158/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/158"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 6,
+          "prefix" : "relation",
+          "namespace" : "http://dspace.org/relation",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/6"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 147,
+      "element" : "isOrgUnitOfPublication",
+      "qualifier" : "latestForDiscovery",
+      "scopeNote" : "Contains all uuids of ORGANISATIONAL UNITSS which link to the current PUBLICATION via a \"latest\" relationship. In other words, this stores all relationships pointing to the current PUBLICATION from any ORGANISATIONAL UNITS, implying that the PUBLICATION is marked as \"latest\". Internally used by DSpace to support versioning. Do not manually add, remove or edit values.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/147/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/147"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 6,
+          "prefix" : "relation",
+          "namespace" : "http://dspace.org/relation",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/6"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 146,
+      "element" : "isOrgUnitOfPublication",
+      "qualifier" : null,
+      "scopeNote" : "Contains all uuids of the \"latest\" ORGANISATIONAL UNITS that the current PUBLICATION links to via a relationship. In other words, this stores all relationships pointing from the current PUBLICATION to any ORGANISATIONAL UNIT where the ORGANISATIONAL UNIT is marked as \"latest\". Internally used by DSpace. Do not manually add, remove or edit values.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/146/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/146"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 6,
+          "prefix" : "relation",
+          "namespace" : "http://dspace.org/relation",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/6"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 157,
+      "element" : "isPersonOfOrgUnit",
+      "qualifier" : "latestForDiscovery",
+      "scopeNote" : "Contains all uuids of PERSONS which link to the current ORGANISATIONAL UNIT via a \"latest\" relationship. In other words, this stores all relationships pointing to the current ORGANISATIONAL UNIT from any PERSON, implying that the ORGANISATIONAL UNIT is marked as \"latest\". Internally used by DSpace to support versioning. Do not manually add, remove or edit values.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/157/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/157"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 6,
+          "prefix" : "relation",
+          "namespace" : "http://dspace.org/relation",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/6"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 156,
+      "element" : "isPersonOfOrgUnit",
+      "qualifier" : null,
+      "scopeNote" : "Contains all uuids of the \"latest\" PERSONS that the current ORGANISATIONAL UNIT links to via a relationship. In other words, this stores all relationships pointing from the current ORGANISATIONAL UNIT to any PERSON where the PERSON is marked as \"latest\". Internally used by DSpace. Do not manually add, remove or edit values.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/156/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/156"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 6,
+          "prefix" : "relation",
+          "namespace" : "http://dspace.org/relation",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/6"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 153,
+      "element" : "isPersonOfProject",
+      "qualifier" : "latestForDiscovery",
+      "scopeNote" : "Contains all uuids of PERSONS which link to the current PROJECT via a \"latest\" relationship. In other words, this stores all relationships pointing to the current PROJECT from any PERSON, implying that the PROJECT is marked as \"latest\". Internally used by DSpace to support versioning. Do not manually add, remove or edit values.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/153/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/153"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 6,
+          "prefix" : "relation",
+          "namespace" : "http://dspace.org/relation",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/6"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 152,
+      "element" : "isPersonOfProject",
+      "qualifier" : null,
+      "scopeNote" : "Contains all uuids of the \"latest\" PERSONS that the current PROJECT links to via a relationship. In other words, this stores all relationships pointing from the current PROJECT to any PERSON where the PERSON is marked as \"latest\". Internally used by DSpace. Do not manually add, remove or edit values.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/152/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/152"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 6,
+          "prefix" : "relation",
+          "namespace" : "http://dspace.org/relation",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/6"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 183,
+      "element" : "isProjectOfFundingAgency",
+      "qualifier" : "latestForDiscovery",
+      "scopeNote" : "Contains all uuids of PROJECTS which link to the current FUNDING AGENCY via a \"latest\" relationship. In other words, this stores all relationships pointing to the current FUNDING AGENCY from any PROJECT, implying that the FUNDING AGENCY is marked as \"latest\". Internally used by DSpace to support versioning. Do not manually add, remove or edit values.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/183/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/183"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 6,
+          "prefix" : "relation",
+          "namespace" : "http://dspace.org/relation",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/6"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 182,
+      "element" : "isProjectOfFundingAgency",
+      "qualifier" : null,
+      "scopeNote" : "Contains all uuids of the \"latest\" PROJECTS that the current FUNDING AGENCY links to via a relationship. In other words, this stores all relationships pointing from the current FUNDING AGENCY to any PROJECT where the PROJECT is marked as \"latest\". Internally used by DSpace. Do not manually add, remove or edit values.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/182/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/182"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 6,
+          "prefix" : "relation",
+          "namespace" : "http://dspace.org/relation",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/6"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 161,
+      "element" : "isProjectOfOrgUnit",
+      "qualifier" : "latestForDiscovery",
+      "scopeNote" : "Contains all uuids of PROEJCTS which link to the current ORGANISATIONAL UNIT via a \"latest\" relationship. In other words, this stores all relationships pointing to the current ORGANISATIONAL UNIT from any PROEJCT, implying that the ORGANISATIONAL UNIT is marked as \"latest\". Internally used by DSpace to support versioning. Do not manually add, remove or edit values.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/161/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/161"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 6,
+          "prefix" : "relation",
+          "namespace" : "http://dspace.org/relation",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/6"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 160,
+      "element" : "isProjectOfOrgUnit",
+      "qualifier" : null,
+      "scopeNote" : "Contains all uuids of the \"latest\" PROJECTS that the current ORGANISATIONAL UNIT links to via a relationship. In other words, this stores all relationships pointing from the current ORGANISATIONAL UNIT to any PROJECT where the PROJECT is marked as \"latest\". Internally used by DSpace. Do not manually add, remove or edit values.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/160/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/160"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 6,
+          "prefix" : "relation",
+          "namespace" : "http://dspace.org/relation",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/6"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 151,
+      "element" : "isProjectOfPerson",
+      "qualifier" : "latestForDiscovery",
+      "scopeNote" : "Contains all uuids of PROJECTS which link to the current PERSON via a \"latest\" relationship. In other words, this stores all relationships pointing to the current PERSON from any PROJECT, implying that the PERSON is marked as \"latest\". Internally used by DSpace to support versioning. Do not manually add, remove or edit values.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/151/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/151"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 6,
+          "prefix" : "relation",
+          "namespace" : "http://dspace.org/relation",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/6"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 150,
+      "element" : "isProjectOfPerson",
+      "qualifier" : null,
+      "scopeNote" : "Contains all uuids of the \"latest\" PROJECTS that the current PERSON links to via a relationship. In other words, this stores all relationships pointing from the current PERSON to any PROJECT where the PROJECT is marked as \"latest\". Internally used by DSpace. Do not manually add, remove or edit values.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/150/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/150"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 6,
+          "prefix" : "relation",
+          "namespace" : "http://dspace.org/relation",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/6"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 143,
+      "element" : "isProjectOfPublication",
+      "qualifier" : "latestForDiscovery",
+      "scopeNote" : "Contains all uuids of PROJECTS which link to the current PUBLICATION via a \"latest\" relationship. In other words, this stores all relationships pointing to the current PUBLICATION from any PROJECT, implying that the PUBLICATION is marked as \"latest\". Internally used by DSpace to support versioning. Do not manually add, remove or edit values.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/143/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/143"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 6,
+          "prefix" : "relation",
+          "namespace" : "http://dspace.org/relation",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/6"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 142,
+      "element" : "isProjectOfPublication",
+      "qualifier" : null,
+      "scopeNote" : "Contains all uuids of the \"latest\" PROJECTS that the current PUBLICATION links to via a relationship. In other words, this stores all relationships pointing from the current PUBLICATION to any PROJECT where the PROJECT is marked as \"latest\". Internally used by DSpace. Do not manually add, remove or edit values.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/142/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/142"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 6,
+          "prefix" : "relation",
+          "namespace" : "http://dspace.org/relation",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/6"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 141,
+      "element" : "isPublicationOfAuthor",
+      "qualifier" : "latestForDiscovery",
+      "scopeNote" : "Contains all uuids of PUBLICATIONS which link to the current AUTHOR via a \"latest\" relationship. In other words, this stores all relationships pointing to the current AUTHOR from any PUBLICATION, implying that the AUTHOR is marked as \"latest\". Internally used by DSpace to support versioning. Do not manually add, remove or edit values.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/141/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/141"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 6,
+          "prefix" : "relation",
+          "namespace" : "http://dspace.org/relation",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/6"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 140,
+      "element" : "isPublicationOfAuthor",
+      "qualifier" : null,
+      "scopeNote" : "Contains all uuids of the \"latest\" PUBLICATIONS that the current AUTHOR links to via a relationship. In other words, this stores all relationships pointing from the current AUTHOR to any PUBLICATION where the PUBLICATION is marked as \"latest\". Internally used by DSpace. Do not manually add, remove or edit values.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/140/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/140"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 6,
+          "prefix" : "relation",
+          "namespace" : "http://dspace.org/relation",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/6"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 179,
+      "element" : "isPublicationOfContributor",
+      "qualifier" : "latestForDiscovery",
+      "scopeNote" : "Contains all uuids of PUBLICATIONS which link to the current CONTRIBUTOR via a \"latest\" relationship. In other words, this stores all relationships pointing to the current CONTRIBUTOR from any PUBLICATION, implying that the CONTRIBUTOR is marked as \"latest\". Internally used by DSpace to support versioning. Do not manually add, remove or edit values.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/179/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/179"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 6,
+          "prefix" : "relation",
+          "namespace" : "http://dspace.org/relation",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/6"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 178,
+      "element" : "isPublicationOfContributor",
+      "qualifier" : null,
+      "scopeNote" : "Contains all uuids of the \"latest\" PUBLICATIONS that the current CONTRIBUTOR links to via a relationship. In other words, this stores all relationships pointing from the current CONTRIBUTOR to any PUBLICATION where the PUBLICATION is marked as \"latest\". Internally used by DSpace. Do not manually add, remove or edit values.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/178/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/178"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 6,
+          "prefix" : "relation",
+          "namespace" : "http://dspace.org/relation",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/6"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 175,
+      "element" : "isPublicationOfJournalIssue",
+      "qualifier" : "latestForDiscovery",
+      "scopeNote" : "Contains all uuids of PUBLICATIONS which link to the current ISSUE via a \"latest\" relationship. In other words, this stores all relationships pointing to the current ISSUE from any PUBLICATION, implying that the ISSUE is marked as \"latest\". Internally used by DSpace to support versioning. Do not manually add, remove or edit values.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/175/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/175"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 6,
+          "prefix" : "relation",
+          "namespace" : "http://dspace.org/relation",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/6"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 174,
+      "element" : "isPublicationOfJournalIssue",
+      "qualifier" : null,
+      "scopeNote" : "Contains all uuids of the \"latest\" PUBLICATIONS that the current ISSUE links to via a relationship. In other words, this stores all relationships pointing from the current ISSUE to any PUBLICATION where the PUBLICATION is marked as \"latest\". Internally used by DSpace. Do not manually add, remove or edit values.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/174/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/174"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 6,
+          "prefix" : "relation",
+          "namespace" : "http://dspace.org/relation",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/6"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 149,
+      "element" : "isPublicationOfOrgUnit",
+      "qualifier" : "latestForDiscovery",
+      "scopeNote" : "Contains all uuids of PUBLICATIONS which link to the current ORGANISATIONAL UNIT via a \"latest\" relationship. In other words, this stores all relationships pointing to the current ORGANISATIONAL UNIT from any PUBLICATION, implying that the ORGANISATIONAL UNIT is marked as \"latest\". Internally used by DSpace to support versioning. Do not manually add, remove or edit values.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/149/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/149"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 6,
+          "prefix" : "relation",
+          "namespace" : "http://dspace.org/relation",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/6"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 148,
+      "element" : "isPublicationOfOrgUnit",
+      "qualifier" : null,
+      "scopeNote" : "Contains all uuids of the \"latest\" PUBLICATIONS that the current ORGANISATIONAL UNIT links to via a relationship. In other words, this stores all relationships pointing from the current ORGANISATIONAL UNIT to any PUBLICATION where the PUBLICATION is marked as \"latest\". Internally used by DSpace. Do not manually add, remove or edit values.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/148/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/148"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 6,
+          "prefix" : "relation",
+          "namespace" : "http://dspace.org/relation",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/6"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 145,
+      "element" : "isPublicationOfProject",
+      "qualifier" : "latestForDiscovery",
+      "scopeNote" : "Contains all uuids of PUBLICATIONS which link to the current PROJECT via a \"latest\" relationship. In other words, this stores all relationships pointing to the current PROJECT from any PUBLICATION, implying that the PROJECT is marked as \"latest\". Internally used by DSpace to support versioning. Do not manually add, remove or edit values.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/145/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/145"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 6,
+          "prefix" : "relation",
+          "namespace" : "http://dspace.org/relation",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/6"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 144,
+      "element" : "isPublicationOfProject",
+      "qualifier" : null,
+      "scopeNote" : "Contains all uuids of the \"latest\" PUBLICATIONS that the current PROJECT links to via a relationship. In other words, this stores all relationships pointing from the current PROJECT to any PUBLICATION where the PUBLICATION is marked as \"latest\". Internally used by DSpace. Do not manually add, remove or edit values.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/144/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/144"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 6,
+          "prefix" : "relation",
+          "namespace" : "http://dspace.org/relation",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/6"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 163,
+      "element" : "isVolumeOfJournal",
+      "qualifier" : "latestForDiscovery",
+      "scopeNote" : "Contains all uuids of VOLUMES which link to the current JOURNAL via a \"latest\" relationship. In other words, this stores all relationships pointing to the current JOURNAL from any VOLUME, implying that the JOURNAL is marked as \"latest\". Internally used by DSpace to support versioning. Do not manually add, remove or edit values.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/163/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/163"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 6,
+          "prefix" : "relation",
+          "namespace" : "http://dspace.org/relation",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/6"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 162,
+      "element" : "isVolumeOfJournal",
+      "qualifier" : null,
+      "scopeNote" : "Contains all uuids of the \"latest\" VOLUMES that the current JOURNAL links to via a relationship. In other words, this stores all relationships pointing from the current JOURNAL to any VOLUME where the VOLUME is marked as \"latest\". Internally used by DSpace. Do not manually add, remove or edit values.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/162/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/162"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 6,
+          "prefix" : "relation",
+          "namespace" : "http://dspace.org/relation",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/6"
+            }
+          }
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/search/bySchema?page=0&size=100&schema=relation"
+    }
+  },
+  "page" : {
+    "size" : 100,
+    "totalElements" : 46,
+    "totalPages" : 1,
+    "number" : 0
+  }
+}

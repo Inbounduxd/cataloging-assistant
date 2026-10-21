@@ -1,0 +1,36 @@
+{
+  "_embedded" : {
+    "entries" : [ {
+      "display" : "Impreso",
+      "value" : "Impreso",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Digital",
+      "value" : "Digital",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Audiovisual",
+      "value" : "Audiovisual",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Sonoro",
+      "value" : "Sonoro",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 4
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularies/mediumPairs/entries?page=0&size=100"
+    }
+  }
+}

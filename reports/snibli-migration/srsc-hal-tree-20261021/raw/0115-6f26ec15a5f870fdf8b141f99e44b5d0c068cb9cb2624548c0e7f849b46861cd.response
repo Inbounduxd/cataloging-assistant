@@ -1,0 +1,85 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:VR181101",
+      "display" : "Neuroscience",
+      "value" : "MEDICINE::Morphology, cell biology, pathology::Cell biology::Neuroscience",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Morphology, cell biology, pathology::Cell biology",
+        "note" : "Neurovetenskap",
+        "hasChildren" : "false",
+        "id" : "VR181101"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR181101/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR181101/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR181101"
+        }
+      }
+    }, {
+      "id" : "srsc:VR181102",
+      "display" : "Neurobiology",
+      "value" : "MEDICINE::Morphology, cell biology, pathology::Cell biology::Neurobiology",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Morphology, cell biology, pathology::Cell biology",
+        "note" : "Neurobiologi",
+        "hasChildren" : "false",
+        "id" : "VR181102"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR181102/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR181102/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR181102"
+        }
+      }
+    }, {
+      "id" : "srsc:VR181103",
+      "display" : "Medical cell biology",
+      "value" : "MEDICINE::Morphology, cell biology, pathology::Cell biology::Medical cell biology",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Morphology, cell biology, pathology::Cell biology",
+        "note" : "Medicinsk cellbiologi",
+        "hasChildren" : "false",
+        "id" : "VR181103"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR181103/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR181103/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR181103"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 3
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1811/children?page=0&size=100"
+    }
+  }
+}

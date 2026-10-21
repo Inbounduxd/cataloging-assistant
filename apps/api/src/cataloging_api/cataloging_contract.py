@@ -3,8 +3,42 @@ from __future__ import annotations
 from dataclasses import asdict, dataclass
 from typing import Final
 
-CONTRACT_VERSION: Final = "dspace-cataloger-v3.9.1"
+CONTRACT_VERSION: Final = "snibli-contract-2026-10-21"
 DSpace_VERSION: Final = "7.6.6"
+
+# Literal values confirmed by authenticated configuration and human review.
+# This application revision does not rename or replace the preserved skill release.
+CONTROLLED_VOCABULARIES: Final = {
+    "genrePairs": ("Sí", "No", "Incluye Datos de Diferentes Lenguas"),
+    "common_types": (
+        "Animation",
+        "Article",
+        "Book",
+        "Book chapter",
+        "Dataset",
+        "Learning Object",
+        "Image",
+        "Image, 3-D",
+        "Map",
+        "Musical Score",
+        "Plan or blueprint",
+        "Preprint",
+        "Presentation",
+        "Recording, acoustical",
+        "Recording, musical",
+        "Recording, oral",
+        "Software",
+        "Technical Report",
+        "Thesis",
+        "Video",
+        "Working Paper",
+        "Other",
+        "Pagina Web",
+        "Códice",
+        "Reseña",
+        "Documento Colonial",
+    ),
+}
 
 EVIDENCE_STATES: Final = (
     "EXTRAÍDO",
@@ -95,6 +129,14 @@ FIELDS: Final = (
         "dc.identifier.issue",
         "Edicion(No)/Periodicdad",
         "Edición / número / periodicidad",
+    ),
+    CatalogField(
+        "comparative-text",
+        "dc.type.genre",
+        "¿Es un texto comparativo?",
+        "¿Es un texto comparativo?",
+        controlled=True,
+        vocabulary_id="genrePairs",
     ),
     CatalogField(
         "issn",
@@ -382,7 +424,7 @@ FIELDS: Final = (
     CatalogField("description-notes", "dc.description", "Notas", "Notas"),
 )
 
-assert len(FIELDS) == 56
+assert len(FIELDS) == 57
 
 FIELD_BY_BINDING: Final = {field.binding_id: field for field in FIELDS}
 
@@ -434,9 +476,7 @@ PROFILE_LINGUISTIC_FIELDS: Final = tuple(
     field.metadata_field for field in FIELDS if field.runtime_profiled
 )
 PROFILE_FIELD_LABELS: Final = {
-    field.metadata_field: field.assistant_label
-    for field in FIELDS
-    if field.runtime_profiled
+    field.metadata_field: field.assistant_label for field in FIELDS if field.runtime_profiled
 }
 
 LINGUISTIC_FAMILY: Final = "dc.subject.linguisticFamily"
@@ -471,7 +511,11 @@ def contract_payload() -> dict[str, object]:
         "contract_version": CONTRACT_VERSION,
         "dspace_version": DSpace_VERSION,
         "field_count": len(FIELDS),
+        "unique_metadata_count": len({field.metadata_field for field in FIELDS}),
         "fields": [asdict(field) for field in FIELDS],
+        "controlled_vocabulary_values": {
+            key: list(values) for key, values in CONTROLLED_VOCABULARIES.items()
+        },
         "runtime": {
             "draftable_fields": list(DRAFTABLE_LINGUISTIC_FIELDS),
             "controlled_fields": list(CONTROLLED_RUNTIME_FIELDS),

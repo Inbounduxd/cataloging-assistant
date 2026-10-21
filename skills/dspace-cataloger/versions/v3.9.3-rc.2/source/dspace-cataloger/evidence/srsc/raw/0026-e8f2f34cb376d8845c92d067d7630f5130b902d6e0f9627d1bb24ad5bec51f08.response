@@ -1,0 +1,108 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:VR140102",
+      "display" : "Algebra and geometry",
+      "value" : "MATHEMATICS::Algebra, geometry and mathematical analysis::Algebra and geometry",
+      "otherInformation" : {
+        "parent" : "MATHEMATICS::Algebra, geometry and mathematical analysis",
+        "note" : "Algebra och geometri",
+        "hasChildren" : "false",
+        "id" : "VR140102"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR140102/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR140102/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR140102"
+        }
+      }
+    }, {
+      "id" : "srsc:VR140103",
+      "display" : "Mathematical analysis",
+      "value" : "MATHEMATICS::Algebra, geometry and mathematical analysis::Mathematical analysis",
+      "otherInformation" : {
+        "parent" : "MATHEMATICS::Algebra, geometry and mathematical analysis",
+        "note" : "Analys",
+        "hasChildren" : "false",
+        "id" : "VR140103"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR140103/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR140103/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR140103"
+        }
+      }
+    }, {
+      "id" : "srsc:VR140104",
+      "display" : "Mathematical logic",
+      "value" : "MATHEMATICS::Algebra, geometry and mathematical analysis::Mathematical logic",
+      "otherInformation" : {
+        "parent" : "MATHEMATICS::Algebra, geometry and mathematical analysis",
+        "note" : "Matematisk logik",
+        "hasChildren" : "false",
+        "id" : "VR140104"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR140104/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR140104/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR140104"
+        }
+      }
+    }, {
+      "id" : "srsc:VR140105",
+      "display" : "Discrete mathematics",
+      "value" : "MATHEMATICS::Algebra, geometry and mathematical analysis::Discrete mathematics",
+      "otherInformation" : {
+        "parent" : "MATHEMATICS::Algebra, geometry and mathematical analysis",
+        "note" : "Diskret matematik",
+        "hasChildren" : "false",
+        "id" : "VR140105"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR140105/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR140105/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR140105"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 4
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1401/children?page=0&size=100"
+    }
+  }
+}

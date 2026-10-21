@@ -1,0 +1,522 @@
+{
+  "_embedded" : {
+    "entries" : [ {
+      "display" : "spa",
+      "value" : "spa",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "eng",
+      "value" : "eng",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "knj",
+      "value" : "knj",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "amu",
+      "value" : "amu",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "agu",
+      "value" : "agu",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "ayo",
+      "value" : "ayo",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "crn",
+      "value" : "crn",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "cuc",
+      "value" : "cuc",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "cut",
+      "value" : "cut",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "ctp",
+      "value" : "ctp",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "pei",
+      "value" : "pei",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "chj",
+      "value" : "chj",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "coz",
+      "value" : "coz",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "chd",
+      "value" : "chd",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "chf",
+      "value" : "chf",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "cac",
+      "value" : "cac",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "ctu",
+      "value" : "ctu",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "var",
+      "value" : "var",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "hus",
+      "value" : "hus",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "huv",
+      "value" : "huv",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "hch",
+      "value" : "hch",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "ixc",
+      "value" : "ixc",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "ixl",
+      "value" : "ixl",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "jac",
+      "value" : "jac",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "cak",
+      "value" : "cak",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "kic",
+      "value" : "kic",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "klb",
+      "value" : "klb",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "dih",
+      "value" : "dih",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "yku",
+      "value" : "yku",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "quc",
+      "value" : "quc",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "lac",
+      "value" : "lac",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "mam",
+      "value" : "mam",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "mat",
+      "value" : "mat",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "yua",
+      "value" : "yua",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "mfy",
+      "value" : "mfy",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "maz",
+      "value" : "maz",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "maq",
+      "value" : "maq",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "mco",
+      "value" : "mco",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "mix",
+      "value" : "mix",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "nah",
+      "value" : "nah",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "plo",
+      "value" : "plo",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "ote",
+      "value" : "ote",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "ppi",
+      "value" : "ppi",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "pbs",
+      "value" : "pbs",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "ood",
+      "value" : "ood",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "pls",
+      "value" : "pls",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "poi",
+      "value" : "poi",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "ckt",
+      "value" : "ckt",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "kjb",
+      "value" : "kjb",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "kek",
+      "value" : "kek",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "pos",
+      "value" : "pos",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "sei",
+      "value" : "sei",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "tar",
+      "value" : "tar",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "tsz",
+      "value" : "tsz",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "ttc",
+      "value" : "ttc",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "tpt",
+      "value" : "tpt",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "thn",
+      "value" : "thn",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "stp",
+      "value" : "stp",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "poq",
+      "value" : "poq",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "toj",
+      "value" : "toj",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "top",
+      "value" : "top",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "trs",
+      "value" : "trs",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "otm",
+      "value" : "otm",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "tcf",
+      "value" : "tcf",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "tzc",
+      "value" : "tzc",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "tzo",
+      "value" : "tzo",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "yaq",
+      "value" : "yaq",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "zap",
+      "value" : "zap",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "zoc",
+      "value" : "zoc",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "aa",
+      "value" : "aa",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "ab",
+      "value" : "ab",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "ae",
+      "value" : "ae",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "af",
+      "value" : "af",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "ak",
+      "value" : "ak",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "am",
+      "value" : "am",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "an",
+      "value" : "an",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "ar",
+      "value" : "ar",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "as",
+      "value" : "as",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "av",
+      "value" : "av",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "ay",
+      "value" : "ay",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "az",
+      "value" : "az",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "ba",
+      "value" : "ba",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "be",
+      "value" : "be",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "bg",
+      "value" : "bg",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "bh",
+      "value" : "bh",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "bi",
+      "value" : "bi",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "bm",
+      "value" : "bm",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "bn",
+      "value" : "bn",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "bo",
+      "value" : "bo",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "br",
+      "value" : "br",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "bs",
+      "value" : "bs",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "ca",
+      "value" : "ca",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "ce",
+      "value" : "ce",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "ch",
+      "value" : "ch",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "co",
+      "value" : "co",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "cr",
+      "value" : "cr",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "cs",
+      "value" : "cs",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "cu",
+      "value" : "cu",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "cv",
+      "value" : "cv",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "cy",
+      "value" : "cy",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 3,
+    "totalElements" : 253
+  },
+  "_links" : {
+    "next" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularies/iso6391Pairs/entries?page=1&size=100"
+    },
+    "last" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularies/iso6391Pairs/entries?page=2&size=100"
+    },
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularies/iso6391Pairs/entries?page=0&size=100"
+    }
+  }
+}

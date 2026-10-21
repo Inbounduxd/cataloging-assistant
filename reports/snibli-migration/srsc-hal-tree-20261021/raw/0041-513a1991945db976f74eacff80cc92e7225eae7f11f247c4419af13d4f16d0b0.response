@@ -1,0 +1,85 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:SCB1691",
+      "display" : "Medical engineering",
+      "value" : "TECHNOLOGY::Other technology::Medical engineering",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY::Other technology",
+        "note" : "Medicinsk teknik",
+        "hasChildren" : "false",
+        "id" : "SCB1691"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1691/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1691/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1691"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1692",
+      "display" : "Environmental engineering",
+      "value" : "TECHNOLOGY::Other technology::Environmental engineering",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY::Other technology",
+        "note" : "Miljöteknik",
+        "hasChildren" : "false",
+        "id" : "SCB1692"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1692/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1692/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1692"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1693",
+      "display" : "Space engineering",
+      "value" : "TECHNOLOGY::Other technology::Space engineering",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY::Other technology",
+        "note" : "Rymdteknik",
+        "hasChildren" : "false",
+        "id" : "SCB1693"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1693/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1693/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1693"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 3
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB169/children?page=0&size=100"
+    }
+  }
+}

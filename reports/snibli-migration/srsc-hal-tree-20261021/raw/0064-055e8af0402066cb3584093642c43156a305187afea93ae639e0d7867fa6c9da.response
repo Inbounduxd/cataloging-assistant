@@ -1,0 +1,108 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:VR113200",
+      "display" : "Germanic languages",
+      "value" : "HUMANITIES and RELIGION::Languages and linguistics::Other Germanic languages::Germanic languages",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::Languages and linguistics::Other Germanic languages",
+        "note" : "Germanistik",
+        "hasChildren" : "false",
+        "id" : "VR113200"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113200/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113200/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113200"
+        }
+      }
+    }, {
+      "id" : "srsc:VR113201",
+      "display" : "English language",
+      "value" : "HUMANITIES and RELIGION::Languages and linguistics::Other Germanic languages::English language",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::Languages and linguistics::Other Germanic languages",
+        "note" : "Engelska språket",
+        "hasChildren" : "false",
+        "id" : "VR113201"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113201/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113201/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113201"
+        }
+      }
+    }, {
+      "id" : "srsc:VR113202",
+      "display" : "German language",
+      "value" : "HUMANITIES and RELIGION::Languages and linguistics::Other Germanic languages::German language",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::Languages and linguistics::Other Germanic languages",
+        "note" : "Tyska språket",
+        "hasChildren" : "false",
+        "id" : "VR113202"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113202/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113202/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113202"
+        }
+      }
+    }, {
+      "id" : "srsc:VR113203",
+      "display" : "Dutch language",
+      "value" : "HUMANITIES and RELIGION::Languages and linguistics::Other Germanic languages::Dutch language",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::Languages and linguistics::Other Germanic languages",
+        "note" : "Nederländska",
+        "hasChildren" : "false",
+        "id" : "VR113203"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113203/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113203/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113203"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 4
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1132/children?page=0&size=100"
+    }
+  }
+}

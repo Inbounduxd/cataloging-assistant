@@ -1,0 +1,108 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:SCB1831",
+      "display" : "Pharmacological research",
+      "value" : "MEDICINE::Physiology and pharmacology::Pharmacological research",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Physiology and pharmacology",
+        "note" : "Farmakologisk forskning",
+        "hasChildren" : "true",
+        "id" : "SCB1831"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1831/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1831/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1831"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1832",
+      "display" : "Physiology",
+      "value" : "MEDICINE::Physiology and pharmacology::Physiology",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Physiology and pharmacology",
+        "note" : "Fysiologi",
+        "hasChildren" : "true",
+        "id" : "SCB1832"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1832/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1832/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1832"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1833",
+      "display" : "Ophtalmology",
+      "value" : "MEDICINE::Physiology and pharmacology::Ophtalmology",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Physiology and pharmacology",
+        "note" : "Oftalmologi",
+        "hasChildren" : "true",
+        "id" : "SCB1833"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1833/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1833/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1833"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1834",
+      "display" : "Radiological research",
+      "value" : "MEDICINE::Physiology and pharmacology::Radiological research",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Physiology and pharmacology",
+        "note" : "Radiologisk forskning",
+        "hasChildren" : "true",
+        "id" : "SCB1834"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1834/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1834/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1834"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 4
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB183/children?page=0&size=100"
+    }
+  }
+}

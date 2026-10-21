@@ -1,0 +1,85 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:VR153101",
+      "display" : "Solid earth geology and petrology",
+      "value" : "NATURAL SCIENCES::Earth sciences::Endogenous earth sciences::Solid earth geology and petrology",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Earth sciences::Endogenous earth sciences",
+        "note" : "Berggrundsgeologi och petrologi",
+        "hasChildren" : "false",
+        "id" : "VR153101"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR153101/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR153101/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR153101"
+        }
+      }
+    }, {
+      "id" : "srsc:VR153102",
+      "display" : "Mineralogy",
+      "value" : "NATURAL SCIENCES::Earth sciences::Endogenous earth sciences::Mineralogy",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Earth sciences::Endogenous earth sciences",
+        "note" : "Mineralvetenskap",
+        "hasChildren" : "false",
+        "id" : "VR153102"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR153102/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR153102/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR153102"
+        }
+      }
+    }, {
+      "id" : "srsc:VR153103",
+      "display" : "Solid earth physics",
+      "value" : "NATURAL SCIENCES::Earth sciences::Endogenous earth sciences::Solid earth physics",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Earth sciences::Endogenous earth sciences",
+        "note" : "Fasta jordens fysik",
+        "hasChildren" : "false",
+        "id" : "VR153103"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR153103/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR153103/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR153103"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 3
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1531/children?page=0&size=100"
+    }
+  }
+}

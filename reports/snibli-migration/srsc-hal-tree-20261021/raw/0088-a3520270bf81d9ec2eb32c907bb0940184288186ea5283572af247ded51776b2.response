@@ -1,0 +1,177 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:VR150901",
+      "display" : "Optics",
+      "value" : "NATURAL SCIENCES::Physics::Other physics::Optics",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Physics::Other physics",
+        "note" : "Optik",
+        "hasChildren" : "false",
+        "id" : "VR150901"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150901/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150901/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150901"
+        }
+      }
+    }, {
+      "id" : "srsc:VR150902",
+      "display" : "Geophysics",
+      "value" : "NATURAL SCIENCES::Physics::Other physics::Geophysics",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Physics::Other physics",
+        "note" : "Geofysik",
+        "hasChildren" : "false",
+        "id" : "VR150902"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150902/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150902/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150902"
+        }
+      }
+    }, {
+      "id" : "srsc:VR150903",
+      "display" : "Mathematical physics",
+      "value" : "NATURAL SCIENCES::Physics::Other physics::Mathematical physics",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Physics::Other physics",
+        "note" : "Matematisk fysik",
+        "hasChildren" : "false",
+        "id" : "VR150903"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150903/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150903/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150903"
+        }
+      }
+    }, {
+      "id" : "srsc:VR150904",
+      "display" : "Computational physics",
+      "value" : "NATURAL SCIENCES::Physics::Other physics::Computational physics",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Physics::Other physics",
+        "note" : "Beräkningsfysik",
+        "hasChildren" : "false",
+        "id" : "VR150904"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150904/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150904/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150904"
+        }
+      }
+    }, {
+      "id" : "srsc:VR150905",
+      "display" : "Theory of relativity, gravitation",
+      "value" : "NATURAL SCIENCES::Physics::Other physics::Theory of relativity, gravitation",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Physics::Other physics",
+        "note" : "Relativitetsteori, gravitation",
+        "hasChildren" : "false",
+        "id" : "VR150905"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150905/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150905/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150905"
+        }
+      }
+    }, {
+      "id" : "srsc:VR150906",
+      "display" : "Statistical physics",
+      "value" : "NATURAL SCIENCES::Physics::Other physics::Statistical physics",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Physics::Other physics",
+        "note" : "Statistisk fysik",
+        "hasChildren" : "false",
+        "id" : "VR150906"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150906/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150906/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150906"
+        }
+      }
+    }, {
+      "id" : "srsc:VR150907",
+      "display" : "Non-linear dynamics, chaos",
+      "value" : "NATURAL SCIENCES::Physics::Other physics::Non-linear dynamics, chaos",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Physics::Other physics",
+        "note" : "Icke-linjär dynamik, kaos",
+        "hasChildren" : "false",
+        "id" : "VR150907"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150907/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150907/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR150907"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 7
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1509/children?page=0&size=100"
+    }
+  }
+}

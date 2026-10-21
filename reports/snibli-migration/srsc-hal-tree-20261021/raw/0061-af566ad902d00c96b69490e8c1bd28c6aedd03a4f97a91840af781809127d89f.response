@@ -1,0 +1,62 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:VR111402",
+      "display" : "Human ecology",
+      "value" : "HUMANITIES and RELIGION::History and philosophy subjects::Ethnology::Human ecology",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::History and philosophy subjects::Ethnology",
+        "note" : "Humanekologi",
+        "hasChildren" : "false",
+        "id" : "VR111402"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR111402/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR111402/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR111402"
+        }
+      }
+    }, {
+      "id" : "srsc:VR111405",
+      "display" : "Cultural anthropology",
+      "value" : "HUMANITIES and RELIGION::History and philosophy subjects::Ethnology::Cultural anthropology",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::History and philosophy subjects::Ethnology",
+        "note" : "Kulturantropologi",
+        "hasChildren" : "false",
+        "id" : "VR111405"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR111405/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR111405/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR111405"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 2
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1114/children?page=0&size=100"
+    }
+  }
+}

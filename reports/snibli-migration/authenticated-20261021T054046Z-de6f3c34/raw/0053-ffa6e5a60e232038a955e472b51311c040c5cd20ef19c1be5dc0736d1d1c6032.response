@@ -1,0 +1,31 @@
+{
+  "_embedded" : {
+    "entries" : [ {
+      "display" : "Sí",
+      "value" : "Sí",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "No",
+      "value" : "No",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Incluye Datos de Diferentes Lenguas",
+      "value" : "Incluye Datos de Diferentes Lenguas",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 3
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularies/genrePairs/entries?page=0&size=100"
+    }
+  }
+}

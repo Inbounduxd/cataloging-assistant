@@ -2,6 +2,7 @@ import asyncio
 from types import SimpleNamespace
 
 import cataloging_api.dspace.contract_sync_core as core
+import pytest
 from cataloging_api.dspace.client import DSpaceError
 
 
@@ -19,7 +20,7 @@ class _Client:
         return {"name": "traditional"}
 
 
-async def _raise_204(**_: object) -> None:
+async def _raise_204(_session: object, **_: object) -> None:
     raise DSpaceError("invalid_response", "HTTP 204", status_code=204)
 
 
@@ -58,3 +59,34 @@ def test_active_sections_204_is_persisted_as_unobservable_not_raised(monkeypatch
         "totalPages": 0,
         "totalElements": 0,
     }
+
+
+@pytest.mark.parametrize("status_code", [401, 403, 500])
+def test_non_204_errors_are_not_converted_to_unobservable_sections(
+    monkeypatch, status_code
+) -> None:
+    persisted = []
+
+    async def fake_persist(session, **kwargs):
+        persisted.append(kwargs)
+
+    async def fail_sections(session, **kwargs):
+        raise DSpaceError("invalid_response", f"HTTP {status_code}", status_code=status_code)
+
+    monkeypatch.setattr(core, "persist_page_and_advance_checkpoint", fake_persist)
+    monkeypatch.setattr(core, "_collect_surface", fail_sections)
+    session = _Session()
+    with pytest.raises(DSpaceError) as caught:
+        asyncio.run(
+            core._collect_active_definition(
+                session,
+                run=SimpleNamespace(),
+                client=_Client(),
+                collection_uuid="collection-uuid",
+                page_size=100,
+            )
+        )
+    assert caught.value.status_code == status_code
+    assert session.commits == 1
+    assert len(persisted) == 1
+    assert persisted[0]["surface"] == "active_submission_definition"

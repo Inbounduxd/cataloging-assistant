@@ -1,0 +1,608 @@
+{
+  "captured_at": "2026-10-21T04:51:36.102202+00:00",
+  "coverage": "PUBLIC_REST_DISCOVERY_PARTIAL",
+  "api_base_verified_public": "https://www.iifl.unam.mx/server/api",
+  "authenticated": false,
+  "methods": [
+    "GET"
+  ],
+  "findings": [
+    {
+      "check": "explicit_rest_discovery",
+      "status": "PASS",
+      "detail": "HTML base /SNIBLI/ -> linked main bundle -> fetch assets/config.json -> rest.baseUrl /server -> HAL Browser entryPoint pathname + api -> HAL root"
+    },
+    {
+      "check": "dspace_root",
+      "status": "PASS",
+      "detail": {
+        "dspaceName": "Respositorio Ind",
+        "dspaceVersion": "DSpace 7.6.6",
+        "dspaceUI": "https://www.iifl.unam.mx/SNIBLI",
+        "dspaceServer": "https://www.iifl.unam.mx/server"
+      }
+    },
+    {
+      "check": "historical_pilot_uuid",
+      "status": "FAIL",
+      "detail": {
+        "endpoint": "https://www.iifl.unam.mx/server/api/core/collections/e9a8f44f-a8d3-4d22-b02a-cf590285bac6",
+        "http_status": 404,
+        "interpretation": "Not publicly retrievable at historical UUID; does not prove deletion or database replacement"
+      }
+    },
+    {
+      "check": "historical_handle_resolution",
+      "status": "FAIL",
+      "detail": {
+        "endpoint": "https://www.iifl.unam.mx/server/api/pid/find?id=123456789%2F4",
+        "http_status": 404,
+        "raw_file": "discovery/handle-123456789-4.response",
+        "body_bytes": 0,
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "interpretation": "Published PID template expanded with historical Handle; HTTP 404; no replacement identity inferred"
+      }
+    },
+    {
+      "check": "public_counts",
+      "status": "UNKNOWN",
+      "detail": {
+        "metadata_schemas_announced": 18,
+        "metadata_fields_announced": 293,
+        "historical_metadata_fields": 292,
+        "collections_announced": 455,
+        "metadata_pages_captured": 1,
+        "metadata_total_pages": 15,
+        "interpretation": "18 schemas observed; 293 fields announced versus 292 historically; pagination incomplete, no semantic drift claim"
+      }
+    },
+    {
+      "check": "authenticated_contract_surfaces",
+      "status": "UNKNOWN",
+      "detail": [
+        {
+          "endpoint": "https://www.iifl.unam.mx/server/api/config/submissiondefinitions",
+          "http_status": 401
+        },
+        {
+          "endpoint": "https://www.iifl.unam.mx/server/api/config/submissionforms",
+          "http_status": 401
+        },
+        {
+          "endpoint": "https://www.iifl.unam.mx/server/api/config/submissionsections",
+          "http_status": 401
+        },
+        {
+          "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularies",
+          "http_status": 401
+        }
+      ]
+    },
+    {
+      "check": "anonymous_auth_status",
+      "status": "PASS",
+      "detail": {
+        "authenticated": false,
+        "credentials_used": false
+      }
+    },
+    {
+      "check": "full_migration_equivalence",
+      "status": "UNKNOWN",
+      "detail": "No authenticated capture or comparable raw baseline; 56 bindings, 54 keys, vocabulary values and active membership remain unverified"
+    }
+  ],
+  "captures": [
+    {
+      "requested_url": "https://www.iifl.unam.mx/SNIBLI/home",
+      "captured_at": "2026-10-21T04:47:45.069764+00:00",
+      "endpoint": "https://www.iifl.unam.mx/SNIBLI/home",
+      "redirects": [
+        {
+          "url": "https://www.iifl.unam.mx/SNIBLI/home",
+          "status": 200
+        }
+      ],
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "50f06e29dcdfacb388dd744bc904911c0457316be2d8843fdc51b92b88173e0c",
+      "bytes": 847,
+      "raw_file": "50f06e29dcdfacb388dd744bc904911c0457316be2d8843fdc51b92b88173e0c.response",
+      "references": [
+        {
+          "tag": "base",
+          "attribute": "href",
+          "value": "/SNIBLI/"
+        },
+        {
+          "tag": "link",
+          "attribute": "href",
+          "value": "assets/images/Filologicas-principal.png"
+        },
+        {
+          "tag": "link",
+          "attribute": "href",
+          "value": "styles.e382c7dd35ca1222.css"
+        },
+        {
+          "tag": "link",
+          "attribute": "href",
+          "value": "styles.e382c7dd35ca1222.css"
+        },
+        {
+          "tag": "script",
+          "attribute": "src",
+          "value": "runtime.6e9781db428db3f5.js"
+        },
+        {
+          "tag": "script",
+          "attribute": "src",
+          "value": "polyfills.625dba166e8d2999.js"
+        },
+        {
+          "tag": "script",
+          "attribute": "src",
+          "value": "main.c6d5cfd5ea7ee9be.js"
+        }
+      ]
+    },
+    {
+      "requested_url": "https://www.iifl.unam.mx/SNIBLI/runtime.6e9781db428db3f5.js",
+      "captured_at": "2026-10-21T04:47:51.616535+00:00",
+      "endpoint": "https://www.iifl.unam.mx/SNIBLI/runtime.6e9781db428db3f5.js",
+      "redirects": [
+        {
+          "url": "https://www.iifl.unam.mx/SNIBLI/runtime.6e9781db428db3f5.js",
+          "status": 200
+        }
+      ],
+      "http_status": 200,
+      "content_type": "application/javascript; charset=UTF-8",
+      "sha256": "e125cfa161e1262c1b1fe79bea2848e4046179315457030833c7fe95d846cb0c",
+      "bytes": 7134,
+      "raw_file": "e125cfa161e1262c1b1fe79bea2848e4046179315457030833c7fe95d846cb0c.response",
+      "preview": "(()=>{\"use strict\";var e,g={},v={};function f(e){var c=v[e];if(void 0!==c)return c.exports;var a=v[e]={id:e,loaded:!1,exports:{}};return g[e].call(a.exports,a,a.exports,f),a.loaded=!0,a.exports}f.m=g,e=[],f.O=(c,a,b,r)=>{if(!a){var d=1/0;for(t=0;t<e.length;t++){for(var[a,b,r]=e[t],l=!0,n=0;n<a.length;n++)(!1&r||d>=r)&&Object.keys(f.O).every(p=>f.O[p](a[n]))?a.splice(n--,1):(l=!1,r<d&&(d=r));if(l){e.splice(t--,1);var i=b();void 0!==i&&(c=i)}}return c}r=r||0;for(var t=e.length;t>0&&e[t-1][2]>r;t--)e[t]=e[t-1];e[t]=[a,b,r]},f.n=e=>{var c=e&&e.__esModule?()=>e.default:()=>e;return f.d(c,{a:c}),c},(()=>{var c,e=Object.getPrototypeOf?a=>Object.getPrototypeOf(a):a=>a.__proto__;f.t=function(a,b){if(1&b&&(a=this(a)),8&b||\"object\"==typeof a&&a&&(4&b&&a.__esModule||16&b&&\"function\"==typeof a.then))return a;var r=Object.create(null);f.r(r);var t={};c=c||[null,e({}),e([]),e(e)];for(var d=2&b&&a;\"object\"==typeof d&&!~c.indexOf(d);d=e(d))Object.getOwnPropertyNames(d).forEach(l=>t[l]=()=>a[l]);return t.default=()=>a,f.d(r,t),r}})(),f.d=(e,c)=>{for(var a in c)f.o(c,a)&&!f.o(e,a)&&Object.defineProperty(e,a,{enumerable:!0,get:c[a]})},f.f={},f.e=e=>Promise.all(Object.keys(f.f).reduce((c,a)=>(f.f[a](e,c),c),[])),f.u=e=>(8592===e?\"common\":e)+\".\"+{1:\"7b3da578f9ce16c5\",31:\"e79670877291acfc\",74:\"997c19c65477e2fd\",89:\"c7c6337aca4f2d28\",106:\"e3ea2727d763e255\",183:\"6696ed2c0bbf8cb0\",189:\"165ee6d13d91bc8a\",194:\"8ce2a9a086e39d8f\",290:\"6ee9b7ca0dcd8ce2\",351:\"8afb064400517fb0\",386:\"c4b5274ffbe106e8\",438:\"66"
+    },
+    {
+      "requested_url": "https://www.iifl.unam.mx/SNIBLI/main.c6d5cfd5ea7ee9be.js",
+      "captured_at": "2026-10-21T04:47:51.895187+00:00",
+      "endpoint": "https://www.iifl.unam.mx/SNIBLI/main.c6d5cfd5ea7ee9be.js",
+      "redirects": [
+        {
+          "url": "https://www.iifl.unam.mx/SNIBLI/main.c6d5cfd5ea7ee9be.js",
+          "status": 200
+        }
+      ],
+      "http_status": 200,
+      "content_type": "application/javascript; charset=UTF-8",
+      "sha256": "33232f811cacf779533a775a1a96d1ee69309c2559e369c20c315b36962c6d1a",
+      "bytes": 2691001,
+      "raw_file": "33232f811cacf779533a775a1a96d1ee69309c2559e369c20c315b36962c6d1a.response",
+      "preview": "(self.webpackChunkdspace_angular=self.webpackChunkdspace_angular||[]).push([[179],{92414:(R,c,e)=>{\"use strict\";e.d(c,{EP:()=>d,EV:()=>p,b6:()=>i,fN:()=>a,sC:()=>o,y9:()=>r});var t=e(23631),n=e(50503);const o=\"epeople\";function i(){return new t.R((0,n.sr)(),o).toString()}function d(h){return new t.R(i(),h,\"edit\").toString()}const r=\"groups\";function a(){return new t.R((0,n.sr)(),r).toString()}function p(h){return new t.R(a(),h,\"edit\").toString()}},92513:(R,c,e)=>{\"use strict\";e.d(c,{y:()=>uo});var t=e(34793),n=e(61135),o=e(39841),i=e(63900),d=e(54004),r=e(95698),a=e(24789),p=e(45061),h=e(24702),g=e(46418),_=e(4177);class E{}var v=e(47235),M=e(19937),b=e(68285),C=e(18916),I=e(31241),O=e(62713),l=e(77467),D=e(83616),S=e(92414),m=e(94650),B=e(89383),L=e(24006),W=e(9769),z=e(36895),G=e(48106),ie=e(62697);function j(vt,_n){1&vt&&m.\\u0275\\u0275element(0,\"ds-themed-loading\")}const q=function(vt){return{name:vt}};function de(vt,_n){if(1&vt){const xe=m.\\u0275\\u0275getCurrentView();m.\\u0275\\u0275elementStart(0,\"button\",33),m.\\u0275\\u0275listener(\"click\",function(){m.\\u0275\\u0275restoreView(xe);const jt=m.\\u0275\\u0275nextContext().$implicit,bn=m.\\u0275\\u0275nextContext(2);return m.\\u0275\\u0275resetView(bn.deleteEPerson(jt.eperson))}),m.\\u0275\\u0275pipe(1,\"translate\"),m.\\u0275\\u0275element(2,\"i\",34),m.\\u0275\\u0275elementEnd()}if(2&vt){const xe=m.\\u0275\\u0275nextContext().$implicit,Ye=m.\\u0275\\u0275nextContext(2);m.\\u0275\\u0275propertyInterpolate(\"title\",m.\\u0275\\u0275pipeBind2(1,1,Ye.lab"
+    },
+    {
+      "requested_url": "https://www.iifl.unam.mx/SNIBLI/assets/config.json",
+      "captured_at": "2026-10-21T04:48:04.622308+00:00",
+      "endpoint": "https://www.iifl.unam.mx/SNIBLI/assets/config.json",
+      "redirects": [
+        {
+          "url": "https://www.iifl.unam.mx/SNIBLI/assets/config.json",
+          "status": 200
+        }
+      ],
+      "http_status": 200,
+      "content_type": "application/json; charset=UTF-8",
+      "sha256": "33a286d3e63bfb3024161b7d7d0a10c71c5c3c3071b970d2aab9dd629e0cabf8",
+      "bytes": 7833,
+      "raw_file": "33a286d3e63bfb3024161b7d7d0a10c71c5c3c3071b970d2aab9dd629e0cabf8.response",
+      "preview": "{\n  \"production\": true,\n  \"debug\": false,\n  \"ui\": {\n    \"ssl\": false,\n    \"host\": \"0.0.0.0\",\n    \"port\": 4000,\n    \"nameSpace\": \"/SNIBLI\",\n    \"rateLimiter\": {\n      \"windowMs\": 60000,\n      \"max\": 500\n    },\n    \"useProxies\": true,\n    \"baseUrl\": \"http://0.0.0.0:4000/SNIBLI\"\n  },\n  \"rest\": {\n    \"ssl\": true,\n    \"host\": \"www.iifl.unam.mx\",\n    \"port\": 443,\n    \"nameSpace\": \"/server\",\n    \"ssrBaseUrl\": \"http://localhost:8080/server\",\n    \"baseUrl\": \"https://www.iifl.unam.mx/server\"\n  },\n  \"actuators\": {\n    \"endpointPath\": \"/actuator/health\"\n  },\n  \"cache\": {\n    \"msToLive\": {\n      \"default\": 900000\n    },\n    \"control\": \"max-age=604800\",\n    \"autoSync\": {\n      \"defaultTime\": 0,\n      \"maxBufferSize\": 100,\n      \"timePerMethod\": {\n        \"PATCH\": 3\n      }\n    },\n    \"serverSide\": {\n      \"debug\": false,\n      \"headers\": [\n        \"Link\"\n      ],\n      \"botCache\": {\n        \"max\": 1000,\n        \"timeToLive\": 86400000,\n        \"allowStale\": true\n      },\n      \"anonymousCache\": {\n        \"max\": 0,\n        \"timeToLive\": 10000,\n        \"allowStale\": true\n      }\n    }\n  },\n  \"auth\": {\n    \"ui\": {\n      \"timeUntilIdle\": 900000,\n      \"idleGracePeriod\": 300000\n    },\n    \"rest\": {\n      \"timeLeftBeforeTokenRefresh\": 120000\n    }\n  },\n  \"form\": {\n    \"spellCheck\": true,\n    \"validatorMap\": {\n      \"required\": \"required\",\n      \"regex\": \"pattern\"\n    }\n  },\n  \"notifications\": {\n    \"rtl\": false,\n    \"position\": [\n      \"top\",\n      \"right\"\n    ],\n    \"maxStack\": 8,\n    \"timeOut\":"
+    },
+    {
+      "requested_url": "https://www.iifl.unam.mx/server",
+      "captured_at": "2026-10-21T04:48:12.568145+00:00",
+      "endpoint": "https://www.iifl.unam.mx/server/",
+      "redirects": [
+        {
+          "url": "https://www.iifl.unam.mx/server",
+          "status": 308
+        },
+        {
+          "url": "https://www.iifl.unam.mx/server/",
+          "status": 200
+        }
+      ],
+      "http_status": 200,
+      "content_type": "text/html;charset=UTF-8",
+      "sha256": "04740fd53c739ed22c87fd56ee3ef5b28e8407ed7195ccaef22df69f65456816",
+      "bytes": 13128,
+      "raw_file": "04740fd53c739ed22c87fd56ee3ef5b28e8407ed7195ccaef22df69f65456816.response",
+      "references": [
+        {
+          "tag": "link",
+          "attribute": "href",
+          "value": "webjars/bootstrap/dist/css/bootstrap.min.css"
+        },
+        {
+          "tag": "link",
+          "attribute": "href",
+          "value": "styles.css"
+        },
+        {
+          "tag": "a",
+          "attribute": "href",
+          "value": "#"
+        },
+        {
+          "tag": "a",
+          "attribute": "href",
+          "value": "#/"
+        },
+        {
+          "tag": "a",
+          "attribute": "href",
+          "value": "https://github.com/mikekelly/hal-browser"
+        },
+        {
+          "tag": "a",
+          "attribute": "href",
+          "value": "login.html"
+        },
+        {
+          "tag": "script",
+          "attribute": "src",
+          "value": "webjars/jquery/dist/jquery.min.js"
+        },
+        {
+          "tag": "script",
+          "attribute": "src",
+          "value": "webjars/underscore/underscore-min.js"
+        },
+        {
+          "tag": "script",
+          "attribute": "src",
+          "value": "webjars/backbone/backbone-min.js"
+        },
+        {
+          "tag": "script",
+          "attribute": "src",
+          "value": "browser/vendor/js/uritemplates.js"
+        },
+        {
+          "tag": "script",
+          "attribute": "src",
+          "value": "webjars/urijs/src/URI.min.js"
+        },
+        {
+          "tag": "script",
+          "attribute": "src",
+          "value": "webjars/bootstrap/dist/js/bootstrap.min.js"
+        },
+        {
+          "tag": "script",
+          "attribute": "src",
+          "value": "browser/js/hal.js"
+        },
+        {
+          "tag": "script",
+          "attribute": "src",
+          "value": "browser/js/hal/browser.js"
+        },
+        {
+          "tag": "script",
+          "attribute": "src",
+          "value": "js/hal/http/client.js"
+        },
+        {
+          "tag": "script",
+          "attribute": "src",
+          "value": "browser/js/hal/resource.js"
+        },
+        {
+          "tag": "script",
+          "attribute": "src",
+          "value": "browser/js/hal/views/browser.js"
+        },
+        {
+          "tag": "script",
+          "attribute": "src",
+          "value": "browser/js/hal/views/explorer.js"
+        },
+        {
+          "tag": "script",
+          "attribute": "src",
+          "value": "browser/js/hal/views/inspector.js"
+        },
+        {
+          "tag": "script",
+          "attribute": "src",
+          "value": "browser/js/hal/views/navigation.js"
+        },
+        {
+          "tag": "script",
+          "attribute": "src",
+          "value": "browser/js/hal/views/location_bar.js"
+        },
+        {
+          "tag": "script",
+          "attribute": "src",
+          "value": "browser/js/hal/views/request_headers.js"
+        },
+        {
+          "tag": "script",
+          "attribute": "src",
+          "value": "browser/js/hal/views/resource.js"
+        },
+        {
+          "tag": "script",
+          "attribute": "src",
+          "value": "browser/js/hal/views/properties.js"
+        },
+        {
+          "tag": "script",
+          "attribute": "src",
+          "value": "browser/js/hal/views/links.js"
+        },
+        {
+          "tag": "script",
+          "attribute": "src",
+          "value": "browser/js/hal/views/embedded_resources.js"
+        },
+        {
+          "tag": "script",
+          "attribute": "src",
+          "value": "browser/js/hal/views/embedded_resource.js"
+        },
+        {
+          "tag": "script",
+          "attribute": "src",
+          "value": "browser/js/hal/views/non_safe_request_dialog.js"
+        },
+        {
+          "tag": "script",
+          "attribute": "src",
+          "value": "browser/js/hal/views/query_uri_dialog.js"
+        },
+        {
+          "tag": "script",
+          "attribute": "src",
+          "value": "browser/js/hal/views/response.js"
+        },
+        {
+          "tag": "script",
+          "attribute": "src",
+          "value": "browser/js/hal/views/response_headers.js"
+        },
+        {
+          "tag": "script",
+          "attribute": "src",
+          "value": "browser/js/hal/views/response_body.js"
+        },
+        {
+          "tag": "script",
+          "attribute": "src",
+          "value": "browser/js/hal/views/documentation.js"
+        },
+        {
+          "tag": "script",
+          "attribute": "src",
+          "value": "webjars/json-editor__json-editor/2.15.2/dist/jsoneditor.js"
+        },
+        {
+          "tag": "script",
+          "attribute": "src",
+          "value": "js/vendor/CustomPostForm.js"
+        }
+      ]
+    },
+    {
+      "requested_url": "https://www.iifl.unam.mx/server/api",
+      "captured_at": "2026-10-21T04:48:24.955735+00:00",
+      "endpoint": "https://www.iifl.unam.mx/server/api",
+      "redirects": [
+        {
+          "url": "https://www.iifl.unam.mx/server/api",
+          "status": 200
+        }
+      ],
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "13dd53629e044cf3837a06150e592b6665d405d0694293e4d6965a5c695a2094",
+      "bytes": 7101,
+      "raw_file": "13dd53629e044cf3837a06150e592b6665d405d0694293e4d6965a5c695a2094.response",
+      "preview": "{\n  \"dspaceUI\" : \"https://www.iifl.unam.mx/SNIBLI\",\n  \"dspaceName\" : \"Respositorio Ind\",\n  \"dspaceServer\" : \"https://www.iifl.unam.mx/server\",\n  \"dspaceVersion\" : \"DSpace 7.6.6\",\n  \"type\" : \"root\",\n  \"_links\" : {\n    \"actuator\" : {\n      \"href\" : \"https://www.iifl.unam.mx/server/actuator\"\n    },\n    \"authn\" : {\n      \"href\" : \"https://www.iifl.unam.mx/server/api/authn\"\n    },\n    \"authorizations\" : {\n      \"href\" : \"https://www.iifl.unam.mx/server/api/authz/authorizations\"\n    },\n    \"bitstreamformats\" : {\n      \"href\" : \"https://www.iifl.unam.mx/server/api/core/bitstreamformats\"\n    },\n    \"bitstreams\" : {\n      \"href\" : \"https://www.iifl.unam.mx/server/api/core/bitstreams\"\n    },\n    \"browses\" : {\n      \"href\" : \"https://www.iifl.unam.mx/server/api/discover/browses\"\n    },\n    \"bulkaccessconditionoptions\" : {\n      \"href\" : \"https://www.iifl.unam.mx/server/api/config/bulkaccessconditionoptions\"\n    },\n    \"bundles\" : {\n      \"href\" : \"https://www.iifl.unam.mx/server/api/core/bundles\"\n    },\n    \"claimedtasks\" : {\n      \"href\" : \"https://www.iifl.unam.mx/server/api/workflow/claimedtasks\"\n    },\n    \"claimedtasks-search\" : {\n      \"href\" : \"https://www.iifl.unam.mx/server/api/workflow/claimedtasks/search\"\n    },\n    \"collections\" : {\n      \"href\" : \"https://www.iifl.unam.mx/server/api/core/collections\"\n    },\n    \"communities\" : {\n      \"href\" : \"https://www.iifl.unam.mx/server/api/core/communities\"\n    },\n    \"discover\" : {\n      \"href\" : \"https://www.iifl.unam.mx/server/api"
+    },
+    {
+      "requested_url": "https://www.iifl.unam.mx/server/api/core/collections",
+      "captured_at": "2026-10-21T04:48:57.727639+00:00",
+      "endpoint": "https://www.iifl.unam.mx/server/api/core/collections",
+      "redirects": [
+        {
+          "url": "https://www.iifl.unam.mx/server/api/core/collections",
+          "status": 200
+        }
+      ],
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "5cf26df58b52ced1ef1e764470de2b7ff6f95d8f105339c581500e1b0957373d",
+      "bytes": 61521,
+      "raw_file": "5cf26df58b52ced1ef1e764470de2b7ff6f95d8f105339c581500e1b0957373d.response",
+      "preview": "{\n  \"_embedded\" : {\n    \"collections\" : [ {\n      \"id\" : \"eef4eca2-b1c6-4d0b-9785-ea5ed581bfbd\",\n      \"uuid\" : \"eef4eca2-b1c6-4d0b-9785-ea5ed581bfbd\",\n      \"name\" : \"Cultura Awakateko\",\n      \"handle\" : \"123456789/283\",\n      \"metadata\" : {\n        \"dc.identifier.uri\" : [ {\n          \"value\" : \"http://132.248.101.240:4000/handle/123456789/283\",\n          \"language\" : null,\n          \"authority\" : null,\n          \"confidence\" : -1,\n          \"place\" : 0\n        } ],\n        \"dc.title\" : [ {\n          \"value\" : \"Cultura Awakateko\",\n          \"language\" : null,\n          \"authority\" : null,\n          \"confidence\" : -1,\n          \"place\" : 0\n        } ]\n      },\n      \"archivedItemsCount\" : -1,\n      \"type\" : \"collection\",\n      \"_links\" : {\n        \"harvester\" : {\n          \"href\" : \"https://www.iifl.unam.mx/server/api/core/collections/eef4eca2-b1c6-4d0b-9785-ea5ed581bfbd/harvester\"\n        },\n        \"itemtemplate\" : {\n          \"href\" : \"https://www.iifl.unam.mx/server/api/core/collections/eef4eca2-b1c6-4d0b-9785-ea5ed581bfbd/itemtemplate\"\n        },\n        \"license\" : {\n          \"href\" : \"https://www.iifl.unam.mx/server/api/core/collections/eef4eca2-b1c6-4d0b-9785-ea5ed581bfbd/license\"\n        },\n        \"logo\" : {\n          \"href\" : \"https://www.iifl.unam.mx/server/api/core/collections/eef4eca2-b1c6-4d0b-9785-ea5ed581bfbd/logo\"\n        },\n        \"mappedItems\" : {\n          \"href\" : \"https://www.iifl.unam.mx/server/api/core/collections/eef4eca2-b1c6-4d0b-9785-ea5ed581bfb"
+    },
+    {
+      "requested_url": "https://www.iifl.unam.mx/server/api/core/metadataschemas",
+      "captured_at": "2026-10-21T04:48:58.184950+00:00",
+      "endpoint": "https://www.iifl.unam.mx/server/api/core/metadataschemas",
+      "redirects": [
+        {
+          "url": "https://www.iifl.unam.mx/server/api/core/metadataschemas",
+          "status": 200
+        }
+      ],
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "e942e623df15e586c46a42a863016b8700296d071f993d08bbe1f331132d9761",
+      "bytes": 5301,
+      "raw_file": "e942e623df15e586c46a42a863016b8700296d071f993d08bbe1f331132d9761.response",
+      "preview": "{\n  \"_embedded\" : {\n    \"metadataschemas\" : [ {\n      \"id\" : 1,\n      \"prefix\" : \"dc\",\n      \"namespace\" : \"http://dublincore.org/documents/dcmi-terms/\",\n      \"type\" : \"metadataschema\",\n      \"_links\" : {\n        \"self\" : {\n          \"href\" : \"https://www.iifl.unam.mx/server/api/core/metadataschemas/1\"\n        }\n      }\n    }, {\n      \"id\" : 2,\n      \"prefix\" : \"eperson\",\n      \"namespace\" : \"http://dspace.org/eperson\",\n      \"type\" : \"metadataschema\",\n      \"_links\" : {\n        \"self\" : {\n          \"href\" : \"https://www.iifl.unam.mx/server/api/core/metadataschemas/2\"\n        }\n      }\n    }, {\n      \"id\" : 3,\n      \"prefix\" : \"dspace\",\n      \"namespace\" : \"http://dspace.org/dspace\",\n      \"type\" : \"metadataschema\",\n      \"_links\" : {\n        \"self\" : {\n          \"href\" : \"https://www.iifl.unam.mx/server/api/core/metadataschemas/3\"\n        }\n      }\n    }, {\n      \"id\" : 4,\n      \"prefix\" : \"dcterms\",\n      \"namespace\" : \"http://purl.org/dc/terms/\",\n      \"type\" : \"metadataschema\",\n      \"_links\" : {\n        \"self\" : {\n          \"href\" : \"https://www.iifl.unam.mx/server/api/core/metadataschemas/4\"\n        }\n      }\n    }, {\n      \"id\" : 5,\n      \"prefix\" : \"local\",\n      \"namespace\" : \"http://dspace.org/namespace/local/\",\n      \"type\" : \"metadataschema\",\n      \"_links\" : {\n        \"self\" : {\n          \"href\" : \"https://www.iifl.unam.mx/server/api/core/metadataschemas/5\"\n        }\n      }\n    }, {\n      \"id\" : 6,\n      \"prefix\" : \"relation\",\n      \"namespace\" : \"http://dspace"
+    },
+    {
+      "requested_url": "https://www.iifl.unam.mx/server/api/core/metadatafields",
+      "captured_at": "2026-10-21T04:48:58.450330+00:00",
+      "endpoint": "https://www.iifl.unam.mx/server/api/core/metadatafields",
+      "redirects": [
+        {
+          "url": "https://www.iifl.unam.mx/server/api/core/metadatafields",
+          "status": 200
+        }
+      ],
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "d1d0d84208068860b81eb9e7f3bab27b98fdcff6c118c7c9dc888a4c0521ccf8",
+      "bytes": 17258,
+      "raw_file": "d1d0d84208068860b81eb9e7f3bab27b98fdcff6c118c7c9dc888a4c0521ccf8.response",
+      "preview": "{\n  \"_embedded\" : {\n    \"metadatafields\" : [ {\n      \"id\" : 223,\n      \"element\" : \"datePublished\",\n      \"qualifier\" : null,\n      \"scopeNote\" : \"Date of first broadcast/publication.\",\n      \"type\" : \"metadatafield\",\n      \"_links\" : {\n        \"schema\" : {\n          \"href\" : \"https://www.iifl.unam.mx/server/api/core/metadatafields/223/schema\"\n        },\n        \"self\" : {\n          \"href\" : \"https://www.iifl.unam.mx/server/api/core/metadatafields/223\"\n        }\n      },\n      \"_embedded\" : {\n        \"schema\" : {\n          \"id\" : 11,\n          \"prefix\" : \"creativework\",\n          \"namespace\" : \"https://schema.org/CreativeWork\",\n          \"type\" : \"metadataschema\",\n          \"_links\" : {\n            \"self\" : {\n              \"href\" : \"https://www.iifl.unam.mx/server/api/core/metadataschemas/11\"\n            }\n          }\n        }\n      }\n    }, {\n      \"id\" : 218,\n      \"element\" : \"editor\",\n      \"qualifier\" : null,\n      \"scopeNote\" : \"Specifies the Person who edited the CreativeWork.\",\n      \"type\" : \"metadatafield\",\n      \"_links\" : {\n        \"schema\" : {\n          \"href\" : \"https://www.iifl.unam.mx/server/api/core/metadatafields/218/schema\"\n        },\n        \"self\" : {\n          \"href\" : \"https://www.iifl.unam.mx/server/api/core/metadatafields/218\"\n        }\n      },\n      \"_embedded\" : {\n        \"schema\" : {\n          \"id\" : 11,\n          \"prefix\" : \"creativework\",\n          \"namespace\" : \"https://schema.org/CreativeWork\",\n          \"type\" : \"metadataschema\",\n          \""
+    },
+    {
+      "requested_url": "https://www.iifl.unam.mx/server/api/config/submissiondefinitions",
+      "captured_at": "2026-10-21T04:48:58.732671+00:00",
+      "endpoint": "https://www.iifl.unam.mx/server/api/config/submissiondefinitions",
+      "redirects": [
+        {
+          "url": "https://www.iifl.unam.mx/server/api/config/submissiondefinitions",
+          "status": 401
+        }
+      ],
+      "http_status": 401,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "bf4665a5605c468129561e6b26cc28a943cadf7ea608fec3189208bd81c12831",
+      "bytes": 170,
+      "raw_file": "bf4665a5605c468129561e6b26cc28a943cadf7ea608fec3189208bd81c12831.response",
+      "preview": "{\"timestamp\":\"2026-10-21T04:48:59.253+00:00\",\"status\":401,\"error\":\"Unauthorized\",\"message\":\"Authentication is required\",\"path\":\"/server/api/config/submissiondefinitions\"}"
+    },
+    {
+      "requested_url": "https://www.iifl.unam.mx/server/api/config/submissionforms",
+      "captured_at": "2026-10-21T04:48:59.076480+00:00",
+      "endpoint": "https://www.iifl.unam.mx/server/api/config/submissionforms",
+      "redirects": [
+        {
+          "url": "https://www.iifl.unam.mx/server/api/config/submissionforms",
+          "status": 401
+        }
+      ],
+      "http_status": 401,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "1384589f5a168f656bc33f3b3dc3487f4723fe616712707ea64aee5bcb7b55bc",
+      "bytes": 164,
+      "raw_file": "1384589f5a168f656bc33f3b3dc3487f4723fe616712707ea64aee5bcb7b55bc.response",
+      "preview": "{\"timestamp\":\"2026-10-21T04:48:59.540+00:00\",\"status\":401,\"error\":\"Unauthorized\",\"message\":\"Authentication is required\",\"path\":\"/server/api/config/submissionforms\"}"
+    },
+    {
+      "requested_url": "https://www.iifl.unam.mx/server/api/config/submissionsections",
+      "captured_at": "2026-10-21T04:48:59.309168+00:00",
+      "endpoint": "https://www.iifl.unam.mx/server/api/config/submissionsections",
+      "redirects": [
+        {
+          "url": "https://www.iifl.unam.mx/server/api/config/submissionsections",
+          "status": 401
+        }
+      ],
+      "http_status": 401,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "4e73672aabad86344faf3b9e27267f24d772e3392f5850ce95941c70a8c80e20",
+      "bytes": 167,
+      "raw_file": "4e73672aabad86344faf3b9e27267f24d772e3392f5850ce95941c70a8c80e20.response",
+      "preview": "{\"timestamp\":\"2026-10-21T04:48:59.788+00:00\",\"status\":401,\"error\":\"Unauthorized\",\"message\":\"Authentication is required\",\"path\":\"/server/api/config/submissionsections\"}"
+    },
+    {
+      "requested_url": "https://www.iifl.unam.mx/server/api/submission/vocabularies",
+      "captured_at": "2026-10-21T04:48:59.546297+00:00",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularies",
+      "redirects": [
+        {
+          "url": "https://www.iifl.unam.mx/server/api/submission/vocabularies",
+          "status": 401
+        }
+      ],
+      "http_status": 401,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "3b139307633490dfa8eec02bbb89a3d2f3ee57a39727a616080ae07d52b06510",
+      "bytes": 165,
+      "raw_file": "3b139307633490dfa8eec02bbb89a3d2f3ee57a39727a616080ae07d52b06510.response",
+      "preview": "{\"timestamp\":\"2026-10-21T04:49:00.079+00:00\",\"status\":401,\"error\":\"Unauthorized\",\"message\":\"Authentication is required\",\"path\":\"/server/api/submission/vocabularies\"}"
+    },
+    {
+      "requested_url": "https://www.iifl.unam.mx/server/api/authn",
+      "captured_at": "2026-10-21T04:48:59.821632+00:00",
+      "endpoint": "https://www.iifl.unam.mx/server/api/authn",
+      "redirects": [
+        {
+          "url": "https://www.iifl.unam.mx/server/api/authn",
+          "status": 200
+        }
+      ],
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "aff512ef40c3aa4aecc21706a335148ca5f42e3393b6115c7feb698910a14862",
+      "bytes": 405,
+      "raw_file": "aff512ef40c3aa4aecc21706a335148ca5f42e3393b6115c7feb698910a14862.response",
+      "preview": "{\n  \"id\" : null,\n  \"type\" : \"authn\",\n  \"_links\" : {\n    \"self\" : {\n      \"href\" : \"https://www.iifl.unam.mx/server/api/authn\"\n    },\n    \"login\" : {\n      \"href\" : \"https://www.iifl.unam.mx/server/api/authn/login\"\n    },\n    \"logout\" : {\n      \"href\" : \"https://www.iifl.unam.mx/server/api/authn/logout\"\n    },\n    \"status\" : {\n      \"href\" : \"https://www.iifl.unam.mx/server/api/authn/status\"\n    }\n  }\n}"
+    },
+    {
+      "requested_url": "https://www.iifl.unam.mx/server/api/core/collections/search",
+      "captured_at": "2026-10-21T04:49:21.725995+00:00",
+      "endpoint": "https://www.iifl.unam.mx/server/api/core/collections/search",
+      "redirects": [
+        {
+          "url": "https://www.iifl.unam.mx/server/api/core/collections/search",
+          "status": 200
+        }
+      ],
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "19ed50a63b29634cf6364283e76b6ee649dae7975f6b6c3c3030371fbff7c54e",
+      "bytes": 793,
+      "raw_file": "19ed50a63b29634cf6364283e76b6ee649dae7975f6b6c3c3030371fbff7c54e.response",
+      "preview": "{\n  \"_links\" : {\n    \"findSubmitAuthorizedByCommunity\" : {\n      \"href\" : \"https://www.iifl.unam.mx/server/api/core/collections/search/findSubmitAuthorizedByCommunity\"\n    },\n    \"findSubmitAuthorized\" : {\n      \"href\" : \"https://www.iifl.unam.mx/server/api/core/collections/search/findSubmitAuthorized\"\n    },\n    \"findAdminAuthorized\" : {\n      \"href\" : \"https://www.iifl.unam.mx/server/api/core/collections/search/findAdminAuthorized\"\n    },\n    \"findSubmitAuthorizedByEntityType\" : {\n      \"href\" : \"https://www.iifl.unam.mx/server/api/core/collections/search/findSubmitAuthorizedByEntityType\"\n    },\n    \"findSubmitAuthorizedByCommunityAndEntityType\" : {\n      \"href\" : \"https://www.iifl.unam.mx/server/api/core/collections/search/findSubmitAuthorizedByCommunityAndEntityType\"\n    }\n  }\n}"
+    },
+    {
+      "requested_url": "https://www.iifl.unam.mx/server/api/authn/status",
+      "captured_at": "2026-10-21T04:49:22.138928+00:00",
+      "endpoint": "https://www.iifl.unam.mx/server/api/authn/status",
+      "redirects": [
+        {
+          "url": "https://www.iifl.unam.mx/server/api/authn/status",
+          "status": 200
+        }
+      ],
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "ea9cd8d7c063a45564554617dacc463e18384b13519b33b3cbd359c24ad55cfa",
+      "bytes": 432,
+      "raw_file": "ea9cd8d7c063a45564554617dacc463e18384b13519b33b3cbd359c24ad55cfa.response",
+      "preview": "{\n  \"id\" : null,\n  \"okay\" : true,\n  \"authenticated\" : false,\n  \"authenticationMethod\" : null,\n  \"type\" : \"status\",\n  \"_links\" : {\n    \"eperson\" : {\n      \"href\" : \"https://www.iifl.unam.mx/server/api/authn/status/eperson\"\n    },\n    \"specialGroups\" : {\n      \"href\" : \"https://www.iifl.unam.mx/server/api/authn/status/specialGroups\"\n    },\n    \"self\" : {\n      \"href\" : \"https://www.iifl.unam.mx/server/api/authn/status\"\n    }\n  }\n}"
+    },
+    {
+      "requested_url": "https://www.iifl.unam.mx/server/api/core/collections/e9a8f44f-a8d3-4d22-b02a-cf590285bac6",
+      "captured_at": "2026-10-21T04:51:35.615897+00:00",
+      "endpoint": "https://www.iifl.unam.mx/server/api/core/collections/e9a8f44f-a8d3-4d22-b02a-cf590285bac6",
+      "redirects": [
+        {
+          "url": "https://www.iifl.unam.mx/server/api/core/collections/e9a8f44f-a8d3-4d22-b02a-cf590285bac6",
+          "status": 404
+        }
+      ],
+      "http_status": 404,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "00437773a75c4c58ff857de900568f48c14b536087feac2be2d0b5441f802774",
+      "bytes": 191,
+      "raw_file": "00437773a75c4c58ff857de900568f48c14b536087feac2be2d0b5441f802774.response",
+      "preview": "{\"timestamp\":\"2026-10-21T04:51:37.141+00:00\",\"status\":404,\"error\":\"Not Found\",\"message\":\"An exception has occurred\",\"path\":\"/server/api/core/collections/e9a8f44f-a8d3-4d22-b02a-cf590285bac6\"}"
+    }
+  ],
+  "warnings": [
+    "Do not update runtime configuration or promote a baseline from this report.",
+    "Historical UUID and Handle returned 404 anonymously; investigate identity with an authorized operator.",
+    "Do not treat announced counts as full schema reconciliation."
+  ],
+  "diff_generated": false
+}

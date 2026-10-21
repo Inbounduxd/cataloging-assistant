@@ -1,0 +1,108 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:VR113102",
+      "display" : "Swedish language",
+      "value" : "HUMANITIES and RELIGION::Languages and linguistics::Scandinavian languages::Swedish language",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::Languages and linguistics::Scandinavian languages",
+        "note" : "Svenska språket",
+        "hasChildren" : "false",
+        "id" : "VR113102"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113102/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113102/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113102"
+        }
+      }
+    }, {
+      "id" : "srsc:VR113103",
+      "display" : "Sami language",
+      "value" : "HUMANITIES and RELIGION::Languages and linguistics::Scandinavian languages::Sami language",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::Languages and linguistics::Scandinavian languages",
+        "note" : "Samiska",
+        "hasChildren" : "false",
+        "id" : "VR113103"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113103/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113103/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113103"
+        }
+      }
+    }, {
+      "id" : "srsc:VR113104",
+      "display" : "Norwegian language",
+      "value" : "HUMANITIES and RELIGION::Languages and linguistics::Scandinavian languages::Norwegian language",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::Languages and linguistics::Scandinavian languages",
+        "note" : "Norska språket",
+        "hasChildren" : "false",
+        "id" : "VR113104"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113104/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113104/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113104"
+        }
+      }
+    }, {
+      "id" : "srsc:VR113105",
+      "display" : "Danish language",
+      "value" : "HUMANITIES and RELIGION::Languages and linguistics::Scandinavian languages::Danish language",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::Languages and linguistics::Scandinavian languages",
+        "note" : "Danska språket",
+        "hasChildren" : "false",
+        "id" : "VR113105"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113105/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113105/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113105"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 4
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1131/children?page=0&size=100"
+    }
+  }
+}

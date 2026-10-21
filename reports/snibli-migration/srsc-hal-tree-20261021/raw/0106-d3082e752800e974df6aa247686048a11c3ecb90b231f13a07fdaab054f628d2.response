@@ -1,0 +1,62 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:VR163201",
+      "display" : "Metallurgical process engineering",
+      "value" : "TECHNOLOGY::Chemical engineering::Metallurgical process and manufacturing engineering::Metallurgical process engineering",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY::Chemical engineering::Metallurgical process and manufacturing engineering",
+        "note" : "Metallurgisk processteknik",
+        "hasChildren" : "false",
+        "id" : "VR163201"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR163201/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR163201/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR163201"
+        }
+      }
+    }, {
+      "id" : "srsc:VR163202",
+      "display" : "Metallurgical manufacturing engineering",
+      "value" : "TECHNOLOGY::Chemical engineering::Metallurgical process and manufacturing engineering::Metallurgical manufacturing engineering",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY::Chemical engineering::Metallurgical process and manufacturing engineering",
+        "note" : "Metallurgisk produktionsteknik",
+        "hasChildren" : "false",
+        "id" : "VR163202"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR163202/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR163202/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR163202"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 2
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1632/children?page=0&size=100"
+    }
+  }
+}

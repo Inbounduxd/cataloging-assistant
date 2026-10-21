@@ -1,0 +1,108 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:VR120201",
+      "display" : "Civil procedure",
+      "value" : "LAW/JURISPRUDENCE::Procedural law::Civil procedure",
+      "otherInformation" : {
+        "parent" : "LAW/JURISPRUDENCE::Procedural law",
+        "note" : "Civilprocess",
+        "hasChildren" : "false",
+        "id" : "VR120201"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR120201/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR120201/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR120201"
+        }
+      }
+    }, {
+      "id" : "srsc:VR120202",
+      "display" : "Criminal procedure",
+      "value" : "LAW/JURISPRUDENCE::Procedural law::Criminal procedure",
+      "otherInformation" : {
+        "parent" : "LAW/JURISPRUDENCE::Procedural law",
+        "note" : "Straffprocess",
+        "hasChildren" : "false",
+        "id" : "VR120202"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR120202/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR120202/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR120202"
+        }
+      }
+    }, {
+      "id" : "srsc:VR120203",
+      "display" : "Administrative procedure",
+      "value" : "LAW/JURISPRUDENCE::Procedural law::Administrative procedure",
+      "otherInformation" : {
+        "parent" : "LAW/JURISPRUDENCE::Procedural law",
+        "note" : "Förvaltningsprocess",
+        "hasChildren" : "false",
+        "id" : "VR120203"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR120203/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR120203/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR120203"
+        }
+      }
+    }, {
+      "id" : "srsc:VR120204",
+      "display" : "Arbitration",
+      "value" : "LAW/JURISPRUDENCE::Procedural law::Arbitration",
+      "otherInformation" : {
+        "parent" : "LAW/JURISPRUDENCE::Procedural law",
+        "note" : "Skiljemannarätt",
+        "hasChildren" : "false",
+        "id" : "VR120204"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR120204/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR120204/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR120204"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 4
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1202/children?page=0&size=100"
+    }
+  }
+}

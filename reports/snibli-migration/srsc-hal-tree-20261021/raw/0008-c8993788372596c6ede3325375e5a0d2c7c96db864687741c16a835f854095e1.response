@@ -1,0 +1,177 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:SCB171",
+      "display" : "Soil science",
+      "value" : "FORESTRY, AGRICULTURAL SCIENCES and LANDSCAPE PLANNING::Soil science",
+      "otherInformation" : {
+        "parent" : "FORESTRY, AGRICULTURAL SCIENCES and LANDSCAPE PLANNING",
+        "note" : "Markvetenskap",
+        "hasChildren" : "true",
+        "id" : "SCB171"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB171/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB171/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB171"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB172",
+      "display" : "Plant production",
+      "value" : "FORESTRY, AGRICULTURAL SCIENCES and LANDSCAPE PLANNING::Plant production",
+      "otherInformation" : {
+        "parent" : "FORESTRY, AGRICULTURAL SCIENCES and LANDSCAPE PLANNING",
+        "note" : "Växtproduktion",
+        "hasChildren" : "true",
+        "id" : "SCB172"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB172/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB172/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB172"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB173",
+      "display" : "Animal production",
+      "value" : "FORESTRY, AGRICULTURAL SCIENCES and LANDSCAPE PLANNING::Animal production",
+      "otherInformation" : {
+        "parent" : "FORESTRY, AGRICULTURAL SCIENCES and LANDSCAPE PLANNING",
+        "note" : "Animalieproduktion",
+        "hasChildren" : "true",
+        "id" : "SCB173"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB173/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB173/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB173"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB174",
+      "display" : "Product science",
+      "value" : "FORESTRY, AGRICULTURAL SCIENCES and LANDSCAPE PLANNING::Product science",
+      "otherInformation" : {
+        "parent" : "FORESTRY, AGRICULTURAL SCIENCES and LANDSCAPE PLANNING",
+        "note" : "Produktforskning",
+        "hasChildren" : "true",
+        "id" : "SCB174"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB174/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB174/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB174"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB175",
+      "display" : "Landscape planning",
+      "value" : "FORESTRY, AGRICULTURAL SCIENCES and LANDSCAPE PLANNING::Landscape planning",
+      "otherInformation" : {
+        "parent" : "FORESTRY, AGRICULTURAL SCIENCES and LANDSCAPE PLANNING",
+        "note" : "Landskapsplanering",
+        "hasChildren" : "true",
+        "id" : "SCB175"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB175/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB175/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB175"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB176",
+      "display" : "Area technology",
+      "value" : "FORESTRY, AGRICULTURAL SCIENCES and LANDSCAPE PLANNING::Area technology",
+      "otherInformation" : {
+        "parent" : "FORESTRY, AGRICULTURAL SCIENCES and LANDSCAPE PLANNING",
+        "note" : "Areell teknik",
+        "hasChildren" : "true",
+        "id" : "SCB176"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB176/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB176/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB176"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB177",
+      "display" : "Area economics",
+      "value" : "FORESTRY, AGRICULTURAL SCIENCES and LANDSCAPE PLANNING::Area economics",
+      "otherInformation" : {
+        "parent" : "FORESTRY, AGRICULTURAL SCIENCES and LANDSCAPE PLANNING",
+        "note" : "Areell ekonomi",
+        "hasChildren" : "true",
+        "id" : "SCB177"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB177/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB177/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB177"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 7
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB17/children?page=0&size=100"
+    }
+  }
+}

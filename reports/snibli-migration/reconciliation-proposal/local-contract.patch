@@ -1,0 +1,813 @@
+diff --git a/apps/api/src/cataloging_api/cataloging_contract.py b/apps/api/src/cataloging_api/cataloging_contract.py
+index dec2136..de06751 100644
+--- a/apps/api/src/cataloging_api/cataloging_contract.py
++++ b/apps/api/src/cataloging_api/cataloging_contract.py
+@@ -3,9 +3,43 @@ from __future__ import annotations
+ from dataclasses import asdict, dataclass
+ from typing import Final
+ 
+-CONTRACT_VERSION: Final = "dspace-cataloger-v3.9.1"
++CONTRACT_VERSION: Final = "snibli-contract-2026-10-21"
+ DSpace_VERSION: Final = "7.6.6"
+ 
++# Literal values confirmed by authenticated configuration and human review.
++# This application revision does not rename or replace the preserved skill release.
++CONTROLLED_VOCABULARIES: Final = {
++    "genrePairs": ("Sí", "No", "Incluye Datos de Diferentes Lenguas"),
++    "common_types": (
++        "Animation",
++        "Article",
++        "Book",
++        "Book chapter",
++        "Dataset",
++        "Learning Object",
++        "Image",
++        "Image, 3-D",
++        "Map",
++        "Musical Score",
++        "Plan or blueprint",
++        "Preprint",
++        "Presentation",
++        "Recording, acoustical",
++        "Recording, musical",
++        "Recording, oral",
++        "Software",
++        "Technical Report",
++        "Thesis",
++        "Video",
++        "Working Paper",
++        "Other",
++        "Pagina Web",
++        "Códice",
++        "Reseña",
++        "Documento Colonial",
++    ),
++}
++
+ EVIDENCE_STATES: Final = (
+     "EXTRAÍDO",
+     "VERIFICADO",
+@@ -96,6 +130,14 @@ FIELDS: Final = (
+         "Edicion(No)/Periodicdad",
+         "Edición / número / periodicidad",
+     ),
++    CatalogField(
++        "comparative-text",
++        "dc.type.genre",
++        "¿Es un texto comparativo?",
++        "¿Es un texto comparativo?",
++        controlled=True,
++        vocabulary_id="genrePairs",
++    ),
+     CatalogField(
+         "issn",
+         "dc.identifier.issn",
+@@ -382,7 +424,7 @@ FIELDS: Final = (
+     CatalogField("description-notes", "dc.description", "Notas", "Notas"),
+ )
+ 
+-assert len(FIELDS) == 56
++assert len(FIELDS) == 57
+ 
+ FIELD_BY_BINDING: Final = {field.binding_id: field for field in FIELDS}
+ 
+@@ -434,9 +476,7 @@ PROFILE_LINGUISTIC_FIELDS: Final = tuple(
+     field.metadata_field for field in FIELDS if field.runtime_profiled
+ )
+ PROFILE_FIELD_LABELS: Final = {
+-    field.metadata_field: field.assistant_label
+-    for field in FIELDS
+-    if field.runtime_profiled
++    field.metadata_field: field.assistant_label for field in FIELDS if field.runtime_profiled
+ }
+ 
+ LINGUISTIC_FAMILY: Final = "dc.subject.linguisticFamily"
+@@ -471,7 +511,11 @@ def contract_payload() -> dict[str, object]:
+         "contract_version": CONTRACT_VERSION,
+         "dspace_version": DSpace_VERSION,
+         "field_count": len(FIELDS),
++        "unique_metadata_count": len({field.metadata_field for field in FIELDS}),
+         "fields": [asdict(field) for field in FIELDS],
++        "controlled_vocabulary_values": {
++            key: list(values) for key, values in CONTROLLED_VOCABULARIES.items()
++        },
+         "runtime": {
+             "draftable_fields": list(DRAFTABLE_LINGUISTIC_FIELDS),
+             "controlled_fields": list(CONTROLLED_RUNTIME_FIELDS),
+diff --git a/apps/api/src/cataloging_api/dspace/baseline_diagnose.py b/apps/api/src/cataloging_api/dspace/baseline_diagnose.py
+index 27f5b65..eddf28e 100644
+--- a/apps/api/src/cataloging_api/dspace/baseline_diagnose.py
++++ b/apps/api/src/cataloging_api/dspace/baseline_diagnose.py
+@@ -14,7 +14,7 @@ from cataloging_api.cataloging_contract import (
+ from cataloging_api.db.session import SessionFactory
+ from cataloging_api.dspace.baseline_payload import _resolved_bindings, _resolved_sections
+ from cataloging_api.dspace.contract_materialize import _load_pages_by_surface
+-from cataloging_api.dspace.contract_resolution import EXPECTED_FORMS
++from cataloging_api.dspace.contract_resolution import EXPECTED_FORM_BINDING_COUNTS, EXPECTED_FORMS
+ from cataloging_api.dspace.contract_snapshot_store import DSpaceContractSnapshot
+ 
+ 
+@@ -60,7 +60,11 @@ def diagnose_bindings(bindings: list[dict[str, Any]]) -> dict[str, Any]:
+         }
+ 
+     for index, (binding, expected) in enumerate(zip(ordered, FIELDS, strict=True)):
+-        expected_form = EXPECTED_FORMS[0] if index < 44 else EXPECTED_FORMS[1]
++        expected_form = (
++            EXPECTED_FORMS[0]
++            if index < EXPECTED_FORM_BINDING_COUNTS[EXPECTED_FORMS[0]]
++            else EXPECTED_FORMS[1]
++        )
+         checks = (
+             ("form", binding.get("form"), expected_form),
+             ("metadata", binding.get("metadata"), expected.metadata_field),
+diff --git a/apps/api/src/cataloging_api/dspace/contract_resolution.py b/apps/api/src/cataloging_api/dspace/contract_resolution.py
+index c478dd4..9bcc828 100644
+--- a/apps/api/src/cataloging_api/dspace/contract_resolution.py
++++ b/apps/api/src/cataloging_api/dspace/contract_resolution.py
+@@ -5,7 +5,7 @@ import json
+ import string
+ import uuid
+ from collections import Counter
+-from datetime import datetime, timezone
++from datetime import UTC, datetime
+ from typing import Any
+ 
+ from sqlalchemy import select
+@@ -19,10 +19,9 @@ from cataloging_api.cataloging_contract import (
+ from cataloging_api.dspace.contract_snapshot_store import DSpaceContractSnapshot
+ from cataloging_api.dspace.contract_store import DSpaceContractRawPage
+ 
+-
+ RESOLVABLE_SURFACE = "active_submission_sections"
+ EXPECTED_FORMS = ("traditionalpageone", "traditionalpagetwo")
+-EXPECTED_FORM_BINDING_COUNTS = {"traditionalpageone": 44, "traditionalpagetwo": 12}
++EXPECTED_FORM_BINDING_COUNTS = {"traditionalpageone": 45, "traditionalpagetwo": 12}
+ EXPECTED_BINDING_COUNT = len(FIELDS)
+ EXPECTED_UNIQUE_METADATA_COUNT = len({field.metadata_field for field in FIELDS})
+ ALLOWED_RESOLUTION_WARNINGS = {
+@@ -111,14 +110,18 @@ def validate_reconciled_overlay(
+     if not metadata.issubset(registry):
+         raise ContractResolutionError("resolved_binding_metadata_not_in_registry")
+ 
+-    # The authenticated reconciliation established render-order identity 56/56.
++    # The approved local revision includes the inserted comparative-text binding.
+     # Validate DSpace's raw widget label and selector label independently from the
+     # assistant-facing ui_label so selectableMetadata fields are not conflated.
+     ordered = sorted(bindings, key=lambda item: tuple(item.get("position") or []))
+     if len(ordered) != len(FIELDS):
+         raise ContractResolutionError("resolved_binding_order_mismatch")
+     for index, (binding, expected) in enumerate(zip(ordered, FIELDS, strict=True)):
+-        expected_form = "traditionalpageone" if index < 44 else "traditionalpagetwo"
++        expected_form = (
++            "traditionalpageone"
++            if index < EXPECTED_FORM_BINDING_COUNTS["traditionalpageone"]
++            else "traditionalpagetwo"
++        )
+         if binding.get("form") != expected_form:
+             raise ContractResolutionError("resolved_binding_form_order_mismatch")
+         if binding.get("metadata") != expected.metadata_field:
+@@ -216,13 +219,11 @@ async def resolve_authoritative_evidence(
+     snapshot.resolution_source_hash = source_export_hash
+     snapshot.resolution_reconciliation_hash = reconciliation_hash
+     snapshot.resolved_by = resolved_by
+-    snapshot.resolved_at = datetime.now(timezone.utc)
++    snapshot.resolved_at = datetime.now(UTC)
+     snapshot.resolution_note = resolution_note
+ 
+     active_result = await session.execute(
+-        select(DSpaceContractSnapshot)
+-        .where(DSpaceContractSnapshot.status == "ACTIVE")
+-        .limit(1)
++        select(DSpaceContractSnapshot).where(DSpaceContractSnapshot.status == "ACTIVE").limit(1)
+     )
+     active = active_result.scalar_one_or_none()
+     if active is None:
+diff --git a/apps/api/tests/test_cataloging_contract.py b/apps/api/tests/test_cataloging_contract.py
+index 994be2e..43d58eb 100644
+--- a/apps/api/tests/test_cataloging_contract.py
++++ b/apps/api/tests/test_cataloging_contract.py
+@@ -2,6 +2,7 @@ from cataloging_api.cataloging_contract import (
+     CLIN_RELATIONSHIPS,
+     CONTRACT_VERSION,
+     CONTROLLED_RUNTIME_FIELDS,
++    CONTROLLED_VOCABULARIES,
+     DRAFTABLE_LINGUISTIC_FIELDS,
+     EVIDENCE_STATES,
+     FIELD_BY_BINDING,
+@@ -17,9 +18,10 @@ from cataloging_api.cataloging_contract import (
+ )
+ 
+ 
+-def test_master_contract_keeps_56_ui_bindings() -> None:
+-    assert CONTRACT_VERSION == "dspace-cataloger-v3.9.1"
+-    assert len(FIELDS) == 56
++def test_master_contract_includes_approved_57_ui_bindings() -> None:
++    assert CONTRACT_VERSION == "snibli-contract-2026-10-21"
++    assert len(FIELDS) == 57
++    assert len({field.metadata_field for field in FIELDS}) == 55
+     assert sum(field.metadata_field == "dc.format.medium" for field in FIELDS) == 2
+     assert sum(field.metadata_field == "dc.subject" for field in FIELDS) == 2
+ 
+@@ -30,6 +32,60 @@ def test_literal_external_metadata_keys_are_preserved() -> None:
+     assert LINGUISTIC_GROUP in CONTROLLED_RUNTIME_FIELDS
+ 
+ 
++def test_comparative_mapping_preserves_literal_options_without_automatic_inference() -> None:
++    field = FIELD_BY_BINDING["comparative-text"]
++    assert field.metadata_field == "dc.type.genre"
++    assert field.ui_label == "¿Es un texto comparativo?"
++    assert field.controlled and field.vocabulary_id == "genrePairs"
++    assert not field.required and not field.repeatable
++    assert not field.runtime_draftable and not field.runtime_profiled
++    assert not field.runtime_vocabularied
++    assert CONTROLLED_VOCABULARIES["genrePairs"] == (
++        "Sí",
++        "No",
++        "Incluye Datos de Diferentes Lenguas",
++    )
++    ids = [item.binding_id for item in FIELDS]
++    index = ids.index("comparative-text")
++    assert ids[index - 1 : index + 2] == ["issue", "comparative-text", "issn"]
++
++
++def test_document_types_retain_original_values_and_append_approved_literals() -> None:
++    assert CONTROLLED_VOCABULARIES["common_types"] == (
++        "Animation",
++        "Article",
++        "Book",
++        "Book chapter",
++        "Dataset",
++        "Learning Object",
++        "Image",
++        "Image, 3-D",
++        "Map",
++        "Musical Score",
++        "Plan or blueprint",
++        "Preprint",
++        "Presentation",
++        "Recording, acoustical",
++        "Recording, musical",
++        "Recording, oral",
++        "Software",
++        "Technical Report",
++        "Thesis",
++        "Video",
++        "Working Paper",
++        "Other",
++        "Pagina Web",
++        "Códice",
++        "Reseña",
++        "Documento Colonial",
++    )
++    payload = contract_payload()
++    assert payload["unique_metadata_count"] == 55
++    assert "srsc" not in payload["controlled_vocabulary_values"]
++    payload["controlled_vocabulary_values"]["genrePairs"].clear()
++    assert len(CONTROLLED_VOCABULARIES["genrePairs"]) == 3
++
++
+ def test_runtime_contract_includes_variant_and_keeps_registered_language_independent() -> None:
+     expected = {
+         LINGUISTIC_FAMILY,
+@@ -55,7 +111,7 @@ def test_variant_is_controlled_without_presuming_dspace_list() -> None:
+ def test_master_contract_preserves_dspace_ui_order() -> None:
+     binding_ids = [field.binding_id for field in FIELDS]
+ 
+-    assert binding_ids[27:35] == [
++    assert binding_ids[28:36] == [
+         "language-usage",
+         "registered-language",
+         "linguistic-group",
+@@ -124,7 +180,7 @@ def test_evidence_states_exclude_qa_statuses() -> None:
+ 
+ def test_contract_payload_is_runtime_serializable() -> None:
+     payload = contract_payload()
+-    assert payload["field_count"] == 56
++    assert payload["field_count"] == 57
+     runtime = payload["runtime"]
+     assert runtime["branch_is_optional_enrichment"] is True
+     assert runtime["registered_language_is_independent"] is True
+diff --git a/apps/api/tests/test_dspace_baseline_diagnose.py b/apps/api/tests/test_dspace_baseline_diagnose.py
+index dc63fad..75d79ef 100644
+--- a/apps/api/tests/test_dspace_baseline_diagnose.py
++++ b/apps/api/tests/test_dspace_baseline_diagnose.py
+@@ -8,12 +8,12 @@ from cataloging_api.dspace.baseline_diagnose import diagnose_bindings
+ 
+ def _binding(index: int, *, repeatable: bool | None = None) -> dict:
+     expected = FIELDS[index]
+-    form = "traditionalpageone" if index < 44 else "traditionalpagetwo"
++    form = "traditionalpageone" if index < 45 else "traditionalpagetwo"
+     return {
+         "bindingKey": f"{form}:{expected.metadata_field}:{index}",
+         "form": form,
+         "metadata": expected.metadata_field,
+-        "position": [0 if index < 44 else 1, index if index < 44 else index - 44, 0, 0],
++        "position": [0 if index < 45 else 1, index if index < 45 else index - 45, 0, 0],
+         "label": live_dspace_label(expected),
+         "selectorLabel": live_dspace_selector_label(expected),
+         "required": expected.required,
+@@ -27,8 +27,8 @@ def test_diagnose_bindings_accepts_runtime_contract_aligned_with_live_shape() ->
+ 
+     report = diagnose_bindings(bindings)
+ 
+-    assert report["binding_count"] == 56
+-    assert report["expected_binding_count"] == 56
++    assert report["binding_count"] == 57
++    assert report["expected_binding_count"] == 57
+     assert report["mismatch_count"] == 0
+     assert report["mismatch_dimensions"] == {}
+     assert report["mismatches"] == []
+@@ -41,7 +41,7 @@ def test_diagnose_bindings_reports_all_mismatches_not_only_first() -> None:
+ 
+     report = diagnose_bindings(bindings)
+ 
+-    assert report["binding_count"] == 56
++    assert report["binding_count"] == 57
+     assert report["mismatch_count"] == 2
+     assert report["mismatch_dimensions"] == {"label": 1, "repeatable": 1}
+     assert {(item["index"], item["dimension"]) for item in report["mismatches"]} == {
+@@ -52,8 +52,8 @@ def test_diagnose_bindings_reports_all_mismatches_not_only_first() -> None:
+ 
+ def test_diagnose_bindings_validates_selector_label_independently() -> None:
+     bindings = [_binding(index) for index in range(len(FIELDS))]
+-    bindings[15] = {
+-        **bindings[15],
++    bindings[16] = {
++        **bindings[16],
+         "selectorLabel": "WRONG",
+     }
+ 
+@@ -63,3 +63,14 @@ def test_diagnose_bindings_validates_selector_label_independently() -> None:
+     assert mismatch["dimension"] == "selectorLabel"
+     assert mismatch["live"] == "WRONG"
+     assert mismatch["expected"] == "ISSN"
++
++
++def test_diagnose_rejects_previous_form_boundary() -> None:
++    bindings = [_binding(index) for index in range(len(FIELDS))]
++    assert bindings[44]["metadata"] == "dc.subject.primaryClassification"
++    assert bindings[45]["metadata"] == "dc.subject"
++    bindings[44]["form"] = "traditionalpagetwo"
++    report = diagnose_bindings(bindings)
++    assert report["mismatch_count"] == 1
++    assert report["mismatches"][0]["dimension"] == "form"
++    assert report["mismatches"][0]["index"] == 44
+diff --git a/apps/api/tests/test_dspace_contract_inheritance.py b/apps/api/tests/test_dspace_contract_inheritance.py
+index bc38a6f..b2e0ba3 100644
+--- a/apps/api/tests/test_dspace_contract_inheritance.py
++++ b/apps/api/tests/test_dspace_contract_inheritance.py
+@@ -16,7 +16,7 @@ def _form_payload() -> dict:
+     page_one_rows = []
+     page_two_rows = []
+     for index, field in enumerate(FIELDS):
+-        form_rows = page_one_rows if index < 44 else page_two_rows
++        form_rows = page_one_rows if index < 45 else page_two_rows
+         option = {"metadata": field.metadata_field}
+         if field.vocabulary_id is not None:
+             option["controlledVocabulary"] = field.vocabulary_id
+@@ -131,7 +131,7 @@ def test_exact_match_inherits_approved_204_resolution_despite_form_position_offs
+     assert inherited is not None
+     assert inherited.complete is True
+     assert inherited.semantic_hash == active.effective_hash
+-    assert len(inherited.canonical["bindings"]) == 56
++    assert len(inherited.canonical["bindings"]) == 57
+ 
+ 
+ def test_registry_change_invalidates_inheritance() -> None:
+diff --git a/apps/api/tests/test_dspace_contract_materialize.py b/apps/api/tests/test_dspace_contract_materialize.py
+index ceeaa10..c0774a2 100644
+--- a/apps/api/tests/test_dspace_contract_materialize.py
++++ b/apps/api/tests/test_dspace_contract_materialize.py
+@@ -1,7 +1,6 @@
+-from types import SimpleNamespace
+-
+ from cataloging_api.dspace.contract_materialize import classify_snapshot_status
+ from cataloging_api.dspace.contract_snapshot import ContractChange, ContractSnapshotView
++from cataloging_api.dspace.contract_snapshot_store import DSpaceContractSnapshot
+ 
+ 
+ def _view(*, complete: bool, semantic_hash: str = "new") -> ContractSnapshotView:
+@@ -22,17 +21,40 @@ def test_first_incomplete_snapshot_cannot_be_baseline_candidate() -> None:
+ 
+ 
+ def test_matching_active_hash_is_no_change() -> None:
+-    active = SimpleNamespace(semantic_hash="same")
+-    assert classify_snapshot_status(active, _view(complete=True, semantic_hash="same"), []) == "NO_CHANGE"
++    active = DSpaceContractSnapshot(semantic_hash="same", effective_hash=None)
++    assert (
++        classify_snapshot_status(active, _view(complete=True, semantic_hash="same"), [])
++        == "NO_CHANGE"
++    )
+ 
+ 
+ def test_high_severity_change_requires_review() -> None:
+-    active = SimpleNamespace(semantic_hash="old")
++    active = DSpaceContractSnapshot(semantic_hash="old", effective_hash=None)
+     changes = [ContractChange("REQUIRED_CHANGED", "HIGH", "binding")]
+     assert classify_snapshot_status(active, _view(complete=True), changes) == "REVIEW_REQUIRED"
+ 
+ 
+ def test_safe_drift_is_detected_without_auto_promotion() -> None:
+-    active = SimpleNamespace(semantic_hash="old")
++    active = DSpaceContractSnapshot(semantic_hash="old", effective_hash=None)
+     changes = [ContractChange("LABEL_CHANGED", "LOW", "binding")]
+     assert classify_snapshot_status(active, _view(complete=True), changes) == "DIFF_DETECTED"
++
++
++def test_approved_effective_hash_takes_precedence_over_observed_hash() -> None:
++    active = DSpaceContractSnapshot(semantic_hash="observed", effective_hash="approved")
++    assert (
++        classify_snapshot_status(active, _view(complete=True, semantic_hash="approved"), [])
++        == "NO_CHANGE"
++    )
++    assert (
++        classify_snapshot_status(active, _view(complete=True, semantic_hash="observed"), [])
++        == "DIFF_DETECTED"
++    )
++
++
++def test_matching_hash_never_overrides_incomplete_evidence() -> None:
++    active = DSpaceContractSnapshot(semantic_hash="observed", effective_hash="approved")
++    assert (
++        classify_snapshot_status(active, _view(complete=False, semantic_hash="approved"), [])
++        == "REVIEW_REQUIRED"
++    )
+diff --git a/apps/api/tests/test_dspace_contract_resolution.py b/apps/api/tests/test_dspace_contract_resolution.py
+index c5fa4f3..2dcc1a6 100644
+--- a/apps/api/tests/test_dspace_contract_resolution.py
++++ b/apps/api/tests/test_dspace_contract_resolution.py
+@@ -2,11 +2,15 @@ from types import SimpleNamespace
+ 
+ import pytest
+ 
+-from cataloging_api.cataloging_contract import FIELDS
++from cataloging_api.cataloging_contract import (
++    FIELDS,
++    live_dspace_label,
++    live_dspace_selector_label,
++)
+ from cataloging_api.dspace.contract_resolution import (
+-    ContractResolutionError,
+     EXPECTED_BINDING_COUNT,
+     EXPECTED_UNIQUE_METADATA_COUNT,
++    ContractResolutionError,
+     build_effective_canonical,
+     validate_reconciled_overlay,
+ )
+@@ -38,16 +42,16 @@ def _sections() -> list[dict]:
+ def _bindings() -> list[dict]:
+     result = []
+     for index, field in enumerate(FIELDS):
+-        form = "traditionalpageone" if index < 44 else "traditionalpagetwo"
++        form = "traditionalpageone" if index < 45 else "traditionalpagetwo"
+         result.append(
+             {
+                 "bindingKey": f"{form}:{field.metadata_field}:{field.binding_id}",
+                 "form": form,
+                 "metadata": field.metadata_field,
+                 "occurrence": 0,
+-                "position": [0 if index < 44 else 1, index if index < 44 else index - 44, 0, 0],
+-                "label": field.ui_label,
+-                "selectorLabel": None,
++                "position": [0 if index < 45 else 1, index if index < 45 else index - 45, 0, 0],
++                "label": live_dspace_label(field),
++                "selectorLabel": live_dspace_selector_label(field),
+                 "required": field.required,
+                 "repeatable": field.repeatable,
+                 "inputType": "onebox",
+@@ -79,10 +83,10 @@ def _snapshot(*, warnings: list[str] | None = None):
+ 
+ 
+ def test_resolution_contract_dimensions_match_master_contract() -> None:
+-    assert EXPECTED_BINDING_COUNT == 56
+-    assert EXPECTED_UNIQUE_METADATA_COUNT == 54
+-    assert len(_bindings()) == 56
+-    assert len({item["metadata"] for item in _bindings()}) == 54
++    assert EXPECTED_BINDING_COUNT == 57
++    assert EXPECTED_UNIQUE_METADATA_COUNT == 55
++    assert len(_bindings()) == 57
++    assert len({item["metadata"] for item in _bindings()}) == 55
+ 
+ 
+ def test_valid_204_reconciliation_overlay_is_accepted() -> None:
+@@ -97,7 +101,7 @@ def test_valid_204_reconciliation_overlay_is_accepted() -> None:
+         sections=_sections(),
+         bindings=_bindings(),
+     )
+-    assert len(effective["bindings"]) == 56
++    assert len(effective["bindings"]) == 57
+     assert [section["configForm"] for section in effective["sections"]] == [
+         "traditionalpageone",
+         "traditionalpagetwo",
+@@ -106,6 +110,32 @@ def test_valid_204_reconciliation_overlay_is_accepted() -> None:
+     assert snapshot.canonical_json["sections"] == []
+ 
+ 
++def test_identifier_fixture_preserves_raw_widget_and_selector_labels() -> None:
++    binding = next(b for b in _bindings() if b["metadata"] == "dc.identifier.issn")
++    assert binding["label"] == "Identificador"
++    assert binding["selectorLabel"] == "ISSN"
++
++
++@pytest.mark.parametrize(
++    ("attribute", "value", "error"),
++    [
++        ("label", "ISSN", "resolved_binding_label_mismatch"),
++        ("selectorLabel", None, "resolved_binding_selector_label_mismatch"),
++        ("selectorLabel", "ISBN", "resolved_binding_selector_label_mismatch"),
++    ],
++)
++def test_overlay_rejects_identifier_label_conflation(attribute, value, error) -> None:
++    bindings = _bindings()
++    binding = next(b for b in bindings if b["metadata"] == "dc.identifier.issn")
++    binding[attribute] = value
++    with pytest.raises(ContractResolutionError, match=error):
++        validate_reconciled_overlay(
++            snapshot=_snapshot(),
++            sections=_sections(),
++            bindings=bindings,
++        )
++
++
+ def test_non_204_warning_cannot_be_resolved_by_overlay() -> None:
+     snapshot = _snapshot(warnings=["METADATA_FIELD_COVERAGE_MISMATCH:global=292:qualified=291"])
+     with pytest.raises(
+diff --git a/apps/api/tests/test_dspace_contract_snapshot.py b/apps/api/tests/test_dspace_contract_snapshot.py
+index f1eac2f..66ee6e8 100644
+--- a/apps/api/tests/test_dspace_contract_snapshot.py
++++ b/apps/api/tests/test_dspace_contract_snapshot.py
+@@ -1,3 +1,5 @@
++from copy import deepcopy
++
+ from cataloging_api.dspace.contract_snapshot import (
+     build_contract_snapshot,
+     diff_contract_snapshots,
+@@ -15,7 +17,7 @@ def _field(field_id: int, element: str, qualifier: str | None = None) -> dict:
+ 
+ def _paged(relation: str, values: list[dict], *, number: int = 0, total_pages: int = 1) -> dict:
+     return {
+-        "_embedded": {relation: values},
++        "_embedded": {relation: deepcopy(values)},
+         "page": {
+             "number": number,
+             "totalPages": total_pages,
+@@ -136,8 +138,7 @@ def test_required_change_is_high_severity() -> None:
+     current = build_contract_snapshot(_pages(required=True))
+     changes = diff_contract_snapshots(previous, current)
+     assert any(
+-        change.change_type == "REQUIRED_CHANGED" and change.severity == "HIGH"
+-        for change in changes
++        change.change_type == "REQUIRED_CHANGED" and change.severity == "HIGH" for change in changes
+     )
+ 
+ 
+@@ -165,11 +166,22 @@ def test_registry_coverage_mismatch_makes_snapshot_incomplete() -> None:
+     snapshot = build_contract_snapshot(pages)
+     assert snapshot.complete is False
+     assert any(
+-        warning.startswith("METADATA_FIELD_COVERAGE_MISMATCH:")
+-        for warning in snapshot.warnings
++        warning.startswith("METADATA_FIELD_COVERAGE_MISMATCH:") for warning in snapshot.warnings
+     )
+ 
+ 
++def test_surface_fixtures_preserve_independent_http_payloads() -> None:
++    pages = _pages()
++    global_fields = pages["metadata_fields"][0]["_embedded"]["metadatafields"]
++    schema_fields = pages["metadata_fields_by_schema:dc"][0]["_embedded"]["metadatafields"]
++    assert global_fields == schema_fields
++    assert global_fields is not schema_fields
++    assert global_fields[0] is not schema_fields[0]
++    schema_fields[0]["scopeNote"] = "Changed only in the schema response"
++    schema_fields.pop()
++    assert global_fields == [_field(64, "title"), _field(65, "description")]
++
++
+ def test_missing_middle_page_makes_snapshot_incomplete_and_suppresses_removals() -> None:
+     previous = build_contract_snapshot(_pages())
+     pages = _pages()
+@@ -218,8 +230,7 @@ def test_inserting_unrelated_binding_reports_order_change_not_title_removal() ->
+     changes = diff_contract_snapshots(previous, current)
+     title_key = "traditionalpageone:dc.title:0"
+     assert any(
+-        change.change_type == "ORDER_CHANGED" and change.identity == title_key
+-        for change in changes
++        change.change_type == "ORDER_CHANGED" and change.identity == title_key for change in changes
+     )
+     assert not any(
+         change.change_type == "BINDING_REMOVED" and change.identity == title_key
+diff --git a/apps/api/tests/test_dspace_contract_store.py b/apps/api/tests/test_dspace_contract_store.py
+index 66331c0..aaac8ce 100644
+--- a/apps/api/tests/test_dspace_contract_store.py
++++ b/apps/api/tests/test_dspace_contract_store.py
+@@ -2,11 +2,12 @@ import uuid
+ from unittest.mock import AsyncMock, MagicMock
+ 
+ import pytest
++from sqlalchemy.ext.asyncio import AsyncSession
+ 
+ from cataloging_api.dspace.contract_store import (
++    RUN_COMPLETE,
+     DSpaceContractRawPage,
+     DSpaceContractSyncRun,
+-    RUN_COMPLETE,
+     canonical_raw_hash,
+     checkpoint_next_page,
+     persist_page_and_advance_checkpoint,
+@@ -28,7 +29,7 @@ def _run() -> DSpaceContractSyncRun:
+ 
+ 
+ def _session_with_existing(existing: DSpaceContractRawPage | None) -> AsyncMock:
+-    session = AsyncMock()
++    session = AsyncMock(spec=AsyncSession)
+     result = MagicMock()
+     result.scalar_one_or_none.return_value = existing
+     session.execute.return_value = result
+diff --git a/apps/api/tests/test_dspace_contract_sync_204.py b/apps/api/tests/test_dspace_contract_sync_204.py
+index 4fa1c1f..91bfa1f 100644
+--- a/apps/api/tests/test_dspace_contract_sync_204.py
++++ b/apps/api/tests/test_dspace_contract_sync_204.py
+@@ -2,6 +2,7 @@ import asyncio
+ from types import SimpleNamespace
+ 
+ import cataloging_api.dspace.contract_sync_core as core
++import pytest
+ from cataloging_api.dspace.client import DSpaceError
+ 
+ 
+@@ -19,7 +20,7 @@ class _Client:
+         return {"name": "traditional"}
+ 
+ 
+-async def _raise_204(**_: object) -> None:
++async def _raise_204(_session: object, **_: object) -> None:
+     raise DSpaceError("invalid_response", "HTTP 204", status_code=204)
+ 
+ 
+@@ -58,3 +59,34 @@ def test_active_sections_204_is_persisted_as_unobservable_not_raised(monkeypatch
+         "totalPages": 0,
+         "totalElements": 0,
+     }
++
++
++@pytest.mark.parametrize("status_code", [401, 403, 500])
++def test_non_204_errors_are_not_converted_to_unobservable_sections(
++    monkeypatch, status_code
++) -> None:
++    persisted = []
++
++    async def fake_persist(session, **kwargs):
++        persisted.append(kwargs)
++
++    async def fail_sections(session, **kwargs):
++        raise DSpaceError("invalid_response", f"HTTP {status_code}", status_code=status_code)
++
++    monkeypatch.setattr(core, "persist_page_and_advance_checkpoint", fake_persist)
++    monkeypatch.setattr(core, "_collect_surface", fail_sections)
++    session = _Session()
++    with pytest.raises(DSpaceError) as caught:
++        asyncio.run(
++            core._collect_active_definition(
++                session,
++                run=SimpleNamespace(),
++                client=_Client(),
++                collection_uuid="collection-uuid",
++                page_size=100,
++            )
++        )
++    assert caught.value.status_code == status_code
++    assert session.commits == 1
++    assert len(persisted) == 1
++    assert persisted[0]["surface"] == "active_submission_definition"
+diff --git a/apps/api/tests/test_dspace_contract_sync_core.py b/apps/api/tests/test_dspace_contract_sync_core.py
+index c38e221..e5b892b 100644
+--- a/apps/api/tests/test_dspace_contract_sync_core.py
++++ b/apps/api/tests/test_dspace_contract_sync_core.py
+@@ -1,17 +1,28 @@
+ import uuid
+-from unittest.mock import AsyncMock
++from unittest.mock import AsyncMock, MagicMock
+ 
+ import pytest
++from sqlalchemy.ext.asyncio import AsyncSession
+ 
+ from cataloging_api.dspace import contract_sync_core
+ from cataloging_api.dspace.client import DSpaceError, HalCollectionPage
+-from cataloging_api.dspace.contract_store import DSpaceContractSyncRun
++from cataloging_api.dspace.contract_store import DSpaceContractRawPage, DSpaceContractSyncRun
+ 
+ ENDPOINT = "/core/metadatafields"
+ 
+ 
++def _session_with_last_page(last_page: DSpaceContractRawPage | None) -> AsyncMock:
++    session = AsyncMock(spec=AsyncSession)
++    result = MagicMock()
++    result.scalar_one_or_none.return_value = last_page
++    session.execute.return_value = result
++    return session
++
++
+ @pytest.mark.asyncio
+-async def test_collect_surface_resumes_from_confirmed_checkpoint(monkeypatch: pytest.MonkeyPatch) -> None:
++async def test_collect_surface_resumes_from_confirmed_checkpoint(
++    monkeypatch: pytest.MonkeyPatch,
++) -> None:
+     run = DSpaceContractSyncRun(
+         run_id=uuid.uuid4(),
+         collector_version="vertical-022/1",
+@@ -20,7 +31,9 @@ async def test_collect_surface_resumes_from_confirmed_checkpoint(monkeypatch: py
+         pages_completed=2,
+         raw_payload_hashes=[],
+     )
+-    session = AsyncMock()
++    session = _session_with_last_page(
++        DSpaceContractRawPage(page_number=1, raw_payload={"page": {"number": 1, "totalPages": 3}})
++    )
+     requested_pages: list[int] = []
+ 
+     async def loader(*, page: int, size: int) -> HalCollectionPage:
+@@ -72,7 +85,7 @@ async def test_collect_surface_commits_each_page_before_requesting_next(
+         pages_completed=0,
+         raw_payload_hashes=[],
+     )
+-    session = AsyncMock()
++    session = _session_with_last_page(None)
+     events: list[str] = []
+ 
+     async def loader(*, page: int, size: int) -> HalCollectionPage:
+@@ -128,7 +141,9 @@ async def test_collect_surface_rejects_mismatched_response_page(
+         pages_completed=1,
+         raw_payload_hashes=[],
+     )
+-    session = AsyncMock()
++    session = _session_with_last_page(
++        DSpaceContractRawPage(page_number=0, raw_payload={"page": {"number": 0, "totalPages": 2}})
++    )
+ 
+     async def loader(*, page: int, size: int) -> HalCollectionPage:
+         assert page == 1
+@@ -156,3 +171,28 @@ async def test_collect_surface_rejects_mismatched_response_page(
+     assert exc_info.value.code == "invalid_hal"
+     persist.assert_not_awaited()
+     session.commit.assert_not_awaited()
++
++
++@pytest.mark.asyncio
++async def test_completed_checkpoint_skips_loader_and_persistence(monkeypatch) -> None:
++    run = DSpaceContractSyncRun(
++        run_id=uuid.uuid4(),
++        checkpoints={"metadata_fields": 3},
++    )
++    session = _session_with_last_page(
++        DSpaceContractRawPage(page_number=2, raw_payload={"page": {"number": 2, "totalPages": 3}})
++    )
++    loader = AsyncMock()
++    persist = AsyncMock()
++    monkeypatch.setattr(contract_sync_core, "persist_page_and_advance_checkpoint", persist)
++    await contract_sync_core._collect_surface(
++        session,
++        run=run,
++        surface="metadata_fields",
++        endpoint=ENDPOINT,
++        loader=loader,
++        page_size=100,
++    )
++    loader.assert_not_awaited()
++    persist.assert_not_awaited()
++    session.commit.assert_not_awaited()
+diff --git a/docs/adr/ADR-013-contrato-maestro-catalogacion.md b/docs/adr/ADR-013-contrato-maestro-catalogacion.md
+index e27b96b..8d9c743 100644
+--- a/docs/adr/ADR-013-contrato-maestro-catalogacion.md
++++ b/docs/adr/ADR-013-contrato-maestro-catalogacion.md
+@@ -62,6 +62,31 @@ ADR-006 y ADR-010.
+ 
+ ## Revisión futura
+ 
++### Revisión local SNIBLI — 2026-10-21
++
++Tras captura autenticada y observación del borrador 2050, el usuario aprobó
++incorporar `dc.type.genre`, aceptar Códice, Reseña y Documento Colonial en
++`common_types` y conservar el orden observado. La revisión ejecutable local
++`snibli-contract-2026-10-21` contiene 57 bindings y 55 claves únicas: conserva
++los 56 originales e inserta el nuevo control entre issue e Identificador.
++El primer formulario contiene 45 bindings y el segundo 12. Esta revisión
++actualiza las cifras históricas anteriores para el cambio local propuesto.
++
++`genrePairs` conserva Sí, No e Incluye Datos de Diferentes Lenguas. Es un
++control opcional, no repetible y cerrado. No se añade a los subconjuntos de
++inferencia, perfil o validación lingüística automática. El payload de lectura
++publica las listas literales aprobadas de `genrePairs` y `common_types`; su
++ausencia para otros vocabularios no significa que estén vacíos. `srsc` completo
++sigue UNKNOWN.
++
++La versión de aplicación se identifica por separado de la skill preservada
++v3.9.2. No se reconstruye esa release ni se promueve un snapshot ACTIVE. El
++orden de campos se respalda ahora también por el formulario existente indicado
++por el usuario; la evidencia visual no convierte el HTTP 204 en HAL observable.
++La aprobación no autoriza escrituras, sincronizaciones o despliegues.
++Ver `reports/snibli-migration/reconciliation-proposal/decision.json` y
++`workspace-2050-observation.md` para procedencia y alcance.
++
+ Cuando el contrato pueda generarse directamente desde el artefacto maestro del
+ skill, sustituir la sincronización manual de versión por una generación reproducible
+ con checksum y prueba de equivalencia.

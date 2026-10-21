@@ -1,0 +1,177 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:VR120901",
+      "display" : "Jurisprudence",
+      "value" : "LAW/JURISPRUDENCE::Other law::Jurisprudence",
+      "otherInformation" : {
+        "parent" : "LAW/JURISPRUDENCE::Other law",
+        "note" : "Allmän rättslära",
+        "hasChildren" : "false",
+        "id" : "VR120901"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR120901/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR120901/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR120901"
+        }
+      }
+    }, {
+      "id" : "srsc:VR120902",
+      "display" : "European law",
+      "value" : "LAW/JURISPRUDENCE::Other law::European law",
+      "otherInformation" : {
+        "parent" : "LAW/JURISPRUDENCE::Other law",
+        "note" : "EU-rätt",
+        "hasChildren" : "false",
+        "id" : "VR120902"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR120902/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR120902/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR120902"
+        }
+      }
+    }, {
+      "id" : "srsc:VR120903",
+      "display" : "International law",
+      "value" : "LAW/JURISPRUDENCE::Other law::International law",
+      "otherInformation" : {
+        "parent" : "LAW/JURISPRUDENCE::Other law",
+        "note" : "Folkrätt",
+        "hasChildren" : "false",
+        "id" : "VR120903"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR120903/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR120903/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR120903"
+        }
+      }
+    }, {
+      "id" : "srsc:VR120904",
+      "display" : "International private law and international procedural law",
+      "value" : "LAW/JURISPRUDENCE::Other law::International private law and international procedural law",
+      "otherInformation" : {
+        "parent" : "LAW/JURISPRUDENCE::Other law",
+        "note" : "Internationell privat- och processrätt",
+        "hasChildren" : "false",
+        "id" : "VR120904"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR120904/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR120904/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR120904"
+        }
+      }
+    }, {
+      "id" : "srsc:VR120905",
+      "display" : "Comparative law",
+      "value" : "LAW/JURISPRUDENCE::Other law::Comparative law",
+      "otherInformation" : {
+        "parent" : "LAW/JURISPRUDENCE::Other law",
+        "note" : "Komparativ rätt",
+        "hasChildren" : "false",
+        "id" : "VR120905"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR120905/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR120905/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR120905"
+        }
+      }
+    }, {
+      "id" : "srsc:VR120906",
+      "display" : "Competition law",
+      "value" : "LAW/JURISPRUDENCE::Other law::Competition law",
+      "otherInformation" : {
+        "parent" : "LAW/JURISPRUDENCE::Other law",
+        "note" : "Marknads- och konkurrensrätt",
+        "hasChildren" : "false",
+        "id" : "VR120906"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR120906/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR120906/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR120906"
+        }
+      }
+    }, {
+      "id" : "srsc:VR120907",
+      "display" : "Environmental law",
+      "value" : "LAW/JURISPRUDENCE::Other law::Environmental law",
+      "otherInformation" : {
+        "parent" : "LAW/JURISPRUDENCE::Other law",
+        "note" : "Miljörätt",
+        "hasChildren" : "false",
+        "id" : "VR120907"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR120907/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR120907/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR120907"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 7
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1209/children?page=0&size=100"
+    }
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:VR151202",
+      "display" : "Biophysical chemistry",
+      "value" : "NATURAL SCIENCES::Chemistry::Physical chemistry::Biophysical chemistry",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Chemistry::Physical chemistry",
+        "note" : "Biofysikalisk kemi",
+        "hasChildren" : "false",
+        "id" : "VR151202"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR151202/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR151202/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR151202"
+        }
+      }
+    }, {
+      "id" : "srsc:VR151203",
+      "display" : "Kinetics",
+      "value" : "NATURAL SCIENCES::Chemistry::Physical chemistry::Kinetics",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Chemistry::Physical chemistry",
+        "note" : "Kinetik",
+        "hasChildren" : "false",
+        "id" : "VR151203"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR151203/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR151203/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR151203"
+        }
+      }
+    }, {
+      "id" : "srsc:VR151204",
+      "display" : "Spectroscopy",
+      "value" : "NATURAL SCIENCES::Chemistry::Physical chemistry::Spectroscopy",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Chemistry::Physical chemistry",
+        "note" : "Spektroskopi",
+        "hasChildren" : "false",
+        "id" : "VR151204"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR151204/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR151204/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR151204"
+        }
+      }
+    }, {
+      "id" : "srsc:VR151205",
+      "display" : "Surface and colloid chemistry",
+      "value" : "NATURAL SCIENCES::Chemistry::Physical chemistry::Surface and colloid chemistry",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Chemistry::Physical chemistry",
+        "note" : "Yt- och kolloidkemi",
+        "hasChildren" : "false",
+        "id" : "VR151205"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR151205/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR151205/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR151205"
+        }
+      }
+    }, {
+      "id" : "srsc:VR151206",
+      "display" : "Chemical physics",
+      "value" : "NATURAL SCIENCES::Chemistry::Physical chemistry::Chemical physics",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Chemistry::Physical chemistry",
+        "note" : "Kemisk fysik",
+        "hasChildren" : "false",
+        "id" : "VR151206"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR151206/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR151206/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR151206"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 5
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1512/children?page=0&size=100"
+    }
+  }
+}

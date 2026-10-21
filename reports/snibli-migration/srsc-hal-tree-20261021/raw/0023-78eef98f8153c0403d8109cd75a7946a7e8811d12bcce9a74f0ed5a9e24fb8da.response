@@ -1,0 +1,85 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:SCB1321",
+      "display" : "Business studies",
+      "value" : "SOCIAL SCIENCES::Business and economics::Business studies",
+      "otherInformation" : {
+        "parent" : "SOCIAL SCIENCES::Business and economics",
+        "note" : "Företagsekonomi",
+        "hasChildren" : "false",
+        "id" : "SCB1321"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1321/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1321/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1321"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1322",
+      "display" : "Human geography, economic geography",
+      "value" : "SOCIAL SCIENCES::Business and economics::Human geography, economic geography",
+      "otherInformation" : {
+        "parent" : "SOCIAL SCIENCES::Business and economics",
+        "note" : "Kulturgeografi, ekonomisk geografi",
+        "hasChildren" : "true",
+        "id" : "SCB1322"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1322/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1322/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1322"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1323",
+      "display" : "Economics",
+      "value" : "SOCIAL SCIENCES::Business and economics::Economics",
+      "otherInformation" : {
+        "parent" : "SOCIAL SCIENCES::Business and economics",
+        "note" : "Nationalekonomi",
+        "hasChildren" : "true",
+        "id" : "SCB1323"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1323/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1323/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1323"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 3
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB132/children?page=0&size=100"
+    }
+  }
+}

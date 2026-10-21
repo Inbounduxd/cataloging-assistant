@@ -1,0 +1,31 @@
+{
+  "_embedded" : {
+    "entries" : [ {
+      "display" : "Monolingüe",
+      "value" : "Monolingüe",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Bilingüe",
+      "value" : "Bilingüe",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Multilingüe",
+      "value" : "Multilingüe",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 3
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularies/languageUsagePairs/entries?page=0&size=100"
+    }
+  }
+}

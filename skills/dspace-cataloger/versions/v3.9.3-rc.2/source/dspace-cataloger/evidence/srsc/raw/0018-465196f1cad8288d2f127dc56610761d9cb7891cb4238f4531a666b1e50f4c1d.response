@@ -1,0 +1,85 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:VR120103",
+      "display" : "Administrative law",
+      "value" : "LAW/JURISPRUDENCE::Public law::Administrative law",
+      "otherInformation" : {
+        "parent" : "LAW/JURISPRUDENCE::Public law",
+        "note" : "Förvaltningsrätt",
+        "hasChildren" : "false",
+        "id" : "VR120103"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR120103/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR120103/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR120103"
+        }
+      }
+    }, {
+      "id" : "srsc:VR120104",
+      "display" : "Constitutional law",
+      "value" : "LAW/JURISPRUDENCE::Public law::Constitutional law",
+      "otherInformation" : {
+        "parent" : "LAW/JURISPRUDENCE::Public law",
+        "note" : "Konstitutionell rätt",
+        "hasChildren" : "false",
+        "id" : "VR120104"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR120104/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR120104/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR120104"
+        }
+      }
+    }, {
+      "id" : "srsc:VR120105",
+      "display" : "Social welfare law",
+      "value" : "LAW/JURISPRUDENCE::Public law::Social welfare law",
+      "otherInformation" : {
+        "parent" : "LAW/JURISPRUDENCE::Public law",
+        "note" : "Socialrätt",
+        "hasChildren" : "false",
+        "id" : "VR120105"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR120105/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR120105/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR120105"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 3
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1201/children?page=0&size=100"
+    }
+  }
+}

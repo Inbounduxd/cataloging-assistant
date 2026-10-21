@@ -1,0 +1,70 @@
+{
+  "_embedded" : {
+    "metadatafields" : [ {
+      "id" : 261,
+      "element" : "review",
+      "qualifier" : null,
+      "scopeNote" : "Metadata field used for the score review description",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/261/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/261"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 18,
+          "prefix" : "workflow",
+          "namespace" : "http://www.dspace.org/workflow",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/18"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 260,
+      "element" : "score",
+      "qualifier" : null,
+      "scopeNote" : "Metadata field used for the score review rating",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/260/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/260"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 18,
+          "prefix" : "workflow",
+          "namespace" : "http://www.dspace.org/workflow",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/18"
+            }
+          }
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/search/bySchema?page=0&size=100&schema=workflow"
+    }
+  },
+  "page" : {
+    "size" : 100,
+    "totalElements" : 2,
+    "totalPages" : 1,
+    "number" : 0
+  }
+}

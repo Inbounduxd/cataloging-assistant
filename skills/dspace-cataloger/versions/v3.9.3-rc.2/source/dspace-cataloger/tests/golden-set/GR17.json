@@ -1,0 +1,14 @@
+{
+  "goldenRecord": "GR17",
+  "recordId": null,
+  "title": "Author abstract plus generated cataloguing synthesis",
+  "status": "PILOT_ACCEPTED",
+  "purpose": "Semantic regression fixture derived from cataloguing-learning v3.5. Does not contain copyrighted full text.",
+  "expectedRules": [
+    "AUTHOR_ABSTRACT_EXTRACTED_PRECEDENCE",
+    "GENERATED_SYNTHESIS_SEPARATE"
+  ],
+  "mustNever": [
+    "Overwrite author abstract with assistant paraphrase."
+  ]
+}

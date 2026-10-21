@@ -1,0 +1,223 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:SCB1511",
+      "display" : "Theoretical chemistry",
+      "value" : "NATURAL SCIENCES::Chemistry::Theoretical chemistry",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Chemistry",
+        "note" : "Teoretisk kemi",
+        "hasChildren" : "true",
+        "id" : "SCB1511"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1511/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1511/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1511"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1512",
+      "display" : "Physical chemistry",
+      "value" : "NATURAL SCIENCES::Chemistry::Physical chemistry",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Chemistry",
+        "note" : "Fysikalisk kemi",
+        "hasChildren" : "true",
+        "id" : "SCB1512"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1512/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1512/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1512"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1513",
+      "display" : "Analytical chemistry",
+      "value" : "NATURAL SCIENCES::Chemistry::Analytical chemistry",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Chemistry",
+        "note" : "Analytisk kemi",
+        "hasChildren" : "true",
+        "id" : "SCB1513"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1513/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1513/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1513"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1514",
+      "display" : "Molecular biophysics",
+      "value" : "NATURAL SCIENCES::Chemistry::Molecular biophysics",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Chemistry",
+        "note" : "Molekylär biofysik",
+        "hasChildren" : "false",
+        "id" : "SCB1514"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1514/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1514/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1514"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1515",
+      "display" : "Inorganic chemistry",
+      "value" : "NATURAL SCIENCES::Chemistry::Inorganic chemistry",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Chemistry",
+        "note" : "Oorganisk kemi",
+        "hasChildren" : "true",
+        "id" : "SCB1515"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1515/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1515/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1515"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1516",
+      "display" : "Organic chemistry",
+      "value" : "NATURAL SCIENCES::Chemistry::Organic chemistry",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Chemistry",
+        "note" : "Organisk kemi",
+        "hasChildren" : "true",
+        "id" : "SCB1516"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1516/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1516/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1516"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1517",
+      "display" : "Biochemistry",
+      "value" : "NATURAL SCIENCES::Chemistry::Biochemistry",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Chemistry",
+        "note" : "Biokemi",
+        "hasChildren" : "true",
+        "id" : "SCB1517"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1517/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1517/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1517"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1518",
+      "display" : "Environmental chemistry",
+      "value" : "NATURAL SCIENCES::Chemistry::Environmental chemistry",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Chemistry",
+        "note" : "Miljökemi",
+        "hasChildren" : "true",
+        "id" : "SCB1518"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1518/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1518/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1518"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1519",
+      "display" : "Other chemistry",
+      "value" : "NATURAL SCIENCES::Chemistry::Other chemistry",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Chemistry",
+        "note" : "Övrig kemi",
+        "hasChildren" : "false",
+        "id" : "SCB1519"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1519/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1519/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1519"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 9
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB151/children?page=0&size=100"
+    }
+  }
+}

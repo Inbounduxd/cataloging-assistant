@@ -1,0 +1,14 @@
+{
+  "goldenRecord": "GR07",
+  "recordId": 21610,
+  "title": "Cantar y reír en mayat’aan, tu’un savi, chaqF jnyaJ, äyuujk, o’dam y en Niya/Te̱ja̱o̱",
+  "status": "PILOT_ACCEPTED",
+  "purpose": "Semantic regression fixture. Does not contain full copyrighted source text.",
+  "expectedRules": [
+    "MULTIPLE_OBJECT_LANGUAGES_NOT_MULTILINGUAL",
+    "SELF_DENOMINATION_COVERAGE_GAPS",
+    "TEPEHUANO_SUR_NOT_GENERIC_DUPLICATE",
+    "HTML_EXTENT_POLICY_REVIEW"
+  ],
+  "mustNever": []
+}

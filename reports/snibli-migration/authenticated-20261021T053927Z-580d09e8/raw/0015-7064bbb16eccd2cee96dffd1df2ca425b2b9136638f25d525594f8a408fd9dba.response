@@ -1,0 +1,502 @@
+{
+  "_embedded" : {
+    "metadatafields" : [ {
+      "id" : 191,
+      "element" : "affiliation",
+      "qualifier" : "name",
+      "scopeNote" : "The organizational or institutional affiliation of the creator",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/191/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/191"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 7,
+          "prefix" : "person",
+          "namespace" : "https://schema.org/Person",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/7"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 189,
+      "element" : "birthDate",
+      "qualifier" : null,
+      "scopeNote" : "Date of birth.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/189/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/189"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 7,
+          "prefix" : "person",
+          "namespace" : "https://schema.org/Person",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/7"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 199,
+      "element" : "country",
+      "qualifier" : null,
+      "scopeNote" : "Country in which person lives",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/199/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/199"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 7,
+          "prefix" : "person",
+          "namespace" : "https://schema.org/Person",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/7"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 188,
+      "element" : "email",
+      "qualifier" : null,
+      "scopeNote" : "Email address.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/188/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/188"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 7,
+          "prefix" : "person",
+          "namespace" : "https://schema.org/Person",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/7"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 185,
+      "element" : "familyName",
+      "qualifier" : null,
+      "scopeNote" : "Family name. In the U.S., the last name of an Person. This can be used along with givenName instead\n            of the name property.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/185/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/185"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 7,
+          "prefix" : "person",
+          "namespace" : "https://schema.org/Person",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/7"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 184,
+      "element" : "givenName",
+      "qualifier" : null,
+      "scopeNote" : "Given name. In the U.S., the first name of a Person. This can be used along with familyName instead\n            of the name property.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/184/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/184"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 7,
+          "prefix" : "person",
+          "namespace" : "https://schema.org/Person",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/7"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 194,
+      "element" : "identifier",
+      "qualifier" : "ciencia-id",
+      "scopeNote" : "Permanent individual means of identification and authentication for citizens carrying out scientific activity. - https://www.ciencia-id.pt/",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/194/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/194"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 7,
+          "prefix" : "person",
+          "namespace" : "https://schema.org/Person",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/7"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 195,
+      "element" : "identifier",
+      "qualifier" : "gsid",
+      "scopeNote" : "Google Scholar ID",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/195/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/195"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 7,
+          "prefix" : "person",
+          "namespace" : "https://schema.org/Person",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/7"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 198,
+      "element" : "identifier",
+      "qualifier" : "isni",
+      "scopeNote" : "International Standard Name Identifier",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/198/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/198"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 7,
+          "prefix" : "person",
+          "namespace" : "https://schema.org/Person",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/7"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 196,
+      "element" : "identifier",
+      "qualifier" : "orcid",
+      "scopeNote" : "Open Researcher and Contributor ID",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/196/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/196"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 7,
+          "prefix" : "person",
+          "namespace" : "https://schema.org/Person",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/7"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 197,
+      "element" : "identifier",
+      "qualifier" : "rid",
+      "scopeNote" : "Web of Science ResearcherID",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/197/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/197"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 7,
+          "prefix" : "person",
+          "namespace" : "https://schema.org/Person",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/7"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 193,
+      "element" : "identifier",
+      "qualifier" : "scopus-author-id",
+      "scopeNote" : "Scopus Author ID",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/193/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/193"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 7,
+          "prefix" : "person",
+          "namespace" : "https://schema.org/Person",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/7"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 192,
+      "element" : "identifier",
+      "qualifier" : null,
+      "scopeNote" : "Generic Identifier",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/192/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/192"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 7,
+          "prefix" : "person",
+          "namespace" : "https://schema.org/Person",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/7"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 190,
+      "element" : "jobTitle",
+      "qualifier" : null,
+      "scopeNote" : "The job title of the person (for example, Financial Manager).",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/190/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/190"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 7,
+          "prefix" : "person",
+          "namespace" : "https://schema.org/Person",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/7"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 187,
+      "element" : "knowsLanguage",
+      "qualifier" : null,
+      "scopeNote" : "Of a Person, and less typically of an Organization, to indicate a known language. We do not\n            distinguish skill levels or reading/writing/speaking/signing here. Use language codes from the IETF BCP 47\n            standard.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/187/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/187"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 7,
+          "prefix" : "person",
+          "namespace" : "https://schema.org/Person",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/7"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 200,
+      "element" : "name",
+      "qualifier" : "translated",
+      "scopeNote" : "Full name translation",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/200/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/200"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 7,
+          "prefix" : "person",
+          "namespace" : "https://schema.org/Person",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/7"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 201,
+      "element" : "name",
+      "qualifier" : "variant",
+      "scopeNote" : "Full name variant",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/201/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/201"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 7,
+          "prefix" : "person",
+          "namespace" : "https://schema.org/Person",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/7"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 186,
+      "element" : "telephone",
+      "qualifier" : null,
+      "scopeNote" : "The telephone number.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/186/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/186"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 7,
+          "prefix" : "person",
+          "namespace" : "https://schema.org/Person",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/7"
+            }
+          }
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/search/bySchema?page=0&size=100&schema=person"
+    }
+  },
+  "page" : {
+    "size" : 100,
+    "totalElements" : 18,
+    "totalPages" : 1,
+    "number" : 0
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:VR151301",
+      "display" : "Separation methods",
+      "value" : "NATURAL SCIENCES::Chemistry::Analytical chemistry::Separation methods",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Chemistry::Analytical chemistry",
+        "note" : "Separationsmetoder",
+        "hasChildren" : "false",
+        "id" : "VR151301"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR151301/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR151301/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR151301"
+        }
+      }
+    }, {
+      "id" : "srsc:VR151302",
+      "display" : "Electrochemistry",
+      "value" : "NATURAL SCIENCES::Chemistry::Analytical chemistry::Electrochemistry",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Chemistry::Analytical chemistry",
+        "note" : "Elektrokemi",
+        "hasChildren" : "false",
+        "id" : "VR151302"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR151302/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR151302/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR151302"
+        }
+      }
+    }, {
+      "id" : "srsc:VR151303",
+      "display" : "Spectroscopy",
+      "value" : "NATURAL SCIENCES::Chemistry::Analytical chemistry::Spectroscopy",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Chemistry::Analytical chemistry",
+        "note" : "Spektroskopi",
+        "hasChildren" : "false",
+        "id" : "VR151303"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR151303/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR151303/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR151303"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 3
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1513/children?page=0&size=100"
+    }
+  }
+}

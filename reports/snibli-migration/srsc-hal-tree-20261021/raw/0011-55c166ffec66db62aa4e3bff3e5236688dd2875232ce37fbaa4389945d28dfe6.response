@@ -1,0 +1,269 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:SCB2101",
+      "display" : "Biopharmacy",
+      "value" : "PHARMACY::Biopharmacy",
+      "otherInformation" : {
+        "parent" : "PHARMACY",
+        "note" : "Biofarmaci",
+        "hasChildren" : "false",
+        "id" : "SCB2101"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2101/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2101/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2101"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB2102",
+      "display" : "Biological research on drug dependence",
+      "value" : "PHARMACY::Biological research on drug dependence",
+      "otherInformation" : {
+        "parent" : "PHARMACY",
+        "note" : "Biologisk beroendeforskning",
+        "hasChildren" : "false",
+        "id" : "SCB2102"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2102/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2102/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2102"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB2103",
+      "display" : "Pharmaceutical biochemistry",
+      "value" : "PHARMACY::Pharmaceutical biochemistry",
+      "otherInformation" : {
+        "parent" : "PHARMACY",
+        "note" : "Farmaceutisk biokemi",
+        "hasChildren" : "false",
+        "id" : "SCB2103"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2103/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2103/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2103"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB2104",
+      "display" : "Pharmaceutical pharmacology",
+      "value" : "PHARMACY::Pharmaceutical pharmacology",
+      "otherInformation" : {
+        "parent" : "PHARMACY",
+        "note" : "Farmaceutisk farmakologi",
+        "hasChildren" : "false",
+        "id" : "SCB2104"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2104/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2104/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2104"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB2105",
+      "display" : "Pharmaceutical chemistry",
+      "value" : "PHARMACY::Pharmaceutical chemistry",
+      "otherInformation" : {
+        "parent" : "PHARMACY",
+        "note" : "Farmaceutisk kemi",
+        "hasChildren" : "false",
+        "id" : "SCB2105"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2105/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2105/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2105"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB2106",
+      "display" : "Pharmaceutical microbiology",
+      "value" : "PHARMACY::Pharmaceutical microbiology",
+      "otherInformation" : {
+        "parent" : "PHARMACY",
+        "note" : "Farmaceutisk mikrobiologi",
+        "hasChildren" : "false",
+        "id" : "SCB2106"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2106/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2106/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2106"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB2107",
+      "display" : "Toxicology",
+      "value" : "PHARMACY::Toxicology",
+      "otherInformation" : {
+        "parent" : "PHARMACY",
+        "note" : "Toxikologi",
+        "hasChildren" : "false",
+        "id" : "SCB2107"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2107/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2107/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2107"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB2108",
+      "display" : "Pharmacognosy",
+      "value" : "PHARMACY::Pharmacognosy",
+      "otherInformation" : {
+        "parent" : "PHARMACY",
+        "note" : "Farmakognosi",
+        "hasChildren" : "false",
+        "id" : "SCB2108"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2108/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2108/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2108"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB2111",
+      "display" : "Pharmaceutics",
+      "value" : "PHARMACY::Pharmaceutics",
+      "otherInformation" : {
+        "parent" : "PHARMACY",
+        "note" : "Galenisk farmaci",
+        "hasChildren" : "false",
+        "id" : "SCB2111"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2111/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2111/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2111"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB2112",
+      "display" : "Community pharmacy services",
+      "value" : "PHARMACY::Community pharmacy services",
+      "otherInformation" : {
+        "parent" : "PHARMACY",
+        "note" : "Samhällsfarmaci",
+        "hasChildren" : "false",
+        "id" : "SCB2112"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2112/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2112/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2112"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB2119",
+      "display" : "Other pharmacy",
+      "value" : "PHARMACY::Other pharmacy",
+      "otherInformation" : {
+        "parent" : "PHARMACY",
+        "note" : "Övrig farmaci",
+        "hasChildren" : "false",
+        "id" : "SCB2119"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2119/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2119/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB2119"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 11
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB21/children?page=0&size=100"
+    }
+  }
+}

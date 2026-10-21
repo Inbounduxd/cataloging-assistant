@@ -1,0 +1,19 @@
+[
+  {
+    "requested_url": "https://www.iifl.unam.mx/server/api",
+    "captured_at": "2026-10-21T04:48:24.955735+00:00",
+    "endpoint": "https://www.iifl.unam.mx/server/api",
+    "redirects": [
+      {
+        "url": "https://www.iifl.unam.mx/server/api",
+        "status": 200
+      }
+    ],
+    "http_status": 200,
+    "content_type": "application/hal+json;charset=UTF-8",
+    "sha256": "13dd53629e044cf3837a06150e592b6665d405d0694293e4d6965a5c695a2094",
+    "bytes": 7101,
+    "raw_file": "13dd53629e044cf3837a06150e592b6665d405d0694293e4d6965a5c695a2094.response",
+    "preview": "{\n  \"dspaceUI\" : \"https://www.iifl.unam.mx/SNIBLI\",\n  \"dspaceName\" : \"Respositorio Ind\",\n  \"dspaceServer\" : \"https://www.iifl.unam.mx/server\",\n  \"dspaceVersion\" : \"DSpace 7.6.6\",\n  \"type\" : \"root\",\n  \"_links\" : {\n    \"actuator\" : {\n      \"href\" : \"https://www.iifl.unam.mx/server/actuator\"\n    },\n    \"authn\" : {\n      \"href\" : \"https://www.iifl.unam.mx/server/api/authn\"\n    },\n    \"authorizations\" : {\n      \"href\" : \"https://www.iifl.unam.mx/server/api/authz/authorizations\"\n    },\n    \"bitstreamformats\" : {\n      \"href\" : \"https://www.iifl.unam.mx/server/api/core/bitstreamformats\"\n    },\n    \"bitstreams\" : {\n      \"href\" : \"https://www.iifl.unam.mx/server/api/core/bitstreams\"\n    },\n    \"browses\" : {\n      \"href\" : \"https://www.iifl.unam.mx/server/api/discover/browses\"\n    },\n    \"bulkaccessconditionoptions\" : {\n      \"href\" : \"https://www.iifl.unam.mx/server/api/config/bulkaccessconditionoptions\"\n    },\n    \"bundles\" : {\n      \"href\" : \"https://www.iifl.unam.mx/server/api/core/bundles\"\n    },\n    \"claimedtasks\" : {\n      \"href\" : \"https://www.iifl.unam.mx/server/api/workflow/claimedtasks\"\n    },\n    \"claimedtasks-search\" : {\n      \"href\" : \"https://www.iifl.unam.mx/server/api/workflow/claimedtasks/search\"\n    },\n    \"collections\" : {\n      \"href\" : \"https://www.iifl.unam.mx/server/api/core/collections\"\n    },\n    \"communities\" : {\n      \"href\" : \"https://www.iifl.unam.mx/server/api/core/communities\"\n    },\n    \"discover\" : {\n      \"href\" : \"https://www.iifl.unam.mx/server/api"
+  }
+]

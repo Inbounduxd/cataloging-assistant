@@ -1,0 +1,154 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:VR152201",
+      "display" : "Microbiology",
+      "value" : "NATURAL SCIENCES::Biology::Organism biology::Microbiology",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Biology::Organism biology",
+        "note" : "Mikrobiologi",
+        "hasChildren" : "false",
+        "id" : "VR152201"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR152201/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR152201/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR152201"
+        }
+      }
+    }, {
+      "id" : "srsc:VR152202",
+      "display" : "Morphology",
+      "value" : "NATURAL SCIENCES::Biology::Organism biology::Morphology",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Biology::Organism biology",
+        "note" : "Morfologi",
+        "hasChildren" : "false",
+        "id" : "VR152202"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR152202/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR152202/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR152202"
+        }
+      }
+    }, {
+      "id" : "srsc:VR152203",
+      "display" : "Systematics and phylogenetics",
+      "value" : "NATURAL SCIENCES::Biology::Organism biology::Systematics and phylogenetics",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Biology::Organism biology",
+        "note" : "Systematik och fylogeni",
+        "hasChildren" : "false",
+        "id" : "VR152203"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR152203/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR152203/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR152203"
+        }
+      }
+    }, {
+      "id" : "srsc:VR152204",
+      "display" : "Plant physiology",
+      "value" : "NATURAL SCIENCES::Biology::Organism biology::Plant physiology",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Biology::Organism biology",
+        "note" : "Växtfysiologi",
+        "hasChildren" : "false",
+        "id" : "VR152204"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR152204/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR152204/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR152204"
+        }
+      }
+    }, {
+      "id" : "srsc:VR152205",
+      "display" : "Animal physiology",
+      "value" : "NATURAL SCIENCES::Biology::Organism biology::Animal physiology",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Biology::Organism biology",
+        "note" : "Zoofysiologi",
+        "hasChildren" : "false",
+        "id" : "VR152205"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR152205/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR152205/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR152205"
+        }
+      }
+    }, {
+      "id" : "srsc:VR152206",
+      "display" : "Developmental biology",
+      "value" : "NATURAL SCIENCES::Biology::Organism biology::Developmental biology",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Biology::Organism biology",
+        "note" : "Utvecklingsbiologi",
+        "hasChildren" : "false",
+        "id" : "VR152206"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR152206/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR152206/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR152206"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 6
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1522/children?page=0&size=100"
+    }
+  }
+}

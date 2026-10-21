@@ -1,0 +1,39 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:VR132302",
+      "display" : "Econometrics",
+      "value" : "SOCIAL SCIENCES::Business and economics::Economics::Econometrics",
+      "otherInformation" : {
+        "parent" : "SOCIAL SCIENCES::Business and economics::Economics",
+        "note" : "Ekonometri",
+        "hasChildren" : "false",
+        "id" : "VR132302"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR132302/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR132302/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR132302"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 1
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1323/children?page=0&size=100"
+    }
+  }
+}

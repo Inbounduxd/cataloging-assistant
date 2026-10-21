@@ -2,11 +2,15 @@ from types import SimpleNamespace
 
 import pytest
 
-from cataloging_api.cataloging_contract import FIELDS
+from cataloging_api.cataloging_contract import (
+    FIELDS,
+    live_dspace_label,
+    live_dspace_selector_label,
+)
 from cataloging_api.dspace.contract_resolution import (
-    ContractResolutionError,
     EXPECTED_BINDING_COUNT,
     EXPECTED_UNIQUE_METADATA_COUNT,
+    ContractResolutionError,
     build_effective_canonical,
     validate_reconciled_overlay,
 )
@@ -38,16 +42,16 @@ def _sections() -> list[dict]:
 def _bindings() -> list[dict]:
     result = []
     for index, field in enumerate(FIELDS):
-        form = "traditionalpageone" if index < 44 else "traditionalpagetwo"
+        form = "traditionalpageone" if index < 45 else "traditionalpagetwo"
         result.append(
             {
                 "bindingKey": f"{form}:{field.metadata_field}:{field.binding_id}",
                 "form": form,
                 "metadata": field.metadata_field,
                 "occurrence": 0,
-                "position": [0 if index < 44 else 1, index if index < 44 else index - 44, 0, 0],
-                "label": field.ui_label,
-                "selectorLabel": None,
+                "position": [0 if index < 45 else 1, index if index < 45 else index - 45, 0, 0],
+                "label": live_dspace_label(field),
+                "selectorLabel": live_dspace_selector_label(field),
                 "required": field.required,
                 "repeatable": field.repeatable,
                 "inputType": "onebox",
@@ -79,10 +83,10 @@ def _snapshot(*, warnings: list[str] | None = None):
 
 
 def test_resolution_contract_dimensions_match_master_contract() -> None:
-    assert EXPECTED_BINDING_COUNT == 56
-    assert EXPECTED_UNIQUE_METADATA_COUNT == 54
-    assert len(_bindings()) == 56
-    assert len({item["metadata"] for item in _bindings()}) == 54
+    assert EXPECTED_BINDING_COUNT == 57
+    assert EXPECTED_UNIQUE_METADATA_COUNT == 55
+    assert len(_bindings()) == 57
+    assert len({item["metadata"] for item in _bindings()}) == 55
 
 
 def test_valid_204_reconciliation_overlay_is_accepted() -> None:
@@ -97,13 +101,39 @@ def test_valid_204_reconciliation_overlay_is_accepted() -> None:
         sections=_sections(),
         bindings=_bindings(),
     )
-    assert len(effective["bindings"]) == 56
+    assert len(effective["bindings"]) == 57
     assert [section["configForm"] for section in effective["sections"]] == [
         "traditionalpageone",
         "traditionalpagetwo",
     ]
     assert snapshot.canonical_json["bindings"] == []
     assert snapshot.canonical_json["sections"] == []
+
+
+def test_identifier_fixture_preserves_raw_widget_and_selector_labels() -> None:
+    binding = next(b for b in _bindings() if b["metadata"] == "dc.identifier.issn")
+    assert binding["label"] == "Identificador"
+    assert binding["selectorLabel"] == "ISSN"
+
+
+@pytest.mark.parametrize(
+    ("attribute", "value", "error"),
+    [
+        ("label", "ISSN", "resolved_binding_label_mismatch"),
+        ("selectorLabel", None, "resolved_binding_selector_label_mismatch"),
+        ("selectorLabel", "ISBN", "resolved_binding_selector_label_mismatch"),
+    ],
+)
+def test_overlay_rejects_identifier_label_conflation(attribute, value, error) -> None:
+    bindings = _bindings()
+    binding = next(b for b in bindings if b["metadata"] == "dc.identifier.issn")
+    binding[attribute] = value
+    with pytest.raises(ContractResolutionError, match=error):
+        validate_reconciled_overlay(
+            snapshot=_snapshot(),
+            sections=_sections(),
+            bindings=bindings,
+        )
 
 
 def test_non_204_warning_cannot_be_resolved_by_overlay() -> None:

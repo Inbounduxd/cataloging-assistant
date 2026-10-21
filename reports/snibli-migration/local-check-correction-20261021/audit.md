@@ -1,0 +1,47 @@
+# SNIBLI migration audit
+
+2026-10-21T07:09:52.470505+00:00
+
+Coverage: LOCAL_ONLY
+
+PASS applies only to the named check, never to full migration equivalence.
+
+- **PASS** `release_v3.9.2_integrity`: {"sha256": "b6c435a28f8bb1a8faab237258161edf0233b2ce3608ff4e025a8ae2a11acede", "bytes": 118470, "files": 86, "json_files": 36}
+- **PASS** `local_master_contract`: {"status": "PASS", "bindings": 57, "unique_metadata_keys": 55, "contract_version": "snibli-contract-2026-10-21", "reference": "APPROVED_LOCAL_SNIBLI_REVISION", "expected_bindings": 57, "expected_unique_metadata_keys": 55, "scope": "Local mapping only; does not certify the live instance or skill adoption"}
+- **PASS** `local_governance`: {"draftable_fields": ["dc.description.registeredLanguage", "dc.subject.linguiscgroup", "dc.subject.linguisticFamily", "dc.subject.linguisticBranch", "dc.subject.linguisticVariant"], "controlled_fields": ["dc.description.registeredLanguage", "dc.subject.linguiscgroup", "dc.subject.linguisticFamily", "dc.subject.linguisticBranch", "dc.subject.linguisticVariant"], "profile_fields": ["dc.description.registeredLanguage", "dc.subject.linguiscgroup", "dc.subject.linguisticFamily", "dc.subject.linguisticBranch", "dc.subject.linguisticVariant"], "profile_relationships": [["dc.subject.linguisticFamily", "dc.subject.linguiscgroup"], ["dc.subject.linguiscgroup", "dc.subject.linguisticVariant"], ["dc.subject.linguisticFamily", "dc.subject.linguisticBranch"], ["dc.subject.linguisticBranch", "dc.subject.linguiscgroup"]], "clin_relationships": [["dc.subject.linguisticFamily", "dc.subject.linguiscgroup"], ["dc.subject.linguiscgroup", "dc.subject.linguisticVariant"]], "branch_is_optional_enrichment": true, "registered_language_is_independent": true, "dspace_write_enabled": false, "human_approval_required": true}
+- **PASS** `local_language_separation`: "Local contract only; no live semantic equivalence asserted"
+- **NOT_TESTED** `api_hal`: "API base not supplied; no route inferred"
+- **NOT_TESTED** `public_url`: "Offline: no HTTP request"
+- **UNKNOWN** `instance_identity`: "UUID/handle alone cannot prove database identity"
+- **NOT_TESTED** `vertical_022_comparison`: "Supply --baseline and --observed raw exports; no database job executed"
+- **NOT_TESTED** `live_56_bindings_54_keys`: "Requires dedicated contract/semantic evidence; public HAL is insufficient"
+- **NOT_TESTED** `live_form_order_labels_controls`: "Requires dedicated contract/semantic evidence; public HAL is insufficient"
+- **NOT_TESTED** `live_vocabulary_values`: "Requires dedicated contract/semantic evidence; public HAL is insufficient"
+- **NOT_TESTED** `live_language_rules`: "Requires dedicated contract/semantic evidence; public HAL is insufficient"
+- **NOT_TESTED** `golden_GR01_GR23`: "Requires dedicated contract/semantic evidence; public HAL is insufficient"
+
+## Warnings
+
+- No full migration equivalence established.
+- Executable contract declares snibli-contract-2026-10-21; current preserved release is v3.9.2. Review version alignment separately.
+
+## Configuration, endpoints and errors
+
+```json
+{
+  "configuration": {
+    "public_url": "https://www.iifl.unam.mx/SNIBLI/home",
+    "api_base": null,
+    "timeout": 10,
+    "offline": true,
+    "credentials_used": false,
+    "max_response_bytes": 4194304,
+    "max_requests_per_endpoint": 4,
+    "baseline_supplied": false,
+    "observed_supplied": false,
+    "candidate_supplied": false
+  },
+  "endpoints": [],
+  "errors": []
+}
+```

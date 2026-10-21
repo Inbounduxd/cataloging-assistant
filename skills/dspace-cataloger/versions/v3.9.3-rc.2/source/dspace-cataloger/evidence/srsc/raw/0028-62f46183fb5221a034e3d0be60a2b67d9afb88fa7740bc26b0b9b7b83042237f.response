@@ -1,0 +1,177 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:SCB1501",
+      "display" : "Elementary particle physics",
+      "value" : "NATURAL SCIENCES::Physics::Elementary particle physics",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Physics",
+        "note" : "Elementarpartikelfysik",
+        "hasChildren" : "true",
+        "id" : "SCB1501"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1501/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1501/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1501"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1502",
+      "display" : "Nuclear physics",
+      "value" : "NATURAL SCIENCES::Physics::Nuclear physics",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Physics",
+        "note" : "Kärnfysik",
+        "hasChildren" : "true",
+        "id" : "SCB1502"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1502/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1502/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1502"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1503",
+      "display" : "Atomic and molecular physics",
+      "value" : "NATURAL SCIENCES::Physics::Atomic and molecular physics",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Physics",
+        "note" : "Atom- och molekylfysik",
+        "hasChildren" : "true",
+        "id" : "SCB1503"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1503/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1503/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1503"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1504",
+      "display" : "Condensed matter physics",
+      "value" : "NATURAL SCIENCES::Physics::Condensed matter physics",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Physics",
+        "note" : "Kondenserade materiens fysik",
+        "hasChildren" : "true",
+        "id" : "SCB1504"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1504/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1504/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1504"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1505",
+      "display" : "Astronomy and astrophysics",
+      "value" : "NATURAL SCIENCES::Physics::Astronomy and astrophysics",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Physics",
+        "note" : "Astronomi och astrofysik",
+        "hasChildren" : "true",
+        "id" : "SCB1505"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1505/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1505/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1505"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1506",
+      "display" : "Geocosmophysics and plasma physics",
+      "value" : "NATURAL SCIENCES::Physics::Geocosmophysics and plasma physics",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Physics",
+        "note" : "Geokosmofysik och plasmafysik",
+        "hasChildren" : "true",
+        "id" : "SCB1506"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1506/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1506/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1506"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1509",
+      "display" : "Other physics",
+      "value" : "NATURAL SCIENCES::Physics::Other physics",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Physics",
+        "note" : "Övrig fysik",
+        "hasChildren" : "true",
+        "id" : "SCB1509"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1509/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1509/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1509"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 7
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB150/children?page=0&size=100"
+    }
+  }
+}

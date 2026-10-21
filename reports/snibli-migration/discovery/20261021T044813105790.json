@@ -1,0 +1,199 @@
+[
+  {
+    "requested_url": "https://www.iifl.unam.mx/server",
+    "captured_at": "2026-10-21T04:48:12.568145+00:00",
+    "endpoint": "https://www.iifl.unam.mx/server/",
+    "redirects": [
+      {
+        "url": "https://www.iifl.unam.mx/server",
+        "status": 308
+      },
+      {
+        "url": "https://www.iifl.unam.mx/server/",
+        "status": 200
+      }
+    ],
+    "http_status": 200,
+    "content_type": "text/html;charset=UTF-8",
+    "sha256": "04740fd53c739ed22c87fd56ee3ef5b28e8407ed7195ccaef22df69f65456816",
+    "bytes": 13128,
+    "raw_file": "04740fd53c739ed22c87fd56ee3ef5b28e8407ed7195ccaef22df69f65456816.response",
+    "references": [
+      {
+        "tag": "link",
+        "attribute": "href",
+        "value": "webjars/bootstrap/dist/css/bootstrap.min.css"
+      },
+      {
+        "tag": "link",
+        "attribute": "href",
+        "value": "styles.css"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "value": "#"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "value": "#/"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "value": "https://github.com/mikekelly/hal-browser"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "value": "login.html"
+      },
+      {
+        "tag": "script",
+        "attribute": "src",
+        "value": "webjars/jquery/dist/jquery.min.js"
+      },
+      {
+        "tag": "script",
+        "attribute": "src",
+        "value": "webjars/underscore/underscore-min.js"
+      },
+      {
+        "tag": "script",
+        "attribute": "src",
+        "value": "webjars/backbone/backbone-min.js"
+      },
+      {
+        "tag": "script",
+        "attribute": "src",
+        "value": "browser/vendor/js/uritemplates.js"
+      },
+      {
+        "tag": "script",
+        "attribute": "src",
+        "value": "webjars/urijs/src/URI.min.js"
+      },
+      {
+        "tag": "script",
+        "attribute": "src",
+        "value": "webjars/bootstrap/dist/js/bootstrap.min.js"
+      },
+      {
+        "tag": "script",
+        "attribute": "src",
+        "value": "browser/js/hal.js"
+      },
+      {
+        "tag": "script",
+        "attribute": "src",
+        "value": "browser/js/hal/browser.js"
+      },
+      {
+        "tag": "script",
+        "attribute": "src",
+        "value": "js/hal/http/client.js"
+      },
+      {
+        "tag": "script",
+        "attribute": "src",
+        "value": "browser/js/hal/resource.js"
+      },
+      {
+        "tag": "script",
+        "attribute": "src",
+        "value": "browser/js/hal/views/browser.js"
+      },
+      {
+        "tag": "script",
+        "attribute": "src",
+        "value": "browser/js/hal/views/explorer.js"
+      },
+      {
+        "tag": "script",
+        "attribute": "src",
+        "value": "browser/js/hal/views/inspector.js"
+      },
+      {
+        "tag": "script",
+        "attribute": "src",
+        "value": "browser/js/hal/views/navigation.js"
+      },
+      {
+        "tag": "script",
+        "attribute": "src",
+        "value": "browser/js/hal/views/location_bar.js"
+      },
+      {
+        "tag": "script",
+        "attribute": "src",
+        "value": "browser/js/hal/views/request_headers.js"
+      },
+      {
+        "tag": "script",
+        "attribute": "src",
+        "value": "browser/js/hal/views/resource.js"
+      },
+      {
+        "tag": "script",
+        "attribute": "src",
+        "value": "browser/js/hal/views/properties.js"
+      },
+      {
+        "tag": "script",
+        "attribute": "src",
+        "value": "browser/js/hal/views/links.js"
+      },
+      {
+        "tag": "script",
+        "attribute": "src",
+        "value": "browser/js/hal/views/embedded_resources.js"
+      },
+      {
+        "tag": "script",
+        "attribute": "src",
+        "value": "browser/js/hal/views/embedded_resource.js"
+      },
+      {
+        "tag": "script",
+        "attribute": "src",
+        "value": "browser/js/hal/views/non_safe_request_dialog.js"
+      },
+      {
+        "tag": "script",
+        "attribute": "src",
+        "value": "browser/js/hal/views/query_uri_dialog.js"
+      },
+      {
+        "tag": "script",
+        "attribute": "src",
+        "value": "browser/js/hal/views/response.js"
+      },
+      {
+        "tag": "script",
+        "attribute": "src",
+        "value": "browser/js/hal/views/response_headers.js"
+      },
+      {
+        "tag": "script",
+        "attribute": "src",
+        "value": "browser/js/hal/views/response_body.js"
+      },
+      {
+        "tag": "script",
+        "attribute": "src",
+        "value": "browser/js/hal/views/documentation.js"
+      },
+      {
+        "tag": "script",
+        "attribute": "src",
+        "value": "webjars/json-editor__json-editor/2.15.2/dist/jsoneditor.js"
+      },
+      {
+        "tag": "script",
+        "attribute": "src",
+        "value": "js/vendor/CustomPostForm.js"
+      }
+    ]
+  }
+]

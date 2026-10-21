@@ -1,0 +1,70 @@
+{
+  "_embedded" : {
+    "metadatafields" : [ {
+      "id" : 238,
+      "element" : "geoLocation",
+      "qualifier" : null,
+      "scopeNote" : "Spatial region or named place where the data was gathered or about which the data is focused.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/238/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/238"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 16,
+          "prefix" : "datacite",
+          "namespace" : "http://datacite.org/schema/kernel-4",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/16"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 239,
+      "element" : "subject",
+      "qualifier" : "fos",
+      "scopeNote" : "Fields of Science and Technology - OECD",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/239/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/239"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 16,
+          "prefix" : "datacite",
+          "namespace" : "http://datacite.org/schema/kernel-4",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/16"
+            }
+          }
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/search/bySchema?page=0&size=100&schema=datacite"
+    }
+  },
+  "page" : {
+    "size" : 100,
+    "totalElements" : 2,
+    "totalPages" : 1,
+    "number" : 0
+  }
+}

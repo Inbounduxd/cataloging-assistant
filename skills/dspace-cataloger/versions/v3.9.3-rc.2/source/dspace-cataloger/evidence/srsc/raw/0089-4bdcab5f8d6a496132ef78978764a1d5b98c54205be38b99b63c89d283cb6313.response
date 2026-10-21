@@ -1,0 +1,85 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:VR151102",
+      "display" : "Quantum chemistry",
+      "value" : "NATURAL SCIENCES::Chemistry::Theoretical chemistry::Quantum chemistry",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Chemistry::Theoretical chemistry",
+        "note" : "Kvantkemi",
+        "hasChildren" : "false",
+        "id" : "VR151102"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR151102/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR151102/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR151102"
+        }
+      }
+    }, {
+      "id" : "srsc:VR151103",
+      "display" : "Statistical mechanics",
+      "value" : "NATURAL SCIENCES::Chemistry::Theoretical chemistry::Statistical mechanics",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Chemistry::Theoretical chemistry",
+        "note" : "Statistisk mekanik",
+        "hasChildren" : "false",
+        "id" : "VR151103"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR151103/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR151103/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR151103"
+        }
+      }
+    }, {
+      "id" : "srsc:VR151104",
+      "display" : "Bioinformatics",
+      "value" : "NATURAL SCIENCES::Chemistry::Theoretical chemistry::Bioinformatics",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Chemistry::Theoretical chemistry",
+        "note" : "Bioinformatik",
+        "hasChildren" : "false",
+        "id" : "VR151104"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR151104/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR151104/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR151104"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 3
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1511/children?page=0&size=100"
+    }
+  }
+}

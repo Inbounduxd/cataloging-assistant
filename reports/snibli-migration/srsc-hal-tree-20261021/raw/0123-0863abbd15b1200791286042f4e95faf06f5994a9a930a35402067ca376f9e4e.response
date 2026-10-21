@@ -1,0 +1,108 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:VR183401",
+      "display" : "Radiology",
+      "value" : "MEDICINE::Physiology and pharmacology::Radiological research::Radiology",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Physiology and pharmacology::Radiological research",
+        "note" : "Radiologi",
+        "hasChildren" : "false",
+        "id" : "VR183401"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR183401/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR183401/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR183401"
+        }
+      }
+    }, {
+      "id" : "srsc:VR183402",
+      "display" : "Diagnostic radiology",
+      "value" : "MEDICINE::Physiology and pharmacology::Radiological research::Diagnostic radiology",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Physiology and pharmacology::Radiological research",
+        "note" : "Diagnostisk radiologi",
+        "hasChildren" : "false",
+        "id" : "VR183402"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR183402/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR183402/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR183402"
+        }
+      }
+    }, {
+      "id" : "srsc:VR183403",
+      "display" : "Radiological physics",
+      "value" : "MEDICINE::Physiology and pharmacology::Radiological research::Radiological physics",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Physiology and pharmacology::Radiological research",
+        "note" : "Radiofysik",
+        "hasChildren" : "false",
+        "id" : "VR183403"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR183403/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR183403/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR183403"
+        }
+      }
+    }, {
+      "id" : "srsc:VR183404",
+      "display" : "Radiation biology",
+      "value" : "MEDICINE::Physiology and pharmacology::Radiological research::Radiation biology",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Physiology and pharmacology::Radiological research",
+        "note" : "Strålningsbiologi",
+        "hasChildren" : "false",
+        "id" : "VR183404"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR183404/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR183404/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR183404"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 4
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1834/children?page=0&size=100"
+    }
+  }
+}

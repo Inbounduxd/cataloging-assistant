@@ -1,0 +1,18 @@
+{
+  "goldenRecord": "GR23",
+  "recordId": null,
+  "title": "ORCID is not an ISSN fragment",
+  "status": "PILOT_ACCEPTED",
+  "purpose": "Regression fixture for identifier classification before DSpace mapping.",
+  "source": "deterministic identifier evidence",
+  "input": "orcid.org/0000-0002-7563-437X; ISSN 1853-1393",
+  "expectedRules": [
+    "ORCID_EVIDENCE_ONLY",
+    "ORCID_SUFFIX_NOT_ISSN",
+    "ADJACENT_ISSN_REMAINS_EXTRACTABLE"
+  ],
+  "mustNever": [
+    "Propose 0000-0002 or 7563-437X as dc.identifier.issn.",
+    "Map an ORCID to a DSpace field without a governed binding."
+  ]
+}

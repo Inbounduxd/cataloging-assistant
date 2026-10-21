@@ -1,0 +1,205 @@
+{
+  "_embedded" : {
+    "metadatafields" : [ {
+      "id" : 208,
+      "element" : "amount",
+      "qualifier" : "currency",
+      "scopeNote" : "The project amount currency",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/208/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/208"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 8,
+          "prefix" : "project",
+          "namespace" : "https://schema.org/Project",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/8"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 207,
+      "element" : "amount",
+      "qualifier" : null,
+      "scopeNote" : "The project amount",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/207/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/207"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 8,
+          "prefix" : "project",
+          "namespace" : "https://schema.org/Project",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/8"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 206,
+      "element" : "endDate",
+      "qualifier" : null,
+      "scopeNote" : "The project end date",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/206/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/206"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 8,
+          "prefix" : "project",
+          "namespace" : "https://schema.org/Project",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/8"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 203,
+      "element" : "funder",
+      "qualifier" : "identifier",
+      "scopeNote" : "Unique identifier of the funding entity.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/203/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/203"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 8,
+          "prefix" : "project",
+          "namespace" : "https://schema.org/Project",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/8"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 202,
+      "element" : "funder",
+      "qualifier" : "name",
+      "scopeNote" : "Name of the funding provider.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/202/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/202"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 8,
+          "prefix" : "project",
+          "namespace" : "https://schema.org/Project",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/8"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 204,
+      "element" : "investigator",
+      "qualifier" : null,
+      "scopeNote" : "Project investigator",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/204/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/204"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 8,
+          "prefix" : "project",
+          "namespace" : "https://schema.org/Project",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/8"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 205,
+      "element" : "startDate",
+      "qualifier" : null,
+      "scopeNote" : "The project start date",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/205/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/205"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 8,
+          "prefix" : "project",
+          "namespace" : "https://schema.org/Project",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/8"
+            }
+          }
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/search/bySchema?page=0&size=100&schema=project"
+    }
+  },
+  "page" : {
+    "size" : 100,
+    "totalElements" : 7,
+    "totalPages" : 1,
+    "number" : 0
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "reviewed_at": "2026-10-21T05:57:29.919087+00:00",
+  "captured_at": "2026-10-21T05:55:07.822945+00:00",
+  "coverage": "AUTHENTICATED_COLLECTION_DEFINITION_AND_CONFIGURED_INVENTORY_PARTIAL",
+  "authenticated": true,
+  "requests": 67,
+  "collection_uuid": "3ce3afb3-94ed-4f60-bfda-0a1242c4d689",
+  "collection_handle": "123456789/393",
+  "collection_name": "Lingüística Maayat'aan, Maya",
+  "definition": "traditional",
+  "results": [
+    {
+      "check": "authentication_and_collection_identity",
+      "status": "PASS"
+    },
+    {
+      "check": "collection_submission_definition",
+      "status": "PASS",
+      "definition": "traditional"
+    },
+    {
+      "check": "original_54_registry_keys",
+      "status": "PASS",
+      "compared_keys": 54,
+      "mismatches": {}
+    },
+    {
+      "check": "configured_forms_vs_v3_9_2",
+      "status": "FAIL",
+      "expected_bindings": 56,
+      "observed_bindings": 57,
+      "unique_keys": 55,
+      "changes": {
+        "BINDING_ADDED": 1,
+        "ORDER_CHANGED": 29
+      }
+    },
+    {
+      "check": "reference_vocabulary_values",
+      "status": "FAIL",
+      "status_counts": {
+        "PASS": 19,
+        "FAIL": 1,
+        "UNKNOWN": 1
+      },
+      "changes": [
+        {
+          "change_type": "VOCABULARY_VALUE_ADDED",
+          "vocabulary": "common_types",
+          "value": "Códice",
+          "count": 1
+        },
+        {
+          "change_type": "VOCABULARY_VALUE_ADDED",
+          "vocabulary": "common_types",
+          "value": "Reseña",
+          "count": 1
+        },
+        {
+          "change_type": "VOCABULARY_VALUE_ADDED",
+          "vocabulary": "common_types",
+          "value": "Documento Colonial",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "check": "active_submission_sections",
+      "status": "UNKNOWN",
+      "http_status": 204
+    },
+    {
+      "check": "srsc_full_hierarchy",
+      "status": "UNKNOWN",
+      "http_status": 422
+    },
+    {
+      "check": "full_migration_equivalence",
+      "status": "UNKNOWN"
+    }
+  ],
+  "snapshot_complete": false,
+  "snapshot_warnings": [
+    "ACTIVE_SUBMISSION_SECTIONS_UNRESOLVED_HTTP_204",
+    "NO_ACTIVE_SUBMISSION_FORMS"
+  ],
+  "errors": [
+    {
+      "surface": "active_submission_sections",
+      "code": "invalid_response",
+      "http_status": 204
+    },
+    {
+      "surface": "vocabulary_entries:srsc",
+      "code": "invalid_response",
+      "http_status": 422
+    }
+  ],
+  "between_captures": {
+    "configured_bindings_identical": true,
+    "referenced_vocabulary_results_identical": true,
+    "scope": "Observable configured controls and reference vocabulary results only; active section membership unresolved",
+    "first_export_sha256": "17bfa6eea9df0dc878c5d07907cfb0aeb2cc9551a617f27a4e3f12ddb90ee7c0",
+    "second_export_sha256": "32693903ed8f7147be2ca3d21877056b8e728388430416e6345577c2234b4fed"
+  },
+  "original_files_preserved": true
+}

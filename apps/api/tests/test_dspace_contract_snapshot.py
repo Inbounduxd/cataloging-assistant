@@ -1,3 +1,5 @@
+from copy import deepcopy
+
 from cataloging_api.dspace.contract_snapshot import (
     build_contract_snapshot,
     diff_contract_snapshots,
@@ -15,7 +17,7 @@ def _field(field_id: int, element: str, qualifier: str | None = None) -> dict:
 
 def _paged(relation: str, values: list[dict], *, number: int = 0, total_pages: int = 1) -> dict:
     return {
-        "_embedded": {relation: values},
+        "_embedded": {relation: deepcopy(values)},
         "page": {
             "number": number,
             "totalPages": total_pages,
@@ -136,8 +138,7 @@ def test_required_change_is_high_severity() -> None:
     current = build_contract_snapshot(_pages(required=True))
     changes = diff_contract_snapshots(previous, current)
     assert any(
-        change.change_type == "REQUIRED_CHANGED" and change.severity == "HIGH"
-        for change in changes
+        change.change_type == "REQUIRED_CHANGED" and change.severity == "HIGH" for change in changes
     )
 
 
@@ -165,9 +166,20 @@ def test_registry_coverage_mismatch_makes_snapshot_incomplete() -> None:
     snapshot = build_contract_snapshot(pages)
     assert snapshot.complete is False
     assert any(
-        warning.startswith("METADATA_FIELD_COVERAGE_MISMATCH:")
-        for warning in snapshot.warnings
+        warning.startswith("METADATA_FIELD_COVERAGE_MISMATCH:") for warning in snapshot.warnings
     )
+
+
+def test_surface_fixtures_preserve_independent_http_payloads() -> None:
+    pages = _pages()
+    global_fields = pages["metadata_fields"][0]["_embedded"]["metadatafields"]
+    schema_fields = pages["metadata_fields_by_schema:dc"][0]["_embedded"]["metadatafields"]
+    assert global_fields == schema_fields
+    assert global_fields is not schema_fields
+    assert global_fields[0] is not schema_fields[0]
+    schema_fields[0]["scopeNote"] = "Changed only in the schema response"
+    schema_fields.pop()
+    assert global_fields == [_field(64, "title"), _field(65, "description")]
 
 
 def test_missing_middle_page_makes_snapshot_incomplete_and_suppresses_removals() -> None:
@@ -218,8 +230,7 @@ def test_inserting_unrelated_binding_reports_order_change_not_title_removal() ->
     changes = diff_contract_snapshots(previous, current)
     title_key = "traditionalpageone:dc.title:0"
     assert any(
-        change.change_type == "ORDER_CHANGED" and change.identity == title_key
-        for change in changes
+        change.change_type == "ORDER_CHANGED" and change.identity == title_key for change in changes
     )
     assert not any(
         change.change_type == "BINDING_REMOVED" and change.identity == title_key

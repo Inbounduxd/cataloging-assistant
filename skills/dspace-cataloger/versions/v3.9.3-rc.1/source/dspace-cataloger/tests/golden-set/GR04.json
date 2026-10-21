@@ -1,0 +1,16 @@
+{
+  "goldenRecord": "GR04",
+  "recordId": 23178,
+  "title": "Aprendizaje situado para el cuidado del paisaje",
+  "status": "PILOT_ACCEPTED",
+  "purpose": "Semantic regression fixture. Does not contain full copyrighted source text.",
+  "expectedRules": [
+    "FULLTEXT_CAN_REDUCE_TOPIC_WEIGHT",
+    "MAYA_GENERIC_NO_FORCED_NORMALIZATION",
+    "NAHUATL_VARIANTS_REQUIRE_POLICY",
+    "COVERAGE_FIELDS_NOT_TOPICAL_GEO"
+  ],
+  "mustNever": [
+    "Normalize generic Maya to Maya yucateco without supporting authority/evidence."
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:VR151801",
+      "display" : "Persistent organic compounds",
+      "value" : "NATURAL SCIENCES::Chemistry::Environmental chemistry::Persistent organic compounds",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Chemistry::Environmental chemistry",
+        "note" : "Persistenta organiska föreningar",
+        "hasChildren" : "false",
+        "id" : "VR151801"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR151801/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR151801/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR151801"
+        }
+      }
+    }, {
+      "id" : "srsc:VR151802",
+      "display" : "Heavy metals and other metals",
+      "value" : "NATURAL SCIENCES::Chemistry::Environmental chemistry::Heavy metals and other metals",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Chemistry::Environmental chemistry",
+        "note" : "Tungmetaller och övriga metaller",
+        "hasChildren" : "false",
+        "id" : "VR151802"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR151802/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR151802/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR151802"
+        }
+      }
+    }, {
+      "id" : "srsc:VR151803",
+      "display" : "Environmental toxicology",
+      "value" : "NATURAL SCIENCES::Chemistry::Environmental chemistry::Environmental toxicology",
+      "otherInformation" : {
+        "parent" : "NATURAL SCIENCES::Chemistry::Environmental chemistry",
+        "note" : "Miljötoxikologi",
+        "hasChildren" : "false",
+        "id" : "VR151803"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR151803/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR151803/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR151803"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 3
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1518/children?page=0&size=100"
+    }
+  }
+}

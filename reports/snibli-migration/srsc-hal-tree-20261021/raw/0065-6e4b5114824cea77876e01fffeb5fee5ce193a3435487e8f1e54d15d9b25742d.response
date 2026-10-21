@@ -1,0 +1,131 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:VR113301",
+      "display" : "French language",
+      "value" : "HUMANITIES and RELIGION::Languages and linguistics::Romance languages::French language",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::Languages and linguistics::Romance languages",
+        "note" : "Franska språket",
+        "hasChildren" : "false",
+        "id" : "VR113301"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113301/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113301/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113301"
+        }
+      }
+    }, {
+      "id" : "srsc:VR113302",
+      "display" : "Italian language",
+      "value" : "HUMANITIES and RELIGION::Languages and linguistics::Romance languages::Italian language",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::Languages and linguistics::Romance languages",
+        "note" : "Italienska språket",
+        "hasChildren" : "false",
+        "id" : "VR113302"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113302/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113302/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113302"
+        }
+      }
+    }, {
+      "id" : "srsc:VR113304",
+      "display" : "Spanish language",
+      "value" : "HUMANITIES and RELIGION::Languages and linguistics::Romance languages::Spanish language",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::Languages and linguistics::Romance languages",
+        "note" : "Spanska språket",
+        "hasChildren" : "false",
+        "id" : "VR113304"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113304/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113304/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113304"
+        }
+      }
+    }, {
+      "id" : "srsc:VR113305",
+      "display" : "Portugese language",
+      "value" : "HUMANITIES and RELIGION::Languages and linguistics::Romance languages::Portugese language",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::Languages and linguistics::Romance languages",
+        "note" : "Portugisiska",
+        "hasChildren" : "false",
+        "id" : "VR113305"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113305/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113305/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113305"
+        }
+      }
+    }, {
+      "id" : "srsc:VR113306",
+      "display" : "Romanian language",
+      "value" : "HUMANITIES and RELIGION::Languages and linguistics::Romance languages::Romanian language",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::Languages and linguistics::Romance languages",
+        "note" : "Rumänska",
+        "hasChildren" : "false",
+        "id" : "VR113306"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113306/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113306/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113306"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 5
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1133/children?page=0&size=100"
+    }
+  }
+}

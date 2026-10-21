@@ -1,0 +1,426 @@
+{
+  "_embedded" : {
+    "entries" : [ {
+      "display" : "Romance",
+      "value" : "Romance",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Germánico",
+      "value" : "Germánico",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Q'anjob'alano",
+      "value" : "Q'anjob'alano",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Amuzgo-mixtecano",
+      "value" : "Amuzgo-mixtecano",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Aguacateco-ixil",
+      "value" : "Aguacateco-ixil",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Zoqueano del golfo",
+      "value" : "Zoqueano del golfo",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Cora-huichol",
+      "value" : "Cora-huichol",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Delta-California",
+      "value" : "Delta-California",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Mixtecano",
+      "value" : "Mixtecano",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Zapotecano",
+      "value" : "Zapotecano",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Otopame",
+      "value" : "Otopame",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Chinantecano",
+      "value" : "Chinantecano",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Popolocano",
+      "value" : "Popolocano",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Lengua aislada",
+      "value" : "Lengua aislada",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Cholano",
+      "value" : "Cholano",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Taracahita",
+      "value" : "Taracahita",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Kaqchikel-tz'utuhil",
+      "value" : "Kaqchikel-tz'utuhil",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Algonquino-fox",
+      "value" : "Algonquino-fox",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Yumano",
+      "value" : "Yumano",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Pai-yumano del norte",
+      "value" : "Pai-yumano del norte",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "K'ichiano",
+      "value" : "K'ichiano",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Yucateco-lacandón",
+      "value" : "Yucateco-lacandón",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Teko-mam",
+      "value" : "Teko-mam",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Cahita",
+      "value" : "Cahita",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Mixeano",
+      "value" : "Mixeano",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Nahuatlano",
+      "value" : "Nahuatlano",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Tepimano",
+      "value" : "Tepimano",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Tepehua",
+      "value" : "Tepehua",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Totonaco",
+      "value" : "Totonaco",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Tlapaneco-subtiaba",
+      "value" : "Tlapaneco-subtiaba",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Tseltalano",
+      "value" : "Tseltalano",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Zoquenano",
+      "value" : "Zoquenano",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "cushítica",
+      "value" : "cushítica",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "abjasio-abaza",
+      "value" : "abjasio-abaza",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "indoirania",
+      "value" : "indoirania",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "germánica",
+      "value" : "germánica",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "kwa",
+      "value" : "kwa",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "semítica",
+      "value" : "semítica",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "itálica (romance)",
+      "value" : "itálica (romance)",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "ávaro-andina",
+      "value" : "ávaro-andina",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "aimara",
+      "value" : "aimara",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "oghuz",
+      "value" : "oghuz",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "kipchak",
+      "value" : "kipchak",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "eslava",
+      "value" : "eslava",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "criollo de base inglesa",
+      "value" : "criollo de base inglesa",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "mandé",
+      "value" : "mandé",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "tibeto-birmana",
+      "value" : "tibeto-birmana",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "celta",
+      "value" : "celta",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "naj",
+      "value" : "naj",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "malayo-polinesia",
+      "value" : "malayo-polinesia",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "algonquina",
+      "value" : "algonquina",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "ogur",
+      "value" : "ogur",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "helénica",
+      "value" : "helénica",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "auxiliar internacional",
+      "value" : "auxiliar internacional",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "fino-ugria",
+      "value" : "fino-ugria",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "vasca",
+      "value" : "vasca",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "atlántica",
+      "value" : "atlántica",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "tupí-guaraní",
+      "value" : "tupí-guaraní",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "chádica",
+      "value" : "chádica",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "oceánica",
+      "value" : "oceánica",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "criollo de base francesa",
+      "value" : "criollo de base francesa",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "ugria",
+      "value" : "ugria",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "armenia",
+      "value" : "armenia",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "bantú",
+      "value" : "bantú",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "volta-níger",
+      "value" : "volta-níger",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "esquimal",
+      "value" : "esquimal",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "japonesa",
+      "value" : "japonesa",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "georgiana",
+      "value" : "georgiana",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "mon-jemer",
+      "value" : "mon-jemer",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "dravídica meridional",
+      "value" : "dravídica meridional",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "coreana",
+      "value" : "coreana",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "sahariana occidental",
+      "value" : "sahariana occidental",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "itálica",
+      "value" : "itálica",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "tai",
+      "value" : "tai",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "báltica",
+      "value" : "báltica",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "mongólica",
+      "value" : "mongólica",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "atabascana",
+      "value" : "atabascana",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "quechua",
+      "value" : "quechua",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "ubanguiana",
+      "value" : "ubanguiana",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "albanesa",
+      "value" : "albanesa",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "karluk",
+      "value" : "karluk",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "sínica",
+      "value" : "sínica",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 82
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularies/linguisticBranchPairs/entries?page=0&size=100"
+    }
+  }
+}

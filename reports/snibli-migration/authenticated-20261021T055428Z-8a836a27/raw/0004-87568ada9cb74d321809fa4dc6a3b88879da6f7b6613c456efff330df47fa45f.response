@@ -1,0 +1,196 @@
+{
+  "_embedded" : {
+    "metadataschemas" : [ {
+      "id" : 1,
+      "prefix" : "dc",
+      "namespace" : "http://dublincore.org/documents/dcmi-terms/",
+      "type" : "metadataschema",
+      "_links" : {
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+        }
+      }
+    }, {
+      "id" : 2,
+      "prefix" : "eperson",
+      "namespace" : "http://dspace.org/eperson",
+      "type" : "metadataschema",
+      "_links" : {
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/2"
+        }
+      }
+    }, {
+      "id" : 3,
+      "prefix" : "dspace",
+      "namespace" : "http://dspace.org/dspace",
+      "type" : "metadataschema",
+      "_links" : {
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/3"
+        }
+      }
+    }, {
+      "id" : 4,
+      "prefix" : "dcterms",
+      "namespace" : "http://purl.org/dc/terms/",
+      "type" : "metadataschema",
+      "_links" : {
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/4"
+        }
+      }
+    }, {
+      "id" : 5,
+      "prefix" : "local",
+      "namespace" : "http://dspace.org/namespace/local/",
+      "type" : "metadataschema",
+      "_links" : {
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/5"
+        }
+      }
+    }, {
+      "id" : 6,
+      "prefix" : "relation",
+      "namespace" : "http://dspace.org/relation",
+      "type" : "metadataschema",
+      "_links" : {
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/6"
+        }
+      }
+    }, {
+      "id" : 7,
+      "prefix" : "person",
+      "namespace" : "https://schema.org/Person",
+      "type" : "metadataschema",
+      "_links" : {
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/7"
+        }
+      }
+    }, {
+      "id" : 8,
+      "prefix" : "project",
+      "namespace" : "https://schema.org/Project",
+      "type" : "metadataschema",
+      "_links" : {
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/8"
+        }
+      }
+    }, {
+      "id" : 9,
+      "prefix" : "organization",
+      "namespace" : "https://schema.org/Organization",
+      "type" : "metadataschema",
+      "_links" : {
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/9"
+        }
+      }
+    }, {
+      "id" : 10,
+      "prefix" : "periodical",
+      "namespace" : "https://schema.org/Periodical",
+      "type" : "metadataschema",
+      "_links" : {
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/10"
+        }
+      }
+    }, {
+      "id" : 11,
+      "prefix" : "creativework",
+      "namespace" : "https://schema.org/CreativeWork",
+      "type" : "metadataschema",
+      "_links" : {
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/11"
+        }
+      }
+    }, {
+      "id" : 12,
+      "prefix" : "creativeworkseries",
+      "namespace" : "https://schema.org/CreativeWorkSeries",
+      "type" : "metadataschema",
+      "_links" : {
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/12"
+        }
+      }
+    }, {
+      "id" : 13,
+      "prefix" : "publicationissue",
+      "namespace" : "https://schema.org/PublicationIssue",
+      "type" : "metadataschema",
+      "_links" : {
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/13"
+        }
+      }
+    }, {
+      "id" : 14,
+      "prefix" : "publicationvolume",
+      "namespace" : "https://schema.org/PublicationVolume",
+      "type" : "metadataschema",
+      "_links" : {
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/14"
+        }
+      }
+    }, {
+      "id" : 15,
+      "prefix" : "oaire",
+      "namespace" : "http://namespace.openaire.eu/schema/oaire/",
+      "type" : "metadataschema",
+      "_links" : {
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/15"
+        }
+      }
+    }, {
+      "id" : 16,
+      "prefix" : "datacite",
+      "namespace" : "http://datacite.org/schema/kernel-4",
+      "type" : "metadataschema",
+      "_links" : {
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/16"
+        }
+      }
+    }, {
+      "id" : 17,
+      "prefix" : "iiif",
+      "namespace" : "http://dspace.org/iiif",
+      "type" : "metadataschema",
+      "_links" : {
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/17"
+        }
+      }
+    }, {
+      "id" : 18,
+      "prefix" : "workflow",
+      "namespace" : "http://www.dspace.org/workflow",
+      "type" : "metadataschema",
+      "_links" : {
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/18"
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas?page=0&size=100"
+    }
+  },
+  "page" : {
+    "size" : 100,
+    "totalElements" : 18,
+    "totalPages" : 1,
+    "number" : 0
+  }
+}

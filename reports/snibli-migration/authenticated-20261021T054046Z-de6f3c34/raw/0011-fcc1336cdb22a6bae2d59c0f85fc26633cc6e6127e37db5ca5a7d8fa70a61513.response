@@ -1,0 +1,367 @@
+{
+  "_embedded" : {
+    "metadatafields" : [ {
+      "id" : 251,
+      "element" : "accessibility",
+      "qualifier" : "settings",
+      "scopeNote" : "Metadata field storing the user-configured accessibility settings values for the EPerson.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/251/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/251"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 3,
+          "prefix" : "dspace",
+          "namespace" : "http://dspace.org/dspace",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/3"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 242,
+      "element" : "agreements",
+      "qualifier" : "cookies",
+      "scopeNote" : "Stores the cookie preferences of an EPerson, as selected in last session. Value will be an array of cookieName/boolean pairs, specifying which cookies are allowed or not allowed.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/242/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/242"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 3,
+          "prefix" : "dspace",
+          "namespace" : "http://dspace.org/dspace",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/3"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 241,
+      "element" : "agreements",
+      "qualifier" : "end-user",
+      "scopeNote" : "Stores whether the End User Agreement has been accepted by an EPerson. Valid values; true, false",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/241/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/241"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 3,
+          "prefix" : "dspace",
+          "namespace" : "http://dspace.org/dspace",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/3"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 7,
+      "element" : "entity",
+      "qualifier" : "type",
+      "scopeNote" : null,
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/7/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/7"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 3,
+          "prefix" : "dspace",
+          "namespace" : "http://dspace.org/dspace",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/3"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 243,
+      "element" : "iiif",
+      "qualifier" : "enabled",
+      "scopeNote" : "Stores a boolean text value (true or false) to indicate if the iiif feature is enabled or not for the dspace object. If absent the value is derived from the parent dspace object",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/243/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/243"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 3,
+          "prefix" : "dspace",
+          "namespace" : "http://dspace.org/dspace",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/3"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 244,
+      "element" : "object",
+      "qualifier" : "owner",
+      "scopeNote" : "Used to support researcher profiles",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/244/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/244"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 3,
+          "prefix" : "dspace",
+          "namespace" : "http://dspace.org/dspace",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/3"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 250,
+      "element" : "orcid",
+      "qualifier" : "authenticated",
+      "scopeNote" : "Stores the timestamp related to the user authentication on ORCID",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/250/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/250"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 3,
+          "prefix" : "dspace",
+          "namespace" : "http://dspace.org/dspace",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/3"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 245,
+      "element" : "orcid",
+      "qualifier" : "scope",
+      "scopeNote" : "Stores the scopes/authorizations granted by the user during authentication on ORCID",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/245/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/245"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 3,
+          "prefix" : "dspace",
+          "namespace" : "http://dspace.org/dspace",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/3"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 248,
+      "element" : "orcid",
+      "qualifier" : "sync-fundings",
+      "scopeNote" : "Stores the funding synchronization with ORCID preference chosen by the user",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/248/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/248"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 3,
+          "prefix" : "dspace",
+          "namespace" : "http://dspace.org/dspace",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/3"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 246,
+      "element" : "orcid",
+      "qualifier" : "sync-mode",
+      "scopeNote" : "Stores the synchronization with ORCID mode chosen by the user",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/246/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/246"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 3,
+          "prefix" : "dspace",
+          "namespace" : "http://dspace.org/dspace",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/3"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 249,
+      "element" : "orcid",
+      "qualifier" : "sync-profile",
+      "scopeNote" : "Stores the profile synchronization with ORCID preference chosen by the user",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/249/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/249"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 3,
+          "prefix" : "dspace",
+          "namespace" : "http://dspace.org/dspace",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/3"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 247,
+      "element" : "orcid",
+      "qualifier" : "sync-publications",
+      "scopeNote" : "Stores the publication synchronization with ORCID preference chosen by the user",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/247/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/247"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 3,
+          "prefix" : "dspace",
+          "namespace" : "http://dspace.org/dspace",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/3"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 240,
+      "element" : "process",
+      "qualifier" : "filetype",
+      "scopeNote" : null,
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/240/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/240"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 3,
+          "prefix" : "dspace",
+          "namespace" : "http://dspace.org/dspace",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/3"
+            }
+          }
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/search/bySchema?page=0&size=100&schema=dspace"
+    }
+  },
+  "page" : {
+    "size" : 100,
+    "totalElements" : 13,
+    "totalPages" : 1,
+    "number" : 0
+  }
+}

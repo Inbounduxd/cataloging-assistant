@@ -1,7 +1,6 @@
-from types import SimpleNamespace
-
 from cataloging_api.dspace.contract_materialize import classify_snapshot_status
 from cataloging_api.dspace.contract_snapshot import ContractChange, ContractSnapshotView
+from cataloging_api.dspace.contract_snapshot_store import DSpaceContractSnapshot
 
 
 def _view(*, complete: bool, semantic_hash: str = "new") -> ContractSnapshotView:
@@ -22,17 +21,40 @@ def test_first_incomplete_snapshot_cannot_be_baseline_candidate() -> None:
 
 
 def test_matching_active_hash_is_no_change() -> None:
-    active = SimpleNamespace(semantic_hash="same")
-    assert classify_snapshot_status(active, _view(complete=True, semantic_hash="same"), []) == "NO_CHANGE"
+    active = DSpaceContractSnapshot(semantic_hash="same", effective_hash=None)
+    assert (
+        classify_snapshot_status(active, _view(complete=True, semantic_hash="same"), [])
+        == "NO_CHANGE"
+    )
 
 
 def test_high_severity_change_requires_review() -> None:
-    active = SimpleNamespace(semantic_hash="old")
+    active = DSpaceContractSnapshot(semantic_hash="old", effective_hash=None)
     changes = [ContractChange("REQUIRED_CHANGED", "HIGH", "binding")]
     assert classify_snapshot_status(active, _view(complete=True), changes) == "REVIEW_REQUIRED"
 
 
 def test_safe_drift_is_detected_without_auto_promotion() -> None:
-    active = SimpleNamespace(semantic_hash="old")
+    active = DSpaceContractSnapshot(semantic_hash="old", effective_hash=None)
     changes = [ContractChange("LABEL_CHANGED", "LOW", "binding")]
     assert classify_snapshot_status(active, _view(complete=True), changes) == "DIFF_DETECTED"
+
+
+def test_approved_effective_hash_takes_precedence_over_observed_hash() -> None:
+    active = DSpaceContractSnapshot(semantic_hash="observed", effective_hash="approved")
+    assert (
+        classify_snapshot_status(active, _view(complete=True, semantic_hash="approved"), [])
+        == "NO_CHANGE"
+    )
+    assert (
+        classify_snapshot_status(active, _view(complete=True, semantic_hash="observed"), [])
+        == "DIFF_DETECTED"
+    )
+
+
+def test_matching_hash_never_overrides_incomplete_evidence() -> None:
+    active = DSpaceContractSnapshot(semantic_hash="observed", effective_hash="approved")
+    assert (
+        classify_snapshot_status(active, _view(complete=False, semantic_hash="approved"), [])
+        == "REVIEW_REQUIRED"
+    )

@@ -1,0 +1,46 @@
+{
+  "_embedded" : {
+    "entries" : [ {
+      "display" : "Didácticos (libros de texto, guías, cuadernos, flashcards, audios, apps)",
+      "value" : "Didácticos",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Históricos (gramáticas, vocabularios, documentos antiguos, tradición oral)",
+      "value" : "Históricos",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Culturales (canciones, poesía, leyendas, ceremonias, arte, literatura traducida)",
+      "value" : "Culturales",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Lingüísticos (gramáticas, diccionarios, metodologías, registros lingüísticos)",
+      "value" : "Lingüísticos",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Derecho",
+      "value" : "Derecho",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Salud",
+      "value" : "Salud",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 6
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularies/primaryClassificationPairs/entries?page=0&size=100"
+    }
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:SCB110",
+      "display" : "Religion/Theology",
+      "value" : "HUMANITIES and RELIGION::Religion/Theology",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION",
+        "note" : "Religionsvetenskap/Teologi",
+        "hasChildren" : "true",
+        "id" : "SCB110"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB110/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB110/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB110"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB111",
+      "display" : "History and philosophy subjects",
+      "value" : "HUMANITIES and RELIGION::History and philosophy subjects",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION",
+        "note" : "Historisk-filosofiska ämnen",
+        "hasChildren" : "true",
+        "id" : "SCB111"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB111/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB111/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB111"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB112",
+      "display" : "Aesthetic subjects",
+      "value" : "HUMANITIES and RELIGION::Aesthetic subjects",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION",
+        "note" : "Estetiska ämnen",
+        "hasChildren" : "true",
+        "id" : "SCB112"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB112/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB112/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB112"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB113",
+      "display" : "Languages and linguistics",
+      "value" : "HUMANITIES and RELIGION::Languages and linguistics",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION",
+        "note" : "Språkvetenskap",
+        "hasChildren" : "true",
+        "id" : "SCB113"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB113/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB113/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB113"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB119",
+      "display" : "Other humanities and religion",
+      "value" : "HUMANITIES and RELIGION::Other humanities and religion",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION",
+        "note" : "Övrig humaniora och religionsvetenskap",
+        "hasChildren" : "false",
+        "id" : "SCB119"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB119/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB119/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB119"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 5
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB11/children?page=0&size=100"
+    }
+  }
+}

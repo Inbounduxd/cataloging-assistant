@@ -1,0 +1,62 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:VR168101",
+      "display" : "Manufacturing engineering",
+      "value" : "TECHNOLOGY::Industrial engineering and economy::Manufacturing engineering and work sciences::Manufacturing engineering",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY::Industrial engineering and economy::Manufacturing engineering and work sciences",
+        "note" : "Produktionsteknik",
+        "hasChildren" : "false",
+        "id" : "VR168101"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR168101/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR168101/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR168101"
+        }
+      }
+    }, {
+      "id" : "srsc:VR168102",
+      "display" : "Work sciences and ergonomics",
+      "value" : "TECHNOLOGY::Industrial engineering and economy::Manufacturing engineering and work sciences::Work sciences and ergonomics",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY::Industrial engineering and economy::Manufacturing engineering and work sciences",
+        "note" : "Arbetsvetenskap och ergonomi",
+        "hasChildren" : "false",
+        "id" : "VR168102"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR168102/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR168102/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR168102"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 2
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1681/children?page=0&size=100"
+    }
+  }
+}

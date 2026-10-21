@@ -1,0 +1,777 @@
+{
+  "scope": "PUBLIC_REGISTRY_54_KEYS_ONLY",
+  "full_contract_comparison": false,
+  "baseline_source": "Verified dspace-cataloger v3.9.2 embedded profile",
+  "baseline_release_sha256": "b6c435a28f8bb1a8faab237258161edf0233b2ce3608ff4e025a8ae2a11acede",
+  "baseline_registry_sha256": "2cfdf7c2ecc3a45ec85e579d439d37b125f0ea5d5013021c73bda6c9dea69576",
+  "observed_registry_sha256": "2cfdf7c2ecc3a45ec85e579d439d37b125f0ea5d5013021c73bda6c9dea69576",
+  "engine": "VERTICAL-022 diff_contract_snapshots (registry subset)",
+  "expected": {
+    "dc.audience.educationLevel": {
+      "id": 277,
+      "key": "dc.audience.educationLevel",
+      "element": "audience",
+      "qualifier": "educationLevel",
+      "scopeNote": "Nivel educativo al que va dirigido el recurso "
+    },
+    "dc.audience.languageTarget": {
+      "id": 278,
+      "key": "dc.audience.languageTarget",
+      "element": "audience",
+      "qualifier": "languageTarget",
+      "scopeNote": "Indica si el recurso esta dirigido a hablantes de L1 o L2"
+    },
+    "dc.contributor.author": {
+      "id": 10,
+      "key": "dc.contributor.author",
+      "element": "contributor",
+      "qualifier": "author",
+      "scopeNote": null
+    },
+    "dc.contributor.editor": {
+      "id": 11,
+      "key": "dc.contributor.editor",
+      "element": "contributor",
+      "qualifier": "editor",
+      "scopeNote": null
+    },
+    "dc.contributor.institution": {
+      "id": 270,
+      "key": "dc.contributor.institution",
+      "element": "contributor",
+      "qualifier": "institution",
+      "scopeNote": "descripción del campo, por ejemplo: “Institución a la que pertenece el autor”"
+    },
+    "dc.contributor.other": {
+      "id": 13,
+      "key": "dc.contributor.other",
+      "element": "contributor",
+      "qualifier": "other",
+      "scopeNote": null
+    },
+    "dc.contributor.translator": {
+      "id": 268,
+      "key": "dc.contributor.translator",
+      "element": "contributor",
+      "qualifier": "translator",
+      "scopeNote": "Traductor del recurso"
+    },
+    "dc.coverage.century": {
+      "id": 283,
+      "key": "dc.coverage.century",
+      "element": "coverage",
+      "qualifier": "century",
+      "scopeNote": "Siglo al que pertenece el recurso"
+    },
+    "dc.coverage.community": {
+      "id": 282,
+      "key": "dc.coverage.community",
+      "element": "coverage",
+      "qualifier": "community",
+      "scopeNote": "Comunidad de origen del recurso"
+    },
+    "dc.coverage.country": {
+      "id": 279,
+      "key": "dc.coverage.country",
+      "element": "coverage",
+      "qualifier": "country",
+      "scopeNote": "Pais de origen del recurso"
+    },
+    "dc.coverage.countryFound": {
+      "id": 290,
+      "key": "dc.coverage.countryFound",
+      "element": "coverage",
+      "qualifier": "countryFound",
+      "scopeNote": "Pais donde se encontro el recurso"
+    },
+    "dc.coverage.region": {
+      "id": 281,
+      "key": "dc.coverage.region",
+      "element": "coverage",
+      "qualifier": "region",
+      "scopeNote": "Region de origen del recurso"
+    },
+    "dc.coverage.state": {
+      "id": 280,
+      "key": "dc.coverage.state",
+      "element": "coverage",
+      "qualifier": "state",
+      "scopeNote": "Estado de origen del recurso"
+    },
+    "dc.coverage.temporal": {
+      "id": 15,
+      "key": "dc.coverage.temporal",
+      "element": "coverage",
+      "qualifier": "temporal",
+      "scopeNote": "Temporal characteristics of content."
+    },
+    "dc.date.issued": {
+      "id": 22,
+      "key": "dc.date.issued",
+      "element": "date",
+      "qualifier": "issued",
+      "scopeNote": "Date of publication or distribution."
+    },
+    "dc.description": {
+      "id": 35,
+      "key": "dc.description",
+      "element": "description",
+      "qualifier": null,
+      "scopeNote": "Catch-all for any description not defined by qualifiers."
+    },
+    "dc.description.abstract": {
+      "id": 36,
+      "key": "dc.description.abstract",
+      "element": "description",
+      "qualifier": "abstract",
+      "scopeNote": "Abstract or summary."
+    },
+    "dc.description.languageUsage": {
+      "id": 262,
+      "key": "dc.description.languageUsage",
+      "element": "description",
+      "qualifier": "languageUsage",
+      "scopeNote": "Uso linguistico del recurso: monolingue, bilingue o multilingue."
+    },
+    "dc.description.registeredLanguage": {
+      "id": 263,
+      "key": "dc.description.registeredLanguage",
+      "element": "description",
+      "qualifier": "registeredLanguage",
+      "scopeNote": "Lengua registrada en el recurso"
+    },
+    "dc.format.extent": {
+      "id": 43,
+      "key": "dc.format.extent",
+      "element": "format",
+      "qualifier": "extent",
+      "scopeNote": "Size or duration."
+    },
+    "dc.format.medium": {
+      "id": 44,
+      "key": "dc.format.medium",
+      "element": "format",
+      "qualifier": "medium",
+      "scopeNote": "Physical medium."
+    },
+    "dc.identifier.doi": {
+      "id": 32,
+      "key": "dc.identifier.doi",
+      "element": "identifier",
+      "qualifier": "doi",
+      "scopeNote": null
+    },
+    "dc.identifier.eisbn": {
+      "id": 286,
+      "key": "dc.identifier.eisbn",
+      "element": "identifier",
+      "qualifier": "eisbn",
+      "scopeNote": "Electronic ISBN"
+    },
+    "dc.identifier.eissn": {
+      "id": 285,
+      "key": "dc.identifier.eissn",
+      "element": "identifier",
+      "qualifier": "eissn",
+      "scopeNote": "Electronic ISSN"
+    },
+    "dc.identifier.govdoc": {
+      "id": 26,
+      "key": "dc.identifier.govdoc",
+      "element": "identifier",
+      "qualifier": "govdoc",
+      "scopeNote": "A government document number"
+    },
+    "dc.identifier.handle": {
+      "id": 288,
+      "key": "dc.identifier.handle",
+      "element": "identifier",
+      "qualifier": "handle",
+      "scopeNote": "Handle\n"
+    },
+    "dc.identifier.isbn": {
+      "id": 27,
+      "key": "dc.identifier.isbn",
+      "element": "identifier",
+      "qualifier": "isbn",
+      "scopeNote": "International Standard Book Number"
+    },
+    "dc.identifier.ismn": {
+      "id": 30,
+      "key": "dc.identifier.ismn",
+      "element": "identifier",
+      "qualifier": "ismn",
+      "scopeNote": "International Standard Music Number"
+    },
+    "dc.identifier.issn": {
+      "id": 28,
+      "key": "dc.identifier.issn",
+      "element": "identifier",
+      "qualifier": "issn",
+      "scopeNote": "International Standard Serial Number"
+    },
+    "dc.identifier.issue": {
+      "id": 269,
+      "key": "dc.identifier.issue",
+      "element": "identifier",
+      "qualifier": "issue",
+      "scopeNote": "Fixeale"
+    },
+    "dc.identifier.other": {
+      "id": 31,
+      "key": "dc.identifier.other",
+      "element": "identifier",
+      "qualifier": "other",
+      "scopeNote": "A known identifier type common to a local collection."
+    },
+    "dc.identifier.uri": {
+      "id": 34,
+      "key": "dc.identifier.uri",
+      "element": "identifier",
+      "qualifier": "uri",
+      "scopeNote": "Uniform Resource Identifier"
+    },
+    "dc.identifier.url": {
+      "id": 287,
+      "key": "dc.identifier.url",
+      "element": "identifier",
+      "qualifier": "url",
+      "scopeNote": "URL"
+    },
+    "dc.language.iso6391": {
+      "id": 273,
+      "key": "dc.language.iso6391",
+      "element": "language",
+      "qualifier": "iso6391",
+      "scopeNote": "Codigo ISO 639-1 de la lengua del recurso"
+    },
+    "dc.publisher": {
+      "id": 48,
+      "key": "dc.publisher",
+      "element": "publisher",
+      "qualifier": null,
+      "scopeNote": "Entity responsible for publication, distribution, or imprint."
+    },
+    "dc.relation.ispartof": {
+      "id": 51,
+      "key": "dc.relation.ispartof",
+      "element": "relation",
+      "qualifier": "ispartof",
+      "scopeNote": "References physically or logically containing item."
+    },
+    "dc.rights": {
+      "id": 62,
+      "key": "dc.rights",
+      "element": "rights",
+      "qualifier": null,
+      "scopeNote": "Terms governing use and reproduction."
+    },
+    "dc.rights.accessRights": {
+      "id": 274,
+      "key": "dc.rights.accessRights",
+      "element": "rights",
+      "qualifier": "accessRights",
+      "scopeNote": "Derecho de acceso al recurso"
+    },
+    "dc.rights.license": {
+      "id": 6,
+      "key": "dc.rights.license",
+      "element": "rights",
+      "qualifier": "license",
+      "scopeNote": null
+    },
+    "dc.source": {
+      "id": 64,
+      "key": "dc.source",
+      "element": "source",
+      "qualifier": null,
+      "scopeNote": "Do not use; only for harvested metadata."
+    },
+    "dc.source.booktitle": {
+      "id": 292,
+      "key": "dc.source.booktitle",
+      "element": "source",
+      "qualifier": "booktitle",
+      "scopeNote": "Titulo del libro del que forma parte el capitulo"
+    },
+    "dc.source.physicalRepository": {
+      "id": 275,
+      "key": "dc.source.physicalRepository",
+      "element": "source",
+      "qualifier": "physicalRepository",
+      "scopeNote": "Repositorio fisico donde se encuentra el recurso"
+    },
+    "dc.subject": {
+      "id": 66,
+      "key": "dc.subject",
+      "element": "subject",
+      "qualifier": null,
+      "scopeNote": "Uncontrolled index term."
+    },
+    "dc.subject.linguiscgroup": {
+      "id": 264,
+      "key": "dc.subject.linguiscgroup",
+      "element": "subject",
+      "qualifier": "linguiscgroup",
+      "scopeNote": "Agrupacion linguistica de la que trata el texto"
+    },
+    "dc.subject.linguisticBranch": {
+      "id": 266,
+      "key": "dc.subject.linguisticBranch",
+      "element": "subject",
+      "qualifier": "linguisticBranch",
+      "scopeNote": "Rama linguistica a la que pertenece la lengua del recurso"
+    },
+    "dc.subject.linguisticFamily": {
+      "id": 265,
+      "key": "dc.subject.linguisticFamily",
+      "element": "subject",
+      "qualifier": "linguisticFamily",
+      "scopeNote": "Familia linguistica a la que pertenece la lengua del recurso"
+    },
+    "dc.subject.linguisticVariant": {
+      "id": 267,
+      "key": "dc.subject.linguisticVariant",
+      "element": "subject",
+      "qualifier": "linguisticVariant",
+      "scopeNote": "Variante linguistica (CLIN) del recurso"
+    },
+    "dc.subject.primaryClassification": {
+      "id": 276,
+      "key": "dc.subject.primaryClassification",
+      "element": "subject",
+      "qualifier": "primaryClassification",
+      "scopeNote": "Clasificacion primaria del recurso"
+    },
+    "dc.subject.selfDenomination": {
+      "id": 272,
+      "key": "dc.subject.selfDenomination",
+      "element": "subject",
+      "qualifier": "selfDenomination",
+      "scopeNote": "Autodenominacion de la lengua registrada en el recurso"
+    },
+    "dc.title": {
+      "id": 73,
+      "key": "dc.title",
+      "element": "title",
+      "qualifier": null,
+      "scopeNote": "Title statement/title proper."
+    },
+    "dc.title.alternative": {
+      "id": 74,
+      "key": "dc.title.alternative",
+      "element": "title",
+      "qualifier": "alternative",
+      "scopeNote": "Varying (or substitute) form of title proper appearing in item,\n    e.g. abbreviation or translation"
+    },
+    "dc.title.subtitle": {
+      "id": 291,
+      "key": "dc.title.subtitle",
+      "element": "title",
+      "qualifier": "subtitle",
+      "scopeNote": "Subtitulo del recurso"
+    },
+    "dc.type": {
+      "id": 75,
+      "key": "dc.type",
+      "element": "type",
+      "qualifier": null,
+      "scopeNote": "Nature or genre of content."
+    },
+    "dcterms.provenance": {
+      "id": 115,
+      "key": "dcterms.provenance",
+      "element": "provenance",
+      "qualifier": null,
+      "scopeNote": "A statement of any changes in ownership and custody of the resource since its creation that are significant for its authenticity, integrity, and interpretation."
+    }
+  },
+  "observed": {
+    "dc.audience.educationLevel": {
+      "key": "dc.audience.educationLevel",
+      "id": 277,
+      "element": "audience",
+      "qualifier": "educationLevel",
+      "scopeNote": "Nivel educativo al que va dirigido el recurso "
+    },
+    "dc.audience.languageTarget": {
+      "key": "dc.audience.languageTarget",
+      "id": 278,
+      "element": "audience",
+      "qualifier": "languageTarget",
+      "scopeNote": "Indica si el recurso esta dirigido a hablantes de L1 o L2"
+    },
+    "dc.contributor.author": {
+      "key": "dc.contributor.author",
+      "id": 10,
+      "element": "contributor",
+      "qualifier": "author",
+      "scopeNote": null
+    },
+    "dc.contributor.editor": {
+      "key": "dc.contributor.editor",
+      "id": 11,
+      "element": "contributor",
+      "qualifier": "editor",
+      "scopeNote": null
+    },
+    "dc.contributor.institution": {
+      "key": "dc.contributor.institution",
+      "id": 270,
+      "element": "contributor",
+      "qualifier": "institution",
+      "scopeNote": "descripción del campo, por ejemplo: “Institución a la que pertenece el autor”"
+    },
+    "dc.contributor.other": {
+      "key": "dc.contributor.other",
+      "id": 13,
+      "element": "contributor",
+      "qualifier": "other",
+      "scopeNote": null
+    },
+    "dc.contributor.translator": {
+      "key": "dc.contributor.translator",
+      "id": 268,
+      "element": "contributor",
+      "qualifier": "translator",
+      "scopeNote": "Traductor del recurso"
+    },
+    "dc.coverage.century": {
+      "key": "dc.coverage.century",
+      "id": 283,
+      "element": "coverage",
+      "qualifier": "century",
+      "scopeNote": "Siglo al que pertenece el recurso"
+    },
+    "dc.coverage.community": {
+      "key": "dc.coverage.community",
+      "id": 282,
+      "element": "coverage",
+      "qualifier": "community",
+      "scopeNote": "Comunidad de origen del recurso"
+    },
+    "dc.coverage.country": {
+      "key": "dc.coverage.country",
+      "id": 279,
+      "element": "coverage",
+      "qualifier": "country",
+      "scopeNote": "Pais de origen del recurso"
+    },
+    "dc.coverage.countryFound": {
+      "key": "dc.coverage.countryFound",
+      "id": 290,
+      "element": "coverage",
+      "qualifier": "countryFound",
+      "scopeNote": "Pais donde se encontro el recurso"
+    },
+    "dc.coverage.region": {
+      "key": "dc.coverage.region",
+      "id": 281,
+      "element": "coverage",
+      "qualifier": "region",
+      "scopeNote": "Region de origen del recurso"
+    },
+    "dc.coverage.state": {
+      "key": "dc.coverage.state",
+      "id": 280,
+      "element": "coverage",
+      "qualifier": "state",
+      "scopeNote": "Estado de origen del recurso"
+    },
+    "dc.coverage.temporal": {
+      "key": "dc.coverage.temporal",
+      "id": 15,
+      "element": "coverage",
+      "qualifier": "temporal",
+      "scopeNote": "Temporal characteristics of content."
+    },
+    "dc.date.issued": {
+      "key": "dc.date.issued",
+      "id": 22,
+      "element": "date",
+      "qualifier": "issued",
+      "scopeNote": "Date of publication or distribution."
+    },
+    "dc.description": {
+      "key": "dc.description",
+      "id": 35,
+      "element": "description",
+      "qualifier": null,
+      "scopeNote": "Catch-all for any description not defined by qualifiers."
+    },
+    "dc.description.abstract": {
+      "key": "dc.description.abstract",
+      "id": 36,
+      "element": "description",
+      "qualifier": "abstract",
+      "scopeNote": "Abstract or summary."
+    },
+    "dc.description.languageUsage": {
+      "key": "dc.description.languageUsage",
+      "id": 262,
+      "element": "description",
+      "qualifier": "languageUsage",
+      "scopeNote": "Uso linguistico del recurso: monolingue, bilingue o multilingue."
+    },
+    "dc.description.registeredLanguage": {
+      "key": "dc.description.registeredLanguage",
+      "id": 263,
+      "element": "description",
+      "qualifier": "registeredLanguage",
+      "scopeNote": "Lengua registrada en el recurso"
+    },
+    "dc.format.extent": {
+      "key": "dc.format.extent",
+      "id": 43,
+      "element": "format",
+      "qualifier": "extent",
+      "scopeNote": "Size or duration."
+    },
+    "dc.format.medium": {
+      "key": "dc.format.medium",
+      "id": 44,
+      "element": "format",
+      "qualifier": "medium",
+      "scopeNote": "Physical medium."
+    },
+    "dc.identifier.doi": {
+      "key": "dc.identifier.doi",
+      "id": 32,
+      "element": "identifier",
+      "qualifier": "doi",
+      "scopeNote": null
+    },
+    "dc.identifier.eisbn": {
+      "key": "dc.identifier.eisbn",
+      "id": 286,
+      "element": "identifier",
+      "qualifier": "eisbn",
+      "scopeNote": "Electronic ISBN"
+    },
+    "dc.identifier.eissn": {
+      "key": "dc.identifier.eissn",
+      "id": 285,
+      "element": "identifier",
+      "qualifier": "eissn",
+      "scopeNote": "Electronic ISSN"
+    },
+    "dc.identifier.govdoc": {
+      "key": "dc.identifier.govdoc",
+      "id": 26,
+      "element": "identifier",
+      "qualifier": "govdoc",
+      "scopeNote": "A government document number"
+    },
+    "dc.identifier.handle": {
+      "key": "dc.identifier.handle",
+      "id": 288,
+      "element": "identifier",
+      "qualifier": "handle",
+      "scopeNote": "Handle\n"
+    },
+    "dc.identifier.isbn": {
+      "key": "dc.identifier.isbn",
+      "id": 27,
+      "element": "identifier",
+      "qualifier": "isbn",
+      "scopeNote": "International Standard Book Number"
+    },
+    "dc.identifier.ismn": {
+      "key": "dc.identifier.ismn",
+      "id": 30,
+      "element": "identifier",
+      "qualifier": "ismn",
+      "scopeNote": "International Standard Music Number"
+    },
+    "dc.identifier.issn": {
+      "key": "dc.identifier.issn",
+      "id": 28,
+      "element": "identifier",
+      "qualifier": "issn",
+      "scopeNote": "International Standard Serial Number"
+    },
+    "dc.identifier.issue": {
+      "key": "dc.identifier.issue",
+      "id": 269,
+      "element": "identifier",
+      "qualifier": "issue",
+      "scopeNote": "Fixeale"
+    },
+    "dc.identifier.other": {
+      "key": "dc.identifier.other",
+      "id": 31,
+      "element": "identifier",
+      "qualifier": "other",
+      "scopeNote": "A known identifier type common to a local collection."
+    },
+    "dc.identifier.uri": {
+      "key": "dc.identifier.uri",
+      "id": 34,
+      "element": "identifier",
+      "qualifier": "uri",
+      "scopeNote": "Uniform Resource Identifier"
+    },
+    "dc.identifier.url": {
+      "key": "dc.identifier.url",
+      "id": 287,
+      "element": "identifier",
+      "qualifier": "url",
+      "scopeNote": "URL"
+    },
+    "dc.language.iso6391": {
+      "key": "dc.language.iso6391",
+      "id": 273,
+      "element": "language",
+      "qualifier": "iso6391",
+      "scopeNote": "Codigo ISO 639-1 de la lengua del recurso"
+    },
+    "dc.publisher": {
+      "key": "dc.publisher",
+      "id": 48,
+      "element": "publisher",
+      "qualifier": null,
+      "scopeNote": "Entity responsible for publication, distribution, or imprint."
+    },
+    "dc.relation.ispartof": {
+      "key": "dc.relation.ispartof",
+      "id": 51,
+      "element": "relation",
+      "qualifier": "ispartof",
+      "scopeNote": "References physically or logically containing item."
+    },
+    "dc.rights": {
+      "key": "dc.rights",
+      "id": 62,
+      "element": "rights",
+      "qualifier": null,
+      "scopeNote": "Terms governing use and reproduction."
+    },
+    "dc.rights.accessRights": {
+      "key": "dc.rights.accessRights",
+      "id": 274,
+      "element": "rights",
+      "qualifier": "accessRights",
+      "scopeNote": "Derecho de acceso al recurso"
+    },
+    "dc.rights.license": {
+      "key": "dc.rights.license",
+      "id": 6,
+      "element": "rights",
+      "qualifier": "license",
+      "scopeNote": null
+    },
+    "dc.source": {
+      "key": "dc.source",
+      "id": 64,
+      "element": "source",
+      "qualifier": null,
+      "scopeNote": "Do not use; only for harvested metadata."
+    },
+    "dc.source.booktitle": {
+      "key": "dc.source.booktitle",
+      "id": 292,
+      "element": "source",
+      "qualifier": "booktitle",
+      "scopeNote": "Titulo del libro del que forma parte el capitulo"
+    },
+    "dc.source.physicalRepository": {
+      "key": "dc.source.physicalRepository",
+      "id": 275,
+      "element": "source",
+      "qualifier": "physicalRepository",
+      "scopeNote": "Repositorio fisico donde se encuentra el recurso"
+    },
+    "dc.subject": {
+      "key": "dc.subject",
+      "id": 66,
+      "element": "subject",
+      "qualifier": null,
+      "scopeNote": "Uncontrolled index term."
+    },
+    "dc.subject.linguiscgroup": {
+      "key": "dc.subject.linguiscgroup",
+      "id": 264,
+      "element": "subject",
+      "qualifier": "linguiscgroup",
+      "scopeNote": "Agrupacion linguistica de la que trata el texto"
+    },
+    "dc.subject.linguisticBranch": {
+      "key": "dc.subject.linguisticBranch",
+      "id": 266,
+      "element": "subject",
+      "qualifier": "linguisticBranch",
+      "scopeNote": "Rama linguistica a la que pertenece la lengua del recurso"
+    },
+    "dc.subject.linguisticFamily": {
+      "key": "dc.subject.linguisticFamily",
+      "id": 265,
+      "element": "subject",
+      "qualifier": "linguisticFamily",
+      "scopeNote": "Familia linguistica a la que pertenece la lengua del recurso"
+    },
+    "dc.subject.linguisticVariant": {
+      "key": "dc.subject.linguisticVariant",
+      "id": 267,
+      "element": "subject",
+      "qualifier": "linguisticVariant",
+      "scopeNote": "Variante linguistica (CLIN) del recurso"
+    },
+    "dc.subject.primaryClassification": {
+      "key": "dc.subject.primaryClassification",
+      "id": 276,
+      "element": "subject",
+      "qualifier": "primaryClassification",
+      "scopeNote": "Clasificacion primaria del recurso"
+    },
+    "dc.subject.selfDenomination": {
+      "key": "dc.subject.selfDenomination",
+      "id": 272,
+      "element": "subject",
+      "qualifier": "selfDenomination",
+      "scopeNote": "Autodenominacion de la lengua registrada en el recurso"
+    },
+    "dc.title": {
+      "key": "dc.title",
+      "id": 73,
+      "element": "title",
+      "qualifier": null,
+      "scopeNote": "Title statement/title proper."
+    },
+    "dc.title.alternative": {
+      "key": "dc.title.alternative",
+      "id": 74,
+      "element": "title",
+      "qualifier": "alternative",
+      "scopeNote": "Varying (or substitute) form of title proper appearing in item,\n    e.g. abbreviation or translation"
+    },
+    "dc.title.subtitle": {
+      "key": "dc.title.subtitle",
+      "id": 291,
+      "element": "title",
+      "qualifier": "subtitle",
+      "scopeNote": "Subtitulo del recurso"
+    },
+    "dc.type": {
+      "key": "dc.type",
+      "id": 75,
+      "element": "type",
+      "qualifier": null,
+      "scopeNote": "Nature or genre of content."
+    },
+    "dcterms.provenance": {
+      "key": "dcterms.provenance",
+      "id": 115,
+      "element": "provenance",
+      "qualifier": null,
+      "scopeNote": "A statement of any changes in ownership and custody of the resource since its creation that are significant for its authenticity, integrity, and interpretation."
+    }
+  },
+  "changes": [],
+  "dimension_mismatches": {},
+  "raw_evidence_file": "inventory.json",
+  "warnings": [
+    "This is not a comparison against the approved ACTIVE runtime snapshot.",
+    "Only registry presence, identity, IDs and scope notes are comparable.",
+    "293 versus 292 is a global count signal; no full historical registry is available to identify the added field."
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:SCB1711",
+      "display" : "Soil physics",
+      "value" : "FORESTRY, AGRICULTURAL SCIENCES and LANDSCAPE PLANNING::Soil science::Soil physics",
+      "otherInformation" : {
+        "parent" : "FORESTRY, AGRICULTURAL SCIENCES and LANDSCAPE PLANNING::Soil science",
+        "note" : "Markfysik",
+        "hasChildren" : "false",
+        "id" : "SCB1711"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1711/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1711/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1711"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1712",
+      "display" : "Soil chemistry",
+      "value" : "FORESTRY, AGRICULTURAL SCIENCES and LANDSCAPE PLANNING::Soil science::Soil chemistry",
+      "otherInformation" : {
+        "parent" : "FORESTRY, AGRICULTURAL SCIENCES and LANDSCAPE PLANNING::Soil science",
+        "note" : "Markkemi",
+        "hasChildren" : "false",
+        "id" : "SCB1712"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1712/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1712/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1712"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1713",
+      "display" : "Soil biology",
+      "value" : "FORESTRY, AGRICULTURAL SCIENCES and LANDSCAPE PLANNING::Soil science::Soil biology",
+      "otherInformation" : {
+        "parent" : "FORESTRY, AGRICULTURAL SCIENCES and LANDSCAPE PLANNING::Soil science",
+        "note" : "Markbiologi",
+        "hasChildren" : "false",
+        "id" : "SCB1713"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1713/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1713/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1713"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1714",
+      "display" : "Pedology",
+      "value" : "FORESTRY, AGRICULTURAL SCIENCES and LANDSCAPE PLANNING::Soil science::Pedology",
+      "otherInformation" : {
+        "parent" : "FORESTRY, AGRICULTURAL SCIENCES and LANDSCAPE PLANNING::Soil science",
+        "note" : "Jordmånslära",
+        "hasChildren" : "false",
+        "id" : "SCB1714"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1714/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1714/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1714"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 4
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB171/children?page=0&size=100"
+    }
+  }
+}

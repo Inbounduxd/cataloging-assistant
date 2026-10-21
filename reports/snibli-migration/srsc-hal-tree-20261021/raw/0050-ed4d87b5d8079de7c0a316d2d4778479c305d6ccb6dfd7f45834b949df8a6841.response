@@ -1,0 +1,85 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:SCB1811",
+      "display" : "Cell biology",
+      "value" : "MEDICINE::Morphology, cell biology, pathology::Cell biology",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Morphology, cell biology, pathology",
+        "note" : "Cellbiologi",
+        "hasChildren" : "true",
+        "id" : "SCB1811"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1811/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1811/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1811"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1812",
+      "display" : "Morphology",
+      "value" : "MEDICINE::Morphology, cell biology, pathology::Morphology",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Morphology, cell biology, pathology",
+        "note" : "Morfologi",
+        "hasChildren" : "true",
+        "id" : "SCB1812"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1812/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1812/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1812"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1813",
+      "display" : "Pathology",
+      "value" : "MEDICINE::Morphology, cell biology, pathology::Pathology",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Morphology, cell biology, pathology",
+        "note" : "Patologi",
+        "hasChildren" : "true",
+        "id" : "SCB1813"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1813/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1813/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1813"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 3
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB181/children?page=0&size=100"
+    }
+  }
+}

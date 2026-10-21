@@ -1,0 +1,1501 @@
+{
+  "_embedded" : {
+    "metadatafields" : [ {
+      "id" : 76,
+      "element" : "abstract",
+      "qualifier" : null,
+      "scopeNote" : "A summary of the resource.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/76/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/76"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 4,
+          "prefix" : "dcterms",
+          "namespace" : "http://purl.org/dc/terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/4"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 77,
+      "element" : "accessRights",
+      "qualifier" : null,
+      "scopeNote" : "Information about who can access the resource or an indication of its security status. May include information regarding access or restrictions based on privacy, security, or other policies.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/77/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/77"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 4,
+          "prefix" : "dcterms",
+          "namespace" : "http://purl.org/dc/terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/4"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 78,
+      "element" : "accrualMethod",
+      "qualifier" : null,
+      "scopeNote" : "The method by which items are added to a collection.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/78/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/78"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 4,
+          "prefix" : "dcterms",
+          "namespace" : "http://purl.org/dc/terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/4"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 79,
+      "element" : "accrualPeriodicity",
+      "qualifier" : null,
+      "scopeNote" : "The frequency with which items are added to a collection.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/79/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/79"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 4,
+          "prefix" : "dcterms",
+          "namespace" : "http://purl.org/dc/terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/4"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 80,
+      "element" : "accrualPolicy",
+      "qualifier" : null,
+      "scopeNote" : "The policy governing the addition of items to a collection.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/80/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/80"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 4,
+          "prefix" : "dcterms",
+          "namespace" : "http://purl.org/dc/terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/4"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 81,
+      "element" : "alternative",
+      "qualifier" : null,
+      "scopeNote" : "An alternative name for the resource.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/81/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/81"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 4,
+          "prefix" : "dcterms",
+          "namespace" : "http://purl.org/dc/terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/4"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 82,
+      "element" : "audience",
+      "qualifier" : null,
+      "scopeNote" : "A class of entity for whom the resource is intended or useful.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/82/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/82"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 4,
+          "prefix" : "dcterms",
+          "namespace" : "http://purl.org/dc/terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/4"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 83,
+      "element" : "available",
+      "qualifier" : null,
+      "scopeNote" : "Date (often a range) that the resource became or will become available.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/83/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/83"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 4,
+          "prefix" : "dcterms",
+          "namespace" : "http://purl.org/dc/terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/4"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 84,
+      "element" : "bibliographicCitation",
+      "qualifier" : null,
+      "scopeNote" : "Recommended practice is to include sufficient bibliographic detail to identify the resource as unambiguously as possible.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/84/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/84"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 4,
+          "prefix" : "dcterms",
+          "namespace" : "http://purl.org/dc/terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/4"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 85,
+      "element" : "conformsTo",
+      "qualifier" : null,
+      "scopeNote" : "An established standard to which the described resource conforms.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/85/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/85"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 4,
+          "prefix" : "dcterms",
+          "namespace" : "http://purl.org/dc/terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/4"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 86,
+      "element" : "contributor",
+      "qualifier" : null,
+      "scopeNote" : "An entity responsible for making contributions to the resource. Examples of a Contributor include a person, an organization, or a service.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/86/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/86"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 4,
+          "prefix" : "dcterms",
+          "namespace" : "http://purl.org/dc/terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/4"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 87,
+      "element" : "coverage",
+      "qualifier" : null,
+      "scopeNote" : "The spatial or temporal topic of the resource, the spatial applicability of the resource, or the jurisdiction under which the resource is relevant.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/87/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/87"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 4,
+          "prefix" : "dcterms",
+          "namespace" : "http://purl.org/dc/terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/4"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 88,
+      "element" : "created",
+      "qualifier" : null,
+      "scopeNote" : "Date of creation of the resource.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/88/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/88"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 4,
+          "prefix" : "dcterms",
+          "namespace" : "http://purl.org/dc/terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/4"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 89,
+      "element" : "creator",
+      "qualifier" : null,
+      "scopeNote" : "An entity primarily responsible for making the resource.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/89/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/89"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 4,
+          "prefix" : "dcterms",
+          "namespace" : "http://purl.org/dc/terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/4"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 90,
+      "element" : "date",
+      "qualifier" : null,
+      "scopeNote" : "A point or period of time associated with an event in the lifecycle of the resource.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/90/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/90"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 4,
+          "prefix" : "dcterms",
+          "namespace" : "http://purl.org/dc/terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/4"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 91,
+      "element" : "dateAccepted",
+      "qualifier" : null,
+      "scopeNote" : "Date of acceptance of the resource.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/91/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/91"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 4,
+          "prefix" : "dcterms",
+          "namespace" : "http://purl.org/dc/terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/4"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 92,
+      "element" : "dateCopyrighted",
+      "qualifier" : null,
+      "scopeNote" : "Date of copyright.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/92/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/92"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 4,
+          "prefix" : "dcterms",
+          "namespace" : "http://purl.org/dc/terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/4"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 93,
+      "element" : "dateSubmitted",
+      "qualifier" : null,
+      "scopeNote" : "Date of submission of the resource.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/93/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/93"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 4,
+          "prefix" : "dcterms",
+          "namespace" : "http://purl.org/dc/terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/4"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 94,
+      "element" : "description",
+      "qualifier" : null,
+      "scopeNote" : "An account of the resource.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/94/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/94"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 4,
+          "prefix" : "dcterms",
+          "namespace" : "http://purl.org/dc/terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/4"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 95,
+      "element" : "educationLevel",
+      "qualifier" : null,
+      "scopeNote" : "A class of entity, defined in terms of progression through an educational or training context, for which the described resource is intended.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/95/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/95"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 4,
+          "prefix" : "dcterms",
+          "namespace" : "http://purl.org/dc/terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/4"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 96,
+      "element" : "extent",
+      "qualifier" : null,
+      "scopeNote" : "The size or duration of the resource.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/96/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/96"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 4,
+          "prefix" : "dcterms",
+          "namespace" : "http://purl.org/dc/terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/4"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 97,
+      "element" : "format",
+      "qualifier" : null,
+      "scopeNote" : "The file format, physical medium, or dimensions of the resource.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/97/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/97"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 4,
+          "prefix" : "dcterms",
+          "namespace" : "http://purl.org/dc/terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/4"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 98,
+      "element" : "hasFormat",
+      "qualifier" : null,
+      "scopeNote" : "A related resource that is substantially the same as the pre-existing described resource, but in another format.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/98/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/98"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 4,
+          "prefix" : "dcterms",
+          "namespace" : "http://purl.org/dc/terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/4"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 99,
+      "element" : "hasPart",
+      "qualifier" : null,
+      "scopeNote" : "A related resource that is included either physically or logically in the described resource.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/99/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/99"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 4,
+          "prefix" : "dcterms",
+          "namespace" : "http://purl.org/dc/terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/4"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 100,
+      "element" : "hasVersion",
+      "qualifier" : null,
+      "scopeNote" : "A related resource that is a version, edition, or adaptation of the described resource.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/100/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/100"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 4,
+          "prefix" : "dcterms",
+          "namespace" : "http://purl.org/dc/terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/4"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 101,
+      "element" : "identifier",
+      "qualifier" : null,
+      "scopeNote" : "An unambiguous reference to the resource within a given context.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/101/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/101"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 4,
+          "prefix" : "dcterms",
+          "namespace" : "http://purl.org/dc/terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/4"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 102,
+      "element" : "instructionalMethod",
+      "qualifier" : null,
+      "scopeNote" : "A process, used to engender knowledge, attitudes and skills, that the described resource is designed to support.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/102/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/102"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 4,
+          "prefix" : "dcterms",
+          "namespace" : "http://purl.org/dc/terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/4"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 103,
+      "element" : "isFormatOf",
+      "qualifier" : null,
+      "scopeNote" : "A related resource that is substantially the same as the described resource, but in another format.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/103/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/103"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 4,
+          "prefix" : "dcterms",
+          "namespace" : "http://purl.org/dc/terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/4"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 104,
+      "element" : "isPartOf",
+      "qualifier" : null,
+      "scopeNote" : "A related resource in which the described resource is physically or logically included.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/104/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/104"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 4,
+          "prefix" : "dcterms",
+          "namespace" : "http://purl.org/dc/terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/4"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 105,
+      "element" : "isReferencedBy",
+      "qualifier" : null,
+      "scopeNote" : "A related resource that references, cites, or otherwise points to the described resource.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/105/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/105"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 4,
+          "prefix" : "dcterms",
+          "namespace" : "http://purl.org/dc/terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/4"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 106,
+      "element" : "isReplacedBy",
+      "qualifier" : null,
+      "scopeNote" : "A related resource that supplants, displaces, or supersedes the described resource.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/106/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/106"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 4,
+          "prefix" : "dcterms",
+          "namespace" : "http://purl.org/dc/terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/4"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 107,
+      "element" : "isRequiredBy",
+      "qualifier" : null,
+      "scopeNote" : "A related resource that requires the described resource to support its function, delivery, or coherence.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/107/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/107"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 4,
+          "prefix" : "dcterms",
+          "namespace" : "http://purl.org/dc/terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/4"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 108,
+      "element" : "issued",
+      "qualifier" : null,
+      "scopeNote" : "Date of formal issuance (e.g., publication) of the resource.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/108/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/108"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 4,
+          "prefix" : "dcterms",
+          "namespace" : "http://purl.org/dc/terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/4"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 109,
+      "element" : "isVersionOf",
+      "qualifier" : null,
+      "scopeNote" : "A related resource of which the described resource is a version, edition, or adaptation.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/109/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/109"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 4,
+          "prefix" : "dcterms",
+          "namespace" : "http://purl.org/dc/terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/4"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 110,
+      "element" : "language",
+      "qualifier" : null,
+      "scopeNote" : "A language of the resource.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/110/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/110"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 4,
+          "prefix" : "dcterms",
+          "namespace" : "http://purl.org/dc/terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/4"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 111,
+      "element" : "license",
+      "qualifier" : null,
+      "scopeNote" : "A legal document giving official permission to do something with the resource.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/111/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/111"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 4,
+          "prefix" : "dcterms",
+          "namespace" : "http://purl.org/dc/terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/4"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 112,
+      "element" : "mediator",
+      "qualifier" : null,
+      "scopeNote" : "An entity that mediates access to the resource and for whom the resource is intended or useful.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/112/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/112"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 4,
+          "prefix" : "dcterms",
+          "namespace" : "http://purl.org/dc/terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/4"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 113,
+      "element" : "medium",
+      "qualifier" : null,
+      "scopeNote" : "The material or physical carrier of the resource.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/113/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/113"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 4,
+          "prefix" : "dcterms",
+          "namespace" : "http://purl.org/dc/terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/4"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 114,
+      "element" : "modified",
+      "qualifier" : null,
+      "scopeNote" : "Date on which the resource was changed.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/114/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/114"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 4,
+          "prefix" : "dcterms",
+          "namespace" : "http://purl.org/dc/terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/4"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 115,
+      "element" : "provenance",
+      "qualifier" : null,
+      "scopeNote" : "A statement of any changes in ownership and custody of the resource since its creation that are significant for its authenticity, integrity, and interpretation.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/115/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/115"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 4,
+          "prefix" : "dcterms",
+          "namespace" : "http://purl.org/dc/terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/4"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 116,
+      "element" : "publisher",
+      "qualifier" : null,
+      "scopeNote" : "An entity responsible for making the resource available.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/116/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/116"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 4,
+          "prefix" : "dcterms",
+          "namespace" : "http://purl.org/dc/terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/4"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 117,
+      "element" : "references",
+      "qualifier" : null,
+      "scopeNote" : "A related resource that is referenced, cited, or otherwise pointed to by the described resource.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/117/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/117"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 4,
+          "prefix" : "dcterms",
+          "namespace" : "http://purl.org/dc/terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/4"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 118,
+      "element" : "relation",
+      "qualifier" : null,
+      "scopeNote" : "A related resource.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/118/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/118"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 4,
+          "prefix" : "dcterms",
+          "namespace" : "http://purl.org/dc/terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/4"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 119,
+      "element" : "replaces",
+      "qualifier" : null,
+      "scopeNote" : "A related resource that is supplanted, displaced, or superseded by the described resource.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/119/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/119"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 4,
+          "prefix" : "dcterms",
+          "namespace" : "http://purl.org/dc/terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/4"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 120,
+      "element" : "requires",
+      "qualifier" : null,
+      "scopeNote" : "A related resource that is required by the described resource to support its function, delivery, or coherence.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/120/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/120"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 4,
+          "prefix" : "dcterms",
+          "namespace" : "http://purl.org/dc/terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/4"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 121,
+      "element" : "rights",
+      "qualifier" : null,
+      "scopeNote" : "Information about rights held in and over the resource.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/121/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/121"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 4,
+          "prefix" : "dcterms",
+          "namespace" : "http://purl.org/dc/terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/4"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 122,
+      "element" : "rightsHolder",
+      "qualifier" : null,
+      "scopeNote" : "A person or organization owning or managing rights over the resource.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/122/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/122"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 4,
+          "prefix" : "dcterms",
+          "namespace" : "http://purl.org/dc/terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/4"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 123,
+      "element" : "source",
+      "qualifier" : null,
+      "scopeNote" : "A related resource from which the described resource is derived.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/123/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/123"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 4,
+          "prefix" : "dcterms",
+          "namespace" : "http://purl.org/dc/terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/4"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 124,
+      "element" : "spatial",
+      "qualifier" : null,
+      "scopeNote" : "Spatial characteristics of the resource.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/124/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/124"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 4,
+          "prefix" : "dcterms",
+          "namespace" : "http://purl.org/dc/terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/4"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 125,
+      "element" : "subject",
+      "qualifier" : null,
+      "scopeNote" : "The topic of the resource.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/125/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/125"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 4,
+          "prefix" : "dcterms",
+          "namespace" : "http://purl.org/dc/terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/4"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 126,
+      "element" : "tableOfContents",
+      "qualifier" : null,
+      "scopeNote" : "A list of subunits of the resource.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/126/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/126"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 4,
+          "prefix" : "dcterms",
+          "namespace" : "http://purl.org/dc/terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/4"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 127,
+      "element" : "temporal",
+      "qualifier" : null,
+      "scopeNote" : "Temporal characteristics of the resource.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/127/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/127"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 4,
+          "prefix" : "dcterms",
+          "namespace" : "http://purl.org/dc/terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/4"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 128,
+      "element" : "title",
+      "qualifier" : null,
+      "scopeNote" : "A name given to the resource.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/128/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/128"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 4,
+          "prefix" : "dcterms",
+          "namespace" : "http://purl.org/dc/terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/4"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 129,
+      "element" : "type",
+      "qualifier" : null,
+      "scopeNote" : "The nature or genre of the resource.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/129/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/129"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 4,
+          "prefix" : "dcterms",
+          "namespace" : "http://purl.org/dc/terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/4"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 130,
+      "element" : "valid",
+      "qualifier" : null,
+      "scopeNote" : "Date (often a range) of validity of a resource.",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/130/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/130"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 4,
+          "prefix" : "dcterms",
+          "namespace" : "http://purl.org/dc/terms/",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/4"
+            }
+          }
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/search/bySchema?page=0&size=100&schema=dcterms"
+    }
+  },
+  "page" : {
+    "size" : 100,
+    "totalElements" : 55,
+    "totalPages" : 1,
+    "number" : 0
+  }
+}

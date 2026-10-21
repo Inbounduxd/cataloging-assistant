@@ -1,0 +1,1599 @@
+{
+  "captured_at": "2026-10-21T12:34:54.806483+00:00",
+  "coverage": "PUBLIC_HIERARCHY_ONLY",
+  "configuration": {
+    "api_base": "https://www.iifl.unam.mx/server/api",
+    "hierarchy_only": "srsc",
+    "public_hierarchy": "srsc",
+    "requested_collection_uuid": null,
+    "limits": {
+      "timeout": 10,
+      "max_seconds": 600.0,
+      "max_requests": 500,
+      "max_pages": 50,
+      "page_size": 100
+    },
+    "credentials_persisted": false,
+    "allowed_methods": [
+      "GET",
+      "POST /authn/login once"
+    ]
+  },
+  "results": [
+    {
+      "check": "public_read_only",
+      "status": "PASS",
+      "detail": "No credentials or login used"
+    },
+    {
+      "check": "hierarchy_capture:srsc",
+      "status": "PASS",
+      "detail": {
+        "status": "PASS",
+        "complete": true,
+        "errors": [],
+        "node_count": 665,
+        "edge_count": 653,
+        "scope": "Reachable hierarchy exposed by HAL; not server XML byte equivalence"
+      }
+    },
+    {
+      "check": "configured_forms_vs_v3_9_2",
+      "status": "UNKNOWN",
+      "detail": {
+        "status": "UNKNOWN",
+        "bindings": 0,
+        "unique_keys": 0,
+        "matches_reference": false,
+        "warnings": [
+          "UNRESOLVED_ACTIVE_FORM:traditionalpageone",
+          "UNRESOLVED_ACTIVE_FORM:traditionalpagetwo"
+        ],
+        "scope": "Configured forms only; does not establish active collection membership",
+        "matches_release_v3_9_2": false
+      }
+    },
+    {
+      "check": "vocabulary_values_vs_v3_9_2",
+      "status": "UNKNOWN",
+      "detail": {
+        "status": "UNKNOWN",
+        "results": [
+          {
+            "vocabulary": "selfDenominationPairs",
+            "status": "UNKNOWN",
+            "detail": "No complete raw vocabulary evidence"
+          },
+          {
+            "vocabulary": "linguisticFamilyPairs",
+            "status": "UNKNOWN",
+            "detail": "No complete raw vocabulary evidence"
+          },
+          {
+            "vocabulary": "educationLevelPairs",
+            "status": "UNKNOWN",
+            "detail": "No complete raw vocabulary evidence"
+          },
+          {
+            "vocabulary": "linguisticBranchPairs",
+            "status": "UNKNOWN",
+            "detail": "No complete raw vocabulary evidence"
+          },
+          {
+            "vocabulary": "extentTypePairs",
+            "status": "UNKNOWN",
+            "detail": "No complete raw vocabulary evidence"
+          },
+          {
+            "vocabulary": "languageUsagePairs",
+            "status": "UNKNOWN",
+            "detail": "No complete raw vocabulary evidence"
+          },
+          {
+            "vocabulary": "common_types",
+            "status": "UNKNOWN",
+            "detail": "No complete raw vocabulary evidence"
+          },
+          {
+            "vocabulary": "accessRightsPairs",
+            "status": "UNKNOWN",
+            "detail": "No complete raw vocabulary evidence"
+          },
+          {
+            "vocabulary": "iso6391Pairs",
+            "status": "UNKNOWN",
+            "detail": "No complete raw vocabulary evidence"
+          },
+          {
+            "vocabulary": "linguiscgroupPairs",
+            "status": "UNKNOWN",
+            "detail": "No complete raw vocabulary evidence"
+          },
+          {
+            "vocabulary": "openaire_types",
+            "status": "UNKNOWN",
+            "detail": "No complete raw vocabulary evidence"
+          },
+          {
+            "vocabulary": "primaryClassificationPairs",
+            "status": "UNKNOWN",
+            "detail": "No complete raw vocabulary evidence"
+          },
+          {
+            "vocabulary": "languageTargetPairs",
+            "status": "UNKNOWN",
+            "detail": "No complete raw vocabulary evidence"
+          },
+          {
+            "vocabulary": "topicsPairs",
+            "status": "UNKNOWN",
+            "detail": "No complete raw vocabulary evidence"
+          },
+          {
+            "vocabulary": "registeredLanguagePairs",
+            "status": "UNKNOWN",
+            "detail": "No complete raw vocabulary evidence"
+          },
+          {
+            "vocabulary": "srsc",
+            "status": "UNKNOWN",
+            "detail": "No complete raw vocabulary evidence"
+          },
+          {
+            "vocabulary": "openaire_organization_types",
+            "status": "UNKNOWN",
+            "detail": "No complete raw vocabulary evidence"
+          },
+          {
+            "vocabulary": "mediumPairs",
+            "status": "UNKNOWN",
+            "detail": "No complete raw vocabulary evidence"
+          },
+          {
+            "vocabulary": "licensePairs",
+            "status": "UNKNOWN",
+            "detail": "No complete raw vocabulary evidence"
+          },
+          {
+            "vocabulary": "common_iso_languages",
+            "status": "UNKNOWN",
+            "detail": "No complete raw vocabulary evidence"
+          },
+          {
+            "vocabulary": "openaire_version_types",
+            "status": "UNKNOWN",
+            "detail": "No complete raw vocabulary evidence"
+          }
+        ],
+        "scope": "Literal values against preserved release; no normalization or fuzzy match"
+      }
+    },
+    {
+      "check": "active_collection_membership",
+      "status": "UNKNOWN",
+      "detail": [
+        "INVALID_ACTIVE_DEFINITION_EVIDENCE",
+        "NO_ACTIVE_SUBMISSION_FORMS",
+        "UNOBSERVABLE_SURFACE:active_submission_definition",
+        "UNOBSERVABLE_SURFACE:active_submission_sections",
+        "UNOBSERVABLE_SURFACE:metadata_fields",
+        "UNOBSERVABLE_SURFACE:metadata_schemas",
+        "UNOBSERVABLE_SURFACE:submission_forms",
+        "UNRESOLVED_ACTIVE_DEFINITION"
+      ]
+    },
+    {
+      "check": "full_migration_equivalence",
+      "status": "NOT_TESTED",
+      "detail": "Requires approved baseline, identity review and semantic validation"
+    }
+  ],
+  "endpoints": [
+    {
+      "surface": "vocabulary_top:srsc",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/search/top?page=0&size=100&vocabulary=srsc",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:34:55.166799+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "f9f54adde7524fa4787c781bb1f2a05ee80789b62931c3c87d7e703abc9e76d2",
+      "bytes": 9455,
+      "raw_file": "raw/0001-f9f54adde7524fa4787c781bb1f2a05ee80789b62931c3c87d7e703abc9e76d2.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB11",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB11/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:34:55.215933+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "6d3cf4d124a6bbc5cae8e23ff2a3eef493e078acd3cdcc01abe26a3b3c9aa0be",
+      "bytes": 4569,
+      "raw_file": "raw/0002-6d3cf4d124a6bbc5cae8e23ff2a3eef493e078acd3cdcc01abe26a3b3c9aa0be.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB12",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB12/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:34:55.263714+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "cbddbdf7a1b17bb7af4f678449a48fb63919ce5db3df6060e916cb08bbff7134",
+      "bytes": 5152,
+      "raw_file": "raw/0003-cbddbdf7a1b17bb7af4f678449a48fb63919ce5db3df6060e916cb08bbff7134.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB13",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB13/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:34:55.326191+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "a24a6ee400270d14faca1ad98ef5e359e6217aec7c1a4567b9fb2f6c5d11b39f",
+      "bytes": 3640,
+      "raw_file": "raw/0004-a24a6ee400270d14faca1ad98ef5e359e6217aec7c1a4567b9fb2f6c5d11b39f.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB14",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB14/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:34:55.397799+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "7f1c3b17545feffdffade3f0a5a5e2af63e36e5bbcf5f9edd52ca34497f914d4",
+      "bytes": 2812,
+      "raw_file": "raw/0005-7f1c3b17545feffdffade3f0a5a5e2af63e36e5bbcf5f9edd52ca34497f914d4.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB15",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB15/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:34:55.443110+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "e8ba4db402348824e4067191865c62ec9ed802f02654962bf33ff6e352234626",
+      "bytes": 3471,
+      "raw_file": "raw/0006-e8ba4db402348824e4067191865c62ec9ed802f02654962bf33ff6e352234626.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB16",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB16/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:34:55.769871+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "c8e909c1188fc26655fd9224fb6ebf077f78967424a6ebed4921a5df093a9d5e",
+      "bytes": 8552,
+      "raw_file": "raw/0007-c8e909c1188fc26655fd9224fb6ebf077f78967424a6ebed4921a5df093a9d5e.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB17",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB17/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:34:55.850954+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "c8993788372596c6ede3325375e5a0d2c7c96db864687741c16a835f854095e1",
+      "bytes": 6517,
+      "raw_file": "raw/0008-c8993788372596c6ede3325375e5a0d2c7c96db864687741c16a835f854095e1.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB18",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB18/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:34:56.030915+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "296044ef22e0e11760e4019fdfaeca74454e2668f5ce79210a2fd7d5b258630b",
+      "bytes": 6919,
+      "raw_file": "raw/0009-296044ef22e0e11760e4019fdfaeca74454e2668f5ce79210a2fd7d5b258630b.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB19",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB19/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:34:56.444347+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "5c20e8335d414569a9f549daccff1df019f9af25c2c9f97cb70e01c202fe9cf2",
+      "bytes": 15682,
+      "raw_file": "raw/0010-5c20e8335d414569a9f549daccff1df019f9af25c2c9f97cb70e01c202fe9cf2.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB21",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB21/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:34:56.765710+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "55c166ffec66db62aa4e3bff3e5236688dd2875232ce37fbaa4389945d28dfe6",
+      "bytes": 9268,
+      "raw_file": "raw/0011-55c166ffec66db62aa4e3bff3e5236688dd2875232ce37fbaa4389945d28dfe6.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB22",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB22/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:34:56.831901+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "c5247d082819b8bf4c5a8a6e1e5c8d7b2143a3d2fe3251ee655dfb1b3bec1e31",
+      "bytes": 13667,
+      "raw_file": "raw/0012-c5247d082819b8bf4c5a8a6e1e5c8d7b2143a3d2fe3251ee655dfb1b3bec1e31.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB23",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB23/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:34:56.916208+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "f75999cd508fb3bc0c0f7039b07224cc30c191a92b839f9cf5cc0db4b31d91ba",
+      "bytes": 10640,
+      "raw_file": "raw/0013-f75999cd508fb3bc0c0f7039b07224cc30c191a92b839f9cf5cc0db4b31d91ba.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB110",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB110/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:34:57.045754+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "1f1427af1626fd28ed50167bab0f4012844cf52c8ad2120f0ddedc34c2136040",
+      "bytes": 10943,
+      "raw_file": "raw/0014-1f1427af1626fd28ed50167bab0f4012844cf52c8ad2120f0ddedc34c2136040.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB111",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB111/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:34:57.384756+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "0c1b6a3bc6e4d0da8d54a8e1743c1a8f9ea352af3934f47bef579e4a509517ea",
+      "bytes": 4796,
+      "raw_file": "raw/0015-0c1b6a3bc6e4d0da8d54a8e1743c1a8f9ea352af3934f47bef579e4a509517ea.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB112",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB112/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:34:57.483734+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "271d86c3fe0dab99fdd02b22ebf7e542eceafbf08c6908ff16e9b5f1353f2cc8",
+      "bytes": 7188,
+      "raw_file": "raw/0016-271d86c3fe0dab99fdd02b22ebf7e542eceafbf08c6908ff16e9b5f1353f2cc8.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB113",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB113/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:34:57.532234+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "6bdbb0531361a418f49d4d57892707e2045f8ce8a8db8f3fcd293a6471940413",
+      "bytes": 8332,
+      "raw_file": "raw/0017-6bdbb0531361a418f49d4d57892707e2045f8ce8a8db8f3fcd293a6471940413.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB1201",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1201/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:34:57.648107+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "465196f1cad8288d2f127dc56610761d9cb7891cb4238f4531a666b1e50f4c1d",
+      "bytes": 2875,
+      "raw_file": "raw/0018-465196f1cad8288d2f127dc56610761d9cb7891cb4238f4531a666b1e50f4c1d.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB1202",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1202/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:34:57.760497+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "34f9d9c2f490b43d9747d399f6a0040677878f2443b85799ee94f5c9b62ac895",
+      "bytes": 3748,
+      "raw_file": "raw/0019-34f9d9c2f490b43d9747d399f6a0040677878f2443b85799ee94f5c9b62ac895.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB1205",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1205/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:34:57.843726+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "262d174143b65422c012a4b47d04c4145fbc6583e9b248513b1af062a2d5b189",
+      "bytes": 7968,
+      "raw_file": "raw/0020-262d174143b65422c012a4b47d04c4145fbc6583e9b248513b1af062a2d5b189.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB1209",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1209/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:34:58.056378+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "2d8983efabc00b002bddbc14569d86a8762e3adf86e6804edd485184b73bcc1f",
+      "bytes": 6336,
+      "raw_file": "raw/0021-2d8983efabc00b002bddbc14569d86a8762e3adf86e6804edd485184b73bcc1f.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB131",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB131/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:34:58.145011+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "08c9f17baf61d45cd96597f8d043bee69e0d3206de656e48dcdfa23c1d88686a",
+      "bytes": 7898,
+      "raw_file": "raw/0022-08c9f17baf61d45cd96597f8d043bee69e0d3206de656e48dcdfa23c1d88686a.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB132",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB132/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:34:58.650466+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "78eef98f8153c0403d8109cd75a7946a7e8811d12bcce9a74f0ed5a9e24fb8da",
+      "bytes": 2944,
+      "raw_file": "raw/0023-78eef98f8153c0403d8109cd75a7946a7e8811d12bcce9a74f0ed5a9e24fb8da.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB133",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB133/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:34:59.093054+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "33199f2d934700c2029c66cc3b4caf5efeab3e0cea89b159fc7fbdd2f62d079b",
+      "bytes": 2162,
+      "raw_file": "raw/0024-33199f2d934700c2029c66cc3b4caf5efeab3e0cea89b159fc7fbdd2f62d079b.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB139",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB139/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:34:59.358423+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "346d90d5d7b3e91562bc12b66069c0dd916f1427f3392427f259d4a666a824ae",
+      "bytes": 7523,
+      "raw_file": "raw/0025-346d90d5d7b3e91562bc12b66069c0dd916f1427f3392427f259d4a666a824ae.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB1401",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1401/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:34:59.586891+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "e8f2f34cb376d8845c92d067d7630f5130b902d6e0f9627d1bb24ad5bec51f08",
+      "bytes": 3952,
+      "raw_file": "raw/0026-e8f2f34cb376d8845c92d067d7630f5130b902d6e0f9627d1bb24ad5bec51f08.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB1402",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1402/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:34:59.701950+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "0578101f5862b5dacec8eb431cdf52f1022186ec6aa162d0134a75b6f0ff146a",
+      "bytes": 3819,
+      "raw_file": "raw/0027-0578101f5862b5dacec8eb431cdf52f1022186ec6aa162d0134a75b6f0ff146a.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB150",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB150/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:34:59.800450+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "62f46183fb5221a034e3d0be60a2b67d9afb88fa7740bc26b0b9b7b83042237f",
+      "bytes": 6307,
+      "raw_file": "raw/0028-62f46183fb5221a034e3d0be60a2b67d9afb88fa7740bc26b0b9b7b83042237f.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB151",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB151/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:34:59.999566+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "cd32b4618ee13b178367dcf70ec523a1dd00e569dfa4350ddd5515598cfb737c",
+      "bytes": 7887,
+      "raw_file": "raw/0029-cd32b4618ee13b178367dcf70ec523a1dd00e569dfa4350ddd5515598cfb737c.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB152",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB152/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:00.393002+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "8f7cab70924d8f326239820c1a4d283eff3b0b388f8d3098915e917ae3841c95",
+      "bytes": 3749,
+      "raw_file": "raw/0030-8f7cab70924d8f326239820c1a4d283eff3b0b388f8d3098915e917ae3841c95.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB153",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB153/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:00.559737+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "fe7259140fecbe7aa3b619805dd55f794cd34adc0262959f84c1a7184698bac6",
+      "bytes": 3821,
+      "raw_file": "raw/0031-fe7259140fecbe7aa3b619805dd55f794cd34adc0262959f84c1a7184698bac6.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB160",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB160/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:00.690420+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "c808857183592e222dc9e37d17be2db4239318214e3c6785fa487b41db991aba",
+      "bytes": 7176,
+      "raw_file": "raw/0032-c808857183592e222dc9e37d17be2db4239318214e3c6785fa487b41db991aba.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB161",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB161/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:00.874567+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "b54ca59b5cbf09b28bfdfc4d82e5a0dbf56c1fa0be49159ae4a615622ed86c19",
+      "bytes": 5484,
+      "raw_file": "raw/0033-b54ca59b5cbf09b28bfdfc4d82e5a0dbf56c1fa0be49159ae4a615622ed86c19.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB162",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB162/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:01.040638+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "18b092a249cfb65ab7f230190c3e8a51580e4ac02c3b2153fce1dd8772356b12",
+      "bytes": 6829,
+      "raw_file": "raw/0034-18b092a249cfb65ab7f230190c3e8a51580e4ac02c3b2153fce1dd8772356b12.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB163",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB163/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:01.412650+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "ec5c341d458af88cc272d569989ee58978814d850a7d0117e6b701e5432db145",
+      "bytes": 3909,
+      "raw_file": "raw/0035-ec5c341d458af88cc272d569989ee58978814d850a7d0117e6b701e5432db145.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB164",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB164/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:01.482357+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "d9e56db2478fa430d7037794af7d407c9dda5467968446226d50eb5bd59dead2",
+      "bytes": 9815,
+      "raw_file": "raw/0036-d9e56db2478fa430d7037794af7d407c9dda5467968446226d50eb5bd59dead2.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB165",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB165/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:01.988454+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "3168b2068b5c362d2653e0638e1cd1ff96d0438c7abffef105902615f0528e7e",
+      "bytes": 6434,
+      "raw_file": "raw/0037-3168b2068b5c362d2653e0638e1cd1ff96d0438c7abffef105902615f0528e7e.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB166",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB166/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:02.333985+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "4f537a07e669fddbeba12d466f4fd678cbf16118cda9dbc48906abcaa42cc1a8",
+      "bytes": 4638,
+      "raw_file": "raw/0038-4f537a07e669fddbeba12d466f4fd678cbf16118cda9dbc48906abcaa42cc1a8.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB167",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB167/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:02.997557+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "c17e2518776b8d2047aa2a1d10801ac4a4a5baba7adada4a5aada4e499c21819",
+      "bytes": 6714,
+      "raw_file": "raw/0039-c17e2518776b8d2047aa2a1d10801ac4a4a5baba7adada4a5aada4e499c21819.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB168",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB168/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:04.028154+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "f42676ea50999136d14ded547593a82a4eb5afc2a95eb603ce0e64e90cc8d166",
+      "bytes": 4082,
+      "raw_file": "raw/0040-f42676ea50999136d14ded547593a82a4eb5afc2a95eb603ce0e64e90cc8d166.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB169",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB169/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:04.458729+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "513a1991945db976f74eacff80cc92e7225eae7f11f247c4419af13d4f16d0b0",
+      "bytes": 2855,
+      "raw_file": "raw/0041-513a1991945db976f74eacff80cc92e7225eae7f11f247c4419af13d4f16d0b0.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB171",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB171/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:05.350010+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "1e32d7f8ff45926e249e7dacff3386f66571f66de7bded5f4f6e0b5ac484a125",
+      "bytes": 3944,
+      "raw_file": "raw/0042-1e32d7f8ff45926e249e7dacff3386f66571f66de7bded5f4f6e0b5ac484a125.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB172",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB172/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:05.443206+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "e8893c041200f576453aca6e5ae5c625662a125155466ff18ef26a1ebb8187b9",
+      "bytes": 4955,
+      "raw_file": "raw/0043-e8893c041200f576453aca6e5ae5c625662a125155466ff18ef26a1ebb8187b9.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB173",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB173/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:05.594241+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "4eda520d38b7c464f5caa9cb94c39d74732d0a33a733001e4ac564b4a2b608d2",
+      "bytes": 4042,
+      "raw_file": "raw/0044-4eda520d38b7c464f5caa9cb94c39d74732d0a33a733001e4ac564b4a2b608d2.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB174",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB174/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:06.022471+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "8404d6614d9f5188f4656fc8ebc18c9400bb1c028b48f68ef2bb654215cae74d",
+      "bytes": 3256,
+      "raw_file": "raw/0045-8404d6614d9f5188f4656fc8ebc18c9400bb1c028b48f68ef2bb654215cae74d.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB175",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB175/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:06.241277+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "e19462cf612893e47f72a83590a7d9bc79bae29d9a6b0b2ad45cb79fb92b42b6",
+      "bytes": 4148,
+      "raw_file": "raw/0046-e19462cf612893e47f72a83590a7d9bc79bae29d9a6b0b2ad45cb79fb92b42b6.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB176",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB176/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:06.642653+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "abefb3531a0b7dd6aeb46be825d66508dbdd6870d9021519f1bc2befb1503b7c",
+      "bytes": 4076,
+      "raw_file": "raw/0047-abefb3531a0b7dd6aeb46be825d66508dbdd6870d9021519f1bc2befb1503b7c.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB177",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB177/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:07.511233+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "c7bac417cfd72f5c4b37c8c9bd1cc31a2ecb65746bdc2802de638aee2b14efe3",
+      "bytes": 4057,
+      "raw_file": "raw/0048-c7bac417cfd72f5c4b37c8c9bd1cc31a2ecb65746bdc2802de638aee2b14efe3.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB180",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB180/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:08.315541+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "a46793055ff14cd2569e601adcec9f4f278c6a3d1db89356283140ff6b7b4214",
+      "bytes": 4489,
+      "raw_file": "raw/0049-a46793055ff14cd2569e601adcec9f4f278c6a3d1db89356283140ff6b7b4214.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB181",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB181/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:08.955175+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "ed4d87b5d8079de7c0a316d2d4778479c305d6ccb6dfd7f45834b949df8a6841",
+      "bytes": 2884,
+      "raw_file": "raw/0050-ed4d87b5d8079de7c0a316d2d4778479c305d6ccb6dfd7f45834b949df8a6841.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB182",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB182/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:10.040994+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "ee9729359b302fff2d5ff1483224c495c9896db8b89a61cfca755a2bad94f253",
+      "bytes": 3140,
+      "raw_file": "raw/0051-ee9729359b302fff2d5ff1483224c495c9896db8b89a61cfca755a2bad94f253.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB183",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB183/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:10.608601+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "321b8fc9814e061ed4587b53a43236e793c105f11dc8eb139d56ee4a8dc36c8a",
+      "bytes": 3756,
+      "raw_file": "raw/0052-321b8fc9814e061ed4587b53a43236e793c105f11dc8eb139d56ee4a8dc36c8a.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB184",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB184/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:11.302220+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "493e9fda7ae1e23456e858c8443537236d96a5bb0aa79334f05d77692fae14f2",
+      "bytes": 1211,
+      "raw_file": "raw/0053-493e9fda7ae1e23456e858c8443537236d96a5bb0aa79334f05d77692fae14f2.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB185",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB185/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:12.105463+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "0768bc9a9deb71dba4fea39c3214fca17204c76e694ff7538e772897265fd655",
+      "bytes": 2978,
+      "raw_file": "raw/0054-0768bc9a9deb71dba4fea39c3214fca17204c76e694ff7538e772897265fd655.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB186",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB186/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:12.434951+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "f488b5af3baa1ee09279de76f541fd85c2335f12bbf22c0342ad052bd585853c",
+      "bytes": 3600,
+      "raw_file": "raw/0055-f488b5af3baa1ee09279de76f541fd85c2335f12bbf22c0342ad052bd585853c.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB187",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB187/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:12.823119+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "a1c83c2cc7b9f2575fff47d83626974cde917feb082a8a7c83ed17896e627b28",
+      "bytes": 2015,
+      "raw_file": "raw/0056-a1c83c2cc7b9f2575fff47d83626974cde917feb082a8a7c83ed17896e627b28.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB237",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB237/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:13.073782+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "fa4076e15f1247fce3ff00de6af971eb3a8182bd534412e56a37484b4f88d78c",
+      "bytes": 5785,
+      "raw_file": "raw/0057-fa4076e15f1247fce3ff00de6af971eb3a8182bd534412e56a37484b4f88d78c.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB1111",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1111/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:13.914128+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "ca1ab7ac08d1f73bc434e2b47def356bf5451dc7eef126675d376ea66c280521",
+      "bytes": 4086,
+      "raw_file": "raw/0058-ca1ab7ac08d1f73bc434e2b47def356bf5451dc7eef126675d376ea66c280521.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB1112",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1112/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:14.316664+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "925b31094ecbff06304bda03c01b1df05da18ac1b6c33a3fc4b0d1fe4438361f",
+      "bytes": 7081,
+      "raw_file": "raw/0059-925b31094ecbff06304bda03c01b1df05da18ac1b6c33a3fc4b0d1fe4438361f.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB1113",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1113/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:14.927845+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "bc8514385a6f4efe35414390b055b2cecccc0cb3a934d95bb7722c0211d462d7",
+      "bytes": 11701,
+      "raw_file": "raw/0060-bc8514385a6f4efe35414390b055b2cecccc0cb3a934d95bb7722c0211d462d7.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB1114",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1114/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:15.571070+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "af566ad902d00c96b69490e8c1bd28c6aedd03a4f97a91840af781809127d89f",
+      "bytes": 2164,
+      "raw_file": "raw/0061-af566ad902d00c96b69490e8c1bd28c6aedd03a4f97a91840af781809127d89f.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB1115",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1115/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:16.141397+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "ad3488afbe6b717f2e4a4a4b63b5b8516b18444fbe319418182a62cb33ad0ab6",
+      "bytes": 2257,
+      "raw_file": "raw/0062-ad3488afbe6b717f2e4a4a4b63b5b8516b18444fbe319418182a62cb33ad0ab6.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB1131",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1131/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:17.044962+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "034bab73d128dfc73457b6e28381f26f15fc66e82fb53e51ee2aaae0d2c79158",
+      "bytes": 4056,
+      "raw_file": "raw/0063-034bab73d128dfc73457b6e28381f26f15fc66e82fb53e51ee2aaae0d2c79158.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB1132",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1132/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:17.397908+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "055e8af0402066cb3584093642c43156a305187afea93ae639e0d7867fa6c9da",
+      "bytes": 4076,
+      "raw_file": "raw/0064-055e8af0402066cb3584093642c43156a305187afea93ae639e0d7867fa6c9da.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB1133",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1133/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:18.667874+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "6e4b5114824cea77876e01fffeb5fee5ce193a3435487e8f1e54d15d9b25742d",
+      "bytes": 4957,
+      "raw_file": "raw/0065-6e4b5114824cea77876e01fffeb5fee5ce193a3435487e8f1e54d15d9b25742d.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB1134",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1134/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:19.096061+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "dd2f6cc5c269ae29faa6d129ba167bbd9b0513f752b8d1813656819710089cff",
+      "bytes": 2189,
+      "raw_file": "raw/0066-dd2f6cc5c269ae29faa6d129ba167bbd9b0513f752b8d1813656819710089cff.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB1135",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1135/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:19.837624+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "4420459bd1aaa5b3374e50dfa615cdfb31615919f767af814408415a82c01848",
+      "bytes": 2162,
+      "raw_file": "raw/0067-4420459bd1aaa5b3374e50dfa615cdfb31615919f767af814408415a82c01848.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB1136",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1136/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:21.056523+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "0277392c2419756a544614afffae1174a24f8beda1ad7fe898a4a5e3a4b85f28",
+      "bytes": 3119,
+      "raw_file": "raw/0068-0277392c2419756a544614afffae1174a24f8beda1ad7fe898a4a5e3a4b85f28.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB1137",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1137/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:21.824197+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "1049019586c33666c3986bad82b0c461462fad54ce165b5b4bea3e81c5a501d3",
+      "bytes": 17894,
+      "raw_file": "raw/0069-1049019586c33666c3986bad82b0c461462fad54ce165b5b4bea3e81c5a501d3.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB1139",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1139/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:22.693769+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "8f4f16e6cbf50819dfada610fb91c8f8bc0e73c6ff574647975c180706290750",
+      "bytes": 5889,
+      "raw_file": "raw/0070-8f4f16e6cbf50819dfada610fb91c8f8bc0e73c6ff574647975c180706290750.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB1311",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1311/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:22.770894+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "72eb21ebb30c53430025d8773736bf641b94634576363639be8a040b047f76f0",
+      "bytes": 3841,
+      "raw_file": "raw/0071-72eb21ebb30c53430025d8773736bf641b94634576363639be8a040b047f76f0.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB1312",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1312/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:23.378620+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "add37f92eb8479d1fa5aabec2d7f4b80c794d803b6f69060d1b98efb564d651b",
+      "bytes": 2979,
+      "raw_file": "raw/0072-add37f92eb8479d1fa5aabec2d7f4b80c794d803b6f69060d1b98efb564d651b.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB1313",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1313/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:24.369625+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "53152cf07a8c3ab267bb7c3a955d63f01a0200d0a1b54551fcfb705603275778",
+      "bytes": 2145,
+      "raw_file": "raw/0073-53152cf07a8c3ab267bb7c3a955d63f01a0200d0a1b54551fcfb705603275778.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB1314",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1314/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:25.011117+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "34800340c42eaaa67654e6fe4da52b57368dc8681f8ce8cba9f933c017ffc77d",
+      "bytes": 3840,
+      "raw_file": "raw/0074-34800340c42eaaa67654e6fe4da52b57368dc8681f8ce8cba9f933c017ffc77d.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB1315",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1315/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:25.797830+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "fae735e3b8441670ba311f941f5d548eb711c33d8cde6eb86964740c37dc2c94",
+      "bytes": 1194,
+      "raw_file": "raw/0075-fae735e3b8441670ba311f941f5d548eb711c33d8cde6eb86964740c37dc2c94.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB1316",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1316/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:26.765131+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "809032eb8cd5cf65fddabca240a5faddc240dc1d7deb93070f7da2816604ced4",
+      "bytes": 1188,
+      "raw_file": "raw/0076-809032eb8cd5cf65fddabca240a5faddc240dc1d7deb93070f7da2816604ced4.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB1318",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1318/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:26.988232+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "0f56022c93b2719ae4cb7ebd57bc893452616a592c34badfe248e7984011bc48",
+      "bytes": 4003,
+      "raw_file": "raw/0077-0f56022c93b2719ae4cb7ebd57bc893452616a592c34badfe248e7984011bc48.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB1322",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1322/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:27.175325+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "64cc08255910609c10d5921eb308ba281d4c3e50d96eb7173ff63d9714c37d90",
+      "bytes": 2201,
+      "raw_file": "raw/0078-64cc08255910609c10d5921eb308ba281d4c3e50d96eb7173ff63d9714c37d90.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB1323",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1323/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:27.859854+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "7cf5ac8d56e08b13050b380e40de99d41d31e3bb8d9359df0b754f8fe444567c",
+      "bytes": 1189,
+      "raw_file": "raw/0079-7cf5ac8d56e08b13050b380e40de99d41d31e3bb8d9359df0b754f8fe444567c.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB1331",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1331/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:28.722771+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "d5643eb898cef20aa138506fe123e42933ed9e50b20e0453d61476bcfe77ba87",
+      "bytes": 9326,
+      "raw_file": "raw/0080-d5643eb898cef20aa138506fe123e42933ed9e50b20e0453d61476bcfe77ba87.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB1332",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1332/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:29.057848+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "90d18636aed08cc2edbcabb38d7fe8095518c3c332dda371fdc74127c8aeb880",
+      "bytes": 1231,
+      "raw_file": "raw/0081-90d18636aed08cc2edbcabb38d7fe8095518c3c332dda371fdc74127c8aeb880.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB1501",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1501/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:29.839547+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "da3d55bb0ec0f292a06c58125fedf2ca405d766f9987eaf6dd622265ba843c13",
+      "bytes": 2105,
+      "raw_file": "raw/0082-da3d55bb0ec0f292a06c58125fedf2ca405d766f9987eaf6dd622265ba843c13.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB1502",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1502/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:29.969940+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "38988cc5394298cf904395a1b72ed91b4aca449202134ac91ad30078a32e56ce",
+      "bytes": 2952,
+      "raw_file": "raw/0083-38988cc5394298cf904395a1b72ed91b4aca449202134ac91ad30078a32e56ce.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB1503",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1503/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:30.229557+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "e8ee9743ee66209e79d6718ccdbf9f64476ed4286d694e7d779eb09654f9464e",
+      "bytes": 3000,
+      "raw_file": "raw/0084-e8ee9743ee66209e79d6718ccdbf9f64476ed4286d694e7d779eb09654f9464e.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB1504",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1504/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:30.655425+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "5db1a7142b0745a77f789bd1b2eb18a2bc7a3dee8748a64d9843a672539e7b09",
+      "bytes": 12097,
+      "raw_file": "raw/0085-5db1a7142b0745a77f789bd1b2eb18a2bc7a3dee8748a64d9843a672539e7b09.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB1505",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1505/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:31.158276+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "38c67c8062c033bea7059d74e71fc2088851b11b01994b62de6fc853367d6054",
+      "bytes": 8458,
+      "raw_file": "raw/0086-38c67c8062c033bea7059d74e71fc2088851b11b01994b62de6fc853367d6054.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB1506",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1506/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:31.566018+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "d6800ab18020acf85974612178916ec747c9532e6bd4e94a42ded8356ce47bde",
+      "bytes": 3001,
+      "raw_file": "raw/0087-d6800ab18020acf85974612178916ec747c9532e6bd4e94a42ded8356ce47bde.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB1509",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1509/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:31.745359+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "a3520270bf81d9ec2eb32c907bb0940184288186ea5283572af247ded51776b2",
+      "bytes": 6466,
+      "raw_file": "raw/0088-a3520270bf81d9ec2eb32c907bb0940184288186ea5283572af247ded51776b2.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB1511",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1511/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:31.945369+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "4bdcab5f8d6a496132ef78978764a1d5b98c54205be38b99b63c89d283cb6313",
+      "bytes": 2987,
+      "raw_file": "raw/0089-4bdcab5f8d6a496132ef78978764a1d5b98c54205be38b99b63c89d283cb6313.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB1512",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1512/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:32.356251+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "da26633dac3e1f827d7faf075e13930c3cd199836a080746a2b5b660aa9cc6e4",
+      "bytes": 4741,
+      "raw_file": "raw/0090-da26633dac3e1f827d7faf075e13930c3cd199836a080746a2b5b660aa9cc6e4.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB1513",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1513/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:32.643094+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "18adddaa2a0bcc2c54ced71a8dc7abf4c3732f89bccf7574bde19e19d507f05d",
+      "bytes": 2970,
+      "raw_file": "raw/0091-18adddaa2a0bcc2c54ced71a8dc7abf4c3732f89bccf7574bde19e19d507f05d.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB1515",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1515/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:33.160050+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "f9f4d6ccf4235e80143c3948f2885c353711607e1e94207c34fbfa5e72b1632c",
+      "bytes": 3911,
+      "raw_file": "raw/0092-f9f4d6ccf4235e80143c3948f2885c353711607e1e94207c34fbfa5e72b1632c.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB1516",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1516/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:33.511947+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "7a960bcd80a473cde6b1abda136b0618aec5b26eb9ed88b30a52fa3f658d278d",
+      "bytes": 4780,
+      "raw_file": "raw/0093-7a960bcd80a473cde6b1abda136b0618aec5b26eb9ed88b30a52fa3f658d278d.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB1517",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1517/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:34.063948+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "9ecad9bc87cfab564c5e525eadba43ce56e8dff04a383d50ab16ef26b53af659",
+      "bytes": 3801,
+      "raw_file": "raw/0094-9ecad9bc87cfab564c5e525eadba43ce56e8dff04a383d50ab16ef26b53af659.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB1518",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1518/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:34.554867+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "7dad7fd5b3c86418dcc34b04b7adfc126722f53b19d6edbba1d697f44c3535d6",
+      "bytes": 3099,
+      "raw_file": "raw/0095-7dad7fd5b3c86418dcc34b04b7adfc126722f53b19d6edbba1d697f44c3535d6.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB1521",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1521/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:34.788827+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "e9d3db7de8a70597329efc5b3bd28860a9d0e4cd5ca962395984e11ec678e30b",
+      "bytes": 4078,
+      "raw_file": "raw/0096-e9d3db7de8a70597329efc5b3bd28860a9d0e4cd5ca962395984e11ec678e30b.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB1522",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1522/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:34.964247+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "0ddb781a00bca8b201df130c701ec00506c2de6b90729eec3476045d8c0334cc",
+      "bytes": 5589,
+      "raw_file": "raw/0097-0ddb781a00bca8b201df130c701ec00506c2de6b90729eec3476045d8c0334cc.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB1523",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1523/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:35.856472+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "2e8d59c2a9f531b7b21ada6f0f530c76f37c98115417cb0f18b4578d1d37d978",
+      "bytes": 5616,
+      "raw_file": "raw/0098-2e8d59c2a9f531b7b21ada6f0f530c76f37c98115417cb0f18b4578d1d37d978.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB1529",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1529/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:36.861550+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "7465282fbe1a9f201253272024f18739bf76d17af7416296a15f3a224f83cb4b",
+      "bytes": 2054,
+      "raw_file": "raw/0099-7465282fbe1a9f201253272024f18739bf76d17af7416296a15f3a224f83cb4b.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB1531",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1531/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:37.262304+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "408d42d9491697190c4b2fcc9e2d58efd3ba5a21621f9e5049b0061214b5d03b",
+      "bytes": 3087,
+      "raw_file": "raw/0100-408d42d9491697190c4b2fcc9e2d58efd3ba5a21621f9e5049b0061214b5d03b.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB1532",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1532/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:37.894523+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "5983bb2bf70fd2e99f90a9b38b675888083ef9184824e1e9db745dcf3acb3666",
+      "bytes": 4914,
+      "raw_file": "raw/0101-5983bb2bf70fd2e99f90a9b38b675888083ef9184824e1e9db745dcf3acb3666.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB1533",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1533/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:38.281993+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "5a6c2f30b2a36611a3306c6a8c6288ed985101e059bf75ecf76bbe8f24890c8b",
+      "bytes": 3967,
+      "raw_file": "raw/0102-5a6c2f30b2a36611a3306c6a8c6288ed985101e059bf75ecf76bbe8f24890c8b.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB1601",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1601/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:38.442972+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "7637a41e2ed87d5e17a79a11ef0814c07d947c367ae0a042e2390466a2edf8d7",
+      "bytes": 3005,
+      "raw_file": "raw/0103-7637a41e2ed87d5e17a79a11ef0814c07d947c367ae0a042e2390466a2edf8d7.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB1603",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1603/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:38.836276+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "e990d3725a7b9cfcfef49e40dd6b07b5de5448741f3c8f921a5bb112e140cfaf",
+      "bytes": 3952,
+      "raw_file": "raw/0104-e990d3725a7b9cfcfef49e40dd6b07b5de5448741f3c8f921a5bb112e140cfaf.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB1631",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1631/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:39.065994+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "0281ce7f0beff69327055b9c7cfd7dde140db5ba538d265bb695623141ad04a3",
+      "bytes": 11041,
+      "raw_file": "raw/0105-0281ce7f0beff69327055b9c7cfd7dde140db5ba538d265bb695623141ad04a3.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB1632",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1632/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:39.378100+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "d3082e752800e974df6aa247686048a11c3ecb90b231f13a07fdaab054f628d2",
+      "bytes": 2339,
+      "raw_file": "raw/0106-d3082e752800e974df6aa247686048a11c3ecb90b231f13a07fdaab054f628d2.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB1655",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1655/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:39.563594+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "9720ba89c452ba0c95006614a935f7394d768147c8c592d25ad8a34df3573653",
+      "bytes": 2226,
+      "raw_file": "raw/0107-9720ba89c452ba0c95006614a935f7394d768147c8c592d25ad8a34df3573653.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB1671",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1671/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:40.361381+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "324e2c6b1102a04502290a171dcbf556e2ab6812ef9707af710b22171974d1aa",
+      "bytes": 2222,
+      "raw_file": "raw/0108-324e2c6b1102a04502290a171dcbf556e2ab6812ef9707af710b22171974d1aa.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB1676",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1676/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:41.111217+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "0bbefbd96ec54367af8c0705736179e2d3eb45c43dc0d037778d5215371c1112",
+      "bytes": 2360,
+      "raw_file": "raw/0109-0bbefbd96ec54367af8c0705736179e2d3eb45c43dc0d037778d5215371c1112.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB1681",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1681/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:41.363285+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "dc5bf6773aef2ef12950610610413d716355f4b9653047560f6ba7730f77e3ec",
+      "bytes": 2314,
+      "raw_file": "raw/0110-dc5bf6773aef2ef12950610610413d716355f4b9653047560f6ba7730f77e3ec.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB1801",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1801/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:42.446147+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "eea48ed19aef00d111a0e12360230f66e08639ef2700485d1bccf3fd9dff0664",
+      "bytes": 3853,
+      "raw_file": "raw/0111-eea48ed19aef00d111a0e12360230f66e08639ef2700485d1bccf3fd9dff0664.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB1802",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1802/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:43.193449+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "4f65e9472ebc5196c5dba84624538a6fe743c4cb9989db36c35c21a32a29e847",
+      "bytes": 10631,
+      "raw_file": "raw/0112-4f65e9472ebc5196c5dba84624538a6fe743c4cb9989db36c35c21a32a29e847.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB1803",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1803/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:43.503495+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "f15887d109627dda504a223b304bb795a060fd7b5a42436dc958d8941edfdecc",
+      "bytes": 3074,
+      "raw_file": "raw/0113-f15887d109627dda504a223b304bb795a060fd7b5a42436dc958d8941edfdecc.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB1805",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1805/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:43.857122+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "c68e4c7bd0eb9f637ec9425c34cb8baa7e3fdde6ded0e0200e3a6fa479bc4218",
+      "bytes": 2052,
+      "raw_file": "raw/0114-c68e4c7bd0eb9f637ec9425c34cb8baa7e3fdde6ded0e0200e3a6fa479bc4218.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB1811",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1811/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:44.115725+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "6f26ec15a5f870fdf8b141f99e44b5d0c068cb9cb2624548c0e7f849b46861cd",
+      "bytes": 3032,
+      "raw_file": "raw/0115-6f26ec15a5f870fdf8b141f99e44b5d0c068cb9cb2624548c0e7f849b46861cd.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB1812",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1812/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:44.519905+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "c0243a6b189f90aaa50d9c1f28d84c308222eaab5c15c3e1a521cc75b6b47524",
+      "bytes": 3867,
+      "raw_file": "raw/0116-c0243a6b189f90aaa50d9c1f28d84c308222eaab5c15c3e1a521cc75b6b47524.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB1813",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1813/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:44.791547+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "671ca936181cfc39840315fa570f54764a96271dd38adf3a107005e1786ea342",
+      "bytes": 2124,
+      "raw_file": "raw/0117-671ca936181cfc39840315fa570f54764a96271dd38adf3a107005e1786ea342.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB1822",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1822/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:45.024218+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "4d5a89ba98623d50afb6613f5b830a6e84cce81e48b62f8d6dbc911ab7924be7",
+      "bytes": 4233,
+      "raw_file": "raw/0118-4d5a89ba98623d50afb6613f5b830a6e84cce81e48b62f8d6dbc911ab7924be7.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB1823",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1823/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:45.224187+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "f9fd7c79e3d7df2a25c599174949096fc30229d146bb589d102cf22fa2ff0da1",
+      "bytes": 17033,
+      "raw_file": "raw/0119-f9fd7c79e3d7df2a25c599174949096fc30229d146bb589d102cf22fa2ff0da1.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB1831",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1831/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:45.778590+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "fb3e61713b20fe9db0716dd7d5ea8245e1a673e1cb93260ca5b80ad33d5911a2",
+      "bytes": 3047,
+      "raw_file": "raw/0120-fb3e61713b20fe9db0716dd7d5ea8245e1a673e1cb93260ca5b80ad33d5911a2.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB1832",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1832/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:46.159185+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "d615bcac1222ec1d297d2c4e120b18f09a736c8c26d32474cabb8c273142a5aa",
+      "bytes": 9301,
+      "raw_file": "raw/0121-d615bcac1222ec1d297d2c4e120b18f09a736c8c26d32474cabb8c273142a5aa.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB1833",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1833/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:46.742532+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "366b52de2b7ff357fb6d781f88f43461d3ef6bccbbe57c8d8eaae9d76dac2a2b",
+      "bytes": 2070,
+      "raw_file": "raw/0122-366b52de2b7ff357fb6d781f88f43461d3ef6bccbbe57c8d8eaae9d76dac2a2b.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB1834",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1834/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:47.079731+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "0863abbd15b1200791286042f4e95faf06f5994a9a930a35402067ca376f9e4e",
+      "bytes": 3957,
+      "raw_file": "raw/0123-0863abbd15b1200791286042f4e95faf06f5994a9a930a35402067ca376f9e4e.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB1841",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1841/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:48.057939+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "b6f74036ed7b3248c85b9071685e88ece48d79127e0f32c82ab97cdd042c0924",
+      "bytes": 6780,
+      "raw_file": "raw/0124-b6f74036ed7b3248c85b9071685e88ece48d79127e0f32c82ab97cdd042c0924.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB1851",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1851/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:48.670018+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "6320be8a1fb96f21d9ba03e81d220d42f5b19d6f20bdc3e0ef7fd2000d149885",
+      "bytes": 4918,
+      "raw_file": "raw/0125-6320be8a1fb96f21d9ba03e81d220d42f5b19d6f20bdc3e0ef7fd2000d149885.response"
+    },
+    {
+      "surface": "vocabulary_children:srsc:SCB1852",
+      "endpoint": "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1852/children?page=0&size=100",
+      "method": "GET",
+      "captured_at": "2026-10-21T12:35:48.879704+00:00",
+      "http_status": 200,
+      "content_type": "application/hal+json;charset=UTF-8",
+      "sha256": "c76ac3498ca99bde6a35a7fac9124cce812d296296d8bf742f4bd9c395b91139",
+      "bytes": 4955,
+      "raw_file": "raw/0126-c76ac3498ca99bde6a35a7fac9124cce812d296296d8bf742f4bd9c395b91139.response"
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "Collection not selected; active membership is NOT_TESTED",
+    "INVALID_ACTIVE_DEFINITION_EVIDENCE",
+    "NO_ACTIVE_SUBMISSION_FORMS",
+    "UNOBSERVABLE_SURFACE:active_submission_definition",
+    "UNOBSERVABLE_SURFACE:active_submission_sections",
+    "UNOBSERVABLE_SURFACE:metadata_fields",
+    "UNOBSERVABLE_SURFACE:metadata_schemas",
+    "UNOBSERVABLE_SURFACE:submission_forms",
+    "UNRESOLVED_ACTIVE_DEFINITION",
+    "Administrative account privileges do not authorize any data mutation.",
+    "Global configured forms do not prove active collection membership."
+  ],
+  "status_counts": {
+    "PASS": 2,
+    "FAIL": 0,
+    "UNKNOWN": 3,
+    "NOT_TESTED": 1
+  }
+}

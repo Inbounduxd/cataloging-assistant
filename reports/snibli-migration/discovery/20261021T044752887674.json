@@ -1,0 +1,36 @@
+[
+  {
+    "requested_url": "https://www.iifl.unam.mx/SNIBLI/runtime.6e9781db428db3f5.js",
+    "captured_at": "2026-10-21T04:47:51.616535+00:00",
+    "endpoint": "https://www.iifl.unam.mx/SNIBLI/runtime.6e9781db428db3f5.js",
+    "redirects": [
+      {
+        "url": "https://www.iifl.unam.mx/SNIBLI/runtime.6e9781db428db3f5.js",
+        "status": 200
+      }
+    ],
+    "http_status": 200,
+    "content_type": "application/javascript; charset=UTF-8",
+    "sha256": "e125cfa161e1262c1b1fe79bea2848e4046179315457030833c7fe95d846cb0c",
+    "bytes": 7134,
+    "raw_file": "e125cfa161e1262c1b1fe79bea2848e4046179315457030833c7fe95d846cb0c.response",
+    "preview": "(()=>{\"use strict\";var e,g={},v={};function f(e){var c=v[e];if(void 0!==c)return c.exports;var a=v[e]={id:e,loaded:!1,exports:{}};return g[e].call(a.exports,a,a.exports,f),a.loaded=!0,a.exports}f.m=g,e=[],f.O=(c,a,b,r)=>{if(!a){var d=1/0;for(t=0;t<e.length;t++){for(var[a,b,r]=e[t],l=!0,n=0;n<a.length;n++)(!1&r||d>=r)&&Object.keys(f.O).every(p=>f.O[p](a[n]))?a.splice(n--,1):(l=!1,r<d&&(d=r));if(l){e.splice(t--,1);var i=b();void 0!==i&&(c=i)}}return c}r=r||0;for(var t=e.length;t>0&&e[t-1][2]>r;t--)e[t]=e[t-1];e[t]=[a,b,r]},f.n=e=>{var c=e&&e.__esModule?()=>e.default:()=>e;return f.d(c,{a:c}),c},(()=>{var c,e=Object.getPrototypeOf?a=>Object.getPrototypeOf(a):a=>a.__proto__;f.t=function(a,b){if(1&b&&(a=this(a)),8&b||\"object\"==typeof a&&a&&(4&b&&a.__esModule||16&b&&\"function\"==typeof a.then))return a;var r=Object.create(null);f.r(r);var t={};c=c||[null,e({}),e([]),e(e)];for(var d=2&b&&a;\"object\"==typeof d&&!~c.indexOf(d);d=e(d))Object.getOwnPropertyNames(d).forEach(l=>t[l]=()=>a[l]);return t.default=()=>a,f.d(r,t),r}})(),f.d=(e,c)=>{for(var a in c)f.o(c,a)&&!f.o(e,a)&&Object.defineProperty(e,a,{enumerable:!0,get:c[a]})},f.f={},f.e=e=>Promise.all(Object.keys(f.f).reduce((c,a)=>(f.f[a](e,c),c),[])),f.u=e=>(8592===e?\"common\":e)+\".\"+{1:\"7b3da578f9ce16c5\",31:\"e79670877291acfc\",74:\"997c19c65477e2fd\",89:\"c7c6337aca4f2d28\",106:\"e3ea2727d763e255\",183:\"6696ed2c0bbf8cb0\",189:\"165ee6d13d91bc8a\",194:\"8ce2a9a086e39d8f\",290:\"6ee9b7ca0dcd8ce2\",351:\"8afb064400517fb0\",386:\"c4b5274ffbe106e8\",438:\"66"
+  },
+  {
+    "requested_url": "https://www.iifl.unam.mx/SNIBLI/main.c6d5cfd5ea7ee9be.js",
+    "captured_at": "2026-10-21T04:47:51.895187+00:00",
+    "endpoint": "https://www.iifl.unam.mx/SNIBLI/main.c6d5cfd5ea7ee9be.js",
+    "redirects": [
+      {
+        "url": "https://www.iifl.unam.mx/SNIBLI/main.c6d5cfd5ea7ee9be.js",
+        "status": 200
+      }
+    ],
+    "http_status": 200,
+    "content_type": "application/javascript; charset=UTF-8",
+    "sha256": "33232f811cacf779533a775a1a96d1ee69309c2559e369c20c315b36962c6d1a",
+    "bytes": 2691001,
+    "raw_file": "33232f811cacf779533a775a1a96d1ee69309c2559e369c20c315b36962c6d1a.response",
+    "preview": "(self.webpackChunkdspace_angular=self.webpackChunkdspace_angular||[]).push([[179],{92414:(R,c,e)=>{\"use strict\";e.d(c,{EP:()=>d,EV:()=>p,b6:()=>i,fN:()=>a,sC:()=>o,y9:()=>r});var t=e(23631),n=e(50503);const o=\"epeople\";function i(){return new t.R((0,n.sr)(),o).toString()}function d(h){return new t.R(i(),h,\"edit\").toString()}const r=\"groups\";function a(){return new t.R((0,n.sr)(),r).toString()}function p(h){return new t.R(a(),h,\"edit\").toString()}},92513:(R,c,e)=>{\"use strict\";e.d(c,{y:()=>uo});var t=e(34793),n=e(61135),o=e(39841),i=e(63900),d=e(54004),r=e(95698),a=e(24789),p=e(45061),h=e(24702),g=e(46418),_=e(4177);class E{}var v=e(47235),M=e(19937),b=e(68285),C=e(18916),I=e(31241),O=e(62713),l=e(77467),D=e(83616),S=e(92414),m=e(94650),B=e(89383),L=e(24006),W=e(9769),z=e(36895),G=e(48106),ie=e(62697);function j(vt,_n){1&vt&&m.\\u0275\\u0275element(0,\"ds-themed-loading\")}const q=function(vt){return{name:vt}};function de(vt,_n){if(1&vt){const xe=m.\\u0275\\u0275getCurrentView();m.\\u0275\\u0275elementStart(0,\"button\",33),m.\\u0275\\u0275listener(\"click\",function(){m.\\u0275\\u0275restoreView(xe);const jt=m.\\u0275\\u0275nextContext().$implicit,bn=m.\\u0275\\u0275nextContext(2);return m.\\u0275\\u0275resetView(bn.deleteEPerson(jt.eperson))}),m.\\u0275\\u0275pipe(1,\"translate\"),m.\\u0275\\u0275element(2,\"i\",34),m.\\u0275\\u0275elementEnd()}if(2&vt){const xe=m.\\u0275\\u0275nextContext().$implicit,Ye=m.\\u0275\\u0275nextContext(2);m.\\u0275\\u0275propertyInterpolate(\"title\",m.\\u0275\\u0275pipeBind2(1,1,Ye.lab"
+  }
+]

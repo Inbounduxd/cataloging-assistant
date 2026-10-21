@@ -1,0 +1,177 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:VR184101",
+      "display" : "Family medicine",
+      "value" : "MEDICINE::Social medicine::Public health medicine research areas::Family medicine",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Social medicine::Public health medicine research areas",
+        "note" : "Allmänmedicin",
+        "hasChildren" : "false",
+        "id" : "VR184101"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR184101/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR184101/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR184101"
+        }
+      }
+    }, {
+      "id" : "srsc:VR184102",
+      "display" : "Occupational physiology",
+      "value" : "MEDICINE::Social medicine::Public health medicine research areas::Occupational physiology",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Social medicine::Public health medicine research areas",
+        "note" : "Arbetsfysiologi",
+        "hasChildren" : "false",
+        "id" : "VR184102"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR184102/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR184102/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR184102"
+        }
+      }
+    }, {
+      "id" : "srsc:VR184103",
+      "display" : "Epidemiology",
+      "value" : "MEDICINE::Social medicine::Public health medicine research areas::Epidemiology",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Social medicine::Public health medicine research areas",
+        "note" : "Epidemiologi",
+        "hasChildren" : "false",
+        "id" : "VR184103"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR184103/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR184103/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR184103"
+        }
+      }
+    }, {
+      "id" : "srsc:VR184104",
+      "display" : "Public health science",
+      "value" : "MEDICINE::Social medicine::Public health medicine research areas::Public health science",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Social medicine::Public health medicine research areas",
+        "note" : "Folkhälsovetenskap",
+        "hasChildren" : "false",
+        "id" : "VR184104"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR184104/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR184104/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR184104"
+        }
+      }
+    }, {
+      "id" : "srsc:VR184105",
+      "display" : "Environmental medicine",
+      "value" : "MEDICINE::Social medicine::Public health medicine research areas::Environmental medicine",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Social medicine::Public health medicine research areas",
+        "note" : "Miljömedicin",
+        "hasChildren" : "false",
+        "id" : "VR184105"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR184105/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR184105/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR184105"
+        }
+      }
+    }, {
+      "id" : "srsc:VR184106",
+      "display" : "Community medicine",
+      "value" : "MEDICINE::Social medicine::Public health medicine research areas::Community medicine",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Social medicine::Public health medicine research areas",
+        "note" : "Samhällsmedicin",
+        "hasChildren" : "false",
+        "id" : "VR184106"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR184106/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR184106/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR184106"
+        }
+      }
+    }, {
+      "id" : "srsc:VR184108",
+      "display" : "Occupational medicine",
+      "value" : "MEDICINE::Social medicine::Public health medicine research areas::Occupational medicine",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Social medicine::Public health medicine research areas",
+        "note" : "Yrkesmedicin",
+        "hasChildren" : "false",
+        "id" : "VR184108"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR184108/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR184108/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR184108"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 7
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1841/children?page=0&size=100"
+    }
+  }
+}

@@ -1,0 +1,302 @@
+{
+  "_embedded" : {
+    "entries" : [ {
+      "display" : "polaco",
+      "value" : "polaco",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "pastú (o pastún, o pashto)",
+      "value" : "pastú (o pastún, o pashto)",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "portugués",
+      "value" : "portugués",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "quechua",
+      "value" : "quechua",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "romanche",
+      "value" : "romanche",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "kirundi",
+      "value" : "kirundi",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "rumano",
+      "value" : "rumano",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "ruso",
+      "value" : "ruso",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "ruandés (o kiñaruanda)",
+      "value" : "ruandés (o kiñaruanda)",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "sánscrito",
+      "value" : "sánscrito",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "sardo",
+      "value" : "sardo",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "sindhi",
+      "value" : "sindhi",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "sami septentrional",
+      "value" : "sami septentrional",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "sango",
+      "value" : "sango",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "cingalés",
+      "value" : "cingalés",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "eslovaco",
+      "value" : "eslovaco",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "esloveno",
+      "value" : "esloveno",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "samoano",
+      "value" : "samoano",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "shona",
+      "value" : "shona",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "somalí",
+      "value" : "somalí",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "albanés",
+      "value" : "albanés",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "serbio",
+      "value" : "serbio",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "suazi (o swati, o siSwati)",
+      "value" : "suazi (o swati, o siSwati)",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "sesotho",
+      "value" : "sesotho",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "sundanés (o sondanés)",
+      "value" : "sundanés (o sondanés)",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "sueco",
+      "value" : "sueco",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "suajili",
+      "value" : "suajili",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "tamil",
+      "value" : "tamil",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "télugu",
+      "value" : "télugu",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "tayiko",
+      "value" : "tayiko",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "tailandés",
+      "value" : "tailandés",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "tigriña",
+      "value" : "tigriña",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "turcomano",
+      "value" : "turcomano",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "tagalo",
+      "value" : "tagalo",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "setsuana",
+      "value" : "setsuana",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "tongano",
+      "value" : "tongano",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "turco",
+      "value" : "turco",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "tsonga",
+      "value" : "tsonga",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "tártaro",
+      "value" : "tártaro",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "twi",
+      "value" : "twi",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "tahitiano",
+      "value" : "tahitiano",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "uigur",
+      "value" : "uigur",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "ucraniano",
+      "value" : "ucraniano",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "urdu",
+      "value" : "urdu",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "uzbeko",
+      "value" : "uzbeko",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "venda",
+      "value" : "venda",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "vietnamita",
+      "value" : "vietnamita",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "volapük",
+      "value" : "volapük",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "valón",
+      "value" : "valón",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "wolof",
+      "value" : "wolof",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "xhosa",
+      "value" : "xhosa",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "yídish (o yidis, o yiddish)",
+      "value" : "yídish (o yidis, o yiddish)",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "yoruba",
+      "value" : "yoruba",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "chuan (o chuang, o zhuang)",
+      "value" : "chuan (o chuang, o zhuang)",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "chino",
+      "value" : "chino",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "zulú",
+      "value" : "zulú",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    } ]
+  },
+  "page" : {
+    "number" : 2,
+    "size" : 100,
+    "totalPages" : 3,
+    "totalElements" : 256
+  },
+  "_links" : {
+    "prev" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularies/registeredLanguagePairs/entries?page=1&size=100"
+    },
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularies/registeredLanguagePairs/entries?page=2&size=100"
+    },
+    "first" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularies/registeredLanguagePairs/entries?page=0&size=100"
+    }
+  }
+}

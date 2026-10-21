@@ -1,0 +1,14 @@
+{
+  "goldenRecord": "GR14",
+  "recordId": null,
+  "title": "Locality labels are not automatically CLIN variants",
+  "status": "PILOT_ACCEPTED",
+  "purpose": "Semantic regression fixture derived from cataloguing-learning v3.5. Does not contain copyrighted full text.",
+  "expectedRules": [
+    "VARIANT_REQUIRES_AUTHORITY_RECONCILIATION",
+    "LOCALITY_TO_NOTES_WHEN_UNMATCHED"
+  ],
+  "mustNever": [
+    "Map Tumbalá, Zinacantán or Valles centrales directly to linguisticVariant without authority."
+  ]
+}

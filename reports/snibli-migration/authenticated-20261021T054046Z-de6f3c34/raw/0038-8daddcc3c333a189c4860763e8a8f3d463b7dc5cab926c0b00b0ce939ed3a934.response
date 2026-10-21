@@ -1,0 +1,46 @@
+{
+  "_embedded" : {
+    "entries" : [ {
+      "display" : "Preescolar (Básica)",
+      "value" : "Preescolar",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Primaria (Básica)",
+      "value" : "Primaria",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Secundaria (Media superior)",
+      "value" : "Secundaria",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Preparatoria (Media superior)",
+      "value" : "Preparatoria",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Universidad (Superior)",
+      "value" : "Universidad",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    }, {
+      "display" : "Postgrado (Superior)",
+      "value" : "Postgrado",
+      "otherInformation" : { },
+      "type" : "vocabularyEntry"
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 6
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularies/educationLevelPairs/entries?page=0&size=100"
+    }
+  }
+}

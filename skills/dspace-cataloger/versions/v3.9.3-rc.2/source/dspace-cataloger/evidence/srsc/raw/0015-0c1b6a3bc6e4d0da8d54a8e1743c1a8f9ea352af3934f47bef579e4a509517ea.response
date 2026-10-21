@@ -1,0 +1,131 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:SCB1111",
+      "display" : "Philosophy subjects",
+      "value" : "HUMANITIES and RELIGION::History and philosophy subjects::Philosophy subjects",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::History and philosophy subjects",
+        "note" : "Filosofiämnen",
+        "hasChildren" : "true",
+        "id" : "SCB1111"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1111/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1111/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1111"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1112",
+      "display" : "Archaeology subjects",
+      "value" : "HUMANITIES and RELIGION::History and philosophy subjects::Archaeology subjects",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::History and philosophy subjects",
+        "note" : "Arkeologiämnen",
+        "hasChildren" : "true",
+        "id" : "SCB1112"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1112/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1112/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1112"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1113",
+      "display" : "History subjects",
+      "value" : "HUMANITIES and RELIGION::History and philosophy subjects::History subjects",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::History and philosophy subjects",
+        "note" : "Historieämnen",
+        "hasChildren" : "true",
+        "id" : "SCB1113"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1113/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1113/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1113"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1114",
+      "display" : "Ethnology",
+      "value" : "HUMANITIES and RELIGION::History and philosophy subjects::Ethnology",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::History and philosophy subjects",
+        "note" : "Etnologi",
+        "hasChildren" : "true",
+        "id" : "SCB1114"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1114/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1114/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1114"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB1115",
+      "display" : "Historical cultures",
+      "value" : "HUMANITIES and RELIGION::History and philosophy subjects::Historical cultures",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::History and philosophy subjects",
+        "note" : "Historiska kulturer",
+        "hasChildren" : "true",
+        "id" : "SCB1115"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1115/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1115/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1115"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 5
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB111/children?page=0&size=100"
+    }
+  }
+}

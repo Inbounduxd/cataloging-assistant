@@ -14,7 +14,7 @@ from cataloging_api.cataloging_contract import (
 from cataloging_api.db.session import SessionFactory
 from cataloging_api.dspace.baseline_payload import _resolved_bindings, _resolved_sections
 from cataloging_api.dspace.contract_materialize import _load_pages_by_surface
-from cataloging_api.dspace.contract_resolution import EXPECTED_FORMS
+from cataloging_api.dspace.contract_resolution import EXPECTED_FORM_BINDING_COUNTS, EXPECTED_FORMS
 from cataloging_api.dspace.contract_snapshot_store import DSpaceContractSnapshot
 
 
@@ -60,7 +60,11 @@ def diagnose_bindings(bindings: list[dict[str, Any]]) -> dict[str, Any]:
         }
 
     for index, (binding, expected) in enumerate(zip(ordered, FIELDS, strict=True)):
-        expected_form = EXPECTED_FORMS[0] if index < 44 else EXPECTED_FORMS[1]
+        expected_form = (
+            EXPECTED_FORMS[0]
+            if index < EXPECTED_FORM_BINDING_COUNTS[EXPECTED_FORMS[0]]
+            else EXPECTED_FORMS[1]
+        )
         checks = (
             ("form", binding.get("form"), expected_form),
             ("metadata", binding.get("metadata"), expected.metadata_field),

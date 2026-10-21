@@ -1,0 +1,770 @@
+{
+  "authenticated": true,
+  "requests": 64,
+  "errors": [
+    {
+      "surface": "vocabulary_entries:srsc",
+      "code": "invalid_response",
+      "http_status": 422
+    }
+  ],
+  "warnings": [
+    "Collection not selected; active membership is NOT_TESTED"
+  ],
+  "snapshot_warnings": [
+    "INVALID_ACTIVE_DEFINITION_EVIDENCE",
+    "NO_ACTIVE_SUBMISSION_FORMS",
+    "UNOBSERVABLE_SURFACE:active_submission_definition",
+    "UNOBSERVABLE_SURFACE:active_submission_sections",
+    "UNRESOLVED_ACTIVE_DEFINITION"
+  ],
+  "configured_forms": {
+    "expected_count": 56,
+    "observed_count": 57,
+    "shared": 56,
+    "added": [
+      {
+        "form": "traditionalpageone",
+        "metadata": "dc.type.genre",
+        "position": [
+          0,
+          13,
+          0,
+          0
+        ],
+        "label": "¿Es un texto comparativo?",
+        "required": false,
+        "repeatable": false,
+        "inputType": "dropdown",
+        "controlledVocabulary": "genrePairs",
+        "closed": true
+      }
+    ],
+    "removed": [],
+    "change_counts": {
+      "position": 29
+    },
+    "changes": [
+      {
+        "binding": [
+          "traditionalpageone",
+          "dc.description.languageUsage",
+          0
+        ],
+        "dimension": "position",
+        "before": [
+          0,
+          16,
+          0,
+          0
+        ],
+        "after": [
+          0,
+          17,
+          0,
+          0
+        ]
+      },
+      {
+        "binding": [
+          "traditionalpageone",
+          "dc.description.registeredLanguage",
+          0
+        ],
+        "dimension": "position",
+        "before": [
+          0,
+          17,
+          0,
+          0
+        ],
+        "after": [
+          0,
+          18,
+          0,
+          0
+        ]
+      },
+      {
+        "binding": [
+          "traditionalpageone",
+          "dc.format.extent",
+          0
+        ],
+        "dimension": "position",
+        "before": [
+          0,
+          26,
+          0,
+          0
+        ],
+        "after": [
+          0,
+          27,
+          0,
+          0
+        ]
+      },
+      {
+        "binding": [
+          "traditionalpageone",
+          "dc.format.medium",
+          0
+        ],
+        "dimension": "position",
+        "before": [
+          0,
+          24,
+          0,
+          0
+        ],
+        "after": [
+          0,
+          25,
+          0,
+          0
+        ]
+      },
+      {
+        "binding": [
+          "traditionalpageone",
+          "dc.format.medium",
+          1
+        ],
+        "dimension": "position",
+        "before": [
+          0,
+          25,
+          0,
+          0
+        ],
+        "after": [
+          0,
+          26,
+          0,
+          0
+        ]
+      },
+      {
+        "binding": [
+          "traditionalpageone",
+          "dc.identifier.doi",
+          0
+        ],
+        "dimension": "position",
+        "before": [
+          0,
+          13,
+          0,
+          9
+        ],
+        "after": [
+          0,
+          14,
+          0,
+          9
+        ]
+      },
+      {
+        "binding": [
+          "traditionalpageone",
+          "dc.identifier.eisbn",
+          0
+        ],
+        "dimension": "position",
+        "before": [
+          0,
+          13,
+          0,
+          7
+        ],
+        "after": [
+          0,
+          14,
+          0,
+          7
+        ]
+      },
+      {
+        "binding": [
+          "traditionalpageone",
+          "dc.identifier.eissn",
+          0
+        ],
+        "dimension": "position",
+        "before": [
+          0,
+          13,
+          0,
+          6
+        ],
+        "after": [
+          0,
+          14,
+          0,
+          6
+        ]
+      },
+      {
+        "binding": [
+          "traditionalpageone",
+          "dc.identifier.govdoc",
+          0
+        ],
+        "dimension": "position",
+        "before": [
+          0,
+          13,
+          0,
+          3
+        ],
+        "after": [
+          0,
+          14,
+          0,
+          3
+        ]
+      },
+      {
+        "binding": [
+          "traditionalpageone",
+          "dc.identifier.handle",
+          0
+        ],
+        "dimension": "position",
+        "before": [
+          0,
+          13,
+          0,
+          8
+        ],
+        "after": [
+          0,
+          14,
+          0,
+          8
+        ]
+      },
+      {
+        "binding": [
+          "traditionalpageone",
+          "dc.identifier.isbn",
+          0
+        ],
+        "dimension": "position",
+        "before": [
+          0,
+          13,
+          0,
+          5
+        ],
+        "after": [
+          0,
+          14,
+          0,
+          5
+        ]
+      },
+      {
+        "binding": [
+          "traditionalpageone",
+          "dc.identifier.ismn",
+          0
+        ],
+        "dimension": "position",
+        "before": [
+          0,
+          13,
+          0,
+          2
+        ],
+        "after": [
+          0,
+          14,
+          0,
+          2
+        ]
+      },
+      {
+        "binding": [
+          "traditionalpageone",
+          "dc.identifier.issn",
+          0
+        ],
+        "dimension": "position",
+        "before": [
+          0,
+          13,
+          0,
+          0
+        ],
+        "after": [
+          0,
+          14,
+          0,
+          0
+        ]
+      },
+      {
+        "binding": [
+          "traditionalpageone",
+          "dc.identifier.other",
+          0
+        ],
+        "dimension": "position",
+        "before": [
+          0,
+          13,
+          0,
+          1
+        ],
+        "after": [
+          0,
+          14,
+          0,
+          1
+        ]
+      },
+      {
+        "binding": [
+          "traditionalpageone",
+          "dc.identifier.uri",
+          0
+        ],
+        "dimension": "position",
+        "before": [
+          0,
+          13,
+          0,
+          4
+        ],
+        "after": [
+          0,
+          14,
+          0,
+          4
+        ]
+      },
+      {
+        "binding": [
+          "traditionalpageone",
+          "dc.identifier.url",
+          0
+        ],
+        "dimension": "position",
+        "before": [
+          0,
+          31,
+          0,
+          0
+        ],
+        "after": [
+          0,
+          32,
+          0,
+          0
+        ]
+      },
+      {
+        "binding": [
+          "traditionalpageone",
+          "dc.language.iso6391",
+          0
+        ],
+        "dimension": "position",
+        "before": [
+          0,
+          23,
+          0,
+          0
+        ],
+        "after": [
+          0,
+          24,
+          0,
+          0
+        ]
+      },
+      {
+        "binding": [
+          "traditionalpageone",
+          "dc.rights",
+          0
+        ],
+        "dimension": "position",
+        "before": [
+          0,
+          27,
+          0,
+          0
+        ],
+        "after": [
+          0,
+          28,
+          0,
+          0
+        ]
+      },
+      {
+        "binding": [
+          "traditionalpageone",
+          "dc.rights.accessRights",
+          0
+        ],
+        "dimension": "position",
+        "before": [
+          0,
+          29,
+          0,
+          0
+        ],
+        "after": [
+          0,
+          30,
+          0,
+          0
+        ]
+      },
+      {
+        "binding": [
+          "traditionalpageone",
+          "dc.rights.license",
+          0
+        ],
+        "dimension": "position",
+        "before": [
+          0,
+          28,
+          0,
+          0
+        ],
+        "after": [
+          0,
+          29,
+          0,
+          0
+        ]
+      },
+      {
+        "binding": [
+          "traditionalpageone",
+          "dc.source",
+          0
+        ],
+        "dimension": "position",
+        "before": [
+          0,
+          14,
+          0,
+          0
+        ],
+        "after": [
+          0,
+          15,
+          0,
+          0
+        ]
+      },
+      {
+        "binding": [
+          "traditionalpageone",
+          "dc.source.physicalRepository",
+          0
+        ],
+        "dimension": "position",
+        "before": [
+          0,
+          30,
+          0,
+          0
+        ],
+        "after": [
+          0,
+          31,
+          0,
+          0
+        ]
+      },
+      {
+        "binding": [
+          "traditionalpageone",
+          "dc.subject.linguiscgroup",
+          0
+        ],
+        "dimension": "position",
+        "before": [
+          0,
+          18,
+          0,
+          0
+        ],
+        "after": [
+          0,
+          19,
+          0,
+          0
+        ]
+      },
+      {
+        "binding": [
+          "traditionalpageone",
+          "dc.subject.linguisticBranch",
+          0
+        ],
+        "dimension": "position",
+        "before": [
+          0,
+          20,
+          0,
+          0
+        ],
+        "after": [
+          0,
+          21,
+          0,
+          0
+        ]
+      },
+      {
+        "binding": [
+          "traditionalpageone",
+          "dc.subject.linguisticFamily",
+          0
+        ],
+        "dimension": "position",
+        "before": [
+          0,
+          19,
+          0,
+          0
+        ],
+        "after": [
+          0,
+          20,
+          0,
+          0
+        ]
+      },
+      {
+        "binding": [
+          "traditionalpageone",
+          "dc.subject.linguisticVariant",
+          0
+        ],
+        "dimension": "position",
+        "before": [
+          0,
+          21,
+          0,
+          0
+        ],
+        "after": [
+          0,
+          22,
+          0,
+          0
+        ]
+      },
+      {
+        "binding": [
+          "traditionalpageone",
+          "dc.subject.primaryClassification",
+          0
+        ],
+        "dimension": "position",
+        "before": [
+          0,
+          32,
+          0,
+          0
+        ],
+        "after": [
+          0,
+          33,
+          0,
+          0
+        ]
+      },
+      {
+        "binding": [
+          "traditionalpageone",
+          "dc.subject.selfDenomination",
+          0
+        ],
+        "dimension": "position",
+        "before": [
+          0,
+          22,
+          0,
+          0
+        ],
+        "after": [
+          0,
+          23,
+          0,
+          0
+        ]
+      },
+      {
+        "binding": [
+          "traditionalpageone",
+          "dc.type",
+          0
+        ],
+        "dimension": "position",
+        "before": [
+          0,
+          15,
+          0,
+          0
+        ],
+        "after": [
+          0,
+          16,
+          0,
+          0
+        ]
+      }
+    ]
+  },
+  "genre_registry": [
+    {
+      "id": 293,
+      "element": "type",
+      "qualifier": "genre",
+      "scopeNote": "Genero del recurso",
+      "type": "metadatafield",
+      "_links": {
+        "schema": {
+          "href": "https://www.iifl.unam.mx/server/api/core/metadatafields/293/schema"
+        },
+        "self": {
+          "href": "https://www.iifl.unam.mx/server/api/core/metadatafields/293"
+        }
+      },
+      "_embedded": {
+        "schema": {
+          "id": 1,
+          "prefix": "dc",
+          "namespace": "http://dublincore.org/documents/dcmi-terms/",
+          "type": "metadataschema",
+          "_links": {
+            "self": {
+              "href": "https://www.iifl.unam.mx/server/api/core/metadataschemas/1"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "vocabulary_statuses": [
+    [
+      "selfDenominationPairs",
+      "PASS"
+    ],
+    [
+      "linguisticFamilyPairs",
+      "PASS"
+    ],
+    [
+      "educationLevelPairs",
+      "PASS"
+    ],
+    [
+      "linguisticBranchPairs",
+      "PASS"
+    ],
+    [
+      "extentTypePairs",
+      "PASS"
+    ],
+    [
+      "languageUsagePairs",
+      "PASS"
+    ],
+    [
+      "common_types",
+      "FAIL"
+    ],
+    [
+      "accessRightsPairs",
+      "PASS"
+    ],
+    [
+      "iso6391Pairs",
+      "PASS"
+    ],
+    [
+      "linguiscgroupPairs",
+      "PASS"
+    ],
+    [
+      "openaire_types",
+      "PASS"
+    ],
+    [
+      "primaryClassificationPairs",
+      "PASS"
+    ],
+    [
+      "languageTargetPairs",
+      "PASS"
+    ],
+    [
+      "topicsPairs",
+      "PASS"
+    ],
+    [
+      "registeredLanguagePairs",
+      "PASS"
+    ],
+    [
+      "srsc",
+      "UNKNOWN"
+    ],
+    [
+      "openaire_organization_types",
+      "PASS"
+    ],
+    [
+      "mediumPairs",
+      "PASS"
+    ],
+    [
+      "licensePairs",
+      "PASS"
+    ],
+    [
+      "common_iso_languages",
+      "PASS"
+    ],
+    [
+      "openaire_version_types",
+      "PASS"
+    ]
+  ],
+  "vocabulary_diffs": [
+    {
+      "vocabulary": "common_types",
+      "expected_count": 23,
+      "observed_count": 26,
+      "added": [
+        [
+          "Códice",
+          1
+        ],
+        [
+          "Reseña",
+          1
+        ],
+        [
+          "Documento Colonial",
+          1
+        ]
+      ],
+      "removed": [],
+      "same_multiset": false
+    }
+  ],
+  "historical_pilot_matches": []
+}

@@ -1,0 +1,178 @@
+{
+  "_embedded" : {
+    "metadatafields" : [ {
+      "id" : 1,
+      "element" : "firstname",
+      "qualifier" : null,
+      "scopeNote" : null,
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/1/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/1"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 2,
+          "prefix" : "eperson",
+          "namespace" : "http://dspace.org/eperson",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/2"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 4,
+      "element" : "language",
+      "qualifier" : null,
+      "scopeNote" : null,
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/4/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/4"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 2,
+          "prefix" : "eperson",
+          "namespace" : "http://dspace.org/eperson",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/2"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 2,
+      "element" : "lastname",
+      "qualifier" : null,
+      "scopeNote" : null,
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/2/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/2"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 2,
+          "prefix" : "eperson",
+          "namespace" : "http://dspace.org/eperson",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/2"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 132,
+      "element" : "orcid",
+      "qualifier" : "scope",
+      "scopeNote" : "Metadata field used for the granted ORCID scopes",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/132/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/132"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 2,
+          "prefix" : "eperson",
+          "namespace" : "http://dspace.org/eperson",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/2"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 131,
+      "element" : "orcid",
+      "qualifier" : null,
+      "scopeNote" : "Metadata field used for the ORCID id",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/131/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/131"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 2,
+          "prefix" : "eperson",
+          "namespace" : "http://dspace.org/eperson",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/2"
+            }
+          }
+        }
+      }
+    }, {
+      "id" : 3,
+      "element" : "phone",
+      "qualifier" : null,
+      "scopeNote" : null,
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/3/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/3"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 2,
+          "prefix" : "eperson",
+          "namespace" : "http://dspace.org/eperson",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/2"
+            }
+          }
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/search/bySchema?page=0&size=100&schema=eperson"
+    }
+  },
+  "page" : {
+    "size" : 100,
+    "totalElements" : 6,
+    "totalPages" : 1,
+    "number" : 0
+  }
+}

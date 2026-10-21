@@ -1,0 +1,280 @@
+{
+  "_embedded" : {
+    "vocabularyEntryDetails" : [ {
+      "id" : "srsc:SCB11",
+      "display" : "HUMANITIES and RELIGION",
+      "value" : "HUMANITIES and RELIGION",
+      "otherInformation" : {
+        "note" : "HUMANIORA och RELIGIONSVETENSKAP",
+        "hasChildren" : "true",
+        "id" : "SCB11"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB11/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB11/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB11"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB12",
+      "display" : "LAW/JURISPRUDENCE",
+      "value" : "LAW/JURISPRUDENCE",
+      "otherInformation" : {
+        "note" : "RÄTTSVETENSKAP/JURIDIK",
+        "hasChildren" : "true",
+        "id" : "SCB12"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB12/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB12/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB12"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB13",
+      "display" : "SOCIAL SCIENCES",
+      "value" : "SOCIAL SCIENCES",
+      "otherInformation" : {
+        "note" : "SAMHÄLLSVETENSKAP",
+        "hasChildren" : "true",
+        "id" : "SCB13"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB13/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB13/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB13"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB14",
+      "display" : "MATHEMATICS",
+      "value" : "MATHEMATICS",
+      "otherInformation" : {
+        "note" : "MATEMATIK",
+        "hasChildren" : "true",
+        "id" : "SCB14"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB14/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB14/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB14"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB15",
+      "display" : "NATURAL SCIENCES",
+      "value" : "NATURAL SCIENCES",
+      "otherInformation" : {
+        "note" : "NATURVETENSKAP",
+        "hasChildren" : "true",
+        "id" : "SCB15"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB15/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB15/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB15"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB16",
+      "display" : "TECHNOLOGY",
+      "value" : "TECHNOLOGY",
+      "otherInformation" : {
+        "note" : "TEKNIKVETENSKAP",
+        "hasChildren" : "true",
+        "id" : "SCB16"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB16/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB16/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB16"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB17",
+      "display" : "FORESTRY, AGRICULTURAL SCIENCES and LANDSCAPE PLANNING",
+      "value" : "FORESTRY, AGRICULTURAL SCIENCES and LANDSCAPE PLANNING",
+      "otherInformation" : {
+        "note" : "SKOGS- och JORDBRUKSVETENSKAP samt LANDSKAPSPLANERING",
+        "hasChildren" : "true",
+        "id" : "SCB17"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB17/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB17/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB17"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB18",
+      "display" : "MEDICINE",
+      "value" : "MEDICINE",
+      "otherInformation" : {
+        "note" : "MEDICIN",
+        "hasChildren" : "true",
+        "id" : "SCB18"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB18/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB18/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB18"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB19",
+      "display" : "ODONTOLOGY",
+      "value" : "ODONTOLOGY",
+      "otherInformation" : {
+        "note" : "ODONTOLOGI",
+        "hasChildren" : "true",
+        "id" : "SCB19"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB19/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB19/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB19"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB21",
+      "display" : "PHARMACY",
+      "value" : "PHARMACY",
+      "otherInformation" : {
+        "note" : "FARMACI",
+        "hasChildren" : "true",
+        "id" : "SCB21"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB21/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB21/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB21"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB22",
+      "display" : "VETERINARY MEDICINE",
+      "value" : "VETERINARY MEDICINE",
+      "otherInformation" : {
+        "note" : "VETERINÄRMEDICIN",
+        "hasChildren" : "true",
+        "id" : "SCB22"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB22/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB22/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB22"
+        }
+      }
+    }, {
+      "id" : "srsc:SCB23",
+      "display" : "INTERDISCIPLINARY RESEARCH AREAS",
+      "value" : "INTERDISCIPLINARY RESEARCH AREAS",
+      "otherInformation" : {
+        "note" : "TVÄRVETENSKAPLIGA FORSKNINGSOMRÅDEN",
+        "hasChildren" : "true",
+        "id" : "SCB23"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB23/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB23/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB23"
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/search/top?page=0&size=100&vocabulary=srsc"
+    }
+  },
+  "page" : {
+    "size" : 100,
+    "totalElements" : 12,
+    "totalPages" : 1,
+    "number" : 0
+  }
+}

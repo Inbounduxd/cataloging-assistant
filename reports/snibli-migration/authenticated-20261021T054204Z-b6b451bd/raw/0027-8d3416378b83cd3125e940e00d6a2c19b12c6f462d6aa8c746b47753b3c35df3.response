@@ -1,0 +1,211 @@
+{
+  "_embedded" : {
+    "submissiondefinitions" : [ {
+      "id" : "traditional",
+      "name" : "traditional",
+      "type" : "submissiondefinition",
+      "isDefault" : true,
+      "_links" : {
+        "collections" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissiondefinitions/traditional/collections"
+        },
+        "sections" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissiondefinitions/traditional/sections"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissiondefinitions/traditional"
+        }
+      }
+    }, {
+      "id" : "Publication",
+      "name" : "Publication",
+      "type" : "submissiondefinition",
+      "isDefault" : false,
+      "_links" : {
+        "collections" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissiondefinitions/Publication/collections"
+        },
+        "sections" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissiondefinitions/Publication/sections"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissiondefinitions/Publication"
+        }
+      }
+    }, {
+      "id" : "Person",
+      "name" : "Person",
+      "type" : "submissiondefinition",
+      "isDefault" : false,
+      "_links" : {
+        "collections" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissiondefinitions/Person/collections"
+        },
+        "sections" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissiondefinitions/Person/sections"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissiondefinitions/Person"
+        }
+      }
+    }, {
+      "id" : "Project",
+      "name" : "Project",
+      "type" : "submissiondefinition",
+      "isDefault" : false,
+      "_links" : {
+        "collections" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissiondefinitions/Project/collections"
+        },
+        "sections" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissiondefinitions/Project/sections"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissiondefinitions/Project"
+        }
+      }
+    }, {
+      "id" : "OrgUnit",
+      "name" : "OrgUnit",
+      "type" : "submissiondefinition",
+      "isDefault" : false,
+      "_links" : {
+        "collections" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissiondefinitions/OrgUnit/collections"
+        },
+        "sections" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissiondefinitions/OrgUnit/sections"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissiondefinitions/OrgUnit"
+        }
+      }
+    }, {
+      "id" : "Journal",
+      "name" : "Journal",
+      "type" : "submissiondefinition",
+      "isDefault" : false,
+      "_links" : {
+        "collections" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissiondefinitions/Journal/collections"
+        },
+        "sections" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissiondefinitions/Journal/sections"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissiondefinitions/Journal"
+        }
+      }
+    }, {
+      "id" : "JournalVolume",
+      "name" : "JournalVolume",
+      "type" : "submissiondefinition",
+      "isDefault" : false,
+      "_links" : {
+        "collections" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissiondefinitions/JournalVolume/collections"
+        },
+        "sections" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissiondefinitions/JournalVolume/sections"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissiondefinitions/JournalVolume"
+        }
+      }
+    }, {
+      "id" : "JournalIssue",
+      "name" : "JournalIssue",
+      "type" : "submissiondefinition",
+      "isDefault" : false,
+      "_links" : {
+        "collections" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissiondefinitions/JournalIssue/collections"
+        },
+        "sections" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissiondefinitions/JournalIssue/sections"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissiondefinitions/JournalIssue"
+        }
+      }
+    }, {
+      "id" : "openAIREPublicationSubmission",
+      "name" : "openAIREPublicationSubmission",
+      "type" : "submissiondefinition",
+      "isDefault" : false,
+      "_links" : {
+        "collections" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissiondefinitions/openAIREPublicationSubmission/collections"
+        },
+        "sections" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissiondefinitions/openAIREPublicationSubmission/sections"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissiondefinitions/openAIREPublicationSubmission"
+        }
+      }
+    }, {
+      "id" : "openAIREPersonSubmission",
+      "name" : "openAIREPersonSubmission",
+      "type" : "submissiondefinition",
+      "isDefault" : false,
+      "_links" : {
+        "collections" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissiondefinitions/openAIREPersonSubmission/collections"
+        },
+        "sections" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissiondefinitions/openAIREPersonSubmission/sections"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissiondefinitions/openAIREPersonSubmission"
+        }
+      }
+    }, {
+      "id" : "openAIREProjectSubmission",
+      "name" : "openAIREProjectSubmission",
+      "type" : "submissiondefinition",
+      "isDefault" : false,
+      "_links" : {
+        "collections" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissiondefinitions/openAIREProjectSubmission/collections"
+        },
+        "sections" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissiondefinitions/openAIREProjectSubmission/sections"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissiondefinitions/openAIREProjectSubmission"
+        }
+      }
+    }, {
+      "id" : "openAIREOrganizationSubmission",
+      "name" : "openAIREOrganizationSubmission",
+      "type" : "submissiondefinition",
+      "isDefault" : false,
+      "_links" : {
+        "collections" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissiondefinitions/openAIREOrganizationSubmission/collections"
+        },
+        "sections" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissiondefinitions/openAIREOrganizationSubmission/sections"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/config/submissiondefinitions/openAIREOrganizationSubmission"
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/config/submissiondefinitions?page=0&size=100"
+    },
+    "search" : {
+      "href" : "https://www.iifl.unam.mx/server/api/config/submissiondefinitions/search"
+    }
+  },
+  "page" : {
+    "size" : 100,
+    "totalElements" : 12,
+    "totalPages" : 1,
+    "number" : 0
+  }
+}

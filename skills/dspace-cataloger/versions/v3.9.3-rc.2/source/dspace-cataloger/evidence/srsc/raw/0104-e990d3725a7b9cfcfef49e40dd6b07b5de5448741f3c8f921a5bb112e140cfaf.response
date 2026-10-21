@@ -1,0 +1,108 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:VR160301",
+      "display" : "Telecommunication theory",
+      "value" : "TECHNOLOGY::Information technology::Telecommunication::Telecommunication theory",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY::Information technology::Telecommunication",
+        "note" : "Telekommunikationsteori",
+        "hasChildren" : "false",
+        "id" : "VR160301"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR160301/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR160301/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR160301"
+        }
+      }
+    }, {
+      "id" : "srsc:VR160302",
+      "display" : "Teletransmission theory",
+      "value" : "TECHNOLOGY::Information technology::Telecommunication::Teletransmission theory",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY::Information technology::Telecommunication",
+        "note" : "Teletransmissionsteori",
+        "hasChildren" : "false",
+        "id" : "VR160302"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR160302/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR160302/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR160302"
+        }
+      }
+    }, {
+      "id" : "srsc:VR160303",
+      "display" : "Teletraffic systems",
+      "value" : "TECHNOLOGY::Information technology::Telecommunication::Teletraffic systems",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY::Information technology::Telecommunication",
+        "note" : "Teletrafiksystem",
+        "hasChildren" : "false",
+        "id" : "VR160303"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR160303/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR160303/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR160303"
+        }
+      }
+    }, {
+      "id" : "srsc:VR160304",
+      "display" : "Datatransmission",
+      "value" : "TECHNOLOGY::Information technology::Telecommunication::Datatransmission",
+      "otherInformation" : {
+        "parent" : "TECHNOLOGY::Information technology::Telecommunication",
+        "note" : "Datatransmission",
+        "hasChildren" : "false",
+        "id" : "VR160304"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR160304/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR160304/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR160304"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 4
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1603/children?page=0&size=100"
+    }
+  }
+}

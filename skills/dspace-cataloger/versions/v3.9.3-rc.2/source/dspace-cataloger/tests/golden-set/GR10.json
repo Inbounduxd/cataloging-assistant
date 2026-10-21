@@ -1,0 +1,19 @@
+{
+  "goldenRecord": "GR10",
+  "recordId": 21456,
+  "title": "The position of Set B markers in Proto-Mayan",
+  "status": "PILOT_ACCEPTED",
+  "purpose": "Semantic regression fixture. Does not contain full copyrighted source text.",
+  "expectedRules": [
+    "MISSING_URL_BIBLIOGRAPHIC_DISCOVERY",
+    "VOLUME_NOT_ISSUE",
+    "PROTO_LANGUAGE_VOCABULARY_GAP",
+    "PARALLEL_ABSTRACT_NOT_BILINGUAL",
+    "HISTORICAL_LINGUISTICS_NOT_HISTORIOGRAPHY"
+  ],
+  "mustNever": [
+    "Map volume 10 to dc.identifier.issue.",
+    "Infer Bilingüe solely from parallel title/abstract.",
+    "Declare FULLTEXT_UNAVAILABLE before bibliographic discovery is attempted."
+  ]
+}

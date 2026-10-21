@@ -1,0 +1,39 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:SCB1841",
+      "display" : "Public health medicine research areas",
+      "value" : "MEDICINE::Social medicine::Public health medicine research areas",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Social medicine",
+        "note" : "Folkhälsomedicinska forskningsområden",
+        "hasChildren" : "true",
+        "id" : "SCB1841"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1841/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1841/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1841"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 1
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB184/children?page=0&size=100"
+    }
+  }
+}

@@ -1,17 +1,28 @@
 import uuid
-from unittest.mock import AsyncMock
+from unittest.mock import AsyncMock, MagicMock
 
 import pytest
+from sqlalchemy.ext.asyncio import AsyncSession
 
 from cataloging_api.dspace import contract_sync_core
 from cataloging_api.dspace.client import DSpaceError, HalCollectionPage
-from cataloging_api.dspace.contract_store import DSpaceContractSyncRun
+from cataloging_api.dspace.contract_store import DSpaceContractRawPage, DSpaceContractSyncRun
 
 ENDPOINT = "/core/metadatafields"
 
 
+def _session_with_last_page(last_page: DSpaceContractRawPage | None) -> AsyncMock:
+    session = AsyncMock(spec=AsyncSession)
+    result = MagicMock()
+    result.scalar_one_or_none.return_value = last_page
+    session.execute.return_value = result
+    return session
+
+
 @pytest.mark.asyncio
-async def test_collect_surface_resumes_from_confirmed_checkpoint(monkeypatch: pytest.MonkeyPatch) -> None:
+async def test_collect_surface_resumes_from_confirmed_checkpoint(
+    monkeypatch: pytest.MonkeyPatch,
+) -> None:
     run = DSpaceContractSyncRun(
         run_id=uuid.uuid4(),
         collector_version="vertical-022/1",
@@ -20,7 +31,9 @@ async def test_collect_surface_resumes_from_confirmed_checkpoint(monkeypatch: py
         pages_completed=2,
         raw_payload_hashes=[],
     )
-    session = AsyncMock()
+    session = _session_with_last_page(
+        DSpaceContractRawPage(page_number=1, raw_payload={"page": {"number": 1, "totalPages": 3}})
+    )
     requested_pages: list[int] = []
 
     async def loader(*, page: int, size: int) -> HalCollectionPage:
@@ -72,7 +85,7 @@ async def test_collect_surface_commits_each_page_before_requesting_next(
         pages_completed=0,
         raw_payload_hashes=[],
     )
-    session = AsyncMock()
+    session = _session_with_last_page(None)
     events: list[str] = []
 
     async def loader(*, page: int, size: int) -> HalCollectionPage:
@@ -128,7 +141,9 @@ async def test_collect_surface_rejects_mismatched_response_page(
         pages_completed=1,
         raw_payload_hashes=[],
     )
-    session = AsyncMock()
+    session = _session_with_last_page(
+        DSpaceContractRawPage(page_number=0, raw_payload={"page": {"number": 0, "totalPages": 2}})
+    )
 
     async def loader(*, page: int, size: int) -> HalCollectionPage:
         assert page == 1
@@ -154,5 +169,30 @@ async def test_collect_surface_rejects_mismatched_response_page(
         )
 
     assert exc_info.value.code == "invalid_hal"
+    persist.assert_not_awaited()
+    session.commit.assert_not_awaited()
+
+
+@pytest.mark.asyncio
+async def test_completed_checkpoint_skips_loader_and_persistence(monkeypatch) -> None:
+    run = DSpaceContractSyncRun(
+        run_id=uuid.uuid4(),
+        checkpoints={"metadata_fields": 3},
+    )
+    session = _session_with_last_page(
+        DSpaceContractRawPage(page_number=2, raw_payload={"page": {"number": 2, "totalPages": 3}})
+    )
+    loader = AsyncMock()
+    persist = AsyncMock()
+    monkeypatch.setattr(contract_sync_core, "persist_page_and_advance_checkpoint", persist)
+    await contract_sync_core._collect_surface(
+        session,
+        run=run,
+        surface="metadata_fields",
+        endpoint=ENDPOINT,
+        loader=loader,
+        page_size=100,
+    )
+    loader.assert_not_awaited()
     persist.assert_not_awaited()
     session.commit.assert_not_awaited()

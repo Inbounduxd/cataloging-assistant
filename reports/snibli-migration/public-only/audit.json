@@ -1,0 +1,170 @@
+{
+  "captured_at": "2026-10-21T03:32:24.906185+00:00",
+  "configuration": {
+    "public_url": "https://www.iifl.unam.mx/SNIBLI/home",
+    "api_base": null,
+    "timeout": 5.0,
+    "offline": false,
+    "credentials_used": false,
+    "max_response_bytes": 4194304,
+    "max_requests_per_endpoint": 4,
+    "baseline_supplied": false,
+    "observed_supplied": false
+  },
+  "coverage": "LOCAL_AND_PUBLIC_PARTIAL",
+  "results": [
+    {
+      "check": "release_v3.9.2_integrity",
+      "status": "PASS",
+      "detail": {
+        "sha256": "b6c435a28f8bb1a8faab237258161edf0233b2ce3608ff4e025a8ae2a11acede",
+        "bytes": 118470,
+        "files": 86,
+        "json_files": 36
+      }
+    },
+    {
+      "check": "local_master_contract",
+      "status": "PASS",
+      "detail": {
+        "bindings": 56,
+        "unique_metadata_keys": 54,
+        "contract_version": "dspace-cataloger-v3.9.1"
+      }
+    },
+    {
+      "check": "local_governance",
+      "status": "PASS",
+      "detail": {
+        "draftable_fields": [
+          "dc.description.registeredLanguage",
+          "dc.subject.linguiscgroup",
+          "dc.subject.linguisticFamily",
+          "dc.subject.linguisticBranch",
+          "dc.subject.linguisticVariant"
+        ],
+        "controlled_fields": [
+          "dc.description.registeredLanguage",
+          "dc.subject.linguiscgroup",
+          "dc.subject.linguisticFamily",
+          "dc.subject.linguisticBranch",
+          "dc.subject.linguisticVariant"
+        ],
+        "profile_fields": [
+          "dc.description.registeredLanguage",
+          "dc.subject.linguiscgroup",
+          "dc.subject.linguisticFamily",
+          "dc.subject.linguisticBranch",
+          "dc.subject.linguisticVariant"
+        ],
+        "profile_relationships": [
+          [
+            "dc.subject.linguisticFamily",
+            "dc.subject.linguiscgroup"
+          ],
+          [
+            "dc.subject.linguiscgroup",
+            "dc.subject.linguisticVariant"
+          ],
+          [
+            "dc.subject.linguisticFamily",
+            "dc.subject.linguisticBranch"
+          ],
+          [
+            "dc.subject.linguisticBranch",
+            "dc.subject.linguiscgroup"
+          ]
+        ],
+        "clin_relationships": [
+          [
+            "dc.subject.linguisticFamily",
+            "dc.subject.linguiscgroup"
+          ],
+          [
+            "dc.subject.linguiscgroup",
+            "dc.subject.linguisticVariant"
+          ]
+        ],
+        "branch_is_optional_enrichment": true,
+        "registered_language_is_independent": true,
+        "dspace_write_enabled": false,
+        "human_approval_required": true
+      }
+    },
+    {
+      "check": "local_language_separation",
+      "status": "PASS",
+      "detail": "Local contract only; no live semantic equivalence asserted"
+    },
+    {
+      "check": "api_hal",
+      "status": "NOT_TESTED",
+      "detail": "API base not supplied; no route inferred"
+    },
+    {
+      "check": "public_url",
+      "status": "PASS",
+      "detail": "Public HTTP reachability only"
+    },
+    {
+      "check": "instance_identity",
+      "status": "UNKNOWN",
+      "detail": "UUID/handle alone cannot prove database identity"
+    },
+    {
+      "check": "vertical_022_comparison",
+      "status": "NOT_TESTED",
+      "detail": "Supply --baseline and --observed raw exports; no database job executed"
+    },
+    {
+      "check": "live_56_bindings_54_keys",
+      "status": "NOT_TESTED",
+      "detail": "Requires dedicated contract/semantic evidence; public HAL is insufficient"
+    },
+    {
+      "check": "live_form_order_labels_controls",
+      "status": "NOT_TESTED",
+      "detail": "Requires dedicated contract/semantic evidence; public HAL is insufficient"
+    },
+    {
+      "check": "live_vocabulary_values",
+      "status": "NOT_TESTED",
+      "detail": "Requires dedicated contract/semantic evidence; public HAL is insufficient"
+    },
+    {
+      "check": "live_language_rules",
+      "status": "NOT_TESTED",
+      "detail": "Requires dedicated contract/semantic evidence; public HAL is insufficient"
+    },
+    {
+      "check": "golden_GR01_GR23",
+      "status": "NOT_TESTED",
+      "detail": "Requires dedicated contract/semantic evidence; public HAL is insufficient"
+    }
+  ],
+  "endpoints": [
+    {
+      "endpoint": "https://www.iifl.unam.mx/SNIBLI/home",
+      "redirects": [
+        {
+          "url": "https://www.iifl.unam.mx/SNIBLI/home",
+          "status": 200
+        }
+      ],
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "body_sha256": "50f06e29dcdfacb388dd744bc904911c0457316be2d8843fdc51b92b88173e0c"
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "No full migration equivalence established.",
+    "Executable contract declares dspace-cataloger-v3.9.1; current preserved release is v3.9.2. Review version alignment separately."
+  ],
+  "status_counts": {
+    "PASS": 5,
+    "FAIL": 0,
+    "UNKNOWN": 1,
+    "NOT_TESTED": 7
+  }
+}

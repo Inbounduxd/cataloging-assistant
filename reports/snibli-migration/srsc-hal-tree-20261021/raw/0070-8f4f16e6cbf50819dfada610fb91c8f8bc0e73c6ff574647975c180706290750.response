@@ -1,0 +1,154 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:VR113901",
+      "display" : "Linguistics",
+      "value" : "HUMANITIES and RELIGION::Languages and linguistics::Linguistic subjects::Linguistics",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::Languages and linguistics::Linguistic subjects",
+        "note" : "Lingvistik",
+        "hasChildren" : "false",
+        "id" : "VR113901"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113901/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113901/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113901"
+        }
+      }
+    }, {
+      "id" : "srsc:VR113902",
+      "display" : "Phonetics",
+      "value" : "HUMANITIES and RELIGION::Languages and linguistics::Linguistic subjects::Phonetics",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::Languages and linguistics::Linguistic subjects",
+        "note" : "Fonetik",
+        "hasChildren" : "false",
+        "id" : "VR113902"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113902/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113902/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113902"
+        }
+      }
+    }, {
+      "id" : "srsc:VR113903",
+      "display" : "Children's language",
+      "value" : "HUMANITIES and RELIGION::Languages and linguistics::Linguistic subjects::Children's language",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::Languages and linguistics::Linguistic subjects",
+        "note" : "Barnspråk",
+        "hasChildren" : "false",
+        "id" : "VR113903"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113903/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113903/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113903"
+        }
+      }
+    }, {
+      "id" : "srsc:VR113904",
+      "display" : "Bilingualism",
+      "value" : "HUMANITIES and RELIGION::Languages and linguistics::Linguistic subjects::Bilingualism",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::Languages and linguistics::Linguistic subjects",
+        "note" : "Tvåspråkighet",
+        "hasChildren" : "false",
+        "id" : "VR113904"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113904/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113904/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113904"
+        }
+      }
+    }, {
+      "id" : "srsc:VR113905",
+      "display" : "Language technology",
+      "value" : "HUMANITIES and RELIGION::Languages and linguistics::Linguistic subjects::Language technology",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::Languages and linguistics::Linguistic subjects",
+        "note" : "Språkteknologi",
+        "hasChildren" : "false",
+        "id" : "VR113905"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113905/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113905/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113905"
+        }
+      }
+    }, {
+      "id" : "srsc:VR113906",
+      "display" : "Computational linguistics",
+      "value" : "HUMANITIES and RELIGION::Languages and linguistics::Linguistic subjects::Computational linguistics",
+      "otherInformation" : {
+        "parent" : "HUMANITIES and RELIGION::Languages and linguistics::Linguistic subjects",
+        "note" : "Datorlingvistik",
+        "hasChildren" : "false",
+        "id" : "VR113906"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113906/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113906/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR113906"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 6
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1139/children?page=0&size=100"
+    }
+  }
+}

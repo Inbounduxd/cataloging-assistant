@@ -1,0 +1,43 @@
+{
+  "_embedded" : {
+    "metadatafields" : [ {
+      "id" : 221,
+      "element" : "issueNumber",
+      "qualifier" : null,
+      "scopeNote" : "Identifies the issue of publication; for example, \"iii\" or \"2\".",
+      "type" : "metadatafield",
+      "_links" : {
+        "schema" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/221/schema"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/221"
+        }
+      },
+      "_embedded" : {
+        "schema" : {
+          "id" : 13,
+          "prefix" : "publicationissue",
+          "namespace" : "https://schema.org/PublicationIssue",
+          "type" : "metadataschema",
+          "_links" : {
+            "self" : {
+              "href" : "https://www.iifl.unam.mx/server/api/core/metadataschemas/13"
+            }
+          }
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/core/metadatafields/search/bySchema?page=0&size=100&schema=publicationissue"
+    }
+  },
+  "page" : {
+    "size" : 100,
+    "totalElements" : 1,
+    "totalPages" : 1,
+    "number" : 0
+  }
+}

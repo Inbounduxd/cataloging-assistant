@@ -1,0 +1,131 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:VR185201",
+      "display" : "Bacteriology",
+      "value" : "MEDICINE::Microbiology, immunology, infectious diseases::Microbiology::Bacteriology",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Microbiology, immunology, infectious diseases::Microbiology",
+        "note" : "Bakteriologi",
+        "hasChildren" : "false",
+        "id" : "VR185201"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR185201/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR185201/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR185201"
+        }
+      }
+    }, {
+      "id" : "srsc:VR185202",
+      "display" : "Clinical bacteriology",
+      "value" : "MEDICINE::Microbiology, immunology, infectious diseases::Microbiology::Clinical bacteriology",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Microbiology, immunology, infectious diseases::Microbiology",
+        "note" : "Klinisk bakteriologi",
+        "hasChildren" : "false",
+        "id" : "VR185202"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR185202/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR185202/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR185202"
+        }
+      }
+    }, {
+      "id" : "srsc:VR185203",
+      "display" : "Clinical virology",
+      "value" : "MEDICINE::Microbiology, immunology, infectious diseases::Microbiology::Clinical virology",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Microbiology, immunology, infectious diseases::Microbiology",
+        "note" : "Klinisk virologi",
+        "hasChildren" : "false",
+        "id" : "VR185203"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR185203/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR185203/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR185203"
+        }
+      }
+    }, {
+      "id" : "srsc:VR185204",
+      "display" : "Medical microbiology",
+      "value" : "MEDICINE::Microbiology, immunology, infectious diseases::Microbiology::Medical microbiology",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Microbiology, immunology, infectious diseases::Microbiology",
+        "note" : "Medicinsk mikrobiologi",
+        "hasChildren" : "false",
+        "id" : "VR185204"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR185204/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR185204/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR185204"
+        }
+      }
+    }, {
+      "id" : "srsc:VR185205",
+      "display" : "Virology",
+      "value" : "MEDICINE::Microbiology, immunology, infectious diseases::Microbiology::Virology",
+      "otherInformation" : {
+        "parent" : "MEDICINE::Microbiology, immunology, infectious diseases::Microbiology",
+        "note" : "Virologi",
+        "hasChildren" : "false",
+        "id" : "VR185205"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR185205/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR185205/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR185205"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 5
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1852/children?page=0&size=100"
+    }
+  }
+}

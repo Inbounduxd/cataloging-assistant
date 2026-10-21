@@ -1,0 +1,223 @@
+{
+  "_embedded" : {
+    "children" : [ {
+      "id" : "srsc:VR120502",
+      "display" : "Contract law",
+      "value" : "LAW/JURISPRUDENCE::Private law::Contract law",
+      "otherInformation" : {
+        "parent" : "LAW/JURISPRUDENCE::Private law",
+        "note" : "Allmän avtalsrätt",
+        "hasChildren" : "false",
+        "id" : "VR120502"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR120502/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR120502/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR120502"
+        }
+      }
+    }, {
+      "id" : "srsc:VR120503",
+      "display" : "Labour law",
+      "value" : "LAW/JURISPRUDENCE::Private law::Labour law",
+      "otherInformation" : {
+        "parent" : "LAW/JURISPRUDENCE::Private law",
+        "note" : "Arbetsrätt",
+        "hasChildren" : "false",
+        "id" : "VR120503"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR120503/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR120503/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR120503"
+        }
+      }
+    }, {
+      "id" : "srsc:VR120504",
+      "display" : "Commercial and company law",
+      "value" : "LAW/JURISPRUDENCE::Private law::Commercial and company law",
+      "otherInformation" : {
+        "parent" : "LAW/JURISPRUDENCE::Private law",
+        "note" : "Affärsrätt",
+        "hasChildren" : "false",
+        "id" : "VR120504"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR120504/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR120504/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR120504"
+        }
+      }
+    }, {
+      "id" : "srsc:VR120505",
+      "display" : "Company law",
+      "value" : "LAW/JURISPRUDENCE::Private law::Company law",
+      "otherInformation" : {
+        "parent" : "LAW/JURISPRUDENCE::Private law",
+        "note" : "Bolagsrätt",
+        "hasChildren" : "false",
+        "id" : "VR120505"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR120505/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR120505/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR120505"
+        }
+      }
+    }, {
+      "id" : "srsc:VR120506",
+      "display" : "Insurance law",
+      "value" : "LAW/JURISPRUDENCE::Private law::Insurance law",
+      "otherInformation" : {
+        "parent" : "LAW/JURISPRUDENCE::Private law",
+        "note" : "Försäkringsrätt",
+        "hasChildren" : "false",
+        "id" : "VR120506"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR120506/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR120506/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR120506"
+        }
+      }
+    }, {
+      "id" : "srsc:VR120507",
+      "display" : "Intellectual property law",
+      "value" : "LAW/JURISPRUDENCE::Private law::Intellectual property law",
+      "otherInformation" : {
+        "parent" : "LAW/JURISPRUDENCE::Private law",
+        "note" : "Immaterialrätt",
+        "hasChildren" : "false",
+        "id" : "VR120507"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR120507/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR120507/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR120507"
+        }
+      }
+    }, {
+      "id" : "srsc:VR120508",
+      "display" : "Property and real estate law",
+      "value" : "LAW/JURISPRUDENCE::Private law::Property and real estate law",
+      "otherInformation" : {
+        "parent" : "LAW/JURISPRUDENCE::Private law",
+        "note" : "Sakrätt",
+        "hasChildren" : "false",
+        "id" : "VR120508"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR120508/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR120508/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR120508"
+        }
+      }
+    }, {
+      "id" : "srsc:VR120509",
+      "display" : "Tort law",
+      "value" : "LAW/JURISPRUDENCE::Private law::Tort law",
+      "otherInformation" : {
+        "parent" : "LAW/JURISPRUDENCE::Private law",
+        "note" : "Skadeståndsrätt",
+        "hasChildren" : "false",
+        "id" : "VR120509"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR120509/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR120509/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR120509"
+        }
+      }
+    }, {
+      "id" : "srsc:VR120510",
+      "display" : "Contract law",
+      "value" : "LAW/JURISPRUDENCE::Private law::Contract law",
+      "otherInformation" : {
+        "parent" : "LAW/JURISPRUDENCE::Private law",
+        "note" : "Speciell avtalsrätt",
+        "hasChildren" : "false",
+        "id" : "VR120510"
+      },
+      "selectable" : true,
+      "type" : "vocabularyEntryDetail",
+      "_links" : {
+        "parent" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR120510/parent"
+        },
+        "children" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR120510/children"
+        },
+        "self" : {
+          "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:VR120510"
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 100,
+    "totalPages" : 1,
+    "totalElements" : 9
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.iifl.unam.mx/server/api/submission/vocabularyEntryDetails/srsc:SCB1205/children?page=0&size=100"
+    }
+  }
+}
